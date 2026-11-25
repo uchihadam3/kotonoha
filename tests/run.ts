@@ -4,7 +4,7 @@ import { toRomaji, romajiToKana, nameToKatakana, normalizeKana, toKatakana } fro
 import { conjugate } from '../src/lang/conjugate';
 import { newItem, answer, LEARNED_STAGE, INTERVALS, packItem, unpackItem } from '../src/lang/srs';
 import { newSave, validate } from '../src/core/save';
-import { REGIONS, THEME_NAMES } from '../src/data/regions';
+import { REGIONS, THEME_NAMES, LEVEL_UNLOCK } from '../src/data/regions';
 import { CONVOS } from '../src/data/convos';
 import { readFileSync, readdirSync } from 'node:fs';
 
@@ -126,6 +126,16 @@ eq('いらっしゃる masu', form('いらっしゃる', 'いらっしゃる', '
     }
   }
   ok('regions ordered by requirement', REGIONS.every((r, i) => i === 0 || r.req >= REGIONS[i - 1].req));
+
+  // the whole journey can be finished with words alone: at every unlock step there are enough words to reach the next
+  const words = wj.rows.map((r) => ({ n: Number(r[4]), t: String(r[5]) }));
+  const floorAt = (L: number) => [4, 3, 2, 1].reduce((f, lv) => (L >= LEVEL_UNLOCK[lv] ? lv : f), 5);
+  const avail = (L: number) => {
+    const th = new Set(REGIONS.filter((r) => r.req <= L).flatMap((r) => r.themes));
+    return words.filter((w) => th.has(w.t) && w.n >= floorAt(L)).length;
+  };
+  const steps = [...new Set([0, ...REGIONS.map((r) => r.req), ...Object.values(LEVEL_UNLOCK), 10000])].sort((a, b) => a - b);
+  for (let i = 0; i < steps.length - 1; i++) ok(`from ${steps[i]} leaves you can reach ${steps[i + 1]}`, avail(steps[i]) >= steps[i + 1]);
 }
 
 console.log(`\n${pass} passed, ${fail} failed`);

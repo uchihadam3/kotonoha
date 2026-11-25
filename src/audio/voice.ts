@@ -128,7 +128,11 @@ class Voice {
 
   // ───────────────────────── speech recognition ─────────────────────────
 
+  /** set once the browser refuses the microphone (permission denied, or a page that may not use it) */
+  micBlocked = false;
+
   get canListen(): boolean {
+    if (this.micBlocked) return false;
     const w = window as unknown as { SpeechRecognition?: unknown; webkitSpeechRecognition?: unknown };
     return !!(w.SpeechRecognition || w.webkitSpeechRecognition);
   }
@@ -162,7 +166,11 @@ class Voice {
         for (let i = 0; i < e.results.length; i++) for (let j = 0; j < e.results[i].length; j++) out.push(e.results[i][j].transcript);
         finish(out);
       };
-      rec.onerror = () => finish([]);
+      rec.onerror = (e) => {
+        const err = e?.error ?? '';
+        if (err === 'not-allowed' || err === 'service-not-allowed' || err === 'audio-capture') this.micBlocked = true;
+        finish([]);
+      };
       rec.onend = () => finish([]);
       try {
         this.stop();
@@ -193,7 +201,7 @@ interface SpeechRec {
   maxAlternatives: number;
   continuous: boolean;
   onresult: ((e: SpeechRecEvent) => void) | null;
-  onerror: (() => void) | null;
+  onerror: ((e?: { error?: string }) => void) | null;
   onend: (() => void) | null;
   start(): void;
   stop(): void;

@@ -2,6 +2,7 @@
  * The application: boot flow (gate → Uchihadam Production → KOTONOHA logo → title menu), settings,
  * saving, and switching between the title scene and the game.
  */
+import { EMBEDDED, HOME_URL, RELEASES_URL } from '../core/env';
 import * as THREE from 'three';
 import { Engine } from '../core/engine';
 import { Input } from '../core/input';
@@ -162,7 +163,7 @@ export class App {
         options: () => this.screens.options({ ...this.settings }, (s) => this.applySettings(s)),
         credits: () => this.screens.credits(),
         install: () => this.install(),
-        canInstall: () => !!this.installEvt || this.isIOS(),
+        canInstall: () => !!this.installEvt || this.isIOS() || EMBEDDED,
       },
       last !== null ? loadSlot(last) : null,
     );
@@ -176,6 +177,10 @@ export class App {
     if (this.installEvt) {
       await this.installEvt.prompt();
       this.installEvt = null;
+      return;
+    }
+    if (EMBEDDED) {
+      await this.screens.alert(`Esta página roda o jogo completo, mas não pode instalá-lo. Para ter o KOTONOHA como app (tela cheia, funciona sem internet):<br><br>• <b>Celular ou PC:</b> abra <a href="${HOME_URL}" target="_blank" rel="noopener">${HOME_URL.replace('https://', '')}</a> e toque em <b>Instalar o jogo</b>.<br>• <b>Windows, Linux ou Mac:</b> baixe o instalador em <a href="${RELEASES_URL}" target="_blank" rel="noopener">Lançamentos</a>.<br><br><small>Seu progresso desta página fica salvo neste navegador. Para levá-lo, use Carregar → Exportar e importe o código no app.</small>`);
       return;
     }
     await this.screens.alert('No iPhone/iPad: toque em <b>Compartilhar</b> e depois em <b>Adicionar à Tela de Início</b>. O jogo abre em tela cheia e funciona sem internet.');

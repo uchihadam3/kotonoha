@@ -6,6 +6,7 @@ import studioLogo from '../assets/uchihadam-production.webp';
 import { LOGO_CSS, logoHTML } from './logo';
 import { ICON } from './icons';
 import { h, sleep, esc, fmtTime, fmtNum } from '../core/util';
+import { EMBEDDED } from '../core/env';
 import { listSlots, deleteSlot, exportFile, importFile, saveToCode, saveFromCode, writeSlot, leavesOf, SLOT_COUNT, type SaveData } from '../core/save';
 import type { Settings } from '../core/settings';
 import { sfx } from '../audio/sfx';
@@ -283,12 +284,14 @@ export class Screens {
 
   private async exportDialog(d: SaveData) {
     const code = await saveToCode(d);
-    const el = this.screen('dim center', `<div class="panel" style="width:min(560px,94vw)"><button class="close">${ICON.close}</button><h2>Exportar jornada</h2><p class="muted small">Copie o código ou salve o arquivo para continuar em outro aparelho (Carregar → Importar).</p><textarea readonly></textarea><div class="row end" style="margin-top:12px"></div></div>`);
+    const el = this.screen('dim center', `<div class="panel" style="width:min(560px,94vw)"><button class="close">${ICON.close}</button><h2>Exportar jornada</h2><p class="muted small">Copie o código${EMBEDDED ? '' : ' ou salve o arquivo'} para continuar em outro aparelho (Carregar → Importar).</p><textarea readonly></textarea><div class="row end" style="margin-top:12px"></div></div>`);
     el.querySelector('.close')!.addEventListener('click', () => el.remove());
     const ta = el.querySelector('textarea') as HTMLTextAreaElement;
     ta.value = code;
-    el.querySelector('.row')!.append(
-      this.btn('Salvar arquivo', () => exportFile(d), 'small ghost', ICON.export),
+    const row = el.querySelector('.row')!;
+    // a published/embedded page cannot start downloads, so only the code is offered there
+    if (!EMBEDDED) row.append(this.btn('Salvar arquivo', () => exportFile(d), 'small ghost', ICON.export));
+    row.append(
       this.btn('Copiar código', async () => {
         try {
           await navigator.clipboard.writeText(code);

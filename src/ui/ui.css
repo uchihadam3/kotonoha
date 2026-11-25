@@ -7,6 +7,7 @@
 @font-face { font-family: 'kt-mincho'; src: url('../assets/fonts/kt-mincho.woff2') format('woff2'); font-weight: 400 800; font-display: swap; }
 
 :root {
+  color-scheme: dark;
   --ink: #0b0c16;
   --ink2: #151726;
   --ink3: #20233a;
@@ -193,3 +194,7 @@ textarea { width: 100%; min-height: 90px; font-size: 12px; font-family: ui-monos
   .menu-screen .menu { gap: 4px; }
   .mbtn { padding: 8px 14px; font-size: 15px; }
 }
+
+/* links inside panels and dialogs */
+.panel a { color: var(--gold); text-decoration: underline; text-underline-offset: 3px; text-decoration-thickness: 1px; }
+.panel a:hover, .panel a:focus-visible { color: var(--gold2); }

@@ -99,6 +99,11 @@ export function wordCard(w: Word, prefs: DisplayPrefs, opts: { stage?: number; i
     heard.textContent = 'Ouvindo… fale agora!';
     const res = await voice.listen();
     btn.classList.remove('listening');
+    if (voice.micBlocked) {
+      heard.textContent = 'O microfone não está disponível aqui. Para praticar a fala, abra o jogo direto no navegador ou na versão instalada e permita o microfone.';
+      btn.remove();
+      return;
+    }
     const ok = voice.matches(res, w.w.replace(/^～/, ''), w.r);
     heard.innerHTML = res.length ? `${ok ? '✅ Perfeito!' : '🤔 Ouvi:'} <span class="jp">${esc(res[0])}</span>` : 'Não ouvi nada. Tente de novo (o navegador precisa de permissão do microfone).';
     if (ok) sfx.correct();
@@ -279,6 +284,11 @@ export function askQuestion(host: HTMLElement, q: Question, prefs: DisplayPrefs,
         fb.textContent = 'Ouvindo…';
         const res = await voice.listen();
         b.classList.remove('listening');
+        if (voice.micBlocked) {
+          fb.textContent = 'Microfone indisponível aqui. Pulando a fala.';
+          void finish(true);
+          return;
+        }
         const ok = !!w && voice.matches(res, w.w.replace(/^～/, ''), w.r);
         if (!ok && res.length) fb.innerHTML = `Ouvi: <span class="jp">${esc(res[0])}</span>`;
         void finish(ok, true);
