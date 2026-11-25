@@ -1,0 +1,560 @@
+{"i": "x0", "w": "安保", "r": "あんぽ", "n": 1, "pos": "n", "en": "security (e.g. national security); US-Japan Security Treaty; campaign against the Japan-US Security Treaty (1959-60, 1970)"}
+{"i": "x1", "w": "委員会", "r": "いいんかい", "n": 1, "pos": "n", "en": "committee, commission, board"}
+{"i": "x2", "w": "委員長", "r": "いいんちょう", "n": 1, "pos": "n", "en": "chairperson (of a committee), chair, chairman"}
+{"i": "x3", "w": "一部", "r": "いちぶ", "n": 1, "pos": "n", "en": "one part, one portion, one section; one copy (of a book), (one) complete set (of books)"}
+{"i": "x4", "w": "欧州", "r": "おうしゅう", "n": 1, "pos": "n", "en": "Europe"}
+{"i": "x5", "w": "加盟", "r": "かめい", "n": 1, "pos": "vs", "en": "joining (an association, agreement, etc.), participation, affiliation"}
+{"i": "x6", "w": "可能性", "r": "かのうせい", "n": 1, "pos": "n", "en": "possibility, chance, likelihood; potential, potentiality, promise; possibility (modal property of a proposition containing no logical contradiction)"}
+{"i": "x7", "w": "会長", "r": "かいちょう", "n": 1, "pos": "n", "en": "president (of a society), chairman"}
+{"i": "x8", "w": "外務省", "r": "がいむしょう", "n": 1, "pos": "n", "en": "Ministry of Foreign Affairs"}
+{"i": "x9", "w": "閣僚", "r": "かくりょう", "n": 1, "pos": "n", "en": "cabinet ministers"}
+{"i": "x10", "w": "幹事", "r": "かんじ", "n": 1, "pos": "vs", "en": "executive secretary, coordinator, organizer"}
+{"i": "x11", "w": "関係者", "r": "かんけいしゃ", "n": 1, "pos": "n", "en": "person concerned, people involved (in an event), those concerned"}
+{"i": "x12", "w": "韓国", "r": "かんこく", "n": 1, "pos": "n", "en": "South Korea, Republic of Korea; Korean Empire (1897-1910)"}
+{"i": "x13", "w": "疑い", "r": "うたがい", "n": 1, "pos": "n", "en": "doubt, question, uncertainty"}
+{"i": "x14", "w": "共産党", "r": "きょうさんとう", "n": 1, "pos": "n", "en": "Communist Party"}
+{"i": "x15", "w": "業界", "r": "ぎょうかい", "n": 1, "pos": "n", "en": "business world, business circles, (the) industry"}
+{"i": "x16", "w": "金利", "r": "きんり", "n": 1, "pos": "n", "en": "interest rate, interest"}
+{"i": "x17", "w": "具体的", "r": "ぐたいてき", "n": 1, "pos": "adj-na", "en": "concrete, definite, specific"}
+{"i": "x18", "w": "献金", "r": "けんきん", "n": 1, "pos": "vs", "en": "donation, contribution, offering"}
+{"i": "x19", "w": "見直し", "r": "みなおし", "n": 1, "pos": "vs", "en": "review, reconsideration, revision"}
+{"i": "x20", "w": "見方", "r": "みかた", "n": 1, "pos": "n", "en": "viewpoint, point of view, way of looking (at something); way of appreciating (e.g. opera), way of understanding, how to read (a map, train timetable, etc.)"}
+{"i": "x21", "w": "いわば", "r": "いわば", "n": 1, "pos": "adv", "en": "so to speak, so to call it, as it were"}
+{"i": "x22", "w": "告別", "r": "こくべつ", "n": 1, "pos": "vs", "en": "farewell, leave-taking"}
+{"i": "x23", "w": "国内", "r": "こくない", "n": 1, "pos": "adj-no", "en": "within the country, inside the county, domestic"}
+{"i": "x24", "w": "最大", "r": "さいだい", "n": 1, "pos": "n", "en": "biggest, greatest, largest"}
+{"i": "x25", "w": "昨年", "r": "さくねん", "n": 1, "pos": "n", "en": "last year"}
+{"i": "x26", "w": "三人", "r": "さんにん", "n": 1, "pos": "n", "en": "three people"}
+{"i": "x27", "w": "参院", "r": "さんいん", "n": 1, "pos": "n", "en": "House of Councillors (upper house of the National Diet of Japan)"}
+{"i": "x28", "w": "市内", "r": "しない", "n": 1, "pos": "n", "en": "in the city, within the city"}
+{"i": "x29", "w": "支援", "r": "しえん", "n": 1, "pos": "vs", "en": "support, backing, aid"}
+{"i": "x30", "w": "事務", "r": "じむ", "n": 1, "pos": "n", "en": "office work, clerical work, administration"}
+{"i": "x31", "w": "事務局", "r": "じむきょく", "n": 1, "pos": "n", "en": "secretariat, executive office"}
+{"i": "x32", "w": "自衛隊", "r": "じえいたい", "n": 1, "pos": "n", "en": "Japan Self-Defense Forces, JSDF; self-defence force, self-defense force"}
+{"i": "x33", "w": "社会党", "r": "しゃかいとう", "n": 1, "pos": "n", "en": "Socialist Party"}
+{"i": "x34", "w": "衆院", "r": "しゅういん", "n": 1, "pos": "n", "en": "House of Representatives (lower house of the National Diet of Japan)"}
+{"i": "x35", "w": "十一", "r": "じゅういち", "n": 1, "pos": "num", "en": "eleven, 11; jack"}
+{"i": "x36", "w": "十九", "r": "じゅうきゅう", "n": 1, "pos": "num", "en": "nineteen, 19"}
+{"i": "x37", "w": "十五", "r": "じゅうご", "n": 1, "pos": "num", "en": "fifteen, 15"}
+{"i": "x38", "w": "十三", "r": "じゅうさん", "n": 1, "pos": "num", "en": "thirteen, 13; king"}
+{"i": "x39", "w": "十二", "r": "じゅうに", "n": 1, "pos": "num", "en": "twelve, 12; queen"}
+{"i": "x40", "w": "十八", "r": "じゅうはち", "n": 1, "pos": "num", "en": "eighteen, 18"}
+{"i": "x41", "w": "書記", "r": "しょき", "n": 1, "pos": "n", "en": "clerk, secretary; writing down, putting on record"}
+{"i": "x42", "w": "証券", "r": "しょうけん", "n": 1, "pos": "n", "en": "bond, bill, certificate"}
+{"i": "x43", "w": "新党", "r": "しんとう", "n": 1, "pos": "n", "en": "new (political) party"}
+{"i": "x44", "w": "政界", "r": "せいかい", "n": 1, "pos": "n", "en": "(world of) politics, political world, political circles"}
+{"i": "x45", "w": "政治家", "r": "せいじか", "n": 1, "pos": "n", "en": "politician, statesman"}
+{"i": "x46", "w": "選手権", "r": "せんしゅけん", "n": 1, "pos": "n", "en": "championship, title (of champion); championship game, championship tournament"}
+{"i": "x47", "w": "前年", "r": "ぜんねん", "n": 1, "pos": "n", "en": "the preceding year, the previous year, last year"}
+{"i": "x48", "w": "喪主", "r": "もしゅ", "n": 1, "pos": "n", "en": "chief mourner"}
+{"i": "x49", "w": "総裁", "r": "そうさい", "n": 1, "pos": "n", "en": "president (of an organization), director general, governor (of a central bank)"}
+{"i": "x50", "w": "総選挙", "r": "そうせんきょ", "n": 1, "pos": "n", "en": "general election (of the lower house); fan popularity voting (esp. for idols), popularity contest"}
+{"i": "x51", "w": "葬儀", "r": "そうぎ", "n": 1, "pos": "n", "en": "funeral, funeral service"}
+{"i": "x52", "w": "台湾", "r": "たいわん", "n": 1, "pos": "n", "en": "Taiwan"}
+{"i": "x53", "w": "大手", "r": "おおて", "n": 1, "pos": "n", "en": "major company, big company; front castle gate; force attacking the front of a castle"}
+{"i": "x54", "w": "大蔵省", "r": "おおくらしょう", "n": 1, "pos": "n", "en": "Ministry of Finance (1869-2001); Ministry of the Treasury (under the ritsuryō system)"}
+{"i": "x55", "w": "中国", "r": "ちゅうごく", "n": 1, "pos": "n", "en": "China; Chūgoku region (western part of Honshu comprising the prefectures of Okayama, Hiroshima, Yamaguchi, Tottori and Shimane); central part of a country, main"}
+{"i": "x56", "w": "都内", "r": "とない", "n": 1, "pos": "n", "en": "within the (Tokyo) metropolitan area"}
+{"i": "x57", "w": "投手", "r": "とうしゅ", "n": 1, "pos": "n", "en": "pitcher"}
+{"i": "x58", "w": "東京", "r": "とうきょう", "n": 1, "pos": "n", "en": "Tokyo"}
+{"i": "x59", "w": "当局", "r": "とうきょく", "n": 1, "pos": "n", "en": "authorities, relevant authorities, authorities concerned; this office"}
+{"i": "x60", "w": "当初", "r": "とうしょ", "n": 1, "pos": "n", "en": "beginning, start, outset; at first, at the beginning, initially"}
+{"i": "x61", "w": "同社", "r": "どうしゃ", "n": 1, "pos": "n", "en": "the same company, the said firm; the same (Shinto) shrine, the said shrine"}
+{"i": "x62", "w": "同日", "r": "どうじつ", "n": 1, "pos": "n", "en": "the same day"}
+{"i": "x63", "w": "日米", "r": "にちべい", "n": 1, "pos": "n", "en": "Japan and the United States, Japanese-American"}
+{"i": "x64", "w": "日本人", "r": "にほんじん", "n": 1, "pos": "n", "en": "Japanese person"}
+{"i": "x65", "w": "被告", "r": "ひこく", "n": 1, "pos": "n", "en": "defendant, the accused"}
+{"i": "x66", "w": "米国", "r": "べいこく", "n": 1, "pos": "n", "en": "(United States of) America, USA, US"}
+{"i": "x67", "w": "北海道", "r": "ほっかいどう", "n": 1, "pos": "n", "en": "Hokkaido (island, prefectural-level administrative unit)"}
+{"i": "x68", "w": "北京", "r": "ペキン", "n": 1, "pos": "n", "en": "Beijing (China), Peking"}
+{"i": "x69", "w": "北朝鮮", "r": "きたちょうせん", "n": 1, "pos": "n", "en": "North Korea"}
+{"i": "x70", "w": "本社", "r": "ほんしゃ", "n": 1, "pos": "n", "en": "head office, main office, headquarters; main shrine; this company, this shrine"}
+{"i": "x71", "w": "民", "r": "たみ", "n": 1, "pos": "n", "en": "people, citizens, subjects"}
+{"i": "x72", "w": "野球", "r": "やきゅう", "n": 1, "pos": "n", "en": "baseball"}
+{"i": "x73", "w": "容疑者", "r": "ようぎしゃ", "n": 1, "pos": "n", "en": "suspect"}
+{"i": "x74", "w": "理事", "r": "りじ", "n": 1, "pos": "n", "en": "director, trustee"}
+{"i": "x75", "w": "両国", "r": "りょうこく", "n": 1, "pos": "n", "en": "both countries; Ryōgoku (area of Tokyo)"}
+{"i": "x76", "w": "連立", "r": "れんりつ", "n": 1, "pos": "vs", "en": "coalition, alliance, union; standing side-by-side"}
+{"i": "x77", "w": "和平", "r": "わへい", "n": 1, "pos": "n", "en": "peace"}
+{"i": "x78", "w": "湾岸", "r": "わんがん", "n": 1, "pos": "n", "en": "gulf coast, bay coast"}
+{"i": "x79", "w": "研究所", "r": "けんきゅうじょ", "n": 1, "pos": "n", "en": "research institute, (research) laboratory"}
+{"i": "x80", "w": "十四", "r": "じゅうし", "n": 1, "pos": "num", "en": "fourteen, 14"}
+{"i": "x81", "w": "十七", "r": "じゅうなな", "n": 1, "pos": "num", "en": "seventeen, 17"}
+{"i": "x82", "w": "信", "r": "しん", "n": 1, "pos": "n", "en": "honesty, sincerity, fidelity; trust, reliance, confidence; (religious) faith, devotion"}
+{"i": "x83", "w": "人々", "r": "ひとびと", "n": 1, "pos": "n", "en": "people, men and women; each person, everybody"}
+{"i": "x84", "w": "おす", "r": "おす", "n": 1, "pos": "n", "en": "male (animal, plant); male (connector, part, etc.)"}
+{"i": "x85", "w": "五輪", "r": "ごりん", "n": 1, "pos": "n", "en": "Olympic Games, Olympics; Olympic rings"}
+{"i": "x86", "w": "事態", "r": "じたい", "n": 1, "pos": "n", "en": "situation, (present) state of affairs, circumstances"}
+{"i": "x87", "w": "戦後", "r": "せんご", "n": 1, "pos": "n", "en": "postwar period, period after Second World War"}
+{"i": "x88", "w": "自民党", "r": "じみんとう", "n": 1, "pos": "n", "en": "Liberal Democratic Party, LDP"}
+{"i": "x89", "w": "時事", "r": "じじ", "n": 1, "pos": "n", "en": "events of the day, current affairs"}
+{"i": "x90", "w": "京都", "r": "きょうと", "n": 1, "pos": "n", "en": "Kyoto (city, prefecture)"}
+{"i": "x91", "w": "時半", "r": "じはん", "n": 1, "pos": "suf", "en": "half past (the hour)"}
+{"i": "x92", "w": "自民", "r": "じみん", "n": 1, "pos": "n", "en": "Liberal Democratic Party, LDP"}
+{"i": "x93", "w": "同市", "r": "どうし", "n": 1, "pos": "n", "en": "same city"}
+{"i": "x94", "w": "決まって", "r": "きまって", "n": 1, "pos": "adv", "en": "always, without fail, invariably"}
+{"i": "x95", "w": "グアテマラ共和国", "r": "グアテマラきょうわこく", "n": 1, "pos": "n", "en": "Republic of Guatemala"}
+{"i": "x96", "w": "安全保障", "r": "あんぜんほしょう", "n": 1, "pos": "n", "en": "(guarantee of) security"}
+{"i": "x97", "w": "移植", "r": "いしょく", "n": 1, "pos": "vs", "en": "transplanting (a plant), transplant, grafting; transplantation (of an organ, tissue, etc.), transplant; embryo transfer, embryo transplant"}
+{"i": "x98", "w": "円高", "r": "えんだか", "n": 1, "pos": "n", "en": "appreciation of the yen, strong yen"}
+{"i": "x99", "w": "沖縄", "r": "おきなわ", "n": 1, "pos": "n", "en": "Okinawa (city, prefecture)"}
+{"i": "x100", "w": "核兵器", "r": "かくへいき", "n": 1, "pos": "n", "en": "nuclear weapon"}
+{"i": "x101", "w": "閣議", "r": "かくぎ", "n": 1, "pos": "n", "en": "cabinet meeting"}
+{"i": "x102", "w": "株価", "r": "かぶか", "n": 1, "pos": "n", "en": "stock prices"}
+{"i": "x103", "w": "喚問", "r": "かんもん", "n": 1, "pos": "vs", "en": "summons"}
+{"i": "x104", "w": "官邸", "r": "かんてい", "n": 1, "pos": "n", "en": "official residence (e.g. of the prime minister)"}
+{"i": "x105", "w": "官房長官", "r": "かんぼうちょうかん", "n": 1, "pos": "n", "en": "Chief Cabinet Secretary (Japan); Chief of Staff (to the President, Prime Minister, etc.), Cabinet Secretary, Executive Secretary"}
+{"i": "x106", "w": "関", "r": "せき", "n": 1, "pos": "n", "en": "barrier, gate; seki, mutual life"}
+{"i": "x107", "w": "議席", "r": "ぎせき", "n": 1, "pos": "n", "en": "parliamentary seat"}
+{"i": "x108", "w": "共同体", "r": "きょうどうたい", "n": 1, "pos": "n", "en": "cooperative body, cooperative system, collective"}
+{"i": "x109", "w": "教師", "r": "きょうし", "n": 1, "pos": "n", "en": "teacher, instructor"}
+{"i": "x110", "w": "局長", "r": "きょくちょう", "n": 1, "pos": "n", "en": "bureau director, office chief"}
+{"i": "x111", "w": "警視庁", "r": "けいしちょう", "n": 1, "pos": "n", "en": "Metropolitan Police Department (Tokyo)"}
+{"i": "x112", "w": "懸念", "r": "けねん", "n": 1, "pos": "vs", "en": "worry, fear, anxiety"}
+{"i": "x113", "w": "検察", "r": "けんさつ", "n": 1, "pos": "n", "en": "criminal investigation, prosecution; examination, investigation"}
+{"i": "x114", "w": "県警", "r": "けんけい", "n": 1, "pos": "n", "en": "prefectural police"}
+{"i": "x115", "w": "原子力", "r": "げんしりょく", "n": 1, "pos": "n", "en": "atomic energy, nuclear power"}
+{"i": "x116", "w": "減税", "r": "げんぜい", "n": 1, "pos": "vs", "en": "tax reduction"}
+{"i": "x117", "w": "雇用", "r": "こよう", "n": 1, "pos": "vs", "en": "employment, hire"}
+{"i": "x118", "w": "顧問", "r": "こもん", "n": 1, "pos": "n", "en": "adviser, advisor, consultant; school club supervisor (usu. a teacher), school club manager"}
+{"i": "x119", "w": "後半", "r": "こうはん", "n": 1, "pos": "n", "en": "second half, latter half"}
+{"i": "x120", "w": "公開", "r": "こうかい", "n": 1, "pos": "vs", "en": "opening to the public, making available to the public, exhibiting"}
+{"i": "x121", "w": "考え方", "r": "かんがえかた", "n": 1, "pos": "n", "en": "way of thinking, point of view, opinion"}
+{"i": "x122", "w": "香港", "r": "ホンコン", "n": 1, "pos": "n", "en": "Hong Kong"}
+{"i": "x123", "w": "国会議員", "r": "こっかいぎいん", "n": 1, "pos": "n", "en": "member of the Diet, Diet member, member of parliament"}
+{"i": "x124", "w": "国際的", "r": "こくさいてき", "n": 1, "pos": "adj-na", "en": "international, worldwide, cross-border"}
+{"i": "x125", "w": "査察", "r": "ささつ", "n": 1, "pos": "vs", "en": "inspection (for compliance), investigation (tax, etc.)"}
+{"i": "x126", "w": "座", "r": "ざ", "n": 1, "pos": "n", "en": "seat, place; position, status; gathering, party, company"}
+{"i": "x127", "w": "暫定", "r": "ざんてい", "n": 1, "pos": "adj-no", "en": "provisional, temporary, tentative"}
+{"i": "x128", "w": "史上", "r": "しじょう", "n": 1, "pos": "adv", "en": "in history, ever, historical"}
+{"i": "x129", "w": "市長", "r": "しちょう", "n": 1, "pos": "n", "en": "mayor"}
+{"i": "x130", "w": "支局", "r": "しきょく", "n": 1, "pos": "n", "en": "branch office"}
+{"i": "x131", "w": "事実上", "r": "じじつじょう", "n": 1, "pos": "adv", "en": "as a matter of fact, actually, effectively"}
+{"i": "x132", "w": "次官", "r": "じかん", "n": 1, "pos": "n", "en": "vice-minister, undersecretary"}
+{"i": "x133", "w": "自治体", "r": "じちたい", "n": 1, "pos": "n", "en": "municipality, local government, self-governing body"}
+{"i": "x134", "w": "自信", "r": "じしん", "n": 1, "pos": "n", "en": "self-confidence, confidence (in oneself)"}
+{"i": "x135", "w": "辞任", "r": "じにん", "n": 1, "pos": "vs", "en": "resignation (from a position)"}
+{"i": "x136", "w": "社員", "r": "しゃいん", "n": 1, "pos": "n", "en": "company employee; member of a corporation, company stockholder (esp. in legal contexts)"}
+{"i": "x137", "w": "若者", "r": "わかもの", "n": 1, "pos": "n", "en": "young person, youngster, young people"}
+{"i": "x138", "w": "若手", "r": "わかて", "n": 1, "pos": "n", "en": "young person"}
+{"i": "x139", "w": "主席", "r": "しゅせき", "n": 1, "pos": "n", "en": "head, chief; chairman, governor, president; top student, head of the class"}
+{"i": "x140", "w": "周年", "r": "しゅうねん", "n": 1, "pos": "n", "en": "whole year, entire year; n-th year anniversary"}
+{"i": "x141", "w": "消費者", "r": "しょうひしゃ", "n": 1, "pos": "n", "en": "consumer (of a product, service, etc.), customer, (end) user; consumer (in a food chain)"}
+{"i": "x142", "w": "消費税", "r": "しょうひぜい", "n": 1, "pos": "n", "en": "consumption tax (incl. sales tax, VAT, excise duty, etc.)"}
+{"i": "x143", "w": "証人", "r": "しょうにん", "n": 1, "pos": "n", "en": "witness"}
+{"i": "x144", "w": "上がったり", "r": "あがったり", "n": 1, "pos": "adj-na", "en": "doomed (business, trade, etc.), in a bad state, poor"}
+{"i": "x145", "w": "常務", "r": "じょうむ", "n": 1, "pos": "n", "en": "managing director, executive director; routine business, regular business"}
+{"i": "x146", "w": "新生", "r": "しんせい", "n": 1, "pos": "vs", "en": "rebirth, new birth, nascent"}
+{"i": "x147", "w": "人権", "r": "じんけん", "n": 1, "pos": "n", "en": "human rights, civil liberties"}
+{"i": "x148", "w": "西側", "r": "にしがわ", "n": 1, "pos": "n", "en": "west side, west bank"}
+{"i": "x149", "w": "税制", "r": "ぜいせい", "n": 1, "pos": "n", "en": "tax system"}
+{"i": "x150", "w": "先進国", "r": "せんしんこく", "n": 1, "pos": "n", "en": "developed country, advanced country"}
+{"i": "x151", "w": "専務", "r": "せんむ", "n": 1, "pos": "n", "en": "special duty, being in sole charge of a duty; senior managing director, executive director"}
+{"i": "x152", "w": "専門家", "r": "せんもんか", "n": 1, "pos": "n", "en": "specialist, expert, professional"}
+{"i": "x153", "w": "戦略", "r": "せんりゃく", "n": 1, "pos": "n", "en": "strategy, tactics"}
+{"i": "x154", "w": "前回", "r": "ぜんかい", "n": 1, "pos": "n", "en": "previous time, last time, previous installment"}
+{"i": "x155", "w": "前日", "r": "ぜんじつ", "n": 1, "pos": "n", "en": "previous day, day before, eve"}
+{"i": "x156", "w": "全日", "r": "ぜんじつ", "n": 1, "pos": "n", "en": "all days"}
+{"i": "x157", "w": "全面", "r": "ぜんめん", "n": 1, "pos": "n", "en": "whole surface, entire"}
+{"i": "x158", "w": "双方", "r": "そうほう", "n": 1, "pos": "n", "en": "both parties, both sides"}
+{"i": "x159", "w": "早期", "r": "そうき", "n": 1, "pos": "n", "en": "early stage"}
+{"i": "x160", "w": "総額", "r": "そうがく", "n": 1, "pos": "n", "en": "total amount (of money), total sum, sum total"}
+{"i": "x161", "w": "総長", "r": "そうちょう", "n": 1, "pos": "n", "en": "president (of a university), vice-chancellor, chancellor; secretary-general, director; leader (esp. of a biker gang)"}
+{"i": "x162", "w": "総務", "r": "そうむ", "n": 1, "pos": "n", "en": "general affairs, general business, manager"}
+{"i": "x163", "w": "総理", "r": "そうり", "n": 1, "pos": "n", "en": "prime minister (as the head of a cabinet government), premier; leading, overseeing, leader"}
+{"i": "x164", "w": "多数", "r": "たすう", "n": 1, "pos": "n", "en": "large number (of), many; majority"}
+{"i": "x165", "w": "太平洋", "r": "たいへいよう", "n": 1, "pos": "n", "en": "Pacific Ocean"}
+{"i": "x166", "w": "大国", "r": "たいこく", "n": 1, "pos": "n", "en": "large country, major nation, great power; province of the highest rank (ritsuryō system)"}
+{"i": "x167", "w": "男女", "r": "だんじょ", "n": 1, "pos": "n", "en": "men and women, man and woman, both sexes"}
+{"i": "x168", "w": "知らん顔", "r": "しらんかお", "n": 1, "pos": "vs", "en": "feigned ignorance, pretending not to know, pretending not to recognize (someone); unconcerned air, indifference, nonchalance"}
+{"i": "x169", "w": "地検", "r": "ちけん", "n": 1, "pos": "n", "en": "District Public Prosecutor's Office"}
+{"i": "x170", "w": "地裁", "r": "ちさい", "n": 1, "pos": "n", "en": "district court"}
+{"i": "x171", "w": "中東", "r": "ちゅうとう", "n": 1, "pos": "n", "en": "Middle East"}
+{"i": "x172", "w": "柱", "r": "はしら", "n": 1, "pos": "n", "en": "pillar, post; support, prop, mainstay; counter for buddhas, gods, nobles, etc."}
+{"i": "x173", "w": "朝鮮", "r": "ちょうせん", "n": 1, "pos": "n", "en": "Korea"}
+{"i": "x174", "w": "停戦", "r": "ていせん", "n": 1, "pos": "vs", "en": "armistice, ceasefire"}
+{"i": "x175", "w": "定数", "r": "ていすう", "n": 1, "pos": "n", "en": "fixed number, quorum (for an assembly); constant, invariable; literal"}
+{"i": "x176", "w": "撤退", "r": "てったい", "n": 1, "pos": "vs", "en": "evacuation, withdrawal, revocation"}
+{"i": "x177", "w": "党首", "r": "とうしゅ", "n": 1, "pos": "n", "en": "party leader"}
+{"i": "x178", "w": "党内", "r": "とうない", "n": 1, "pos": "adj-no", "en": "party-internal, within the party"}
+{"i": "x179", "w": "東海", "r": "とうかい", "n": 1, "pos": "n", "en": "Tōkai region (of Honshu; incl. Aichi, Shizuoka, Mie and southern Gifu prefectures); eastern sea; Tōkaidō (Edo-period Edo-Kyoto highway)"}
+{"i": "x180", "w": "東北", "r": "とうほく", "n": 1, "pos": "n", "en": "north-east; Tōhoku (northernmost six prefectures of Honshu), Tohoku"}
+{"i": "x181", "w": "当面", "r": "とうめん", "n": 1, "pos": "adv", "en": "current, urgent, pressing; to confront (an issue), to face (up to something); for the meantime, at present"}
+{"i": "x182", "w": "同県", "r": "どうけん", "n": 1, "pos": "n", "en": "the same prefecture; the said prefecture"}
+{"i": "x183", "w": "同国", "r": "どうこく", "n": 1, "pos": "n", "en": "same country, same province; the (said) country"}
+{"i": "x184", "w": "同省", "r": "どうしょう", "n": 1, "pos": "n", "en": "the said ministry, the same ministry"}
+{"i": "x185", "w": "同党", "r": "どうとう", "n": 1, "pos": "n", "en": "same (political) party; the said party"}
+{"i": "x186", "w": "難民", "r": "なんみん", "n": 1, "pos": "n", "en": "refugee, displaced person; person inconvenienced by (lack of something, etc.), person unable to satisfactorily (marry, shop, etc.), person who is stuck (in a pl"}
+{"i": "x187", "w": "日本語", "r": "にほんご", "n": 1, "pos": "n", "en": "Japanese (language)"}
+{"i": "x188", "w": "年金", "r": "ねんきん", "n": 1, "pos": "n", "en": "annuity, pension"}
+{"i": "x189", "w": "派閥", "r": "はばつ", "n": 1, "pos": "n", "en": "clique, faction"}
+{"i": "x190", "w": "部隊", "r": "ぶたい", "n": 1, "pos": "n", "en": "force, unit, corps"}
+{"i": "x191", "w": "副社長", "r": "ふくしゃちょう", "n": 1, "pos": "n", "en": "executive vice-president"}
+{"i": "x192", "w": "変わった", "r": "かわった", "n": 1, "pos": "adj-pn", "en": "unusual, abnormal, strange"}
+{"i": "x193", "w": "編成", "r": "へんせい", "n": 1, "pos": "vs", "en": "composition, formation, organization"}
+{"i": "x194", "w": "弁護士", "r": "べんごし", "n": 1, "pos": "n", "en": "lawyer, attorney"}
+{"i": "x195", "w": "報告書", "r": "ほうこくしょ", "n": 1, "pos": "n", "en": "(written) report"}
+{"i": "x196", "w": "法人", "r": "ほうじん", "n": 1, "pos": "n", "en": "corporation, corporate body, company"}
+{"i": "x197", "w": "暴力団", "r": "ぼうりょくだん", "n": 1, "pos": "n", "en": "bōryokudan, gangster organization (organisation), crime syndicate"}
+{"i": "x198", "w": "北方", "r": "ほっぽう", "n": 1, "pos": "n", "en": "the north, northward, northern direction; northern part (e.g. of a country), northern district"}
+{"i": "x199", "w": "本会議", "r": "ほんかいぎ", "n": 1, "pos": "n", "en": "plenary session, regular session"}
+{"i": "x200", "w": "本塁打", "r": "ほんるいだ", "n": 1, "pos": "n", "en": "home run"}
+{"i": "x201", "w": "民主党", "r": "みんしゅとう", "n": 1, "pos": "n", "en": "Democratic Party; Democratic Party of Japan (1998-2016), DPJ; Constitutional Democratic Party of Japan"}
+{"i": "x202", "w": "役員", "r": "やくいん", "n": 1, "pos": "n", "en": "director, executive; officer, official, person in charge"}
+{"i": "x203", "w": "予選", "r": "よせん", "n": 1, "pos": "n", "en": "preliminary contest, qualifying round, trial; preliminary selection, screening (e.g. of applicants), provisional election"}
+{"i": "x204", "w": "与野党", "r": "よやとう", "n": 1, "pos": "n", "en": "ruling and opposition parties, parties in and out of power"}
+{"i": "x205", "w": "容疑", "r": "ようぎ", "n": 1, "pos": "n", "en": "suspicion, charge"}
+{"i": "x206", "w": "利", "r": "り", "n": 1, "pos": "n", "en": "advantage, benefit, profit"}
+{"i": "x207", "w": "両党", "r": "りょうとう", "n": 1, "pos": "n", "en": "both (political) parties"}
+{"i": "x208", "w": "冷戦", "r": "れいせん", "n": 1, "pos": "n", "en": "cold war, the Cold War"}
+{"i": "x209", "w": "路線", "r": "ろせん", "n": 1, "pos": "n", "en": "route (bus, train, air, etc.), line; line (taken by a group, organization, etc.), policy, course"}
+{"i": "x210", "w": "労働者", "r": "ろうどうしゃ", "n": 1, "pos": "n", "en": "worker; (manual) laborer, labourer, blue-collar worker"}
+{"i": "x211", "w": "前半", "r": "ぜんはん", "n": 1, "pos": "n", "en": "first half"}
+{"i": "x212", "w": "博", "r": "はく", "n": 1, "pos": "suf", "en": "doctor, PhD; exposition, fair, exhibition"}
+{"i": "x213", "w": "思い", "r": "おもい", "n": 1, "pos": "n", "en": "thought; imagination, mind, heart; desire, wish, hope"}
+{"i": "x214", "w": "取っ手", "r": "とって", "n": 1, "pos": "n", "en": "handle, grip, knob"}
+{"i": "x215", "w": "通産省", "r": "つうさんしょう", "n": 1, "pos": "n", "en": "Ministry of International Trade and Industry (1949-2001), MITI"}
+{"i": "x216", "w": "回戦", "r": "かいせん", "n": 1, "pos": "suf", "en": "event with ... rounds, innings, legs, etc.; nth-round match (in a knockout tournament)"}
+{"i": "x217", "w": "公明党", "r": "こうめいとう", "n": 1, "pos": "n", "en": "Komeito (Japanese political party)"}
+{"i": "x218", "w": "今季", "r": "こんき", "n": 1, "pos": "n", "en": "this season"}
+{"i": "x219", "w": "残った分", "r": "のこったぶん", "n": 1, "pos": "exp", "en": "amount left over, remaining portion"}
+{"i": "x220", "w": "民社党", "r": "みんしゃとう", "n": 1, "pos": "n", "en": "Democratic Socialist Party"}
+{"i": "x221", "w": "小選挙区", "r": "しょうせんきょく", "n": 1, "pos": "n", "en": "small electoral district, single-member constituency"}
+{"i": "x222", "w": "義", "r": "ぎ", "n": 1, "pos": "n", "en": "morality, righteousness, justice; meaning; teachings, doctrine"}
+{"i": "x223", "w": "理", "r": "り", "n": 1, "pos": "n", "en": "reason, principle, logic; general principle (as opposed to individual concrete phenomenon); the underlying principles of the cosmos (in neo-Confucianism)"}
+{"i": "x224", "w": "夕", "r": "ゆう", "n": 1, "pos": "n", "en": "evening"}
+{"i": "x225", "w": "慰安", "r": "いあん", "n": 1, "pos": "vs", "en": "solace, relaxation"}
+{"i": "x226", "w": "遺族", "r": "いぞく", "n": 1, "pos": "n", "en": "bereaved family, surviving family, family of the deceased"}
+{"i": "x227", "w": "遺体", "r": "いたい", "n": 1, "pos": "n", "en": "(dead) body, corpse, remains"}
+{"i": "x228", "w": "一億", "r": "いちおく", "n": 1, "pos": "n", "en": "100,000,000, one hundred million, 10^8"}
+{"i": "x229", "w": "一回", "r": "いっかい", "n": 1, "pos": "n", "en": "once, one time, one round"}
+{"i": "x230", "w": "一本", "r": "いっぽん", "n": 1, "pos": "n", "en": "one long cylindrical thing, one film, TV show, etc., one goal, home run, etc.; one version; one book, a certain book"}
+{"i": "x231", "w": "引き下げ", "r": "ひきさげ", "n": 1, "pos": "n", "en": "reduction, cut"}
+{"i": "x232", "w": "運輸省", "r": "うんゆしょう", "n": 1, "pos": "n", "en": "Ministry of Transport"}
+{"i": "x233", "w": "汚職", "r": "おしょく", "n": 1, "pos": "vs", "en": "corruption (esp. by a government employee), bribery, graft"}
+{"i": "x234", "w": "下院", "r": "かいん", "n": 1, "pos": "n", "en": "lower house, lower legislative chamber"}
+{"i": "x235", "w": "何も", "r": "なにも", "n": 1, "pos": "exp", "en": "(not) anything, (nothing) at all, (not) any; and everything else, and all; (not) at all, (not) in the least, (not) especially"}
+{"i": "x236", "w": "何度", "r": "なんど", "n": 1, "pos": "n", "en": "how many times; how many degrees (temperature, angle, etc.)"}
+{"i": "x237", "w": "解明", "r": "かいめい", "n": 1, "pos": "vs", "en": "elucidation, explication, explaining"}
+{"i": "x238", "w": "開幕", "r": "かいまく", "n": 1, "pos": "vs", "en": "raising the curtain; opening (of an event), start, beginning"}
+{"i": "x239", "w": "外務", "r": "がいむ", "n": 1, "pos": "n", "en": "foreign affairs"}
+{"i": "x240", "w": "学園", "r": "がくえん", "n": 1, "pos": "n", "en": "educational institution, school, academy"}
+{"i": "x241", "w": "株主", "r": "かぶぬし", "n": 1, "pos": "n", "en": "shareholder, stockholder"}
+{"i": "x242", "w": "環境庁", "r": "かんきょうちょう", "n": 1, "pos": "n", "en": "Environment Agency"}
+{"i": "x243", "w": "基本的", "r": "きほんてき", "n": 1, "pos": "adj-na", "en": "fundamental, basic"}
+{"i": "x244", "w": "機器", "r": "きき", "n": 1, "pos": "n", "en": "device, equipment, machinery"}
+{"i": "x245", "w": "帰国", "r": "きこく", "n": 1, "pos": "vs", "en": "return to one's country; return to one's hometown"}
+{"i": "x246", "w": "起訴", "r": "きそ", "n": 1, "pos": "vs", "en": "prosecution, indictment"}
+{"i": "x247", "w": "巨人", "r": "きょじん", "n": 1, "pos": "n", "en": "giant, great man; Tokyo Giants (baseball team)"}
+{"i": "x248", "w": "拠点", "r": "きょてん", "n": 1, "pos": "n", "en": "base (of operations), site, location"}
+{"i": "x249", "w": "距離", "r": "きょり", "n": 1, "pos": "n", "en": "distance, range, interval; difference (e.g. in opinion), gap, distance; metric"}
+{"i": "x250", "w": "京", "r": "きょう", "n": 1, "pos": "n", "en": "imperial capital (esp. Kyoto); final word of an iroha poem; 10^16, 10,000,000,000,000,000, ten quadrillion"}
+{"i": "x251", "w": "教徒", "r": "きょうと", "n": 1, "pos": "n", "en": "believer, adherent"}
+{"i": "x252", "w": "曲", "r": "きょく", "n": 1, "pos": "n", "en": "composition, piece of music, song; tune, melody, air; enjoyment, fun, interest"}
+{"i": "x253", "w": "金融機関", "r": "きんゆうきかん", "n": 1, "pos": "n", "en": "financial institutions, banking facilities"}
+{"i": "x254", "w": "銀座", "r": "ぎんざ", "n": 1, "pos": "n", "en": "Ginza (district in Tokyo); busy shopping district, bustling location; silver mint (Edo period)"}
+{"i": "x255", "w": "経営者", "r": "けいえいしゃ", "n": 1, "pos": "n", "en": "manager, proprietor"}
+{"i": "x256", "w": "県知事", "r": "けんちじ", "n": 1, "pos": "n", "en": "prefectural governor"}
+{"i": "x257", "w": "県内", "r": "けんない", "n": 1, "pos": "adj-no", "en": "within the prefecture"}
+{"i": "x258", "w": "原告", "r": "げんこく", "n": 1, "pos": "n", "en": "plaintiff, accuser, prosecutor"}
+{"i": "x259", "w": "原発", "r": "げんぱつ", "n": 1, "pos": "n", "en": "nuclear power plant, nuclear power generation; primary (e.g. primary immunodeficiency syndrome)"}
+{"i": "x260", "w": "現職", "r": "げんしょく", "n": 1, "pos": "n", "en": "present post, current office, (an) incumbent"}
+{"i": "x261", "w": "後援", "r": "こうえん", "n": 1, "pos": "vs", "en": "support, backing"}
+{"i": "x262", "w": "公的", "r": "こうてき", "n": 1, "pos": "adj-na", "en": "public, official"}
+{"i": "x263", "w": "公判", "r": "こうはん", "n": 1, "pos": "n", "en": "public hearing, trial"}
+{"i": "x264", "w": "公民", "r": "こうみん", "n": 1, "pos": "n", "en": "citizen; civics (school subject)"}
+{"i": "x265", "w": "公明", "r": "こうめい", "n": 1, "pos": "n", "en": "fairness, openness, impartiality; Komeito (Japanese political party)"}
+{"i": "x266", "w": "江戸", "r": "えど", "n": 1, "pos": "n", "en": "Edo (shogunate capital; former name of Tokyo), Yedo"}
+{"i": "x267", "w": "航空機", "r": "こうくうき", "n": 1, "pos": "n", "en": "aircraft"}
+{"i": "x268", "w": "行使", "r": "こうし", "n": 1, "pos": "vs", "en": "use, exercise (of one's right, authority, power, etc.)"}
+{"i": "x269", "w": "高官", "r": "こうかん", "n": 1, "pos": "n", "en": "high official"}
+{"i": "x270", "w": "高齢", "r": "こうれい", "n": 1, "pos": "n", "en": "advanced age, old age"}
+{"i": "x271", "w": "国営", "r": "こくえい", "n": 1, "pos": "n", "en": "government management, state management"}
+{"i": "x272", "w": "国債", "r": "こくさい", "n": 1, "pos": "n", "en": "national debt, national securities, government bonds"}
+{"i": "x273", "w": "国民投票", "r": "こくみんとうひょう", "n": 1, "pos": "n", "en": "national referendum"}
+{"i": "x274", "w": "黒人", "r": "こくじん", "n": 1, "pos": "n", "en": "black person; woman in the nightlife business, demimondaine, geisha and prostitutes"}
+{"i": "x275", "w": "今春", "r": "こんしゅん", "n": 1, "pos": "n", "en": "this spring, spring this year"}
+{"i": "x276", "w": "懇談", "r": "こんだん", "n": 1, "pos": "vs", "en": "friendly chat, relaxed conversation, informal meeting"}
+{"i": "x277", "w": "債権", "r": "さいけん", "n": 1, "pos": "n", "en": "credit, claim"}
+{"i": "x278", "w": "債務", "r": "さいむ", "n": 1, "pos": "n", "en": "debt, liabilities, obligation to a person or party (usu. legal or contractual)"}
+{"i": "x279", "w": "再開", "r": "さいかい", "n": 1, "pos": "vs", "en": "reopening, resumption, restarting"}
+{"i": "x280", "w": "再編", "r": "さいへん", "n": 1, "pos": "vs", "en": "reorganization, reorganisation, reshuffle"}
+{"i": "x281", "w": "最高裁", "r": "さいこうさい", "n": 1, "pos": "n", "en": "Supreme Court"}
+{"i": "x282", "w": "財界", "r": "ざいかい", "n": 1, "pos": "n", "en": "financial world, business circles"}
+{"i": "x283", "w": "阪神", "r": "はんしん", "n": 1, "pos": "n", "en": "Osaka-Kobe; Hanshin (company name: railway, dept. store, baseball team, etc.)"}
+{"i": "x284", "w": "参加者", "r": "さんかしゃ", "n": 1, "pos": "n", "en": "participant, entrant, player"}
+{"i": "x285", "w": "司令官", "r": "しれいかん", "n": 1, "pos": "n", "en": "commandant, commanding officer, general"}
+{"i": "x286", "w": "指名", "r": "しめい", "n": 1, "pos": "vs", "en": "naming, nominating, designating; calling on, asking for, requesting"}
+{"i": "x287", "w": "支部", "r": "しぶ", "n": 1, "pos": "n", "en": "branch, branch office, subdivision"}
+{"i": "x288", "w": "死者", "r": "ししゃ", "n": 1, "pos": "n", "en": "dead person, (the) deceased, (the) dead"}
+{"i": "x289", "w": "事務次官", "r": "じむじかん", "n": 1, "pos": "n", "en": "permanent vice-president, undersecretary, vice-minister"}
+{"i": "x290", "w": "時点", "r": "じてん", "n": 1, "pos": "n", "en": "point in time, occasion"}
+{"i": "x291", "w": "次期", "r": "じき", "n": 1, "pos": "n", "en": "next term, next period; next version, next release"}
+{"i": "x292", "w": "自社", "r": "じしゃ", "n": 1, "pos": "n", "en": "one's company, company one works for; in-house, belonging to the company"}
+{"i": "x293", "w": "実質", "r": "じっしつ", "n": 1, "pos": "n", "en": "substance, essence; substantive, substantial, essential; in essence, in effect, essentially"}
+{"i": "x294", "w": "社会主義", "r": "しゃかいしゅぎ", "n": 1, "pos": "n", "en": "socialism"}
+{"i": "x295", "w": "首都圏", "r": "しゅとけん", "n": 1, "pos": "n", "en": "Greater Tokyo Metropolitan area; metropolitan area (of a capital)"}
+{"i": "x296", "w": "受賞", "r": "じゅしょう", "n": 1, "pos": "vs", "en": "winning a prize, receiving an award, being awarded"}
+{"i": "x297", "w": "終結", "r": "しゅうけつ", "n": 1, "pos": "vs", "en": "end, close"}
+{"i": "x298", "w": "出馬", "r": "しゅつば", "n": 1, "pos": "vs", "en": "running (for election), coming forward as a candidate; going on horseback (to a battle); going in person"}
+{"i": "x299", "w": "所長", "r": "しょちょう", "n": 1, "pos": "n", "en": "head (of an office, laboratory, etc.), chief"}
+{"i": "x300", "w": "所得税", "r": "しょとくぜい", "n": 1, "pos": "n", "en": "income tax"}
+{"i": "x301", "w": "少数", "r": "しょうすう", "n": 1, "pos": "n", "en": "small number, few, minority"}
+{"i": "x302", "w": "省庁", "r": "しょうちょう", "n": 1, "pos": "n", "en": "ministries and government offices, the authorities"}
+{"i": "x303", "w": "乗用車", "r": "じょうようしゃ", "n": 1, "pos": "n", "en": "(passenger) car, automobile"}
+{"i": "x304", "w": "常任", "r": "じょうにん", "n": 1, "pos": "vs", "en": "standing, regular, permanent"}
+{"i": "x305", "w": "心不全", "r": "しんふぜん", "n": 1, "pos": "n", "en": "heart failure"}
+{"i": "x306", "w": "陣営", "r": "じんえい", "n": 1, "pos": "n", "en": "camp (supporters of a doctrine, party, etc.), faction (of a party); military camp, encampment, cantonment"}
+{"i": "x307", "w": "制", "r": "せい", "n": 1, "pos": "n", "en": "system, organization, organisation"}
+{"i": "x308", "w": "政局", "r": "せいきょく", "n": 1, "pos": "n", "en": "political situation"}
+{"i": "x309", "w": "政治的", "r": "せいじてき", "n": 1, "pos": "adj-na", "en": "political"}
+{"i": "x310", "w": "積極", "r": "せっきょく", "n": 1, "pos": "adj-pn", "en": "active, positive, progressive; anode"}
+{"i": "x311", "w": "先発", "r": "せんぱつ", "n": 1, "pos": "vs", "en": "starting in advance, starting first, going first; starting (in team sports)"}
+{"i": "x312", "w": "前年度", "r": "ぜんねんど", "n": 1, "pos": "adv", "en": "preceding fiscal year"}
+{"i": "x313", "w": "臓器", "r": "ぞうき", "n": 1, "pos": "n", "en": "internal organs, viscera"}
+{"i": "x314", "w": "打線", "r": "だせん", "n": 1, "pos": "n", "en": "batting line-up, batting order"}
+{"i": "x315", "w": "大規模", "r": "だいきぼ", "n": 1, "pos": "adj-na", "en": "large-scale"}
+{"i": "x316", "w": "大型", "r": "おおがた", "n": 1, "pos": "adj-no", "en": "large, large-sized, large-scale"}
+{"i": "x317", "w": "大量", "r": "たいりょう", "n": 1, "pos": "adj-na", "en": "large quantity, massive (quantity), mass (e.g. mass production, mass transit, mass destruction)"}
+{"i": "x318", "w": "担当者", "r": "たんとうしゃ", "n": 1, "pos": "n", "en": "person in charge (e.g. of an area of work), person responsible, contact (person)"}
+{"i": "x319", "w": "地価", "r": "ちか", "n": 1, "pos": "n", "en": "the price of land"}
+{"i": "x320", "w": "地上", "r": "ちじょう", "n": 1, "pos": "n", "en": "above ground, on the ground, earth's surface; this world, this earth"}
+{"i": "x321", "w": "中学生", "r": "ちゅうがくせい", "n": 1, "pos": "n", "en": "junior high school student, middle school pupil"}
+{"i": "x322", "w": "調達", "r": "ちょうたつ", "n": 1, "pos": "vs", "en": "supply, provision, raising"}
+{"i": "x323", "w": "通算", "r": "つうさん", "n": 1, "pos": "vs", "en": "total, sum, aggregate"}
+{"i": "x324", "w": "低迷", "r": "ていめい", "n": 1, "pos": "vs", "en": "hanging low (of clouds); remaining low (of sales, stock prices, etc.), remaining sluggish (of the economy, market, etc.), hovering (around a low level)"}
+{"i": "x325", "w": "途上国", "r": "とじょうこく", "n": 1, "pos": "n", "en": "developing country"}
+{"i": "x326", "w": "都道府県", "r": "とどうふけん", "n": 1, "pos": "n", "en": "prefectures (of Japan), largest administrative divisions of Japan: Tokyo-to, Osaka-fu, Kyoto-fu, Hokkaido and the remaining prefectures"}
+{"i": "x327", "w": "東欧", "r": "とうおう", "n": 1, "pos": "n", "en": "Eastern Europe"}
+{"i": "x328", "w": "東南", "r": "とうなん", "n": 1, "pos": "n", "en": "south-east"}
+{"i": "x329", "w": "答申", "r": "とうしん", "n": 1, "pos": "vs", "en": "report, reply, findings"}
+{"i": "x330", "w": "同月", "r": "どうげつ", "n": 1, "pos": "n", "en": "the same month"}
+{"i": "x332", "w": "内戦", "r": "ないせん", "n": 1, "pos": "n", "en": "civil war"}
+{"i": "x333", "w": "入り", "r": "いり", "n": 1, "pos": "n", "en": "entering, entrance, entry; attendance, audience, number (of visitors, customers, etc.); containing"}
+{"i": "x334", "w": "入札", "r": "にゅうさつ", "n": 1, "pos": "vs", "en": "bid, tender, bidding"}
+{"i": "x335", "w": "任期", "r": "にんき", "n": 1, "pos": "n", "en": "term of office"}
+{"i": "x336", "w": "年内", "r": "ねんない", "n": 1, "pos": "n", "en": "remainder of the year, rest of the year"}
+{"i": "x337", "w": "脳死", "r": "のうし", "n": 1, "pos": "n", "en": "brain death"}
+{"i": "x338", "w": "必要性", "r": "ひつようせい", "n": 1, "pos": "n", "en": "necessity, need"}
+{"i": "x339", "w": "百貨店", "r": "ひゃっかてん", "n": 1, "pos": "n", "en": "department store"}
+{"i": "x340", "w": "表明", "r": "ひょうめい", "n": 1, "pos": "vs", "en": "declaration, indication, representation"}
+{"i": "x341", "w": "評議", "r": "ひょうぎ", "n": 1, "pos": "vs", "en": "conference, discussion"}
+{"i": "x342", "w": "不信", "r": "ふしん", "n": 1, "pos": "n", "en": "distrust, mistrust, disbelief; insincerity; impiety, faithlessness"}
+{"i": "x343", "w": "文部省", "r": "もんぶしょう", "n": 1, "pos": "n", "en": "Ministry of Education, Science and Culture (1871-2001)"}
+{"i": "x344", "w": "並立", "r": "へいりつ", "n": 1, "pos": "vs", "en": "standing abreast"}
+{"i": "x345", "w": "変わらない", "r": "かわらない", "n": 1, "pos": "adj-i", "en": "constant, invariant"}
+{"i": "x346", "w": "保する", "r": "ほする", "n": 1, "pos": "vs-i", "en": "to guarantee"}
+{"i": "x347", "w": "保全", "r": "ほぜん", "n": 1, "pos": "vs", "en": "preservation, conservation, maintenance"}
+{"i": "x348", "w": "包括", "r": "ほうかつ", "n": 1, "pos": "vs", "en": "inclusion, complete coverage, comprehensiveness"}
+{"i": "x349", "w": "訪日", "r": "ほうにち", "n": 1, "pos": "vs", "en": "visit to Japan"}
+{"i": "x350", "w": "本格的", "r": "ほんかくてき", "n": 1, "pos": "adj-na", "en": "genuine, real, authentic; full-scale, full-blown, all-out"}
+{"i": "x351", "w": "未明", "r": "みめい", "n": 1, "pos": "n", "en": "early dawn, grey of morning, gray of morning"}
+{"i": "x352", "w": "民主主義", "r": "みんしゅしゅぎ", "n": 1, "pos": "n", "en": "democracy"}
+{"i": "x353", "w": "有", "r": "ゆう", "n": 1, "pos": "n", "en": "existence; possession, having; limited company"}
+{"i": "x354", "w": "有権者", "r": "ゆうけんしゃ", "n": 1, "pos": "n", "en": "(eligible) voter, elector, constituent; holder of a right, rightsholder, right holder; bigwig, person with political clout"}
+{"i": "x355", "w": "理念", "r": "りねん", "n": 1, "pos": "n", "en": "(Platonic) ideal (of how things ought to be, e.g. human rights), foundational principle, idea"}
+{"i": "x356", "w": "倫理", "r": "りんり", "n": 1, "pos": "n", "en": "ethics, morals"}
+{"i": "x357", "w": "連合会", "r": "れんごうかい", "n": 1, "pos": "n", "en": "association, federation"}
+{"i": "x358", "w": "連勝", "r": "れんしょう", "n": 1, "pos": "vs", "en": "consecutive victories, series of victories, winning streak"}
+{"i": "x359", "w": "連覇", "r": "れんぱ", "n": 1, "pos": "vs", "en": "successive championships"}
+{"i": "x360", "w": "労組", "r": "ろうそ", "n": 1, "pos": "n", "en": "labor union, labour union, trade union"}
+{"i": "x361", "w": "和解", "r": "わかい", "n": 1, "pos": "vs", "en": "reconciliation, amicable settlement, accommodation; court-mediated settlement; translation of a foreign language into Japanese"}
+{"i": "x362", "w": "上院", "r": "じょういん", "n": 1, "pos": "n", "en": "upper house, upper legislative chamber, senate"}
+{"i": "x363", "w": "内外", "r": "ないがい", "n": 1, "pos": "n", "en": "inside and outside, interior and exterior; inside and outside the country, home and abroad, domestic and foreign; around, about, approximately"}
+{"i": "x364", "w": "決着", "r": "けっちゃく", "n": 1, "pos": "vs", "en": "conclusion, decision, end"}
+{"i": "x365", "w": "広報", "r": "こうほう", "n": 1, "pos": "n", "en": "public relations, PR, publicity; publicizing"}
+{"i": "x366", "w": "仕組み", "r": "しくみ", "n": 1, "pos": "n", "en": "structure, construction, arrangement; plan, plot, contrivance"}
+{"i": "x367", "w": "支払い", "r": "しはらい", "n": 1, "pos": "n", "en": "payment"}
+{"i": "x368", "w": "首位", "r": "しゅい", "n": 1, "pos": "n", "en": "first place, head position, leading position"}
+{"i": "x369", "w": "対日", "r": "たいにち", "n": 1, "pos": "adj-pn", "en": "toward Japan, with Japan"}
+{"i": "x370", "w": "値上げ", "r": "ねあげ", "n": 1, "pos": "vs", "en": "price increase, rise in price, wage increase"}
+{"i": "x371", "w": "伸び", "r": "のび", "n": 1, "pos": "n", "en": "growth, development; stretching (one's body, e.g. when waking up); (ability to) spread (of paint, cream, etc.)"}
+{"i": "x372", "w": "三十日", "r": "みそか", "n": 1, "pos": "n", "en": "last day of the month"}
+{"i": "x373", "w": "枠組み", "r": "わくぐみ", "n": 1, "pos": "n", "en": "frame (physical structure), framework; framework (of a plan, system, etc.), structure, outline"}
+{"i": "x374", "w": "多角", "r": "たかく", "n": 1, "pos": "n", "en": "many-sided, versatile, polygonal"}
+{"i": "x375", "w": "取締役", "r": "とりしまりやく", "n": 1, "pos": "n", "en": "company director, board member"}
+{"i": "x376", "w": "明治", "r": "めいじ", "n": 1, "pos": "n", "en": "Meiji era (1868.9.8-1912.7.30)"}
+{"i": "x377", "w": "引き上げ", "r": "ひきあげ", "n": 1, "pos": "n", "en": "pulling up, drawing up, salvage; raising, increase, upward revision; repatriation, evacuation"}
+{"i": "x378", "w": "部会", "r": "ぶかい", "n": 1, "pos": "n", "en": "section meeting; division (of a larger organisation), department, section"}
+{"i": "x379", "w": "高齢者", "r": "こうれいしゃ", "n": 1, "pos": "n", "en": "old person, elderly person, senior citizen"}
+{"i": "x380", "w": "国対", "r": "こくたい", "n": 1, "pos": "n", "en": "Committee of the National Diet"}
+{"i": "x381", "w": "今年度", "r": "こんねんど", "n": 1, "pos": "n", "en": "this year, this fiscal year, this school year"}
+{"i": "x382", "w": "防衛庁", "r": "ぼうえいちょう", "n": 1, "pos": "n", "en": "Japan Defense Agency (became Ministry of Defense in January 2007)"}
+{"i": "x383", "w": "最終的", "r": "さいしゅうてき", "n": 1, "pos": "adj-na", "en": "final, eventual, ultimate"}
+{"i": "x384", "w": "特捜", "r": "とくそう", "n": 1, "pos": "n", "en": "special investigation"}
+{"i": "x385", "w": "向かって左", "r": "むかってひだり", "n": 1, "pos": "exp", "en": "on the left as one faces (it)"}
+{"i": "x386", "w": "執行部", "r": "しっこうぶ", "n": 1, "pos": "n", "en": "(the) executive, administration, leadership"}
+{"i": "x387", "w": "障害者", "r": "しょうがいしゃ", "n": 1, "pos": "n", "en": "disabled person, person with a (physical or mental) disability"}
+{"i": "x388", "w": "兵", "r": "へい", "n": 1, "pos": "n", "en": "(common) soldier, rank and file; army, troops; warfare, strategy"}
+{"i": "x389", "w": "圧倒的", "r": "あっとうてき", "n": 1, "pos": "adj-na", "en": "overwhelming"}
+{"i": "x390", "w": "安打", "r": "あんだ", "n": 1, "pos": "vs", "en": "safe hit"}
+{"i": "x391", "w": "異例", "r": "いれい", "n": 1, "pos": "adj-na", "en": "exceptional, unusual, extraordinary"}
+{"i": "x392", "w": "遺伝子", "r": "いでんし", "n": 1, "pos": "n", "en": "gene"}
+{"i": "x393", "w": "一位", "r": "いちい", "n": 1, "pos": "n", "en": "first place, first rank; units position (of a number)"}
+{"i": "x394", "w": "一環", "r": "いっかん", "n": 1, "pos": "n", "en": "link (e.g. in a chain of events), part (of a plan, campaign, activities, etc.); monocyclic"}
+{"i": "x395", "w": "右翼", "r": "うよく", "n": 1, "pos": "n", "en": "right wing; right wing (of a bird or aircraft); right wing (of an army, building, etc.), right flank"}
+{"i": "x396", "w": "歌舞伎", "r": "かぶき", "n": 1, "pos": "n", "en": "kabuki, traditional form of drama and music performed by male actors wearing makeup mainly in white and red"}
+{"i": "x397", "w": "画面", "r": "がめん", "n": 1, "pos": "n", "en": "screen (of a TV, computer, etc.); image (on a screen), picture, scene; surface of a painting (picture, drawing, etc.)"}
+{"i": "x398", "w": "会期", "r": "かいき", "n": 1, "pos": "n", "en": "session (of a legislature)"}
+{"i": "x399", "w": "解消", "r": "かいしょう", "n": 1, "pos": "vs", "en": "cancellation, liquidation, resolution"}
+{"i": "x400", "w": "解体", "r": "かいたい", "n": 1, "pos": "vs", "en": "demolition, taking down, dismantling; dissolution (of an organization, company, etc.), breaking up; dissection (of a body), dismemberment"}
+{"i": "x401", "w": "海軍", "r": "かいぐん", "n": 1, "pos": "n", "en": "navy, naval force"}
+{"i": "x402", "w": "海上", "r": "かいじょう", "n": 1, "pos": "n", "en": "(on the) sea, surface of the sea"}
+{"i": "x403", "w": "開票", "r": "かいひょう", "n": 1, "pos": "vs", "en": "counting ballots, tally (of votes)"}
+{"i": "x404", "w": "学院", "r": "がくいん", "n": 1, "pos": "n", "en": "institute, academy"}
+{"i": "x405", "w": "活性", "r": "かっせい", "n": 1, "pos": "n", "en": "activity; active"}
+{"i": "x406", "w": "官房", "r": "かんぼう", "n": 1, "pos": "n", "en": "government secretariat"}
+{"i": "x407", "w": "肝", "r": "きも", "n": 1, "pos": "n", "en": "liver, innards; courage, spirit, pluck; crux, essential point, key"}
+{"i": "x408", "w": "すでに", "r": "すでに", "n": 1, "pos": "adv", "en": "already; previously, before; undeniably, unmistakably, in the first place"}
+{"i": "x409", "w": "犠牲者", "r": "ぎせいしゃ", "n": 1, "pos": "n", "en": "victim (esp. someone killed), casualty"}
+{"i": "x410", "w": "球場", "r": "きゅうじょう", "n": 1, "pos": "n", "en": "baseball stadium, ballpark"}
+{"i": "x411", "w": "球団", "r": "きゅうだん", "n": 1, "pos": "n", "en": "baseball team"}
+{"i": "x412", "w": "巨額", "r": "きょがく", "n": 1, "pos": "n", "en": "huge sum (esp. of money), enormous sum, massive amount"}
+{"i": "x413", "w": "強さ", "r": "つよさ", "n": 1, "pos": "n", "en": "strength, power"}
+{"i": "x414", "w": "教諭", "r": "きょうゆ", "n": 1, "pos": "n", "en": "(licensed) teacher"}
+{"i": "x415", "w": "局面", "r": "きょくめん", "n": 1, "pos": "n", "en": "position in a game, state of the game; situation, stage, phase"}
+{"i": "x416", "w": "錦", "r": "にしき", "n": 1, "pos": "n", "en": "brocade; fine dress, fine clothes"}
+{"i": "x417", "w": "区内", "r": "くない", "n": 1, "pos": "n", "en": "in a ward, within the ward; within the zone, within the district"}
+{"i": "x418", "w": "軍縮", "r": "ぐんしゅく", "n": 1, "pos": "n", "en": "reduction of armaments, disarmament"}
+{"i": "x419", "w": "警察庁", "r": "けいさつちょう", "n": 1, "pos": "n", "en": "National Police Agency, NPA"}
+{"i": "x420", "w": "兼", "r": "けん", "n": 1, "pos": "conj", "en": "and (concurrently; e.g. chauffeur and secretary), in addition to, at the same time"}
+{"i": "x421", "w": "研究者", "r": "けんきゅうしゃ", "n": 1, "pos": "n", "en": "researcher"}
+{"i": "x422", "w": "県議", "r": "けんぎ", "n": 1, "pos": "n", "en": "prefectural assembly member"}
+{"i": "x423", "w": "県立", "r": "けんりつ", "n": 1, "pos": "adj-no", "en": "prefectural, managed by a prefectural government"}
+{"i": "x424", "w": "後継", "r": "こうけい", "n": 1, "pos": "n", "en": "succession; successor"}
+{"i": "x425", "w": "後任", "r": "こうにん", "n": 1, "pos": "n", "en": "successor"}
+{"i": "x426", "w": "構築", "r": "こうちく", "n": 1, "pos": "vs", "en": "construction, building, putting up"}
+{"i": "x427", "w": "江", "r": "え", "n": 1, "pos": "n", "en": "inlet, bay"}
+{"i": "x428", "w": "皇太子", "r": "こうたいし", "n": 1, "pos": "n", "en": "crown prince"}
+{"i": "x429", "w": "講座", "r": "こうざ", "n": 1, "pos": "n", "en": "course (e.g. of lectures); academic university unit (professor, lecturers, etc.)"}
+{"i": "x430", "w": "高さ", "r": "たかさ", "n": 1, "pos": "n", "en": "height, altitude, elevation; altitude, height"}
+{"i": "x431", "w": "国政", "r": "こくせい", "n": 1, "pos": "n", "en": "national politics, political situation, statecraft"}
+{"i": "x432", "w": "国務長官", "r": "こくむちょうかん", "n": 1, "pos": "n", "en": "Secretary of State"}
+{"i": "x433", "w": "座長", "r": "ざちょう", "n": 1, "pos": "n", "en": "chairman; leader of a troupe, proprietor of a theatrical company"}
+{"i": "x434", "w": "裁判所", "r": "さいばんしょ", "n": 1, "pos": "n", "en": "court, courthouse"}
+{"i": "x435", "w": "在住", "r": "ざいじゅう", "n": 1, "pos": "vs", "en": "residing, living, dwelling"}
+{"i": "x436", "w": "在日", "r": "ざいにち", "n": 1, "pos": "adj-pn", "en": "resident in Japan (of a foreigner), situated in Japan (e.g. of an embassy); Zainichi, Zainichi Korean, North or South Korean national with permanent residency i"}
+{"i": "x437", "w": "財団", "r": "ざいだん", "n": 1, "pos": "n", "en": "foundation (institution), syndicate, group"}
+{"i": "x438", "w": "策定", "r": "さくてい", "n": 1, "pos": "vs", "en": "formulation (of a plan, policy, etc.), decision, settling on"}
+{"i": "x439", "w": "三塁", "r": "さんるい", "n": 1, "pos": "n", "en": "third base"}
+{"i": "x440", "w": "参入", "r": "さんにゅう", "n": 1, "pos": "vs", "en": "entering (the marketplace), introducing (something) to the market, access; visiting a high-class or noble individual"}
+{"i": "x441", "w": "四球", "r": "しきゅう", "n": 1, "pos": "n", "en": "base on balls, walk, pass"}
+{"i": "x442", "w": "子会社", "r": "こがいしゃ", "n": 1, "pos": "n", "en": "subsidiary (company)"}
+{"i": "x443", "w": "市町村", "r": "しちょうそん", "n": 1, "pos": "n", "en": "cities, towns and villages, municipalities"}
+{"i": "x444", "w": "市立", "r": "しりつ", "n": 1, "pos": "n", "en": "municipal, city"}
+{"i": "x445", "w": "思わく", "r": "おもわく", "n": 1, "pos": "n", "en": "expectation, anticipation, prediction; purpose, intention, motive; others' opinions of one"}
+{"i": "x446", "w": "指示", "r": "しじ", "n": 1, "pos": "vs", "en": "indication, denotation, designation; instructions, directions"}
+{"i": "x447", "w": "諮問", "r": "しもん", "n": 1, "pos": "vs", "en": "consultation, question, enquiry"}
+{"i": "x448", "w": "次長", "r": "じちょう", "n": 1, "pos": "n", "en": "vice-chief, vice-director, assistant director"}
+{"i": "x449", "w": "失点", "r": "しってん", "n": 1, "pos": "n", "en": "lost point (in a game), point given away, conceded goal; run charged to the pitcher; blunder, mistake, error"}
+{"i": "x450", "w": "実質的", "r": "じっしつてき", "n": 1, "pos": "adj-na", "en": "substantial, real (as opposed to nominal)"}
+{"i": "x451", "w": "社会面", "r": "しゃかいめん", "n": 1, "pos": "n", "en": "social page (of newspaper), local news page"}
+{"i": "x452", "w": "社内", "r": "しゃない", "n": 1, "pos": "adj-no", "en": "within a company, in-house; within a shrine, shrine precincts"}
+{"i": "x453", "w": "車両", "r": "しゃりょう", "n": 1, "pos": "n", "en": "(wheeled) vehicle, car, (railroad) car"}
+{"i": "x454", "w": "主力", "r": "しゅりょく", "n": 1, "pos": "n", "en": "main force, main strength; main effort, primary focus"}
+{"i": "x455", "w": "受注", "r": "じゅちゅう", "n": 1, "pos": "vs", "en": "accepting an order, receiving an order, orders received"}
+{"i": "x456", "w": "終値", "r": "おわりね", "n": 1, "pos": "n", "en": "closing price"}
+{"i": "x457", "w": "週刊", "r": "しゅうかん", "n": 1, "pos": "n", "en": "weekly publication"}
+{"i": "x458", "w": "初日", "r": "しょにち", "n": 1, "pos": "n", "en": "first day, opening day"}
+{"i": "x459", "w": "助成", "r": "じょせい", "n": 1, "pos": "vs", "en": "assisting, assistance, fostering"}
+{"i": "x460", "w": "昭和", "r": "しょうわ", "n": 1, "pos": "n", "en": "Shōwa era (1926.12.25-1989.1.7); reminiscent of the Shōwa era, Shōwa-nostalgic, old-fashioned"}
+{"i": "x461", "w": "上場", "r": "じょうじょう", "n": 1, "pos": "vs", "en": "listing (on the stock exchange, etc.), taking (a company) public; performance (of a play, opera, etc.), staging, presentation"}
+{"i": "x462", "w": "条項", "r": "じょうこう", "n": 1, "pos": "n", "en": "clause, article, stipulations"}
+{"i": "x463", "w": "信託", "r": "しんたく", "n": 1, "pos": "vs", "en": "trust, entrusting, leaving in someone's trust"}
+{"i": "x464", "w": "仁", "r": "じん", "n": 1, "pos": "n", "en": "benevolence (esp. as a virtue of Confucianism), consideration, compassion; human; kernel"}
+{"i": "x465", "w": "世界的", "r": "せかいてき", "n": 1, "pos": "adj-na", "en": "worldwide, global, international; world-famous, world-class"}
+{"i": "x466", "w": "盛り込む", "r": "もりこむ", "n": 1, "pos": "v5m", "en": "to incorporate, to include; to fill (a vessel) with"}
+{"i": "x467", "w": "税率", "r": "ぜいりつ", "n": 1, "pos": "n", "en": "tariff; tax rate"}
+{"i": "x468", "w": "責任者", "r": "せきにんしゃ", "n": 1, "pos": "n", "en": "person in charge (including a supervisory role for other staff), person responsible for ..., responsible party"}
+{"i": "x469", "w": "先に", "r": "さきに", "n": 1, "pos": "adv", "en": "previously, before, earlier; first, before (something or someone else), ahead (of); beforehand, in advance, ahead of time"}
+{"i": "x470", "w": "先進", "r": "せんしん", "n": 1, "pos": "adj-no", "en": "advanced, developed; seniority, senior, superior"}
+{"i": "x471", "w": "戦線", "r": "せんせん", "n": 1, "pos": "n", "en": "(war) front"}
+{"i": "x472", "w": "全米", "r": "ぜんべい", "n": 1, "pos": "n", "en": "all of the United States, the whole of the USA; all of North and South America, the entire Americas"}
+{"i": "x473", "w": "全面的", "r": "ぜんめんてき", "n": 1, "pos": "adj-na", "en": "total, complete, all-out"}
+{"i": "x474", "w": "創設", "r": "そうせつ", "n": 1, "pos": "vs", "en": "establishment, founding, organization"}
+{"i": "x475", "w": "増税", "r": "ぞうぜい", "n": 1, "pos": "vs", "en": "tax increase"}
+{"i": "x476", "w": "打者", "r": "だしゃ", "n": 1, "pos": "n", "en": "batter"}
+{"i": "x477", "w": "体質", "r": "たいしつ", "n": 1, "pos": "n", "en": "constitution (physical), physical make-up, predisposition (to disease); character (of a group, organization, etc.), innate characteristics, make-up"}
+{"i": "x478", "w": "対外", "r": "たいがい", "n": 1, "pos": "adj-pn", "en": "external, foreign, with foreign countries"}
+{"i": "x479", "w": "隊員", "r": "たいいん", "n": 1, "pos": "n", "en": "troops, group members, team members"}
+{"i": "x480", "w": "代議", "r": "だいぎ", "n": 1, "pos": "vs", "en": "representing others in a conference"}
+{"i": "x481", "w": "代行", "r": "だいこう", "n": 1, "pos": "vs", "en": "acting as agent, acting on (someone's) behalf, executing business for"}
+{"i": "x482", "w": "担保", "r": "たんぽ", "n": 1, "pos": "n", "en": "security, guarantee, collateral; guarantee (e.g. of safety)"}
+{"i": "x483", "w": "団長", "r": "だんちょう", "n": 1, "pos": "n", "en": "leader of a group"}
+{"i": "x484", "w": "中堅", "r": "ちゅうけん", "n": 1, "pos": "n", "en": "nucleus, backbone, mainstay; medium-level, mid-level, middle-ranking; main body (of troops), crack troops, select troops"}
+{"i": "x485", "w": "中国人", "r": "ちゅうごくじん", "n": 1, "pos": "n", "en": "Chinese person"}
+{"i": "x486", "w": "中小企業", "r": "ちゅうしょうきぎょう", "n": 1, "pos": "n", "en": "small and medium-sized enterprises, small and medium-sized businesses"}
+{"i": "x487", "w": "懲役", "r": "ちょうえき", "n": 1, "pos": "n", "en": "penal servitude, imprisonment with hard labor (hard labour)"}
+{"i": "x488", "w": "朝鮮半島", "r": "ちょうせんはんとう", "n": 1, "pos": "n", "en": "Korean peninsula"}
+{"i": "x489", "w": "聴取", "r": "ちょうしゅ", "n": 1, "pos": "vs", "en": "hearing (of a statement, opinion, explanation, etc.), asking, questioning (e.g. a suspect); listening (e.g. to the radio)"}
+{"i": "x490", "w": "長年", "r": "ながねん", "n": 1, "pos": "n", "en": "many years, a long time"}
+{"i": "x491", "w": "通商", "r": "つうしょう", "n": 1, "pos": "vs", "en": "commerce, trade"}
+{"i": "x492", "w": "提言", "r": "ていげん", "n": 1, "pos": "vs", "en": "proposal, motion, recommendation"}
+{"i": "x493", "w": "店舗", "r": "てんぽ", "n": 1, "pos": "n", "en": "shop, store, establishment"}
+{"i": "x494", "w": "殿下", "r": "でんか", "n": 1, "pos": "n", "en": "Your Highness, His Highness, Her Highness"}
+{"i": "x495", "w": "土曜", "r": "どよう", "n": 1, "pos": "n", "en": "Saturday"}
+{"i": "x496", "w": "投球", "r": "とうきゅう", "n": 1, "pos": "vs", "en": "pitching, throwing a ball, bowling (in cricket)"}
+{"i": "x497", "w": "答え", "r": "こたえ", "n": 1, "pos": "n", "en": "answer, reply, response; answer, solution, result"}
+{"i": "x498", "w": "答弁", "r": "とうべん", "n": 1, "pos": "vs", "en": "response, reply, answer"}
+{"i": "x499", "w": "闘争", "r": "とうそう", "n": 1, "pos": "vs", "en": "fight, battle, combat; struggle (for rights, higher wages, etc.), strife, (labor) dispute"}
+{"i": "x500", "w": "同期", "r": "どうき", "n": 1, "pos": "n", "en": "same period, corresponding period; same year (of graduation, entering a company, etc.), contemporary, classmate; synchronization, synchronism"}
+{"i": "x501", "w": "同点", "r": "どうてん", "n": 1, "pos": "n", "en": "same score, deadlock, tie"}
+{"i": "x502", "w": "得票", "r": "とくひょう", "n": 1, "pos": "vs", "en": "number of votes polled, poll votes"}
+{"i": "x503", "w": "読者", "r": "どくしゃ", "n": 1, "pos": "n", "en": "reader"}
+{"i": "x504", "w": "南部", "r": "なんぶ", "n": 1, "pos": "n", "en": "southern part, the south (of a region)"}
+{"i": "x505", "w": "二死", "r": "にし", "n": 1, "pos": "n", "en": "two out, two down (and one to go)"}
+{"i": "x506", "w": "二塁", "r": "にるい", "n": 1, "pos": "n", "en": "second base"}
+{"i": "x507", "w": "二塁打", "r": "にるいだ", "n": 1, "pos": "n", "en": "two-base hit, double"}
+{"i": "x508", "w": "入試", "r": "にゅうし", "n": 1, "pos": "n", "en": "entrance examination"}
+{"i": "x509", "w": "認定", "r": "にんてい", "n": 1, "pos": "vs", "en": "authorization, authorisation, acknowledgment"}
+{"i": "x510", "w": "年末", "r": "ねんまつ", "n": 1, "pos": "n", "en": "end-of-year, year-end"}
+{"i": "x511", "w": "農協", "r": "のうきょう", "n": 1, "pos": "n", "en": "agricultural cooperative"}
+{"i": "x512", "w": "売却", "r": "ばいきゃく", "n": 1, "pos": "vs", "en": "selling off, disposal by sale, sale"}
+{"i": "x513", "w": "白書", "r": "はくしょ", "n": 1, "pos": "n", "en": "white paper (government report)"}
+{"i": "x514", "w": "白人", "r": "はくじん", "n": 1, "pos": "n", "en": "white person, Caucasian; beginner, amateur; unlicensed prostitute"}
+{"i": "x515", "w": "半数", "r": "はんすう", "n": 1, "pos": "n", "en": "half the number, half (of an amount); haploid (organism, cell, etc.), haplont"}
+{"i": "x516", "w": "半導体", "r": "はんどうたい", "n": 1, "pos": "n", "en": "semiconductor"}
+{"i": "x517", "w": "犯行", "r": "はんこう", "n": 1, "pos": "n", "en": "crime, criminal act, offence"}
+{"i": "x518", "w": "被害者", "r": "ひがいしゃ", "n": 1, "pos": "n", "en": "victim, injured party, sufferer"}
+{"i": "x519", "w": "評論家", "r": "ひょうろんか", "n": 1, "pos": "n", "en": "critic, reviewer, commentator"}
+{"i": "x520", "w": "不祥事", "r": "ふしょうじ", "n": 1, "pos": "n", "en": "scandal, impropriety, misconduct"}
+{"i": "x521", "w": "不全", "r": "ふぜん", "n": 1, "pos": "adj-na", "en": "partial, incomplete, imperfect"}
+{"i": "x522", "w": "不透明", "r": "ふとうめい", "n": 1, "pos": "adj-na", "en": "opaque, obscure, murky; opacity, obscurity; unclear, unpredictable, uncertain"}
+{"i": "x523", "w": "復帰", "r": "ふっき", "n": 1, "pos": "vs", "en": "return, reversion, comeback; carriage return"}
+{"i": "x524", "w": "聞かす", "r": "きかす", "n": 1, "pos": "v5s", "en": "to let (someone) hear, to tell (e.g. a story), to inform (of); to make (someone) listen, to make (someone) understand, to drum into (someone); to grip (someone)"}
+{"i": "x525", "w": "陛下", "r": "へいか", "n": 1, "pos": "n", "en": "Your Majesty, His Majesty, Her Majesty"}
+{"i": "x526", "w": "保有", "r": "ほゆう", "n": 1, "pos": "vs", "en": "possession, retention, maintenance"}
+{"i": "x527", "w": "法的", "r": "ほうてき", "n": 1, "pos": "adj-na", "en": "legal"}
+{"i": "x528", "w": "北部", "r": "ほくぶ", "n": 1, "pos": "n", "en": "northern part, the north (of a region)"}
+{"i": "x529", "w": "麻薬", "r": "まやく", "n": 1, "pos": "n", "en": "narcotic, drug, dope"}
+{"i": "x530", "w": "満塁", "r": "まんるい", "n": 1, "pos": "n", "en": "bases loaded"}
+{"i": "x531", "w": "無職", "r": "むしょく", "n": 1, "pos": "adj-no", "en": "without an occupation, unemployed, jobless"}
+{"i": "x532", "w": "問題点", "r": "もんだいてん", "n": 1, "pos": "n", "en": "the problem (at issue), the point at issue, problematic issue"}
+{"i": "x533", "w": "郵政省", "r": "ゆうせいしょう", "n": 1, "pos": "n", "en": "(former) Ministry of Posts and Telecommunications (now Ministry of Internal Affairs and Communications)"}
+{"i": "x534", "w": "要員", "r": "よういん", "n": 1, "pos": "n", "en": "(necessary) personnel, required person"}
+{"i": "x535", "w": "翌日", "r": "よくじつ", "n": 1, "pos": "n", "en": "next day"}
+{"i": "x536", "w": "利用者", "r": "りようしゃ", "n": 1, "pos": "n", "en": "user, end-user, consumer"}
+{"i": "x537", "w": "里", "r": "り", "n": 1, "pos": "n", "en": "Japanese league, ri, old Japanese unit of distance, approx. 3.927 km or 2.44 miles; neighbourhood (under the ritsuryō system; orig. of 50 homes); unit of area ("}
+{"i": "x538", "w": "立候補", "r": "りっこうほ", "n": 1, "pos": "vs", "en": "candidacy, standing as a candidate, bidding (to host an event, e.g. the Olympics)"}
+{"i": "x539", "w": "両院", "r": "りょういん", "n": 1, "pos": "n", "en": "both houses of parliament, both upper and lower house"}
+{"i": "x540", "w": "両氏", "r": "りょうし", "n": 1, "pos": "n", "en": "both persons"}
+{"i": "x541", "w": "両日", "r": "りょうじつ", "n": 1, "pos": "n", "en": "both days, two days"}
+{"i": "x542", "w": "連敗", "r": "れんぱい", "n": 1, "pos": "vs", "en": "consecutive defeats, series of defeats"}
+{"i": "x543", "w": "顧客", "r": "こきゃく", "n": 1, "pos": "n", "en": "customer, client, patron"}
+{"i": "x544", "w": "半年", "r": "はんとし", "n": 1, "pos": "n", "en": "half a year, six months"}
+{"i": "x545", "w": "実情", "r": "じつじょう", "n": 1, "pos": "n", "en": "real condition, actual circumstances, actual state of affairs"}
+{"i": "x546", "w": "取り組み", "r": "とりくみ", "n": 1, "pos": "n", "en": "effort, initiative, dealing with; bout (in sports, etc.), match"}
+{"i": "x547", "w": "日々", "r": "ひび", "n": 1, "pos": "adj-no", "en": "daily, everyday; days (e.g. of one's youth); every day, day after day, day by day"}
+{"i": "x548", "w": "申し込み", "r": "もうしこみ", "n": 1, "pos": "n", "en": "application, entry, request"}
+{"i": "x549", "w": "経済的", "r": "けいざいてき", "n": 1, "pos": "adj-na", "en": "economic, financial; economical, thrifty, frugal"}
+{"i": "x550", "w": "日韓", "r": "にっかん", "n": 1, "pos": "n", "en": "Japan and South Korea, Japanese-Korean"}
+{"i": "x551", "w": "抑え", "r": "おさえ", "n": 1, "pos": "n", "en": "weight (e.g. paperweight), pressing down; keeping control, exercising authority; having self-control, exercising self-discipline"}
+{"i": "x552", "w": "適時", "r": "てきじ", "n": 1, "pos": "n", "en": "timely, opportune"}
+{"i": "x553", "w": "竜", "r": "りゅう", "n": 1, "pos": "n", "en": "dragon (esp. a Chinese dragon); naga, semi-divine human-cobra chimera in Hindu and Buddhist mythology; promoted rook"}
+{"i": "x554", "w": "空爆", "r": "くうばく", "n": 1, "pos": "vs", "en": "aerial bombing"}
+{"i": "x555", "w": "経常", "r": "けいじょう", "n": 1, "pos": "adj-no", "en": "ordinary"}
+{"i": "x556", "w": "建設省", "r": "けんせつしょう", "n": 1, "pos": "n", "en": "Ministry of Construction"}
+{"i": "x557", "w": "公定歩合", "r": "こうていぶあい", "n": 1, "pos": "n", "en": "official discount (bank) rate"}
+{"i": "x558", "w": "高裁", "r": "こうさい", "n": 1, "pos": "n", "en": "High Court"}
+{"i": "x559", "w": "最多", "r": "さいた", "n": 1, "pos": "adj-no", "en": "most (numerous), largest (number of)"}
+{"i": "x560", "w": "終了後", "r": "しゅうりょうご", "n": 1, "pos": "n", "en": "after the end (of something)"}

@@ -1,0 +1,567 @@
+{"i": "j0", "w": "ああ", "r": "ああ", "n": 5, "pos": "adv", "en": "like that, so"}
+{"i": "j10", "w": "上げる", "r": "あげる", "n": 5, "pos": "v1", "en": "to raise, to elevate; to move something (to a higher place), to put onto (e.g. a shelf); to increase (price, quality, status, etc.), to raise (a wage)"}
+{"i": "j12", "w": "朝御飯", "r": "あさごはん", "n": 5, "pos": "n", "en": "breakfast"}
+{"i": "j25", "w": "あっち", "r": "あっち", "n": 5, "pos": "pron", "en": "that way, that direction, over there; that (one); that person"}
+{"i": "j26", "w": "後", "r": "あと", "n": 5, "pos": "n", "en": "behind, rear; after, later; remainder, the rest"}
+{"i": "j35", "w": "余り", "r": "あまり", "n": 5, "pos": "n", "en": "remainder, remnant, rest; (not) very, (not) much; too much, excessively, overly"}
+{"i": "j37", "w": "飴", "r": "あめ", "n": 5, "pos": "n", "en": "(hard) candy, toffee; rice-sugar, sugar made from the starch of rice, potatoes, etc.; amber, yellowish-brown"}
+{"i": "j39", "w": "在る", "r": "ある", "n": 5, "pos": "v5r-i", "en": "to be, to exist, to live; to have; to be located"}
+{"i": "j40", "w": "有る", "r": "ある", "n": 5, "pos": "v5r-i", "en": "to be, to exist, to live; to have; to be located"}
+{"i": "j47", "w": "いかが", "r": "いかが", "n": 5, "pos": "adv", "en": "how, in what way, how about; questionable"}
+{"i": "j61", "w": "一緒", "r": "いっしょ", "n": 5, "pos": "n", "en": "(doing) together; one lump, one mixture, the same category; the same, identical"}
+{"i": "j68", "w": "嫌", "r": "いや", "n": 5, "pos": "adj-na", "en": "disliking, not wanting, unwilling (to do); unpleasant, disagreeable, nasty; no!, quit it!, stop!"}
+{"i": "j70", "w": "居る", "r": "いる", "n": 5, "pos": "v1", "en": "to be (of animate objects), to exist; to stay; to be ...-ing"}
+{"i": "j74", "w": "色々", "r": "いろいろ", "n": 5, "pos": "adj-na", "en": "various, a variety of, all sorts of; variously, in various ways, in many ways; various things, this and that"}
+{"i": "j78", "w": "歌", "r": "うた", "n": 5, "pos": "n", "en": "song, singing; classical Japanese poem (esp. tanka); modern poetry"}
+{"i": "j86", "w": "絵", "r": "え", "n": 5, "pos": "n", "en": "picture, drawing, painting; image (TV, film, etc.), picture, footage"}
+{"i": "j87", "w": "映画", "r": "えいが", "n": 5, "pos": "n", "en": "movie, film, motion picture"}
+{"i": "j90", "w": "ええ", "r": "ええ", "n": 5, "pos": "int", "en": "yes, that is correct, right; um, errr, well; huh?"}
+{"i": "j92", "w": "エレベーター", "r": "エレベーター", "n": 5, "pos": "n", "en": "elevator, lift; elevator"}
+{"i": "j96", "w": "美味しい", "r": "おいしい", "n": 5, "pos": "adj-i", "en": "good(-tasting), nice, delicious; attractive (offer, opportunity, etc.), appealing, convenient"}
+{"i": "j99", "w": "大きな", "r": "おおきな", "n": 5, "pos": "adj-pn", "en": "big, large, great"}
+{"i": "j100", "w": "大勢", "r": "おおぜい", "n": 5, "pos": "n", "en": "crowd of people, great number of people; in great numbers"}
+{"i": "j108", "w": "お皿", "r": "おさら", "n": 5, "pos": "n", "en": "plate, dish"}
+{"i": "j109", "w": "伯父", "r": "おじさん", "n": 5, "pos": "n", "en": "uncle; old man, mister; manybar goatfish (Parupeneus multifasciatus)"}
+{"i": "j115", "w": "お手洗い", "r": "おてあらい", "n": 5, "pos": "n", "en": "toilet, restroom, lavatory"}
+{"i": "j121", "w": "おととし", "r": "おととし", "n": 5, "pos": "n", "en": "year before last"}
+{"i": "j127", "w": "伯母さん", "r": "おばさん", "n": 5, "pos": "n", "en": "aunt"}
+{"i": "j132", "w": "おまわりさん", "r": "おまわりさん", "n": 5, "pos": "n", "en": "police officer"}
+{"i": "j137", "w": "終る", "r": "おわる", "n": 5, "pos": "v5r", "en": "to end, to come to an end, to finish; to finish, to complete, to conclude; to finish doing"}
+{"i": "j138", "w": "音楽", "r": "おんがく", "n": 5, "pos": "n", "en": "music"}
+{"i": "j141", "w": "回", "r": "かい", "n": 5, "pos": "ctr", "en": "counter for occurrences; a time, an instance; inning (baseball), round, game"}
+{"i": "j142", "w": "階", "r": "かい", "n": 5, "pos": "suf", "en": "storey, story, floor; stairs; stage (in chronostratigraphy)"}
+{"i": "j156", "w": "か月", "r": "かげつ", "n": 5, "pos": "ctr", "en": "counter for months"}
+{"i": "j165", "w": "片仮名", "r": "かたかな", "n": 5, "pos": "n", "en": "katakana, angular Japanese syllabary used primarily for loanwords"}
+{"i": "j168", "w": "カップ", "r": "カップ", "n": 5, "pos": "n", "en": "cup (drinking vessel, measure, brassiere, prize, etc.)"}
+{"i": "j169", "w": "家庭", "r": "かてい", "n": 5, "pos": "n", "en": "home, household, family"}
+{"i": "j172", "w": "花瓶", "r": "かびん", "n": 5, "pos": "n", "en": "(flower) vase"}
+{"i": "j175", "w": "カメラ", "r": "カメラ", "n": 5, "pos": "n", "en": "camera"}
+{"i": "j180", "w": "がる", "r": "がる", "n": 5, "pos": "v5r", "en": "to show signs of being, to feel, to think; to behave as if one were, to pretend, to act as if"}
+{"i": "j183", "w": "カレンダー", "r": "カレンダー", "n": 5, "pos": "n", "en": "calendar; calender (machine for flattening things)"}
+{"i": "j185", "w": "側", "r": "がわ", "n": 5, "pos": "suf", "en": "side (of something, or taking someone's side), part; (watch) case"}
+{"i": "j186", "w": "可愛い", "r": "かわいい", "n": 5, "pos": "adj-i", "en": "cute, adorable, charming; dear, precious, darling; innocent, childlike, childish"}
+{"i": "j194", "w": "ギター", "r": "ギター", "n": 5, "pos": "n", "en": "guitar"}
+{"i": "j197", "w": "切手", "r": "きって", "n": 5, "pos": "n", "en": "stamp (postage); merchandise certificate"}
+{"i": "j210", "w": "綺麗", "r": "きれい", "n": 5, "pos": "adj-na", "en": "pretty, lovely, beautiful; clean, clear, pure; completely, entirely"}
+{"i": "j211", "w": "キロ", "r": "キロ", "n": 5, "pos": "pref", "en": "kilo-, 1000; kilogram, kilogramme; kilometre, kilometer"}
+{"i": "j216", "w": "下さい", "r": "ください", "n": 5, "pos": "exp", "en": "please (give me); please (do for me)"}
+{"i": "j227", "w": "グラム", "r": "グラム", "n": 5, "pos": "n", "en": "gram, gramme"}
+{"i": "j232", "w": "警官", "r": "けいかん", "n": 5, "pos": "n", "en": "police officer, policeman, constable"}
+{"i": "j240", "w": "個", "r": "こ", "n": 5, "pos": "ctr", "en": "counter for (small) things or pieces; counter for military units; (an) individual, one person"}
+{"i": "j242", "w": "語", "r": "ご", "n": 5, "pos": "suf", "en": "word, term; language; speech"}
+{"i": "j257", "w": "こっち", "r": "こっち", "n": 5, "pos": "pron", "en": "this way, this direction; here; this (one)"}
+{"i": "j261", "w": "子供", "r": "こども", "n": 5, "pos": "n", "en": "child, children"}
+{"i": "j263", "w": "御飯", "r": "ごはん", "n": 5, "pos": "n", "en": "cooked rice; meal"}
+{"i": "j264", "w": "コピーする", "r": "コピーする", "n": 5, "pos": "n", "en": "to copy"}
+{"i": "j267", "w": "ころ", "r": "ころ", "n": 5, "pos": "suf", "en": "(approximate) time, around, about; suitable time (or condition); time of year, season"}
+{"i": "j270", "w": "こんな", "r": "こんな", "n": 5, "pos": "adj-pn", "en": "this sort of, this kind of, like this"}
+{"i": "j272", "w": "さあ", "r": "さあ", "n": 5, "pos": "int", "en": "come (on), come now, come along; all right, right, okay; well, hmm, uh"}
+{"i": "j273", "w": "歳", "r": "さい", "n": 5, "pos": "ctr", "en": "... years old, age (of) ..."}
+{"i": "j276", "w": "先", "r": "さき", "n": 5, "pos": "n", "en": "point, tip, end; head (of a line), front; first, before, ahead (of)"}
+{"i": "j279", "w": "差す", "r": "さす", "n": 5, "pos": "v5s", "en": "to shine; to be visible; to be tinged with"}
+{"i": "j280", "w": "冊", "r": "さつ", "n": 5, "pos": "ctr", "en": "counter for books; volume"}
+{"i": "j281", "w": "雑誌", "r": "ざっし", "n": 5, "pos": "n", "en": "magazine, journal, periodical"}
+{"i": "j284", "w": "さ来年", "r": "さらいねん", "n": 5, "pos": "n", "en": "year after next"}
+{"i": "j287", "w": "散歩", "r": "さんぽ (する)", "n": 5, "pos": "n", "en": "walk, stroll"}
+{"i": "j300", "w": "自動車", "r": "じどうしゃ", "n": 5, "pos": "n", "en": "car, automobile, motorcar"}
+{"i": "j302", "w": "字引", "r": "じびき", "n": 5, "pos": "n", "en": "dictionary"}
+{"i": "j313", "w": "週間", "r": "しゅうかん", "n": 5, "pos": "suf", "en": "week"}
+{"i": "j318", "w": "醤油", "r": "しょうゆ", "n": 5, "pos": "n", "en": "soy sauce, soya sauce, shoyu"}
+{"i": "j319", "w": "食堂", "r": "しょくどう", "n": 5, "pos": "n", "en": "dining room, dining hall, cafeteria; restaurant, eatery, snack bar"}
+{"i": "j326", "w": "吸う", "r": "すう", "n": 5, "pos": "v5u", "en": "to breathe in, to inhale, to smoke (a cigarette, etc.); to suck, to sip, to slurp; to absorb, to soak up"}
+{"i": "j329", "w": "すぎ", "r": "すぎ", "n": 5, "pos": "suf", "en": "past, after; too (much), over- (e.g. eating)"}
+{"i": "j331", "w": "すぐに", "r": "すぐに", "n": 5, "pos": "adv", "en": "immediately, right away, at once"}
+{"i": "j334", "w": "ずつ", "r": "ずつ", "n": 5, "pos": "suf", "en": "apiece, each; at a time, piecemeal"}
+{"i": "j335", "w": "ストーブ", "r": "ストーブ", "n": 5, "pos": "n", "en": "(room) heater, stove"}
+{"i": "j337", "w": "スポーツ", "r": "スポーツ", "n": 5, "pos": "n", "en": "sport, sports"}
+{"i": "j346", "w": "背広", "r": "せびろ", "n": 5, "pos": "n", "en": "business suit"}
+{"i": "j360", "w": "そっち", "r": "そっち", "n": 5, "pos": "pron", "en": "that way, that direction; there; that (one)"}
+{"i": "j367", "w": "それでは", "r": "それでは", "n": 5, "pos": "conj", "en": "well, ..., right, ..., now, ...; so, then; that way (would mean ...), if that is the case, in that case"}
+{"i": "j368", "w": "台", "r": "だい", "n": 5, "pos": "suf", "en": "stand, rest, base; setting (of a gem), mounting; stock (in grafting)"}
+{"i": "j378", "w": "沢山", "r": "たくさん", "n": 5, "pos": "adj-na", "en": "a lot, lots, plenty; enough, sufficient; enough, too many, too much"}
+{"i": "j381", "w": "たち", "r": "たち", "n": 5, "pos": "suf", "en": "pluralizing suffix (esp. for people and animals; formerly honorific)"}
+{"i": "j383", "w": "たて", "r": "たて", "n": 5, "pos": "n", "en": "the vertical, height; front-to-back, length; north-to-south"}
+{"i": "j387", "w": "たばこ", "r": "たばこ", "n": 5, "pos": "n", "en": "tobacco, cigarette, cigar; tobacco plant (Nicotiana tabacum)"}
+{"i": "j393", "w": "誰か", "r": "だれか", "n": 5, "pos": "pron", "en": "someone, somebody"}
+{"i": "j395", "w": "段々", "r": "だんだん", "n": 5, "pos": "adv", "en": "gradually, by degrees, little by little; steps, stairs, staircase"}
+{"i": "j397", "w": "小さな", "r": "ちいさな", "n": 5, "pos": "adj-pn", "en": "small, little, tiny"}
+{"i": "j407", "w": "丁度", "r": "ちょうど", "n": 5, "pos": "adv", "en": "exactly, precisely, just; just (like), as if, as though"}
+{"i": "j412", "w": "次", "r": "つぎ", "n": 5, "pos": "n", "en": "next, following, subsequent; stage, station"}
+{"i": "j417", "w": "勤める", "r": "つとめる", "n": 5, "pos": "v1", "en": "to work (for, at, in), to be employed (at), to serve (as); to finish (a term), to serve (e.g. a sentence), to serve out (e.g. an apprenticeship); to conduct (a "}
+{"i": "j422", "w": "テープ", "r": "テープ", "n": 5, "pos": "n", "en": "tape"}
+{"i": "j423", "w": "テープレコーダー", "r": "テープレコーダー", "n": 5, "pos": "n", "en": "tape recorder"}
+{"i": "j439", "w": "戸", "r": "と", "n": 5, "pos": "n", "en": "door (esp. Japanese-style); shutter, window shutter; entrance (to a home)"}
+{"i": "j440", "w": "度", "r": "ど", "n": 5, "pos": "suf", "en": "degree (angle, temperature, scale, etc.); counter for occurrences; strength (of glasses), glasses prescription"}
+{"i": "j455", "w": "所", "r": "ところ", "n": 5, "pos": "n", "en": "place, spot, scene; address; district, area, locality"}
+{"i": "j456", "w": "年", "r": "とし", "n": 5, "pos": "n", "en": "year; age, years; past one's prime, old age"}
+{"i": "j459", "w": "どっち", "r": "どっち", "n": 5, "pos": "pron", "en": "which way, which direction, where; which one (esp. of two alternatives); who"}
+{"i": "j479", "w": "無くす", "r": "なくす", "n": 5, "pos": "v5s", "en": "to lose (something); to get rid of, to eliminate, to remove"}
+{"i": "j483", "w": "など", "r": "など", "n": 5, "pos": "prt", "en": "et cetera, etc., and the like; or something; the likes of"}
+{"i": "j490", "w": "並べる", "r": "ならべる", "n": 5, "pos": "v1", "en": "to line up, to set up, to arrange in a line; to enumerate, to itemize; to be equal (to), to compare well (with), to be as good (as)"}
+{"i": "j496", "w": "日", "r": "にち", "n": 5, "pos": "suf", "en": "Sunday; nth day (of the month); counter for days"}
+{"i": "j498", "w": "荷物", "r": "にもつ", "n": 5, "pos": "n", "en": "luggage, baggage, package; burden; payload (of a packet, cell, etc.)"}
+{"i": "j499", "w": "ニュース", "r": "ニュース", "n": 5, "pos": "n", "en": "news"}
+{"i": "j503", "w": "温い", "r": "ぬるい", "n": 5, "pos": "adj-i", "en": "lukewarm, tepid; lenient"}
+{"i": "j507", "w": "年", "r": "ねん", "n": 5, "pos": "suf", "en": "year; counter for years (e.g. of an era), grades (e.g. school); period of an apprentice's contract (usu. ten years)"}
+{"i": "j514", "w": "パーティー", "r": "パーティー", "n": 5, "pos": "n", "en": "party (social gathering); party (group of people participating in an activity, esp. mountain climbing); (political) party"}
+{"i": "j516", "w": "杯", "r": "はい", "n": 5, "pos": "suf", "en": "sake cup, cup for alcoholic beverages; counter for cupfuls, bowlfuls, spoonfuls, etc.; counter for boats"}
+{"i": "j517", "w": "灰皿", "r": "はいざら", "n": 5, "pos": "n", "en": "ashtray"}
+{"i": "j519", "w": "葉書", "r": "はがき", "n": 5, "pos": "n", "en": "postcard; memo, note, card"}
+{"i": "j525", "w": "初め", "r": "はじめ", "n": 5, "pos": "n", "en": "beginning, start, outset; first (in line, etc.); origin"}
+{"i": "j529", "w": "バター", "r": "バター", "n": 5, "pos": "n", "en": "butter"}
+{"i": "j530", "w": "二十歳", "r": "はたち", "n": 5, "pos": "n", "en": "20 years old"}
+{"i": "j536", "w": "話", "r": "はなし", "n": 5, "pos": "n", "en": "talk, speech, chat; topic, subject; discussions, negotiation, argument"}
+{"i": "j542", "w": "貼る", "r": "はる", "n": 5, "pos": "v5r", "en": "to stick, to paste, to affix; to stretch, to spread, to strain; to form (e.g. ice on a pond)"}
+{"i": "j549", "w": "ハンカチ", "r": "ハンカチ", "n": 5, "pos": "n", "en": "handkerchief"}
+{"i": "j551", "w": "晩御飯", "r": "ばんごはん", "n": 5, "pos": "n", "en": "dinner, evening meal"}
+{"i": "j554", "w": "匹", "r": "ひき", "n": 5, "pos": "ctr", "en": "counter for small animals; counter for rolls of cloth (two han in size); roll of cloth"}
+{"i": "j563", "w": "一人", "r": "ひとり", "n": 5, "pos": "n", "en": "one person; being alone, being by oneself; being single, being unmarried"}
+{"i": "j568", "w": "平仮名", "r": "ひらがな", "n": 5, "pos": "n", "en": "hiragana, cursive Japanese syllabary used primarily for native Japanese words (esp. function words, inflections, etc.)"}
+{"i": "j570", "w": "昼御飯", "r": "ひるごはん", "n": 5, "pos": "n", "en": "lunch, midday meal"}
+{"i": "j572", "w": "フィルム", "r": "フィルム", "n": 5, "pos": "n", "en": "film"}
+{"i": "j573", "w": "封筒", "r": "ふうとう", "n": 5, "pos": "n", "en": "envelope"}
+{"i": "j574", "w": "プール", "r": "プール", "n": 5, "pos": "n", "en": "(swimming) pool; pool (cue sport); pooling (money, resources, etc.)"}
+{"i": "j580", "w": "二人", "r": "ふたり", "n": 5, "pos": "n", "en": "two persons, two people, pair"}
+{"i": "j586", "w": "分", "r": "ふん", "n": 5, "pos": "suf", "en": "minute (unit of time); fun (one tenth of a monme, 5.787 grains)"}
+{"i": "j587", "w": "文章", "r": "ぶんしょう", "n": 5, "pos": "n", "en": "writing, composition, essay; sentence"}
+{"i": "j588", "w": "ページ", "r": "ページ", "n": 5, "pos": "n", "en": "page; nth page, page ..."}
+{"i": "j593", "w": "辺", "r": "へん", "n": 5, "pos": "n", "en": "area, vicinity, region; side, edge; circumstances"}
+{"i": "j598", "w": "ボールペン", "r": "ボールペン", "n": 5, "pos": "n", "en": "ball-point pen"}
+{"i": "j600", "w": "ポケット", "r": "ポケット", "n": 5, "pos": "n", "en": "pocket"}
+{"i": "j602", "w": "ポスト", "r": "ポスト", "n": 5, "pos": "n", "en": "postbox, mailbox, mail box; post, position; post (e.g. goalpost)"}
+{"i": "j604", "w": "ボタン", "r": "ボタン", "n": 5, "pos": "n", "en": "button (clothing); push-button, button"}
+{"i": "j608", "w": "本当", "r": "ほんとう", "n": 5, "pos": "n", "en": "truth, reality, actuality; proper, right, correct; genuine, authentic, real"}
+{"i": "j609", "w": "枚", "r": "まい", "n": 5, "pos": "ctr", "en": "counter for thin, flat objects (e.g. sheets of paper, plates, coins); counter for portions of gyōza or soba; counter for ranks"}
+{"i": "j617", "w": "曲る", "r": "まがる", "n": 5, "pos": "v5r", "en": "to bend, to curve, to warp; to turn; to be awry, to be askew, to be crooked"}
+{"i": "j623", "w": "まっすぐ", "r": "まっすぐ", "n": 5, "pos": "adj-na", "en": "straight (ahead), direct, upright; straightforward, honest, frank"}
+{"i": "j624", "w": "マッチ", "r": "マッチ", "n": 5, "pos": "n", "en": "match (for lighting a fire)"}
+{"i": "j628", "w": "万年筆", "r": "まんねんひつ", "n": 5, "pos": "n", "en": "fountain pen"}
+{"i": "j650", "w": "メートル", "r": "メートル", "n": 5, "pos": "n", "en": "metre (unit of length), meter; meter, gauge"}
+{"i": "j657", "w": "物", "r": "もの", "n": 5, "pos": "n", "en": "thing, object, article; one's things, possessions, property; things, something, anything"}
+{"i": "j658", "w": "門", "r": "もん", "n": 5, "pos": "n", "en": "gate; branch of learning based on the teachings of a single master, school; phylum, division"}
+{"i": "j660", "w": "屋", "r": "や", "n": 5, "pos": "suf", "en": "shop, store, restaurant; someone who sells (something) or works as (something); someone with a (certain) personality trait"}
+{"i": "j671", "w": "夕飯", "r": "ゆうはん", "n": 5, "pos": "n", "en": "evening meal, dinner, supper"}
+{"i": "j673", "w": "昨夜", "r": "ゆうべ", "n": 5, "pos": "n", "en": "last night, yesterday evening"}
+{"i": "j676", "w": "ゆっくりと", "r": "ゆっくりと", "n": 5, "pos": "n", "en": "slowly, at ease"}
+{"i": "j690", "w": "ラジオ", "r": "ラジオ", "n": 5, "pos": "n", "en": "radio"}
+{"i": "j691", "w": "ラジオカセ", "r": "ラジオカセ", "n": 5, "pos": "n", "en": "radio cassette player"}
+{"i": "j692", "w": "りっぱ", "r": "りっぱ", "n": 5, "pos": "adj-na", "en": "splendid, fine, handsome; praiseworthy, creditable, worthy; legal, legitimate, lawful"}
+{"i": "j699", "w": "レコード", "r": "レコード", "n": 5, "pos": "n", "en": "(phonograph) record; record (esp. in sports); record (data structure)"}
+{"i": "j702", "w": "廊下", "r": "ろうか", "n": 5, "pos": "n", "en": "corridor, hallway, passageway"}
+{"i": "j704", "w": "ワイシャツ", "r": "ワイシャツ", "n": 5, "pos": "n", "en": "(formal) shirt, dress shirt, business shirt"}
+{"i": "j713", "w": "踏む", "r": "ふむ", "n": 4, "pos": "v5m", "en": "to step on, to tread on, to trample on; to set foot on (e.g. foreign soil), to stand on, to visit; to experience, to undergo"}
+{"i": "j714", "w": "区", "r": "く", "n": 4, "pos": "suf", "en": "ward, borough, city (in Tokyo); district (e.g. electoral), section, zone (e.g. postal)"}
+{"i": "j715", "w": "すっと", "r": "すっと", "n": 4, "pos": "adv", "en": "straight, quickly, directly; quietly, gently, softly; to feel refreshed, to feel satisfied"}
+{"i": "j716", "w": "盗む", "r": "ぬすむ", "n": 4, "pos": "v5m", "en": "to steal; to plagiarize, to steal (a technique, idea, etc.), to watch and learn; to do stealthily"}
+{"i": "j717", "w": "大抵", "r": "たいてい", "n": 4, "pos": "adj-na", "en": "mostly, ordinarily, usually; probably; most, almost all"}
+{"i": "j718", "w": "とうとう", "r": "とうとう", "n": 4, "pos": "adv", "en": "finally, at last, in the end"}
+{"i": "j719", "w": "ガソリン", "r": "ガソリン", "n": 4, "pos": "n", "en": "gasoline, petrol"}
+{"i": "j720", "w": "鳴る", "r": "なる", "n": 4, "pos": "v5r", "en": "to sound, to ring, to resound; to be widely known, to be renowned, to be noted (for)"}
+{"i": "j721", "w": "しっかり", "r": "しっかり", "n": 4, "pos": "adv", "en": "tightly (holding on), firmly, securely; strongly (built), solidly, sturdily; properly, well, sufficiently"}
+{"i": "j724", "w": "沸く", "r": "わく", "n": 4, "pos": "v5k", "en": "to grow hot (e.g. water), to boil; to get excited (at), to erupt (in applause, cheering, etc.), to be in a ferment; to ferment"}
+{"i": "j725", "w": "意見", "r": "いけん", "n": 4, "pos": "n", "en": "opinion, view, comment; scolding, reprimand, rebuke"}
+{"i": "j727", "w": "漫画", "r": "まんが", "n": 4, "pos": "n", "en": "cartoon, comic, comic strip"}
+{"i": "j728", "w": "ステレオ", "r": "ステレオ", "n": 4, "pos": "n", "en": "stereo (sound); stereo (player, set); stereo, stereophonic, stereoscopic"}
+{"i": "j729", "w": "医学", "r": "いがく", "n": 4, "pos": "n", "en": "medicine, medical science"}
+{"i": "j730", "w": "テキスト", "r": "テキスト", "n": 4, "pos": "n", "en": "text; textbook"}
+{"i": "j732", "w": "折る", "r": "おる", "n": 4, "pos": "v5r", "en": "to break, to fracture, to break off; to fold, to bend; to make (origami)"}
+{"i": "j733", "w": "会", "r": "かい", "n": 4, "pos": "suf", "en": "meeting, assembly, party; society, association, club"}
+{"i": "j737", "w": "必ず", "r": "かならず", "n": 4, "pos": "adv", "en": "always, without exception, necessarily"}
+{"i": "j738", "w": "壊す", "r": "こわす", "n": 4, "pos": "v5s", "en": "to break, to destroy, to demolish; to wreck, to ruin, to spoil; to break (a bill, etc.)"}
+{"i": "j740", "w": "床屋", "r": "とこや", "n": 4, "pos": "n", "en": "barbershop, barber shop, barber"}
+{"i": "j741", "w": "オートバイ", "r": "オートバイ", "n": 4, "pos": "n", "en": "motorcycle, motorbike"}
+{"i": "j742", "w": "運動", "r": "うんどうする", "n": 4, "pos": "n", "en": "exercise"}
+{"i": "j744", "w": "もし", "r": "もし", "n": 4, "pos": "adv", "en": "if, in case, supposing"}
+{"i": "j745", "w": "表", "r": "おもて", "n": 4, "pos": "n", "en": "surface; face (i.e. the visible side of an object); front (of a building, etc.), obverse side (i.e. \"head\") of a coin"}
+{"i": "j746", "w": "大学生", "r": "だいがくせい", "n": 4, "pos": "n", "en": "university student, college student"}
+{"i": "j747", "w": "運転手", "r": "うんてんしゅ", "n": 4, "pos": "n", "en": "driver, chauffeur"}
+{"i": "j748", "w": "予習", "r": "よしゅう", "n": 4, "pos": "vs", "en": "preparation for a lesson"}
+{"i": "j750", "w": "別", "r": "べつ", "n": 4, "pos": "n", "en": "distinction, difference, discrimination; separate, different, another; exception, exclusion"}
+{"i": "j751", "w": "非常に", "r": "ひじょうに", "n": 4, "pos": "adv", "en": "very, extremely, exceedingly"}
+{"i": "j752", "w": "お宅", "r": "おたく", "n": 4, "pos": "n", "en": "your house, your home, your family; your husband; your organization"}
+{"i": "j754", "w": "拾う", "r": "ひろう", "n": 4, "pos": "v5u", "en": "to pick up, to gather; to find (and pick up; something someone has dropped); to select, to choose, to pick out"}
+{"i": "j756", "w": "気", "r": "き", "n": 4, "pos": "n", "en": "spirit, mind, heart; nature, disposition; intention, mind, will"}
+{"i": "j757", "w": "比べる", "r": "くらべる", "n": 4, "pos": "v1", "en": "to compare, to make a comparison (between); to compete (on), to measure (one's strength, ability, etc. against another's)"}
+{"i": "j759", "w": "つもり", "r": "つもり", "n": 4, "pos": "n", "en": "intention, plan, purpose; belief, assumption, thought; estimate, estimation, calculation"}
+{"i": "j760", "w": "郊外", "r": "こうがい", "n": 4, "pos": "n", "en": "suburb, residential area on the outskirt of a city, commuter belt"}
+{"i": "j762", "w": "売り場", "r": "うりば", "n": 4, "pos": "n", "en": "selling area, counter, section; favorable time to sell, good time to sell"}
+{"i": "j763", "w": "正月", "r": "しょうがつ", "n": 4, "pos": "n", "en": "New Year (esp. first three days); first month of the year, January"}
+{"i": "j764", "w": "規則", "r": "きそく", "n": 4, "pos": "n", "en": "rule, regulation"}
+{"i": "j767", "w": "焼く", "r": "やく", "n": 4, "pos": "v5k", "en": "to burn; to roast, to broil, to grill; to heat, to heat up"}
+{"i": "j768", "w": "屋上", "r": "おくじょう", "n": 4, "pos": "n", "en": "rooftop"}
+{"i": "j769", "w": "失礼", "r": "しつれい", "n": 4, "pos": "n", "en": "discourtesy, impoliteness; excuse me, goodbye; to leave"}
+{"i": "j771", "w": "アフリカ", "r": "アフリカ", "n": 4, "pos": "n", "en": "Africa"}
+{"i": "j773", "w": "一生懸命", "r": "いっしょうけんめい", "n": 4, "pos": "adj-na", "en": "very hard, with utmost effort, as hard as one can"}
+{"i": "j774", "w": "今度", "r": "こんど", "n": 4, "pos": "n", "en": "this time, now; next time, another time, shortly; recently, lately, the other day"}
+{"i": "j775", "w": "機会", "r": "きかい", "n": 4, "pos": "n", "en": "chance, opportunity, occasion"}
+{"i": "j776", "w": "建てる", "r": "たてる", "n": 4, "pos": "v1", "en": "to build, to construct"}
+{"i": "j777", "w": "複雑", "r": "ふくざつ", "n": 4, "pos": "adj-na", "en": "complex, complicated, intricate"}
+{"i": "j782", "w": "贈り物", "r": "おくりもの", "n": 4, "pos": "n", "en": "present, gift"}
+{"i": "j783", "w": "泥棒", "r": "どろぼう", "n": 4, "pos": "n", "en": "thief, burglar, robber; theft, burglary, robbery"}
+{"i": "j784", "w": "製", "r": "せい", "n": 4, "pos": "suf", "en": "make, manufacture, -made"}
+{"i": "j785", "w": "注意", "r": "ちゅうい", "n": 4, "pos": "vs", "en": "attention, notice, heed; care, caution, precaution; advice, warning, caution"}
+{"i": "j787", "w": "日", "r": "ひ", "n": 4, "pos": "n", "en": "day, days; sun, sunshine, sunlight; (the) day, daytime, daylight"}
+{"i": "j788", "w": "軒", "r": "けん", "n": 4, "pos": "ctr", "en": "counter for buildings (esp. houses); suffix for a pen name, stage name, etc."}
+{"i": "j789", "w": "通る", "r": "とおる", "n": 4, "pos": "v5r", "en": "to go by, to go past, to go along; to run (between; of a rail service, bus route, etc.), to operate (between), to connect; to go indoors, to go into a room, to "}
+{"i": "j790", "w": "過ぎる", "r": "すぎる", "n": 4, "pos": "v1", "en": "to pass through, to pass by, to go beyond; to pass (of time), to elapse; to have expired, to have ended, to be over"}
+{"i": "j791", "w": "レポート", "r": "レポート", "n": 4, "pos": "vs", "en": "report, paper; reportage"}
+{"i": "j794", "w": "課長", "r": "かちょう", "n": 4, "pos": "n", "en": "section manager, section chief"}
+{"i": "j796", "w": "すると", "r": "すると", "n": 4, "pos": "conj", "en": "(and) then, and, thereupon; in that case, then, so"}
+{"i": "j797", "w": "止める", "r": "やめる", "n": 4, "pos": "v1", "en": "to stop (an activity), to cease, to discontinue; to cancel, to abandon, to give up"}
+{"i": "j798", "w": "ガラス", "r": "ガラス", "n": 4, "pos": "n", "en": "glass, pane"}
+{"i": "j799", "w": "学部", "r": "がくぶ", "n": 4, "pos": "suf", "en": "faculty (of a university), school, college"}
+{"i": "j801", "w": "エスカレーター", "r": "エスカレーター", "n": 4, "pos": "n", "en": "escalator"}
+{"i": "j802", "w": "人口", "r": "じんこう", "n": 4, "pos": "n", "en": "population; common talk"}
+{"i": "j803", "w": "絹", "r": "きぬ", "n": 4, "pos": "n", "en": "silk"}
+{"i": "j804", "w": "ちっとも", "r": "ちっとも", "n": 4, "pos": "adv", "en": "(not) at all, (not) a bit, (not) in the least"}
+{"i": "j808", "w": "落る", "r": "おちる", "n": 4, "pos": "v1", "en": "to fall, to drop, to come down; to set (of the sun or moon), to sink, to dip; to decrease (of popularity, quality, speed, sales, etc.), to fall, to drop"}
+{"i": "j809", "w": "できるだけ", "r": "できるだけ", "n": 4, "pos": "adv", "en": "as much as one can, as much as possible, if at all possible"}
+{"i": "j812", "w": "ガス", "r": "ガス", "n": 4, "pos": "n", "en": "gas (as a fuel); gas (state of matter); poison gas"}
+{"i": "j813", "w": "祈る", "r": "いのる", "n": 4, "pos": "v5r", "en": "to pray, to say a prayer, to say grace; to wish, to hope"}
+{"i": "j814", "w": "盛ん", "r": "さかん", "n": 4, "pos": "adj-na", "en": "prosperous, flourishing, thriving; popular, widespread; active, lively, energetic"}
+{"i": "j815", "w": "アルバイト", "r": "アルバイト", "n": 4, "pos": "vs", "en": "part-time job, side job; part-time worker"}
+{"i": "j816", "w": "起こす", "r": "おこす", "n": 4, "pos": "v5s", "en": "to raise, to raise up, to set up; to wake, to wake up, to waken; to cause, to bring about, to lead to"}
+{"i": "j817", "w": "致す", "r": "いたす", "n": 4, "pos": "v5s", "en": "to do"}
+{"i": "j818", "w": "噛む", "r": "かむ", "n": 4, "pos": "v5m", "en": "to bite; to chew, to gnaw, to masticate; to fumble one's words (esp. during a play, broadcast, etc.), to falter with one's words, to stutter"}
+{"i": "j820", "w": "浅い", "r": "あさい", "n": 4, "pos": "adj-i", "en": "shallow, superficial; slight (wound), light (sleep), pale (colour); short (time), early, young"}
+{"i": "j821", "w": "嘘", "r": "うそ", "n": 4, "pos": "n", "en": "lie, fib, falsehood; mistake, error; unwise move, bad decision"}
+{"i": "j822", "w": "小説", "r": "しょうせつ", "n": 4, "pos": "n", "en": "novel, story, (work of) fiction"}
+{"i": "j824", "w": "それに", "r": "それに", "n": 4, "pos": "conj", "en": "besides, in addition, also"}
+{"i": "j825", "w": "西洋", "r": "せいよう", "n": 4, "pos": "n", "en": "the West, the Occident, Western countries"}
+{"i": "j827", "w": "パート (タイム)", "r": "パート (タイム)", "n": 4, "pos": "n", "en": "part time (esp. female part time employees)"}
+{"i": "j828", "w": "時代", "r": "じだい", "n": 4, "pos": "n", "en": "period, epoch, era; the times, those days; oldness, ancientness, antiquity"}
+{"i": "j830", "w": "式", "r": "しき", "n": 4, "pos": "suf", "en": "way, style, fashion; ceremony, rite, ritual; wedding (ceremony)"}
+{"i": "j831", "w": "出席", "r": "しゅっせきする", "n": 4, "pos": "n", "en": "attendance"}
+{"i": "j833", "w": "迎える", "r": "むかえる", "n": 4, "pos": "v1", "en": "to go out to meet, to receive, to welcome; to call for, to summon, to invite; to accept (e.g. as a member of a group or family), to take (e.g. a wife)"}
+{"i": "j834", "w": "触る", "r": "さわる", "n": 4, "pos": "v5r", "en": "to touch, to feel, to handle; to get involved (with), to approach; to be harmful to, to hinder, to interfere with"}
+{"i": "j835", "w": "建て", "r": "だて", "n": 4, "pos": "suf", "en": "indicates storeys, structures, or materials used in a building; indicates denomination"}
+{"i": "j836", "w": "社長", "r": "しゃちょう", "n": 4, "pos": "n", "en": "company president, manager, director"}
+{"i": "j838", "w": "捕まえる", "r": "つかまえる", "n": 4, "pos": "v1", "en": "to catch, to capture, to arrest; to grab, to clutch, to grasp; to catch hold of (someone), to stop (e.g. a stranger in the street), to hail (a taxi, waiter, etc"}
+{"i": "j840", "w": "寄る", "r": "よる", "n": 4, "pos": "v5r", "en": "to approach, to draw near, to come near; to gather (in one place), to come together, to meet; to stop by (while on one's way to another place), to drop by, to m"}
+{"i": "j841", "w": "決まる", "r": "きまる", "n": 4, "pos": "v5r", "en": "to be decided, to be settled, to be fixed; to be unchanging, to be the same (as always), to be fixed; to be a fixed rule, to be destined, to be a convention"}
+{"i": "j843", "w": "逃げる", "r": "にげる", "n": 4, "pos": "v1", "en": "to run away, to flee, to get away (e.g. from danger); to avoid (a question, responsibility, etc.), to evade, to dodge; to win without being overtaken, to hold o"}
+{"i": "j848", "w": "地理", "r": "ちり", "n": 4, "pos": "n", "en": "geography"}
+{"i": "j849", "w": "さっき", "r": "さっき", "n": 4, "pos": "n", "en": "a short while ago, a moment ago, just now"}
+{"i": "j851", "w": "包む", "r": "つつむ", "n": 4, "pos": "v5m", "en": "to wrap up, to pack, to bundle; to cover, to envelop, to shroud; to conceal (a feeling), to hide"}
+{"i": "j852", "w": "なるべく", "r": "なるべく", "n": 4, "pos": "adv", "en": "as (much) as possible, as (much) as one can, wherever practicable"}
+{"i": "j854", "w": "サンドイッチ", "r": "サンドイッチ", "n": 4, "pos": "n", "en": "sandwich"}
+{"i": "j855", "w": "会議室", "r": "かいぎしつ", "n": 4, "pos": "n", "en": "conference room, council room"}
+{"i": "j856", "w": "品物", "r": "しなもの", "n": 4, "pos": "n", "en": "article, item, thing"}
+{"i": "j857", "w": "人形", "r": "にんぎょう", "n": 4, "pos": "n", "en": "doll, puppet, marionette; puppet (person under the control of another), straw man, yes-man"}
+{"i": "j858", "w": "利用", "r": "りよう", "n": 4, "pos": "vs", "en": "use, utilization, utilisation"}
+{"i": "j859", "w": "飾る", "r": "かざる", "n": 4, "pos": "v5r", "en": "to decorate, to ornament, to adorn; to display, to exhibit, to put on show; to mark (e.g. the day with a victory), to adorn (e.g. the front page), to grace (e.g"}
+{"i": "j860", "w": "止める", "r": "とめる", "n": 4, "pos": "v1", "en": "to stop, to turn off; to park; to prevent, to suppress (a cough), to hold back (tears)"}
+{"i": "j862", "w": "いくら～ても", "r": "いくら～ても", "n": 4, "pos": "n", "en": "however much one may ~"}
+{"i": "j863", "w": "用事", "r": "ようじ", "n": 4, "pos": "n", "en": "business, things to do, engagement"}
+{"i": "j865", "w": "けんかする", "r": "けんかする", "n": 4, "pos": "n", "en": "quarrel"}
+{"i": "j867", "w": "投げる", "r": "なげる", "n": 4, "pos": "v1", "en": "to throw, to hurl, to fling; to give up, to abandon, to throw away; to cast (a glance, shadow, doubt, etc.)"}
+{"i": "j868", "w": "故障", "r": "こしょうする", "n": 4, "pos": "n", "en": "breakdown"}
+{"i": "j869", "w": "力", "r": "ちから", "n": 4, "pos": "n", "en": "force, strength, might; capability, ability, proficiency; efficacy, effect"}
+{"i": "j870", "w": "受ける", "r": "うける", "n": 4, "pos": "v1", "en": "to receive, to get; to catch (e.g. a ball); to be struck by (wind, waves, sunlight, etc.)"}
+{"i": "j872", "w": "間違える", "r": "まちがえる", "n": 4, "pos": "v1", "en": "to make a mistake (in), to commit an error, to get wrong; to mistake (one thing for another), to confuse"}
+{"i": "j875", "w": "場合", "r": "ばあい", "n": 4, "pos": "n", "en": "case, occasion, situation"}
+{"i": "j878", "w": "行う", "r": "おこなう", "n": 4, "pos": "v5u", "en": "to perform, to do, to conduct oneself"}
+{"i": "j880", "w": "無くなる", "r": "なくなる", "n": 4, "pos": "v5r", "en": "to be lost (e.g. luggage), to be missing; to be used up, to be run out, to be exhausted; to disappear (e.g. pain), to be lost (e.g. a dream, confidence)"}
+{"i": "j881", "w": "準備", "r": "じゅんびする", "n": 4, "pos": "n", "en": "prepare"}
+{"i": "j884", "w": "再来月", "r": "さらいげつ", "n": 4, "pos": "n", "en": "month after next"}
+{"i": "j886", "w": "倍", "r": "ばい", "n": 4, "pos": "n", "en": "double, twice (as much); times (as much), -fold; 1-nth, 1 to n, 1 in n"}
+{"i": "j888", "w": "線", "r": "せん", "n": 4, "pos": "n", "en": "line, stripe, stria; line (e.g. telephone line), wire; ray (e.g. X-ray), beam"}
+{"i": "j889", "w": "戦争", "r": "せんそう", "n": 4, "pos": "vs", "en": "war; fighting, fierce competition"}
+{"i": "j892", "w": "寝坊", "r": "ねぼう", "n": 4, "pos": "vs", "en": "sleeping in late, oversleeping; late riser, sleepyhead"}
+{"i": "j893", "w": "パパ", "r": "パパ", "n": 4, "pos": "n", "en": "dad, daddy, papa; sugar daddy"}
+{"i": "j897", "w": "坂", "r": "さか", "n": 4, "pos": "n", "en": "slope, incline, hill; milestone, (age) mark"}
+{"i": "j898", "w": "(て) しまう", "r": "(て) しまう", "n": 4, "pos": "suf", "en": "to end up ~"}
+{"i": "j899", "w": "飛行場", "r": "ひこうじょう", "n": 4, "pos": "n", "en": "airfield, airport, aerodrome"}
+{"i": "j900", "w": "柔道", "r": "じゅうどう", "n": 4, "pos": "n", "en": "judo"}
+{"i": "j901", "w": "決して", "r": "けっして", "n": 4, "pos": "adv", "en": "(not) ever, (not) by any means, (not) in the least"}
+{"i": "j902", "w": "事務所", "r": "じむしょ", "n": 4, "pos": "n", "en": "office"}
+{"i": "j903", "w": "連絡", "r": "れんらく", "n": 4, "pos": "vs", "en": "contacting, (making) contact, getting in touch; connection (with a train, bus, etc.), joining (a railway line, etc.), meeting; connection (between matters, inci"}
+{"i": "j910", "w": "事", "r": "こと", "n": 4, "pos": "n", "en": "thing, matter; incident, occurrence, event; circumstances, situation, state of affairs"}
+{"i": "j911", "w": "どんどん", "r": "どんどん", "n": 4, "pos": "adv", "en": "drumming (noise), beating, pounding; rapidly, quickly, steadily; continuously, one after the other, in succession"}
+{"i": "j912", "w": "試合", "r": "しあい", "n": 4, "pos": "vs", "en": "match, game, bout"}
+{"i": "j913", "w": "適当", "r": "てきとう", "n": 4, "pos": "adj-na", "en": "suitable, proper, appropriate; perfunctory, half-minded, sloppy"}
+{"i": "j917", "w": "終わり", "r": "おわり", "n": 4, "pos": "n", "en": "end, ending, close; end of (one's) life, death"}
+{"i": "j919", "w": "一度", "r": "いちど", "n": 4, "pos": "n", "en": "once, one time, on one occasion; one degree, one tone, one musical interval"}
+{"i": "j920", "w": "お礼", "r": "おれい", "n": 4, "pos": "n", "en": "thanks, gratitude; manners, etiquette; bow"}
+{"i": "j922", "w": "知らせる", "r": "しらせる", "n": 4, "pos": "v1", "en": "to notify, to advise, to inform"}
+{"i": "j924", "w": "熱心", "r": "ねっしん", "n": 4, "pos": "adj-na", "en": "zealous, enthusiastic, ardent"}
+{"i": "j928", "w": "治る", "r": "なおる", "n": 4, "pos": "v5r", "en": "to get better, to get well, to recover (from an illness)"}
+{"i": "j930", "w": "お祭り", "r": "おまつり", "n": 4, "pos": "n", "en": "festival, feast, carnival"}
+{"i": "j931", "w": "水道", "r": "すいどう", "n": 4, "pos": "n", "en": "water supply, water service, waterworks; channel, strait; water course, waterway"}
+{"i": "j932", "w": "匂い", "r": "におい", "n": 4, "pos": "n", "en": "smell, scent, odour; aura, whiff, smack; faint, mist-like pattern along the temper line of a Japanese sword"}
+{"i": "j933", "w": "ベル", "r": "ベル", "n": 4, "pos": "n", "en": "bell"}
+{"i": "j934", "w": "赤ん坊", "r": "あかんぼう", "n": 4, "pos": "n", "en": "baby, infant"}
+{"i": "j936", "w": "事故", "r": "じこ", "n": 4, "pos": "n", "en": "accident, incident, trouble; circumstances, reasons"}
+{"i": "j938", "w": "辞典", "r": "じてん", "n": 4, "pos": "n", "en": "dictionary, lexicon"}
+{"i": "j939", "w": "残る", "r": "のこる", "n": 4, "pos": "v5r", "en": "to remain, to be left"}
+{"i": "j940", "w": "立てる", "r": "たてる", "n": 4, "pos": "v1", "en": "to stand (something) up, to put upright, to set up; to thrust into, to bury into, to dig into; to make (a noise), to let out, to produce (a sound)"}
+{"i": "j942", "w": "員", "r": "いん", "n": 4, "pos": "suf", "en": "member"}
+{"i": "j943", "w": "原因", "r": "げんいん", "n": 4, "pos": "vs", "en": "cause, origin, source"}
+{"i": "j948", "w": "答", "r": "こたえ", "n": 4, "pos": "n", "en": "answer, reply, response; answer, solution, result"}
+{"i": "j950", "w": "漬ける", "r": "つける", "n": 4, "pos": "v1", "en": "to soak (in), to steep, to dip; to pickle, to preserve (in salt, vinegar, etc.)"}
+{"i": "j951", "w": "受付", "r": "うけつけ", "n": 4, "pos": "n", "en": "reception (desk), information desk, receptionist; receipt, acceptance"}
+{"i": "j952", "w": "内", "r": "うち", "n": 4, "pos": "n", "en": "inside, within; while (e.g. one is young), during, within (e.g. a day); among, amongst, (out) of"}
+{"i": "j953", "w": "スクリーン", "r": "スクリーン", "n": 4, "pos": "n", "en": "screen; curtain; raster"}
+{"i": "j955", "w": "または", "r": "または", "n": 4, "pos": "conj", "en": "or, either ... or ..."}
+{"i": "j956", "w": "けがする", "r": "けがする", "n": 4, "pos": "n", "en": "injury (to animate object), hurt"}
+{"i": "j957", "w": "以下", "r": "いか", "n": 4, "pos": "suf", "en": "not exceeding ..., not more than ..., ... and under; below (a standard, level, etc.), under, beneath; the following, the below-mentioned, the rest"}
+{"i": "j959", "w": "ばかり", "r": "ばかり", "n": 4, "pos": "prt", "en": "only, merely, nothing but; approximately, about; just (finished, etc.)"}
+{"i": "j963", "w": "届ける", "r": "とどける", "n": 4, "pos": "v1", "en": "to deliver, to forward, to send; to report, to notify, to file notice (to the authorities)"}
+{"i": "j964", "w": "挨拶", "r": "あいさつする", "n": 4, "pos": "n", "en": "greet(ing)"}
+{"i": "j966", "w": "確か", "r": "たしか", "n": 4, "pos": "adj-na", "en": "sure, certain, positive; reliable, trustworthy, safe; If I'm not mistaken, If I remember correctly, If I remember rightly"}
+{"i": "j967", "w": "ステーキ", "r": "ステーキ", "n": 4, "pos": "n", "en": "steak"}
+{"i": "j968", "w": "食料品", "r": "しょくりょうひん", "n": 4, "pos": "n", "en": "foodstuff, groceries"}
+{"i": "j970", "w": "以内", "r": "いない", "n": 4, "pos": "n", "en": "within, inside of, less than"}
+{"i": "j971", "w": "予定", "r": "よてい", "n": 4, "pos": "vs", "en": "plans, arrangement, schedule"}
+{"i": "j972", "w": "オーバー", "r": "オーバー", "n": 4, "pos": "n", "en": "overcoat; exceeding, going over, going beyond; exaggerated, overdone, over the top"}
+{"i": "j973", "w": "乾く", "r": "かわく", "n": 4, "pos": "v5k", "en": "to get dry"}
+{"i": "j978", "w": "塗る", "r": "ぬる", "n": 4, "pos": "v5r", "en": "to paint, to spread, to plaster"}
+{"i": "j981", "w": "用", "r": "よう", "n": 4, "pos": "n", "en": "business, task, errand; use, purpose; for the use of ..., used for ..., made for ..."}
+{"i": "j982", "w": "公務員", "r": "こうむいん", "n": 4, "pos": "n", "en": "public employee, government employee, public-sector worker"}
+{"i": "j983", "w": "お嬢さん", "r": "おじょうさん", "n": 4, "pos": "n", "en": "(another's) daughter; young lady"}
+{"i": "j984", "w": "用意", "r": "ようい", "n": 4, "pos": "vs", "en": "preparation, arrangements, provision"}
+{"i": "j988", "w": "すっかり", "r": "すっかり", "n": 4, "pos": "adv", "en": "all, completely, totally"}
+{"i": "j989", "w": "アナウンサー", "r": "アナウンサー", "n": 4, "pos": "n", "en": "announcer, presenter, broadcaster; in-house television talent who does on-location fluff pieces for variety shows"}
+{"i": "j990", "w": "お土産", "r": "おみやげ", "n": 4, "pos": "n", "en": "local specialty or souvenir bought as a gift while traveling (travelling); present brought by a visitor; something unpleasant that one is given (e.g. an illness"}
+{"i": "j993", "w": "海岸", "r": "かいがん", "n": 4, "pos": "n", "en": "seashore, coast, seaside"}
+{"i": "j996", "w": "育てる", "r": "そだてる", "n": 4, "pos": "v1", "en": "to raise, to rear, to bring up; to train, to teach, to educate; to promote the growth of, to nurture, to foster"}
+{"i": "j997", "w": "味噌", "r": "みそ", "n": 4, "pos": "n", "en": "miso, fermented condiment usu. made from soybeans; innards (from crabs, shrimps, etc.) resembling miso; key point, main point, good part (of something)"}
+{"i": "j998", "w": "お祝い", "r": "おいわい", "n": 4, "pos": "n", "en": "congratulation, congratulations, celebration; congratulatory gift, present"}
+{"i": "j999", "w": "乗り物", "r": "のりもの", "n": 4, "pos": "n", "en": "vehicle, conveyance, (means of) transport; ride (at a fair, amusement park, etc.), attraction"}
+{"i": "j1000", "w": "案内", "r": "あんないする", "n": 4, "pos": "n", "en": "information, guidance"}
+{"i": "j1001", "w": "通う", "r": "かよう", "n": 4, "pos": "v5u", "en": "to go to and from (a place), to go back and forth between, to run between (e.g. bus, train, etc.); to go to (school, work, etc.), to attend, to commute; to circ"}
+{"i": "j1002", "w": "連れる", "r": "つれる", "n": 4, "pos": "v1", "en": "to take (someone) with one, to bring along, to go with"}
+{"i": "j1003", "w": "技術", "r": "ぎじゅつ", "n": 4, "pos": "n", "en": "technology, engineering; technique, skill; art, craft"}
+{"i": "j1004", "w": "小鳥", "r": "ことり", "n": 4, "pos": "n", "en": "small bird, little bird"}
+{"i": "j1005", "w": "下宿", "r": "げしゅく", "n": 4, "pos": "vs", "en": "boarding, lodging, board and lodging; boarding house, lodging house, lodgings"}
+{"i": "j1006", "w": "ジャム", "r": "ジャム", "n": 4, "pos": "n", "en": "jam"}
+{"i": "j1007", "w": "招待", "r": "しょうたいする", "n": 4, "pos": "n", "en": "invitation"}
+{"i": "j1009", "w": "はず", "r": "はず", "n": 4, "pos": "aux", "en": "should (be), bound (to be), expected (to be); nock (of a bow); nock (of an arrow)"}
+{"i": "j1010", "w": "法律", "r": "ほうりつ", "n": 4, "pos": "n", "en": "law, legislation, act"}
+{"i": "j1011", "w": "進む", "r": "すすむ", "n": 4, "pos": "v5m", "en": "to advance (spatially), to go forward, to move forward; to precede, to go ahead (of), to be ahead (e.g. of the times); to make progress, to move ahead (e.g. of "}
+{"i": "j1012", "w": "楽む", "r": "たのしむ", "n": 4, "pos": "v5m", "en": "to enjoy, to take pleasure in, to have a good time; to look forward to"}
+{"i": "j1013", "w": "貿易", "r": "ぼうえき", "n": 4, "pos": "vs", "en": "(foreign) trade, (international) commerce, importing and exporting"}
+{"i": "j1014", "w": "反対", "r": "はんたい", "n": 4, "pos": "vs", "en": "opposition, resistance, antagonism; reverse, opposite, inverse"}
+{"i": "j1021", "w": "よろしい", "r": "よろしい", "n": 4, "pos": "adj-i", "en": "good, OK, all right"}
+{"i": "j1022", "w": "今夜", "r": "こんや", "n": 4, "pos": "n", "en": "this evening, tonight"}
+{"i": "j1024", "w": "チェックする", "r": "チェックする", "n": 4, "pos": "n", "en": "check"}
+{"i": "j1027", "w": "交通", "r": "こうつう", "n": 4, "pos": "vs", "en": "traffic, transportation; communication, exchange (of ideas, etc.); intercourse"}
+{"i": "j1028", "w": "ワープロ", "r": "ワープロ", "n": 4, "pos": "n", "en": "word processor"}
+{"i": "j1030", "w": "急行", "r": "きゅうこう", "n": 4, "pos": "vs", "en": "hurrying (to somewhere), rushing, hastening; express (train)"}
+{"i": "j1031", "w": "皆", "r": "みな", "n": 4, "pos": "n", "en": "everyone, everybody, all; everything, all"}
+{"i": "j1035", "w": "校長", "r": "こうちょう", "n": 4, "pos": "n", "en": "principal, head teacher, headmaster"}
+{"i": "j1036", "w": "ごちそう", "r": "ごちそう", "n": 4, "pos": "vs", "en": "treat (esp. food and drink), entertainment, treating someone (to a meal); gorgeous dinner, feast, excellent food"}
+{"i": "j1037", "w": "踊り", "r": "おどり", "n": 4, "pos": "n", "en": "dancing, dance; iteration mark (used to represent repetition of the previous character); Bon Festival dance, Lantern Festival dance"}
+{"i": "j1040", "w": "冷房", "r": "れいぼう", "n": 4, "pos": "vs", "en": "air conditioning, air cooling"}
+{"i": "j1041", "w": "都合", "r": "つごう", "n": 4, "pos": "n", "en": "circumstances, condition, convenience; arranging, managing; lending money, raising money"}
+{"i": "j1042", "w": "遠慮", "r": "えんりょする", "n": 4, "pos": "n", "en": "restraint, reserve, hesitate"}
+{"i": "j1043", "w": "亡くなる", "r": "なくなる", "n": 4, "pos": "v5r", "en": "to die, to pass away"}
+{"i": "j1044", "w": "科学", "r": "かがく", "n": 4, "pos": "n", "en": "science; to think about scientifically, to think in terms of science"}
+{"i": "j1045", "w": "はっきり", "r": "はっきり", "n": 4, "pos": "adv", "en": "clearly, plainly, distinctly; to be clear, to be definite, to be certain; to feel clear-headed, to feel refreshed"}
+{"i": "j1051", "w": "凄い", "r": "すごい", "n": 4, "pos": "adj-i", "en": "terrible, dreadful; amazing (e.g. of strength), great (e.g. of skills), wonderful; to a great extent, vast (in numbers)"}
+{"i": "j1052", "w": "入学", "r": "にゅうがくする", "n": 4, "pos": "n", "en": "entry to school or university"}
+{"i": "j1054", "w": "写す", "r": "うつす", "n": 4, "pos": "v5s", "en": "to copy, to duplicate, to reproduce; to describe, to depict, to portray; to imitate, to model after"}
+{"i": "j1056", "w": "部長", "r": "ぶちょう", "n": 4, "pos": "n", "en": "head (chief, director) of a section or department; head of a (school) club, head of a (school) team"}
+{"i": "j1057", "w": "火事", "r": "かじ", "n": 4, "pos": "n", "en": "fire, conflagration"}
+{"i": "j1058", "w": "足す", "r": "たす", "n": 4, "pos": "v5s", "en": "to add (numbers); to add (something), to top up (with something); to take care of (e.g. one's business)"}
+{"i": "j1059", "w": "教会", "r": "きょうかい", "n": 4, "pos": "n", "en": "church, congregation"}
+{"i": "j1061", "w": "一杯", "r": "いっぱい", "n": 4, "pos": "n", "en": "one cup (of), one glass (of), one bowl (of); one drink (of alcohol); full, filled (with), brimming (with)"}
+{"i": "j1064", "w": "理由", "r": "りゆう", "n": 4, "pos": "n", "en": "reason, grounds, pretext"}
+{"i": "j1065", "w": "生産", "r": "せいさんする", "n": 4, "pos": "n", "en": "production; to produce"}
+{"i": "j1067", "w": "おもちゃ", "r": "おもちゃ", "n": 4, "pos": "n", "en": "toy; (person or thing treated as a) plaything"}
+{"i": "j1068", "w": "暮れる", "r": "くれる", "n": 4, "pos": "v1", "en": "to get dark, to grow dark; to end (of a day, year, season, etc.), to come to an end, to close; to be sunk in (e.g. despair), to be lost in (e.g. thought), to be"}
+{"i": "j1069", "w": "釣る", "r": "つる", "n": 4, "pos": "v5r", "en": "to fish, to angle, to catch; to lure in, to tempt, to attract"}
+{"i": "j1071", "w": "打つ", "r": "うつ", "n": 4, "pos": "v5t", "en": "to hit, to strike, to knock; to strike (noon, etc.), to sound (cymbals, etc.), to beat (a drum, etc.); to beat (rhythmically, e.g. pulse, waves, etc.)"}
+{"i": "j1072", "w": "あんな", "r": "あんな", "n": 4, "pos": "adj-pn", "en": "that sort of, that kind of, like that"}
+{"i": "j1074", "w": "昼間", "r": "ひるま", "n": 4, "pos": "n", "en": "daytime, during the day, time from sunrise until sunset"}
+{"i": "j1075", "w": "教育", "r": "きょういく", "n": 4, "pos": "vs", "en": "education, schooling, training; culture, cultivation, education"}
+{"i": "j1078", "w": "邪魔", "r": "じゃま", "n": 4, "pos": "n", "en": "hindrance, obstacle, nuisance; to visit (someone's home); demon who hinders Buddhist training, demon who obstructs sentient beings from maintaining moral behavi"}
+{"i": "j1079", "w": "国際", "r": "こくさい", "n": 4, "pos": "adj-no", "en": "international; diplomatic intercourse"}
+{"i": "j1080", "w": "隅", "r": "すみ", "n": 4, "pos": "n", "en": "corner, nook, recess"}
+{"i": "j1082", "w": "再来週", "r": "さらいしゅう", "n": 4, "pos": "n", "en": "week after next"}
+{"i": "j1086", "w": "周り", "r": "まわり", "n": 4, "pos": "n", "en": "circumference, girth; surroundings, neighbourhood, neighborhood; people surrounding oneself, surrounding circumstances"}
+{"i": "j1087", "w": "歴史", "r": "れきし", "n": 4, "pos": "n", "en": "history"}
+{"i": "j1091", "w": "毛", "r": "け", "n": 4, "pos": "n", "en": "hair; fur, wool; down, plumage, feathers"}
+{"i": "j1094", "w": "中々", "r": "なかなか", "n": 4, "pos": "adj-na", "en": "very, considerably, easily; by no means, not readily; middle, half-way point"}
+{"i": "j1095", "w": "随分", "r": "ずいぶん", "n": 4, "pos": "adv", "en": "very, extremely, surprisingly; terrible, horrid, contemptible; remarkable, extraordinary"}
+{"i": "j1098", "w": "電灯", "r": "でんとう", "n": 4, "pos": "n", "en": "electric light"}
+{"i": "j1099", "w": "叱る", "r": "しかる", "n": 4, "pos": "v5r", "en": "to scold, to chide, to rebuke"}
+{"i": "j1100", "w": "サンダル", "r": "サンダル", "n": 4, "pos": "n", "en": "sandal"}
+{"i": "j1101", "w": "びっくりする", "r": "びっくりする", "n": 4, "pos": "n", "en": "to be surprised"}
+{"i": "j1104", "w": "講堂", "r": "こうどう", "n": 4, "pos": "n", "en": "auditorium, lecture hall"}
+{"i": "j1105", "w": "子", "r": "こ", "n": 4, "pos": "n", "en": "child, kid, teenager; (one's) child, offspring; young woman"}
+{"i": "j1106", "w": "沸かす", "r": "わかす", "n": 4, "pos": "v5s", "en": "to boil, to heat (a liquid), to prepare (a bath, hot drink); to excite, to rouse, to stir"}
+{"i": "j1108", "w": "しばらく", "r": "しばらく", "n": 4, "pos": "adv", "en": "for a moment, for a minute; for a while, for some time; for the time being, for now"}
+{"i": "j1110", "w": "空く", "r": "あく", "n": 4, "pos": "v5k", "en": "to open (e.g. doors); to open (e.g. business, etc.); to be empty"}
+{"i": "j1111", "w": "計画", "r": "けいかくする", "n": 4, "pos": "n", "en": "plan, project, schedule"}
+{"i": "j1112", "w": "通り", "r": "とおり", "n": 4, "pos": "n", "en": "street, road, avenue; traffic, coming and going; flow (of water, air, etc.), passage, running"}
+{"i": "j1113", "w": "下着", "r": "したぎ", "n": 4, "pos": "n", "en": "underwear, undergarment, underclothes"}
+{"i": "j1114", "w": "経済", "r": "けいざい", "n": 4, "pos": "n", "en": "economy, economics; finance, (one's) finances, financial circumstances; being economical, economy, thrift"}
+{"i": "j1115", "w": "こう", "r": "こう", "n": 4, "pos": "adv", "en": "in this way, like this, so; this (much), so; uh, er, mm"}
+{"i": "j1116", "w": "是非", "r": "ぜひ", "n": 4, "pos": "adv", "en": "certainly, without fail; right and wrong, pros and cons"}
+{"i": "j1117", "w": "裏", "r": "うら", "n": 4, "pos": "n", "en": "opposite side, bottom, other side; rear, back, behind; lining, inside"}
+{"i": "j1118", "w": "為", "r": "ため", "n": 4, "pos": "n", "en": "good, advantage, benefit; sake, purpose, objective; consequence, result, effect"}
+{"i": "j1119", "w": "おいでになる", "r": "おいでになる", "n": 4, "pos": "v5r", "en": "to be; to come; to go"}
+{"i": "j1121", "w": "以外", "r": "いがい", "n": 4, "pos": "suf", "en": "excluding, except (for), apart from; outside (a boundary, scope, etc.)"}
+{"i": "j1122", "w": "済む", "r": "すむ", "n": 4, "pos": "v5m", "en": "to finish, to end, to be completed; to have a result less severe than expected; to feel at ease"}
+{"i": "j1123", "w": "ハンバーグ", "r": "ハンバーグ", "n": 4, "pos": "n", "en": "Hamburg steak, hamburger steak"}
+{"i": "j1126", "w": "遊び", "r": "あそび", "n": 4, "pos": "n", "en": "play, playing, game; pleasure, amusement, pastime; play (in a mechanism, e.g. a steering wheel), slack"}
+{"i": "j1127", "w": "支度", "r": "したくする", "n": 4, "pos": "n", "en": "preparation"}
+{"i": "j1129", "w": "十分", "r": "じゅうぶん", "n": 4, "pos": "adj-na", "en": "enough, sufficient, plenty; sufficiently, fully, thoroughly; division into ten"}
+{"i": "j1130", "w": "音", "r": "おと", "n": 4, "pos": "n", "en": "sound, noise; (musical) note; fame"}
+{"i": "j1133", "w": "遠く", "r": "とおく", "n": 4, "pos": "n", "en": "far away, distant place, a (great) distance; long ago, far back, far (into the future); by far"}
+{"i": "j1135", "w": "折れる", "r": "おれる", "n": 4, "pos": "v1", "en": "to break, to be broken, to snap; to be folded; to give in, to back down, to yield"}
+{"i": "j1137", "w": "輸入", "r": "ゆにゅう", "n": 4, "pos": "vs", "en": "import, importation, introduction; afferent"}
+{"i": "j1138", "w": "返事", "r": "へんじ", "n": 4, "pos": "vs", "en": "reply, answer, response"}
+{"i": "j1139", "w": "都", "r": "と", "n": 4, "pos": "n", "en": "Metropolis (of Tokyo), (Tokyo) Metropolitan District, metropolitan prefecture; counter for cities and towns; capital"}
+{"i": "j1140", "w": "産業", "r": "さんぎょう", "n": 4, "pos": "n", "en": "industry; livelihood, occupation"}
+{"i": "j1141", "w": "伝える", "r": "つたえる", "n": 4, "pos": "v1", "en": "to convey, to report, to transmit"}
+{"i": "j1142", "w": "お金持ち", "r": "かねもち", "n": 4, "pos": "n", "en": "rich person, wealthy person"}
+{"i": "j1145", "w": "道具", "r": "どうぐ", "n": 4, "pos": "n", "en": "tool, implement, instrument; means; furniture"}
+{"i": "j1147", "w": "それほど", "r": "それほど", "n": 4, "pos": "adv", "en": "to that degree, to that extent, that much"}
+{"i": "j1148", "w": "以上", "r": "いじょう", "n": 4, "pos": "suf", "en": "not less than ..., ... and over, ... and above; beyond (e.g. one's expectations), above, more than; the above, the above-mentioned, the aforementioned"}
+{"i": "j1149", "w": "まま", "r": "まま", "n": 4, "pos": "suf", "en": "as (it is), remaining (in a state), keeping (the same); with (e.g. one's eyes closed, the light on), while (e.g. standing, alive), as; as (one pleases, one is t"}
+{"i": "j1150", "w": "特急", "r": "とっきゅう", "n": 4, "pos": "n", "en": "limited express (train for which a limited-express ticket is required); limited express (train making a limited no. of stops); great hurry"}
+{"i": "j1151", "w": "プレゼント", "r": "プレゼント", "n": 4, "pos": "vs", "en": "present, gift"}
+{"i": "j1152", "w": "(に) よると", "r": "(に) よると", "n": 4, "pos": "suf", "en": "according to ~"}
+{"i": "j1154", "w": "帰り", "r": "かえり", "n": 4, "pos": "n", "en": "return, coming back"}
+{"i": "j1158", "w": "スーツ", "r": "スーツ", "n": 4, "pos": "n", "en": "suit (clothing); suit"}
+{"i": "j1159", "w": "危険", "r": "きけん", "n": 4, "pos": "n", "en": "danger, peril, hazard; risk"}
+{"i": "j1166", "w": "枝", "r": "えだ", "n": 4, "pos": "n", "en": "branch, bough, limb"}
+{"i": "j1167", "w": "専門", "r": "せんもん", "n": 4, "pos": "n", "en": "speciality, specialty, special subject of study; sole interest, single focus, concentrating exclusively on"}
+{"i": "j1168", "w": "そろそろ", "r": "そろそろ", "n": 4, "pos": "adv", "en": "soon, before long, any time now; slowly, quietly, steadily; already, about time"}
+{"i": "j1171", "w": "騒ぐ", "r": "さわぐ", "n": 4, "pos": "v5g", "en": "to make noise, to make racket, to be noisy; to rustle, to swoosh; to make merry"}
+{"i": "j1172", "w": "尋ねる", "r": "たずねる", "n": 4, "pos": "v1", "en": "to ask, to enquire, to inquire; to search, to look for, to look into"}
+{"i": "j1173", "w": "放送", "r": "ほうそうする", "n": 4, "pos": "n", "en": "broadcasting"}
+{"i": "j1174", "w": "政治", "r": "せいじ", "n": 4, "pos": "n", "en": "politics, government"}
+{"i": "j1175", "w": "市民", "r": "しみん", "n": 4, "pos": "n", "en": "citizen (of a country), citizenry; citizen (of a city), resident, inhabitant; bourgeoisie, middle class"}
+{"i": "j1176", "w": "ファックス", "r": "ファックス", "n": 4, "pos": "vs", "en": "fax, facsimile; fax machine"}
+{"i": "j1178", "w": "指輪", "r": "ゆびわ", "n": 4, "pos": "n", "en": "(finger) ring"}
+{"i": "j1181", "w": "高校生", "r": "こうこうせい", "n": 4, "pos": "n", "en": "senior high school student"}
+{"i": "j1182", "w": "講義", "r": "こうぎ", "n": 4, "pos": "vs", "en": "lecture"}
+{"i": "j1183", "w": "そんなに", "r": "そんなに", "n": 4, "pos": "adv", "en": "so much, so, like that"}
+{"i": "j1184", "w": "昼休み", "r": "ひるやすみ", "n": 4, "pos": "n", "en": "lunch break, noon recess, noon rest period"}
+{"i": "j1185", "w": "忘れ物", "r": "わすれもの", "n": 4, "pos": "n", "en": "lost article, thing left behind; leaving something behind, forgetting something"}
+{"i": "j1186", "w": "下りる", "r": "おりる", "n": 4, "pos": "v1", "en": "to descend (e.g. a mountain), to go down, to come down; to alight (e.g. from bus), to get off, to disembark; to step down, to retire, to give up"}
+{"i": "j1188", "w": "訳", "r": "わけ", "n": 4, "pos": "n", "en": "reason, cause, grounds; meaning, sense; (good) sense, reason"}
+{"i": "j1189", "w": "承知", "r": "しょうちする", "n": 4, "pos": "n", "en": "consent, acceptance"}
+{"i": "j1190", "w": "日記", "r": "にっき", "n": 4, "pos": "n", "en": "diary, journal"}
+{"i": "j1192", "w": "似る", "r": "にる", "n": 4, "pos": "v1", "en": "to resemble, to look like, to be like"}
+{"i": "j1194", "w": "暖房", "r": "だんぼう", "n": 4, "pos": "vs", "en": "(indoor) heating"}
+{"i": "j1195", "w": "留守", "r": "るす", "n": 4, "pos": "vs", "en": "absence, being away from home; house-sitting, house-sitter; neglecting (e.g. one's studies), leaving unattended"}
+{"i": "j1196", "w": "割合", "r": "わりあい", "n": 4, "pos": "n", "en": "rate, ratio, percentage; comparatively; contrary to expectations"}
+{"i": "j1197", "w": "寺", "r": "てら", "n": 4, "pos": "n", "en": "temple (Buddhist)"}
+{"i": "j1205", "w": "会場", "r": "かいじょう", "n": 4, "pos": "n", "en": "assembly hall, meeting place, venue"}
+{"i": "j1207", "w": "運ぶ", "r": "はこぶ", "n": 4, "pos": "v5b", "en": "to carry, to transport, to move; to come, to go; to use (a brush, chopsticks, etc.), to move"}
+{"i": "j1208", "w": "文学", "r": "ぶんがく", "n": 4, "pos": "n", "en": "literature"}
+{"i": "j1210", "w": "お見舞い", "r": "おみまい", "n": 4, "pos": "n", "en": "visit (to someone affected by illness or misfortune), call, inquiry (about someone's health); letter of inquiry, letter of sympathy, get-well letter; dealing (a"}
+{"i": "j1211", "w": "席", "r": "せき", "n": 4, "pos": "n", "en": "seat; location (of a gathering, etc.), place; position, post"}
+{"i": "j1212", "w": "様", "r": "さま", "n": 4, "pos": "suf", "en": "Mr, Mrs, Miss; makes a word more polite (usu. in fixed expressions); state, situation, appearance"}
+{"i": "j1214", "w": "下る", "r": "さがる", "n": 4, "pos": "v5r", "en": "to come down, to go down, to fall; to hang, to dangle; to move back, to step back, to withdraw"}
+{"i": "j1215", "w": "字", "r": "じ", "n": 4, "pos": "n", "en": "character (esp. kanji), letter, written text; handwriting, penmanship; the ... word (e.g. \"the L word\" = \"love\")"}
+{"i": "j1216", "w": "アジア", "r": "アジア", "n": 4, "pos": "n", "en": "Asia"}
+{"i": "j1217", "w": "褒める", "r": "ほめる", "n": 4, "pos": "v1", "en": "to praise, to commend, to compliment"}
+{"i": "j1218", "w": "空く", "r": "すく", "n": 4, "pos": "v5k", "en": "to become less crowded, to thin out, to get empty; to be hungry"}
+{"i": "j1219", "w": "あ", "r": "あ", "n": 4, "pos": "int", "en": "ah, oh; hey!"}
+{"i": "j1220", "w": "最も", "r": "もっとも", "n": 4, "pos": "adv", "en": "most, extremely"}
+{"i": "j1221", "w": "合う", "r": "あう", "n": 4, "pos": "v5u", "en": "to come together, to merge, to unite; to fit, to match, to suit; to be profitable, to be equitable"}
+{"i": "j1222", "w": "代", "r": "だい", "n": 4, "pos": "suf", "en": "charge, cost, price; generation, age, (school) year; era"}
+{"i": "j1223", "w": "最後", "r": "さいご", "n": 4, "pos": "n", "en": "end, conclusion; last, final, latest; once ..., the moment ... (, that's it), if ... occurs (, ... will follow)"}
+{"i": "j1225", "w": "退院", "r": "たいいんする", "n": 4, "pos": "n", "en": "leaving hospital"}
+{"i": "j1226", "w": "展覧会", "r": "てんらんかい", "n": 4, "pos": "n", "en": "exhibition"}
+{"i": "j1229", "w": "汽車", "r": "きしゃ", "n": 4, "pos": "n", "en": "steam locomotive, steam train; (long-distance) train; non-electric train, diesel train"}
+{"i": "j1231", "w": "見つかる", "r": "みつかる", "n": 4, "pos": "v5r", "en": "to be found, to be discovered"}
+{"i": "j1234", "w": "注射", "r": "ちゅうしゃ", "n": 4, "pos": "vs", "en": "injection, jab, shot"}
+{"i": "j1235", "w": "様", "r": "よう", "n": 4, "pos": "suf", "en": "appearing ..., looking ...; way to ..., method of ...ing; form, style, design"}
+{"i": "j1236", "w": "おき", "r": "おき", "n": 4, "pos": "suf", "en": "open sea"}
+{"i": "j1237", "w": "最初", "r": "さいしょ", "n": 4, "pos": "adv", "en": "beginning, outset, first"}
+{"i": "j1238", "w": "御", "r": "ご", "n": 4, "pos": "pref", "en": "honorific/polite/humble prefix; honorific suffix"}
+{"i": "j1240", "w": "直る", "r": "なおる", "n": 4, "pos": "v5r", "en": "to get mended, to be repaired, to be fixed; to return to normal, to recover (e.g. one's temper), to be restored; to be corrected, to get put right, to be rectif"}
+{"i": "j1241", "w": "集める", "r": "あつめる", "n": 4, "pos": "v1", "en": "to gather, to collect, to assemble; to raise (money), to gather (e.g. funds); to garner (e.g. popularity), to draw (attention), to attract (e.g. an audience)"}
+{"i": "j1243", "w": "続く", "r": "つづく", "n": 4, "pos": "v5k", "en": "to continue, to last, to go on; to continue (without a break), to be unbroken; to occur again and again"}
+{"i": "j1246", "w": "世話", "r": "せわする", "n": 4, "pos": "n", "en": "looking after; to look after"}
+{"i": "j1250", "w": "数学", "r": "すうがく", "n": 4, "pos": "n", "en": "mathematics"}
+{"i": "j1251", "w": "文化", "r": "ぶんか", "n": 4, "pos": "n", "en": "culture, civilization, civilisation; Bunka era (1804.2.11-1818.4.22)"}
+{"i": "j1253", "w": "習慣", "r": "しゅうかん", "n": 4, "pos": "n", "en": "habit; (social) custom, practice, convention"}
+{"i": "j1254", "w": "焼ける", "r": "やける", "n": 4, "pos": "v1", "en": "to burn, to burn down, to go down in flames; to be roasted, to be thoroughly cooked; to be sunburnt, to fade (in the sun)"}
+{"i": "j1256", "w": "冷える", "r": "ひえる", "n": 4, "pos": "v1", "en": "to grow cold, to get chilly, to cool down; to cool (of affection, enthusiasm, relations, etc.), to wane; to cool (of the economy, consumer spending, etc.), to s"}
+{"i": "j1257", "w": "点く", "r": "つく", "n": 4, "pos": "v5k", "en": "to be lit (of a lamp, burner, etc.), to catch fire, to ignite; to be turned on (of a light, appliance, etc.), to come on"}
+{"i": "j1258", "w": "この間", "r": "このあいだ", "n": 4, "pos": "n", "en": "the other day, lately, recently"}
+{"i": "j1259", "w": "格好", "r": "かっこう", "n": 4, "pos": "n", "en": "shape, form, figure; appearance, style; state, situation"}
+{"i": "j1260", "w": "落す", "r": "おとす", "n": 4, "pos": "v5s", "en": "to drop, to lose, to let fall; to clean off (dirt, makeup, paint, etc.), to remove (e.g. stains or facial hair), to lose; to lose (a match), to reject (an appli"}
+{"i": "j1262", "w": "出発", "r": "しゅっぱつする", "n": 4, "pos": "n", "en": "departure"}
+{"i": "j1263", "w": "拝見", "r": "はいけんする", "n": 4, "pos": "n", "en": "(humble) (polite) seeing, look at"}
+{"i": "j1264", "w": "割れる", "r": "われる", "n": 4, "pos": "v1", "en": "to break, to be smashed; to split, to crack, to fissure; to be divided (opinion, vote, etc.), to split (e.g. of a party)"}
+{"i": "j1266", "w": "新聞社", "r": "しんぶんしゃ", "n": 4, "pos": "n", "en": "newspaper company"}
+{"i": "j1267", "w": "いじめる", "r": "いじめる", "n": 4, "pos": "v1", "en": "to ill-treat, to bully, to torment; to be tough on (e.g. one's body), to treat harshly"}
+{"i": "j1268", "w": "回る、回す", "r": "まわる、まわす", "n": 4, "pos": "n", "en": "to go around, to revolve"}
+{"i": "j1272", "w": "濡れる", "r": "ぬれる", "n": 4, "pos": "v1", "en": "to get wet"}
+{"i": "j1273", "w": "倒れる", "r": "たおれる", "n": 4, "pos": "v1", "en": "to fall (over, down), to collapse, to take a fall; to be destroyed (in a collapse), to collapse, to cave in; to be confined to bed (with an illness), to come do"}
+{"i": "j1274", "w": "スーパー (マーケット)", "r": "スーパー (マーケット)", "n": 4, "pos": "n", "en": "supermarket"}
+{"i": "j1275", "w": "アクセサリー", "r": "アクセサリー", "n": 4, "pos": "n", "en": "accessory (fashion), jewelry; accessory (audio, car, camera, etc.)"}
+{"i": "j1277", "w": "向かう", "r": "むかう", "n": 4, "pos": "v5u", "en": "to face; to go towards, to head towards; to confront, to oppose, to resist"}
+{"i": "j1279", "w": "仕方", "r": "しかた", "n": 4, "pos": "n", "en": "way, method, means"}
+{"i": "j1281", "w": "程", "r": "ほど", "n": 4, "pos": "n", "en": "extent, degree, measure; limit, bounds; (span of) time"}
+{"i": "j1282", "w": "代わり", "r": "かわり", "n": 4, "pos": "n", "en": "substitute, replacement, substituting; stand-in, proxy, alternate; compensation, exchange, return"}
+{"i": "j1283", "w": "失敗", "r": "しっぱい", "n": 4, "pos": "vs", "en": "failure, mistake, blunder"}
+{"i": "j1284", "w": "工業", "r": "こうぎょう", "n": 4, "pos": "n", "en": "(manufacturing) industry"}
+{"i": "j1285", "w": "移る", "r": "うつる", "n": 4, "pos": "v5r", "en": "to move (to another place or state), to change (e.g. of state, affiliation, scenery, etc.), to be transferred; to spread (of a fire, smell, etc.), to catch (an "}
+{"i": "j1286", "w": "スーツケース", "r": "スーツケース", "n": 4, "pos": "n", "en": "suitcase"}
+{"i": "j1287", "w": "ひげ", "r": "ひげ", "n": 4, "pos": "n", "en": "moustache, mustache, beard; whiskers (on a cat, etc.), feelers (on an insect, etc.), (chin) tuft; shadow (on a candlestick chart)"}
+{"i": "j1288", "w": "研究室", "r": "けんきゅうしつ", "n": 4, "pos": "n", "en": "laboratory; seminar room; professor's office"}
+{"i": "j1290", "w": "紹介", "r": "しょうかい", "n": 4, "pos": "vs", "en": "introduction, presentation, referral"}
+{"i": "j1291", "w": "けれど", "r": "けれど", "n": 4, "pos": "conj", "en": "but, however, although"}
+{"i": "j1292", "w": "舟", "r": "ふね", "n": 4, "pos": "n", "en": "ship, boat, watercraft; tank, tub, vat; counter for boat-shaped containers (e.g. of sashimi)"}
+{"i": "j1294", "w": "(に) ついて", "r": "(に) ついて", "n": 4, "pos": "suf", "en": "about, concerning"}
+{"i": "j1295", "w": "コンサート", "r": "コンサート", "n": 4, "pos": "n", "en": "concert"}
+{"i": "j1298", "w": "コンピュータ", "r": "コンピュータ", "n": 4, "pos": "n", "en": "computer"}
+{"i": "j1299", "w": "植える", "r": "うえる", "n": 4, "pos": "v1", "en": "to plant, to grow, to raise; to insert, to transplant, to implant; to inoculate (e.g. an infectious agent)"}
+{"i": "j1300", "w": "両方", "r": "りょうほう", "n": 4, "pos": "n", "en": "both, both sides, both parties"}
+{"i": "j1301", "w": "汚れる", "r": "よごれる", "n": 4, "pos": "v1", "en": "to get dirty, to become dirty; to become sullied, to become corrupted, to lose one's chastity"}
+{"i": "j1302", "w": "水泳", "r": "すいえい", "n": 4, "pos": "vs", "en": "swimming"}
+{"i": "j1303", "w": "経験", "r": "けいけんする", "n": 4, "pos": "n", "en": "experience"}
+{"i": "j1307", "w": "取り替える", "r": "とりかえる", "n": 4, "pos": "v1", "en": "to exchange, to swap, to barter; to replace, to substitute"}
+{"i": "j1313", "w": "復習", "r": "ふくしゅう", "n": 4, "pos": "vs", "en": "review (of learned material), revision"}
+{"i": "j1315", "w": "役に立つ", "r": "やくにたつ", "n": 4, "pos": "v5t", "en": "to be helpful, to be useful"}
+{"i": "j1317", "w": "真中", "r": "まんなか", "n": 4, "pos": "n", "en": "middle, center"}
+{"i": "j1319", "w": "研究", "r": "けんきゅう", "n": 4, "pos": "vs", "en": "research, study, investigation"}
+{"i": "j1322", "w": "込む", "r": "こむ", "n": 4, "pos": "v5m", "en": "to be crowded, to be packed, to be congested; to be complex, to be intricate; to go into, to go in, to put into"}
+{"i": "j1323", "w": "この頃", "r": "このごろ", "n": 4, "pos": "adv", "en": "these days, nowadays, now"}
+{"i": "j1324", "w": "訪ねる", "r": "たずねる", "n": 4, "pos": "v1", "en": "to visit, to call on, to pay a visit to"}
+{"i": "j1325", "w": "下げる", "r": "さげる", "n": 4, "pos": "v1", "en": "to hang, to suspend, to wear (e.g. decoration); to lower, to reduce, to bring down; to demote, to move back, to pull back"}
+{"i": "j1326", "w": "花見", "r": "はなみ", "n": 4, "pos": "vs", "en": "cherry blossom viewing, flower viewing"}
+{"i": "j1327", "w": "途中", "r": "とちゅう", "n": 4, "pos": "n", "en": "on the way, en route; in the middle of, midway, halfway"}
+{"i": "j1330", "w": "別れる", "r": "わかれる", "n": 4, "pos": "v1", "en": "to part (usu. of people), to part from, to part with; to separate (of a couple), to break up, to divorce; to lose (e.g. one's mother), to be bereaved"}
+{"i": "j1333", "w": "看護婦", "r": "かんごふ", "n": 4, "pos": "n", "en": "(female) nurse"}
+{"i": "j1334", "w": "見物", "r": "けんぶつ", "n": 4, "pos": "vs", "en": "sightseeing, watching, viewing; sightseer, spectator, viewer"}
+{"i": "j1335", "w": "相談", "r": "そうだんする", "n": 4, "pos": "n", "en": "consultation"}
+{"i": "j1336", "w": "ガソリンスタンド", "r": "ガソリンスタンド", "n": 4, "pos": "n", "en": "gas station, petrol station, filling station"}
+{"i": "j1337", "w": "テニス", "r": "テニス", "n": 4, "pos": "n", "en": "tennis"}
+{"i": "j1338", "w": "眠る", "r": "ねむる", "n": 4, "pos": "v5r", "en": "to sleep; to die, to rest (in peace), to lie (buried); to lie idle (e.g. of resources), to lie unused, to lie untapped"}
+{"i": "j1339", "w": "上がる", "r": "あがる", "n": 4, "pos": "v5r", "en": "to rise, to go up, to come up; to enter (esp. from outdoors), to come in, to go in; to enter (a school), to advance to the next grade"}
+{"i": "j1340", "w": "翻訳", "r": "ほんやく", "n": 4, "pos": "vs", "en": "translation; deciphering, decoding; translation"}
+{"i": "j1342", "w": "お陰", "r": "おかげ", "n": 4, "pos": "n", "en": "grace (of God), benevolence (of Buddha), blessing; assistance, help, aid; effects, influence"}
+{"i": "j1344", "w": "湯", "r": "ゆ", "n": 4, "pos": "n", "en": "hot water; hot bath, hot spring; molten iron"}
+{"i": "j1345", "w": "競争", "r": "きょうそう", "n": 4, "pos": "vs", "en": "competition, contest, rivalry; competition (between organisms or species)"}
+{"i": "j1346", "w": "会議", "r": "かいぎ", "n": 4, "pos": "vs", "en": "meeting, conference, session"}
+{"i": "j1348", "w": "集まる", "r": "あつまる", "n": 4, "pos": "v5r", "en": "to gather, to collect, to assemble"}
+{"i": "j1349", "w": "にくい", "r": "にくい", "n": 4, "pos": "adj-i", "en": "difficult to ..., hard to ..."}
+{"i": "j1350", "w": "生活", "r": "せいかつする", "n": 4, "pos": "n", "en": "living, life; to live"}
+{"i": "j1351", "w": "糸", "r": "いと", "n": 4, "pos": "n", "en": "thread, yarn, string"}
+{"i": "j1352", "w": "関係", "r": "かんけい", "n": 4, "pos": "vs", "en": "relation, relationship, connection; participation, involvement, concern; influence, effect"}
+{"i": "j1353", "w": "ピアノ", "r": "ピアノ", "n": 4, "pos": "n", "en": "piano (instrument); piano (dynamic)"}
+{"i": "j1354", "w": "番組", "r": "ばんぐみ", "n": 4, "pos": "n", "en": "program (e.g. TV), programme"}
+{"i": "j1355", "w": "急", "r": "きゅう", "n": 4, "pos": "adj-na", "en": "sudden, abrupt, unexpected; urgent, pressing; steep, sharp, precipitous"}
+{"i": "j1356", "w": "棚", "r": "たな", "n": 4, "pos": "n", "en": "shelf, ledge, rack; trellis"}
+{"i": "j1357", "w": "木綿", "r": "もめん", "n": 4, "pos": "n", "en": "cotton (material)"}
+{"i": "j1358", "w": "輸出", "r": "ゆしゅつする", "n": 4, "pos": "n", "en": "export"}
+{"i": "j1359", "w": "タイプ", "r": "タイプ", "n": 4, "pos": "n", "en": "type, kind, sort; type (of person), (ideal) type, one's type; typewriter"}
+{"i": "j1360", "w": "すり", "r": "すり", "n": 4, "pos": "n", "en": "pickpocket"}
+{"i": "j1362", "w": "アルコール", "r": "アルコール", "n": 4, "pos": "n", "en": "alcohol; alcoholic drink, alcohol; (alcohol-based) hand sanitizer"}
+{"i": "j1363", "w": "ソフト", "r": "ソフト", "n": 4, "pos": "adj-na", "en": "soft; software; soft hat, felt hat"}
+{"i": "j1365", "w": "大分", "r": "だいぶ", "n": 4, "pos": "adv", "en": "considerably, greatly, a lot"}
+{"i": "j1367", "w": "趣味", "r": "しゅみ", "n": 4, "pos": "n", "en": "hobby, pastime; tastes, preference, liking"}
+{"i": "j1368", "w": "電報", "r": "でんぽう", "n": 4, "pos": "n", "en": "telegram"}
+{"i": "j1369", "w": "家内", "r": "かない", "n": 4, "pos": "n", "en": "(my) wife; inside the home, one's family"}
+{"i": "j1371", "w": "これから", "r": "これから", "n": 4, "pos": "exp", "en": "from now on, after this, in the future; from here, from this point"}
+{"i": "j1373", "w": "社会", "r": "しゃかい", "n": 4, "pos": "n", "en": "society, public, community; social studies"}

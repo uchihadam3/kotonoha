@@ -39,7 +39,7 @@ export class World {
 
   constructor(readonly engine: Engine) {
     const grid = buildGrid();
-    this.scene.fog = new THREE.FogExp2(0xcfe3f2, 0.0022);
+    this.scene.fog = new THREE.FogExp2(0xcfe3f2, 0.0013);
     this.sky = new Sky();
     this.scene.add(this.sky.group);
     this.terrain = buildTerrainMesh();

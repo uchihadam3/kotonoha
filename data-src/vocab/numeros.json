@@ -39,7 +39,7 @@
   {"w":"一万","r":"いちまん","pt":"dez mil (10.000)","n":5,"pos":"num","note":"Diz-se sempre いちまん, nunca só まん. É o valor da maior cédula japonesa."},
   {"w":"半分","r":"はんぶん","pt":"metade","n":5,"pos":"n","ex":{"jp":"ケーキを半分食べました。","r":"ケーキ を はんぶん たべました。","pt":"Comi metade do bolo."}},
   {"w":"～くらい","r":"くらい","pt":"cerca de; uns, umas","n":5,"pos":"prt","note":"Também ぐらい. Depois de números indica aproximação: 十分くらい (uns dez minutos).","ex":{"jp":"駅まで歩いて十分くらいです。","r":"えき まで あるいて じゅっぷん くらい です。","pt":"Até a estação são uns dez minutos a pé."}},
-  {"w":"～番目","r":"ばんめ","pt":"-º (posição numa ordem)","n":4,"pos":"suf","note":"Ordinal: 一番目 (primeiro), 二番目 (segundo), 三番目 (terceiro).","ex":{"jp":"右から二番目の人が私の兄です。","r":"みぎ から にばんめ の ひと が わたし の あに です。","pt":"A segunda pessoa da direita é o meu irmão mais velho."}},
+  {"w":"～番目","r":"ばんめ","pt":"ordinal (primeiro, segundo, terceiro...)","n":4,"pos":"suf","note":"Ordinal: 一番目 (primeiro), 二番目 (segundo), 三番目 (terceiro).","ex":{"jp":"右から二番目の人が私の兄です。","r":"みぎ から にばんめ の ひと が わたし の あに です。","pt":"A segunda pessoa da direita é o meu irmão mais velho."}},
   {"w":"数字","r":"すうじ","pt":"número; algarismo","n":4,"pos":"n","note":"Algarismo ou número escrito; no Japão se usam tanto 1, 2, 3 quanto 一, 二, 三."},
   {"w":"数える","r":"かぞえる","pt":"contar","n":4,"pos":"v1"},
   {"w":"点","r":"てん","pt":"ponto (nota, placar); vírgula decimal","n":4,"pos":"n","note":"Nota de prova, pontos num jogo e a vírgula decimal: 3,5 = 三点五 (さんてんご)."},

@@ -6,13 +6,18 @@ import * as THREE from 'three';
 import { Engine } from '../core/engine';
 import { Input } from '../core/input';
 import { loadSettings, saveSettings, type Settings } from '../core/settings';
-import { lastSlot, loadSlot } from '../core/save';
+import { lastSlot, loadSlot, writeSlot } from '../core/save';
 import { Screens } from '../ui/screens';
 import { audio } from '../audio/audio';
 import { music } from '../audio/music';
 import { voice } from '../audio/voice';
 import { World } from '../world/world';
 import { h } from '../core/util';
+import { newSave } from '../core/save';
+import { Game } from './game';
+import { prologue, characterCreator } from './cutscene';
+import { lookFromSave } from './game';
+import '../ui/game.css';
 
 export class App {
   readonly root: HTMLElement;
@@ -46,6 +51,23 @@ export class App {
     if (dev === 'title') {
       audio.unlock();
       this.titleMenu();
+      return;
+    }
+    if (dev === 'game') {
+      audio.unlock();
+      const slot = Number(this.params.get('slot') ?? 0);
+      const fresh = this.params.has('fresh') || !loadSlot(slot);
+      if (fresh && this.params.has('quick')) {
+        const s = newSave(slot);
+        s.name = 'Adam';
+        s.nameKana = 'アダム';
+        s.flags.tut = Number(this.params.get('tut') ?? 0);
+        writeSlot(s);
+        this.game = new Game(this, s);
+        await this.game.start(false);
+        return;
+      }
+      await this.startGame(slot, fresh);
       return;
     }
     // normal flow
@@ -144,10 +166,42 @@ export class App {
     await this.screens.alert('No iPhone/iPad: toque em <b>Compartilhar</b> e depois em <b>Adicionar à Tela de Início</b>. O jogo abre em tela cheia e funciona sem internet.');
   }
 
+  game: Game | null = null;
+
   async startGame(slot: number, fresh: boolean) {
-    void slot;
-    void fresh;
-    await this.screens.alert('O mundo está sendo construído…');
+    const save = fresh ? newSave(slot) : loadSlot(slot);
+    if (!save) {
+      this.screens.toast('Não foi possível carregar essa jornada.');
+      return;
+    }
+    await this.screens.fadeTo(1, 700);
+    this.screens.clear();
+    this.titleOrbit?.();
+    this.titleOrbit = null;
+    music.stop(0.8);
+    const w = this.ensureWorld();
+    if (fresh) {
+      await this.screens.fadeTo(0, 600);
+      await characterCreator(this, w, save);
+      await this.screens.fadeTo(1, 600);
+      if (!this.params.has('skipcine')) {
+        await this.screens.fadeTo(0, 10);
+        this.engine.u.uFade.value = 1;
+        await prologue(this, w, lookFromSave(save));
+      }
+    }
+    this.game = new Game(this, save);
+    const start = this.game.start(fresh);
+    await this.screens.fadeTo(0, 900);
+    this.engine.u.uFade.value = 0;
+    await start;
+  }
+
+  async backToTitle() {
+    await this.screens.fadeTo(1, 600);
+    this.game?.stop();
+    this.game = null;
+    location.reload();
   }
 
   /** dev view: the whole island from above */

@@ -21,6 +21,7 @@
   "devDependencies": {
     "@types/node": "^22.20.5",
     "@types/three": "^0.187.0",
+    "kuromoji": "^0.1.2",
     "tsx": "^4.23.15",
     "typescript": "^5.9.3",
     "vite": "^8.3.8",

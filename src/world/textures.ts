@@ -127,7 +127,10 @@ export class SignAtlas {
     [this.c, this.g] = canvas(size, size);
   }
 
-  add(text: string, st: SignStyle): { u0: number; v0: number; u1: number; v1: number } {
+  /** pixel scale applied to every sign (keeps the whole island's signs in one texture) */
+  scale = 0.72;
+  add(text: string, st0: SignStyle): { u0: number; v0: number; u1: number; v1: number } {
+    const st = { ...st0, w: Math.round(st0.w * this.scale), h: Math.round(st0.h * this.scale) };
     const pad = 4;
     if (this.x + st.w + pad > this.size) {
       this.x = 0;
@@ -135,8 +138,8 @@ export class SignAtlas {
       this.rowH = 0;
     }
     if (this.y + st.h > this.size) {
-      // atlas full: reuse the last rect (should not happen with sane sizes)
-      this.y = 0;
+      console.warn('SignAtlas full; sign skipped:', text);
+      return { u0: 0, v0: 0, u1: 0.001, v1: 0.001 };
     }
     const x = this.x, y = this.y;
     this.x += st.w + pad;
@@ -149,7 +152,7 @@ export class SignAtlas {
     g.fillRect(0, 0, st.w, st.h);
     if (st.border) {
       g.strokeStyle = st.border;
-      g.lineWidth = Math.max(3, Math.min(st.w, st.h) * 0.06);
+      g.lineWidth = Math.max(2, Math.min(st.w, st.h) * 0.06);
       g.strokeRect(g.lineWidth / 2, g.lineWidth / 2, st.w - g.lineWidth, st.h - g.lineWidth);
     }
     const fam = st.font === 'brush' ? "'kt-brush'" : st.font === 'mincho' ? "'kt-mincho'" : st.font === 'learn' ? "'kt-learn'" : "'kt-ui'";
@@ -158,7 +161,7 @@ export class SignAtlas {
     g.textBaseline = 'middle';
     if (st.glow) {
       g.shadowColor = st.glow;
-      g.shadowBlur = 18;
+      g.shadowBlur = 12;
     }
     const chars = [...text];
     if (st.vertical) {

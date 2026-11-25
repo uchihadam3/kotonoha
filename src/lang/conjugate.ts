@@ -82,6 +82,10 @@ export function conjugate(w: string, r: string, pos: string): Form[] {
     f('ba', 'condicional (se…)', 'casual', k('れば', 'くれば'));
     return out;
   }
+  // ずる verbs (感ずる, 応ずる…) conjugate like ichidan じる
+  if (pos === 'vs-i' && w.endsWith('ずる')) return conjugate(w.slice(0, -2) + 'じる', r.slice(0, -2) + 'じる', 'v1').map((f) => (f.id === 'dict' ? { ...f, w, r } : f));
+  // one-kanji する verbs (愛する, 訳する, 罰する…) take さ/せ in some forms
+  const sSpecial = pos === 'vs-i' && w.length === 3 && w.endsWith('する') && /[\u4e00-\u9fff]/.test(w[0]);
   if (pos === 'vs-i') {
     // する or 〜する (勉強する)
     const sw = (add: string, addR = add): [string, string] => [w.slice(0, -2) + add, r.slice(0, -2) + addR];
@@ -92,12 +96,12 @@ export function conjugate(w: string, r: string, pos: string): Form[] {
     f('masendeshita', 'polido passado negativo', 'polido', sw('しませんでした'));
     f('te', 'forma て', 'casual', sw('して'));
     f('ta', 'passado (casual)', 'casual', sw('した'));
-    f('nai', 'negativo (casual)', 'casual', sw('しない'));
-    f('nakatta', 'passado negativo (casual)', 'casual', sw('しなかった'));
+    f('nai', 'negativo (casual)', 'casual', sw(sSpecial ? 'さない' : 'しない'));
+    f('nakatta', 'passado negativo (casual)', 'casual', sw(sSpecial ? 'さなかった' : 'しなかった'));
     f('vol', 'vamos… (casual)', 'casual', sw('しよう'));
     f('mashou', 'vamos… (polido)', 'polido', sw('しましょう'));
     f('tai', 'quero…', 'casual', sw('したい'));
-    f('pot', 'potencial (consigo)', 'casual', sw('できる'));
+    f('pot', 'potencial (consigo)', 'casual', sw(sSpecial ? 'せる' : 'できる'));
     f('ba', 'condicional (se…)', 'casual', sw('すれば'));
     return out;
   }
