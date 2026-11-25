@@ -1,0 +1,45 @@
+{
+  "id": "politica",
+  "title": "Debate na praça",
+  "sub": "Concordar e discordar de uma deputada com educação e formalidade",
+  "reg": "keigo",
+  "steps": [
+    { "npc": ["本日はお集まりいただき、ありがとうございます。城下町に大型ホテルができれば、観光客が増え、町の経済も良くなります。皆様のご意見をお聞かせください。", "Obrigada por virem hoje. Com um grande hotel na Cidade do Castelo, virão mais turistas e a economia vai melhorar. Quero ouvir a opinião de vocês."], "note": "Num debate japonês, critica-se a ideia, nunca a pessoa. Primeiro reconheça o ponto do outro; depois discorde com suavidade." },
+    { "you": [
+      { "jp": "では、一つ意見を申し上げてもよろしいでしょうか。", "pt": "Então, posso expressar uma opinião?", "ok": true, "reg": "keigo" },
+      { "jp": "では、一つ意見をおっしゃってもよろしいでしょうか。", "pt": "(errado) Então, posso 'me dignar' a dar uma opinião?", "ok": false, "reg": "keigo", "why": "おっしゃる é honorífico (para a deputada falar). Para a sua fala, use o humilde: 申し上げる." },
+      { "jp": "ちょっといい？言いたいことあるんだけど。", "pt": "Pera, posso? Tenho uma coisa pra dizer.", "ok": false, "reg": "casual", "why": "Casual demais num debate público com uma deputada. Peça a palavra: 意見を申し上げてもよろしいでしょうか." }
+    ] },
+    { "npc": ["はい、どうぞ。率直なご意見をお願いします。", "Pois não. Por favor, seja franco."] },
+    { "you": [
+      { "jp": "確かに、おっしゃる通りです。ですが、町の景観が損なわれるのではないでしょうか。", "pt": "De fato, é como a senhora diz. Mas a paisagem da cidade não seria prejudicada?", "ok": true, "reg": "keigo" },
+      { "jp": "確かに、申し上げる通りです。", "pt": "(errado) De fato, é como eu 'humildemente' digo.", "ok": false, "reg": "keigo", "why": "申し上げる é humilde, só para as SUAS palavras. Para as palavras da deputada: おっしゃる通りです." },
+      { "jp": "それは違います。あなたは何も分かっていません。", "pt": "Isso está errado. A senhora não entende nada.", "ok": false, "reg": "polido", "why": "Atacar a pessoa (あなたは分かっていない) é grosseiro. Concorde em parte e objete: おっしゃる通りですが…" }
+    ] },
+    { "npc": ["景観については、建物の高さを制限するなど、十分に配慮するつもりです。", "Quanto à paisagem, vamos tomar todo o cuidado, por exemplo limitando a altura do prédio."] },
+    { "you": [
+      { "jp": "ありがとうございます。一方で、観光客が増えすぎると、住民の生活に影響が出るという声もあります。", "pt": "Obrigado. Por outro lado, há quem diga que turistas demais vão afetar a vida dos moradores.", "ok": true, "reg": "polido" },
+      { "jp": "ありがとうございます。一方的に、住民の生活に影響が出ます。", "pt": "(errado) Obrigado. Unilateralmente, a vida dos moradores será afetada.", "ok": false, "why": "一方的に = 'unilateralmente'. Para 'por outro lado', use 一方で: 一方で、〜という声もあります." },
+      { "jp": "てか、観光客とかマジうるさいし。", "pt": "Tipo, turista é muito barulhento, sério.", "ok": false, "reg": "giria", "why": "Gíria (てか, マジ) e reclamação solta não cabem num debate formal. Use: 一方で、〜という声もあります." }
+    ] },
+    { "npc": ["なるほど。では、具体的にどうすべきだとお考えですか。", "Entendo. Então, concretamente, o que acha que deveria ser feito? (お考え = pensamento, honorífico)"], "note": "〜べきだと考えます = 'penso que se deve…': opinião firme, mas formal. Mais suave: 〜したほうがよいのではないでしょうか." },
+    { "you": [
+      { "jp": "住民の意見を聞く場を、もっと設けるべきだと考えます。", "pt": "Penso que se deveriam criar mais espaços para ouvir os moradores.", "ok": true, "reg": "polido" },
+      { "jp": "住民の意見を聞く場を、もっと設けるべきだとお考えです。", "pt": "(errado) Eu 'honorificamente penso' que se deveriam criar mais espaços.", "ok": false, "reg": "keigo", "why": "お考え é honorífico: o pensamento DELA. Para o seu, use 考えます: 〜べきだと考えます." },
+      { "jp": "ホテルを建設しないべきです。", "pt": "(errado) Deve-se não construir o hotel.", "ok": false, "why": "A negativa de べき é 〜べきではない (建設するべきではありません). Aqui, proponha algo: 〜場を設けるべきだと考えます." }
+    ] },
+    { "npc": ["貴重なご提案をありがとうございます。前向きに検討させていただきます。", "Obrigada pela proposta valiosa. Vou considerá-la com carinho."], "note": "前向きに検討します ('vou considerar de forma positiva') soa bem, mas na política muitas vezes quer dizer 'vamos ver'… Um clássico!" },
+    { "you": [
+      { "jp": "ありがとうございます。ぜひ、住民説明会を開いていただけないでしょうか。", "pt": "Obrigado. A senhora poderia, por favor, fazer uma reunião de esclarecimento com os moradores?", "ok": true, "reg": "keigo" },
+      { "jp": "ぜひ、住民説明会を開いてさしあげます。", "pt": "(errado) Eu faço a gentileza de realizar a reunião para a senhora.", "ok": false, "reg": "keigo", "why": "〜てさしあげる = EU faço por você. Para pedir que ELA faça: 開いていただけないでしょうか." },
+      { "jp": "検討じゃなくて、今すぐやれよ。", "pt": "Nada de 'considerar', faz agora!", "ok": false, "reg": "casual", "why": "Uma ordem (やれよ) é agressiva e grosseira. Peça com keigo: 説明会を開いていただけないでしょうか." }
+    ] },
+    { "npc": ["承知いたしました。来月、住民説明会を開催することをお約束いたします。", "Entendido. Prometo fazer uma reunião de esclarecimento com os moradores no mês que vem."] },
+    { "you": [
+      { "jp": "ご配慮いただき、誠にありがとうございます。", "pt": "Muito obrigado pela consideração.", "ok": true, "reg": "keigo" },
+      { "jp": "よくできました！", "pt": "Muito bem, parabéns!", "ok": false, "why": "よくできました é elogio de professor para aluno: soa superior. Agradeça: ご配慮いただき、誠にありがとうございます." },
+      { "jp": "約束だよ！破ったら許さないからね！", "pt": "É promessa, hein! Se quebrar, não vou perdoar!", "ok": false, "reg": "casual", "why": "Tom de briga entre amigos. Num debate formal, agradeça: ご配慮いただき、誠にありがとうございます." }
+    ] },
+    { "npc": ["皆様の声を、これからも大切にいたします。本日はありがとうございました。", "Vou continuar valorizando a voz de todos. Muito obrigada por hoje."] }
+  ]
+}

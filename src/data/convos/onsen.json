@@ -1,0 +1,45 @@
+{
+  "id": "onsen",
+  "title": "Etiqueta no onsen",
+  "sub": "As regras das termas, ensinadas por um casal de idosos",
+  "reg": "polido",
+  "steps": [
+    { "npc": ["おや、若い人だね。温泉は初めてかい？", "(Sr. Nakamura) Ora, alguém jovem por aqui. É a sua primeira vez num onsen?"], "note": "Idosos costumam falar casual com os mais novos (〜かい, 〜ねえ). Você responde com です/ます: é o respeito aos mais velhos." },
+    { "you": [
+      { "jp": "はい、初めてです。マナーを教えていただけますか。", "pt": "Sim, é a primeira vez. Poderiam me ensinar as regras de etiqueta?", "ok": true, "reg": "polido" },
+      { "jp": "うん、初めて！教えて！", "pt": "É, primeira vez! Me ensina!", "ok": false, "reg": "casual", "why": "Eles falam casual com você, mas você é mais jovem: use です/ます. Ex.: はい、初めてです。マナーを教えていただけますか." },
+      { "jp": "はい、初めてかい。", "pt": "(errado) Sim, primeira vez, é?", "ok": false, "why": "〜かい é um jeito casual de PERGUNTAR, de gente mais velha; não serve para responder. Diga: はい、初めてです." }
+    ] },
+    { "npc": ["まずはね、お湯に入る前に、かけ湯をして体を洗うのよ。", "(Sra. Nakamura) Primeiro, antes de entrar na água, jogue água no corpo e se lave, viu?"], "note": "かけ湯 (かけゆ) = jogar água quente no corpo antes de entrar. No onsen, a banheira é para relaxar, não para se lavar." },
+    { "you": [
+      { "jp": "体を洗ってから入るんですね。", "pt": "Então primeiro me lavo e depois entro, né.", "ok": true, "reg": "polido" },
+      { "jp": "お湯の中で体を洗うんですね。", "pt": "Então me lavo dentro da água, né.", "ok": false, "why": "Nunca se lave dentro da banheira! Lave-se antes, no chuveiro: 体を洗ってから入るんですね." },
+      { "jp": "入ってから体を洗うんですね。", "pt": "Então primeiro entro e depois me lavo, né.", "ok": false, "why": "É ao contrário: 〜てから = 'depois de'. Primeiro se lava, depois entra: 体を洗ってから入るんですね." }
+    ] },
+    { "npc": ["そうそう。それから、タオルはお湯に入れちゃだめだよ。わしはいつも頭にのせてるけどね。", "(Sr. Nakamura) Isso. E a toalha não pode ir para a água. Eu sempre ponho na cabeça."], "note": "〜ちゃだめ = 〜てはだめ: 'não pode'. わし = 'eu' de homens idosos (e dos velhos sábios do anime)." },
+    { "you": [
+      { "jp": "じゃあ、私も頭にのせます。", "pt": "Então eu também vou pôr na cabeça.", "ok": true, "reg": "polido" },
+      { "jp": "じゃあ、わしも頭にのせます。", "pt": "Então eu (vovô) também ponho na cabeça.", "ok": false, "why": "わし é o 'eu' de homens idosos; na boca de gente jovem soa como imitação. Use 私: 私も頭にのせます." },
+      { "jp": "じゃあ、タオルをお湯に入れます。", "pt": "Então vou colocar a toalha na água.", "ok": false, "why": "入れちゃだめ = NÃO pode colocar. A toalha fica fora da água ou na cabeça: 私も頭にのせます." }
+    ] },
+    { "npc": ["ほかに、何か聞きたいことはあるかい？", "(Sr. Nakamura) Quer perguntar mais alguma coisa?"] },
+    { "you": [
+      { "jp": "あの、タトゥーがある人も入って大丈夫ですか。", "pt": "Hum, pessoas com tatuagem podem entrar?", "ok": true, "reg": "polido" },
+      { "jp": "あの、タトゥーを入れてもいいですか。", "pt": "Hum, posso fazer uma tatuagem?", "ok": false, "why": "タトゥーを入れる = FAZER uma tatuagem. Para saber se quem tem pode entrar: タトゥーがある人も入って大丈夫ですか." },
+      { "jp": "てかさ、タトゥーってOK？", "pt": "Aliás, tatuagem pode?", "ok": false, "reg": "giria", "why": "Gíria (てかさ, OK?) com idosos que você acabou de conhecer soa desrespeitosa. Pergunte: タトゥーがある人も入って大丈夫ですか." }
+    ] },
+    { "npc": ["うーん、だめな所が多いねえ。でも、ここはシールで隠せば大丈夫だよ。", "(Sr. Nakamura) Hmm, em muitos lugares não pode. Mas aqui, se cobrir com um adesivo, tudo bem."], "note": "Muitos onsen proíbem tatuagens (antes ligadas à yakuza). Alguns aceitam se você cobrir com adesivo (シール), e há banhos privativos (貸切風呂)." },
+    { "you": [
+      { "jp": "そうなんですね。友達に伝えます。ありがとうございます。", "pt": "Ah, entendi. Vou avisar o meu amigo. Obrigado.", "ok": true, "reg": "polido" },
+      { "jp": "じゃあ、隠さないで入ってもいいんですね。", "pt": "Então pode entrar sem esconder, né.", "ok": false, "why": "隠せば大丈夫 = tudo bem SE cobrir. Sem cobrir, não pode. Agradeça: そうなんですね。ありがとうございます." },
+      { "jp": "へえ、そうなんだ。サンキュー。", "pt": "Ah, é? Valeu.", "ok": false, "reg": "casual", "why": "Casual demais com idosos. Agradeça com です/ます: そうなんですね。ありがとうございます." }
+    ] },
+    { "npc": ["それとね、ここのお湯は熱いから、長く入るとのぼせるよ。お水もちゃんと飲んでね。", "(Sra. Nakamura) E mais: a água daqui é quente; se ficar muito tempo, você fica zonzo. Beba água direitinho, viu?"], "note": "のぼせる = ficar zonzo e vermelho de calor no banho. Entre devagar, saia de vez em quando e beba água." },
+    { "you": [
+      { "jp": "はい、気をつけます。いろいろ教えてくださって、ありがとうございました。", "pt": "Sim, vou tomar cuidado. Obrigado por me ensinarem tanta coisa.", "ok": true, "reg": "polido" },
+      { "jp": "はい、気をつけます。いろいろ教えてあげて、ありがとうございました。", "pt": "(errado) Sim, vou tomar cuidado. Obrigado por eu ter ensinado tanta coisa.", "ok": false, "why": "教えてあげる = VOCÊ ensinou a eles! Para o que eles fizeram por você: 教えてくださって (ou 教えてくれて)." },
+      { "jp": "大丈夫です。長く入っていたいです！", "pt": "Tranquilo. Quero ficar bastante tempo!", "ok": false, "why": "Ela avisou que ficar muito tempo faz mal (のぼせる). Responda: はい、気をつけます." }
+    ] },
+    { "npc": ["いいってことよ。じゃ、ゆっくり温まっておいで。", "(Sr. Nakamura) Que nada! Então vá lá se esquentar com calma."] }
+  ]
+}

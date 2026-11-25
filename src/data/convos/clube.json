@@ -1,0 +1,45 @@
+{
+  "id": "clube",
+  "title": "Entrando no clube",
+  "sub": "Entrar no clube de atletismo, falar com o veterano e com um colega do mesmo ano",
+  "reg": "polido",
+  "steps": [
+    { "npc": ["おっす！陸上部に入りたいのか？", "E aí! Você quer entrar no clube de atletismo?"], "note": "Nos clubes escolares, o 先輩 (veterano) fala casual com o 後輩 (calouro), mas o 後輩 responde no polido." },
+    { "you": [
+      { "jp": "はい！入部したいです。よろしくお願いします！", "pt": "Sim! Quero entrar no clube. Conto com você!", "ok": true, "reg": "polido" },
+      { "jp": "うん、入りたい！よろしく！", "pt": "Aham, quero! Prazer!", "ok": false, "why": "Ele é 先輩: mesmo que fale casual com você, responda no polido: はい、入部したいです！", "reg": "casual" },
+      { "jp": "はい！陸上部が入りたいです。", "pt": "(errado) Sim! O clube de atletismo quer entrar.", "ok": false, "why": "入る pede に (entrar EM): 陸上部に入りたいです. O が do ～たい só substitui o を." }
+    ] },
+    { "npc": ["おう、いい返事だ！俺は二年のリク。お前、名前は？", "Opa, boa resposta! Eu sou o Riku, do segundo ano. E você, como se chama?"], "note": "部活 (ぶかつ) são os clubes da escola, levados muito a sério: treino quase todo dia, inclusive nas férias." },
+    { "you": [
+      { "jp": "一年の○○です。よろしくお願いします、リク先輩！", "pt": "Sou ○○, do primeiro ano. Conto com você, veterano Riku!", "ok": true, "reg": "polido" },
+      { "jp": "一年の○○です。よろしく、リクくん！", "pt": "Sou ○○, do primeiro ano. Prazer, Rikuzinho!", "ok": false, "why": "くん é para colegas da mesma idade ou mais novos. Para um veterano use 先輩: リク先輩.", "reg": "casual" },
+      { "jp": "一年の○○先輩です。よろしくお願いします。", "pt": "(errado) Sou o veterano ○○, do primeiro ano.", "ok": false, "why": "先輩 é título para o OUTRO; nunca o use no próprio nome. Diga só 一年の○○です." }
+    ] },
+    { "npc": ["よし！先輩に会ったら、まず挨拶だ。うちの部では何て言うか、わかるか？", "Beleza! Ao encontrar um veterano, primeiro vem o cumprimento. Sabe o que se diz no nosso clube?"] },
+    { "you": [
+      { "jp": "お疲れ様です！", "pt": "Bom trabalho! (cumprimento)", "ok": true, "reg": "polido" },
+      { "jp": "お疲れ！", "pt": "Valeu, bom trabalho!", "ok": false, "why": "お疲れ！ é a versão casual, do 先輩 para o 後輩 ou entre iguais. Para um veterano: お疲れ様です！", "reg": "casual" },
+      { "jp": "お大事に！", "pt": "Melhoras!", "ok": false, "why": "お大事に = melhoras, para quem está doente. O cumprimento entre membros do clube é お疲れ様です！" }
+    ] },
+    { "npc": ["そうだ！じゃあ紹介する。こいつは一年のケン。お前と同じ一年だから、タメ口でいいぞ。", "Isso! Agora vou te apresentar: este é o Ken, do primeiro ano. Ele é do mesmo ano que você, então pode falar casual."], "note": "お疲れ様です serve de \"oi\" entre membros de clubes e colegas de trabalho, a qualquer hora do dia." },
+    { "you": [
+      { "jp": "ケン、よろしく！一緒に頑張ろう！", "pt": "Ken, prazer! Vamos nos esforçar juntos!", "ok": true, "reg": "casual" },
+      { "jp": "ケン先輩、よろしくお願いします。", "pt": "Veterano Ken, muito prazer.", "ok": false, "why": "Ken é do mesmo ano que você, não é 先輩. Entre colegas do mesmo ano, fale casual: ケン、よろしく！", "reg": "polido" },
+      { "jp": "ケン、よろしく！頑張ってね！", "pt": "Ken, prazer! Boa sorte aí!", "ok": false, "why": "頑張って = força (só para ele), como se você não fosse treinar. Para \"vamos juntos\": 一緒に頑張ろう！" }
+    ] },
+    { "npc": ["いいね！じゃあ今日は、校庭を十周走るぞ！", "Muito bem! Então hoje vamos correr dez voltas no pátio!"], "note": "Entre colegas do mesmo ano (同級生) a fala é casual. 周 (しゅう) conta voltas: 一周, 二周… 十周 (じゅっしゅう)." },
+    { "you": [
+      { "jp": "はい、わかりました！", "pt": "Sim, entendido!", "ok": true, "reg": "polido" },
+      { "jp": "えー、十周も？無理〜！", "pt": "Ah, dez voltas?! Nem pensar!", "ok": false, "why": "Reclamar em タメ口 com o 先輩 é falta de respeito. Responda com ânimo: はい、わかりました！", "reg": "giria" },
+      { "jp": "了解！", "pt": "Falou, entendido!", "ok": false, "why": "了解！ é casual demais para um 先輩. Responda はい、わかりました！", "reg": "casual" }
+    ] },
+    { "npc": ["はあ、はあ……よし、今日はここまで！よく頑張ったな。", "Ufa, ufa... Beleza, por hoje é só! Você se esforçou muito."] },
+    { "you": [
+      { "jp": "ありがとうございました！お先に失礼します！", "pt": "Muito obrigado! Com licença, vou indo na frente!", "ok": true, "reg": "polido" },
+      { "jp": "バイバイ、先輩！", "pt": "Tchauzinho, veterano!", "ok": false, "why": "バイバイ é para amigos. Ao sair antes do 先輩: ありがとうございました！お先に失礼します！", "reg": "casual" },
+      { "jp": "ごちそうさまでした！", "pt": "Obrigado pela refeição!", "ok": false, "why": "ごちそうさまでした é depois de comer. Ao sair do treino: ありがとうございました！お先に失礼します！" }
+    ] },
+    { "npc": ["おう、お疲れ！明日も遅れるなよ！", "Falou, bom trabalho! Amanhã não se atrase, hein!"], "note": "お先に失礼します = \"com licença, vou na frente\": dito ao sair antes dos outros, no clube ou no trabalho." }
+  ]
+}

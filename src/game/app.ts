@@ -16,7 +16,7 @@ import { World } from '../world/world';
 import { h } from '../core/util';
 import { newSave } from '../core/save';
 import { Game } from './game';
-import { prologue, characterCreator } from './cutscene';
+import { prologue, characterCreator, epilogue } from './cutscene';
 import { lookFromSave } from './game';
 import '../ui/game.css';
 
@@ -60,7 +60,11 @@ export class App {
       const s = newSave(0);
       s.name = 'Adam';
       if (dev === 'creator') await characterCreator(this, w, s);
-      else await prologue(this, w, lookFromSave(s));
+      else {
+        const g = new Game(this, s);
+        g.prebuild();
+        await prologue(this, w, lookFromSave(s), g);
+      }
       return;
     }
     if (dev === 'game') {
@@ -75,6 +79,12 @@ export class App {
         writeSlot(s);
         this.game = new Game(this, s);
         await this.game.start(false);
+        if (this.params.has('ending')) {
+          // dev: watch the epilogue from the heart of the tree
+          const tb = this.game.world.treeBase;
+          this.game.player.place(tb.x, tb.z + 16, Math.PI);
+          await epilogue(this.game);
+        }
         return;
       }
       await this.startGame(slot, fresh);
@@ -200,17 +210,19 @@ export class App {
     this.titleOrbit = null;
     music.stop(0.8);
     const w = this.ensureWorld();
+    this.game = new Game(this, save);
     if (fresh) {
       await this.screens.fadeTo(0, 600);
       await characterCreator(this, w, save);
       await this.screens.fadeTo(1, 600);
       if (!this.params.has('skipcine')) {
+        // build the village, the pier and the people while the screen is dark, so the prologue shows them
+        this.game.prebuild();
         await this.screens.fadeTo(0, 10);
         this.engine.u.uFade.value = 1;
-        await prologue(this, w, lookFromSave(save));
+        await prologue(this, w, lookFromSave(save), this.game);
       }
     }
-    this.game = new Game(this, save);
     const start = this.game.start(fresh);
     await this.screens.fadeTo(0, 900);
     this.engine.u.uFade.value = 0;

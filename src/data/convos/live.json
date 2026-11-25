@@ -1,0 +1,45 @@
+{
+  "id": "live",
+  "title": "Na live de games",
+  "sub": "Gírias de internet no chat de um amigo, e quando elas passam do ponto",
+  "reg": "giria",
+  "steps": [
+    { "npc": ["はいどうも〜、ソラです！今日もホラゲー配信やってくよ〜。お、○○じゃん！来てくれたんだ！", "Fala, galera, aqui é o Sora! Hoje tem live de jogo de terror de novo~. Opa, ○○ tá aqui! Você veio!"], "note": "Numa live (配信) entre amigos, o chat é casual e cheio de gírias. Mas gíria tem hora: com desconhecidos ou empresas, volte ao です/ます." },
+    { "you": [
+      { "jp": "やっほー！今日も見に来たよ！", "pt": "E aí! Vim assistir de novo!", "ok": true, "reg": "casual" },
+      { "jp": "本日はお招きいただき、誠にありがとうございます。", "pt": "Agradeço imensamente o convite de hoje.", "ok": false, "reg": "keigo", "why": "Keigo pesado no chat de um amigo soa frio (ou piada). Entre amigos: やっほー! 今日も見に来たよ!" },
+      { "jp": "はじめまして！よろしくお願いします！", "pt": "Muito prazer! Conto com você!", "ok": false, "reg": "polido", "why": "はじめまして é para quem você nunca viu, mas o Sora já te conhece! Entre amigos: やっほー! 今日も見に来たよ!" }
+    ] },
+    { "npc": ["このホラゲー、ガチで怖いらしいんだよね…。うわっ！今の何！？", "Dizem que esse jogo dá medo de verdade... Uaaa! O que foi isso?!"], "note": "ガチ = 'de verdade, a sério' (ガチで怖い = dá medo de verdade). 草 = 'kkk': vem de www, que parece grama (草)." },
+    { "you": [
+      { "jp": "ビビりすぎて草", "pt": "Se assustou demais, kkkk", "ok": true, "reg": "giria" },
+      { "jp": "神！", "pt": "Divino!", "ok": false, "reg": "giria", "why": "神 (かみ) é para algo incrível, como uma jogada perfeita. Para rir do susto dele, use 草: ビビりすぎて草." },
+      { "jp": "それな！", "pt": "Isso aí!", "ok": false, "reg": "giria", "why": "それな = 'né, concordo!', para responder a uma opinião. Ele só levou um susto: ria com 草 (= kkk)." }
+    ] },
+    { "npc": ["いやいや、マジで怖いって！…よし、ボス戦だ。HPあと少し…これ、勝てるかな？", "Não, sério, dá medo! ...Beleza, chefão. Quase sem HP... Será que eu ganho?"] },
+    { "you": [
+      { "jp": "ワンチャンある！いけいけ！", "pt": "Tem chance! Vai, vai!", "ok": true, "reg": "giria" },
+      { "jp": "ワンちゃんがいるの？かわいい！", "pt": "Tem um cachorrinho? Que fofo!", "ok": false, "reg": "casual", "why": "ワンちゃん (com ちゃん) é 'au-au', cachorrinho! A gíria ワンチャン = 'one chance', 'dá pra ganhar': ワンチャンある!" },
+      { "jp": "勝てないと思います。", "pt": "Acho que você não vai ganhar.", "ok": false, "reg": "polido", "why": "Desanimar o amigo no meio da luta, e ainda em tom formal, pega mal. Torça: ワンチャンある! いけいけ!" }
+    ] },
+    { "npc": ["よっしゃー！勝ったー！今のプレイ、どうだった？", "Isssso! Ganhei! Que tal a jogada?"] },
+    { "you": [
+      { "jp": "今の神すぎ！", "pt": "Essa foi divina demais!", "ok": true, "reg": "giria" },
+      { "jp": "下手くそ！", "pt": "Seu ruim!", "ok": false, "reg": "casual", "why": "下手くそ (ruim demais) ofende no chat público e nem faz sentido: ele ganhou! Elogie: 今の神すぎ!" },
+      { "jp": "微妙…。", "pt": "Mais ou menos...", "ok": false, "reg": "casual", "why": "微妙 = 'mais ou menos': um balde de água fria. Ele mandou bem! Elogie: 今の神すぎ!" }
+    ] },
+    { "npc": ["でしょ〜！やっぱこのゲーム、神ゲーだわ。", "Né~! Esse jogo é top demais mesmo."] },
+    { "you": [
+      { "jp": "それな！ガチで面白い！", "pt": "Isso aí! É bom demais, de verdade!", "ok": true, "reg": "giria" },
+      { "jp": "神ゲーって、神様のゲーム？", "pt": "神ゲー é um jogo de deuses?", "ok": false, "reg": "casual", "why": "神ゲー = jogo incrível (神 = 'top'), nada de religião. Para concordar: それな! ガチで面白い!" },
+      { "jp": "おっしゃる通りでございます。", "pt": "É exatamente como o senhor diz.", "ok": false, "reg": "keigo", "why": "おっしゃる通り é keigo de reunião ou debate. No chat de um amigo, para concordar: それな!" }
+    ] },
+    { "npc": ["あ、そうだ！今日はスポンサーの「ネオン電機」さんも見てくださってるんだ。○○、ちょっとあいさつしてよ！", "Ah, é mesmo! Hoje a patrocinadora, a Neon Elétrica, também está assistindo. ○○, dá um oi aí!"], "note": "Gíria tem hora: com patrocinadores, professores ou desconhecidos, volte ao です/ます. Saber trocar de registro é ser fluente!" },
+    { "you": [
+      { "jp": "はじめまして、○○です。いつもソラの配信を楽しく見ています。", "pt": "Muito prazer, sou ○○. Sempre assisto às lives do Sora, adoro.", "ok": true, "reg": "polido" },
+      { "jp": "スポンサー、神！ガチ感謝！", "pt": "Patrocinador divino! Gratidão total!", "ok": false, "reg": "giria", "why": "Gíria com uma empresa patrocinadora passa do ponto. Use です/ます: はじめまして、○○です." },
+      { "jp": "はじめまして。○○様でございます。", "pt": "(errado) Muito prazer. Sou o 'excelentíssimo' ○○.", "ok": false, "reg": "keigo", "why": "様 (さま) é para os outros: nunca use com o próprio nome. Diga: はじめまして、○○です." }
+    ] },
+    { "npc": ["ナイス！ちゃんと切り替えられるの、さすがじゃん。じゃあ今日はここまで！みんな、おつ〜！", "Boa! Sabe trocar de tom direitinho, hein. Bom, por hoje é isso! Valeu, pessoal~!"], "note": "おつ = お疲れ (様), 'valeu pelo esforço': a despedida clássica no fim das lives. No chat também aparece como 乙." }
+  ]
+}

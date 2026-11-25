@@ -1,0 +1,51 @@
+{
+  "id": "zen",
+  "title": "O mestre zen",
+  "sub": "Provérbios e expressões de quatro kanji: escolha o dito certo",
+  "reg": "antigo",
+  "steps": [
+    { "npc": ["よくおいでなさった。何やら悩みを抱えておるようじゃな。","Que bom que você veio. Parece que algo te aflige."], "note": "老師 (ろうし) é o título de um mestre zen. Ele fala como um velho sábio (〜じゃ, おる); você responde com です/ます e respeito." },
+    { "you": [
+      { "jp": "はい、老師。日本語の勉強で失敗ばかりして、自信をなくしてしまいました。", "pt": "Sim, mestre. Erro tanto nos estudos de japonês que perdi a confiança.", "ok": true, "reg": "polido" },
+      { "jp": "うむ、悩みを抱えておるのじゃ。", "pt": "Hum, carrego uma aflição, sabe.", "ok": false, "reg": "anime", "why": "〜じゃ e おる são fala de velho sábio: ele pode, você não. Ao mestre, fale com です/ます: 自信をなくしてしまいました." },
+      { "jp": "別に。悩みとかないし。", "pt": "Nada não. Não tenho problema nenhum.", "ok": false, "reg": "casual", "why": "Resposta seca e casual a um mestre é desrespeito. Abra o coração com です/ます: 自信をなくしてしまいました." }
+    ] },
+    { "npc": ["ふむ。転んでも、また起き上がればよい。それを表す言葉を知っておるかな？", "Hum. Se cair, basta levantar de novo. Conhece o ditado que diz isso?"] },
+    { "you": [
+      { "jp": "「七転び八起き」ですね。", "pt": "'Cair sete vezes, levantar oito', não é?", "ok": true },
+      { "jp": "「猿も木から落ちる」ですね。", "pt": "'Até o macaco cai da árvore', não é?", "ok": false, "why": "猿も木から落ちる = até o especialista erra. Para quem cai e sempre se levanta: 七転び八起き." },
+      { "jp": "「花より団子」ですね。", "pt": "'Mais vale o bolinho que a flor', não é?", "ok": false, "why": "花より団子 = preferir o útil (comida) ao bonito (flores). Para persistir após as quedas: 七転び八起き." }
+    ] },
+    { "npc": ["その通り。だが、早く上手になろうと焦って、近道ばかり探してはおらぬか？", "Exato. Mas você não anda com pressa de melhorar, procurando só atalhos?"], "note": "O símbolo de 七転び八起き é a daruma (だるま), boneca que sempre volta a ficar de pé. 〜ぬ = 〜ない antigo: おらぬ = いない." },
+    { "you": [
+      { "jp": "はい…。「急がば回れ」ということですね。", "pt": "Sim... Quer dizer 'se tem pressa, dê a volta', não é?", "ok": true },
+      { "jp": "「一石二鳥」ということですね。", "pt": "Quer dizer 'matar dois coelhos com uma cajadada', não é?", "ok": false, "why": "一石二鳥 = dois ganhos com uma só ação. Para 'com pressa, prefira o caminho seguro': 急がば回れ." },
+      { "jp": "はい。「急がば回れ」ですから、もっと急ぎます。", "pt": "Sim. Como 'se tem pressa, dê a volta', vou me apressar mais.", "ok": false, "why": "急がば回れ ensina o contrário: com pressa, vá pelo caminho seguro, mesmo que mais longo. Não é para correr mais." }
+    ] },
+    { "npc": ["うむ。ところで、この寺の若い修行僧は料理の名人なんじゃが、今朝はご飯を焦がしてしまってのう。", "Hum. Aliás, o jovem monge aprendiz deste templo é um mestre na cozinha, mas hoje de manhã queimou o arroz."] },
+    { "you": [
+      { "jp": "「猿も木から落ちる」ですね。", "pt": "'Até o macaco cai da árvore', não é?", "ok": true },
+      { "jp": "「七転び八起き」ですね。", "pt": "'Cair sete vezes, levantar oito', não é?", "ok": false, "why": "七転び八起き = levantar-se após cada queda (persistência). Para um craque que erra uma vez: 猿も木から落ちる." },
+      { "jp": "「自業自得」ですね。", "pt": "'Colheu o que plantou', não é?", "ok": false, "why": "自業自得 = castigo merecido pelos próprios atos: duro demais para um deslize. Para um craque que erra: 猿も木から落ちる." }
+    ] },
+    { "npc": ["ほっほっ、その通り。実は、わしも今朝のお勤めで、一行読み飛ばしてしまったのじゃ。", "Ho ho, isso mesmo. Na verdade, eu também pulei uma linha do sutra na reza desta manhã."] },
+    { "you": [
+      { "jp": "「弘法も筆の誤り」と申しますから。", "pt": "Como se diz: 'até o grande Kōbō errava com o pincel'.", "ok": true, "reg": "keigo" },
+      { "jp": "「猿も木から落ちる」ですね。", "pt": "'Até o macaco cai da árvore', não é?", "ok": false, "why": "Mesmo sentido, mas comparar o mestre a um macaco é desrespeitoso! Para superiores: 弘法も筆の誤り." },
+      { "jp": "「急がば回れ」ですね。", "pt": "'Se tem pressa, dê a volta', não é?", "ok": false, "why": "急がば回れ fala de pressa, não de erro. Para o deslize de um mestre: 弘法も筆の誤り (até o grande Kōbō errava)." }
+    ] },
+    { "npc": ["ははは、うまいことを言う。さて、日本語も修行も、毎日の小さな積み重ねが大切じゃ。", "Ha ha ha, falou bem. Pois bem: no japonês e na prática zen, o que importa é somar pequenos passos todo dia."], "note": "Mesmo sentido, outro registro: 猿も木から落ちる entre iguais; com superiores, 弘法も (ou 弘法にも) 筆の誤り. 弘法 = Kōbō Daishi, monge e mestre calígrafo." },
+    { "you": [
+      { "jp": "「塵も積もれば山となる」ですね。", "pt": "'Grão a grão, a poeira vira montanha', não é?", "ok": true },
+      { "jp": "「三日坊主」ですね。", "pt": "'Monge de três dias', não é?", "ok": false, "why": "三日坊主 = quem desiste de tudo em três dias: o oposto! Para pequenos esforços que se somam: 塵も積もれば山となる." },
+      { "jp": "「十人十色」ですね。", "pt": "'Dez pessoas, dez cores', não é?", "ok": false, "why": "十人十色 = cada um é de um jeito. Para os pequenos passos que se somam: 塵も積もれば山となる." }
+    ] },
+    { "npc": ["うむ。そして、今日こうしておぬしと話せたことも、二度とない縁じゃ。", "Hum. E esta conversa de hoje com você também é um laço que não se repetirá."], "note": "おぬし (お主) = 'você' antigo, de samurais e velhos mestres. 縁 (えん) = laço, o destino que une as pessoas." },
+    { "you": [
+      { "jp": "「一期一会」ですね。今日のお言葉、一生忘れません。", "pt": "'Um encontro, uma vez', não é? Nunca vou esquecer as suas palavras de hoje.", "ok": true, "reg": "polido" },
+      { "jp": "「一石二鳥」ですね。今日はお得でした。", "pt": "'Dois coelhos com uma cajadada', né? Hoje saí no lucro.", "ok": false, "why": "一石二鳥 = dois ganhos numa só ação: soa interesseiro aqui. Para um encontro único: 一期一会." },
+      { "jp": "「以心伝心」ですね。", "pt": "'De coração a coração, sem palavras', não é?", "ok": false, "why": "以心伝心 = entender-se sem palavras. Para valorizar um encontro que não se repete: 一期一会." }
+    ] },
+    { "npc": ["よい顔になった。行きなさい。七転び八起きじゃ。", "Seu rosto mudou para melhor. Vá. Cair sete vezes, levantar oito."] }
+  ]
+}

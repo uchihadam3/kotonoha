@@ -1,0 +1,45 @@
+{
+  "id": "kansai",
+  "title": "A tia de Osaka",
+  "sub": "Pechinchar e brincar em dialeto de Kansai numa barraca",
+  "reg": "kansai",
+  "steps": [
+    { "npc": ["まいど！ちょっと寄ってって〜。あんた、どっから来たんや？","Opa, freguesia! Chega mais~. De onde você veio?"], "note": "関西弁 (dialeto de Kansai): 〜や = 〜だ, 〜へん = 〜ない, ほんま = 本当. Osaka é famosa pelo humor e pelos comerciantes falantes." },
+    { "you": [
+      { "jp": "ブラジルから来ました。", "pt": "Vim do Brasil.", "ok": true, "reg": "polido" },
+      { "jp": "はい、いつも来ています。", "pt": "Sim, venho sempre.", "ok": false, "why": "まいど (毎度) aqui é o 'olá' do comerciante, não 'toda vez'. Ela perguntou de onde: どっから = どこから." },
+      { "jp": "どっちでもいいです。", "pt": "Tanto faz.", "ok": false, "why": "どっから = どこから (de onde), não どっち (qual). Responda: ブラジルから来ました." }
+    ] },
+    { "npc": ["ブラジル！えらい遠いとこから来たんやなあ。ほな、これ一つ食べてみ。うちの温泉まんじゅう、めっちゃうまいで！", "Brasil! Veio de longe pra caramba, hein. Então prova um. O manju das termas daqui é bom demais!"], "note": "ほな = じゃあ (então); 食べてみ = 食べてみて (prova!); めっちゃ = とても; 〜で no fim da frase = 〜よ." },
+    { "you": [
+      { "jp": "いただきます。…わあ、本当においしいです！", "pt": "Vou provar. ...Nossa, é gostoso mesmo!", "ok": true, "reg": "polido" },
+      { "jp": "えらい人じゃないですよ。", "pt": "Não sou ninguém importante.", "ok": false, "why": "Em Kansai, えらい também é 'muito' (えらい遠い = longe demais). Ela ofereceu o doce: いただきます." },
+      { "jp": "はい、日本語はうまいです。", "pt": "Sim, meu japonês é bom.", "ok": false, "why": "うまい aqui é 'gostoso' (= おいしい), e 食べてみ = 'prova!'. Aceite: いただきます。…おいしいです!" }
+    ] },
+    { "npc": ["せやろ？この箱で千円や。…で、あんた、なんぼやったらこうてくれる？", "Né? A caixa sai por mil ienes. ...E aí, por quanto você levaria?"], "note": "Pechinchar não é costume no Japão, mas em Osaka faz parte da diversão! せやろ = そうでしょ; やったら = だったら; こうて = 買って." },
+    { "you": [
+      { "jp": "うーん、七百円なら買います！", "pt": "Hmm, por 700 ienes eu levo!", "ok": true, "reg": "polido" },
+      { "jp": "二本ください。", "pt": "Dois (objetos compridos), por favor.", "ok": false, "why": "なんぼ ≠ 何本 (なんぼん). なんぼ = いくら: diga um preço, ex.: 七百円なら買います!" },
+      { "jp": "七百円にしろよ。", "pt": "Faz por 700, vai.", "ok": false, "reg": "casual", "why": "Mesmo pechinchando, dar ordem (〜しろ) a uma senhora é grosseiro. Faça uma oferta: 七百円なら買います!" }
+    ] },
+    { "npc": ["七百円！？あかんあかん、そんなんしたら、うちが損してまうやん！", "700?! Nem pensar, desse jeito eu saio no prejuízo!"], "note": "そんなん = そんなの; 〜てまう = 〜てしまう; 〜やん = 〜じゃない (né). うち = 'eu', na boca das mulheres de Kansai." },
+    { "you": [
+      { "jp": "じゃあ、九百円はどうですか。", "pt": "Então, que tal 900?", "ok": true, "reg": "polido" },
+      { "jp": "ありがとうございます！七百円ですね。", "pt": "Obrigado! Então são 700, né.", "ok": false, "why": "あかん = だめ: ela RECUSOU os 700. Faça outra oferta: じゃあ、九百円はどうですか." },
+      { "jp": "けち！", "pt": "Pão-dura!", "ok": false, "reg": "casual", "why": "Chamar de けち (pão-duro) quem você mal conhece ofende, mesmo de brincadeira. Negocie: 九百円はどうですか." }
+    ] },
+    { "npc": ["もう、しゃあないなあ！ほな、九百円にまけたるわ。そのかわり、また来てや！", "Ai, fazer o quê! Então faço por 900. Mas, em troca, volte aqui, hein!"], "note": "しゃあない = しかたない (fazer o quê); 〜たる = 〜てあげる; 来てや = 来てね." },
+    { "you": [
+      { "jp": "ほんまですか！ありがとうございます！", "pt": "Sério?! Muito obrigado!", "ok": true, "reg": "kansai" },
+      { "jp": "え、負けたんですか？何の勝負ですか？", "pt": "Ué, a senhora perdeu? Que disputa era?", "ok": false, "why": "まける aqui é 'dar desconto' (値引きする), não 'perder' (負ける). Ela aceitou os 900: ほんまですか! ありがとうございます!" },
+      { "jp": "やっぱり、いりません。", "pt": "Pensando bem, não quero.", "ok": false, "why": "Foi você que ofereceu 900! Desistir depois que ela aceitou é muito deselegante. Agradeça: ありがとうございます!" }
+    ] },
+    { "npc": ["おおきに！はい、おつり百円。あと、これアメちゃん。おまけや！", "Obrigadão! Aqui, cem ienes de troco. E toma esta balinha, de brinde!"], "note": "Fama das tias de Osaka (大阪のおばちゃん): falam com todo mundo, pechincham tudo e sempre têm um mimo na bolsa para dar." },
+    { "you": [
+      { "jp": "わあ、アメちゃん！ありがとうございます！", "pt": "Oba, uma balinha! Muito obrigado!", "ok": true, "reg": "polido" },
+      { "jp": "え、雨ですか？傘、持っていません。", "pt": "Ué, vai chover? Não trouxe guarda-chuva.", "ok": false, "why": "アメちゃん = 飴 (bala) com o carinhoso ちゃん, bem de Osaka. Não é 雨 (chuva)! Agradeça: ありがとうございます!" },
+      { "jp": "大きいですね。", "pt": "Que grande, né.", "ok": false, "why": "おおきに não tem nada a ver com 大きい: é 'obrigado' em Kansai. Agradeça: ありがとうございます!" }
+    ] },
+    { "npc": ["ほな、気ぃつけてな〜。また来てや！", "Então, vai com cuidado~. Volte, hein!"], "note": "Não precisa imitar o dialeto: japonês padrão é ótimo. Um ほんま? de brincadeira agrada, mas sotaque forçado (エセ関西弁) costuma irritar." }
+  ]
+}

@@ -31,7 +31,7 @@ cada versão `v*`): `KOTONOHA-*-Instalador.exe`, a versão portátil `*-portatil
 
 **Offline, sem instalar nada:** baixe o arquivo [`jogar/KOTONOHA.html`](jogar/KOTONOHA.html) e abra com
 dois cliques (Chrome, Edge ou Firefox recentes). O jogo inteiro está nesse único arquivo: código, música,
-sons, fontes, as 10 mil palavras, os 2.136 kanji e a ordem dos traços.
+sons, fontes, as mais de 13 mil palavras, os 2.136 kanji e a ordem dos traços.
 
 **Publicação:** o GitHub Pages precisa estar ligado uma vez (*Settings → Pages → Source: GitHub
 Actions*). Depois disso, cada envio para `main` testa, gera e publica o jogo automaticamente.
@@ -85,7 +85,7 @@ Onze lugares, abertos pela quantidade de palavras aprendidas (uma névoa cinza b
 | 霊峰 Pico Sagrado | 9.000 | N1 | tudo junto; o coração da Grande Árvore (final aos 10.000) |
 
 As palavras de nível mais alto também se abrem com o total aprendido: **N4 com 250, N3 com 800, N2 com
-2.400 e N1 com 4.500 palavras**. Os títulos vão de 旅人 *Viajante* a 言霊使い *Senhor do Kotodama*.
+2.400 e N1 com 4.000 palavras**. Os títulos vão de 旅人 *Viajante* a 言霊使い *Senhor do Kotodama*.
 
 O jogo **salva sozinho** a cada 30 segundos, ao fim de cada atividade e quando o app é fechado, em 3
 espaços. Em **Carregar**, cada jornada pode ser exportada como código ou arquivo e importada em outro
@@ -106,7 +106,7 @@ aparelho.
 
 ## Dados de japonês
 
-- **10.000+ palavras**: ~1.450 curadas por tema com notas de registro e exemplos, mais as listas JLPT
+- **13.000+ palavras**: ~1.450 curadas por tema com notas de registro e exemplos, mais as listas JLPT
   N5–N1 e palavras frequentes de jornais e do dia a dia (JMdict), todas com significado em português do
   Brasil, tema, nível, classe gramatical (para a conjugação automática) e frase de exemplo.
 - **2.136 kanji jōyō** com leituras on/kun, significado em português, série escolar, nível JLPT e palavras

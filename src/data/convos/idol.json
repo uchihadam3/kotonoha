@@ -1,0 +1,45 @@
+{
+  "id": "idol",
+  "title": "Encontro com a idol",
+  "sub": "A fala fofa de anime da idol e a fala respeitosa do fã",
+  "reg": "anime",
+  "steps": [
+    { "npc": ["わぁ〜っ、来てくれたんだね！ひかり、すっごくうれしいよっ！お名前、教えてくれる？", "Uaau~, você veio! A Hikari está super feliz! Me diz o seu nome?"], "note": "Idols e heroínas de anime falam de si pelo próprio nome (ひかりは…) e esticam o fim das frases (〜だよっ). O fã responde com educação." },
+    { "you": [
+      { "jp": "○○です！いつも応援しています！", "pt": "Sou ○○! Sempre torço por você!", "ok": true, "reg": "polido" },
+      { "jp": "○○だよっ！応援してるのっ！", "pt": "Sou ○○~! Torço por você, viu~!", "ok": false, "reg": "anime", "why": "Imitar o jeito fofo da idol soa estranho (ou deboche). Fã fala com です/ます: ○○です! いつも応援しています!" },
+      { "jp": "お名前は○○です。", "pt": "(errado) Meu 'honorável nome' é ○○.", "ok": false, "reg": "keigo", "why": "お名前 é honorífico: o nome DO OUTRO. Para o seu, diga só ○○です (ou 名前は○○です)." }
+    ] },
+    { "npc": ["○○…うん、覚えたっ！えへへ。今日はどこから来てくれたの？", "○○... pronto, decorei! Hehe. De onde você veio hoje?"] },
+    { "you": [
+      { "jp": "ブラジルから来ました！今日のライブ、ずっと楽しみにしていました！", "pt": "Vim do Brasil! Estava esperando muito pelo show de hoje!", "ok": true, "reg": "polido" },
+      { "jp": "ブラジルに来ました！", "pt": "Vim para o Brasil!", "ok": false, "why": "に marca o destino ('para'). Para dizer de onde você veio, use から: ブラジルから来ました!" },
+      { "jp": "ブラジルから。てか、LINE教えてよ。", "pt": "Do Brasil. Aliás, me passa seu LINE?", "ok": false, "reg": "casual", "why": "Pedir contato pessoal à idol é proibido nesses eventos e assusta. Responda com respeito: ブラジルから来ました!" }
+    ] },
+    { "npc": ["えーっ、遠いところからありがと〜！ひかりの新曲「キラキラドリーム」、もう聴いてくれた？", "Nossa~, obrigada por vir de longe! Você já ouviu a música nova da Hikari, 'Kira Kira Dream'?"] },
+    { "you": [
+      { "jp": "はい！毎日聴いています。サビが最高です！", "pt": "Sim! Ouço todo dia. O refrão é demais!", "ok": true, "reg": "polido" },
+      { "jp": "はい！もう聴いてくれました！", "pt": "(errado) Sim! Já ouviu para mim!", "ok": false, "why": "聴いてくれた? = 'você ouviu (por mim)?'. Na resposta a ação é sua, sem くれる: はい! 毎日聴いています!" },
+      { "jp": "うん、まあまあだったかな。", "pt": "É, achei mais ou menos.", "ok": false, "reg": "casual", "why": "'Mais ou menos' (まあまあ) para a artista é falta de tato, e em タメ口. Elogie com です/ます: サビが最高です!" }
+    ] },
+    { "npc": ["ほんとっ！？うれしいっ！ひかり、もっともっとがんばっちゃうもんね！", "Sério?! Que alegria! A Hikari vai se esforçar mais e mais, viu!"], "note": "〜もん e 〜ちゃう (= 〜てしまう) soam fofos e infantis: típico de idol e de anime. Num adulto, no trabalho, soariam estranhos." },
+    { "you": [
+      { "jp": "これからも応援しています！がんばってください！", "pt": "Vou continuar torcendo! Força!", "ok": true, "reg": "polido" },
+      { "jp": "がんばっちゃうもんね！", "pt": "Vou me esforçar, viu!", "ok": false, "reg": "anime", "why": "Isso é ela falando de si, no jeito fofo de anime. Para incentivar a idol: これからも応援しています! がんばってください!" },
+      { "jp": "ご苦労様です！", "pt": "Bom trabalho! (de chefe para funcionário)", "ok": false, "why": "ご苦労様 se diz a quem trabalha para você (subordinados). Para a idol: がんばってください!" }
+    ] },
+    { "npc": ["ありがとっ！あ、もう時間だ…。最後に握手しよっ！", "Valeu! Ah, já acabou o tempo... Pra terminar, vamos dar as mãos!"], "note": "Nos 握手会 (eventos de aperto de mão), cada fã tem poucos segundos. Quando a equipe avisa, agradeça e siga: a fila é sagrada." },
+    { "you": [
+      { "jp": "はい！今日は本当にありがとうございました！", "pt": "Sim! Muito obrigado por hoje, de verdade!", "ok": true, "reg": "polido" },
+      { "jp": "えー、あと五分だけ！お願い！", "pt": "Ahh, só mais cinco minutinhos! Por favor!", "ok": false, "reg": "casual", "why": "Insistir quando o tempo acaba atrapalha a fila e a equipe. Agradeça e vá: 今日は本当にありがとうございました!" },
+      { "jp": "はい、握手してあげます！", "pt": "Tá, eu te dou a honra de um aperto de mão!", "ok": false, "why": "〜てあげる soa como 'te faço um favor': convencido! Aceite agradecendo: はい! 今日は本当にありがとうございました!" }
+    ] },
+    { "npc": ["こちらこそ！また会いに来てねっ！ひかりとの約束だよっ！", "Eu que agradeço! Venha me ver de novo, tá? É uma promessa com a Hikari!"] },
+    { "you": [
+      { "jp": "はい、必ずまた来ます！", "pt": "Sim, com certeza eu volto!", "ok": true, "reg": "polido" },
+      { "jp": "うむ、必ずまた会いに行くのだ！", "pt": "Hum, irei te ver de novo sem falta! (fala de personagem)", "ok": false, "reg": "anime", "why": "うむ e 〜のだ assim são fala de personagem de anime. Fã de verdade: はい、必ずまた来ます!" },
+      { "jp": "お約束はいたしかねます。", "pt": "Lamento, mas não posso prometer.", "ok": false, "reg": "keigo", "why": "いたしかねます é recusa formal de empresa: fria e triste aqui! Prometa com carinho: はい、必ずまた来ます!" }
+    ] },
+    { "npc": ["わーい！ばいばーい、またねっ！", "Ebaa! Tchauzinho, até mais!"] }
+  ]
+}

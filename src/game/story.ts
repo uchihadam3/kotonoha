@@ -9,6 +9,8 @@ import { REGIONS, THEME_NAMES, rankFor } from '../data/regions';
 import { esc, fmtNum, sleep } from '../core/util';
 import { sfx } from '../audio/sfx';
 import { music } from '../audio/music';
+import { epilogue } from './cutscene';
+import { completion, type Completion } from './completion';
 
 export class Story {
   constructor(private g: Game) {}
@@ -133,32 +135,65 @@ export class Story {
       g.dialog.close();
       return;
     }
-    if (g.save.flags.ending) {
-      await g.dialog.say({ ...base, jp: 'ありがとう。あなたは もう 言霊使いです。', pt: 'Obrigada. Você já é um Senhor do Kotodama.' } as Line);
+    const done = completion(g);
+    if (!g.save.flags.ending) {
+      g.save.flags.ending = 1;
+      g.persist();
       g.dialog.close();
+      await epilogue(g);
+      await this.afterEnding();
       return;
     }
-    g.save.flags.ending = 1;
-    g.persist();
+    if (done.pct >= 1 && !g.save.flags.perfect) {
+      g.dialog.close();
+      await this.perfect();
+      return;
+    }
+    await g.dialog.say({ ...base, jp: 'ありがとう。あなたは もう 言霊使いです。', pt: 'Obrigada. Você já é um Senhor do Kotodama.' } as Line);
+    if (done.pct < 1) await g.dialog.say({ ...base, pt: `Domínio Total 完全制覇: ${Math.floor(done.pct * 100)}%. ${this.missing(done)}` } as Line);
     g.dialog.close();
-    await this.ending();
   }
 
-  private async ending() {
+  /** what is still missing for 100% */
+  private missing(d: Completion): string {
+    const out: string[] = [];
+    if (d.kanji < d.kanjiMax) out.push(`${fmtNum(d.kanjiMax - d.kanji)} kanji (Dojô de Kanji da escola)`);
+    if (d.convos < d.convosMax) out.push(`${d.convosMax - d.convos} conversas`);
+    if (d.seals < d.sealsMax) out.push(`${d.sealsMax - d.seals} selos das Grandes Sombras`);
+    if (d.kana < d.kanaMax) out.push(`${d.kanaMax - d.kana} kana`);
+    return out.length ? `Ainda faltam: ${out.join(', ')}.` : '';
+  }
+
+  /** right after the credits: Kon points at what is left for the "Domínio Total" */
+  private async afterEnding() {
+    const d = completion(this.g);
+    sfx.rankUp();
+    const rk = rankFor(this.g.learner.leaves);
+    this.g.app.screens.toast(`<span class="jp">${rk.jp}</span> ${esc(rk.pt)}: a Grande Árvore floresceu!`, 6000);
+    if (d.pct >= 1) return this.perfect();
+    await this.konSays([
+      { jp: 'やったね！ でも、旅は まだ 終わらないよ。', pt: 'Conseguimos! Mas a jornada ainda não acabou.', expr: 'happy' },
+      { pt: `Ainda dá para chegar ao Domínio Total 完全制覇 (agora em ${Math.floor(d.pct * 100)}%). ${this.missing(d)} Quando estiver tudo completo, volte ao coração da árvore.` },
+      { jp: 'それに、毎日の 復習も 忘れずに ね！', pt: 'E não esqueça as revisões de cada dia: folha revisada é folha que não murcha!' },
+    ]);
+  }
+
+  /** 100%: every word, kanji, kana, conversation and seal */
+  private async perfect() {
     const g = this.g;
+    g.save.flags.perfect = 1;
+    g.persist();
     g.pause(true);
+    const tb = g.world.treeBase;
+    g.rig.override = { pos: new THREE.Vector3(tb.x + 50, tb.y + 26, tb.z + 74), look: new THREE.Vector3(tb.x, tb.y + 40, tb.z), k: 0.6 };
+    await sleep(1800);
     music.play('peak');
     sfx.rankUp();
-    const cam = g.engine.camera;
-    const tb = g.world.treeBase;
-    g.rig.override = { pos: new THREE.Vector3(tb.x + 60, tb.y + 30, tb.z + 80), look: new THREE.Vector3(tb.x, tb.y + 40, tb.z), k: 0.6 };
-    g.world.clock = 0.27;
-    await sleep(2500);
-    g.world.bursts.spark(new THREE.Vector3(tb.x, tb.y + 45, tb.z), '#ffe9a8', 120, 12);
-    const rk = rankFor(g.learner.leaves);
-    await g.app.screens.alert(`<span class="jp" style="font-size:40px;display:block">言の葉の大樹</span><br>As dez mil folhas voltaram à Grande Árvore. A ilha inteira tem cor de novo, e você fala japonês em todos os tons: polido, casual, keigo, gírias, anime, o japonês antigo e até Kansai.<br><br><b>${esc(g.save.name)}</b>, agora você é <span class="jp">${rk.jp}</span> — ${rk.pt}.<br><br>Obrigado por jogar KOTONOHA. ありがとうございました！<br><small>Uchihadam Production</small>`, 'Continuar explorando');
+    g.world.bursts.spark(new THREE.Vector3(tb.x, tb.y + 45, tb.z), '#ffd86a', 200, 16);
+    g.world.bursts.ring(new THREE.Vector3(tb.x, tb.y + 2, tb.z), '#ffe9a8', 40);
+    await sleep(2600);
+    await g.app.screens.alert(`<span class="jp" style="font-size:42px;display:block">完全制覇</span><br><b>Domínio Total.</b> Todas as palavras, os ${fmtNum(completion(g).kanjiMax)} kanji, todos os kana, todas as conversas e todos os selos.<br><br>A Grande Árvore ficou dourada: cada folha agora é uma palavra dominada.<br><br><b>${esc(g.save.name)}</b>, não existe mais nada que esta ilha possa ensinar a você. O resto do japonês está lá fora, no mundo. 行ってらっしゃい！`, 'Continuar');
     g.rig.override = null;
-    void cam;
     g.pause(false);
   }
 }

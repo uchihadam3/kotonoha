@@ -1,0 +1,45 @@
+{
+  "id": "omikuji",
+  "title": "A sorte do omikuji",
+  "sub": "Tirar a sorte com a miko e falar do que você sente",
+  "reg": "polido",
+  "steps": [
+    { "npc": ["こんにちは。今日の運勢を占ってみませんか？おみくじは一回百円です。", "Boa tarde. Que tal ver a sua sorte de hoje? O omikuji custa 100 ienes."], "note": "おみくじ: papel da sorte. Do melhor ao pior: 大吉 (だいきち), 吉, 中吉, 小吉, 末吉, 凶 (きょう)." },
+    { "you": [
+      { "jp": "はい、お願いします。ちょっとドキドキします。", "pt": "Sim, por favor. Estou com um friozinho na barriga.", "ok": true, "reg": "polido" },
+      { "jp": "はい、お願いします。ちょっとイライラします。", "pt": "Sim, por favor. Estou meio irritado.", "ok": false, "why": "イライラ = irritação. Para a emoção da expectativa (coração batendo forte): ドキドキします." },
+      { "jp": "はい、占ってあげます。", "pt": "Sim, eu leio a sua sorte para você.", "ok": false, "why": "～てあげる = fazer algo PARA o outro: você leria a sorte dela! Para aceitar: はい、お願いします." }
+    ] },
+    { "npc": ["では、この箱をよく振って、棒を一本出してください。……十七番ですね。はい、どうぞ。", "Então, sacuda bem esta caixa e tire uma vareta. ... Número 17. Aqui está."], "note": "Sacode-se a caixa até sair uma vareta numerada; a miko (巫女) entrega o papel com aquele número." },
+    { "you": [
+      { "jp": "あ……凶でした。ちょっと残念です。", "pt": "Ah... deu azar. Que pena.", "ok": true, "reg": "polido" },
+      { "jp": "あ……凶でした。とてもうれしいです！", "pt": "Ah... deu azar. Estou muito feliz!", "ok": false, "why": "凶 é azar: ninguém fica feliz com ele! Para lamentar: 残念です (que pena)." },
+      { "jp": "あ……凶でした。ちょっと寂しいです。", "pt": "Ah... deu azar. Estou meio solitário.", "ok": false, "why": "寂しい = solidão, saudade. Para uma decepção: 残念です (que pena)." }
+    ] },
+    { "npc": ["大丈夫ですよ。凶のおみくじは、あそこの木に結んでいけば、悪い運を置いていけるんです。", "Não se preocupe. Se você amarrar o omikuji de azar naquela árvore, deixa a má sorte aqui."], "note": "A おみくじ ruim costuma ser amarrada no santuário para deixar o azar para trás; a boa, muitos levam consigo." },
+    { "you": [
+      { "jp": "そうなんですか。それを聞いて安心しました。", "pt": "É mesmo? Fico aliviado em ouvir isso.", "ok": true, "reg": "polido" },
+      { "jp": "そうなんですか。それを聞いて心配しました。", "pt": "É mesmo? Fiquei preocupado em ouvir isso.", "ok": false, "why": "心配 = preocupação. Ela te tranquilizou, então: 安心しました (fiquei aliviado)." },
+      { "jp": "マジ？助かる〜！", "pt": "Sério? Salvou~!", "ok": false, "why": "マジ e 助かる〜 são de amigos. Com a miko, que fala polido com você: それを聞いて安心しました.", "reg": "giria" }
+    ] },
+    { "npc": ["よかったです。……何か今、悩んでいることはありますか？", "Que bom. ... Tem alguma coisa te preocupando agora?"] },
+    { "you": [
+      { "jp": "実は、日本語の勉強が少し不安なんです。", "pt": "Na verdade, estou um pouco inseguro com o estudo de japonês.", "ok": true, "reg": "polido" },
+      { "jp": "実は、日本語の勉強が少し安心なんです。", "pt": "Na verdade, estou um pouco aliviado com o estudo de japonês.", "ok": false, "why": "安心 = alívio, tranquilidade. Para preocupação e insegurança: 不安なんです." },
+      { "jp": "実は、日本語の勉強を少し不安がっています。", "pt": "(errado) Na verdade, ando \"mostrando insegurança\" com o japonês.", "ok": false, "why": "～がる descreve o que OUTRA pessoa demonstra sentir (彼は不安がっている). Para o seu sentimento: 不安なんです." }
+    ] },
+    { "npc": ["そうですか。でも、このおみくじにも「あきらめなければ、願いはかなう」と書いてありますよ。", "Entendo. Mas este omikuji também diz: \"se você não desistir, o desejo se realiza\"."], "note": "願いがかなう = o desejo se realiza; あきらめる = desistir. Os dois aparecem muito em canções e animes." },
+    { "you": [
+      { "jp": "本当ですね。元気が出ました。頑張ります！", "pt": "É verdade. Fiquei animado. Vou me esforçar!", "ok": true, "reg": "polido" },
+      { "jp": "本当ですね。元気でした。頑張ります！", "pt": "É verdade. Eu estava bem de saúde. Vou me esforçar!", "ok": false, "why": "元気でした = eu estava bem (de saúde). \"Fiquei animado\" é 元気が出ました." },
+      { "jp": "本当ですね。がっかりしました。", "pt": "É verdade. Fiquei decepcionado.", "ok": false, "why": "がっかり = decepção. As palavras dela te animaram: 元気が出ました！" }
+    ] },
+    { "npc": ["その意気です！きっと大丈夫ですよ。", "Esse é o espírito! Com certeza vai dar tudo certo."], "note": "きっと = com certeza (esperança forte). Mais fracos: たぶん (talvez) e もしかしたら (quem sabe)." },
+    { "you": [
+      { "jp": "ありがとうございました。また来ます。", "pt": "Muito obrigado. Eu volto outra vez.", "ok": true, "reg": "polido" },
+      { "jp": "ありがとうございました。また来ました。", "pt": "Muito obrigado. Vim de novo.", "ok": false, "why": "来ました é passado (vim). Para prometer voltar, use o presente: また来ます." },
+      { "jp": "おめでとうございます。", "pt": "Parabéns.", "ok": false, "why": "おめでとう = parabéns. Para agradecer e se despedir: ありがとうございました。また来ます." }
+    ] },
+    { "npc": ["はい、お待ちしています。お気をつけて。", "Estaremos esperando. Vá com cuidado."] }
+  ]
+}

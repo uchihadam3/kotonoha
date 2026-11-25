@@ -101,6 +101,10 @@ export class Game {
   running = false;
   /** debug: force the colour restoration (tours/screenshots) */
   debugSat: number | null = null;
+  /** cutscenes can show the Great Tree with more leaves than the player has (learned, memorized, mastered) */
+  treeOverride: [number, number, number] | null = null;
+  /** cutscenes can move the light/shadow focus away from the player */
+  focusOverride: THREE.Vector3 | null = null;
 
   constructor(readonly app: App, public save: SaveData) {
     this.world = app.ensureWorld();
@@ -165,6 +169,11 @@ export class Game {
   }
 
   private regionCtxPlatforms: import('./player').Platform[] = [];
+
+  /** build the island's places ahead of time (so the prologue already shows the village, the pier and the people) */
+  prebuild() {
+    if (!this.regionsBuilt) this.buildRegions();
+  }
 
   private buildRegions() {
     const atlas = new SignAtlas(2048);
@@ -372,7 +381,7 @@ export class Game {
     this.kon.root.position.lerp(kp, Math.min(1, dt * 4));
     this.kon.root.rotation.y = damp(this.kon.root.rotation.y, this.player.yaw, 4, dt);
     this.kon.update(dt);
-    this.world.focus.copy(this.player.pos);
+    this.world.focus.copy(this.focusOverride ?? this.player.pos);
     this.world.update(dt, t, this.engine.camera);
     for (const n of this.npcs) {
       const d = n.pos.distanceToSquared(this.player.pos);
@@ -406,7 +415,10 @@ export class Game {
       const c = this.learner.counts();
       this.hud.update(c, this.save.mon);
       this.hud.setClock(this.world.clock);
-      this.world.tree.setCounts(c.words, c.memorized, c.mastered, c.due);
+      const o = this.treeOverride;
+      if (o) this.world.tree.setCounts(o[0], o[1], o[2], 0);
+      else if (this.save.flags.perfect) this.world.tree.setCounts(c.words, c.words, c.words, 0);
+      else this.world.tree.setCounts(c.words, c.memorized, c.mastered, c.due);
       this.kon.setTails(1 + Math.floor(c.words / 1250));
       this.story.updateQuest();
       if (c.words !== this.lastLeaves) this.onLeavesChanged(this.lastLeaves, c.words);
@@ -900,10 +912,18 @@ export class Game {
     return REGION_BY_ID[id];
   }
 
+  /** put Kon right beside the player (after a teleport or a cutscene cut) */
+  snapKon() {
+    const off = this.konOffset.clone().applyAxisAngle(new THREE.Vector3(0, 1, 0), this.player.yaw);
+    this.kon.root.position.copy(this.player.pos).add(off);
+    this.kon.root.rotation.y = this.player.yaw;
+  }
+
   async teleport(x: number, z: number) {
     await this.app.screens.fadeTo(1, 500);
     this.player.place(x, z, this.player.yaw);
     this.rig.snap(this.player.pos);
+    this.snapKon();
     this.persist();
     await this.app.screens.fadeTo(0, 600);
   }

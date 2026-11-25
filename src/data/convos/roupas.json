@@ -1,0 +1,51 @@
+{
+  "id": "roupas",
+  "title": "Comprando roupas com a Mio",
+  "sub": "Falar de tamanhos e cores e dizer que ficou bem, com gírias de amiga",
+  "reg": "giria",
+  "steps": [
+    { "npc": ["あ、やっほー！今から服見に行くんだけど、一緒に行かない？", "Ah, oi! Vou ver umas roupas agora, quer ir junto?"], "note": "～ない？ com entonação subindo é um convite: 行かない？ = vamos?, quer ir?" },
+    { "you": [
+      { "jp": "いいね、行く行く！", "pt": "Boa, eu vou, eu vou!", "ok": true, "reg": "casual" },
+      { "jp": "うん、行かない！", "pt": "É, não vou!", "ok": false, "why": "行かない？ é um convite; repetir 行かない = \"não vou\". Para aceitar: 行く！ ou 行こう！" },
+      { "jp": "はい、ご一緒させていただきます。", "pt": "Sim, terei a honra de acompanhá-la.", "ok": false, "why": "Keigo humilde com uma amiga soa frio e estranho. Entre amigos use タメ口: 行く行く！", "reg": "keigo" }
+    ] },
+    { "npc": ["見て見て！このTシャツ、超かわいくない？", "Olha, olha! Essa camiseta não é super fofa?"], "note": "超 (ちょう) = super, gíria jovem. ～くない？ subindo = \"não é…?\": ela quer que você concorde." },
+    { "you": [
+      { "jp": "うん、めっちゃかわいい！", "pt": "É, muito fofa!", "ok": true, "reg": "giria" },
+      { "jp": "ううん、めっちゃかわいい！", "pt": "Não, muito fofa!", "ok": false, "why": "ううん = não. Para concordar com ～くない？ (não é…?), responda うん: うん、かわいい！" },
+      { "jp": "そうでございますね。", "pt": "De fato, senhora.", "ok": false, "why": "でございます é keigo de atendente; com uma amiga soa irônico. Concorde assim: うん、めっちゃかわいい！", "reg": "keigo" }
+    ] },
+    { "npc": ["でしょ？でも色、迷う〜。ピンクと白、どっちがいいと思う？", "Né? Mas tô na dúvida da cor~. Rosa ou branco, qual você acha melhor?"] },
+    { "you": [
+      { "jp": "白のほうがいいと思う！", "pt": "Acho que o branco é melhor!", "ok": true, "reg": "casual" },
+      { "jp": "白いがいいと思う！", "pt": "(errado) Acho que branco é melhor!", "ok": false, "why": "白い é adjetivo e não leva が direto. Use o substantivo 白: 白がいい / 白のほうがいい." },
+      { "jp": "どっちでもいいよ。", "pt": "Tanto faz.", "ok": false, "why": "どっちでもいい = tanto faz: soa desinteressado. Escolha uma: 白のほうがいい！" }
+    ] },
+    { "npc": ["じゃあ白にする！でもMだとちょっと小さいかも〜。", "Então vou de branco! Mas o M talvez fique um pouco pequeno~."] },
+    { "you": [
+      { "jp": "じゃあ、Lを着てみたら？", "pt": "Então, que tal experimentar o L?", "ok": true, "reg": "casual" },
+      { "jp": "じゃあ、Lをはいてみたら？", "pt": "(errado) Então, que tal calçar o L?", "ok": false, "why": "はく é para calça, saia e sapatos. Camiseta se veste com 着る: Lを着てみたら？" },
+      { "jp": "じゃあ、Sを着てみたら？", "pt": "Então, que tal experimentar o S?", "ok": false, "why": "Se o M está pequeno, sugira um tamanho maior: L (エル). O S (エス) é ainda menor." }
+    ] },
+    { "npc": ["じゃーん！どう？似合う？", "Tcharam! E aí? Ficou bem em mim?"], "note": "似合う (にあう) = ficar bem, combinar com a pessoa. O elogio clássico entre amigos é 似合ってる！" },
+    { "you": [
+      { "jp": "めっちゃ似合ってる！", "pt": "Ficou perfeito em você!", "ok": true, "reg": "giria" },
+      { "jp": "めっちゃ似てる！", "pt": "Está muito parecido!", "ok": false, "why": "似てる = parecer-se com algo ou alguém. \"Ficar bem em você\" é 似合う: めっちゃ似合ってる！" },
+      { "jp": "めっちゃウケる！", "pt": "Que engraçado, morri de rir!", "ok": false, "why": "ウケる = que engraçado! Dito sobre a roupa dela, soa como deboche. Elogie: めっちゃ似合ってる！", "reg": "giria" }
+    ] },
+    { "npc": ["マジ？うれし〜！あ、この帽子もヤバくない？", "Sério? Que alegria! Ah, esse chapéu também não é demais?"], "note": "ヤバい serve para o bom e o ruim: aqui é elogio (incrível!). O tom e a situação dizem qual é." },
+    { "you": [
+      { "jp": "それな！かぶってみなよ！", "pt": "Né! Experimenta!", "ok": true, "reg": "giria" },
+      { "jp": "え、危ないの？", "pt": "Ué, é perigoso?", "ok": false, "why": "Aqui ヤバい é elogio, não perigo. Concorde com gíria: それな！ (né!, exatamente!)." },
+      { "jp": "それな！着てみなよ！", "pt": "(errado) Né! Veste ele!", "ok": false, "why": "Chapéu e boné não se vestem com 着る: use かぶる. かぶってみなよ！" }
+    ] },
+    { "npc": ["決めた、両方買っちゃお！今日はマジ楽しかった〜。また遊ぼうね！", "Decidi, vou levar os dois! Hoje foi muito divertido~. Vamos sair de novo, tá?"] },
+    { "you": [
+      { "jp": "うん、またね！", "pt": "Sim, até mais!", "ok": true, "reg": "casual" },
+      { "jp": "さようなら。", "pt": "Adeus.", "ok": false, "why": "さようなら soa definitivo ou escolar. Entre amigos, diga またね！ ou じゃあね！", "reg": "polido" },
+      { "jp": "いってきます！", "pt": "Tô saindo! (de casa)", "ok": false, "why": "いってきます é dito por quem sai de casa. Para se despedir da amiga: またね！ ou じゃあね！" }
+    ] },
+    { "npc": ["うん、バイバーイ！", "Tchau, tchau!"] }
+  ]
+}

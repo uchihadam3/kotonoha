@@ -1,0 +1,675 @@
+{"i":"x4153","pt":"acidente marítimo; naufrágio","t":"sociedade","ex":["海難事故で多くの人が亡くなった。","Muitas pessoas morreram num acidente marítimo."],"note":"Usado sobretudo em 海難事故 (acidente no mar) e 海難救助 (resgate marítimo)."}
+{"i":"x4154","skip":true,"note":"Fragmento de kanji (垣根, 石垣, 生け垣); raro sozinho."}
+{"i":"x4155","pt":"luta corpo a corpo; batalha, esforço (com um problema)","t":"acoes","ex":["弟は二時間も宿題と格闘している。","Meu irmão está há duas horas lutando com a lição de casa."],"note":"格闘技 = artes marciais, esportes de luta."}
+{"i":"x4156","pt":"família nuclear","t":"familia","ex":["日本では核家族が増えた。","No Japão, as famílias nucleares aumentaram."],"note":"Pais e filhos morando sem avós ou outros parentes."}
+{"i":"x4157","w":"確固たる","r":"かっこたる","pos":"adj-pn","pt":"firme, sólido, inabalável","t":"estado","ex":["彼には確固たる信念がある。","Ele tem uma convicção firme."],"note":"Sempre como 確固たる + substantivo. Também escrito 確乎たる."}
+{"i":"x4158","pt":"meio acadêmico, mundo acadêmico","t":"escola","ex":["その発見は学界で話題になった。","A descoberta virou assunto no meio acadêmico."],"note":"Não confundir com 学会 (sociedade científica; congresso), de mesma leitura."}
+{"i":"x4159","pt":"mensalidade escolar, gastos com estudos","t":"escola","ex":["アルバイトで学費を払っている。","Pago a mensalidade da faculdade com um bico."]}
+{"i":"x4160","pt":"derrota completa, derrota total","t":"lazer","ex":["昨日の試合は完敗だった。","O jogo de ontem foi uma derrota completa."],"note":"Oposto: 完勝 (vitória completa). Não confundir com 乾杯 (brinde), de mesma leitura."}
+{"i":"x4161","pt":"prisão, cadeia","t":"sociedade","ex":["彼は長い間監獄にいた。","Ele ficou muito tempo na prisão."],"note":"Palavra antiga; hoje o termo oficial é 刑務所."}
+{"i":"x4162","pt":"metralhadora","t":"sociedade","ex":["兵士が機関銃を撃った。","O soldado disparou a metralhadora."]}
+{"i":"x4163","pt":"ânimo, entusiasmo (de um grupo)","t":"sentimentos","ex":["応援団は大声で気勢を上げた。","A torcida se animou gritando alto."],"note":"Quase sempre em 気勢を上げる (inflamar os ânimos)."}
+{"i":"x4164","pt":"excesso de vontade, ansiedade (por querer fazer bem)","t":"sentimentos","ex":["気負いすぎて失敗した。","Errei por estar ansioso demais para acertar."],"note":"Verbo: 気負う (ficar ansioso, querer demais)."}
+{"i":"x4165","pt":"relato de viagem, diário de viagem","t":"comunicacao","ex":["彼の紀行を読んで旅に出たくなった。","Lendo o relato de viagem dele, deu vontade de viajar."],"note":"Gênero literário: 紀行文 (narrativa de viagem)."}
+{"i":"x4166","pos":"vs","pt":"ser causado por, originar-se de; causa","t":"mente","ex":["事故は運転ミスに起因する。","O acidente foi causado por erro do motorista."],"note":"Formal, comum em notícias: 〜に起因する (ter origem em)."}
+{"i":"x4167","pt":"escândalo de corrupção (suborno)","t":"sociedade","ex":["その疑獄で大臣が辞任した。","O ministro renunciou por causa daquele escândalo de corrupção."],"note":"Termo de jornal; no dia a dia, 汚職事件."}
+{"i":"x4168","pt":"sogra; madrasta; mãe adotiva","t":"familia","ex":["義母は料理がとても上手だ。","Minha sogra cozinha muito bem."],"note":"Na fala, a sogra costuma ser chamada de お義母さん."}
+{"i":"x4169","pt":"nome de solteira, sobrenome anterior","t":"familia","ex":["結婚後も仕事では旧姓を使っている。","Mesmo depois de casar, uso o nome de solteira no trabalho."]}
+{"i":"x4170","pos":"adj-no","pt":"tradicional, antigo, de sempre","t":"tempo","ex":["旧来のやり方を見直す。","Vamos rever o jeito antigo de fazer."],"note":"Formal; quase sempre 旧来の + substantivo."}
+{"i":"x4171","pt":"porto pesqueiro","t":"natureza","ex":["朝の漁港はとてもにぎやかだ。","O porto pesqueiro fica bem movimentado de manhã."]}
+{"i":"x4172","pt":"estado de espírito; estágio, nível (alcançado)","t":"mente","ex":["彼は新しい境地を開いた。","Ele alcançou um novo patamar."],"note":"Comum em 新境地を開く (abrir um novo caminho, numa arte ou carreira)."}
+{"i":"x4173","pt":"paulównia, quiri (árvore)","t":"natureza","ex":["祖母の着物は桐のたんすにしまってある。","Os quimonos da minha avó estão guardados numa cômoda de quiri."],"note":"Madeira leve, usada em cômodas e caixas finas; a flor é símbolo do governo japonês."}
+{"i":"x4174","pt":"força muscular","t":"corpo","ex":["年を取ると筋力が落ちる。","Com a idade, a força muscular diminui."]}
+{"i":"x4175","pt":"atormentar, fazer sofrer; afligir","t":"sentimentos","ex":["その病気は長い間彼を苦しめた。","Aquela doença o fez sofrer por muito tempo."],"note":"Transitivo de 苦しむ (sofrer)."}
+{"i":"x4176","pt":"ar-condicionado, climatização","t":"casa","ex":["この部屋は空調が効いている。","Este cômodo está bem climatizado."],"note":"Termo técnico ou de prédios; o aparelho de casa é エアコン."}
+{"i":"x4177","pt":"transporte aéreo (de carga); ponte aérea","t":"viagem","ex":["救援物資が空輸された。","Os mantimentos de socorro foram enviados por via aérea."]}
+{"i":"x4178","pt":"corpo de exército, legião; turma (de seguidores)","t":"sociedade","ex":["ローマの軍団はとても強かった。","As legiões romanas eram muito fortes."],"note":"Fora do exército, também um grupo de seguidores de alguém famoso."}
+{"i":"x4179","pt":"leque do juiz de sumô; vitória (num julgamento)","t":"lazer","ex":["議論は彼に軍配が上がった。","Na discussão, quem levou a melhor foi ele."],"note":"Expressão: 軍配が上がる (ser declarado vencedor), do leque erguido pelo juiz."}
+{"i":"x4180","pt":"forma, formato","t":"cores","ex":["この石は形状が珍しい。","Esta pedra tem um formato incomum."],"note":"Mais técnico que 形 (かたち)."}
+{"i":"x4181","pt":"menosprezar, não dar importância","t":"mente","ex":["安全を軽視してはいけない。","Não se deve menosprezar a segurança."],"note":"Oposto: 重視 (dar importância)."}
+{"i":"x4182","pt":"tipo sanguíneo","t":"corpo","ex":["あなたの血液型は何ですか。","Qual é o seu tipo sanguíneo?"],"note":"No Japão é comum associar o tipo sanguíneo à personalidade."}
+{"i":"x4183","pt":"parentesco de sangue, laço de sangue","t":"familia","ex":["二人に血縁関係はない。","Os dois não têm parentesco de sangue."]}
+{"i":"x4184","pt":"dentro da área, dentro do alcance","t":"adverbios","ex":["ここは携帯の圏内だ。","Aqui tem sinal de celular."],"note":"Oposto: 圏外 (fora da área; sem sinal)."}
+{"i":"x4185","pt":"detecção","t":"ciencia","ex":["水から有害な物質が検出された。","Foi detectada uma substância nociva na água."]}
+{"i":"x4186","pt":"estrada estadual (da província)","t":"cidade","ex":["この県道は夜になると暗い。","Esta estrada estadual fica escura à noite."],"note":"国道 = rodovia federal; 県道 = estrada da província (県)."}
+{"i":"x4187","pt":"discernimento, visão (de assunto); opinião bem fundada","t":"mente","ex":["彼は経済について高い見識を持っている。","Ele tem grande discernimento em economia."]}
+{"i":"x4188","pt":"desconhecido, estranho (que nunca se viu)","t":"adjetivos","ex":["見知らぬ人に声をかけられた。","Um desconhecido falou comigo."],"note":"Só antes de substantivo: 見知らぬ人, 見知らぬ町."}
+{"i":"x4189","pt":"feira comercial","t":"negocios","ex":["見本市に新しい商品を出した。","Expusemos os produtos novos na feira comercial."]}
+{"i":"x4190","pt":"criador, inventor (o original); fundador","t":"historia","ex":["この店がカレーパンの元祖だそうだ。","Dizem que esta loja foi a criadora do pão de curry."],"note":"Muito usado em placas de lojas: 元祖 = 'o original'."}
+{"i":"x4191","pt":"expressão, modo de dizer","t":"comunicacao","ex":["日本語にはおもしろい言い回しが多い。","O japonês tem muitas expressões curiosas."]}
+{"i":"x4192","pt":"intenção, propósito (de fazer algo); dolo","t":"sociedade","ex":["故意にぶつかったわけではない。","Não esbarrei de propósito."],"note":"故意に = de propósito. Em direito, 故意 = dolo; 過失 = culpa."}
+{"i":"x4193","pt":"outro dia, mais tarde, posteriormente","t":"tempo","ex":["結果は後日お知らせします。","Informaremos o resultado posteriormente."],"reg":"polido"}
+{"i":"x4194","pt":"tom de voz (ao falar)","t":"comunicacao","ex":["彼は語気を強めて反対した。","Ele se opôs levantando o tom de voz."],"note":"Comum em 語気を強める (falar mais forte, endurecer o tom)."}
+{"i":"x4195","pt":"comércio (entre povos), intercâmbio comercial","t":"negocios","ex":["昔、この港は中国との交易で栄えた。","Antigamente, este porto prosperou com o comércio com a China."],"note":"Usado sobretudo em contexto histórico; hoje o comum é 貿易."}
+{"i":"x4196","pt":"comunicação (por rádio ou sinal)","t":"comunicacao","ex":["地上と宇宙船の交信が途絶えた。","A comunicação entre a Terra e a nave foi interrompida."]}
+{"i":"x4197","pt":"título público, dívida pública","t":"negocios","ex":["政府は公債を発行した。","O governo emitiu títulos públicos."],"note":"Termo formal; nos jornais é mais comum 国債 (título do governo central)."}
+{"i":"x4198","pt":"melhorar, mudar para melhor","t":"estado","ex":["景気が好転してきた。","A economia começou a melhorar."],"note":"Oposto: 悪化 (piorar)."}
+{"i":"x4199","pt":"curso de engenharia, faculdade de engenharia","t":"escola","ex":["兄は工科大学に通っている。","Meu irmão estuda numa universidade de engenharia."],"note":"Aparece sobretudo em 工科大学 (instituto de tecnologia)."}
+{"i":"x4200","pt":"família imperial, membro da família imperial","t":"sociedade","ex":["式典には皇族も出席した。","Membros da família imperial também foram à cerimônia."]}
+{"i":"x4201","pt":"poder de compra","t":"negocios","ex":["物価が上がって購買力が下がった。","Com a alta dos preços, o poder de compra caiu."]}
+{"i":"x4202","pt":"chuva, precipitação","t":"natureza","ex":["降雨のため試合は中止になった。","O jogo foi cancelado por causa da chuva."],"note":"Formal (noticiário, avisos); na fala, 雨."}
+{"i":"x4203","pt":"alta tensão; alta pressão; autoritário","t":"ciencia","ex":["高圧の電線に近づかないでください。","Não se aproxime dos fios de alta tensão."],"note":"高圧的 = autoritário, arrogante: 高圧的な態度."}
+{"i":"x4204","pt":"alta pressão (atmosférica), anticiclone","t":"natureza","ex":["高気圧に覆われて晴れるでしょう。","Coberto por um sistema de alta pressão, o tempo deve ficar firme."],"note":"Oposto: 低気圧 (baixa pressão)."}
+{"i":"x4205","pt":"liga (metálica)","t":"ciencia","ex":["この部品は軽い合金でできている。","Esta peça é feita de uma liga leve."]}
+{"i":"x4206","pt":"tortura","t":"sociedade","ex":["捕虜が拷問を受けた。","Os prisioneiros foram torturados."]}
+{"i":"x4207","pt":"chuva torrencial, temporal","t":"natureza","ex":["豪雨で川があふれた。","O rio transbordou com a chuva torrencial."],"note":"Nos noticiários: 集中豪雨 (chuva forte concentrada)."}
+{"i":"x4208","pt":"patriota (que se dedica ao país)","t":"sociedade","ex":["祖父は国士と呼ばれた政治家だった。","Meu avô foi um político chamado de patriota."],"reg":"antigo"}
+{"i":"x4209","skip":true,"note":"Termo raro (madeira com casca); a frequência vem do sobrenome Kuroki."}
+{"i":"x4210","pt":"erradicação, extermínio","t":"sociedade","ex":["暴力の根絶を目指す。","Buscamos a erradicação da violência."]}
+{"i":"x4211","pt":"diferença, disparidade","t":"mente","ex":["二つの案に大きな差異はない。","Não há grande diferença entre as duas propostas."],"note":"Formal; no dia a dia, 違い ou 差."}
+{"i":"x4212","pt":"avaliação (de valor); análise (de orçamento)","t":"negocios","ex":["車を売る前に査定してもらった。","Antes de vender o carro, mandei avaliá-lo."],"note":"Também avaliação de desempenho no trabalho (人事査定)."}
+{"i":"x4213","pt":"ressurgir, voltar à tona (problema, disputa)","t":"estado","ex":["その問題が再燃した。","Aquele problema voltou à tona."]}
+{"i":"x4214","pt":"revenda; preço de revenda fixo","t":"negocios","ex":["本は再販制度で値段が決まっている。","Os livros têm preço fixado pelo sistema de revenda."],"note":"Também reedição/relançamento de um produto (再販売)."}
+{"i":"x4215","pt":"menor (número), mínimo; mais novo","t":"numeros","ex":["今年は事故の数が過去最少だった。","Neste ano, o número de acidentes foi o menor da história."],"note":"最少 = menor quantidade; 最小 = menor tamanho."}
+{"i":"x4216","pt":"mais curto","t":"estado","ex":["駅までの最短ルートを調べた。","Procurei o caminho mais curto até a estação."],"note":"Oposto: 最長 (mais longo)."}
+{"i":"x4217","pt":"material (de que algo é feito)","t":"casa","ex":["この机の材質は何ですか。","De que material é feita esta mesa?"]}
+{"i":"x4218","pt":"flocos de bonito seco","t":"comida","ex":["豆腐に削り節をかけて食べる。","Como tofu com flocos de bonito por cima."],"note":"No dia a dia, かつお節 ou おかか."}
+{"i":"x4219","pt":"perceber, pressentir (um perigo, uma intenção)","t":"mente","ex":["犬は危険を察知して吠えた。","O cachorro pressentiu o perigo e latiu."]}
+{"i":"x4220","pt":"esterilização, desinfecção","t":"saude","ex":["哺乳瓶を熱湯で殺菌する。","Esterilizo a mamadeira com água fervente."]}
+{"i":"x4221","pt":"matar e ferir","t":"sociedade","ex":["その事件では多くの人が殺傷された。","Naquele crime, muitas pessoas foram mortas ou feridas."],"note":"Termo de jornal; 殺傷力 = poder letal."}
+{"i":"x4222","pt":"mato, erva daninha","t":"natureza","ex":["庭の雑草を抜いた。","Arranquei o mato do jardim."]}
+{"i":"x4223","skip":true,"note":"Termo literário raro (refletir várias vezes); a frequência vem do nome da editora 三省堂."}
+{"i":"x4224","pt":"três (folhas, objetos finos e planos)","t":"numeros","ex":["紙を三枚ください。","Me dá três folhas de papel, por favor."],"note":"三枚におろす = cortar o peixe em dois filés e a espinha. 三枚目 = o papel cômico."}
+{"i":"x4225","pt":"participação (no planejamento e nas decisões)","t":"sociedade","ex":["女性の社会参画が進んでいる。","A participação das mulheres na sociedade está avançando."],"note":"Mais formal que 参加; implica tomar parte nas decisões."}
+{"i":"x4226","pt":"cruel, brutal, atroz","t":"adjetivos","ex":["その残虐な事件に国中が驚いた。","O país inteiro ficou chocado com aquele crime brutal."]}
+{"i":"x4227","pt":"corte, feitio (de roupa); confecção sob medida","t":"roupas","ex":["このスーツは仕立てがいい。","Este terno tem um corte muito bom."],"note":"Verbo: 仕立てる (confeccionar roupa). Sufixo: 〜仕立て (preparado ao estilo de…)."}
+{"i":"x4228","pos":"n","pt":"comando (militar); comandante","t":"sociedade","ex":["司令の命令で部隊が動いた。","A tropa se moveu por ordem do comando."],"note":"Mais em compostos: 司令官 (comandante), 司令部 (quartel-general), 司令塔 (cérebro do time)."}
+{"i":"x4229","pt":"administração municipal, governo da cidade","t":"sociedade","ex":["市民の声を市政に生かしたい。","Queremos aproveitar a voz dos cidadãos na administração municipal."]}
+{"i":"x4230","pt":"escora, estaca de apoio; pilar (quem sustenta algo)","t":"casa","ex":["トマトに支柱を立てた。","Coloquei uma estaca de apoio no tomateiro."],"note":"Figurado: 一家の支柱 (o pilar da família)."}
+{"i":"x4231","pt":"vida privada, vida particular","t":"relacoes","ex":["有名人にも私生活がある。","Os famosos também têm vida privada."]}
+{"i":"x4232","pt":"sacola de papel, saco de papel","t":"compras","ex":["店員が紙袋に入れてくれた。","O atendente colocou numa sacola de papel."]}
+{"i":"x4233","pt":"escritório, secretaria (sala da administração)","t":"trabalho","ex":["書類は事務室に出してください。","Entregue os documentos na secretaria, por favor."]}
+{"i":"x4234","pt":"próxima geração, próxima era","t":"tempo","ex":["次代を担う子どもたちを育てる。","Educamos as crianças que vão conduzir a próxima geração."],"note":"Formal. Não confundir com 時代 (época), de mesma leitura."}
+{"i":"x4235","pt":"autocontrole, moderação; conter-se","t":"sentimentos","ex":["彼は自制心が強い。","Ele tem muito autocontrole."],"note":"Nas notícias: 自制を求める (pedir moderação, contenção)."}
+{"i":"x4236","pt":"especialista, pessoa esclarecida (que opina)","t":"mente","ex":["識者の意見を聞いてみよう。","Vamos ouvir a opinião de especialistas."],"note":"Termo de jornal para comentaristas cultos e bem informados."}
+{"i":"x4237","pt":"identificação, distinção (entre coisas)","t":"mente","ex":["色で薬を識別する。","Distinguimos os remédios pela cor."]}
+{"i":"x4238","pt":"massa (física); qualidade e quantidade","t":"ciencia","ex":["物体の質量を測った。","Medimos a massa do objeto."],"note":"質量 = massa; 重さ = peso. 質量ともに = tanto em qualidade quanto em quantidade."}
+{"i":"x4239","pt":"transmissão ao vivo, narração ao vivo; situação real","t":"comunicacao","ex":["試合の実況中継を見た。","Vi a transmissão ao vivo do jogo."],"note":"実況中継 = transmissão ao vivo; ゲーム実況 = vídeo de gameplay comentado."}
+{"i":"x4240","pt":"inspeção veicular (obrigatória)","t":"tecnologia","ex":["来月、車を車検に出す。","Mês que vem vou levar o carro para a inspeção."],"note":"No Japão é obrigatória a cada dois anos (três para carro novo) e costuma ser cara."}
+{"i":"x4241","pt":"perverso, mal-intencionado","t":"sentimentos","ex":["彼には邪な考えがあった。","Ele tinha intenções perversas."],"note":"Literário. O kanji aparece em 邪魔 (じゃま, atrapalhar) e 風邪 (かぜ, resfriado)."}
+{"i":"x4242","skip":true,"note":"Termo técnico (estanho, Sn); escrita assim, a frequência vem de 鈴 (sino) e de nomes."}
+{"i":"x4243","pt":"desanimado, pessimista, inseguro","t":"sentimentos","ex":["そんな弱気なことを言うな。","Não fale coisas tão desanimadas."],"note":"Oposto: 強気 (confiante). Na bolsa: tendência de baixa."}
+{"i":"x4244","pt":"escrito à mão, manuscrito; desenhado à mão","t":"comunicacao","ex":["手書きの手紙をもらうとうれしい。","Fico feliz quando recebo uma carta escrita à mão."]}
+{"i":"x4245","pt":"entregar em mãos, passar (algo para alguém)","t":"acoes","ex":["先生に手紙を手渡した。","Entreguei a carta em mãos ao professor."]}
+{"i":"x4246","pt":"produção de saquê (e outras bebidas alcoólicas)","t":"comida","ex":["祖父は酒造の仕事をしていた。","Meu avô trabalhava na produção de saquê."],"note":"Comum em nomes de fábricas: 〇〇酒造. A adega tradicional é 酒蔵 (さかぐら)."}
+{"i":"x4247","pt":"receptor (de rádio, TV, sinais)","t":"tecnologia","ex":["この受信機で電波を受ける。","Este receptor capta as ondas de rádio."],"note":"Oposto: 送信機 (transmissor)."}
+{"i":"x4248","pt":"desapropriação (de terras)","t":"sociedade","ex":["道路を作るために土地が収用された。","O terreno foi desapropriado para construir uma estrada."]}
+{"i":"x4249","pt":"seita, escola religiosa (budista)","t":"historia","ex":["二つの寺は同じ宗門に属している。","Os dois templos pertencem à mesma seita."],"note":"Mais comum hoje: 宗派."}
+{"i":"x4250","pt":"fim, término (de epidemia, conflito)","t":"estado","ex":["感染症の終息を願っている。","Torcemos pelo fim da epidemia."],"note":"Não confundir com 収束 (controlar, conter), de mesma leitura."}
+{"i":"x4251","skip":true,"note":"Verbo raro e antiquado (agravar-se); pouco útil para o aprendiz."}
+{"i":"x4252","pt":"partir para a batalha; entrar na disputa (eleição, competição)","t":"historia","ex":["武士たちが出陣した。","Os samurais partiram para a batalha."],"note":"Figurado nos jornais: candidato ou atleta que entra na disputa."}
+{"i":"x4253","pt":"deusa","t":"historia","ex":["勝利の女神がほほえんだ。","A deusa da vitória sorriu."],"note":"自由の女神 = Estátua da Liberdade."}
+{"i":"x4254","pt":"hierarquia, ordem de classificação","t":"trabalho","ex":["その会社には年功序列が残っている。","Aquela empresa ainda tem hierarquia por tempo de casa."],"note":"年功序列 = promoção por antiguidade, típica das empresas japonesas."}
+{"i":"x4255","pt":"romancista, escritor (de ficção)","t":"arte","ex":["将来は小説家になりたい。","No futuro, quero ser escritor."]}
+{"i":"x4256","pt":"farinha de trigo","t":"comida","ex":["小麦粉と卵でパンケーキを作った。","Fiz panquecas com farinha de trigo e ovos."]}
+{"i":"x4257","pt":"embaixo do assoalho, vão sob o piso","t":"casa","ex":["床下に古い箱があった。","Havia uma caixa velha embaixo do assoalho."],"note":"Nas notícias de enchente: 床下浸水 (água abaixo do piso) e 床上浸水 (acima do piso)."}
+{"i":"x4258","pt":"relações externas (de empresa), contato com clientes e órgãos","t":"trabalho","ex":["彼は会社の渉外を担当している。","Ele cuida das relações externas da empresa."],"note":"Não confundir com 障害 (obstáculo) e 生涯 (a vida toda), de mesma leitura."}
+{"i":"x4259","pt":"camada superior; alto escalão, cúpula","t":"trabalho","ex":["計画は会社の上層部が決めた。","O plano foi decidido pelo alto escalão da empresa."],"note":"上層部 = cúpula, chefia. Oposto: 下層 (camada inferior)."}
+{"i":"x4260","pt":"parte superior do corpo, tronco","t":"corpo","ex":["上半身を鍛えている。","Estou treinando a parte superior do corpo."],"note":"Oposto: 下半身 (parte inferior do corpo)."}
+{"i":"x4261","pt":"superar (dificuldade); pular, passar por cima","t":"acoes","ex":["みんなで困難を乗り越えた。","Superamos as dificuldades juntos."]}
+{"i":"x4262","pt":"tripulante, tripulação (de trem, avião, ônibus)","t":"viagem","ex":["乗務員の指示に従ってください。","Siga as instruções da tripulação."]}
+{"i":"x4263","pt":"cena, cenário (que se vê ou se imagina)","t":"arte","ex":["この歌を聞くと故郷の情景が浮かぶ。","Quando ouço esta música, me vem à mente a paisagem da minha terra."],"note":"Comum ao falar de livros e músicas: 情景描写 (descrição de cena)."}
+{"i":"x4264","pt":"jardim botânico","t":"lazer","ex":["週末に植物園へ行った。","Fui ao jardim botânico no fim de semana."]}
+{"i":"x4265","pt":"gastos com comida, despesa de alimentação","t":"compras","ex":["一か月の食費は三万円ぐらいだ。","Gasto uns trinta mil ienes por mês com comida."]}
+{"i":"x4266","pt":"revelação, novo astro; nova (estrela)","t":"arte","ex":["彼女は映画界の新星だ。","Ela é a nova revelação do cinema."],"note":"Em astronomia, nova: estrela que de repente brilha muito."}
+{"i":"x4267","pt":"profundidade (de sabor, de ideias); parte funda","t":"estado","ex":["このスープは味に深みがある。","Esta sopa tem um sabor bem encorpado."],"note":"Figurado: 深みにはまる (afundar numa situação difícil)."}
+{"i":"x4268","pt":"respiração artificial","t":"saude","ex":["救急隊員が人工呼吸をした。","O socorrista fez respiração artificial."]}
+{"i":"x4269","pt":"movimento de gente, multidão (num lugar)","t":"cidade","ex":["連休で観光地はすごい人出だった。","No feriado prolongado, os pontos turísticos estavam lotados."],"note":"Não confundir com 人手 (mão de obra), também ひとで."}
+{"i":"x4270","pt":"posição (militar), trincheira; campo (de cada time)","t":"sociedade","ex":["兵士たちは敵の陣地を攻めた。","Os soldados atacaram a posição inimiga."]}
+{"i":"x4271","pt":"morte por afogamento","t":"sociedade","ex":["川で男性が水死した。","Um homem morreu afogado no rio."],"note":"Termo de notícia; na fala, おぼれて死ぬ."}
+{"i":"x4272","pt":"precipitado, apressado","t":"adjetivos","ex":["性急な判断は避けたほうがいい。","É melhor evitar julgamentos precipitados."]}
+{"i":"x4273","pt":"educação sexual","t":"escola","ex":["学校で性教育の授業があった。","Teve aula de educação sexual na escola."]}
+{"i":"x4274","pt":"Igreja Ortodoxa, cristianismo ortodoxo; ortodoxia","t":"historia","ex":["ロシアには正教の教会が多い。","Na Rússia há muitas igrejas ortodoxas."],"note":"Geralmente como ロシア正教, ギリシャ正教."}
+{"i":"x4275","pt":"em voz alta; alardear (com insistência)","t":"comunicacao","ex":["彼は声高に自分の意見を主張した。","Ele defendeu sua opinião em voz alta."],"note":"Quase sempre 声高に. Também se lê こえだか."}
+{"i":"x4276","pt":"assumir por contrato, empreitar; responsabilizar-se","t":"trabalho","ex":["その会社が工事を請け負った。","Aquela empresa assumiu a obra por contrato."],"note":"請負 (うけおい) = empreitada; 下請け = empresa terceirizada."}
+{"i":"x4277","pt":"petição (às autoridades)","t":"sociedade","ex":["住民が市に請願書を出した。","Os moradores entregaram uma petição à prefeitura."]}
+{"i":"x4278","pt":"hortifrúti, frutas e verduras","t":"compras","ex":["青果売り場でトマトを買った。","Comprei tomates na seção de hortifrúti."],"note":"Em placas: 青果店 (quitanda), 青果市場 (mercado atacadista)."}
+{"i":"x4279","pt":"após impostos, líquido (de impostos)","t":"negocios","ex":["税引き後の利益が増えた。","O lucro após impostos aumentou."],"note":"税込み = com impostos incluídos; 税抜き = sem impostos."}
+{"i":"x4280","pt":"contador (especialista em impostos)","t":"trabalho","ex":["確定申告を税理士に頼んだ。","Pedi a um contador que fizesse a declaração de imposto de renda."]}
+{"i":"x4281","pt":"carregamento, carga (em veículo)","t":"cidade","ex":["トラックの積載量には制限がある。","Há um limite de carga para os caminhões."],"note":"積載量 = capacidade de carga."}
+{"i":"x4282","pos":"n","pt":"neve acumulada, camada de neve","t":"natureza","ex":["今朝の積雪は三十センチだった。","Hoje de manhã, a neve acumulada chegou a trinta centímetros."]}
+{"i":"x4283","pt":"adiantar-se, ser pioneiro, antecipar-se (a outros)","t":"acoes","ex":["その会社は他社に先駆けて新製品を出した。","A empresa lançou o novo produto antes das concorrentes."],"note":"Quase sempre 〜に先駆けて (antes de, à frente de)."}
+{"i":"x4284","skip":true,"note":"Nome próprio (lugar: Ilhas Curilas)."}
+{"i":"x4285","pt":"adivinhação, horóscopo, previsão da sorte","t":"lazer","ex":["毎朝テレビの占いを見る。","Todas as manhãs vejo o horóscopo na TV."],"note":"占い師 = vidente, cartomante. Verbo: 占う (prever a sorte)."}
+{"i":"x4286","pt":"marinheiro, tripulante de navio","t":"trabalho","ex":["父は船員として世界を回った。","Meu pai rodou o mundo como marinheiro."]}
+{"i":"x4287","pt":"inédito, sem precedentes","t":"expressoes","ex":["これは前代未聞の事件だ。","Este é um caso sem precedentes."],"note":"Quatro kanji: 'nunca ouvido nas gerações anteriores'."}
+{"i":"x4288","pt":"a escola inteira, todos os alunos; todas as escolas","t":"escola","ex":["全校生徒が体育館に集まった。","Todos os alunos da escola se reuniram no ginásio."]}
+{"i":"x4289","pt":"comprimento total","t":"numeros","ex":["この橋の全長は二キロだ。","O comprimento total desta ponte é de dois quilômetros."]}
+{"i":"x4290","skip":true,"note":"Termo técnico (componente eletrônico); a frequência vem também do nome feminino 素子 (Motoko)."}
+{"i":"x4291","pt":"reorganização, remanejamento (de turmas, grupos); recombinação","t":"estado","ex":["四月にクラスの組み替えがあった。","Em abril houve remanejamento das turmas."],"note":"Transgênico = 遺伝子組み換え, com o kanji 換え."}
+{"i":"x4292","pt":"disputa (pela posse de algo)","t":"relacoes","ex":["人気商品の争奪戦になった。","Virou uma disputa pelo produto mais popular."],"note":"争奪戦 = disputa acirrada (por vaga, produto, título)."}
+{"i":"x4293","pt":"a outra parte (em contrato, disputa); lado adversário","t":"relacoes","ex":["相手方と話し合いを続ける。","Vamos continuar a negociação com a outra parte."],"note":"Formal (direito, negócios); no dia a dia, 相手."}
+{"i":"x4294","pt":"cortejo fúnebre, despedida do falecido","t":"relacoes","ex":["葬送の列が静かに進んだ。","O cortejo fúnebre avançou em silêncio."],"note":"Formal e literário; o funeral em si é お葬式."}
+{"i":"x4295","pt":"salto em distância","t":"lazer","ex":["走り幅跳びで五メートル跳んだ。","Saltei cinco metros no salto em distância."]}
+{"i":"x4296","pt":"ódio, aversão","t":"sentimentos","ex":["戦争は憎悪を生む。","A guerra gera ódio."],"note":"Mais forte e formal que 憎しみ."}
+{"i":"x4297","pt":"acervo (de livros), biblioteca pessoal","t":"comunicacao","ex":["この図書館の蔵書は十万冊だ。","O acervo desta biblioteca é de cem mil livros."]}
+{"i":"x4298","pt":"ascensão ao trono, entronização","t":"historia","ex":["新しい天皇が即位した。","O novo imperador subiu ao trono."]}
+{"i":"x4299","pt":"pernas e quadril (força das pernas); base, alicerce","t":"corpo","ex":["祖父は八十歳でも足腰が強い。","Meu avô, mesmo com oitenta anos, tem pernas fortes."],"note":"Comum ao falar de idosos: 足腰が弱る (perder a força nas pernas)."}
+{"i":"x4300","pt":"marcar passo, bater os pés no lugar; estagnação","t":"estado","ex":["景気の回復が足踏みしている。","A recuperação da economia está estagnada."]}
+{"i":"x4301","skip":true,"note":"Termo raro (outra facção); pouco útil."}
+{"i":"x4302","pt":"múltiplo, em várias camadas","t":"estado","ex":["高速道路で多重事故が起きた。","Houve um engavetamento na rodovia."],"note":"多重事故 = engavetamento; 多重債務 = dívidas com vários credores."}
+{"i":"x4303","pt":"hora de parar, hora de se retirar","t":"tempo","ex":["今が引き時かもしれない。","Talvez agora seja a hora de parar."]}
+{"i":"x4304","pt":"coronel; capitão de mar e guerra","t":"sociedade","ex":["彼は陸軍の大佐だった。","Ele era coronel do exército."]}
+{"i":"x4305","pt":"nevasca, neve forte","t":"natureza","ex":["大雪で電車が止まった。","Os trens pararam por causa da nevasca."],"note":"大雪警報 = alerta de neve forte."}
+{"i":"x4306","pt":"vale, ravina; vão (entre coisas altas)","t":"natureza","ex":["谷間に小さな村がある。","Há uma pequena vila no vale."],"note":"Figurado: ビルの谷間 (entre os prédios). Também é o decote (entre os seios)."}
+{"i":"x4307","pt":"lamento, desgosto, tristeza","t":"sentimentos","ex":["母の嘆きは深かった。","O desgosto da minha mãe era profundo."],"note":"Verbo: 嘆く (lamentar)."}
+{"i":"x4308","pt":"tablado, palanque, pódio; meio (artístico, literário)","t":"cidade","ex":["校長先生が壇に上がった。","O diretor subiu no tablado."],"note":"Como sufixo: 文壇 (meio literário), 花壇 (canteiro), 仏壇 (altar budista)."}
+{"i":"x4309","pt":"impeachment, destituição; denúncia","t":"sociedade","ex":["大統領の弾劾を求める声が高まった。","Aumentaram os pedidos de impeachment do presidente."]}
+{"i":"x4310","pt":"ator","t":"arte","ex":["彼は人気の男優だ。","Ele é um ator popular."],"note":"Atriz = 女優; o termo geral para ator é 俳優."}
+{"i":"x4311","pt":"movimento da crosta terrestre; reviravolta (política, social)","t":"ciencia","ex":["地震は地殻変動で起こる。","Os terremotos são causados pelo movimento da crosta terrestre."],"note":"Nos jornais, muito usado no sentido figurado: 政界の地殻変動 (reviravolta na política)."}
+{"i":"x4312","pt":"atraso","t":"cidade","ex":["事故で電車に遅延が出ている。","Há atrasos nos trens por causa de um acidente."],"note":"Formal (avisos, informática); na fala, 遅れ. 遅延証明書 = comprovante de atraso do trem."}
+{"i":"x4313","pt":"pátio interno","t":"cidade","ex":["学校の中庭で昼ご飯を食べた。","Almocei no pátio da escola."]}
+{"i":"x4314","pt":"classe média; curso médio (de um rio)","t":"sociedade","ex":["多くの日本人は自分を中流だと思っている。","Muitos japoneses se consideram de classe média."],"note":"Num rio: 上流 (alto curso), 中流, 下流 (baixo curso)."}
+{"i":"x4315","pos":"n","pt":"lealdade, fidelidade","t":"relacoes","ex":["武士は主君に忠誠を誓った。","O samurai jurou lealdade ao seu senhor."]}
+{"i":"x4316","pt":"extração; amostragem, seleção","t":"ciencia","ex":["植物から油を抽出する。","Extraímos óleo das plantas."],"note":"無作為抽出 = amostragem aleatória."}
+{"i":"x4317","pt":"começo da tarde, logo depois do meio-dia","t":"tempo","ex":["昼過ぎに雨が降り出した。","Começou a chover logo depois do meio-dia."]}
+{"i":"x4318","pt":"dia e noite","t":"tempo","ex":["この工場は昼夜を問わず動いている。","Esta fábrica funciona dia e noite."],"note":"昼夜を問わず = a qualquer hora, dia e noite."}
+{"i":"x4319","pt":"milionário, ricaço","t":"negocios","ex":["彼は一代で長者になった。","Ele ficou milionário em uma só geração."],"note":"億万長者 = bilionário; 長者番付 = lista dos mais ricos."}
+{"i":"x4320","pt":"administração direta, gestão própria","t":"negocios","ex":["この店はメーカーの直営店だ。","Esta é uma loja própria do fabricante."],"note":"直営店 = loja própria (não franqueada)."}
+{"i":"x4321","pt":"subordinação direta","t":"trabalho","ex":["直属の上司に相談した。","Consultei meu chefe direto."]}
+{"i":"x4322","pt":"seguir (o exemplo de), ir atrás; acompanhar","t":"acoes","ex":["他の会社も値下げに追随した。","As outras empresas também seguiram a redução de preços."],"note":"他の追随を許さない = não ter rivais, estar muito à frente."}
+{"i":"x4323","pt":"interdição (de via), trânsito bloqueado","t":"cidade","ex":["工事のため、この道は通行止めです。","Esta rua está interditada por causa de obras."]}
+{"i":"x4324","pt":"sistema imperial (japonês)","t":"sociedade","ex":["授業で天皇制について学んだ。","Estudamos o sistema imperial na aula."]}
+{"i":"x4325","pt":"virar, emborcar (barco, trem); derrubada (de governo)","t":"sociedade","ex":["強い風で船が転覆した。","O barco virou com o vento forte."]}
+{"i":"x4326","pt":"estar espalhado, salpicado (aqui e ali)","t":"estado","ex":["山の中に小さな村が点在している。","Pequenos vilarejos estão espalhados pelas montanhas."]}
+{"i":"x4327","pt":"tradição (oral), lenda; transmissão (de geração em geração)","t":"historia","ex":["この村には古い伝承が残っている。","Esta vila preserva lendas antigas."]}
+{"i":"x4328","pt":"fio elétrico, cabo de energia","t":"cidade","ex":["電線にカラスがとまっている。","Tem um corvo pousado no fio elétrico."]}
+{"i":"x4329","pt":"rumo, saída (só em expressões: ficar sem rumo; absurdo)","t":"expressoes","ex":["道に迷って途方に暮れた。","Me perdi e fiquei sem saber o que fazer."],"note":"途方に暮れる = ficar perdido, sem saber o que fazer; 途方もない = absurdo, extraordinário."}
+{"i":"x4330","pt":"interesse partidário","t":"sociedade","ex":["党利党略の政治にはうんざりだ。","Estou farto de uma política de interesses partidários."],"note":"Quase sempre em 党利党略 (interesses e manobras do partido)."}
+{"i":"x4331","pt":"artéria; via principal (de transporte)","t":"corpo","ex":["血は心臓から動脈を通って流れる。","O sangue sai do coração pelas artérias."],"note":"Oposto: 静脈 (veia). Figurado: 交通の大動脈 (grande via de transporte)."}
+{"i":"x4332","pt":"cláusula especial, contrato especial (de seguro)","t":"negocios","ex":["保険に特約を付けた。","Acrescentei uma cláusula adicional ao seguro."],"note":"Em placas: 特約店 (revendedor autorizado)."}
+{"i":"x4333","pt":"decisão própria (sem consultar ninguém), decisão arbitrária","t":"mente","ex":["部長が独断で決めてしまった。","O gerente decidiu sozinho, sem consultar ninguém."],"note":"独断と偏見 = opinião pessoal e parcial (dito com humor)."}
+{"i":"x4334","pt":"regulamento interno","t":"trabalho","ex":["それは会社の内規で決まっている。","Isso está definido no regulamento interno da empresa."]}
+{"i":"x4335","skip":true,"note":"Termo raro do calendário tradicional (220º dia do ano, época de tufões)."}
+{"i":"x4336","pt":"sessão dupla (dois filmes); plano com duas frentes","t":"arte","ex":["昔の映画館は二本立てが多かった。","Os cinemas antigos costumavam ter sessão dupla."],"note":"Figurado: 二本立ての対策 (medidas com dois pilares)."}
+{"i":"x4337","pt":"entrada no jardim de infância; entrada (em parque, zoológico)","t":"escola","ex":["娘は四月に幼稚園に入園する。","Minha filha vai entrar no jardim de infância em abril."],"note":"入園料 = ingresso de parque ou zoológico."}
+{"i":"x4338","pt":"fervoroso, apaixonado, ardente","t":"sentimentos","ex":["彼はそのチームの熱烈なファンだ。","Ele é um torcedor fanático desse time."]}
+{"i":"x4339","pt":"mais novo (de idade)","t":"familia","ex":["彼は私より三つ年下だ。","Ele é três anos mais novo que eu."],"note":"Oposto: 年上 (mais velho)."}
+{"i":"x4341","pt":"fermentação","t":"comida","ex":["納豆は大豆を発酵させて作る。","O natto é feito fermentando soja."],"note":"発酵食品 = alimentos fermentados (missô, shoyu, natto)."}
+{"i":"x4342","pt":"origem, surgimento (lugar onde algo nasceu)","t":"historia","ex":["日本は柔道発祥の地だ。","O Japão é o berço do judô."],"note":"発祥の地 = berço, terra natal (de algo)."}
+{"i":"x4343","pt":"vela (de barco)","t":"viagem","ex":["船が帆を上げて港を出た。","O barco içou as velas e deixou o porto."],"note":"帆船 = veleiro."}
+{"i":"x4344","skip":true,"note":"Fragmento de kanji (肥料, 肥満); sozinho (esterco) é antiquado."}
+{"i":"x4345","pt":"aviador, piloto","t":"trabalho","ex":["彼は宇宙飛行士になった。","Ele se tornou astronauta."],"note":"Hoje mais em 宇宙飛行士 (astronauta); piloto de avião = パイロット."}
+{"i":"x4346","pt":"crista, cumeeira (de montanha)","t":"natureza","ex":["尾根を歩いて山頂を目指した。","Seguimos pela crista em direção ao cume."]}
+{"i":"x4347","pt":"minúsculo, microscópico","t":"estado","ex":["空気中には微小な粒が浮かんでいる。","Há partículas minúsculas flutuando no ar."],"note":"Não confundir com 微笑 (sorriso), de mesma leitura."}
+{"i":"x4348","skip":true,"note":"Termo técnico antigo da escala sísmica; hoje se diz 震度1."}
+{"i":"x4349","pt":"vitória certa; vencer a qualquer custo","t":"lazer","ex":["必勝を祈って神社にお参りした。","Fui ao santuário rezar pela vitória."],"note":"Comum em faixas e bandanas (必勝ハチマキ) antes de provas e jogos."}
+{"i":"x4350","pt":"inevitável, necessário","t":"mente","ex":["練習しなければ、必然的に負ける。","Se não treinar, inevitavelmente vai perder."]}
+{"i":"x4351","pt":"ficar à deriva, ir à deriva","t":"acoes","ex":["船は三日間漂流した。","O barco ficou três dias à deriva."]}
+{"i":"x4352","pt":"título (de obra, documento)","t":"comunicacao","ex":["本の表題を決めた。","Decidi o título do livro."]}
+{"i":"x4353","pt":"inevitável","t":"mente","ex":["値上げは不可避だ。","O aumento de preço é inevitável."],"note":"Formal; na fala, 避けられない."}
+{"i":"x4354","pos":"adj-na","pt":"desagradável, incômodo; desconforto","t":"sentimentos","ex":["彼の言い方は不快だった。","O jeito dele de falar foi desagradável."],"note":"不快指数 = índice de desconforto (calor e umidade)."}
+{"i":"x4355","pt":"não aprovação, fracasso (de lei, acordo)","t":"sociedade","ex":["交渉は不成立に終わった。","As negociações terminaram sem acordo."]}
+{"i":"x4356","pt":"determinação inabalável (de não recuar)","t":"sentimentos","ex":["不退転の決意で改革に取り組む。","Vamos encarar a reforma com determinação inabalável."],"note":"Quase sempre em 不退転の決意, frase típica de políticos."}
+{"i":"x4357","pt":"falha, erro, deficiência (em documento, sistema)","t":"trabalho","ex":["書類に不備があった。","Havia um erro nos documentos."],"note":"Comum em avisos: 書類に不備がある (documentação incompleta ou com erro)."}
+{"i":"x4358","pt":"adicional, complementar, anexo","t":"negocios","ex":["この契約には付帯条件がある。","Este contrato tem condições adicionais."],"note":"Formal; aparece em 付帯条件, 付帯設備, 付帯決議."}
+{"i":"x4359","pt":"subir à superfície; surgir, vir à tona","t":"acoes","ex":["調査で新しい問題が浮かび上がった。","A investigação trouxe à tona um novo problema."]}
+{"i":"x4360","pt":"pai e filho(a)","t":"familia","ex":["彼は父子家庭で育った。","Ele foi criado só pelo pai."],"note":"父子家庭 = família só com o pai; mãe e filho = 母子."}
+{"i":"x4361","pt":"carta em envelope fechado","t":"comunicacao","ex":["結果は封書で届きます。","O resultado chegará por carta, em envelope fechado."],"note":"Oposto: はがき (cartão-postal)."}
+{"i":"x4362","pt":"subtítulo","t":"comunicacao","ex":["この本には副題が付いている。","Este livro tem um subtítulo."]}
+{"i":"x4363","pt":"abdômen, região abdominal","t":"corpo","ex":["腹部に痛みがある。","Sinto dor no abdômen."],"note":"Termo médico ou formal; na fala, お腹."}
+{"i":"x4364","pt":"dentro da média (de um ano normal)","t":"natureza","ex":["今年の夏は平年並みの暑さだ。","O calor deste verão está dentro da média."],"note":"Termo da previsão do tempo; 平年 = média dos anos anteriores."}
+{"i":"x4365","pt":"resposta (a e-mail, mensagem, carta)","t":"comunicacao","ex":["返信が遅くなってすみません。","Desculpe a demora para responder."],"note":"Não confundir com 変身 (transformação), de mesma leitura."}
+{"i":"x4366","skip":true,"note":"Nome próprio (lugar: Irlanda do Norte)."}
+{"i":"x4367","pt":"livraria","t":"compras","ex":["駅前の本屋で雑誌を買った。","Comprei uma revista na livraria em frente à estação."],"note":"Mais formal: 書店."}
+{"i":"x4368","pt":"empenho sério, dedicação pra valer","t":"expressoes","ex":["そろそろ本腰を入れて勉強しよう。","Já está na hora de estudar pra valer."],"note":"Quase sempre em 本腰を入れる (dedicar-se a sério)."}
+{"i":"x4369","skip":true,"note":"Jargão de governo (sede central do ministério); pouco útil."}
+{"i":"x4370","pt":"número, quantidade (de trens, garrafas, filmes etc.)","t":"numeros","ex":["夜は電車の本数が少ない。","À noite passam poucos trens."],"note":"Para coisas contadas com 本: trens, garrafas, filmes, gols."}
+{"i":"x4371","skip":true,"note":"Jargão militar (oficial de estado-maior); pouco útil."}
+{"i":"x4372","pt":"aderir, colar firme; estar muito ligado (a); acompanhar de perto","t":"estado","ex":["この店は地域に密着している。","Esta loja é muito ligada à comunidade local."],"note":"密着取材 = reportagem que acompanha alguém de perto; 地域密着 = ligado à comunidade."}
+{"i":"x4373","pt":"autodeterminação dos povos","t":"sociedade","ex":["民族自決の原則を守るべきだ。","É preciso respeitar o princípio da autodeterminação dos povos."]}
+{"i":"x4374","pt":"inconsciente, sem perceber; inconsciência","t":"mente","ex":["無意識に髪を触ってしまう。","Mexo no cabelo sem perceber."],"note":"無意識に = sem querer, sem perceber. Em psicologia, o inconsciente."}
+{"i":"x4375","pt":"lamentável, deplorável (estado); cruel","t":"adjetivos","ex":["台風で庭の花が無残な姿になった。","Com o tufão, as flores do jardim ficaram num estado lamentável."],"note":"Também escrito 無惨."}
+{"i":"x4376","pt":"à força, contra a vontade","t":"adverbios","ex":["弟に無理やり野菜を食べさせた。","Fiz meu irmão comer verduras à força."],"note":"Também escrito 無理矢理."}
+{"i":"x4377","pt":"de nome e de fato","t":"expressoes","ex":["彼は名実ともに日本一の選手だ。","Ele é, de nome e de fato, o melhor jogador do Japão."],"note":"Quase sempre 名実ともに (tanto no nome quanto na realidade)."}
+{"i":"x4378","pt":"proposição (lógica), tese; questão, tarefa (a cumprir)","t":"mente","ex":["この命題が正しいか考えよう。","Vamos pensar se esta proposição é verdadeira."],"note":"至上命題 = prioridade absoluta (muito usado em notícias)."}
+{"i":"x4379","pt":"dar nome, batizar","t":"comunicacao","ex":["赤ちゃんの名前は祖父が命名した。","Quem deu o nome ao bebê foi o avô."]}
+{"i":"x4380","pt":"declarar com clareza, afirmar categoricamente","t":"comunicacao","ex":["社長は辞任しないと明言した。","O presidente da empresa afirmou claramente que não vai renunciar."],"note":"明言を避ける = evitar se comprometer. Não confundir com 名言 (frase célebre)."}
+{"i":"x4381","pt":"traços (de alguém), semelhança; vestígio (do passado)","t":"mente","ex":["彼の顔には父親の面影がある。","O rosto dele lembra o do pai."],"note":"Também: 昔の面影が残る (ainda há vestígios de como era antes)."}
+{"i":"x4382","pt":"turno da noite, plantão noturno","t":"trabalho","ex":["看護師の姉は今週夜勤だ。","Minha irmã, que é enfermeira, está no turno da noite esta semana."]}
+{"i":"x4383","pt":"céu noturno","t":"natureza","ex":["夜空に星がたくさん見える。","Dá para ver muitas estrelas no céu noturno."]}
+{"i":"x4384","pt":"preferencial, prioritário","t":"estado","ex":["お年寄りを優先的に案内した。","Atendemos os idosos com prioridade."]}
+{"i":"x4385","pt":"tripulado, operado por pessoas","t":"ciencia","ex":["有人宇宙船が打ち上げられた。","Uma nave tripulada foi lançada."],"note":"Oposto: 無人 (não tripulado; sem atendente). Não confundir com 友人 (amigo)."}
+{"i":"x4386","pt":"aviso prévio; trailer (de filme, programa)","t":"comunicacao","ex":["新しい映画の予告を見た。","Vi o trailer do filme novo."],"note":"予告編 = trailer; 予告なしに = sem aviso prévio."}
+{"i":"x4387","pt":"excedente, sobra","t":"negocios","ex":["余剰の食料を寄付した。","Doamos o excedente de alimentos."],"note":"Formal: 余剰人員 (pessoal excedente)."}
+{"i":"x4388","pt":"força de reserva, fôlego restante; folga (financeira)","t":"estado","ex":["まだ余力があるから、もう少し走れる。","Ainda tenho fôlego, então consigo correr mais um pouco."]}
+{"i":"x4389","pt":"banheira","t":"casa","ex":["浴槽にお湯をためた。","Enchi a banheira de água quente."],"note":"Na fala: 湯船 (ゆぶね) ou お風呂."}
+{"i":"x4390","pt":"contador de rakugo (comédia tradicional)","t":"arte","ex":["有名な落語家の話を聞きに行った。","Fui ouvir um famoso contador de rakugo."],"note":"Rakugo: monólogo cômico tradicional, contado sentado numa almofada."}
+{"i":"x4391","pt":"pagamento de juros","t":"negocios","ex":["国の借金の利払いが増えている。","O pagamento de juros da dívida pública está aumentando."]}
+{"i":"x4392","pt":"ciências e engenharia (área de exatas)","t":"escola","ex":["兄は理工学部で学んでいる。","Meu irmão estuda na faculdade de ciências e engenharia."],"note":"Aparece em 理工学部, 理工系. Não confundir com 利口 (esperto), de mesma leitura."}
+{"i":"x4393","pt":"pessoal dos bastidores; quem trabalha nos bastidores","t":"trabalho","ex":["裏方の仕事も大切だ。","O trabalho de bastidores também é importante."]}
+{"i":"x4394","pt":"enumeração, listagem","t":"mente","ex":["会議で問題点を列挙した。","Na reunião, listamos os problemas."]}
+{"i":"x4395","pt":"ligação, acoplamento (de vagões); consolidado (contabilidade)","t":"tecnologia","ex":["駅で車両を連結する。","Os vagões são acoplados na estação."],"note":"Em balanços: 連結決算 (balanço consolidado do grupo)."}
+{"i":"x4396","pt":"cadeia, série; reação em cadeia","t":"estado","ex":["事故が連鎖的に起きた。","Os acidentes aconteceram em cadeia."],"note":"食物連鎖 = cadeia alimentar; 負の連鎖 = ciclo vicioso."}
+{"i":"x4397","skip":true,"note":"Jargão jurídico (responder por crime alheio, 連座制); pouco útil."}
+{"i":"x4398","pt":"boa notícia","t":"comunicacao","ex":["合格の朗報が届いた。","Chegou a boa notícia da aprovação."],"note":"Formal; oposto: 悲報 (notícia triste)."}
+{"i":"x4399","skip":true,"note":"Termo técnico (média ponderada, agravamento de pena); pouco útil."}
+{"i":"x4400","pt":"causa principal (de um mal); principal culpado","t":"mente","ex":["ストレスは多くの病気の元凶だ。","O estresse é a causa principal de muitas doenças."]}
+{"i":"x4401","skip":true,"note":"Termo técnico de indústria (chapa de aço); pouco útil."}
+{"i":"x4402","pt":"imponente, sólido, de peso","t":"adjetivos","ex":["重厚な木のドアが印象的だった。","A porta de madeira imponente chamou atenção."],"note":"Para móveis, prédios, música e atuações com 'peso'."}
+{"i":"x4403","pt":"cura completa, recuperação total","t":"saude","ex":["彼は全治三か月のけがをした。","Ele sofreu uma lesão que leva três meses para sarar."],"note":"Comum em notícias: 全治〇週間 (prazo de recuperação)."}
+{"i":"x4404","pt":"estagnação, atingir o teto (limite)","t":"estado","ex":["売り上げが頭打ちになっている。","As vendas pararam de crescer."]}
+{"i":"x4405","pt":"meio dia (metade de um dia)","t":"tempo","ex":["半日かけて部屋を片付けた。","Levei meio dia para arrumar o quarto."],"note":"Não é 'meio-dia' (12h), que é 正午 ou お昼."}
+{"i":"x4406","pt":"fardo de palha (saco de arroz)","t":"historia","ex":["昔は米を俵に入れて運んだ。","Antigamente, o arroz era carregado em fardos de palha."],"note":"Também contador de sacos: 米三俵. O ringue de sumô (土俵) é demarcado com 俵."}
+{"i":"x4407","pt":"tesouro, bem precioso","t":"sentimentos","ex":["この写真は私の宝物だ。","Esta foto é o meu tesouro."]}
+{"i":"x4408","skip":true,"note":"Literário; quase só em 余人をもって代えがたい (insubstituível)."}
+{"i":"x4409","pt":"loja tradicional (antiga e renomada)","t":"compras","ex":["ここは百年続く老舗の和菓子屋だ。","Esta é uma doceria tradicional com cem anos de história."],"note":"Leitura especial: しにせ."}
+{"i":"x4410","pt":"aterro, terreno aterrado (ganho do mar)","t":"cidade","ex":["その空港は埋め立て地に作られた。","Aquele aeroporto foi construído num aterro."]}
+{"i":"x4411","pt":"deixar cair; perder; tirar (sujeira, maquiagem)","t":"verbos","ex":["財布を落としてしまった。","Perdi a carteira."],"note":"Também: 化粧を落とす (tirar a maquiagem), スピードを落とす (reduzir a velocidade)."}
+{"i":"x4412","skip":true,"note":"Termo técnico de economia (índice de preços no atacado); pouco útil."}
+{"i":"x4413","pt":"receio, apreensão (temer)","t":"sentimentos","ex":["専門家は環境への影響を危惧している。","Os especialistas temem os efeitos no meio ambiente."],"note":"Formal. 絶滅危惧種 = espécie ameaçada de extinção."}
+{"i":"x4414","pt":"cada um (falando ao mesmo tempo); todas as bocas","t":"comunicacao","ex":["みんなが口々に文句を言った。","Todos reclamaram ao mesmo tempo."],"note":"Quase sempre 口々に (todos falando, cada um por si)."}
+{"i":"x4415","pt":"discussão acalorada, debate intenso","t":"comunicacao","ex":["会議で激論が交わされた。","Houve uma discussão acalorada na reunião."]}
+{"i":"x4416","pt":"convite (formal, oficial)","t":"sociedade","ex":["政府は外国の専門家を招請した。","O governo convidou oficialmente especialistas estrangeiros."],"note":"Formal; no dia a dia, 招待."}
+{"i":"x4417","pt":"juventude, jovens (faixa etária)","t":"familia","ex":["若年層の投票率が低い。","A taxa de votação entre os jovens é baixa."],"note":"Formal: 若年層 (faixa jovem), 若年性 (de início precoce)."}
+{"i":"x4418","pt":"bituca de cigarro","t":"cidade","ex":["道に吸い殻を捨てないでください。","Não jogue bitucas de cigarro na rua."]}
+{"i":"x4419","pt":"encadernação, projeto gráfico (da capa) do livro","t":"arte","ex":["この本は装丁が美しい。","Este livro tem uma capa linda."],"note":"Também escrito 装幀 ou 装釘."}
+{"i":"x4420","pt":"descartável","t":"casa","ex":["使い捨てのコップはなるべく使わない。","Evito usar copos descartáveis."],"note":"使い捨てカイロ = aquecedor de bolso descartável."}
+{"i":"x4421","pt":"propagação do fogo (por fagulhas); repercussão que se espalha","t":"estado","ex":["飛び火で隣の家も燃えた。","Com as fagulhas, a casa vizinha também pegou fogo."],"note":"Nos jornais, figurado: 問題が他社に飛び火する (o problema respinga em outras empresas)."}
+{"i":"x4422","pt":"território (de animal, de grupo); área de atuação","t":"animais","ex":["猫は自分の縄張りを持っている。","Os gatos têm seu próprio território."],"note":"Também para pessoas e grupos: 縄張り争い (briga por território)."}
+{"i":"x4423","pt":"fileira de casas, paisagem das ruas","t":"cidade","ex":["京都には古い町並みが残っている。","Kyoto ainda conserva ruas com casas antigas."]}
+{"i":"x4424","pt":"aterro (de mar, terreno)","t":"natureza","ex":["海の埋め立てに反対する人も多い。","Muita gente é contra o aterro do mar."],"note":"Verbo: 埋め立てる. 埋め立てごみ = lixo para aterro sanitário."}
+{"i":"x4425","pt":"premissa básica, condição fundamental","t":"mente","ex":["安全が大前提だ。","A segurança é a premissa básica."]}
+{"i":"x4426","pos":"vs","pt":"ajuda; ajudante, empregada doméstica","t":"casa","ex":["何かお手伝いしましょうか。","Posso ajudar em alguma coisa?"],"note":"Forma educada de 手伝い. お手伝いさん = empregada doméstica."}
+{"i":"x4428","pt":"dentro de casa, no lar, doméstico","t":"familia","ex":["家庭内の問題を相談した。","Pedi conselho sobre problemas dentro de casa."],"note":"家庭内暴力 = violência doméstica."}
+{"i":"x4429","skip":true,"note":"Fragmento (北海道, 東海道); sozinho (rota marítima) é raro."}
+{"i":"x4430","pt":"esgotar (vendas), vender tudo","t":"compras","ex":["新しいゲームは一日で完売した。","O jogo novo esgotou em um dia."],"note":"Aviso comum: 完売しました (esgotado)."}
+{"i":"x4431","skip":true,"note":"Nome de órgão (observatório meteorológico regional)."}
+{"i":"x4432","skip":true,"note":"Nome de órgão (Comitê de Assuntos Parlamentares da Dieta)."}
+{"i":"x4433","pt":"levar em conta, considerar","t":"mente","ex":["経験を勘案して給料を決める。","O salário é definido levando em conta a experiência."],"note":"Formal e escrito; na fala, 考慮する ou 考える."}
+{"i":"x4434","skip":true,"note":"Termo literário raro (deparar-se com uma ocasião); não confundir com 再会 (reencontro)."}
+{"i":"x4435","skip":true,"note":"Termo técnico de finanças (depósito em custódia); pouco útil."}
+{"i":"x4436","pt":"renovado, novo e puro (que traz ares novos)","t":"adjetivos","ex":["若い社長が会社に清新な風を吹き込んだ。","O jovem presidente trouxe ares novos à empresa."],"note":"Formal e escrito."}
+{"i":"x4437","pt":"educação e cultura (área do governo)","t":"escola","ex":["この辺りは大学が多い文教地区だ。","Esta região é uma zona estudantil, com muitas universidades."],"note":"Formal: 文教政策 (política educacional), 文教地区 (zona escolar)."}
+{"i":"x4438","pt":"sabor (com aroma), gosto","t":"comida","ex":["このお茶は風味がいい。","Este chá tem um sabor agradável."],"note":"Sufixo: 〜風味 = sabor de… (いちご風味 = sabor morango)."}
+{"i":"x4439","skip":true,"note":"Termo raro (canal); a frequência vem do sobrenome e topônimo Horie."}
+{"i":"x4440","pt":"obra recente (de um autor)","t":"comunicacao","ex":["彼の近著を読んだ。","Li o livro mais recente dele."],"note":"Formal; aparece em resenhas e apresentações de autores."}
+{"i":"x4441","pt":"dentro deste mês, até o fim do mês","t":"tempo","ex":["工事は月内に終わる予定だ。","A obra deve terminar ainda este mês."]}
+{"i":"x4442","pt":"oferenda de flores (em homenagem)","t":"relacoes","ex":["事故現場に多くの人が献花した。","Muitas pessoas deixaram flores no local do acidente."],"note":"Não confundir com けんか (briga), de mesma leitura."}
+{"i":"x4443","pt":"bons resultados, bom desempenho","t":"escola","ex":["彼は試験で好成績を収めた。","Ele obteve bons resultados na prova."]}
+{"i":"x4444","w":"講じる","r":"こうじる","pos":"v1","pt":"tomar (medidas), adotar (providências); dar aula sobre","t":"acoes","ex":["政府は対策を講じるべきだ。","O governo deve tomar medidas."],"note":"Formal, quase sempre 対策を講じる. Forma antiga: 講ずる."}
+{"i":"x4445","pt":"fuga, escapatória","t":"acoes","ex":["それはただの逃げだよ。","Isso é só uma fuga."],"note":"逃げ道 = rota de fuga, desculpa; 逃げ切る = vencer segurando a vantagem."}
+{"i":"x4446","skip":true,"note":"Fragmento (練り物, 練り歯磨き); raro sozinho."}
+{"i":"x4447","pt":"superfície da rua, pista","t":"cidade","ex":["雪で路面が凍っている。","A pista está congelada por causa da neve."],"note":"路面電車 = bonde."}
+{"i":"x4448","pt":"fixação da pena (pelo juiz), dosimetria","t":"sociedade","ex":["その量刑は重すぎると思う。","Acho essa pena pesada demais."],"note":"Termo jurídico frequente em notícias de julgamentos."}
+{"i":"x4449","skip":true,"note":"Termo de jornal raro (chefe de facção política); pouco útil."}
+{"i":"x4450","pt":"Novo Mundo (as Américas); mundo novo","t":"historia","ex":["コロンブスは新世界に到達した。","Colombo chegou ao Novo Mundo."],"note":"Também é um bairro famoso de Osaka (新世界)."}
+{"i":"x4451","pt":"mundo natural, natureza","t":"natureza","ex":["自然界には不思議なことが多い。","No mundo natural há muitos mistérios."]}
+{"i":"x4452","pt":"estudos sociais (matéria escolar)","t":"escola","ex":["社会科の授業で地図を見た。","Vimos mapas na aula de estudos sociais."],"note":"Matéria que junta história, geografia e cidadania."}
+{"i":"x4453","skip":true,"note":"Aparece quase só em 党利党略, já ensinado em 党利."}
+{"i":"x4454","pt":"templo principal (de uma seita); centro, quartel-general","t":"historia","ex":["この寺は宗派の総本山だ。","Este templo é a sede principal da seita."],"note":"Figurado: o centro de um movimento ou organização."}
+{"i":"x4455","pt":"primavera (estação, termo formal)","t":"tempo","ex":["春季大会が始まった。","Começou o torneio de primavera."],"note":"Formal; no dia a dia, 春."}
+{"i":"x4456","pt":"local de prova; estação experimental","t":"escola","ex":["試験場には早めに着いた。","Cheguei cedo ao local da prova."],"note":"Também 運転免許試験場 (centro de exames de habilitação)."}
+{"i":"x4457","pt":"três gerações; terceira geração","t":"familia","ex":["この店は親子三代で続いている。","Esta loja passou por três gerações da mesma família."],"note":"三代目 = a terceira geração (quem herda do pai e do avô)."}
+{"i":"x4458","pt":"montes e campos, campo","t":"natureza","ex":["山野を歩いて草花を観察した。","Andamos pelos montes e campos observando as plantas."],"note":"Literário."}
+{"i":"x4459","skip":true,"note":"Termo raro; o comum é 生産量 (volume de produção)."}
+{"i":"x4460","pt":"contribuir (para), servir (a)","t":"acoes","ex":["この研究は医学の発展に資する。","Esta pesquisa contribui para o avanço da medicina."],"note":"Formal e escrito; na fala, 役立つ."}
+{"i":"x4461","pt":"dentro do trem, carro ou ônibus; a bordo","t":"viagem","ex":["車中で弁当を食べた。","Comi o bentô a bordo do trem."],"note":"Formal; 車中泊 = dormir no carro."}
+{"i":"x4462","skip":true,"note":"Nome de órgão (Departamento de Tributação do Ministério das Finanças)."}
+{"i":"x4463","skip":true,"note":"Termo técnico (captação de água de rio ou lago); pouco útil."}
+{"i":"x4464","pt":"sem as mãos; sem reservas (abertamente)","t":"expressoes","ex":["先生は彼の作品を手放しでほめた。","O professor elogiou o trabalho dele sem reservas."],"note":"手放しで喜ぶ = ficar contente sem reservas. Verbo: 手放す (abrir mão de)."}
+{"i":"x4465","pt":"imposto sobre bebidas alcoólicas","t":"negocios","ex":["酒税が上がってビールが高くなった。","Com o aumento do imposto, a cerveja ficou mais cara."]}
+{"i":"x4466","pt":"outono (estação, termo formal)","t":"tempo","ex":["秋季大会で優勝した。","Ganhamos o torneio de outono."],"note":"Formal; no dia a dia, 秋."}
+{"i":"x4467","pt":"folheto, livreto","t":"comunicacao","ex":["駅で観光の小冊子をもらった。","Peguei um livreto de turismo na estação."]}
+{"i":"x4468","pt":"ausência de peso, gravidade zero","t":"ciencia","ex":["宇宙船の中は無重量状態だ。","Dentro da nave espacial não há gravidade."],"note":"Também se diz 無重力."}
+{"i":"x4469","skip":true,"note":"Palavra rara (presentes distribuídos); pouco útil."}
+{"i":"x4470","r":"てどり","pt":"salário líquido, valor recebido (após descontos)","t":"trabalho","ex":["給料の手取りは二十万円だ。","Meu salário líquido é de duzentos mil ienes."],"note":"Depois de descontar impostos e seguros. Salário bruto = 額面."}
+{"i":"x4471","pt":"beira do ringue; momento crítico, situação limite","t":"expressoes","ex":["チームは土俵際に追い込まれた。","O time foi encurralado numa situação limite."],"note":"Do sumô: a borda do ringue (土俵)."}
+{"i":"x4472","pt":"motivo da vitória","t":"lazer","ex":["勝因はチームワークだった。","O motivo da vitória foi o trabalho em equipe."],"note":"Oposto: 敗因 (motivo da derrota)."}
+{"i":"x4473","pt":"porcentagem de vitórias, aproveitamento","t":"lazer","ex":["このチームの勝率は六割だ。","Este time tem 60% de aproveitamento."]}
+{"i":"x4474","pt":"promissor, em ascensão (novato)","t":"arte","ex":["彼は新進の作家だ。","Ele é um escritor em ascensão."],"note":"Comum em 新進気鋭 (jovem e promissor)."}
+{"i":"x4475","skip":true,"note":"Termo técnico de shogi e go (lance lacrado); pouco útil."}
+{"i":"x4476","skip":true,"note":"Termo histórico (sede de governo antigo ou colonial); pouco útil."}
+{"i":"x4477","skip":true,"note":"Termo técnico (país de registro do navio); pouco útil."}
+{"i":"x4478","skip":true,"note":"Cargo de governo (alto funcionário do Ministério das Finanças); pouco útil."}
+{"i":"x4479","pt":"departamento de informações; serviço de inteligência","t":"sociedade","ex":["彼は軍の情報部で働いていた。","Ele trabalhava no serviço de inteligência do exército."]}
+{"i":"x4480","pt":"brilho, vivacidade","t":"expressoes","ex":["今日の彼はプレーに精彩を欠いた。","Hoje ele jogou sem brilho."],"note":"Quase sempre 精彩を欠く (estar apagado, sem brilho)."}
+{"i":"x4481","pt":"superfície da parede, parede (externa)","t":"cidade","ex":["ビルの壁面に大きな絵が描かれている。","Há uma pintura enorme na parede do prédio."]}
+{"i":"x4482","pt":"consciente, deliberado, proposital","t":"mente","ex":["意識的に野菜を食べるようにしている。","Faço questão de comer verduras."],"note":"Oposto: 無意識 (sem perceber)."}
+{"i":"x4483","pt":"suspeito (termo jurídico)","t":"sociedade","ex":["警察は被疑者を逮捕した。","A polícia prendeu o suspeito."],"note":"Termo da polícia e da lei; na imprensa, mais 容疑者."}
+{"i":"x4484","pt":"ciências comerciais, comércio (área de estudo)","t":"escola","ex":["大学で商学を専攻した。","Me formei em comércio na faculdade."],"note":"Aparece em 商学部 (faculdade de comércio)."}
+{"i":"x4485","pt":"postar várias vezes seguidas; arremessar em jogos seguidos","t":"comunicacao","ex":["友達が写真を連投している。","Meu amigo está postando várias fotos seguidas."],"note":"No beisebol: o arremessador que joga em dias consecutivos."}
+{"i":"x4486","pt":"refinaria de petróleo","t":"negocios","ex":["製油所で火事が起きた。","Houve um incêndio na refinaria."]}
+{"i":"x4487","pt":"natureza grandiosa, a mãe natureza","t":"natureza","ex":["北海道の大自然を楽しんだ。","Aproveitamos a natureza grandiosa de Hokkaido."]}
+{"i":"x4488","pt":"abandono, deixar para trás","t":"acoes","ex":["子どもを車に置き去りにしてはいけない。","Não se deve deixar crianças sozinhas no carro."],"note":"Quase sempre 置き去りにする (abandonar, deixar para trás)."}
+{"i":"x4489","pt":"problema Norte-Sul (desigualdade entre países ricos e pobres)","t":"sociedade","ex":["授業で南北問題について学んだ。","Na aula, estudamos o problema Norte-Sul."]}
+{"i":"x4490","pt":"tempo integral, efetivo (emprego)","t":"trabalho","ex":["彼女は常勤の医師として働いている。","Ela trabalha como médica em tempo integral."],"note":"Oposto: 非常勤 (meio período, temporário)."}
+{"i":"x4491","pt":"no palco, no tablado","t":"cidade","ex":["市長が壇上であいさつした。","O prefeito discursou no palco."]}
+{"i":"x4492","pt":"decolagem e pouso","t":"viagem","ex":["霧のため離着陸ができない。","Por causa da neblina, não é possível decolar nem pousar."]}
+{"i":"x4493","pt":"templo principal (de uma seita budista)","t":"historia","ex":["京都には多くの宗派の本山がある。","Kyoto abriga os templos principais de muitas seitas."]}
+{"i":"x4494","skip":true,"note":"Termo cultural raro (boneco cabeçudo da sorte) e nome próprio; pouco útil."}
+{"i":"x4495","pt":"ficar preso, encalhado (no trânsito, na neve); ficar sem saída","t":"cidade","ex":["大雪で車が立ち往生した。","Os carros ficaram presos por causa da nevasca."]}
+{"i":"x4496","pt":"despejo, desocupação (de imóvel)","t":"casa","ex":["再開発でアパートの立ち退きを求められた。","Por causa da reurbanização, pediram que desocupássemos o apartamento."],"note":"Verbo: 立ち退く (desocupar, sair do lugar)."}
+{"i":"x4497","skip":true,"note":"Nome de órgão (Agência Florestal do Japão)."}
+{"i":"x4498","pt":"indignação, revolta","t":"sentimentos","ex":["不公平な判決に憤りを感じた。","Senti indignação com a sentença injusta."],"note":"Formal e escrito; verbo: 憤る."}
+{"i":"x4499","skip":true,"note":"Abreviação de nome de órgão (Banco de Exportação e Importação do Japão)."}
+{"i":"x4500","pt":"opinião minoritária","t":"mente","ex":["少数意見も大切にするべきだ。","Também devemos valorizar as opiniões minoritárias."]}
+{"i":"x4501","pt":"responsabilidade moral","t":"sociedade","ex":["社長は道義的責任を取って辞任した。","O presidente renunciou, assumindo a responsabilidade moral."],"note":"Frase comum em escândalos: não é culpa legal, mas moral."}
+{"i":"x4502","pt":"patrimônio cultural","t":"historia","ex":["この寺は世界文化遺産に登録されている。","Este templo está na lista do Patrimônio Mundial."]}
+{"i":"x4503","pt":"grande loja de varejo, megaloja","t":"compras","ex":["家電量販店でテレビを買った。","Comprei uma TV numa grande loja de eletrônicos."],"note":"家電量販店 = grande loja de eletroeletrônicos."}
+{"i":"x4504","pt":"embriaguez, bebedeira; enjoo (de viagem)","t":"corpo","ex":["少し休んだら酔いが覚めた。","Depois de descansar um pouco, a bebedeira passou."],"note":"車酔い = enjoo no carro; 船酔い = enjoo no barco; 二日酔い = ressaca."}
+{"i":"x4505","pos":"adj-pn","pt":"bom (literário, antes de substantivo)","t":"adjetivos","ex":["彼は私の良き友だ。","Ele é um bom amigo meu."],"note":"Forma literária de 良い, só antes de substantivo: 古き良き時代 (os bons velhos tempos)."}
+{"i":"x4506","pt":"quatro (objetos longos e finos)","t":"numeros","ex":["鉛筆を四本買った。","Comprei quatro lápis."],"note":"Contador 本: lápis, garrafas, guarda-chuvas, trens."}
+{"i":"x4507","pt":"não muito, que deixa a desejar; mais um","t":"adverbios","ex":["この映画は今ひとつだった。","Este filme deixou a desejar."],"note":"Também escrito 今一つ; na fala, いまいち."}
+{"i":"x4508","pt":"retribuição (presente em troca); revanche; troco","t":"relacoes","ex":["誕生日プレゼントのお返しをした。","Retribuí o presente de aniversário."],"note":"No Japão é costume retribuir presentes recebidos (ex.: no White Day)."}
+{"i":"x4509","w":"お話し中","r":"おはなしちゅう","pt":"ocupado (telefone); em conversa","t":"comunicacao","ex":["電話をかけたが、お話し中だった。","Liguei, mas estava ocupado."],"reg":"polido","note":"Mensagem da operadora: ただいまお話し中です (a linha está ocupada)."}
+{"i":"x4510","pt":"pesar, condolências","t":"relacoes","ex":["犠牲者に哀悼の意を表します。","Expressamos nosso pesar pelas vítimas."],"note":"Frase formal: 哀悼の意を表する (manifestar condolências)."}
+{"i":"x4511","pt":"proteção, cuidado (de animais)","t":"animais","ex":["姉は動物愛護の活動をしている。","Minha irmã faz trabalho de proteção animal."],"note":"Quase sempre em 動物愛護 (proteção dos animais)."}
+{"i":"x4512","pt":"mau tempo","t":"natureza","ex":["悪天候のため飛行機が欠航した。","O voo foi cancelado por causa do mau tempo."]}
+{"i":"x4513","pt":"paz, tranquilidade (de espírito)","t":"sentimentos","ex":["家族といると安らぎを感じる。","Sinto paz quando estou com a família."]}
+{"i":"x4514","pt":"vestígio, relíquia (arqueológica); coisa ultrapassada","t":"historia","ex":["古代の遺物が発見された。","Foram descobertos vestígios da antiguidade."],"note":"Figurado: 過去の遺物 (coisa do passado, ultrapassada)."}
+{"i":"x4515","pt":"um golpe; uma rebatida, uma tacada","t":"lazer","ex":["その一打で試合が決まった。","Aquela rebatida decidiu o jogo."],"note":"Usado no beisebol e no golfe: 一打差 (uma tacada de diferença)."}
+{"i":"x4516","pt":"uma geração, uma vida","t":"familia","ex":["祖父は一代で会社を大きくした。","Meu avô fez a empresa crescer em uma só geração."],"note":"一世一代 = o momento mais importante da vida."}
+{"i":"x4517","pt":"espaço sideral","t":"ciencia","ex":["宇宙空間には空気がない。","No espaço sideral não há ar."]}
+{"i":"x4518","pt":"no meio de (escândalo, polêmica); no redemoinho","t":"sociedade","ex":["彼は今、事件の渦中にいる。","Ele está agora no centro do escândalo."],"note":"Comum em notícias: 渦中の人物 (a pessoa no centro da polêmica)."}
+{"i":"x4519","pt":"funcionário da estação","t":"cidade","ex":["駅員に道を聞いた。","Perguntei o caminho ao funcionário da estação."]}
+{"i":"x4520","skip":true,"note":"Termo técnico de química (cloreto); aparece em 塩化ビニール."}
+{"i":"x4521","pt":"poluição, contaminação (da água)","t":"natureza","ex":["川の水質汚濁が問題になっている。","A poluição da água do rio virou um problema."],"note":"Formal; no dia a dia, 汚れ ou 汚染."}
+{"i":"x4522","pt":"má fama, desonra","t":"relacoes","ex":["彼は次の試合で汚名を返上した。","No jogo seguinte, ele limpou seu nome."],"note":"汚名返上 = limpar o nome (汚名挽回 é um erro comum)."}
+{"i":"x4523","skip":true,"note":"Termo literário (montanhas remotas); a frequência vem do sobrenome Okuyama."}
+{"i":"x4524","pos":"adj-no","pt":"proporcional (às possibilidades), adequado","t":"estado","ex":["応分の負担をお願いします。","Pedimos que cada um contribua conforme suas possibilidades."],"note":"Formal; quase sempre 応分の + substantivo."}
+{"i":"x4525","pt":"apreensão (pela polícia), confisco","t":"sociedade","ex":["警察は大量の薬物を押収した。","A polícia apreendeu uma grande quantidade de drogas."]}
+{"i":"x4526","pt":"olhar de lado, olhar de soslaio","t":"acoes","ex":["彼女は横目で彼を見た。","Ela olhou para ele de soslaio."],"note":"〜を横目に = sem dar atenção a…, ignorando."}
+{"i":"x4527","pt":"trono, coroa (posição de rei)","t":"historia","ex":["王子が王位を継いだ。","O príncipe herdou o trono."]}
+{"i":"x4528","skip":true,"note":"Termo técnico de esporte (arremesso por baixo; golpe de sumô); pouco útil."}
+{"i":"x4529","pt":"centenas","t":"numeros","ex":["何百人もの人が集まった。","Centenas de pessoas se reuniram."],"note":"何百もの〜 = centenas de…; 何千 = milhares."}
+{"i":"x4530","pt":"coquetel molotov","t":"sociedade","ex":["デモ隊が火炎瓶を投げた。","Os manifestantes atiraram coquetéis molotov."]}
+{"i":"x4531","pt":"terça-feira","t":"tempo","ex":["毎週火曜はジムに行く。","Toda terça vou à academia."],"note":"Forma curta de 火曜日."}
+{"i":"x4532","pt":"rinite alérgica (alergia a pólen)","t":"saude","ex":["春は花粉症でつらい。","Na primavera, sofro com a alergia a pólen."],"note":"Muito comum no Japão na primavera, sobretudo pelo pólen do cedro (スギ)."}
+{"i":"x4533","pt":"excessivo","t":"negocios","ex":["業界で過当競争が起きている。","Há uma concorrência excessiva no setor."],"note":"Quase sempre 過当競争 (concorrência predatória)."}
+{"i":"x4534","pt":"boletim (de associação), informativo","t":"comunicacao","ex":["会報が毎月届く。","O boletim da associação chega todo mês."]}
+{"i":"x4535","pt":"volta à vida, recuperação; aluno do enésimo ano (faculdade, no Kansai)","t":"estado","ex":["起死回生のゴールで逆転した。","Viramos o jogo com um gol salvador."],"note":"起死回生 = reviravolta salvadora. No Kansai, 三回生 = aluno do terceiro ano da faculdade."}
+{"i":"x4536","pt":"recordação, lembrança (do passado)","t":"mente","ex":["祖母は若いころを回想した。","Minha avó recordou a juventude."],"note":"回想シーン = flashback (em filme, anime)."}
+{"i":"x4537","pt":"reforma (de loja, prédio), remodelação","t":"cidade","ex":["店は改装のため休業中です。","A loja está fechada para reforma."],"note":"Também se diz リニューアル."}
+{"i":"x4538","pt":"beira-mar, praia","t":"natureza","ex":["夕方、海辺を散歩した。","À tarde, passeei à beira-mar."]}
+{"i":"x4539","pt":"cirurgião","t":"saude","ex":["兄は外科医として働いている。","Meu irmão trabalha como cirurgião."]}
+{"i":"x4540","pt":"ferimento externo, lesão; trauma (físico)","t":"saude","ex":["彼は頭に外傷を負った。","Ele sofreu um ferimento na cabeça."],"note":"心的外傷 = trauma psicológico (トラウマ)."}
+{"i":"x4541","pt":"classificação, rating, ranking","t":"negocios","ex":["その会社の格付けが下がった。","A classificação de risco da empresa caiu."]}
+{"i":"x4542","pt":"armamento nuclear","t":"sociedade","ex":["多くの人が核武装に反対している。","Muita gente se opõe ao armamento nuclear."]}
+{"i":"x4543","pt":"promessa firme, garantia","t":"relacoes","ex":["今の段階では確約できない。","Nesta etapa não posso garantir nada."]}
+{"i":"x4544","skip":true,"note":"Fragmento usado em nomes de montanhas (槍ヶ岳, 谷川岳); raro sozinho."}
+{"i":"x4545","pt":"conflito interno, dilema","t":"sentimentos","ex":["夢と現実の間で葛藤している。","Estou dividido entre o sonho e a realidade."]}
+{"i":"x4546","pt":"aparar, podar","t":"acoes","ex":["庭の木を刈り込んだ。","Aparei as árvores do jardim."]}
+{"i":"x4547","pt":"conclusão, término (de série, obra)","t":"arte","ex":["人気漫画がついに完結した。","O mangá popular finalmente terminou."],"note":"完結編 = capítulo final."}
+{"i":"x4548","pt":"repartições públicas, órgãos do governo","t":"sociedade","ex":["官公庁は土日が休みだ。","As repartições públicas fecham aos sábados e domingos."]}
+{"i":"x4549","pt":"remédio de ervas (medicina tradicional chinesa)","t":"saude","ex":["祖母は毎日漢方薬を飲んでいる。","Minha avó toma remédio de ervas todos os dias."]}
+{"i":"x4550","skip":true,"note":"Termo técnico (fiscalização de obras); no dia a dia, 管理."}
+{"i":"x4551","pt":"cirrose (hepática)","t":"saude","ex":["父は飲みすぎで肝硬変になった。","Meu pai ficou com cirrose de tanto beber."]}
+{"i":"x4552","pt":"obstáculo, barreira (a superar); posto de controle","t":"estado","ex":["最初の関門を突破した。","Superamos o primeiro obstáculo."],"note":"Também nome do estreito entre Honshu e Kyushu (関門海峡)."}
+{"i":"x4553","pt":"tora (de madeira)","t":"natureza","ex":["丸太で小屋を作った。","Construímos uma cabana com toras."],"note":"丸太小屋 = cabana de toras."}
+{"i":"x4554","pt":"conter (substância); teor","t":"ciencia","ex":["このお茶はビタミンCの含有量が多い。","Este chá tem alto teor de vitamina C."],"note":"含有量 = teor, quantidade contida."}
+{"i":"x4555","pt":"teatro de variedades (rakugo, manzai)","t":"arte","ex":["寄席で落語を聞いた。","Ouvi rakugo num teatro de variedades."],"note":"Leitura especial: よせ."}
+{"i":"x4556","pt":"voltar à terra natal (nas férias)","t":"viagem","ex":["お盆に実家へ帰省する。","No Obon, volto para a casa dos meus pais."],"note":"帰省ラッシュ = êxodo de férias (Obon, Ano-Novo)."}
+{"i":"x4557","pt":"caminho de volta, volta para casa","t":"viagem","ex":["私たちは夕方に帰途についた。","Pegamos o caminho de volta no fim da tarde."],"note":"Formal; na fala, 帰り道."}
+{"i":"x4558","pt":"prece, oração (por algo)","t":"historia","ex":["平和を祈念して式典が行われた。","Fizeram uma cerimônia rezando pela paz."],"note":"Não confundir com 記念 (comemoração), de mesma leitura."}
+{"i":"x4559","pt":"brilhante, glorioso","t":"adjetivos","ex":["彼には輝かしい未来が待っている。","Um futuro brilhante o espera."]}
+{"i":"x4560","pt":"sofrer (derrota); comer, beber, fumar","t":"lazer","ex":["チームは大敗を喫した。","O time sofreu uma derrota esmagadora."],"note":"Formal: 敗北を喫する (sofrer derrota). O kanji aparece em 喫茶 (tomar chá) e 喫煙 (fumar)."}
+{"i":"x4561","pt":"entupir; engasgar-se (com comida)","t":"acoes","ex":["子どもがあめをのどに詰まらせた。","A criança se engasgou com uma bala."],"note":"Causativo de 詰まる (entupir)."}
+{"i":"x4562","pt":"ausência (de lutador no torneio de sumô); fechamento temporário","t":"lazer","ex":["横綱がけがで休場した。","O yokozuna ficou fora do torneio por lesão."]}
+{"i":"x4563","pt":"procura de emprego","t":"trabalho","ex":["求職中の人を支援している。","Damos apoio a quem está procurando emprego."],"note":"Oposto: 求人 (oferta de vaga). 求職者 = quem procura emprego."}
+{"i":"x4564","pt":"situação difícil, aperto, miséria","t":"estado","ex":["被災地の窮状を訴えた。","Denunciaram a situação difícil da área atingida."]}
+{"i":"x4565","pt":"abastecimento (de combustível); lubrificação","t":"cidade","ex":["ガソリンスタンドで給油した。","Abasteci no posto de gasolina."]}
+{"i":"x4566","pt":"rejeição (de transplante); forte aversão","t":"saude","ex":["手術の後で拒絶反応が出た。","Depois da cirurgia, houve rejeição."],"note":"Figurado: 新しい制度に拒絶反応を示す (reagir com rejeição)."}
+{"i":"x4567","pt":"rito em memória dos mortos (budista)","t":"historia","ex":["お寺で祖父の供養をした。","Fizemos uma cerimônia em memória do meu avô no templo."]}
+{"i":"x4568","skip":true,"note":"Título raro (Sir, Lorde, em traduções); pouco útil."}
+{"i":"x4569","pt":"organização religiosa, seita","t":"historia","ex":["その教団は信者を増やしている。","Aquela organização religiosa está ganhando fiéis."]}
+{"i":"x4570","pt":"esquina, curva; ponto de virada","t":"cidade","ex":["次の曲がり角を右に曲がってください。","Vire à direita na próxima esquina."],"note":"Figurado: 人生の曲がり角 (ponto de virada na vida)."}
+{"i":"x4571","pt":"músicas (de um programa), repertório","t":"arte","ex":["コンサートの曲目が発表された。","Foi divulgado o repertório do show."]}
+{"i":"x4572","pt":"início da Idade Moderna (no Japão, períodos Azuchi-Momoyama e Edo)","t":"historia","ex":["近世の日本について研究している。","Pesquiso o Japão do início da era moderna."],"note":"No Japão, cerca de 1573 a 1868; 近代 = era moderna (a partir de Meiji)."}
+{"i":"x4573","pt":"moderno","t":"adjetivos","ex":["駅の近くに近代的なビルが建った。","Construíram um prédio moderno perto da estação."]}
+{"i":"x4574","pt":"entrar correndo; corrida de última hora","t":"cidade","ex":["駆け込み乗車はおやめください。","Por favor, não entre correndo no trem."],"note":"駆け込み需要 = corrida às compras antes de um aumento de preço ou imposto."}
+{"i":"x4575","w":"栗","pt":"castanha (japonesa); castanheiro","t":"comida","ex":["秋は栗ご飯がおいしい。","No outono, o arroz com castanhas fica delicioso."],"note":"Também escrito くり ou クリ. 甘栗 = castanhas assadas adocicadas."}
+{"i":"x4576","skip":true,"note":"Termo técnico militar (civil a serviço das forças armadas); pouco útil."}
+{"i":"x4577","pt":"litígio, disputa (judicial)","t":"sociedade","ex":["両社は特許をめぐって係争中だ。","As duas empresas estão em litígio por causa de uma patente."],"note":"Quase sempre 係争中 (em litígio)."}
+{"i":"x4578","pt":"caso criminal, processo penal","t":"sociedade","ex":["その事故は刑事事件になった。","O acidente virou caso criminal."],"note":"Oposto: 民事事件 (caso cível)."}
+{"i":"x4579","pt":"formal, só por formalidade","t":"adjetivos","ex":["面接は形式的なものだった。","A entrevista foi só uma formalidade."]}
+{"i":"x4580","pt":"imensurável, incalculável","t":"estado","ex":["地震の被害は計り知れない。","Os danos do terremoto são incalculáveis."]}
+{"i":"x4581","pt":"medição","t":"ciencia","ex":["選手のタイムを計測する。","Medimos o tempo dos atletas."]}
+{"i":"x4582","pt":"comediante; artista (de variedades)","t":"arte","ex":["彼はテレビで人気のお笑い芸人だ。","Ele é um comediante popular na TV."],"note":"お笑い芸人 = comediante (de TV)."}
+{"i":"x4583","pt":"ligação, vínculo, laço","t":"relacoes","ex":["この村は家族の結びつきが強い。","Nesta vila, os laços familiares são fortes."],"note":"Também escrito 結び付き. Verbo: 結びつく."}
+{"i":"x4584","pt":"material de construção","t":"cidade","ex":["木は昔から建材として使われてきた。","A madeira é usada há muito tempo como material de construção."]}
+{"i":"x4585","pt":"construção (de navio, grande estrutura)","t":"cidade","ex":["港で新しい船が建造された。","Um navio novo foi construído no porto."],"note":"建造物 = construção, edificação."}
+{"i":"x4586","pt":"direitos e interesses (de um país no exterior)","t":"sociedade","ex":["大国が石油の権益を争っている。","As grandes potências disputam os direitos sobre o petróleo."]}
+{"i":"x4587","pt":"manifestar-se, tornar-se evidente","t":"estado","ex":["人手不足の問題が顕在化した。","O problema da falta de mão de obra veio à tona."],"note":"Quase sempre 顕在化する (tornar-se visível). Oposto: 潜在 (latente)."}
+{"i":"x4588","pt":"marechal; almirante (de esquadra)","t":"sociedade","ex":["彼は陸軍元帥に任命された。","Ele foi nomeado marechal do exército."]}
+{"i":"x4589","pt":"nascente (de rio); origem","t":"natureza","ex":["川の源流を探しに山へ行った。","Fomos às montanhas procurar a nascente do rio."],"note":"Figurado: 日本文化の源流 (as origens da cultura japonesa)."}
+{"i":"x4590","skip":true,"note":"Fragmento (午前, 午後); sozinho só no zodíaco chinês (午年 = ano do Cavalo)."}
+{"i":"x4591","pt":"apoio, respaldo; padrinho (quem dá apoio)","t":"relacoes","ex":["彼は大物政治家の後ろ盾を得た。","Ele ganhou o respaldo de um político influente."]}
+{"i":"x4592","pt":"jeito de contar (uma história), narração","t":"comunicacao","ex":["彼の語り口はとても面白い。","O jeito dele de contar histórias é muito divertido."]}
+{"i":"x4593","skip":true,"note":"Termo raro (documento oficial; o comum é 公文書); a frequência vem do método Kumon."}
+{"i":"x4594","pt":"jeito de falar (que dá a entender algo)","t":"comunicacao","ex":["彼は何か知っているような口ぶりだった。","Ele falava como se soubesse de alguma coisa."]}
+{"i":"x4595","pt":"discussão, bate-boca","t":"relacoes","ex":["客と店員が口論になった。","O cliente e o atendente começaram a bater boca."]}
+{"i":"x4596","skip":true,"note":"Termo técnico de indústria (máquina-ferramenta); pouco útil."}
+{"i":"x4597","pt":"conquista (de território); vencer (adversário, jogo); estratégia","t":"lazer","ex":["ゲームの攻略サイトを見た。","Vi um site com dicas para zerar o jogo."],"note":"Em games, 攻略 = estratégia para vencer; 攻略本 = guia do jogo."}
+{"i":"x4598","pt":"além disso; ainda mais","t":"adverbios","ex":["雨はさらに強くなった。","A chuva ficou ainda mais forte."],"note":"Também escrito 更に. Com negativa (literário): de modo algum."}
+{"i":"x4599","pt":"destino; paradeiro","t":"viagem","ex":["バスの行き先を確認した。","Confirmei o destino do ônibus."],"note":"Também se lê ゆきさき."}
+{"i":"x4600","pt":"precipitação (quantidade de chuva)","t":"natureza","ex":["六月は降水量が多い。","Em junho a precipitação é alta."]}
+{"i":"x4601","pt":"terreno elevado, lugar alto, colina","t":"natureza","ex":["津波のときは高台に逃げてください。","Em caso de tsunami, fuja para um lugar alto."]}
+{"i":"x4602","pt":"picado (em pedaços); intervalo (de X em X)","t":"comida","ex":["ラーメンに刻みネギをのせた。","Coloquei cebolinha picada no lámen."],"note":"Como sufixo: 五分刻み (de cinco em cinco minutos). Verbo: 刻む (picar)."}
+{"i":"x4603","pt":"desossado; esvaziado, enfraquecido (lei, plano)","t":"estado","ex":["法案は骨抜きにされた。","O projeto de lei foi esvaziado."],"note":"Literal: tirar as espinhas do peixe (骨抜きの魚)."}
+{"i":"x4604","pt":"ter raízes (em), originar-se de","t":"estado","ex":["この祭りは地域の歴史に根ざしている。","Este festival tem raízes na história da região."],"note":"Também escrito 根差す."}
+{"i":"x4605","pt":"garra, força de vontade; índole, caráter","t":"sentimentos","ex":["彼は根性がある。","Ele tem garra."],"note":"Com sentido ruim: 根性が悪い (mau caráter)."}
+{"i":"x4606","w":"お歳暮","r":"おせいぼ","pt":"presente de fim de ano","t":"relacoes","ex":["上司にお歳暮を贈った。","Mandei um presente de fim de ano para o meu chefe."],"note":"Presente de agradecimento enviado em dezembro; no verão é お中元."}
+{"i":"x4607","pt":"dificuldades financeiras (de governo, organização)","t":"negocios","ex":["市は財政難に苦しんでいる。","A prefeitura sofre com dificuldades financeiras."]}
+{"i":"x4608","pt":"funcionamento, acionamento (de máquina)","t":"tecnologia","ex":["火事で警報が作動した。","O alarme disparou por causa do incêndio."]}
+{"i":"x4609","pt":"os três poderes (do Estado)","t":"sociedade","ex":["授業で三権分立について学んだ。","Na aula, estudamos a separação dos três poderes."],"note":"Legislativo (立法), Executivo (行政) e Judiciário (司法)."}
+{"i":"x4610","pt":"participação; conselheiro (cargo)","t":"trabalho","ex":["彼は市の参与に任命された。","Ele foi nomeado conselheiro da prefeitura."],"note":"Formal."}
+{"i":"x4611","pt":"comparecimento (a cerimônia)","t":"relacoes","ex":["多くの人が葬儀に参列した。","Muitas pessoas compareceram ao funeral."],"note":"Para cerimônias como casamentos e funerais; 参列者 = presentes."}
+{"i":"x4612","pt":"abrigo de montanha, cabana","t":"viagem","ex":["山小屋に一泊した。","Passamos uma noite no abrigo da montanha."]}
+{"i":"x4613","pt":"estrada de montanha, trilha","t":"natureza","ex":["山道を一時間歩いた。","Andamos uma hora pela trilha da montanha."]}
+{"i":"x4614","pt":"apresentador, mestre de cerimônias, moderador","t":"comunicacao","ex":["番組の司会者が交代した。","O apresentador do programa mudou."]}
+{"i":"x4615","pt":"veículo de quatro rodas, automóvel","t":"cidade","ex":["この道は四輪車は通れない。","Veículos de quatro rodas não podem passar por esta rua."],"note":"Termo técnico; no dia a dia, 車. 二輪車 = moto."}
+{"i":"x4616","pt":"vida ou morte","t":"expressoes","ex":["雨が降らないのは農家にとって死活問題だ。","A falta de chuva é questão de vida ou morte para os agricultores."],"note":"Quase sempre 死活問題 (questão de vida ou morte)."}
+{"i":"x4617","pt":"sem fundamento, infundado","t":"expressoes","ex":["その報道は事実無根だ。","Essa notícia não tem fundamento."]}
+{"i":"x4618","pt":"doença crônica","t":"saude","ex":["父には持病の腰痛がある。","Meu pai tem dor nas costas crônica."]}
+{"i":"x4619","pt":"sugestão, indício; dar a entender, insinuar","t":"comunicacao","ex":["首相は辞任を示唆した。","O primeiro-ministro deu a entender que vai renunciar."],"note":"示唆に富む = muito instrutivo, que dá o que pensar."}
+{"i":"x4620","pt":"música de câmara","t":"arte","ex":["週末に室内楽のコンサートへ行った。","No fim de semana fui a um concerto de música de câmara."]}
+{"i":"x4621","pt":"laboratório","t":"ciencia","ex":["学生が実験室で実験をしている。","Os estudantes estão fazendo experimentos no laboratório."]}
+{"i":"x4622","pt":"folhas novas, brotos","t":"natureza","ex":["五月は若葉がきれいだ。","Em maio, as folhas novas são lindas."],"note":"若葉マーク = adesivo verde e amarelo de motorista novato."}
+{"i":"x4623","skip":true,"note":"Jargão administrativo (órgão responsável); pouco útil."}
+{"i":"x4624","pt":"proativo, por iniciativa própria","t":"mente","ex":["主体的に行動してほしい。","Quero que você aja por iniciativa própria."]}
+{"i":"x4625","pt":"cumprir pena","t":"sociedade","ex":["受刑者が刑務所で働いている。","Os detentos trabalham na penitenciária."],"note":"Quase sempre 受刑者 (detento que cumpre pena)."}
+{"i":"x4626","pt":"deitar-se, ir dormir","t":"casa","ex":["毎晩十一時に就寝する。","Vou dormir todas as noites às onze."],"note":"Formal; na fala, 寝る."}
+{"i":"x4627","pt":"fim, desfecho; final de partida (go, shogi)","t":"estado","ex":["事件はようやく終局を迎えた。","O caso finalmente chegou ao desfecho."]}
+{"i":"x4628","pt":"fim, final","t":"tempo","ex":["人生の終末をどう過ごすか考える。","Penso em como passar o fim da vida."],"note":"終末期 = fase terminal. Não confundir com 週末 (fim de semana)."}
+{"i":"x4629","pt":"mais que suficiente","t":"estado","ex":["準備は十二分にできている。","A preparação está mais do que pronta."],"note":"Reforço de 十分 (suficiente)."}
+{"i":"x4630","skip":true,"note":"Termo técnico (superposição); o verbo comum é 重ね合わせる."}
+{"i":"x4631","pt":"som de tiro, disparo","t":"sociedade","ex":["夜中に銃声が聞こえた。","Ouviu-se um tiro no meio da noite."]}
+{"i":"x4632","pt":"conhecer a fundo","t":"mente","ex":["彼はこの町を熟知している。","Ele conhece esta cidade a fundo."]}
+{"i":"x4633","pt":"posto de atendimento, escritório local","t":"cidade","ex":["市役所の出張所で書類をもらった。","Peguei o documento num posto de atendimento da prefeitura."]}
+{"i":"x4634","pt":"ser desenterrado (em escavação arqueológica)","t":"historia","ex":["畑から古い土器が出土した。","Uma cerâmica antiga foi desenterrada na plantação."]}
+{"i":"x4635","pt":"pés velozes, corredor rápido","t":"lazer","ex":["彼はチーム一の俊足だ。","Ele é o mais veloz do time."]}
+{"i":"x4636","pt":"começo da primavera","t":"tempo","ex":["春先はまだ寒い日がある。","No começo da primavera ainda há dias frios."]}
+{"i":"x4637","pt":"em ordem, um por um, sucessivamente","t":"adverbios","ex":["前から順に座ってください。","Sentem-se em ordem, a partir da frente."]}
+{"i":"x4638","pt":"bônus (salarial), gratificação","t":"trabalho","ex":["賞与は年に二回出る。","O bônus é pago duas vezes por ano."],"note":"Formal; na fala, ボーナス."}
+{"i":"x4639","pt":"inspirar, estimular; detonar (ao contato)","t":"mente","ex":["友達に触発されてギターを始めた。","Inspirado por um amigo, comecei a tocar violão."],"note":"一触即発 = situação explosiva, prestes a estourar."}
+{"i":"x4640","pt":"carne (para consumo)","t":"comida","ex":["食肉の価格が上がった。","O preço da carne subiu."],"note":"Termo técnico ou comercial; no dia a dia, 肉."}
+{"i":"x4641","pt":"estagnar, crescer pouco","t":"estado","ex":["今年は売り上げが伸び悩んでいる。","Neste ano, as vendas estão estagnadas."],"note":"Também para notas e desempenho: 成績が伸び悩む."}
+{"i":"x4642","pt":"fiel, crente (de uma religião)","t":"historia","ex":["その寺には多くの信徒が集まる。","Muitos fiéis se reúnem naquele templo."],"note":"Mais comum: 信者."}
+{"i":"x4643","pt":"roupa de cama, artigos de cama","t":"casa","ex":["デパートで寝具を買った。","Comprei roupa de cama na loja de departamentos."]}
+{"i":"x4644","pt":"transferir (dinheiro), depositar (em conta)","t":"compras","ex":["家賃を銀行で振り込んだ。","Transferi o aluguel pelo banco."],"note":"振り込め詐欺 = golpe da transferência (por telefone)."}
+{"i":"x4645","pt":"música nova, lançamento (musical)","t":"arte","ex":["好きな歌手の新曲が出た。","Saiu a música nova do meu cantor favorito."]}
+{"i":"x4646","pt":"vida pessoal, arredores (de alguém)","t":"relacoes","ex":["引っ越す前に身辺を整理した。","Antes de me mudar, organizei minha vida pessoal."],"note":"身辺警護 = segurança pessoal; 身辺調査 = investigação da vida de alguém."}
+{"i":"x4647","pt":"artificial","t":"adjetivos","ex":["この湖は人工的に作られた。","Este lago foi feito artificialmente."]}
+{"i":"x4648","pt":"estampa, desenho (padrão)","t":"cores","ex":["このハンカチの図柄がかわいい。","A estampa deste lenço é fofa."]}
+{"i":"x4649","pt":"beira (do abismo), momento decisivo","t":"expressoes","ex":["会社は倒産の瀬戸際にある。","A empresa está à beira da falência."]}
+{"i":"x4650","pt":"legítimo, ortodoxo, tradicional","t":"estado","ex":["彼は王家の正統な後継者だ。","Ele é o herdeiro legítimo da família real."],"note":"正統派 = estilo clássico, tradicional."}
+{"i":"x4651","pt":"catedral, igreja; templo (confuciano)","t":"historia","ex":["町の中心に大きな聖堂がある。","Há uma grande igreja no centro da cidade."],"note":"大聖堂 = catedral."}
+{"i":"x4652","skip":true,"note":"Nome próprio (lugar: Alemanha Ocidental)."}
+{"i":"x4653","pt":"colagem, adesão","t":"casa","ex":["割れたコップを接着剤でくっつけた。","Colei o copo quebrado com cola."],"note":"接着剤 = cola."}
+{"i":"x4654","pt":"acordo, meio-termo; relacionamento (entre pessoas)","t":"relacoes","ex":["値段の折り合いがつかなかった。","Não chegamos a um acordo sobre o preço."],"note":"折り合いをつける = chegar a um meio-termo; 折り合いが悪い = não se dar bem."}
+{"i":"x4655","pt":"enorme, imenso (poder, popularidade)","t":"estado","ex":["その歌手は若者に絶大な人気がある。","Aquele cantor tem enorme popularidade entre os jovens."]}
+{"i":"x4656","pt":"precedente","t":"mente","ex":["それは先例のない試みだ。","É uma tentativa sem precedentes."],"note":"Mais comum: 前例. Não confundir com 洗礼 (batismo), de mesma leitura."}
+{"i":"x4657","pt":"à beira do rio, ao longo do rio","t":"natureza","ex":["川沿いの道を散歩した。","Passeei pelo caminho à beira do rio."]}
+{"i":"x4658","pt":"batismo; primeira experiência (dura)","t":"historia","ex":["彼は教会で洗礼を受けた。","Ele foi batizado na igreja."],"note":"Figurado: プロの洗礼を受ける (provar a dura realidade do profissionalismo)."}
+{"i":"x4659","pt":"nomeação, escolha (para cargo)","t":"trabalho","ex":["新しい役員が選任された。","Foi escolhido um novo diretor."]}
+{"i":"x4660","pt":"casa de banho pública (do bairro)","t":"cidade","ex":["週末は近所の銭湯に行く。","No fim de semana vou à casa de banho do bairro."],"note":"Banho público pago; 温泉 = fonte termal natural."}
+{"i":"x4661","skip":true,"note":"Termo técnico de sumô (categoria da primeira divisão); pouco útil."}
+{"i":"x4662","pt":"entendimento mútuo, comunicação","t":"comunicacao","ex":["言葉が違うと意思疎通が難しい。","Quando a língua é diferente, é difícil se entender."],"note":"Quase sempre 意思疎通 (comunicação, entendimento)."}
+{"i":"x4663","pt":"originalidade, criatividade","t":"mente","ex":["創意工夫で問題を解決した。","Resolvemos o problema com criatividade."],"note":"Comum em 創意工夫 (engenhosidade)."}
+{"i":"x4664","pt":"todas as forças, esforço total","t":"estado","ex":["会社は総力を挙げて新製品を作った。","A empresa empenhou todas as forças no novo produto."],"note":"総力を挙げる = empenhar todas as forças; 総力戦 = guerra total."}
+{"i":"x4665","pt":"envio, transmissão","t":"comunicacao","ex":["メールを送信した。","Enviei o e-mail."],"note":"Oposto: 受信 (recebimento)."}
+{"i":"x4666","pt":"continuação, prosseguir","t":"estado","ex":["雨の中、試合は続行された。","O jogo continuou mesmo com chuva."]}
+{"i":"x4667","pt":"continuação, sequência (de filme, livro)","t":"arte","ex":["あの映画の続編が公開された。","Estreou a continuação daquele filme."]}
+{"i":"x4668","pt":"à vontade, plenamente","t":"adverbios","ex":["休みの日は思う存分寝たい。","No dia de folga, quero dormir à vontade."],"note":"Quase sempre 存分に ou 思う存分 (o quanto quiser)."}
+{"i":"x4669","pt":"cheio de dificuldades","t":"expressoes","ex":["新しい事業は前途多難だ。","O novo negócio tem um caminho cheio de dificuldades."],"note":"Quase sempre 前途多難 (o futuro promete muitas dificuldades)."}
+{"i":"x4670","pt":"generoso, mão-aberta","t":"sentimentos","ex":["社長は太っ腹で、みんなにご飯をおごった。","O presidente foi generoso e pagou a comida de todos."],"reg":"casual"}
+{"i":"x4671","pt":"tipo físico, forma do corpo","t":"corpo","ex":["体型に合った服を選ぶ。","Escolho roupas que combinam com meu tipo físico."],"note":"Não confundir com 体系 (sistema), de mesma leitura."}
+{"i":"x4672","pt":"livro de registros, cadastro","t":"negocios","ex":["名前を台帳に記入した。","Anotei o nome no livro de registros."]}
+{"i":"x4673","pt":"capitão (exército); tenente (marinha)","t":"sociedade","ex":["祖父は陸軍の大尉だった。","Meu avô era capitão do exército."]}
+{"i":"x4674","pt":"grande incêndio","t":"sociedade","ex":["江戸では大火が何度も起きた。","Em Edo houve vários grandes incêndios."]}
+{"i":"x4675","pt":"classificar em linhas gerais, dividir em grandes grupos","t":"mente","ex":["意見は二つに大別できる。","As opiniões podem ser divididas em dois grandes grupos."]}
+{"i":"x4676","pt":"vida curta, efêmero","t":"estado","ex":["その内閣は短命に終わった。","Aquele gabinete teve vida curta."],"note":"Oposto: 長寿, 長命 (vida longa)."}
+{"i":"x4677","skip":true,"note":"Nome de região (Europa Central)."}
+{"i":"x4678","pt":"cume, topo (de montanha)","t":"natureza","ex":["山の頂に雪が残っている。","Ainda há neve no cume da montanha."],"note":"Mais comum: 頂上. Na fala, いただき! = 'é meu!', 'ganhei!'."}
+{"i":"x4679","pt":"queda de preço, baratear","t":"compras","ex":["最近、野菜が値下がりしている。","Ultimamente os legumes estão ficando mais baratos."],"note":"Oposto: 値上がり (alta de preço)."}
+{"i":"x4680","pt":"linha direta (de descendência)","t":"familia","ex":["彼は創業者の直系の子孫だ。","Ele é descendente direto do fundador."]}
+{"i":"x4681","pt":"afundamento (do solo)","t":"natureza","ex":["地盤沈下で家が傾いた。","A casa ficou torta com o afundamento do solo."],"note":"Quase sempre 地盤沈下 (afundamento do terreno)."}
+{"i":"x4682","pt":"repressão (de revolta), contenção","t":"sociedade","ex":["軍が暴動を鎮圧した。","O exército reprimiu a rebelião."]}
+{"i":"x4683","pt":"ideia corrente, senso comum","t":"mente","ex":["それは社会通念に反する。","Isso vai contra o senso comum da sociedade."],"note":"Quase sempre 社会通念 (o que a sociedade considera normal)."}
+{"i":"x4684","pt":"costume, regra geral; normalmente","t":"mente","ex":["会議は月曜に開くのが通例だ。","Costuma-se fazer a reunião às segundas."]}
+{"i":"x4685","pt":"conserva japonesa (de legumes), picles","t":"comida","ex":["祖母の漬物はおいしい。","As conservas da minha avó são deliciosas."]}
+{"i":"x4686","pt":"primeiros anos (do ensino fundamental)","t":"escola","ex":["低学年の子どもたちが校庭で遊んでいる。","As crianças dos primeiros anos estão brincando no pátio."],"note":"1º e 2º anos (às vezes 3º); 高学年 = últimos anos."}
+{"i":"x4687","pt":"queda, declínio","t":"estado","ex":["内閣の支持率が低落した。","A aprovação do gabinete caiu."],"note":"Formal; o comum é 低下 ou 下落."}
+{"i":"x4688","pt":"ensino em período parcial (geralmente noturno)","t":"escola","ex":["彼は働きながら定時制高校に通った。","Ele fez o ensino médio noturno enquanto trabalhava."],"note":"Escola de meio período, para quem trabalha durante o dia."}
+{"i":"x4689","pt":"teoria aceita, explicação estabelecida","t":"mente","ex":["新しい研究で定説が覆された。","Uma nova pesquisa derrubou a teoria aceita."]}
+{"i":"x4690","pt":"imperialismo","t":"historia","ex":["十九世紀は帝国主義の時代だった。","O século XIX foi a era do imperialismo."]}
+{"i":"x4691","pt":"qualificado, apto","t":"trabalho","ex":["彼はリーダーとして適格だ。","Ele é qualificado para ser líder."],"note":"Não confundir com 的確 (preciso, exato), de mesma leitura."}
+{"i":"x4692","pt":"adequação, conformidade, compatibilidade","t":"estado","ex":["この製品は安全基準に適合している。","Este produto está de acordo com as normas de segurança."]}
+{"i":"x4693","pt":"chapa de ferro (para grelhar); aposta certa","t":"comida","ex":["鉄板で焼きそばを焼いた。","Fiz yakisoba na chapa."],"note":"Gíria: 鉄板ネタ = piada que nunca falha; 鉄板 = coisa garantida."}
+{"i":"x4694","pt":"mudança de carreira, reinvenção","t":"trabalho","ex":["彼は会社員から作家に転身した。","Ele deixou o emprego na empresa e virou escritor."]}
+{"i":"x4695","pt":"revenda (com lucro)","t":"compras","ex":["チケットの高額転売が問題になっている。","A revenda de ingressos a preços altos virou um problema."],"note":"転売屋 = cambista, revendedor."}
+{"i":"x4696","pt":"comanda, nota (de pedido), recibo","t":"compras","ex":["店員が伝票を持ってきた。","O garçom trouxe a comanda."],"note":"Em muitos restaurantes, leva-se o 伝票 até o caixa para pagar."}
+{"i":"x4697","pt":"palácio, templo; hall da fama","t":"lazer","ex":["彼は野球の殿堂入りを果たした。","Ele entrou para o hall da fama do beisebol."],"note":"殿堂入り = entrar para o hall da fama."}
+{"i":"x4698","pt":"travessia; migração (de aves)","t":"natureza","ex":["渡り鳥が南へ飛んでいく。","As aves migratórias voam para o sul."],"note":"渡り鳥 = ave migratória; 渡りに船 = ajuda que chega na hora certa."}
+{"i":"x4699","pt":"toda vez (que), a cada vez","t":"tempo","ex":["分からないことはその都度聞いてください。","Pergunte toda vez que tiver dúvida."],"note":"Quase sempre その都度 (a cada vez) ou 〜の都度."}
+{"i":"x4700","pt":"coragem, peito","t":"sentimentos","ex":["彼女は度胸がある。","Ela tem coragem."],"note":"度胸試し = teste de coragem."}
+{"i":"x4701","pt":"saída leste (de estação)","t":"cidade","ex":["駅の東口で待ち合わせしよう。","Vamos nos encontrar na saída leste da estação."]}
+{"i":"x4702","pt":"roubo, furto","t":"sociedade","ex":["盗みは犯罪だ。","Roubar é crime."],"note":"盗み聞き = escutar escondido; 盗み見 = espiar."}
+{"i":"x4703","pt":"supervisão geral, coordenação","t":"trabalho","ex":["彼は営業部を統括している。","Ele coordena o departamento de vendas."]}
+{"i":"x4704","pt":"acima da cabeça, no alto","t":"adverbios","ex":["頭上に注意してください。","Cuidado com a cabeça."],"note":"Aviso comum em obras e lugares com teto baixo."}
+{"i":"x4705","pt":"inicial (primeira letra); iniciais (do nome)","t":"comunicacao","ex":["ハンカチに名前の頭文字を入れた。","Bordei as iniciais do meu nome no lenço."]}
+{"i":"x4706","pt":"conflito, convulsão (social), agitação","t":"sociedade","ex":["その国は長い動乱の時代を経験した。","O país passou por uma longa era de convulsões."]}
+{"i":"x4707","pt":"estar no mesmo navio, viajar no mesmo barco","t":"viagem","ex":["旅行で彼と同船した。","Na viagem, estive no mesmo navio que ele."]}
+{"i":"x4708","skip":true,"note":"Fragmento (食堂, 講堂, 本堂); sozinho é mais comum como お堂."}
+{"i":"x4709","pt":"moral, princípios morais","t":"sociedade","ex":["それは道義に反する行為だ。","Isso é um ato contrário à moral."]}
+{"i":"x4710","pt":"unidade camicase (ataque suicida)","t":"historia","ex":["祖父は特攻隊の話をしてくれた。","Meu avô me contou sobre os camicases."]}
+{"i":"x4711","pos":"vs","pt":"depósito, recebimento (de dinheiro)","t":"compras","ex":["口座に給料が入金された。","O salário foi depositado na conta."],"note":"Oposto: 出金 (saque, retirada)."}
+{"i":"x4712","pt":"derrame, AVC","t":"saude","ex":["祖父は脳卒中で倒れた。","Meu avô teve um derrame."]}
+{"i":"x4713","pt":"trabalho na roça, trabalho agrícola","t":"trabalho","ex":["週末は実家の農作業を手伝う。","Nos fins de semana, ajudo na roça dos meus pais."]}
+{"i":"x4714","skip":true,"note":"Termo raro (brasão em vírgulas); aparece em 三つ巴 (disputa a três) e em nomes."}
+{"i":"x4715","pt":"glóbulo branco, leucócito","t":"saude","ex":["血液検査で白血球の数を調べた。","No exame de sangue, contaram os glóbulos brancos."],"note":"赤血球 = glóbulo vermelho."}
+{"i":"x4716","pt":"preto e branco; certo ou errado (culpa ou inocência)","t":"cores","ex":["昔のテレビは白黒だった。","Antigamente, a TV era em preto e branco."],"note":"Em japonês a ordem é 'branco e preto'. 白黒をつける = decidir quem tem razão."}
+{"i":"x4717","pt":"desbotar, enfraquecer, apagar-se (memória, interesse)","t":"estado","ex":["時間がたつと記憶は薄れる。","Com o tempo, a memória vai se apagando."]}
+{"i":"x4718","pt":"estética; filosofia pessoal (estilo de vida)","t":"arte","ex":["彼には彼なりの美学がある。","Ele tem sua própria filosofia de vida."],"note":"No uso comum, 'princípios, estilo próprio': 男の美学 (o código de honra masculino)."}
+{"i":"x4719","pt":"iceberg","t":"natureza","ex":["それは氷山の一角にすぎない。","Isso é só a ponta do iceberg."],"note":"氷山の一角 = a ponta do iceberg."}
+{"i":"x4720","pt":"votação","t":"sociedade","ex":["議会で表決が行われた。","Houve uma votação no parlamento."],"note":"Formal; também 採決. Não confundir com 評決 (veredicto)."}
+{"i":"x4721","pt":"irracional, ilógico, absurdo","t":"mente","ex":["その規則は不合理だ。","Essa regra é absurda."]}
+{"i":"x4722","pt":"caso extraconjugal, traição","t":"relacoes","ex":["芸能人の不倫がニュースになった。","A traição de um famoso virou notícia."]}
+{"i":"x4723","pt":"auxílio, assistência","t":"sociedade","ex":["困っている家庭に生活扶助を行う。","Damos auxílio às famílias necessitadas."],"note":"Formal: 相互扶助 (ajuda mútua), 生活扶助 (auxílio de subsistência)."}
+{"i":"x4724","pt":"negativo (número, sinal); lado negativo","t":"estado","ex":["戦争は多くの負の遺産を残した。","A guerra deixou muitos legados negativos."],"note":"Usado como 負の〜: 負の数 (número negativo), 負の連鎖 (ciclo vicioso). Oposto: 正."}
+{"i":"x4725","pt":"presença, porte (digno); estilo","t":"sentimentos","ex":["彼には王者の風格がある。","Ele tem a presença de um campeão."]}
+{"i":"x4726","pt":"cumprir pena (na prisão)","t":"sociedade","ex":["彼は十年間服役した。","Ele cumpriu dez anos de prisão."]}
+{"i":"x4727","pt":"diferenciação, especialização","t":"ciencia","ex":["細胞は成長とともに分化する。","As células se diferenciam à medida que crescem."],"note":"Não confundir com 文化 (cultura), de mesma leitura."}
+{"i":"x4728","pt":"serviço militar","t":"sociedade","ex":["その国では男性に兵役がある。","Naquele país, os homens prestam serviço militar."]}
+{"i":"x4729","pt":"adulteração (de documento, dinheiro)","t":"sociedade","ex":["パスポートを変造した疑いで逮捕された。","Foi preso sob suspeita de adulterar o passaporte."],"note":"変造 = alterar algo verdadeiro; 偽造 = fabricar algo falso."}
+{"i":"x4730","pt":"conveniência, praticidade","t":"estado","ex":["スマホの便利さに慣れてしまった。","Me acostumei com a praticidade do smartphone."],"note":"O sufixo さ transforma adjetivo em substantivo: 便利 → 便利さ."}
+{"i":"x4731","skip":true,"note":"Fragmento de kanji (情報, 報道); sozinho é formal (…の報を受けて)."}
+{"i":"x4732","pt":"erradicação, combate (a um mal)","t":"sociedade","ex":["町は交通事故の撲滅を目指している。","A cidade busca acabar com os acidentes de trânsito."],"note":"撲滅運動 = campanha de combate."}
+{"i":"x4733","pt":"bonsai","t":"lazer","ex":["祖父の趣味は盆栽だ。","O hobby do meu avô é cultivar bonsai."]}
+{"i":"x4734","pt":"todos os países, o mundo inteiro","t":"sociedade","ex":["運動会で万国旗が飾られた。","Na gincana, enfeitaram com bandeirinhas de vários países."],"note":"万国博覧会 (万博) = Exposição Mundial; 万国共通 = universal."}
+{"i":"x4735","pos":"n","pt":"plena floração (flores totalmente abertas)","t":"natureza","ex":["公園の桜が満開だ。","As cerejeiras do parque estão em plena floração."]}
+{"i":"x4736","pos":"vs","pt":"encantar, fascinar","t":"sentimentos","ex":["彼女の歌は観客を魅了した。","A canção dela encantou o público."]}
+{"i":"x4737","pt":"privatização","t":"negocios","ex":["郵便局が民営化された。","O correio foi privatizado."]}
+{"i":"x4738","pt":"artesanato popular, arte folclórica","t":"arte","ex":["旅行先で民芸品を買った。","Comprei artesanato no lugar que visitei."],"note":"民芸品 = peça de artesanato."}
+{"i":"x4739","pt":"conto popular, lenda","t":"arte","ex":["祖母は日本の民話を話してくれた。","Minha avó me contava contos populares japoneses."]}
+{"i":"x4740","pt":"inocência (de acusação)","t":"sociedade","ex":["彼は無実を訴え続けた。","Ele continuou alegando inocência."],"note":"無実の罪 = acusação injusta."}
+{"i":"x4741","pt":"mestre, especialista; jogada brilhante (go, shogi)","t":"arte","ex":["彼はギターの名手だ。","Ele é um mestre do violão."]}
+{"i":"x4742","pt":"canto, grito, voz (de animal)","t":"animais","ex":["朝、鳥の鳴き声で目が覚めた。","De manhã, acordei com o canto dos pássaros."],"note":"O choro de pessoas é 泣き声 (outro kanji)."}
+{"i":"x4743","pt":"minucioso, detalhado","t":"adjetivos","ex":["旅行の綿密な計画を立てた。","Fizemos um plano minucioso para a viagem."]}
+{"i":"x4744","pt":"farmacêutico","t":"saude","ex":["薬剤師に薬の飲み方を聞いた。","Perguntei ao farmacêutico como tomar o remédio."]}
+{"i":"x4745","pt":"tradutor (de obra)","t":"comunicacao","ex":["この本の訳者は有名な作家だ。","O tradutor deste livro é um escritor famoso."],"note":"Não confundir com 役者 (ator), de mesma leitura."}
+{"i":"x4746","pt":"aluno exemplar, aluno nota dez","t":"escola","ex":["姉は学校で優等生だった。","Minha irmã era uma aluna exemplar."],"note":"Às vezes irônico: pessoa certinha demais."}
+{"i":"x4747","skip":true,"note":"Termo técnico (ataque móvel; interbases no beisebol, na fala ショート); pouco útil."}
+{"i":"x4748","pt":"criação, sustento (de filhos)","t":"familia","ex":["子どもの養育には時間とお金がかかる。","Criar filhos exige tempo e dinheiro."],"note":"養育費 = pensão alimentícia (para os filhos)."}
+{"i":"x4749","pt":"emissão excessiva; disparo a esmo","t":"negocios","ex":["お札を乱発すると物価が上がる。","Se imprimirem dinheiro demais, os preços sobem."],"note":"Figurado: usar algo em excesso (言葉を乱発する)."}
+{"i":"x4750","w":"藍","pt":"anil, índigo (planta e corante); azul-anil","t":"cores","ex":["藍で染めた布はきれいだ。","Os tecidos tingidos com anil são bonitos."],"note":"藍色 = azul-anil; 藍染め = tingimento com índigo, técnica tradicional."}
+{"i":"x4751","pt":"via terrestre, por terra","t":"viagem","ex":["国境まで陸路で行った。","Fomos até a fronteira por terra."]}
+{"i":"x4752","pt":"desvio (de verbas); reaproveitamento (para outro fim)","t":"sociedade","ex":["議員が公金を流用した疑いがある。","Há suspeita de que o parlamentar desviou dinheiro público."],"note":"Também neutro: 古い部品を流用する (reaproveitar peças velhas)."}
+{"i":"x4753","pt":"os dois exércitos; os dois times","t":"lazer","ex":["両軍とも一点も取れなかった。","Nenhum dos dois times marcou."]}
+{"i":"x4754","pt":"consulado","t":"viagem","ex":["領事館でビザを申請した。","Pedi o visto no consulado."],"note":"大使館 = embaixada."}
+{"i":"x4755","skip":true,"note":"Termo técnico (criticidade nuclear, ponto crítico); pouco útil."}
+{"i":"x4756","pt":"contorno, silhueta; linhas gerais","t":"cores","ex":["まず顔の輪郭を描いた。","Primeiro, desenhei o contorno do rosto."],"note":"Figurado: 計画の輪郭が見えてきた (o plano começa a tomar forma)."}
+{"i":"x4757","pt":"base (beisebol); fortaleza","t":"lazer","ex":["ランナーが二塁に進んだ。","O corredor avançou para a segunda base."],"note":"一塁, 二塁, 三塁 = primeira, segunda, terceira base; 本塁 = home plate."}
+{"i":"x4758","pt":"pequeno, minúsculo (empresa, renda)","t":"negocios","ex":["父は零細企業を経営している。","Meu pai administra uma microempresa."],"note":"零細企業 = microempresa."}
+{"i":"x4759","pt":"regimento","t":"sociedade","ex":["祖父は歩兵連隊にいた。","Meu avô estava num regimento de infantaria."]}
+{"i":"x4760","pt":"movimento operário, movimento trabalhista","t":"sociedade","ex":["彼は若いころ労働運動に参加した。","Na juventude, ele participou do movimento operário."]}
+{"i":"x4761","pt":"dourado, cor de ouro","t":"cores","ex":["プレゼントに金色のリボンをつけた。","Coloquei uma fita dourada no presente."],"note":"Também se lê こんじき (literário)."}
+{"i":"x4762","r":"げん","pt":"corda (de instrumento musical); corda do arco","t":"arte","ex":["ギターの弦が切れた。","A corda do violão arrebentou."],"note":"弦楽器 = instrumento de cordas. Na corda do arco, também se lê つる."}
+{"i":"x4763","pt":"sentimento do povo, opinião pública","t":"sociedade","ex":["その政策で人心が政府から離れた。","Com essa política, o povo se afastou do governo."],"note":"Formal: 人心をつかむ (conquistar o povo)."}
+{"i":"x4764","pt":"humanidades, ciências humanas","t":"escola","ex":["彼女は大学で人文科学を学んでいる。","Ela estuda ciências humanas na faculdade."],"note":"Aparece em 人文科学 (ciências humanas), 人文学部."}
+{"i":"x4765","pt":"ave aquática","t":"animais","ex":["湖に水鳥がたくさんいる。","Há muitas aves aquáticas no lago."]}
+{"i":"x4766","pt":"oeste, lado oeste","t":"adverbios","ex":["町の西方に山が見える。","Dá para ver montanhas a oeste da cidade."],"note":"Formal; na fala, 西. No budismo, 西方浄土 (さいほう) = paraíso do oeste."}
+{"i":"x4767","pt":"pipa (brinquedo)","t":"lazer","ex":["子どもたちが凧を揚げている。","As crianças estão soltando pipa."],"note":"Brincadeira típica do Ano-Novo (凧揚げ). Também se escreve たこ."}
+{"i":"x4768","skip":true,"note":"Nome próprio (divindade Tenjin, Sugawara no Michizane; bairro de Fukuoka)."}
+{"i":"x4769","pt":"país insular","t":"natureza","ex":["日本は島国だ。","O Japão é um país insular."],"note":"島国根性 = mentalidade fechada de ilhéu."}
+{"i":"x4770","skip":true,"note":"Fragmento (瀬戸内海); raro sozinho."}
+{"i":"x4771","pt":"aviso prévio informal (de transferência, promoção)","t":"trabalho","ex":["来月の転勤の内示を受けた。","Recebi o aviso prévio da minha transferência no mês que vem."],"note":"Típico das empresas japonesas: vem antes da nomeação oficial (辞令)."}
+{"i":"x4772","pt":"início do ano","t":"tempo","ex":["社長が年頭のあいさつをした。","O presidente fez o discurso de início de ano."],"note":"Formal; 年頭所感 = mensagem de Ano-Novo."}
+{"i":"x4773","pt":"encolher, atrofiar; ficar intimidado, retraído","t":"sentimentos","ex":["厳しく叱ると子どもが萎縮してしまう。","Se a bronca é muito dura, a criança fica retraída."],"note":"Em medicina: atrofia (筋肉の萎縮)."}
+{"i":"x4774","pt":"estação chuvosa","t":"natureza","ex":["この国は六月から雨季に入る。","Neste país, a estação chuvosa começa em junho."],"note":"Também escrito 雨期. A estação chuvosa do Japão se chama 梅雨 (つゆ)."}
+{"i":"x4775","pt":"prestação, contribuição (de seguro, pensão); aposta","t":"negocios","ex":["保険の掛け金を毎月払っている。","Pago a contribuição do seguro todo mês."]}
+{"i":"x4776","pt":"preço de custo, custo de produção","t":"negocios","ex":["この商品は原価が安い。","Este produto tem custo de produção baixo."],"note":"原価割れ = vender abaixo do custo."}
+{"i":"x4777","pt":"procurar por toda parte","t":"acoes","ex":["一日中、鍵を探し回った。","Procurei a chave por toda parte o dia inteiro."]}
+{"i":"x4778","pt":"ilustração (de livro, jornal)","t":"arte","ex":["この絵本の挿絵はとてもかわいい。","As ilustrações deste livro infantil são muito fofas."]}
+{"i":"x4779","pt":"presságio, sinal, sintoma prévio","t":"mente","ex":["この頭痛は病気の前兆かもしれない。","Esta dor de cabeça pode ser sinal de alguma doença."],"note":"Não confundir com 全長 (comprimento total), de mesma leitura."}
+{"i":"x4780","skip":true,"note":"Termo de uso restrito (escora; golpe de sumô; gíria antiga para jovem rebelde); pouco útil."}
+{"i":"x4781","pt":"salto (na água); chegada sem aviso","t":"lazer","ex":["彼は飛び込みの選手だ。","Ele é atleta de saltos ornamentais."],"note":"飛び込みで = sem reserva, sem hora marcada; 飛び込み営業 = visita de vendas sem aviso."}
+{"i":"x4782","pt":"recolhimento (de roupa do varal); importação (de dados); correria","t":"casa","ex":["洗濯物の取り込みを忘れた。","Esqueci de recolher a roupa do varal."],"note":"お取り込み中すみません = desculpe interromper (quando a pessoa está ocupada)."}
+{"i":"x4783","pt":"meio a meio","t":"numeros","ex":["費用は二人で半々にしよう。","Vamos dividir as despesas meio a meio."]}
+{"i":"x4784","pt":"primeiras folhas (de um broto), cotilédones","t":"natureza","ex":["種から双葉が出た。","Da semente saíram as primeiras folhinhas."],"note":"Figurado: o começo de algo, a infância."}
+{"i":"x4785","pt":"departamento, setor (de empresa)","t":"trabalho","ex":["来月から別の部署に移る。","A partir do mês que vem, vou para outro setor."]}
+{"i":"x4786","pt":"manzai (comédia em dupla)","t":"arte","ex":["テレビで漫才を見て笑った。","Ri assistindo a um manzai na TV."],"note":"Dupla cômica: o ボケ diz bobagens e o ツッコミ o corrige."}
+{"i":"x4787","pt":"deixar o cargo voluntariamente (para dar lugar a outros)","t":"trabalho","ex":["社長は今年で勇退する。","O presidente deixará o cargo neste ano."],"note":"Tom positivo: sair de cabeça erguida."}
+{"i":"x4788","skip":true,"note":"Nome de era (período Muromachi) e de lugar."}
+{"i":"x4789","pt":"passar do ponto; ir longe demais, exagerar","t":"acoes","ex":["話に夢中で駅を行き過ぎた。","Distraído com a conversa, passei da estação."],"note":"行き過ぎ = exagero: 行き過ぎた指導 (orientação excessiva)."}
+{"i":"x4790","pt":"fim da estação chuvosa","t":"natureza","ex":["梅雨明けしたら海に行こう。","Quando acabar a estação chuvosa, vamos à praia."],"note":"梅雨入り = início da estação chuvosa."}
+{"i":"x4791","pt":"abalar, sacudir","t":"acoes","ex":["その事件は国中を揺るがした。","Aquele caso abalou o país inteiro."],"note":"Mais figurado; balançar fisicamente é 揺らす."}
+{"i":"x4792","pt":"sentir-se em paz, acalmar-se","t":"sentimentos","ex":["森を歩くと心が安らぐ。","Andar pela floresta acalma o coração."]}
+{"i":"x4793","pt":"uma pergunta, uma questão","t":"escola","ex":["最後の一問が解けなかった。","Não consegui resolver a última questão."],"note":"一問一答 = perguntas e respostas, uma por uma."}
+{"i":"x4794","skip":true,"note":"Termo raro (lateral); a frequência vem do topônimo Yokote."}
+{"i":"x4795","pt":"assistência, auxílio (a idosos, pessoas com deficiência)","t":"saude","ex":["祖母の食事を介助した。","Ajudei minha avó a comer."],"note":"Próximo de 介護 (cuidados contínuos); 介助犬 = cão de assistência."}
+{"i":"x4796","pt":"departamento de desenvolvimento","t":"trabalho","ex":["彼はゲーム会社の開発部にいる。","Ele trabalha no departamento de desenvolvimento de uma empresa de games."]}
+{"i":"x4797","skip":true,"note":"Termo jurídico (entidade mantenedora de escola privada); pouco útil."}
+{"i":"x4798","pt":"emotivo, emocional (sem controle)","t":"sentimentos","ex":["感情的にならないで話そう。","Vamos conversar sem nos deixar levar pelas emoções."]}
+{"i":"x4799","pt":"Kannon (bodisatva budista da misericórdia)","t":"historia","ex":["お寺で観音様に手を合わせた。","No templo, rezei diante de Kannon."],"note":"Geralmente com 様: 観音様. 観音像 = estátua de Kannon."}
+{"i":"x4800","skip":true,"note":"Termo especializado de arte tradicional (narração do bunraku); pouco útil."}
+{"i":"x4801","pt":"dar baixa, passar para a reserva (militar)","t":"sociedade","ex":["祖父は退役軍人だ。","Meu avô é militar reformado."],"note":"退役軍人 = veterano, militar da reserva."}
+{"i":"x4802","pt":"bandeira vermelha","t":"sociedade","ex":["デモ隊が赤旗を振っていた。","Os manifestantes agitavam bandeiras vermelhas."],"note":"Símbolo do comunismo; também nome do jornal do Partido Comunista Japonês."}
+{"i":"x4803","pt":"segundo (numa série)","t":"numeros","ex":["二つ目の角を左に曲がってください。","Vire à esquerda na segunda esquina."]}
+{"i":"x4804","pt":"branco (cor)","t":"cores","ex":["白色の車は汚れが目立つ。","Em carro branco a sujeira aparece mais."],"note":"No dia a dia, 白 ou 白い. Em termos técnicos lê-se はくしょく (白色光 = luz branca)."}
+{"i":"x4805","pt":"estreia (no palco)","t":"arte","ex":["彼女は十歳で初舞台を踏んだ。","Ela estreou nos palcos aos dez anos."],"note":"初舞台を踏む = fazer a estreia."}
+{"i":"x4806","pt":"cerimônia budista em memória de um falecido","t":"historia","ex":["祖父の法要に親戚が集まった。","Os parentes se reuniram para a cerimônia em memória do meu avô."]}
+{"i":"x4807","pt":"reduto eleitoral","t":"sociedade","ex":["この地域はその党の大きな票田だ。","Esta região é um grande reduto eleitoral daquele partido."]}
+{"i":"x4808","pt":"golpe no ar, errar a bola; esforço em vão","t":"lazer","ex":["思い切りバットを振ったが、空振りだった。","Bati com toda força, mas errei a bola."],"note":"Figurado: tentativa frustrada (計画が空振りに終わる)."}
+{"i":"x4809","pt":"bloqueio econômico, embargo","t":"sociedade","ex":["その国は経済封鎖を受けている。","Aquele país está sob bloqueio econômico."]}
+{"i":"x4810","skip":true,"note":"Fragmento (取り決め, 決め手, 決め台詞); raro sozinho."}
+{"i":"x4811","pt":"produção mensal","t":"negocios","ex":["この工場の月産は一万台だ。","A produção mensal desta fábrica é de dez mil unidades."]}
+{"i":"x4812","pt":"alimentos saudáveis, suplementos alimentares","t":"comida","ex":["母は健康食品に興味がある。","Minha mãe se interessa por suplementos e alimentos saudáveis."]}
+{"i":"x4813","pt":"seguro-saúde (plano de saúde)","t":"saude","ex":["会社の健保に入っている。","Tenho o seguro-saúde da empresa."],"note":"Abreviação de 健康保険."}
+{"i":"x4814","skip":true,"note":"Cargo técnico (procurador-chefe distrital); pouco útil."}
+{"i":"x4815","pt":"redução salarial (geralmente como punição)","t":"trabalho","ex":["ミスをして減給された。","Tive o salário reduzido por causa de um erro."],"note":"Muitas vezes é punição disciplinar (減給処分)."}
+{"i":"x4816","pt":"geração mais nova, sucessores; marcha à ré","t":"trabalho","ex":["彼は後進の育成に力を入れている。","Ele se dedica a formar a nova geração."],"note":"Não confundir com 交信 (comunicação), de mesma leitura."}
+{"i":"x4817","pt":"sinal vermelho; sinal de perigo","t":"cidade","ex":["赤信号で止まった。","Parei no sinal vermelho."],"note":"Figurado: 健康に赤信号 (sinal de alerta para a saúde)."}
+{"i":"x4818","pt":"considerar-se (algo), ter-se por","t":"mente","ex":["彼は町一番の料理人を自任している。","Ele se considera o melhor cozinheiro da cidade."]}
+{"i":"x4819","pt":"frente (das tropas), linha de frente","t":"trabalho","ex":["社長が陣頭指揮をとった。","O presidente assumiu o comando pessoalmente."],"note":"Quase sempre 陣頭指揮 (liderar na linha de frente)."}
+{"i":"x4820","pt":"imagem real, verdadeira face","t":"mente","ex":["その本は戦争の実像を伝えている。","Esse livro mostra a verdadeira face da guerra."],"note":"Oposto: 虚像 (imagem falsa, ilusória)."}
+{"i":"x4821","skip":true,"note":"Uso restrito (囲み記事 = matéria em quadro; 囲み取材 = entrevista informal); pouco útil."}
+{"i":"x4822","pt":"fazer esperar, deixar esperando","t":"verbos","ex":["お待たせしました。","Desculpe a demora."],"note":"Causativo de 待つ. お待たせしました = obrigado por esperar."}
+{"i":"x4823","pt":"perda (de peso, volume); desvalorização","t":"negocios","ex":["インフレで貯金が目減りした。","Com a inflação, a poupança perdeu valor."]}
+{"i":"x4824","pt":"conhecer pessoalmente (já ter se encontrado)","t":"relacoes","ex":["彼とは面識がない。","Não o conheço pessoalmente."]}
+{"i":"x4825","skip":true,"note":"Termo literário (montanhas remotas); pouco útil."}
+{"i":"x4826","pt":"ilha remota, ilha isolada","t":"natureza","ex":["祖父母は離島に住んでいる。","Meus avós moram numa ilha isolada."]}
+{"i":"x4827","pt":"coluna, postura (das costas)","t":"corpo","ex":["背筋を伸ばして座りなさい。","Sente-se com as costas retas."],"note":"背筋が寒くなる = sentir um arrepio na espinha. Lido はいきん = músculos das costas."}
+{"i":"x4828","pt":"clã","t":"historia","ex":["古代の日本には多くの氏族があった。","No Japão antigo havia muitos clãs."]}
+{"i":"x4829","skip":true,"note":"Jargão político (força de um partido); pouco útil."}

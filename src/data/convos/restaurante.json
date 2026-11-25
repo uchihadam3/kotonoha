@@ -1,0 +1,46 @@
+{
+  "id": "restaurante",
+  "title": "No restaurante de sushi",
+  "sub": "Dizer quantas pessoas, pedir, perguntar os ingredientes e pedir a conta",
+  "reg": "keigo",
+  "steps": [
+    { "npc": ["へい、らっしゃい！何名様ですか。", "Opa, bem-vindo! Quantas pessoas?"], "note": "へい、らっしゃい！ é o grito tradicional do balcão de sushi. Em 何名様, o 様 é respeito ao cliente." },
+    { "you": [
+      { "jp": "二人です。", "pt": "Somos dois.", "ok": true, "reg": "polido" },
+      { "jp": "二名様です。", "pt": "(errado) Somos dois \"senhores\".", "ok": false, "why": "様 é honorífico para os outros, nunca para você mesmo. Diga 二人です (ou 二名です)." },
+      { "jp": "二つです。", "pt": "(errado) Dois (objetos).", "ok": false, "why": "つ conta objetos. Para pessoas use o contador 人: 一人 (ひとり), 二人 (ふたり)." }
+    ] },
+    { "npc": ["二名様ですね。カウンター席へどうぞ。お飲み物はいかがなさいますか。", "Dois, certo. Sentem-se no balcão, por favor. O que vão beber?"], "note": "なさる é o honorífico de する: o atendente o usa para as ações do cliente, nunca para as dele." },
+    { "you": [
+      { "jp": "温かいお茶を二つお願いします。", "pt": "Dois chás quentes, por favor.", "ok": true, "reg": "polido" },
+      { "jp": "温かいお茶になさいます。", "pt": "(errado) Eu \"me digno\" a pedir chá quente.", "ok": false, "why": "なさる exalta quem faz a ação; não use para si. Para pedir: お茶をお願いします." },
+      { "jp": "温かいお茶が好きです。", "pt": "Eu gosto de chá quente.", "ok": false, "why": "好きです = gostar de. Para pedir algo, use ～をお願いします ou ～をください." }
+    ] },
+    { "npc": ["かしこまりました。本日のおすすめは海鮮丼でございます。", "Entendido. A sugestão de hoje é o kaisendon (tigela de arroz com frutos do mar)."] },
+    { "you": [
+      { "jp": "すみません、海鮮丼には何が入っていますか。", "pt": "Com licença, o que vem no kaisendon?", "ok": true, "reg": "polido" },
+      { "jp": "すみません、海鮮丼はどこにありますか。", "pt": "Com licença, onde fica o kaisendon?", "ok": false, "why": "どこ = onde. Para saber os ingredientes, pergunte 何が入っていますか (o que tem dentro?)." },
+      { "jp": "海鮮丼、何入ってる？", "pt": "O que tem no kaisendon?", "ok": false, "why": "Casual demais com o sushiman, que fala keigo com você. Use 何が入っていますか.", "reg": "casual" }
+    ] },
+    { "npc": ["マグロ、サーモン、エビ、それにイクラが入っております。", "Vem atum, salmão, camarão e ovas de salmão. (入っております = keigo de 入っています)"] },
+    { "you": [
+      { "jp": "エビが食べられないので、エビ抜きでお願いします。", "pt": "Não posso comer camarão, então sem camarão, por favor.", "ok": true, "reg": "polido" },
+      { "jp": "エビを食べないでください。", "pt": "Por favor, não coma o camarão.", "ok": false, "why": "～ないでください pede que o OUTRO não faça algo. Para tirar um ingrediente: エビ抜きでお願いします." },
+      { "jp": "エビ、いらない。", "pt": "Camarão, não quero.", "ok": false, "why": "Seco e casual demais com quem está te servindo. Peça com polidez: エビ抜きでお願いします.", "reg": "casual" }
+    ] },
+    { "npc": ["かしこまりました。エビ抜きでお作りいたします。……へい、お待ち！", "Entendido. Faremos sem camarão. ... Aqui está!"], "note": "抜き = sem: わさび抜き (sem wasabi), エビ抜き (sem camarão). へい、お待ち！ = aqui está, obrigado por esperar." },
+    { "npc": ["お味はいかがでしたか。", "O que achou do sabor?"] },
+    { "you": [
+      { "jp": "とてもおいしかったです。", "pt": "Estava muito gostoso.", "ok": true, "reg": "polido" },
+      { "jp": "とてもおいしいでした。", "pt": "(errado) Estava muito gostoso.", "ok": false, "why": "Passado de adjetivo -い: おいしい → おいしかったです. A forma ～いでした não existe." },
+      { "jp": "とてもおいしそうです。", "pt": "Parece muito gostoso.", "ok": false, "why": "～そう = parece. Você já comeu, então fale no passado: おいしかったです." }
+    ] },
+    { "npc": ["ありがとうございます！そう言っていただけると嬉しいです。", "Obrigado! Fico feliz em ouvir isso."] },
+    { "you": [
+      { "jp": "ごちそうさまでした。お会計をお願いします。", "pt": "Obrigado pela refeição. A conta, por favor.", "ok": true, "reg": "polido" },
+      { "jp": "いただきます。お会計をお願いします。", "pt": "Vou comer! A conta, por favor.", "ok": false, "why": "いただきます se diz ANTES de comer. Ao terminar a refeição: ごちそうさまでした." },
+      { "jp": "おあいそ、お願いします！", "pt": "A \"oaiso\" (conta), por favor!", "ok": false, "why": "おあいそ é jargão dos sushimen; na boca do cliente soa pretensioso. Diga お会計をお願いします." }
+    ] },
+    { "npc": ["ありがとうございます。三千二百円でございます。またお越しくださいませ！", "Muito obrigado. São 3.200 ienes. Volte sempre!"] }
+  ]
+}

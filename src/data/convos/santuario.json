@@ -1,0 +1,45 @@
+{
+  "id": "santuario",
+  "title": "Visita ao santuário",
+  "sub": "Aprender com o sacerdote a se purificar, a rezar e a receber um amuleto",
+  "reg": "keigo",
+  "steps": [
+    { "npc": ["ようこそお参りくださいました。当神社は初めてでいらっしゃいますか。", "Seja bem-vindo à sua visita. É a primeira vez no nosso santuário?"], "note": "宮司 (ぐうじ) é o sacerdote-chefe de um santuário xintoísta (神社). お参り = visita para rezar." },
+    { "you": [
+      { "jp": "はい、初めてです。お参りの仕方を教えていただけますか。", "pt": "Sim, é a primeira vez. Poderia me ensinar como se faz a visita?", "ok": true, "reg": "keigo" },
+      { "jp": "はい、初めてでいらっしゃいます。", "pt": "(errado) Sim, eu \"me digno\" a vir pela primeira vez.", "ok": false, "why": "でいらっしゃる é honorífico, para o outro. Sobre você mesmo: はい、初めてです." },
+      { "jp": "うん、初めて！やり方教えて！", "pt": "Aham, primeira vez! Me ensina como faz!", "ok": false, "why": "Casual demais com o sacerdote, que fala keigo com você. Peça: 教えていただけますか.", "reg": "casual" }
+    ] },
+    { "npc": ["かしこまりました。まず手水舎で、左手、右手の順に清めます。それから、左手に水を受けて口をすすぎます。", "Pois não. Primeiro, no chōzuya, purifique a mão esquerda e depois a direita. Em seguida, receba água na mão esquerda e enxágue a boca."], "note": "手水舎 (ちょうずや) é a fonte de purificação na entrada: a água lava as impurezas antes da oração." },
+    { "you": [
+      { "jp": "左手、右手、それから口ですね。", "pt": "Mão esquerda, mão direita e depois a boca, certo?", "ok": true, "reg": "polido" },
+      { "jp": "右手、左手、それから口ですね。", "pt": "Mão direita, mão esquerda e depois a boca, certo?", "ok": false, "why": "Começa-se pela esquerda: 左手 (ひだりて), depois 右手 (みぎて) e por fim a boca." },
+      { "jp": "わかりました。ひしゃくから水を飲むんですね。", "pt": "Entendi. Então eu bebo a água da concha.", "ok": false, "why": "Não se bebe essa água nem se encosta a boca na concha: põe-se água na mão esquerda para enxaguar a boca." }
+    ] },
+    { "npc": ["その通りでございます。では、本殿へ参りましょう。お賽銭を入れたら、二礼二拍手一礼でお参りします。", "Exatamente. Então vamos ao santuário principal. Depois de pôr a oferenda, reze com duas reverências, duas palmas e uma reverência."], "note": "Muitos ofertam uma moeda de 5円 (ごえん), que soa como ご縁: laço, boa sorte nos encontros da vida." },
+    { "you": [
+      { "jp": "すみません、もう一度おっしゃっていただけますか。", "pt": "Desculpe, o senhor poderia repetir?", "ok": true, "reg": "keigo" },
+      { "jp": "すみません、もう一度申していただけますか。", "pt": "(errado) Desculpe, poderia \"humildemente\" repetir?", "ok": false, "why": "申す é humilde, só para as suas próprias palavras. Para a fala dele use o honorífico: おっしゃっていただけますか.", "reg": "keigo" },
+      { "jp": "は？もう一回言って。", "pt": "Hã? Fala de novo.", "ok": false, "why": "は？ soa agressivo e 言って é casual. Com o sacerdote: もう一度おっしゃっていただけますか.", "reg": "casual" }
+    ] },
+    { "npc": ["はい。お辞儀を二回、手を二回打って、最後にもう一度お辞儀をします。", "Claro. Duas reverências, duas palmas e, por fim, mais uma reverência."], "note": "As palmas (柏手, かしわで) chamam a atenção dos deuses e mostram alegria pelo encontro." },
+    { "you": [
+      { "jp": "お辞儀を二回、拍手を二回、最後にお辞儀を一回ですね。", "pt": "Duas reverências, duas palmas e, no fim, uma reverência, certo?", "ok": true, "reg": "polido" },
+      { "jp": "お辞儀を二回、拍手を一回、最後にお辞儀を二回ですね。", "pt": "Duas reverências, uma palma e, no fim, duas reverências, certo?", "ok": false, "why": "É 二礼二拍手一礼: 2 reverências (礼), 2 palmas (拍手) e 1 reverência." },
+      { "jp": "拍手はしないで、静かに手を合わせるんですね。", "pt": "Então não bato palmas, só junto as mãos em silêncio.", "ok": false, "why": "Juntar as mãos em silêncio é nos templos budistas (お寺). No santuário xintoísta (神社) se batem palmas." }
+    ] },
+    { "npc": ["素晴らしいお参りでした。お参りの後に、お守りをお受けになる方も多いですよ。", "Foi uma bela oração. Depois de rezar, muitas pessoas levam um amuleto."], "note": "お守り (おまもり) protege ou traz sorte: estudos, saúde, trânsito, amor… Costuma-se trocá-la uma vez por ano." },
+    { "you": [
+      { "jp": "では、健康のお守りをいただけますか。", "pt": "Então, poderia me dar um amuleto de saúde?", "ok": true, "reg": "keigo" },
+      { "jp": "では、健康のお守りを差し上げます。", "pt": "Então, eu lhe ofereço um amuleto de saúde.", "ok": false, "why": "差し上げる = dar (humilde): você estaria dando o amuleto a ele! Para receber: いただけますか." },
+      { "jp": "健康のお守り、ちょうだい。", "pt": "Me dá um amuleto de saúde.", "ok": false, "why": "ちょうだい é casual e infantil. Ao sacerdote: お守りをいただけますか.", "reg": "casual" }
+    ] },
+    { "npc": ["かしこまりました。初穂料は八百円でございます。", "Pois não. A oferta é de 800 ienes."], "note": "Em santuários não se fala em \"preço\": o valor de um amuleto é o 初穂料 (はつほりょう), uma oferenda aos deuses." },
+    { "you": [
+      { "jp": "ありがとうございます。大切にします。", "pt": "Muito obrigado. Vou guardá-lo com carinho.", "ok": true, "reg": "polido" },
+      { "jp": "ありがとうございます。中を開けて見てもいいですか。", "pt": "Muito obrigado. Posso abrir para ver o que tem dentro?", "ok": false, "why": "Não se abre uma お守り: dizem que a proteção se perde. Agradeça: ありがとうございます。大切にします." },
+      { "jp": "八百円？高いですね。", "pt": "800 ienes? Que caro, hein.", "ok": false, "why": "Reclamar do valor de uma oferenda é falta de respeito. Receba com gratidão: 大切にします." }
+    ] },
+    { "npc": ["どうぞ大切になさってください。またのお参りをお待ちしております。", "Por favor, cuide bem dele. Aguardamos a sua próxima visita."] }
+  ]
+}

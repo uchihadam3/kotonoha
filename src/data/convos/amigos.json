@@ -1,0 +1,45 @@
+{
+  "id": "amigos",
+  "title": "Fazendo amizade",
+  "sub": "Conhecer uma colega no primeiro dia, falar de hobbies e combinar de sair",
+  "reg": "casual",
+  "steps": [
+    { "npc": ["あの、転校生ですよね？はじめまして、ゆいです。", "Com licença, você é o aluno novo, né? Muito prazer, sou a Yui."], "note": "Mesmo entre colegas, o primeiro contato costuma ser polido. A fala casual vem quando o outro sugere." },
+    { "you": [
+      { "jp": "はい、○○です。よろしくお願いします。", "pt": "Sim, sou ○○. Muito prazer.", "ok": true, "reg": "polido" },
+      { "jp": "はい、○○さんです。よろしくお願いします。", "pt": "(errado) Sim, sou o \"senhor\" ○○. Muito prazer.", "ok": false, "why": "Nunca use さん no próprio nome: さん é respeito para os outros. Diga só ○○です." },
+      { "jp": "はい、○○です。お世話になっております。", "pt": "Sim, sou ○○. Agradeço a atenção de sempre.", "ok": false, "why": "お世話になっております é frase de trabalho e de e-mail. Com uma colega nova: よろしくお願いします.", "reg": "keigo" }
+    ] },
+    { "npc": ["よろしくね！ねえ、同じクラスだし、タメ口で話そうよ！", "Prazer! Olha, já que somos da mesma turma, vamos falar sem formalidade!"], "note": "タメ口 (ためぐち) = fala casual entre iguais. Com colegas da mesma idade ela chega rápido, mas espere o convite." },
+    { "you": [
+      { "jp": "うん、わかった！よろしくね！", "pt": "Tá, beleza! Prazer!", "ok": true, "reg": "casual" },
+      { "jp": "はい、わかりました。よろしくお願いします。", "pt": "Sim, entendi. Muito prazer.", "ok": false, "why": "Ela pediu タメ口! Continuar no polido agora soa distante. Mude: うん、わかった！", "reg": "polido" },
+      { "jp": "おう、わかったぜ、お前！", "pt": "Falou, entendi, ô você!", "ok": false, "why": "ぜ e お前 são brutos: タメ口 é falar à vontade, não ser rude. Diga うん、わかった！", "reg": "casual" }
+    ] },
+    { "npc": ["やった！じゃあ、趣味は何？私は音楽を聴くのが好き！", "Oba! Então, qual é o seu hobby? Eu gosto de ouvir música!"] },
+    { "you": [
+      { "jp": "マンガとゲームが好き！", "pt": "Gosto de mangá e de games!", "ok": true, "reg": "casual" },
+      { "jp": "マンガとゲームを好き！", "pt": "(errado) Gosto de mangá e de games!", "ok": false, "why": "好き pede が, não を (mesmo sendo \"gostar DE\"): マンガとゲームが好き！" },
+      { "jp": "マンガとゲームが上手！", "pt": "Sou craque em mangá e games!", "ok": false, "why": "上手 = ser habilidoso, e dizer isso de si soa convencido. Para gostos, use 好き." }
+    ] },
+    { "npc": ["マンガ？私も大好き！今度おすすめ教えて！", "Mangá? Eu também adoro! Depois me indica algum!"] },
+    { "you": [
+      { "jp": "じゃあ、今度一緒に本屋に行かない？", "pt": "Então, quer ir comigo à livraria um dia desses?", "ok": true, "reg": "casual" },
+      { "jp": "じゃあ、今度一緒に本屋に行かなかった？", "pt": "(errado) Então, você não foi comigo à livraria?", "ok": false, "why": "行かなかった é passado (não foi). Para convidar, use o presente: 行かない？ ou 行こうよ！" },
+      { "jp": "じゃあ、今度一人で本屋に行って！", "pt": "Então, vai sozinha à livraria um dia!", "ok": false, "why": "一人で = sozinho. Para convidar, use 一緒に (juntos): 一緒に行かない？" }
+    ] },
+    { "npc": ["行く行く！じゃあ、土曜日の十時に駅で待ち合わせね！", "Vou, vou! Então, sábado às 10h a gente se encontra na estação!"], "note": "待ち合わせ = encontro marcado num lugar. No Japão chegar uns 5 minutos antes é o normal." },
+    { "you": [
+      { "jp": "うん、十時に駅ね！", "pt": "Beleza, às 10h na estação!", "ok": true, "reg": "casual" },
+      { "jp": "うん、四時に駅ね！", "pt": "Beleza, às 4h na estação!", "ok": false, "why": "十時 (じゅうじ) = 10h; 四時 (よじ) = 4h. Confirme a hora que ela disse." },
+      { "jp": "うん、十時に駅に待ってる！", "pt": "(errado) Beleza, te espero às 10h na estação!", "ok": false, "why": "O lugar onde a ação acontece leva で: 駅で待ってる. に marca destino ou onde algo está." }
+    ] },
+    { "npc": ["うん！あ、チャイムだ。じゃあ、また明日ね！", "Isso! Ah, o sinal. Então, até amanhã!"] },
+    { "you": [
+      { "jp": "うん、また明日！", "pt": "Tá, até amanhã!", "ok": true, "reg": "casual" },
+      { "jp": "失礼します。", "pt": "Com licença (vou me retirar).", "ok": false, "why": "失礼します se diz ao sair da sala dos professores ou do trabalho. Entre colegas: また明日！", "reg": "polido" },
+      { "jp": "おやすみ！", "pt": "Boa noite! (antes de dormir)", "ok": false, "why": "おやすみ = boa noite, antes de dormir. Na escola, de dia: また明日！ ou じゃあね！" }
+    ] },
+    { "npc": ["バイバイ！土曜日、楽しみにしてるね！", "Tchau! Tô ansiosa pelo sábado!"] }
+  ]
+}

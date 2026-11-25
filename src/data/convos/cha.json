@@ -1,0 +1,51 @@
+{
+  "id": "cha",
+  "title": "Cerimônia do chá",
+  "sub": "As frases e os gestos do chadō, em keigo formal",
+  "reg": "keigo",
+  "steps": [
+    { "npc": ["ようこそお越しくださいました。どうぞ、こちらへ。", "Seja bem-vindo. Por favor, por aqui."], "note": "No chadō (茶道), cada gesto tem a sua frase fixa. Fala-se keigo formal, devagar e com reverências." },
+    { "you": [
+      { "jp": "本日はお招きいただき、ありがとうございます。", "pt": "Obrigado por me convidar hoje.", "ok": true, "reg": "keigo" },
+      { "jp": "本日はお招きして、ありがとうございます。", "pt": "(errado) Obrigado por eu ter convidado o senhor hoje.", "ok": false, "reg": "keigo", "why": "お招きする = EU convido (humilde). Para agradecer o convite dele: お招きいただき、ありがとうございます." },
+      { "jp": "どうも〜、失礼しまーす。", "pt": "Opa~, com licençaaa.", "ok": false, "reg": "casual", "why": "Tom leve demais para a cerimônia do chá. Agradeça formalmente: 本日はお招きいただき、ありがとうございます." }
+    ] },
+    { "npc": ["まずは、お菓子をどうぞ。お取りになる前に、お隣のお客様にひと声おかけください。", "Primeiro, sirva-se do doce. Antes de pegar, diga uma palavrinha ao convidado ao seu lado."], "note": "O doce (和菓子) vem antes do chá e suaviza o amargor do matcha. Pega-se o doce com um papel próprio, o 懐紙 (かいし)." },
+    { "you": [
+      { "jp": "お先に頂戴します。", "pt": "Com licença, vou me servir antes de você.", "ok": true, "reg": "keigo" },
+      { "jp": "お先に失礼します。", "pt": "Com licença, vou indo antes.", "ok": false, "reg": "polido", "why": "お先に失礼します é para sair do trabalho antes dos colegas. Ao próximo convidado, diga: お先に頂戴します." },
+      { "jp": "お先にどうぞ。", "pt": "Pode ir na frente.", "ok": false, "reg": "polido", "why": "お先にどうぞ cede a vez, mas na cerimônia a ordem é fixa. Como primeiro convidado, diga: お先に頂戴します." }
+    ] },
+    { "npc": ["では、お茶を点てましょう。…どうぞ、お召し上がりください。", "Agora vou preparar o chá... Por favor, sirva-se. (召し上がる = comer/beber, honorífico)"], "note": "点てる (たてる) = preparar o matcha, batendo com o batedor de bambu (茶筅). A tigela chega com a 'frente' (正面) virada para você." },
+    { "you": [
+      { "jp": "お点前頂戴いたします。", "pt": "Recebo com gratidão o chá que o senhor preparou.", "ok": true, "reg": "keigo" },
+      { "jp": "お点前を召し上がります。", "pt": "(errado) Eu 'me digno' a beber o seu chá.", "ok": false, "reg": "keigo", "why": "召し上がる é honorífico: é o que ELE diz a você. Para a sua ação, a frase fixa é: お点前頂戴いたします." },
+      { "jp": "いただきまーす！", "pt": "Vou tomar!", "ok": false, "reg": "casual", "why": "Esse いただきまーす alegre é do dia a dia. Na cerimônia, a frase fixa é: お点前頂戴いたします." }
+    ] },
+    { "npc": ["お茶碗を手に取ったら、正面を避けるために、時計回りに二度回してからお飲みください。", "Ao pegar a tigela, gire-a duas vezes no sentido horário para evitar a frente, e então beba."], "note": "Gira-se a tigela para não beber pela 'frente' (正面), a parte mais bonita: um gesto de humildade e de respeito ao anfitrião." },
+    { "you": [
+      { "jp": "正面を避けて、時計回りに二度回すのですね。", "pt": "Então evito a frente e giro duas vezes no sentido horário.", "ok": true },
+      { "jp": "正面から一気に飲むのですね。", "pt": "Então bebo tudo de uma vez pela frente.", "ok": false, "why": "É o contrário: evita-se a frente (正面を避ける), girando a tigela duas vezes no sentido horário." },
+      { "jp": "反時計回りに三度回すのですね。", "pt": "Então giro três vezes no sentido anti-horário.", "ok": false, "why": "Ele disse 時計回りに二度: sentido horário, duas vezes (反時計回り = anti-horário)." }
+    ] },
+    { "npc": ["お服加減はいかがですか。", "Como está o ponto do chá?"], "note": "お服加減 (おふくかげん) = o 'ponto' do chá: sabor, temperatura, espuma. A resposta fixa é um elogio ao anfitrião." },
+    { "you": [
+      { "jp": "大変結構なお服加減でございます。", "pt": "O chá está no ponto perfeito.", "ok": true, "reg": "keigo" },
+      { "jp": "結構です。", "pt": "Não, obrigado. / Tá bom assim.", "ok": false, "why": "結構です sozinho costuma soar como 'não, obrigado' (recusa). Para elogiar: 大変結構なお服加減でございます." },
+      { "jp": "苦いですね。砂糖はありますか。", "pt": "Que amargo, né. Tem açúcar?", "ok": false, "why": "O matcha é amargo de propósito; o doce já veio antes para equilibrar. Nunca peça açúcar: 結構なお服加減でございます." }
+    ] },
+    { "npc": ["それはよろしゅうございました。お茶碗も、どうぞご覧ください。", "Que bom. Por favor, aprecie também a tigela."], "note": "よろしゅうございます = よろしいです, num keigo antigo e elegante. Depois de beber, é costume apreciar a tigela, segurando-a bem baixo." },
+    { "you": [
+      { "jp": "拝見いたします。…見事なお茶碗でございますね。", "pt": "Com sua licença, vou apreciá-la... Que tigela magnífica.", "ok": true, "reg": "keigo" },
+      { "jp": "拝見いたします。…このお茶碗、おいくらですか。", "pt": "Com sua licença... Quanto custa esta tigela?", "ok": false, "why": "Perguntar o preço é deselegante na cerimônia. Elogie a peça: 見事なお茶碗でございますね." },
+      { "jp": "ご覧になります。…見事なお茶碗ですね。", "pt": "(errado) Eu 'me digno' a ver... Que tigela magnífica.", "ok": false, "reg": "keigo", "why": "ご覧になる é honorífico (ele vê). Para o seu 'ver', use o humilde: 拝見いたします." }
+    ] },
+    { "npc": ["恐れ入ります。江戸時代の楽焼でございます。", "É uma honra. É uma peça de cerâmica raku do período Edo."] },
+    { "you": [
+      { "jp": "結構なお点前でございました。", "pt": "Foi um preparo de chá esplêndido.", "ok": true, "reg": "keigo" },
+      { "jp": "ごちそうさま！", "pt": "Valeu pelo chá!", "ok": false, "reg": "casual", "why": "Casual demais para a cerimônia. Ao final, a frase formal de agradecimento é: 結構なお点前でございました." },
+      { "jp": "一期一会ですから、もう二度と来ません。", "pt": "Como é 一期一会, nunca mais volto.", "ok": false, "why": "一期一会 = valorizar cada encontro como único, não 'nunca mais'. Agradeça: 結構なお点前でございました." }
+    ] },
+    { "npc": ["こちらこそ。一期一会、今日のこのひとときを大切になさってください。", "Eu é que agradeço. 一期一会: guarde com carinho este momento de hoje."], "note": "一期一会 (いちごいちえ) = 'um encontro, uma vez': cada encontro é único e não se repete. A expressão nasceu no chadō." }
+  ]
+}

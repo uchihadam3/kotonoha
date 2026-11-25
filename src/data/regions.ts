@@ -138,7 +138,7 @@ export function levelFor(leaves: number): string {
 }
 
 /** word levels unlock with the number of learned words */
-export const LEVEL_UNLOCK: Record<number, number> = { 5: 0, 4: 250, 3: 800, 2: 2400, 1: 4500 };
+export const LEVEL_UNLOCK: Record<number, number> = { 5: 0, 4: 250, 3: 800, 2: 2400, 1: 4000 };
 
 export const THEME_NAMES: Record<string, { pt: string; jp: string }> = {
   saudacoes: { pt: 'Cumprimentos e expressões', jp: '挨拶' },

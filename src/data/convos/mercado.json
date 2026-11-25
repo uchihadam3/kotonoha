@@ -1,0 +1,45 @@
+{
+  "id": "mercado",
+  "title": "Na quitanda",
+  "sub": "Preços, contadores, promoção e troco com o quitandeiro",
+  "reg": "keigo",
+  "steps": [
+    { "npc": ["いらっしゃいませ！今日はトマトがお安くなっておりますよ。", "Bem-vindo! Hoje o tomate está mais barato."], "note": "Na loja, o vendedor fala keigo com o cliente (〜ております, でございます). Você responde só com です/ます: já é educado." },
+    { "you": [
+      { "jp": "そうですか。トマトは一ついくらですか。", "pt": "É mesmo? Quanto custa cada tomate?", "ok": true, "reg": "polido" },
+      { "jp": "このトマトはいくつですか。", "pt": "Quantos tomates são estes?", "ok": false, "why": "いくつ = quantos (quantidade). Para saber o preço use いくら: トマトは一ついくらですか." },
+      { "jp": "トマト、いくら？", "pt": "Tomate, quanto?", "ok": false, "reg": "casual", "why": "Seco e casual demais com um vendedor que você não conhece. Use です/ます: トマトは一ついくらですか." }
+    ] },
+    { "npc": ["八十円でございます。でも、三個で二百円にいたしますよ。", "São 80 ienes. Mas, se levar três, faço por 200. (いたします = します, humilde)"], "note": "〜で marca o conjunto: 三個で二百円 = três POR 200 ienes. Promoções assim são comuns nas quitandas (八百屋, やおや)." },
+    { "you": [
+      { "jp": "じゃあ、三個お願いします。", "pt": "Então, três, por favor.", "ok": true, "reg": "polido" },
+      { "jp": "じゃあ、三人お願いします。", "pt": "(errado) Então, três pessoas, por favor.", "ok": false, "why": "人 (にん) conta pessoas! Tomate é pequeno e redondo: 三個 (さんこ) ou 三つ (みっつ)." },
+      { "jp": "じゃあ、二百四十円ですね。", "pt": "Então são 240 ienes, né.", "ok": false, "why": "三個で二百円 = os três POR 200 (promoção), não 80 × 3. Aceite: じゃあ、三個お願いします." }
+    ] },
+    { "npc": ["ありがとうございます。ほかに何かお探しですか。", "Obrigado. Procura mais alguma coisa? (お探し = procurar, honorífico)"] },
+    { "you": [
+      { "jp": "きゅうりを二本ください。", "pt": "Dois pepinos, por favor.", "ok": true, "reg": "polido" },
+      { "jp": "きゅうりを二枚ください。", "pt": "Duas fatias de pepino, por favor.", "ok": false, "why": "枚 conta coisas planas (papel, fatias). Pepino inteiro é comprido: 二本 (にほん)." },
+      { "jp": "はい、きゅうりをお探しです。", "pt": "(errado) Sim, eu 'honorificamente' procuro pepino.", "ok": false, "reg": "keigo", "why": "お探し é honorífico: só para o cliente, nunca para si mesmo. Peça direto: きゅうりを二本ください." }
+    ] },
+    { "npc": ["かしこまりました。きゅうりは二本で二百円ですので、全部で四百円でございます。", "Pois não. Os pepinos saem dois por 200 ienes, então o total é 400 ienes. (でございます = です)"] },
+    { "you": [
+      { "jp": "じゃあ、五百円でお願いします。", "pt": "Então, pago com 500 ienes.", "ok": true, "reg": "polido" },
+      { "jp": "四千円ですね。", "pt": "São 4.000 ienes, né.", "ok": false, "why": "四百 (よんひゃく) = 400; 四千 (よんせん) = 4.000. Pague: 五百円でお願いします." },
+      { "jp": "お金をあげます。", "pt": "(errado) Eu te dou o dinheiro (de presente).", "ok": false, "why": "あげる soa como 'dar de presente'. Para pagar, diga: 五百円でお願いします (ou はい、五百円です)." }
+    ] },
+    { "npc": ["五百円お預かりいたします。百円のお返しでございます。", "Recebo 500 ienes. Aqui estão 100 ienes de troco."], "note": "お預かりします = 'recebo (o seu dinheiro)'; お返し = お釣り, o troco. São frases fixas do caixa no Japão." },
+    { "you": [
+      { "jp": "ありがとうございます。", "pt": "Obrigado.", "ok": true, "reg": "polido" },
+      { "jp": "おつりはいりません。", "pt": "Pode ficar com o troco.", "ok": false, "why": "No Japão não há gorjeta: recusar o troco deixa o vendedor sem jeito. Só agradeça: ありがとうございます." },
+      { "jp": "どういたしまして。", "pt": "De nada.", "ok": false, "why": "どういたしまして responde a um obrigado. Ao receber o troco, quem agradece é você: ありがとうございます." }
+    ] },
+    { "npc": ["それから、こちらはおまけです。みかんを一つどうぞ！", "E isto aqui é um brinde: uma tangerina para você!"], "note": "おまけ = brinde, um extra. Nas quitandas de bairro, o vendedor às vezes dá um mimo ao cliente simpático." },
+    { "you": [
+      { "jp": "わあ、いいんですか。ありがとうございます！", "pt": "Nossa, sério? Muito obrigado!", "ok": true, "reg": "polido" },
+      { "jp": "みかんは一ついくらですか。", "pt": "Quanto custa uma tangerina?", "ok": false, "why": "おまけ é de graça, não precisa pagar. Aceite agradecendo: いいんですか。ありがとうございます!" },
+      { "jp": "どうぞ。", "pt": "Pode pegar.", "ok": false, "why": "どうぞ é para OFERECER algo. Quem recebe agradece: ありがとうございます!" }
+    ] },
+    { "npc": ["ありがとうございました。またお越しくださいませ！", "Muito obrigado. Volte sempre! (お越しください = venha, honorífico)"] }
+  ]
+}

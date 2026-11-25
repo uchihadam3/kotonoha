@@ -1,0 +1,45 @@
+{
+  "id": "flores",
+  "title": "Na floricultura",
+  "sub": "Flores de presente para o aniversário de uma amiga",
+  "reg": "polido",
+  "steps": [
+    { "npc": ["いらっしゃいませ。どんなお花をお探しですか。", "Bem-vindo. Que tipo de flor está procurando?"] },
+    { "you": [
+      { "jp": "友達の誕生日に、花をあげたいんです。", "pt": "Quero dar flores a uma amiga, pelo aniversário dela.", "ok": true, "reg": "polido" },
+      { "jp": "友達の誕生日に、花をくれたいんです。", "pt": "(errado) Quero 'me dar' flores no aniversário da amiga.", "ok": false, "why": "くれる é quando alguém dá algo PARA VOCÊ. Quando você dá a alguém, use あげる: 花をあげたいんです." },
+      { "jp": "お誕生日おめでとうございます！", "pt": "Feliz aniversário!", "ok": false, "why": "Não é o aniversário da florista! Explique o que quer: 友達の誕生日に、花をあげたいんです." }
+    ] },
+    { "npc": ["すてきですね。お友達はどんな色がお好きですか。", "Que gentil. De que cor a sua amiga gosta?"] },
+    { "you": [
+      { "jp": "黄色が好きです。明るい人なので。", "pt": "Ela gosta de amarelo. É uma pessoa bem alegre.", "ok": true, "reg": "polido" },
+      { "jp": "黄色いが好きです。", "pt": "(errado) Ela gosta de 'amarela'.", "ok": false, "why": "黄色い é adjetivo (黄色い花). Como substantivo, use 黄色 (きいろ): 黄色が好きです." },
+      { "jp": "はい、好きです。", "pt": "Sim, ela gosta.", "ok": false, "why": "Ela perguntou QUAL cor (どんな色). Responda com a cor: 黄色が好きです." }
+    ] },
+    { "npc": ["黄色なら、ひまわりやガーベラがありますよ。ひまわりの花言葉は「あこがれ」です。", "Amarelo? Temos girassol e gérbera. Na linguagem das flores, o girassol quer dizer 'admiração'."], "note": "花言葉 (はなことば) = linguagem das flores. Muitos japoneses escolhem as flores de presente pelo significado." },
+    { "you": [
+      { "jp": "じゃあ、ひまわりにします。", "pt": "Então vou levar os girassóis.", "ok": true, "reg": "polido" },
+      { "jp": "じゃあ、白い菊にします。", "pt": "Então vou levar os crisântemos brancos.", "ok": false, "why": "No Japão, crisântemo branco (白い菊) é flor de funeral e de túmulo. Para aniversário: ひまわりにします." },
+      { "jp": "じゃあ、ひまわりになります。", "pt": "(errado) Então eu vou virar girassol.", "ok": false, "why": "〜になる = virar, tornar-se. Para escolher algo, use 〜にします: ひまわりにします." }
+    ] },
+    { "npc": ["かしこまりました。本数はいかがなさいますか。", "Pois não. Quantas flores vai querer? (本数 = número de hastes; なさる = する, honorífico)"] },
+    { "you": [
+      { "jp": "五本お願いします。", "pt": "Cinco, por favor.", "ok": true, "reg": "polido" },
+      { "jp": "五つお願いします。", "pt": "(errado) Cinco (unidades), por favor.", "ok": false, "why": "Flores com caule se contam com 本: 一本 (いっぽん), 三本 (さんぼん), 五本 (ごほん)." },
+      { "jp": "四本お願いします。", "pt": "Quatro, por favor.", "ok": false, "why": "Em presentes evita-se o 4: し soa como 死 (morte). Escolha outro número, como 五本." }
+    ] },
+    { "npc": ["五本で千五百円です。プレゼント用にお包みしましょうか。", "As cinco saem por 1.500 ienes. Quer que eu embrulhe para presente?"], "note": "No Japão, o embrulho faz parte do presente: as lojas embrulham com capricho, muitas vezes sem cobrar nada." },
+    { "you": [
+      { "jp": "はい、お願いします。", "pt": "Sim, por favor.", "ok": true, "reg": "polido" },
+      { "jp": "はい、包みましょう。", "pt": "Sim, vamos embrulhar!", "ok": false, "why": "包みましょうか = 'quer que EU embrulhe?'; 包みましょう = 'vamos embrulhar'. Para aceitar: はい、お願いします." },
+      { "jp": "はい、包んでもいいですよ。", "pt": "Sim, pode embrulhar, eu deixo.", "ok": false, "why": "〜てもいいですよ soa como dar permissão, de cima. Para aceitar a gentileza: はい、お願いします." }
+    ] },
+    { "npc": ["お待たせしました。こちらでいかがでしょうか。", "Desculpe a demora. Que tal ficou?"] },
+    { "you": [
+      { "jp": "わあ、きれいですね！ありがとうございます。", "pt": "Nossa, que lindo! Muito obrigado.", "ok": true, "reg": "polido" },
+      { "jp": "わあ、きれいなですね！", "pt": "(errado) Nossa, que lindo!", "ok": false, "why": "O な do adjetivo-na só vai antes de substantivo (きれいな花). Antes de です: きれいですね!" },
+      { "jp": "わあ、きれいでした！", "pt": "Nossa, estava lindo!", "ok": false, "why": "でした é passado, mas o buquê está bem na sua frente. Use o presente: きれいですね!" }
+    ] },
+    { "npc": ["ありがとうございます。お友達、きっと喜びますよ。", "Obrigada. Sua amiga com certeza vai adorar."] }
+  ]
+}

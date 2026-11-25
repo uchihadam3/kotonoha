@@ -1,0 +1,45 @@
+{
+  "id": "farmacia",
+  "title": "Na farmácia",
+  "sub": "Explicar os sintomas, falar de alergias e entender como tomar o remédio",
+  "reg": "polido",
+  "steps": [
+    { "npc": ["こんにちは。今日はどうされましたか。", "Boa tarde. O que houve hoje?"], "note": "No Japão, o farmacêutico (薬剤師) pergunta os sintomas antes de indicar o remédio. Para explicar, 〜んです soa natural." },
+    { "you": [
+      { "jp": "昨日から喉が痛くて、咳が出るんです。", "pt": "Desde ontem estou com dor de garganta e tosse.", "ok": true, "reg": "polido" },
+      { "jp": "昨日から喉が痛かったです。", "pt": "(errado) Desde ontem a garganta 'doeu'.", "ok": false, "why": "痛かった (passado) dá a ideia de que já passou. Se ainda dói: 昨日から喉が痛いんです." },
+      { "jp": "喉、痛い。薬ちょうだい。", "pt": "Garganta doendo. Me dá um remédio.", "ok": false, "reg": "casual", "why": "Casual demais com o farmacêutico. Explique com です/ます: 昨日から喉が痛くて、咳が出るんです." }
+    ] },
+    { "npc": ["それはつらいですね。熱や鼻水はありますか。", "Que chato. Tem febre ou nariz escorrendo?"] },
+    { "you": [
+      { "jp": "熱はありませんが、鼻水が少し出ます。", "pt": "Febre não tenho, mas o nariz escorre um pouco.", "ok": true, "reg": "polido" },
+      { "jp": "熱はありませんが、鼻血が少し出ます。", "pt": "Febre não tenho, mas o nariz sangra um pouco.", "ok": false, "why": "鼻血 (はなぢ) = sangue saindo do nariz! Nariz escorrendo é 鼻水 (はなみず): 鼻水が少し出ます." },
+      { "jp": "熱がないと、鼻水が出ます。", "pt": "Sempre que não tenho febre, o nariz escorre.", "ok": false, "why": "と = 'sempre que'. Para contrastar, use は…が: 熱はありませんが、鼻水が少し出ます." }
+    ] },
+    { "npc": ["では、風邪のお薬なら、こちらがいいと思います。何かお薬のアレルギーはありますか。", "Então, para resfriado, acho que este remédio é bom. Tem alergia a algum remédio?"] },
+    { "you": [
+      { "jp": "はい、アスピリンにアレルギーがあります。", "pt": "Sim, tenho alergia a aspirina.", "ok": true, "reg": "polido" },
+      { "jp": "いいえ、アスピリンにアレルギーがあります。", "pt": "Não, tenho alergia a aspirina.", "ok": false, "why": "いいえ = não, mas você TEM alergia: comece com はい. はい、アスピリンにアレルギーがあります." },
+      { "jp": "はい、花粉症です。", "pt": "Sim, tenho alergia a pólen.", "ok": false, "why": "花粉症 (かふんしょう) é alergia a pólen. Ele perguntou de remédio (お薬の): アスピリンにアレルギーがあります." }
+    ] },
+    { "npc": ["わかりました。では、アスピリンが入っていない、こちらのお薬にしましょう。", "Entendi. Então vamos com este aqui, que não tem aspirina."] },
+    { "you": [
+      { "jp": "これは一日に何回飲めばいいですか。", "pt": "Quantas vezes por dia devo tomar?", "ok": true, "reg": "polido" },
+      { "jp": "これは一日に何回飲みましたか。", "pt": "Quantas vezes por dia você tomou isto?", "ok": false, "why": "Isso pergunta o que já ACONTECEU. Para saber como tomar: 一日に何回飲めばいいですか." },
+      { "jp": "この薬、どうやって食べるの？", "pt": "Como é que come esse remédio?", "ok": false, "reg": "casual", "why": "Remédio se 'bebe' (飲む), e com o farmacêutico use です/ます: 一日に何回飲めばいいですか." }
+    ] },
+    { "npc": ["一日三回、食後に二錠ずつ飲んでください。眠くなることがあるので、車の運転はしないでくださいね。", "Tome dois comprimidos, três vezes ao dia, depois das refeições. Pode dar sono, então não dirija, tá?"], "note": "錠 (じょう) conta comprimidos: 二錠 = dois comprimidos. ずつ = 'cada vez': 二錠ずつ = dois de cada vez." },
+    { "you": [
+      { "jp": "食後に二錠ずつですね。運転はしません。", "pt": "Dois de cada vez, depois das refeições, certo. Não vou dirigir.", "ok": true, "reg": "polido" },
+      { "jp": "食前に三錠ずつですね。", "pt": "Três de cada vez, antes das refeições, certo.", "ok": false, "why": "食後 = depois da refeição (食前 = antes). E são 二錠ずつ: dois de cada vez, três vezes ao dia." },
+      { "jp": "わかりました。じゃあ、車で帰ります。", "pt": "Entendi. Então vou voltar de carro.", "ok": false, "why": "運転はしないでください = NÃO dirija: o remédio dá sono. Confirme: 運転はしません." }
+    ] },
+    { "npc": ["はい。ほかに何か気になることはありますか。", "Certo. Mais alguma dúvida?"] },
+    { "you": [
+      { "jp": "温泉に入っても大丈夫ですか。", "pt": "Tudo bem entrar nas termas?", "ok": true, "reg": "polido" },
+      { "jp": "温泉に入らなければなりませんか。", "pt": "Tenho que entrar nas termas?", "ok": false, "why": "〜なければならない = 'ter que' (obrigação). Para pedir permissão: 〜ても大丈夫ですか (温泉に入っても大丈夫ですか)." },
+      { "jp": "温泉に入ってください。", "pt": "Entre nas termas, por favor.", "ok": false, "why": "Isso é pedir que ELE entre nas termas! Para perguntar se você pode: 温泉に入っても大丈夫ですか." }
+    ] },
+    { "npc": ["熱がなければ大丈夫ですよ。でも、長湯はしないでくださいね。お大事に。", "Sem febre, pode sim. Mas não fique muito tempo na água quente, tá? Melhoras."], "note": "長湯 (ながゆ) = ficar muito tempo no banho quente. Doente, cansado ou depois de beber, evite: pode dar tontura (湯あたり)." }
+  ]
+}

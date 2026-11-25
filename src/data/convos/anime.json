@@ -1,0 +1,45 @@
+{
+  "id": "anime",
+  "title": "Cena de batalha de anime",
+  "sub": "Encenar uma luta de anime com um amigo otaku e voltar à fala normal na hora certa",
+  "reg": "anime",
+  "steps": [
+    { "npc": ["ねえ、アニメのバトルシーン、一緒にやらない？俺が悪役で、お前が主人公ね！", "Ei, vamos encenar uma cena de batalha de anime? Eu sou o vilão e você, o protagonista!"], "note": "A fala de anime exagera o jeito do personagem: 俺, お前, 貴様, ～ぜ, ～ぞ. É teatro: na vida real soa rude ou ridículo." },
+    { "you": [
+      { "jp": "いいね、やろう！", "pt": "Boa, vamos nessa!", "ok": true, "reg": "casual" },
+      { "jp": "はい、喜んでお受けいたします。", "pt": "Sim, aceito com muito prazer.", "ok": false, "why": "Keigo com um amigo da escola soa frio e estranho. Responda casual: いいね、やろう！", "reg": "keigo" },
+      { "jp": "いいね！じゃあ、俺が悪役ね！", "pt": "Boa! Então eu sou o vilão!", "ok": false, "why": "Ele disse que ELE é o 悪役 (vilão) e você, o 主人公 (protagonista). Só aceite: いいね、やろう！" }
+    ] },
+    { "npc": ["よし、始めるぞ！……ふははは！よく来たな、勇者よ。貴様、何者だ！？", "Certo, começando! ... Hahaha! Bem-vindo, herói. Quem é você?!"], "note": "貴様 (きさま) já foi respeitoso; hoje é um \"você\" de desprezo, fala de vilão. 何者だ = quem é você?!" },
+    { "you": [
+      { "jp": "俺の名は○○！この町を守る者だ！", "pt": "Meu nome é ○○! Sou aquele que protege esta cidade!", "ok": true, "reg": "anime" },
+      { "jp": "お前の名は○○だ！", "pt": "O seu nome é ○○!", "ok": false, "why": "お前 = você; 俺 = eu. Para dizer o SEU nome: 俺の名は○○！" },
+      { "jp": "○○と申します。よろしくお願いいたします。", "pt": "Meu nome é ○○. Muito prazer.", "ok": false, "why": "Apresentação de entrevista de emprego no meio da luta! Na cena, o herói diz: 俺の名は○○！", "reg": "keigo" }
+    ] },
+    { "npc": ["ふん、知らんな。この町は俺がもらう！", "Hmpf, nunca ouvi falar. Esta cidade será minha!"], "note": "知らん = 知らない com a negativa antiga ～ん: soa durão. 俺がもらう = vou tomar para mim." },
+    { "you": [
+      { "jp": "そうはさせない！絶対にお前を倒す！", "pt": "Não vou deixar! Vou te derrotar, custe o que custar!", "ok": true, "reg": "anime" },
+      { "jp": "そうはさせない！絶対にお前に倒す！", "pt": "(errado) Não vou deixar! Vou te derrotar!", "ok": false, "why": "倒す (derrotar) pede を, partícula de objeto direto: お前を倒す！" },
+      { "jp": "そうはさせない！絶対にお前を倒してください！", "pt": "(errado) Não vou deixar! Por favor, derrote você!", "ok": false, "why": "～てください é um pedido ao outro. Para declarar o que VOCÊ vai fazer, use a forma do dicionário: 倒す！" }
+    ] },
+    { "npc": ["笑わせるな！これでもくらえ！", "Não me faça rir! Toma essa!"], "note": "くらえ (de 食らう, devorar) = toma essa! O imperativo puro é seco: na vida real, ordens assim soam grosseiras." },
+    { "you": [
+      { "jp": "効かないぜ！今度はこっちの番だ、行くぞ！", "pt": "Não fez nem cócegas! Agora é a minha vez, lá vou eu!", "ok": true, "reg": "anime" },
+      { "jp": "効かないぜ！今度はそっちの番だ、行くぞ！", "pt": "Não fez nem cócegas! Agora é a sua vez, lá vou eu!", "ok": false, "why": "そっち = o seu lado; こっち = o meu. \"Minha vez\" é こっちの番 (ou 俺の番)." },
+      { "jp": "効かないぜ！今度はこっちの番だ、行くよ〜！", "pt": "Não fez nem cócegas! Agora é a minha vez, vou lá~!", "ok": false, "why": "行くよ〜 soa fofo, sem tensão. No grito de batalha use ぞ, que dá ênfase forte: 行くぞ！", "reg": "casual" }
+    ] },
+    { "npc": ["ぐはっ……！まさか、この俺が……！", "Argh...! Não pode ser, logo eu...!"] },
+    { "you": [
+      { "jp": "これで終わりだ！", "pt": "Este é o seu fim!", "ok": true, "reg": "anime" },
+      { "jp": "これで終わりですね。お疲れ様でした。", "pt": "Então terminamos. Bom trabalho.", "ok": false, "why": "お疲れ様でした encerra o expediente, não uma batalha! Na cena, o golpe final é: これで終わりだ！", "reg": "polido" },
+      { "jp": "ざまあみろ！", "pt": "Bem feito pra você!", "ok": false, "why": "ざまあみろ = bem feito!, deboche de vilão. O herói vence com dignidade: これで終わりだ！", "reg": "anime" }
+    ] },
+    { "npc": ["……はい、カット！最高だった！……あっ、やべ、先生が来た！", "... E corta! Ficou incrível! ... Ah, droga, o professor chegou!"] },
+    { "you": [
+      { "jp": "あ、先生、こんにちは。", "pt": "Ah, professor, boa tarde.", "ok": true, "reg": "polido" },
+      { "jp": "貴様、何者だ！？", "pt": "Quem é você, verme?!", "ok": false, "why": "A cena acabou! Na vida real, 貴様 e 何者だ dirigidos a um professor são um insulto grave. Diga 先生、こんにちは.", "reg": "anime" },
+      { "jp": "おっす、先生！", "pt": "E aí, professor!", "ok": false, "why": "おっす é cumprimento de anime e de rapazes entre si. A um professor: 先生、こんにちは.", "reg": "anime" }
+    ] },
+    { "npc": ["……セーフ。ねえ、明日もやろうぜ！次は俺が主人公な！", "... Ufa, escapamos. Ei, vamos fazer de novo amanhã! Da próxima vez o protagonista sou eu!"], "note": "Entre amigos homens, お前 e ～ぜ aparecem no dia a dia; com professores e desconhecidos, soam grosseiros." }
+  ]
+}

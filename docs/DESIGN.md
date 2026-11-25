@@ -55,7 +55,8 @@ esse: **10.000 palavras = 10.000 folhas**.
 | 1.700 | Cidade Neon |
 | 2.400 | palavras N2 |
 | 3.000 | Vila das Termas |
-| 4.500 | Cidade do Castelo · palavras N1 |
+| 4.000 | palavras N1 |
+| 4.500 | Cidade do Castelo |
 | 6.500 | Templo da Montanha |
 | 9.000 | Pico Sagrado |
 | 10.000 | o coração da Grande Árvore (final) |

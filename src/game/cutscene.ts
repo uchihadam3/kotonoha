@@ -18,6 +18,8 @@ import { Falling } from '../world/particles';
 import { nameToKatakana } from '../lang/kana';
 import { SKINS, HAIRS, OUTFIT_COLORS, EYES } from '../world/characters';
 import type { SaveData } from '../core/save';
+import type { Game } from './game';
+import { completion } from './completion';
 import { lookFromSave } from './game';
 
 const CSS = `
@@ -42,6 +44,25 @@ const CSS = `
 .cine .card.on { opacity: 1; }
 .cine .card .big { font-family: var(--brush); font-size: clamp(70px, 16vw, 170px); color: #fff; text-shadow: 0 0 40px rgba(127,240,196,.6), 0 6px 30px rgba(0,0,0,.6); }
 .cine .card .lat { font-family: var(--latin); letter-spacing: .5em; color: var(--gold2); font-size: clamp(16px, 3vw, 28px); margin-left: .5em; }
+.cine .rain { position: absolute; inset: 0; pointer-events: none; }
+.cine .rain span { position: absolute; font-family: var(--jp); font-size: clamp(17px, 2.5vw, 30px); opacity: 0; transform: translateY(12px); transition: opacity 1.1s ease, transform 2.6s ease; text-shadow: 0 2px 14px rgba(0,0,0,.9), 0 0 2px rgba(0,0,0,.8); white-space: nowrap; }
+.cine .rain span.on { opacity: .96; transform: translateY(0); }
+.cine .rain span small { display: block; font-family: var(--ui); font-size: 12px; letter-spacing: .16em; text-transform: uppercase; opacity: .85; margin-top: 2px; }
+.cine .roll { position: absolute; inset: 0; overflow: hidden; background: linear-gradient(90deg, rgba(5,6,10,.88), rgba(5,6,10,.6) 50%, rgba(5,6,10,.15)); opacity: 0; transition: opacity 1.6s ease; }
+.cine .roll.on { opacity: 1; }
+.cine .roll .in { position: absolute; left: 7vw; top: 0; width: min(540px, 86vw); text-align: center; color: #efe6d2; font-family: 'kt-mincho', var(--latin), serif; will-change: transform; }
+.cine .roll h3 { font-family: var(--latin); letter-spacing: .3em; color: var(--gold); font-size: 13px; font-weight: 400; margin: 40px 0 8px; text-transform: uppercase; }
+.cine .roll .nm { font-size: clamp(17px, 2.1vw, 22px); line-height: 1.55; }
+.cine .roll .nm .jp { font-family: var(--jp); color: var(--gold2); margin-right: 8px; }
+.cine .roll .nm small { display: block; font-family: var(--ui); font-size: 12px; color: #a9a290; letter-spacing: .06em; margin-bottom: 6px; }
+.cine .roll .lic { font-size: 13px; line-height: 1.75; color: #bdb4a2; font-family: var(--ui); }
+.cine .roll .big { font-family: var(--brush); font-size: clamp(64px, 10vw, 112px); color: #fff; text-shadow: 0 0 30px rgba(127,240,196,.5); line-height: 1.1; }
+.cine .roll .lat { font-family: var(--latin); letter-spacing: .45em; color: var(--gold2); font-size: clamp(15px, 2.4vw, 22px); margin-left: .45em; }
+.cine .roll .stats { margin: 8px auto 0; max-width: 380px; }
+.cine .roll .stat { display: flex; justify-content: space-between; gap: 18px; border-bottom: 1px solid rgba(233,196,106,.18); padding: 7px 2px; font-size: 15px; font-family: var(--ui); }
+.cine .roll .stat b { color: var(--gold2); font-variant-numeric: tabular-nums; }
+.cine .roll .thanks { font-family: var(--jp); font-size: clamp(24px, 3.4vw, 34px); color: var(--gold2); margin-top: 10px; }
+@media (max-aspect-ratio: 1/1) { .cine .roll { background: rgba(5,6,10,.72); } .cine .roll .in { left: 50%; margin-left: max(-270px, -43vw); } }
 @media (max-aspect-ratio: 1/1) { .cine .verse { flex-direction: column; gap: 3vh; } .cine .verse .v { font-size: clamp(20px, 3.6vh, 34px); } .cine .verse .side { max-width: 86vw; text-align: center; } }
 
 .creator { position: absolute; inset: 0; z-index: 45; display: grid; grid-template-columns: 1fr min(420px, 100%); pointer-events: none; }
@@ -71,6 +92,8 @@ export class Cine {
   el: HTMLElement;
   private sub: HTMLElement;
   skipped = false;
+  /** when set, follows the point the camera looks at (keeps sunlight and shadows on what is on screen) */
+  focus: THREE.Vector3 | null = null;
   private camAnim: (() => void) | null = null;
   constructor(private app: App) {
     ensureCss();
@@ -80,14 +103,21 @@ export class Cine {
     this.el.querySelector('.skip')!.addEventListener('click', (e) => {
       e.stopPropagation();
       this.skipped = true;
+      voice.stop();
     });
     window.addEventListener('keydown', this.onKey);
   }
   private onKey = (e: KeyboardEvent) => {
     if (e.code === 'Escape') this.skipped = true;
   };
+  /** waits on the real clock (slow frames must not stretch the scene) */
   async wait(ms: number) {
-    for (let t = 0; t < ms && !this.skipped; t += 50) await sleep(50);
+    const end = performance.now() + ms;
+    while (!this.skipped) {
+      const left = end - performance.now();
+      if (left <= 0) break;
+      await sleep(Math.min(50, left));
+    }
   }
   bars(v: number, ms = 1200) {
     const u = this.app.engine.u;
@@ -117,12 +147,15 @@ export class Cine {
       const k = Math.min(1, (performance.now() - t0) / ms);
       const e = ease(k);
       cam.position.copy(pc.getPoint(e));
-      cam.lookAt(lc.getPoint(e));
+      const lp = lc.getPoint(e);
+      cam.lookAt(lp);
+      this.focus?.copy(lp);
     });
     this.camAnim = stop;
     return stop;
   }
   fadeTo(v: number, ms = 900) {
+    if (this.skipped) ms = Math.min(ms, 180);
     const u = this.app.engine.u;
     const from = u.uFade.value, t0 = performance.now();
     return new Promise<void>((res) => {
@@ -157,8 +190,9 @@ function tween(ms: number, fn: (k: number) => void): () => void {
   return () => (alive = false);
 }
 
-export async function prologue(app: App, world: World, look: Look3D) {
+export async function prologue(app: App, world: World, look: Look3D, game?: Game) {
   const cine = new Cine(app);
+  cine.focus = world.focus;
   const cam = app.engine.camera;
   const eng = app.engine;
   const u = eng.u;
@@ -167,7 +201,11 @@ export async function prologue(app: App, world: World, look: Look3D) {
   world.clockFrozen = true;
   eng.setScene(world.scene, cam);
   eng.start();
-  const frame = eng.onFrame(({ dt, t }) => world.update(dt, t, cam));
+  const frame = eng.onFrame(({ dt, t }) => {
+    world.update(dt, t, cam);
+    // the islanders go about their day (only those near the camera)
+    if (game) for (const n of game.npcs) if (n.pos.distanceToSquared(cam.position) < 120 * 120) n.char.update(dt);
+  });
   music.stop(1.5);
   cine.bars(0.1, 1500);
 
@@ -281,13 +319,18 @@ export async function prologue(app: App, world: World, look: Look3D) {
   music.play('beach', 4);
   await cine.fadeTo(0, 2200);
   await cine.say('Muitos anos depois, ao amanhecer, alguém de uma terra distante chega à ilha...', '朝日浜', 5000);
-  // the traveller walks onto the pier
+  // the traveller steps off the boat and walks along the pier
+  const wFrom = new THREE.Vector3(arrival.x, 1.05, arrival.z - 1);
+  const wTo = new THREE.Vector3(praia.x - 6, 1.05, arrival.z - 11);
+  traveller.root.rotation.y = Math.atan2(wTo.x - wFrom.x, wTo.z - wFrom.z);
   const walk = tween(4200, (k) => {
-    traveller.root.position.z = arrival.z - 1 - k * 9;
+    traveller.root.position.lerpVectors(wFrom, wTo, k);
     traveller.speed = k < 0.95 ? 2.4 : 0;
   });
   await cine.say('...sem saber uma única palavra de japonês.', '', 3800);
   walk();
+  traveller.root.position.copy(wTo);
+  traveller.root.rotation.y = Math.PI;
   traveller.speed = 0;
   // ── 6. Kon appears
   const kon = new Kon();
@@ -443,3 +486,266 @@ export function characterCreator(app: App, world: World, save: SaveData): Promis
     });
   });
 }
+
+// ───────────────────────── epilogue ─────────────────────────
+
+/** phrases that float over the island in the epilogue: one voice for every way of speaking learned */
+const VOICES: { jp: string; reg: string; label: string }[] = [
+  { jp: 'はじめまして。よろしくお願いします。', reg: 'polido', label: 'polido' },
+  { jp: 'ねえ、一緒に行こうよ！', reg: 'casual', label: 'casual' },
+  { jp: 'マジでヤバくない？', reg: 'giria', label: 'gíria' },
+  { jp: '恐れ入りますが、少々お待ちくださいませ。', reg: 'keigo', label: 'keigo' },
+  { jp: '俺は絶対にあきらめない！', reg: 'anime', label: 'anime' },
+  { jp: 'いざ、参らん。', reg: 'antigo', label: 'antigo' },
+  { jp: 'ほんま、おおきに！', reg: 'kansai', label: 'kansai' },
+  { jp: 'いらっしゃいませ！', reg: 'polido', label: 'loja' },
+  { jp: 'ただいま！　おかえり！', reg: 'casual', label: 'casa' },
+  { jp: 'お疲れさまでした！', reg: 'polido', label: 'trabalho' },
+  { jp: 'すみません、駅はどこですか。', reg: 'polido', label: 'rua' },
+  { jp: '乾杯！', reg: 'casual', label: 'festa' },
+  { jp: 'お大事に。', reg: 'polido', label: 'médico' },
+  { jp: '拙者、推して参る！', reg: 'antigo', label: 'samurai' },
+  { jp: 'めっちゃ楽しかった！', reg: 'giria', label: 'amigos' },
+  { jp: 'ご清聴ありがとうございました。', reg: 'keigo', label: 'discurso' },
+];
+
+/**
+ * The ending, mirroring the prologue: the last leaf makes the Great Tree burst into bloom, the camera flies over
+ * an island in full colour while voices in every register drift by, Kon waits on the pier where it all began,
+ * the Kokinshū verse returns, and the credits roll with the player's own journey and the whole cast.
+ */
+export async function epilogue(g: Game) {
+  const app = g.app;
+  const eng = app.engine;
+  const u = eng.u;
+  const cam = eng.camera;
+  const world = g.world;
+  const cine = new Cine(app);
+  const c = g.learner.counts();
+  const back = { x: g.player.pos.x, z: g.player.pos.z, yaw: g.player.yaw };
+  const oldFov = cam.fov;
+  g.pause(true);
+  g.hud.el.style.visibility = 'hidden';
+  world.clockFrozen = true;
+  cam.fov = 45;
+  cam.updateProjectionMatrix();
+  music.stop(1.5);
+  cine.bars(0.1, 1500);
+  const hime = g.npcs.find((n) => n.def.id === 'kotonoha');
+  const himeVoice = hime?.def.voice ?? { pitch: 1.2, rate: 0.85 };
+  const himeSays = async (jp: string, pt: string, ms = 5200) => {
+    voice.speak(jp, himeVoice);
+    await cine.say(pt, jp, ms);
+  };
+  const tb = world.treeBase;
+  const focus = tb.clone();
+  cine.focus = focus;
+  g.focusOverride = focus;
+
+  // ── 1. the ten-thousandth leaf: the whole tree bursts into bloom
+  world.clock = 0.93;
+  g.debugSat = 1.05;
+  world.sky.gloom = 0;
+  cine.move(cam, [
+    { p: new THREE.Vector3(tb.x + 12, tb.y + 3, tb.z + 20), l: new THREE.Vector3(tb.x, tb.y + 14, tb.z) },
+    { p: new THREE.Vector3(tb.x + 30, tb.y + 12, tb.z + 44), l: new THREE.Vector3(tb.x, tb.y + 30, tb.z) },
+    { p: new THREE.Vector3(tb.x + 46, tb.y + 30, tb.z + 84), l: new THREE.Vector3(tb.x, tb.y + 40, tb.z) },
+  ], 17000);
+  await cine.wait(1600);
+  if (audio.ctx) {
+    const t = audio.now;
+    audio.pad([mtof(50), mtof(57), mtof(62), mtof(66)], t, 9, 1.6, 'sfx', 0.3);
+    [0, 4, 7, 12, 16, 19, 24].forEach((d, i) => audio.koto(mtof(62 + d), t + 0.2 + i * 0.32, 0.26, 'sfx', { dur: 3 }));
+  }
+  sfx.rankUp();
+  g.treeOverride = [Math.max(10000, c.words), Math.max(c.memorized, 2600), Math.max(c.mastered, 1100)];
+  world.bursts.spark(new THREE.Vector3(tb.x, tb.y + 40, tb.z), '#ffe9a8', 170, 15);
+  world.bursts.ring(new THREE.Vector3(tb.x, tb.y + 2, tb.z), '#bff7dc', 34);
+  tween(2600, (k) => (u.uFlash.value = 0.85 * (1 - k)));
+  music.play('title', 3);
+  await cine.wait(2400);
+  await himeSays('言の葉が、みんな 帰ってきました。', 'As folhas das palavras... voltaram todas.');
+  await himeSays('あなたが 覚えた 一つ一つの 言葉が、この 木に 命を 灯したのです。', 'Cada palavra que você aprendeu acendeu uma vida nesta árvore. Dez mil folhas de luz.', 5600);
+
+  // ── 2. dawn over an island in full colour, voices in every register
+  await cine.fadeTo(1, 1100);
+  world.clock = 0.27;
+  const R = (id: string, dy: number) => {
+    const r = REGION_BY_ID[id];
+    return { p: new THREE.Vector3(r.x, heightAt(r.x, r.z) + dy, r.z), r };
+  };
+  const cas = R('castelo', 0), neon = R('neon', 0), porto = R('porto', 0), com = R('comercio', 0), vila = R('vila', 0), praia = R('praia', 0);
+  const fly = [
+    { p: new THREE.Vector3(tb.x + 60, tb.y + 60, tb.z + 90), l: new THREE.Vector3(cas.p.x, cas.p.y, cas.p.z) },
+    { p: new THREE.Vector3(cas.p.x + 70, cas.p.y + 78, cas.p.z + 90), l: new THREE.Vector3(cas.p.x, cas.p.y + 6, cas.p.z) },
+    { p: new THREE.Vector3(neon.p.x - 120, neon.p.y + 96, neon.p.z + 70), l: new THREE.Vector3(neon.p.x, neon.p.y + 14, neon.p.z) },
+    { p: new THREE.Vector3(porto.p.x - 110, porto.p.y + 66, porto.p.z + 30), l: new THREE.Vector3(porto.p.x, porto.p.y + 2, porto.p.z) },
+    { p: new THREE.Vector3(com.p.x - 80, com.p.y + 56, com.p.z + 60), l: new THREE.Vector3(com.p.x, com.p.y + 2, com.p.z) },
+    { p: new THREE.Vector3(vila.p.x + 60, vila.p.y + 48, vila.p.z + 70), l: new THREE.Vector3(vila.p.x, vila.p.y + 2, vila.p.z) },
+    { p: new THREE.Vector3(praia.p.x + 40, 30, praia.p.z + 96), l: new THREE.Vector3(praia.p.x, 2, praia.p.z + 30) },
+  ];
+  cine.move(cam, fly, 33000, (k) => k);
+  await cine.fadeTo(0, 1400);
+  const rain = h(`<div class="rain"></div>`);
+  cine.el.prepend(rain);
+  let vi = 0;
+  const rainTimer = window.setInterval(() => {
+    if (cine.skipped) return;
+    const v = VOICES[vi++ % VOICES.length];
+    const sp = h(`<span style="left:${(6 + Math.random() * 62).toFixed(1)}%;top:${(10 + Math.random() * 52).toFixed(1)}%;color:var(--r-${v.reg})">${esc(v.jp)}<small>${esc(v.label)}</small></span>`);
+    rain.appendChild(sp);
+    requestAnimationFrame(() => requestAnimationFrame(() => sp.classList.add('on')));
+    window.setTimeout(() => sp.classList.remove('on'), 3600);
+    window.setTimeout(() => sp.remove(), 5200);
+  }, 1500);
+  await cine.say('A cor voltou a cada canto da ilha.', '', 4600);
+  await cine.say('Nos castelos, nas ruas de neon, nos portos e nos mercados, as pessoas voltaram a conversar...', '', 5600);
+  await cine.say('...com educação, com carinho, com gírias, em keigo, à moda antiga e até no jeito de Osaka.', '', 5600);
+  await cine.say('E em cada conversa, uma palavra que você também entende.', '', 5000);
+  window.clearInterval(rainTimer);
+  rain.remove();
+
+  // ── 3. the pier where it all began: Kon is waiting
+  await cine.fadeTo(1, 1000);
+  const pier = new THREE.Vector3(praia.p.x - 6, 0, praia.p.z + 50);
+  g.player.place(pier.x, pier.z, 0);
+  g.rig.snap(g.player.pos);
+  g.snapKon();
+  const pp = g.player.pos;
+  const pierMove = cine.move(cam, [
+    { p: new THREE.Vector3(pp.x - 0.6, pp.y + 2.7, pp.z - 7.5), l: new THREE.Vector3(pp.x + 0.6, pp.y + 1.6, pp.z + 6) },
+    { p: new THREE.Vector3(pp.x + 0.1, pp.y + 2.4, pp.z - 5.6), l: new THREE.Vector3(pp.x + 0.6, pp.y + 1.8, pp.z + 8) },
+  ], 16000);
+  await cine.fadeTo(0, 1600);
+  await cine.wait(800);
+  const konSay = async (jp: string, pt: string, ms = 4200) => {
+    g.kon.talking = true;
+    voice.speak(jp, { pitch: 1.45, rate: 0.95 });
+    await cine.say(pt, jp, ms);
+    g.kon.talking = false;
+  };
+  g.kon.emote('happy', 3);
+  await konSay('ねえ、覚えてる？ ここで 初めて 会った 日のこと。', 'Ei, lembra? Do dia em que a gente se conheceu, bem aqui.');
+  await konSay('あの日、きみは 一つも 日本語を 知らなかった。', 'Naquele dia você não sabia nem uma palavra de japonês.');
+  await konSay('今は 一万の 言葉。…これからも、よろしくね！', 'Agora são dez mil. ...Daqui pra frente, conto com você!', 4800);
+
+  // ── 4. the verse again
+  await cine.fadeTo(1, 1400);
+  eng.skipRender = true;
+  const verse = ['やまとうたは', '人の心を種として', 'よろづの言の葉とぞなれりける'];
+  const vEl = h(`<div class="verse"><div class="cols">${verse.map((line) => `<div class="v">${[...line].map((ch) => `<span class="on">${esc(ch)}</span>`).join('')}</div>`).join('')}</div><div class="side">A poesia do Japão tem o coração humano como semente,<br>e dele brotam as dez mil folhas das palavras.<br><br>Agora, dez mil delas também são suas.<div class="who">— Ki no Tsurayuki, Kokin Wakashū (905)</div><div class="seal">言</div></div></div>`);
+  vEl.style.opacity = '0';
+  vEl.style.transition = 'opacity 1.6s ease';
+  cine.el.prepend(vEl);
+  await sleep(50);
+  vEl.style.opacity = '1';
+  await cine.wait(1600);
+  (vEl.querySelector('.side') as HTMLElement).classList.add('on');
+  await cine.wait(2600);
+  (vEl.querySelector('.seal') as HTMLElement).classList.add('on');
+  sfx.slap();
+  await cine.wait(3400);
+
+  // ── 5. credits over the tree at night
+  world.clock = 0.9;
+  g.player.place(back.x, back.z, back.yaw);
+  g.rig.snap(g.player.pos);
+  g.snapKon();
+  eng.skipRender = false;
+  vEl.style.opacity = '0';
+  pierMove();
+  const orbit = eng.onFrame(({ t }) => {
+    const a = t * 0.05 + 0.6;
+    cam.position.set(tb.x + Math.cos(a) * 95, tb.y + 34 + Math.sin(t * 0.13) * 5, tb.z + Math.sin(a) * 95);
+    cam.lookAt(tb.x, tb.y + 36, tb.z);
+  });
+  await cine.fadeTo(0, 1800);
+  vEl.remove();
+  music.play('peak', 3);
+  const s = g.save;
+  const done = completion(g);
+  const hours = Math.floor(s.playTime / 3600), mins = Math.floor((s.playTime % 3600) / 60);
+  const stat = (k: string, v: string) => `<div class="stat"><span>${k}</span><b>${v}</b></div>`;
+  const cast = g.npcs
+    .filter((n) => n.def.name && n.def.jp)
+    .map((n) => `<div class="nm"><span class="jp">${esc(n.def.jp)}</span>${esc(n.def.name)}<small>${esc(n.def.title ?? '')}</small></div>`)
+    .join('');
+  const roll = h(`<div class="roll"><div class="in">
+    <div class="big">言の葉</div><div class="lat">KOTONOHA</div>
+    <div class="nm" style="margin-top:8px"><small>A Jornada das Dez Mil Palavras</small></div>
+    <h3>A sua jornada</h3>
+    <div class="nm"><span class="jp">${esc(nameToKatakana(s.name || 'Viajante'))}</span>${esc(s.name || 'Viajante')}</div>
+    <div class="stats">
+      ${stat('Palavras aprendidas', fmtN(c.words))}
+      ${stat('Palavras dominadas', fmtN(c.mastered))}
+      ${stat('Kanji', `${fmtN(done.kanji)} / ${fmtN(done.kanjiMax)}`)}
+      ${stat('Kana', `${fmtN(done.kana)} / ${fmtN(done.kanaMax)}`)}
+      ${stat('Conversas completas', `${done.convos} / ${done.convosMax}`)}
+      ${stat('Selos das Grandes Sombras', `${done.seals} / ${done.sealsMax}`)}
+      ${stat('Batalhas vencidas', fmtN(s.stats.wins))}
+      ${stat('Tempo de jogo', `${hours} h ${String(mins).padStart(2, '0')} min`)}
+    </div>
+    <h3>Uma produção</h3><div class="nm">Uchihadam Production</div>
+    <h3>Direção, mundo, história, música e arte</h3><div class="nm">Uchihadam Production</div>
+    <h3>Programação e sons</h3><div class="nm">Feito com Three.js e Web Audio<small>toda a música é composta e tocada em tempo real</small></div>
+    <h3>Vozes</h3><div class="nm">A síntese de voz japonesa do seu aparelho</div>
+    <h3>Elenco</h3>
+    <div class="nm"><span class="jp">コン</span>Kon<small>raposa-espírito</small></div>
+    ${cast}
+    <h3>Dados de japonês</h3>
+    <div class="lic">KANJIDIC2 e JMdict © Electronic Dictionary Research and Development Group (EDRDG), CC BY-SA 4.0.<br>Traços dos kanji e kana: KanjiVG © Ulrich Apel, CC BY-SA 3.0.<br>Listas JLPT: Jonathan Waller (tanos.co.uk) via open-anki-jlpt-decks (MIT).<br>Fontes: Zen Maru Gothic, Klee One, Yuji Syuku, Shippori Mincho B1 e Marcellus (SIL Open Font License).<br>Epígrafe: Ki no Tsurayuki, prefácio do Kokin Wakashū (905).</div>
+    <h3>E você</h3><div class="nm">que aprendeu dez mil palavras<small>uma folha de cada vez</small></div>
+    <div class="thanks">ありがとうございました！</div>
+    <div class="nm" style="margin-bottom:12vh"><small>Obrigado por jogar</small></div>
+  </div></div>`);
+  cine.el.prepend(roll);
+  await sleep(60);
+  roll.classList.add('on');
+  const inner = roll.querySelector('.in') as HTMLElement;
+  const total = inner.offsetHeight + window.innerHeight;
+  const speed = Math.max(42, window.innerHeight / 14); // px per second
+  const rollMs = (total / speed) * 1000;
+  const r0 = performance.now();
+  await new Promise<void>((res) => {
+    const step = () => {
+      const k = (performance.now() - r0) / rollMs;
+      inner.style.transform = `translateY(${(window.innerHeight - k * total).toFixed(1)}px)`;
+      if (k >= 1 || cine.skipped) return res();
+      requestAnimationFrame(step);
+    };
+    step();
+  });
+  roll.classList.remove('on');
+
+  // ── 6. 終
+  const fin = h(`<div class="card"><div class="big">終</div><div class="lat">FIM</div></div>`);
+  cine.el.appendChild(fin);
+  await sleep(50);
+  fin.classList.add('on');
+  cine.skipped = false;
+  await cine.wait(3400);
+  fin.classList.remove('on');
+  await cine.fadeTo(1, 1200);
+
+  // back to the game, at the heart of the tree, in the morning
+  orbit();
+  roll.remove();
+  fin.remove();
+  cine.close();
+  world.clock = 0.3;
+  world.clockFrozen = false;
+  g.debugSat = null;
+  g.treeOverride = null;
+  g.focusOverride = null;
+  cam.fov = oldFov;
+  cam.updateProjectionMatrix();
+  g.player.place(back.x, back.z, back.yaw);
+  g.rig.snap(g.player.pos);
+  g.snapKon();
+  g.hud.el.style.visibility = '';
+  u.uFlash.value = 0;
+  g.pause(false);
+  await cine.fadeTo(0, 1400);
+}
+
+const fmtN = (n: number) => n.toLocaleString('pt-BR');

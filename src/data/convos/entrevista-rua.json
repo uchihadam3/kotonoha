@@ -1,0 +1,45 @@
+{
+  "id": "entrevista-rua",
+  "title": "Entrevista na rua",
+  "sub": "Dar a sua opinião com educação para uma repórter de TV",
+  "reg": "polido",
+  "steps": [
+    { "npc": ["すみません、ネオンテレビです。今、少しお時間よろしいですか。", "Com licença, somos da TV Neon. Você tem um minutinho?"] },
+    { "you": [
+      { "jp": "はい、少しなら大丈夫ですよ。", "pt": "Sim, se for rapidinho, tudo bem.", "ok": true, "reg": "polido" },
+      { "jp": "はい、よろしいです。", "pt": "Sim, tem a minha permissão.", "ok": false, "why": "よろしい é palavra 'de cima': respondendo sobre si, soa arrogante. Diga: はい、大丈夫ですよ (ou いいですよ)." },
+      { "jp": "いいよ〜、なになに？", "pt": "Pode ser~, o que é, o que é?", "ok": false, "reg": "casual", "why": "Na TV, com uma repórter que você não conhece, use です/ます: はい、少しなら大丈夫ですよ." }
+    ] },
+    { "npc": ["ありがとうございます。今日は「歩きスマホ」について、皆さんにお聞きしています。歩きながらスマホを使うこと、どう思いますか。", "Obrigada. Hoje estamos perguntando sobre usar o celular andando. O que você acha disso?"], "note": "〜について = 'sobre'. 〜と思います = 'acho que': é o jeito básico e educado de dar opinião em japonês." },
+    { "you": [
+      { "jp": "危ないと思います。人にぶつかることもありますから。", "pt": "Acho perigoso. Às vezes a gente até esbarra nas pessoas.", "ok": true, "reg": "polido" },
+      { "jp": "危ないだと思います。", "pt": "(errado) Acho que é perigoso (com だ sobrando).", "ok": false, "why": "Adjetivo-i não leva だ antes de と思う: 危ないと思います. (だ só com substantivo ou -na: 危険だと思います.)" },
+      { "jp": "はい、思います。", "pt": "Sim, acho.", "ok": false, "why": "Ela perguntou COMO você vê a questão (どう思いますか). Dê a sua opinião: 危ないと思います." }
+    ] },
+    { "npc": ["なるほど。ご自分も、歩きながらスマホを使うことはありますか。", "Entendo. E você, às vezes usa o celular andando? (ご自分 = você mesmo, honorífico)"] },
+    { "you": [
+      { "jp": "正直に言うと、たまにあります。地図を見るときとか…。", "pt": "Sinceramente, às vezes sim. Quando olho o mapa, por exemplo...", "ok": true, "reg": "polido" },
+      { "jp": "ご自分は、たまにあります。", "pt": "(errado) Eu, 'Vossa Senhoria', às vezes uso.", "ok": false, "reg": "keigo", "why": "ご自分 é honorífico, só para o outro. Para falar de si, use 私: 私もたまにあります." },
+      { "jp": "マジで毎日やってるっす！", "pt": "Faço todo dia, real, mano!", "ok": false, "reg": "giria", "why": "Gíria (マジ, っす) na TV soa desleixada. Responda com です/ます: 正直に言うと、たまにあります." }
+    ] },
+    { "npc": ["ありがとうございます。では、歩きスマホを法律で禁止することについては、どうお考えですか。", "Obrigada. E o que você pensa sobre proibir isso por lei? (お考え = pensamento, honorífico)"] },
+    { "you": [
+      { "jp": "禁止まではしなくてもいいと思います。でも、駅のホームではやめるべきだと思います。", "pt": "Acho que não precisa chegar a proibir. Mas, na plataforma da estação, acho que deveria parar.", "ok": true, "reg": "polido" },
+      { "jp": "禁止されないと思います。", "pt": "Acho que não vão proibir.", "ok": false, "why": "Isso é uma previsão ('acho que não vão proibir'), não uma opinião. Para opinar: 禁止しなくてもいいと思います." },
+      { "jp": "知らない。どうでもいい。", "pt": "Sei lá. Tanto faz.", "ok": false, "reg": "casual", "why": "Seco e casual demais na TV. Sem opinião forte? Diga com です/ます: よくわかりませんが…" }
+    ] },
+    { "npc": ["貴重なご意見、ありがとうございます。最後に、テレビの前の皆さんに一言お願いします。", "Obrigada pela opinião valiosa. Por fim, uma palavrinha para quem está assistindo?"], "note": "一言 (ひとこと) = 'uma palavrinha'. Nas entrevistas de rua japonesas, é comum terminar com uma mensagem ao público." },
+    { "you": [
+      { "jp": "皆さん、歩くときは前を見て、気をつけましょう！", "pt": "Pessoal, quando forem andar, olhem para a frente e tomem cuidado!", "ok": true, "reg": "polido" },
+      { "jp": "皆さん、前を見て歩け！", "pt": "Pessoal, andem olhando pra frente! (ordem)", "ok": false, "reg": "casual", "why": "歩け é uma ordem bruta. Para o público, convide com 〜ましょう: 前を見て、気をつけましょう!" },
+      { "jp": "えっと、一言です。", "pt": "Hã... 'uma palavrinha'.", "ok": false, "why": "一言お願いします = 'diga algumas palavras', não a palavra 'uma palavrinha'! Mande uma mensagem: 皆さん、気をつけましょう!" }
+    ] },
+    { "npc": ["ありがとうございました！今夜六時のニュースで流れるかもしれません。", "Muito obrigada! Talvez passe no jornal das seis, hoje à noite."] },
+    { "you": [
+      { "jp": "本当ですか。じゃあ、ぜひ見ます！", "pt": "Sério? Então vou assistir, com certeza!", "ok": true, "reg": "polido" },
+      { "jp": "本当ですか。じゃあ、ぜひ見てください！", "pt": "Sério? Então assista, por favor!", "ok": false, "why": "見てください pede que ELA assista! Para dizer que você vai ver: じゃあ、ぜひ見ます!" },
+      { "jp": "マジか。じゃあね〜！", "pt": "Sério? Falou, tchau~!", "ok": false, "reg": "casual", "why": "マジか e じゃあね são para amigos. Com a repórter: 本当ですか。じゃあ、ぜひ見ます!" }
+    ] },
+    { "npc": ["こちらこそ、ご協力ありがとうございました！", "Nós é que agradecemos a sua colaboração!"] }
+  ]
+}

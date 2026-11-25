@@ -1,0 +1,45 @@
+{
+  "id": "aula",
+  "title": "Dúvida depois da aula",
+  "sub": "Fazer uma pergunta à professora, pedir desculpas por não entender e agradecer",
+  "reg": "polido",
+  "steps": [
+    { "npc": ["はい、今日の授業はここまでです。皆さん、お疲れ様でした。", "Muito bem, a aula de hoje termina aqui. Bom trabalho, pessoal."], "note": "お疲れ様でした = \"bom trabalho\", dito ao fim de uma atividade em grupo, como a aula ou o expediente." },
+    { "you": [
+      { "jp": "先生、すみません。ちょっとお聞きしてもいいですか。", "pt": "Professora, com licença. Posso lhe perguntar uma coisa?", "ok": true, "reg": "polido" },
+      { "jp": "先生、すみません。ちょっとお聞きになってもいいですか。", "pt": "(errado) Professora, posso \"me dignar\" a perguntar?", "ok": false, "why": "お聞きになる é honorífico, para a ação dela. Para a SUA ação use o humilde: お聞きしてもいいですか.", "reg": "keigo" },
+      { "jp": "山田さん、ちょっと聞いてもいい？", "pt": "Yamada, posso perguntar uma coisa?", "ok": false, "why": "Na escola chame a professora de 先生 (não さん) e use a forma polida: 聞いてもいいですか.", "reg": "casual" }
+    ] },
+    { "npc": ["はい、どうぞ。どうしましたか。", "Claro, pode falar. O que houve?"] },
+    { "you": [
+      { "jp": "すみません、今日の文法がよくわからなかったんです。", "pt": "Desculpe, eu não entendi bem a gramática de hoje.", "ok": true, "reg": "polido" },
+      { "jp": "すみません、今日の文法がよくわからないでした。", "pt": "(errado) Desculpe, não entendi bem a gramática de hoje.", "ok": false, "why": "Negativa no passado: わからなかった (ou わかりませんでした). A forma ～ないでした não existe." },
+      { "jp": "先生の説明、全然わかんなかった。", "pt": "Não entendi nada da sua explicação.", "ok": false, "why": "Casual e soa como crítica à professora. Assuma a dúvida com humildade: よくわからなかったんです.", "reg": "casual" }
+    ] },
+    { "npc": ["そうですか。どこがわかりませんでしたか。", "Entendo. Que parte você não entendeu?"] },
+    { "you": [
+      { "jp": "「は」と「が」の違いがわかりません。", "pt": "Não entendo a diferença entre は e が.", "ok": true, "reg": "polido" },
+      { "jp": "「は」と「が」の違いはありません。", "pt": "Não há diferença entre は e が.", "ok": false, "why": "ありません = não existe. Para dizer que não entende: 違いがわかりません." },
+      { "jp": "「は」と「が」の違いがわかりませんか。", "pt": "A senhora não entende a diferença entre は e が?", "ok": false, "why": "Com か vira pergunta: parece que é ELA quem não entende. Afirme: 違いがわかりません." }
+    ] },
+    { "npc": ["いい質問ですね。では、もう一度ゆっくり説明しますね。……どうですか。わかりましたか。", "Boa pergunta. Então vou explicar de novo, devagar. ... E aí? Entendeu?"], "note": "Perguntar depois da aula é bem visto no Japão: mostra esforço, e o professor costuma gostar." },
+    { "you": [
+      { "jp": "はい、よくわかりました。", "pt": "Sim, entendi bem.", "ok": true, "reg": "polido" },
+      { "jp": "はい、よく知りました。", "pt": "(errado) Sim, fiquei sabendo bem.", "ok": false, "why": "知る = saber, ter a informação. Para compreender uma explicação use わかる: よくわかりました." },
+      { "jp": "はい、わかった、わかった。", "pt": "Tá bom, tá bom, já entendi.", "ok": false, "why": "わかった、わかった soa impaciente (\"tá bom, tá bom\"). Com a professora: よくわかりました.", "reg": "casual" }
+    ] },
+    { "npc": ["よかった。また何かあったら、いつでも聞いてくださいね。", "Que bom. Se tiver outra dúvida, pode perguntar quando quiser."] },
+    { "you": [
+      { "jp": "ありがとうございました。お忙しいところ、すみませんでした。", "pt": "Muito obrigado. Desculpe tomar o seu tempo.", "ok": true, "reg": "polido" },
+      { "jp": "ありがとうございました。ご苦労様でした。", "pt": "Muito obrigado. Obrigado pelo seu serviço.", "ok": false, "why": "ご苦労様 é dito por um superior a um subordinado; à professora soa arrogante. Diga お忙しいところ、すみませんでした.", "reg": "keigo" },
+      { "jp": "どういたしまして。", "pt": "De nada.", "ok": false, "why": "どういたしまして responde a um agradecimento. Quem deve agradecer aqui é você: ありがとうございました." }
+    ] },
+    { "npc": ["いいえ。じゃあ、気をつけて帰ってくださいね。", "Imagina. Então, volte para casa com cuidado."] },
+    { "you": [
+      { "jp": "はい。失礼します。", "pt": "Sim. Com licença (vou indo).", "ok": true, "reg": "polido" },
+      { "jp": "じゃあね、先生！", "pt": "Tchau, prô!", "ok": false, "why": "じゃあね é para amigos. Ao se despedir da professora: 失礼します ou さようなら.", "reg": "casual" },
+      { "jp": "いってらっしゃい。", "pt": "Vá e volte bem.", "ok": false, "why": "いってらっしゃい é para quem sai enquanto você fica. Quem está indo embora é você: 失礼します." }
+    ] },
+    { "npc": ["はい、さようなら。また明日。", "Até logo. Até amanhã."] }
+  ]
+}

@@ -3,7 +3,8 @@ import type { Game } from '../game/game';
 import { h, esc, fmtNum, fmtTime } from '../core/util';
 import { ICON } from './icons';
 import { vocab, type Word } from '../lang/vocab';
-import { THEME_NAMES, REGISTER_NAMES, rankFor, levelFor } from '../data/regions';
+import { THEME_NAMES, REGISTER_NAMES, REGIONS, rankFor, levelFor } from '../data/regions';
+import { completion } from '../game/completion';
 import { STAGE_INFO } from '../lang/srs';
 import { wordCard, kanjiCard, strokeSVG } from './learnui';
 import { GOJUON, DAKUTEN, YOON, toKatakana, toRomaji, toHiragana } from '../lang/kana';
@@ -259,16 +260,24 @@ export class Book {
     const acc = st.correct + st.wrong ? Math.round((st.correct / (st.correct + st.wrong)) * 100) : 0;
     b.appendChild(h(`<div style="text-align:center;margin:6px 0 16px"><div class="jp" style="font-family:var(--brush);font-size:48px;color:var(--gold)">${rk.jp}</div><div style="color:var(--gold2);letter-spacing:.2em">${esc(rk.pt.toUpperCase())}</div><div class="muted small">${esc(g.save.name)} ${g.save.nameKana ? `· <span class="jp">${esc(g.save.nameKana)}</span>` : ''} · nível estimado: <b>${levelFor(c.words)}</b></div></div>`));
     const box = (n: string | number, l: string) => `<div class="statbox"><b>${n}</b><span>${l}</span></div>`;
+    // Domínio Total (完全制覇): the whole game, not just the 10 000 leaves
+    const d = completion(g);
+    const bar = (label: string, a: number, max: number) => {
+      const k = max ? Math.min(1, a / max) : 1;
+      return `<div class="cbar${k >= 1 ? ' full' : ''}"><span class="cl">${label}</span><span class="ct"><i style="width:${(k * 100).toFixed(1)}%"></i></span><b>${fmtNum(a)} / ${fmtNum(max)}</b></div>`;
+    };
+    b.appendChild(h(`<div class="complete"><div class="chead"><span class="jp">完全制覇</span> Domínio Total <b>${Math.floor(d.pct * 100)}%</b></div>
+      ${bar('Palavras', d.words, d.wordsMax)}${bar('Kanji', d.kanji, d.kanjiMax)}${bar('Conversas', d.convos, d.convosMax)}${bar('Selos', d.seals, d.sealsMax)}${bar('Kana', d.kana, d.kanaMax)}</div>`));
     b.appendChild(h(`<div class="statgrid">
       ${box(fmtNum(c.words), 'palavras aprendidas (folhas)')}${box(`${((c.words / 10000) * 100).toFixed(1)}%`, 'da Grande Árvore')}
       ${box(fmtNum(c.memorized), 'memorizadas 🌸')}${box(fmtNum(c.mastered), 'dominadas ⭐')}
-      ${box(c.kanji, 'kanji de 2.136')}${box(c.kana, 'kana')}
+      ${box(fmtNum(c.kanji), `kanji de ${fmtNum(d.kanjiMax)}`)}${box(c.kana, `kana de ${d.kanaMax}`)}
       ${box(c.due, 'para revisar agora')}${box(acc + '%', 'de acertos')}
       ${box(st.wins + '/' + st.battles, 'sombras vencidas')}${box('x' + st.bestCombo, 'maior combo')}
       ${box(st.lessons, 'lições')}${box(st.spoken, 'palavras faladas 🎤')}
       ${box(fmtTime(g.save.playTime), 'tempo de jogo')}${box(st.dailyStreak + ' 🔥', 'dias seguidos')}
-      ${box(fmtNum(g.save.mon), '文 mon')}${box(g.save.visited.length + '/11', 'lugares visitados')}
-      ${box(g.save.bosses.length + '/10', 'selos (Grandes Sombras)')}${box(Object.keys(g.save.flags).filter((k) => k.startsWith('convo:')).length + '/8', 'conversas completas')}
+      ${box(fmtNum(g.save.mon), '文 mon')}${box(g.save.visited.length + '/' + REGIONS.length, 'lugares visitados')}
+      ${box(d.seals + '/' + d.sealsMax, 'selos (Grandes Sombras)')}${box(d.convos + '/' + d.convosMax, 'conversas completas')}
     </div>`));
   }
 }

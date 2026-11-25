@@ -1,0 +1,46 @@
+{
+  "id": "samurai",
+  "title": "O fantasma samurai",
+  "sub": "Conversar com o espírito de um samurai e entender a fala antiga",
+  "reg": "antigo",
+  "steps": [
+    { "npc": ["拙者、武士の霊でござる。そなたは何者でござるか。", "Este humilde é o espírito de um samurai. E vós, quem sois?"], "note": "拙者 (せっしゃ) = eu, humilde, de samurai. ～でござる = です. そなた = você (antigo). É a fala dos filmes de época." },
+    { "you": [
+      { "jp": "拙者は○○と申す者でござる。", "pt": "Este humilde chama-se ○○.", "ok": true, "reg": "antigo" },
+      { "jp": "そなたは○○と申す者でござる。", "pt": "Vós sois aquele que se chama ○○.", "ok": false, "why": "そなた = você (antigo). Para falar de si, use 拙者: 拙者は○○と申す者でござる.", "reg": "antigo" },
+      { "jp": "拙者様は○○でござる。", "pt": "(errado) Este humilde \"senhor\" é ○○.", "ok": false, "why": "拙者 já é humilde; 様 é respeito para os outros. As duas coisas se anulam. Diga 拙者は○○と申す者でござる." }
+    ] },
+    { "npc": ["ほう、異国の者か。人と話すのは三百年ぶりでござる。……かたじけない。", "Oh, um estrangeiro. Há trezentos anos não converso com ninguém. ... Katajikenai."], "note": "～ぶり = pela primeira vez depois de: 三百年ぶり = depois de 300 anos (como em 久しぶり)." },
+    { "you": [
+      { "jp": "「かたじけない」は、今の言葉で「ありがとう」ですね。", "pt": "\"Katajikenai\" hoje seria \"arigatō\" (obrigado), né?", "ok": true, "reg": "polido" },
+      { "jp": "「かたじけない」は、今の言葉で「さようなら」ですね。", "pt": "\"Katajikenai\" hoje seria \"sayōnara\" (adeus), né?", "ok": false, "why": "\"Adeus\" em fala antiga é さらば. かたじけない = ありがとう (obrigado, que honra)." },
+      { "jp": "「かたじけない」は、今の言葉で「わかりました」ですね。", "pt": "\"Katajikenai\" hoje seria \"wakarimashita\" (entendi), né?", "ok": false, "why": "\"Entendido\" em fala de samurai é 承知した ou 御意. かたじけない = ありがとう." }
+    ] },
+    { "npc": ["左様でござる。して、そなたはこの国の言葉を学んでおるのか。", "Exatamente. E então, estais aprendendo a língua deste país?"], "note": "左様 (さよう) = そう: 左様でござる = そうです. して = e então. ～ておる = ～ている." },
+    { "you": [
+      { "jp": "左様でござる。毎日学んでおりまする。", "pt": "Exatamente. Estudo todos os dias.", "ok": true, "reg": "antigo" },
+      { "jp": "否、毎日学んでおりまする。", "pt": "Não, estudo todos os dias.", "ok": false, "why": "否 (いな) = não. Para dizer \"sim\" na fala antiga: 左様でござる ou いかにも.", "reg": "antigo" },
+      { "jp": "うん、毎日勉強してるよ。", "pt": "Aham, estudo todo dia.", "ok": false, "why": "タメ口 com um espírito mais velho que você nem conhece é desrespeito em qualquer época. Use 左様でござる.", "reg": "casual" }
+    ] },
+    { "npc": ["天晴れじゃ！では、一つ教えて進ぜよう。殿に命じられたとき、家来は何と答えるか知っておるか。", "Magnífico! Então vos ensinarei uma coisa. Sabeis o que o vassalo responde quando o senhor lhe dá uma ordem?"], "note": "天晴れ (あっぱれ) = magnífico! 進ぜよう = vou lhe fazer o favor de… 殿 (との) = o senhor feudal." },
+    { "you": [
+      { "jp": "「御意」と答えるのでござるな。", "pt": "Responde-se \"gyoi\", não é?", "ok": true, "reg": "antigo" },
+      { "jp": "「かたじけない」と答えるのでござるな。", "pt": "Responde-se \"katajikenai\", não é?", "ok": false, "why": "かたじけない é agradecimento. Ao receber uma ordem do senhor, o vassalo diz 御意 (ぎょい).", "reg": "antigo" },
+      { "jp": "「了解」と答えるのでござるな。", "pt": "Responde-se \"ryōkai\", não é?", "ok": false, "why": "了解 é moderno (e informal para superiores). O vassalo responde ao senhor com 御意." }
+    ] },
+    { "npc": ["然り！御意とは「おっしゃる通りに」という意味でござる。", "Isso mesmo! Gyoi quer dizer \"como o senhor diz\"."], "note": "然り (しかり) = isso mesmo, sim (antigo). ござる também é o verbo \"haver\": 頼みがござる = 頼みがあります." },
+    { "npc": ["……そなたに頼みがござる。来年の春も、この社の桜を見に来てはくれぬか。", "... Tenho um pedido a vos fazer. Na próxima primavera, não viríeis ver as cerejeiras deste santuário?"] },
+    { "you": [
+      { "jp": "承知いたした。必ず参りまする。", "pt": "Entendido. Virei sem falta.", "ok": true, "reg": "antigo" },
+      { "jp": "承知いたした。必ずいらっしゃいまする。", "pt": "(errado) Entendido. Eu \"me dignarei\" a vir sem falta.", "ok": false, "why": "いらっしゃる é honorífico, para o outro. Para você mesmo use o humilde 参る: 必ず参りまする.", "reg": "antigo" },
+      { "jp": "承知いたした。必ず参りませぬ。", "pt": "Entendido. Sem falta, não virei.", "ok": false, "why": "～ませぬ = ～ません (negativa antiga): você prometeu NÃO vir! Diga 必ず参りまする.", "reg": "antigo" }
+    ] },
+    { "npc": ["誠か！……かたじけない。では、拙者はそろそろ消えるといたそう。さらばじゃ、達者でな。", "Verdade?! ... Sou grato. Bem, é hora de eu desaparecer. Adeus, ficai bem."], "note": "誠か (まことか) = 本当か (é verdade?). 誠 = verdade, sinceridade." },
+    { "you": [
+      { "jp": "さらばでござる。またお会いしとうござる。", "pt": "Adeus. Espero vos ver de novo.", "ok": true, "reg": "antigo" },
+      { "jp": "バイバイでござる！", "pt": "Tchauzinho, ó nobre!", "ok": false, "why": "バイバイ é moderno e infantil; misturado com でござる vira paródia. Na fala antiga: さらばでござる.", "reg": "casual" },
+      { "jp": "達者でな！", "pt": "Fica bem, hein!", "ok": false, "why": "達者でな é a despedida de quem está acima, como o samurai. Responda com respeito: さらばでござる.", "reg": "antigo" }
+    ] },
+    { "npc": ["うむ。……桜の頃に、また会おうぞ。", "Hum. ... Na época das cerejeiras, nos veremos de novo."], "note": "Ninguém fala assim hoje, mas todo japonês entende essa fala graças aos dramas de época (時代劇) e aos animes." }
+  ]
+}

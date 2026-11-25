@@ -1,0 +1,45 @@
+{
+  "id": "pescador",
+  "title": "O velho pescador",
+  "sub": "Conversar com um pescador durão sobre a pesca do dia e comprar peixe",
+  "reg": "casual",
+  "steps": [
+    { "npc": ["おう、若いの！今日は大漁だぜ！見ていくか？", "Opa, jovem! Hoje a pesca foi farta! Quer dar uma olhada?"], "note": "おう e ～ぜ marcam a fala masculina, rude mas amigável. 若いの = \"ô, jovem\", de alguém bem mais velho." },
+    { "you": [
+      { "jp": "はい、ぜひ見たいです！", "pt": "Sim, quero muito ver!", "ok": true, "reg": "polido" },
+      { "jp": "はい、ぜひ見りたいです！", "pt": "(errado) Sim, quero muito ver!", "ok": false, "why": "見る é verbo -る (ichidan): tira-se o る e põe-se たい. 見たい, não 見りたい." },
+      { "jp": "おう、見せろよ！", "pt": "Falou, mostra aí!", "ok": false, "why": "Ele pode falar assim com você, mas o mais novo não devolve おう e o imperativo 見せろ. Diga ぜひ見たいです！", "reg": "casual" }
+    ] },
+    { "npc": ["見ろよ、このでっかいマグロ！今朝は三時に海に出たんだぜ。", "Olha só este atum enorme! Hoje saí para o mar às três da manhã."], "note": "でっかい = でかい = 大きい, coloquial e enfático. ～んだぜ: explica algo com orgulho, bem masculino." },
+    { "you": [
+      { "jp": "すごいですね！今日は何匹ぐらい釣れたんですか。", "pt": "Que incrível! Quantos peixes o senhor pegou hoje?", "ok": true, "reg": "polido" },
+      { "jp": "すごいですね！今日は何人ぐらい釣れたんですか。", "pt": "Que incrível! Quantas pessoas o senhor pescou hoje?", "ok": false, "why": "人 conta pessoas! Peixes e bichos pequenos usam 匹 (ひき): 何匹ぐらい釣れたんですか." },
+      { "jp": "すげえな、じいさん！何匹釣った？", "pt": "Que demais, velhote! Quantos pegou?", "ok": false, "why": "じいさん para um desconhecido e すげえ soam desrespeitosos. Pergunte: 何匹ぐらい釣れたんですか.", "reg": "casual" }
+    ] },
+    { "npc": ["数えきれねえほどだ！ははは！まあ、百匹は超えてるな。お前も何か買ってくか？", "Tantos que nem dá pra contar! Hahaha! Bom, passou de cem. Vai levar alguma coisa?"], "note": "～ねえ = ～ない na fala rude: 数えきれねえ = 数えきれない (impossível contar). 買ってく = 買っていく." },
+    { "you": [
+      { "jp": "じゃあ、アジを三匹ください。", "pt": "Então, me dá três carapaus, por favor.", "ok": true, "reg": "polido" },
+      { "jp": "じゃあ、アジを三匹くれ。", "pt": "Então, me passa três carapaus.", "ok": false, "why": "くれ é ordem seca: do mais novo para o mais velho soa grosseiro. Peça com ください.", "reg": "casual" },
+      { "jp": "じゃあ、アジが三匹ください。", "pt": "(errado) Então, três carapaus, por favor.", "ok": false, "why": "ください pede a partícula を: アジを三匹ください. が marca o sujeito, não o que você pede." }
+    ] },
+    { "npc": ["おう、まいど！三匹で六百円だ。……お前、腹減ってねえか？一匹焼いてやるよ。", "Opa, valeu! Três por 600 ienes. ... Ei, não tá com fome? Vou assar um pra você."], "note": "まいど (毎度) = valeu, obrigado pela preferência: é o que comerciantes dizem a quem compra." },
+    { "you": [
+      { "jp": "えっ、いいんですか。ありがとうございます！", "pt": "Nossa, sério? Muito obrigado!", "ok": true, "reg": "polido" },
+      { "jp": "はい、焼いてあげます！", "pt": "Sim, eu asso para o senhor!", "ok": false, "why": "焼いてやる (forma rude de ～てあげる) = ele vai assar PARA você. Você inverteu! Aceite: いいんですか？ありがとうございます！" },
+      { "jp": "腹減った！早く焼けよ！", "pt": "Tô morrendo de fome! Assa logo!", "ok": false, "why": "腹減った e o imperativo 焼けよ são rudes, ainda mais com quem te faz um favor. Agradeça: ありがとうございます！", "reg": "casual" }
+    ] },
+    { "npc": ["ほらよ、焼きたてだ！どうだ、うめえだろ？", "Toma, acabou de sair do fogo! E aí, não tá bom demais?"], "note": "～たて = recém-feito: 焼きたて (recém-assado), できたて (recém-pronto)." },
+    { "you": [
+      { "jp": "はい、すごくおいしいです！", "pt": "Sim, está muito gostoso!", "ok": true, "reg": "polido" },
+      { "jp": "うん、うめえ！", "pt": "Aham, tá bom pra caramba!", "ok": false, "why": "うめえ é bem rude. Ele pode falar assim, mas a um senhor que você mal conhece: すごくおいしいです！", "reg": "casual" },
+      { "jp": "はい、すごくまずいです！", "pt": "Sim, está horrível!", "ok": false, "why": "まずい = ruim, sem gosto! Gostoso é うまい ou おいしい: すごくおいしいです！" }
+    ] },
+    { "npc": ["だろ！……おっと、そろそろ船の掃除だ。じゃあな、若いの！", "Né! ... Opa, hora de limpar o barco. Falou, jovem!"], "note": "じゃあな = tchau, casual e masculino. うめえ, だろ, ～ねえ: é bom entender, mas use só com amigos bem próximos." },
+    { "you": [
+      { "jp": "ありがとうございました！また来ます！", "pt": "Muito obrigado! Volto outra vez!", "ok": true, "reg": "polido" },
+      { "jp": "あばよ、じいさん！", "pt": "Valeu, velhote, fui!", "ok": false, "why": "あばよ é despedida de malandro, e じいさん a um senhor que você mal conhece é grosseiro. Diga ありがとうございました！", "reg": "anime" },
+      { "jp": "どういたしまして！", "pt": "De nada!", "ok": false, "why": "Quem agradece é você: ele te vendeu o peixe e ainda assou um. Diga ありがとうございました！" }
+    ] },
+    { "npc": ["おう、いつでも来いよ！", "Opa, aparece quando quiser!"] }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "atraso",
+  "title": "Atrasado no trabalho",
+  "sub": "Pedir desculpas à chefe com keigo, explicar e prometer",
+  "reg": "keigo",
+  "steps": [
+    { "npc": ["○○さん、おはようございます。もう朝礼は終わりましたよ。", "Bom dia, ○○. A reunião da manhã (朝礼) já acabou, viu?"], "note": "Atrasar no Japão é coisa séria. A ordem: 1) pedir desculpas, 2) explicar em poucas palavras, 3) prometer que não vai se repetir." },
+    { "you": [
+      { "jp": "課長、遅れてしまい、申し訳ございません。", "pt": "Chefe, peço mil desculpas pelo atraso.", "ok": true, "reg": "keigo" },
+      { "jp": "ごめん、遅れちゃった！", "pt": "Foi mal, me atrasei!", "ok": false, "reg": "casual", "why": "Com a chefe, ごめん e 〜ちゃった soam desrespeitosos. Use keigo: 遅れてしまい、申し訳ございません." },
+      { "jp": "電車が遅れたからです。", "pt": "É porque o trem atrasou.", "ok": false, "why": "Justificar antes de se desculpar soa como 言い訳 (desculpa esfarrapada). Primeiro: 申し訳ございません." }
+    ] },
+    { "npc": ["何があったんですか。連絡もありませんでしたね。", "O que aconteceu? Você nem avisou."] },
+    { "you": [
+      { "jp": "電車が事故で止まってしまいまして…。連絡もせず、失礼いたしました。", "pt": "O trem parou por causa de um acidente... Desculpe não ter avisado.", "ok": true, "reg": "keigo" },
+      { "jp": "電車が事故で止まっていらっしゃいました。", "pt": "(errado) O trem 'se dignou' a parar por um acidente.", "ok": false, "reg": "keigo", "why": "いらっしゃる é honorífico para pessoas, não para trens. Diga: 電車が止まってしまいまして…" },
+      { "jp": "電車のせいです。私は悪くありません。", "pt": "A culpa é do trem. Eu não tenho culpa.", "ok": false, "why": "Mesmo sem culpa, dizer isso à chefe soa como fugir da responsabilidade. Explique e assuma: 失礼いたしました." }
+    ] },
+    { "npc": ["そうでしたか。でも、遅れるときは、必ず先に連絡してくださいね。", "Ah, foi isso. Mas, quando for se atrasar, avise antes sem falta, tá?"], "note": "報連相 (ほうれんそう: 報告・連絡・相談 = relatar, avisar, consultar) é regra de ouro no trabalho japonês. Vai se atrasar? Ligue antes!" },
+    { "you": [
+      { "jp": "はい、承知いたしました。", "pt": "Sim, entendido.", "ok": true, "reg": "keigo" },
+      { "jp": "了解です！", "pt": "Beleza, entendido!", "ok": false, "why": "Muitos chefes acham 了解です informal, de igual para igual. Para superiores: 承知いたしました ou かしこまりました." },
+      { "jp": "はい、必ずご連絡なさいます。", "pt": "(errado) Sim, eu 'me dignarei' a avisar sem falta.", "ok": false, "reg": "keigo", "why": "なさる é honorífico (para a chefe). Para a sua ação use o humilde: 必ずご連絡いたします." }
+    ] },
+    { "npc": ["十時から会議ですが、資料の準備はできていますか。", "A reunião é às dez. Os materiais estão prontos?"] },
+    { "you": [
+      { "jp": "申し訳ございません、まだです。すぐに準備いたします。", "pt": "Desculpe, ainda não. Vou preparar agora mesmo.", "ok": true, "reg": "keigo" },
+      { "jp": "まだです。すぐに準備してあげます。", "pt": "Ainda não. Já já eu preparo para a senhora (como favor).", "ok": false, "why": "〜てあげる para a chefe soa como 'te faço um favor'. Use o humilde: すぐに準備いたします." },
+      { "jp": "まだっすけど、余裕っす。", "pt": "Ainda não, mas tá de boa.", "ok": false, "reg": "giria", "why": "っす e 余裕 são gíria: com a chefe soam desleixados. Use keigo: すぐに準備いたします." }
+    ] },
+    { "npc": ["お願いします。それと、林商事様からのメールも、あとで確認しておいてください。", "Por favor. E depois veja também o e-mail da Hayashi Comércio."] },
+    { "you": [
+      { "jp": "はい、すぐに拝見します。", "pt": "Sim, vou ler agora mesmo.", "ok": true, "reg": "keigo" },
+      { "jp": "はい、すぐにご覧になります。", "pt": "(errado) Sim, eu 'me dignarei' a ver agora mesmo.", "ok": false, "reg": "keigo", "why": "ご覧になる é honorífico (para o outro). Para o seu 'ver', use o humilde: 拝見します." },
+      { "jp": "うん、あとで見とくね。", "pt": "Tá, depois eu dou uma olhada.", "ok": false, "reg": "casual", "why": "うん e 見とくね são casuais demais com a chefe. Use o humilde: すぐに拝見します." }
+    ] },
+    { "npc": ["わかりました。今回は仕方ありませんが、次からは気をつけてくださいね。", "Tudo bem. Desta vez não teve jeito, mas da próxima tome cuidado, viu?"] },
+    { "you": [
+      { "jp": "はい。今後このようなことがないよう、十分注意いたします。", "pt": "Sim. Vou tomar todo o cuidado para que isso não se repita.", "ok": true, "reg": "keigo" },
+      { "jp": "課長も気をつけてくださいね。", "pt": "A senhora também tome cuidado, viu?", "ok": false, "why": "Quem deve prometer cuidado é você, não aconselhar a chefe! Diga: 今後このようなことがないよう、十分注意いたします." },
+      { "jp": "ですよね、今回は仕方ないですよね！", "pt": "Pois é, desta vez não teve jeito, né!", "ok": false, "why": "Só a chefe pode dizer 仕方ない; você repetir soa como pouco caso. Prometa: 今後、十分注意いたします." }
+    ] },
+    { "npc": ["はい。では、会議の準備、よろしくお願いしますね。", "Certo. Então, conto com você para preparar a reunião."] }
+  ]
+}
