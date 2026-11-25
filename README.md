@@ -55,9 +55,13 @@ pode **responder falando** pelo microfone.
   cronômetro e tipos variados de pergunta (significado, ouvir, leitura do kanji, completar a frase, forma
   polida, **digitar em romaji** com conversão para kana ao vivo, e **falar**).
 - **Palavras no mundo:** objetos, animais e placas têm palavras flutuando. Chegue perto e examine.
-- **Conversas de verdade:** loja de conveniência, pedir direções ao policial, comprar passagem, médico,
-  check-in no ryokan, entrevista de emprego, reunião e telefonema de negócios — escolhendo a fala certa,
-  com explicação quando o registro está errado.
+- **32 conversas de verdade:** loja de conveniência, restaurante, mercado, loja de roupas, floricultura,
+  farmácia e médico, pedir direções e achados e perdidos com o policial, comprar passagem, check-in no
+  ryokan, termas, cerimônia do chá, entrevista de emprego, reunião, chegar atrasado no trabalho, os
+  vizinhos novos, aula e clube da escola, amigos, otaku de anime, live de streamer, fã de idol,
+  entrevista de rua na TV, santuário e omikuji, monge zen, político em keigo, pescador, o fantasma
+  samurai e a tia de Osaka em dialeto de Kansai — escolhendo a fala certa, com explicação quando o
+  registro está errado.
 - **Os registros do japonês:** polido (です/ます), casual (タメ口), **keigo** honorífico e humilde,
   **gírias** e internet, **fala de anime** (役割語), **japonês antigo** de samurai e dos clássicos, e o
   **dialeto de Kansai**. Uma tabela compara como cada registro diz a mesma coisa, e um exercício treina
@@ -86,6 +90,11 @@ Onze lugares, abertos pela quantidade de palavras aprendidas (uma névoa cinza b
 
 As palavras de nível mais alto também se abrem com o total aprendido: **N4 com 250, N3 com 800, N2 com
 2.400 e N1 com 4.000 palavras**. Os títulos vão de 旅人 *Viajante* a 言霊使い *Senhor do Kotodama*.
+
+**O final:** com 10.000 folhas, fale com a Kotonoha-hime no coração da Grande Árvore. A árvore floresce
+inteira, a câmera voa sobre a ilha colorida, a Kon espera no píer onde tudo começou e os créditos mostram
+a sua jornada. Depois ainda dá para buscar o **Domínio Total 完全制覇**: todos os 2.136 kanji, as 32
+conversas, os 10 selos das Grandes Sombras e todos os kana (o progresso fica no Livro → Estatísticas).
 
 O jogo **salva sozinho** a cada 30 segundos, ao fim de cada atividade e quando o app é fechado, em 3
 espaços. Em **Carregar**, cada jornada pode ser exportada como código ou arquivo e importada em outro
