@@ -1,0 +1,45 @@
+{
+  "id": "achados",
+  "title": "Achados e perdidos",
+  "sub": "Contar à policial que perdeu a carteira e descrever como ela é",
+  "reg": "polido",
+  "steps": [
+    { "npc": ["こんにちは。どうかしましたか？", "Boa tarde. Aconteceu alguma coisa?"], "note": "交番 (こうばん) é o posto policial do bairro: ajuda com direções e com achados e perdidos." },
+    { "you": [
+      { "jp": "すみません、財布をなくしてしまったんです。", "pt": "Com licença, eu perdi a minha carteira.", "ok": true, "reg": "polido" },
+      { "jp": "すみません、財布を忘れてしまったんです。", "pt": "Com licença, eu esqueci a minha carteira.", "ok": false, "why": "忘れる = esquecer (ex.: deixou em casa). Se você não sabe onde ela está: なくしてしまったんです." },
+      { "jp": "すみません、財布を落としてあげました。", "pt": "(errado) Com licença, deixei cair a carteira para você.", "ok": false, "why": "～てあげる = fazer um favor a alguém. Para lamentar uma perda use ～てしまう: なくしてしまったんです." }
+    ] },
+    { "npc": ["それは大変ですね。どんな財布ですか？", "Que chato. Como é a carteira?"], "note": "どんな = que tipo de, como é: どんな財布 = que carteira, como ela é?" },
+    { "you": [
+      { "jp": "黒くて、小さい財布です。", "pt": "É uma carteira preta e pequena.", "ok": true, "reg": "polido" },
+      { "jp": "黒いて、小さい財布です。", "pt": "(errado) É uma carteira preta e pequena.", "ok": false, "why": "Para ligar adjetivos -い, troque o い final por くて: 黒い → 黒くて、小さい財布です." },
+      { "jp": "黒くてちっちゃいやつ。", "pt": "A preta e pequenininha.", "ok": false, "why": "ちっちゃい e やつ são coloquiais demais com a polícia. Use です: 黒くて、小さい財布です.", "reg": "casual" }
+    ] },
+    { "npc": ["中には何が入っていましたか？", "O que tinha dentro?"] },
+    { "you": [
+      { "jp": "お金が三千円ぐらいと、カードが一枚入っていました。", "pt": "Uns 3.000 ienes e um cartão.", "ok": true, "reg": "polido" },
+      { "jp": "お金が三千円ぐらいと、カードが一枚入れていました。", "pt": "(errado) Uns 3.000 ienes e um cartão \"colocavam\".", "ok": false, "why": "入れる = colocar (alguém põe algo). Para dizer o que estava dentro: が + 入っていました." },
+      { "jp": "お金が三千円ぐらいと、カードが一本入っていました。", "pt": "(errado) Uns 3.000 ienes e um cartão (contado como objeto comprido).", "ok": false, "why": "本 conta coisas longas e finas (canetas, garrafas). Cartões e papéis usam 枚 (まい): カードが一枚." }
+    ] },
+    { "npc": ["いつ、どこでなくしましたか？", "Quando e onde você a perdeu?"] },
+    { "you": [
+      { "jp": "たぶん、昨日の夕方、駅の近くで落としたと思います。", "pt": "Acho que deixei cair ontem no fim da tarde, perto da estação.", "ok": true, "reg": "polido" },
+      { "jp": "たぶん、明日の夕方、駅の近くで落としたと思います。", "pt": "Acho que deixei cair amanhã no fim da tarde, perto da estação.", "ok": false, "why": "明日 (あした) = amanhã! Para o passado: 昨日 (きのう) = ontem." },
+      { "jp": "たぶん昨日、駅らへんで落とした。", "pt": "Acho que foi ontem, lá pelos lados da estação.", "ok": false, "why": "らへん e a forma simples são casuais demais com a polícia. Use です/ます: 落としたと思います.", "reg": "casual" }
+    ] },
+    { "npc": ["わかりました。……あ、ちょっと待ってください。今朝、黒い財布が届いています。これですか？", "Entendido. ... Ah, espere um pouco. Hoje de manhã entregaram uma carteira preta. É esta?"], "note": "No Japão é comum entregar à polícia o que se acha: todo ano, bilhões de ienes perdidos são devolvidos." },
+    { "you": [
+      { "jp": "あっ、それです！よかった……。", "pt": "Ah, é essa! Que alívio...", "ok": true, "reg": "polido" },
+      { "jp": "あっ、これです！よかった……。", "pt": "Ah, é esta (aqui comigo)! Que alívio...", "ok": false, "why": "A carteira está na mão dela, perto de quem ouve: use それ. これ é o que está perto de você." },
+      { "jp": "あっ、それです！残念です……。", "pt": "Ah, é essa! Que pena...", "ok": false, "why": "残念 = que pena! Você achou a carteira: よかった (que bom, que alívio)." }
+    ] },
+    { "npc": ["よかったですね。中身を確認して、ここにサインをお願いします。", "Que bom. Confira o que tem dentro e assine aqui, por favor."], "note": "確認 (かくにん) = conferir. サイン = assinatura (do inglês sign)." },
+    { "you": [
+      { "jp": "本当にありがとうございました。助かりました。", "pt": "Muito obrigado mesmo. Você me salvou.", "ok": true, "reg": "polido" },
+      { "jp": "本当にありがとうございました。助けました。", "pt": "(errado) Muito obrigado mesmo. Eu salvei alguém.", "ok": false, "why": "助ける = salvar, ajudar (alguém). Para \"fui salvo, você me ajudou\": 助かりました." },
+      { "jp": "どうも、お疲れ！", "pt": "Valeu, bom trabalho!", "ok": false, "why": "お疲れ！ é casual, entre colegas. À policial que te ajudou: 本当にありがとうございました.", "reg": "casual" }
+    ] },
+    { "npc": ["いいえ。これからは気をつけてくださいね。", "Imagina. De agora em diante, tome cuidado, viu?"] }
+  ]
+}

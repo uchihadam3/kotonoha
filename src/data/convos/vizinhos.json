@@ -1,0 +1,45 @@
+{
+  "id": "vizinhos",
+  "title": "Os novos vizinhos",
+  "sub": "Cumprimentar a vovó vizinha com um presente ao se mudar para a vila",
+  "reg": "polido",
+  "steps": [
+    { "npc": ["はーい、どちら様ですか？", "Siiim, quem é?"], "note": "Na porta de uma casa japonesa chama-se ごめんください (com licença, tem alguém?) e espera-se atender." },
+    { "you": [
+      { "jp": "はじめまして。隣に引っ越してきた○○です。", "pt": "Muito prazer. Sou ○○, acabei de me mudar para a casa ao lado.", "ok": true, "reg": "polido" },
+      { "jp": "はじめまして。隣に引っ越していった○○です。", "pt": "Muito prazer. Sou ○○, que se mudou daqui para longe.", "ok": false, "why": "～ていく = afastar-se. Quem acabou de chegar diz ～てくる: 隣に引っ越してきた○○です." },
+      { "jp": "よっ、隣の○○だよ！", "pt": "E aí, sou o ○○ da casa ao lado!", "ok": false, "why": "Com uma senhora que você ainda não conhece, use o polido: 隣に引っ越してきた○○です.", "reg": "casual" }
+    ] },
+    { "npc": ["あらまあ、ご丁寧に。はるです、よろしくね。", "Ora, que gentileza. Eu sou a Haru, muito prazer."], "note": "Ela fala casual e carinhosa (～よ, ～ね) por ser mais velha. Você, mais novo, continua no polido." },
+    { "you": [
+      { "jp": "これ、つまらないものですが、どうぞ。", "pt": "É só uma lembrancinha à toa, mas aceite, por favor.", "ok": true, "reg": "polido" },
+      { "jp": "これ、すごくいいものですから、どうぞ。", "pt": "Isto é uma coisa muito boa, então aceite.", "ok": false, "why": "Elogiar o próprio presente soa arrogante. A fórmula de praxe é humilde: つまらないものですが、どうぞ." },
+      { "jp": "これ、つまらないですが、どうぞ。", "pt": "Isto é chato, mas aceite.", "ok": false, "why": "つまらない sozinho = \"é chato\". A fórmula diminui o OBJETO com humildade: つまらないものですが." }
+    ] },
+    { "npc": ["まあ、タオル！ありがとうね。そんなに気を遣わなくていいのに。", "Ah, toalhas! Obrigada. Não precisava se incomodar."], "note": "No 引っ越しの挨拶 leva-se algo prático: toalha, doces, detergente. Hoje muitos preferem dizer ほんの気持ちですが." },
+    { "you": [
+      { "jp": "いいえ。これからお世話になります。よろしくお願いします。", "pt": "Imagina. Conto com a senhora daqui em diante. Muito prazer.", "ok": true, "reg": "polido" },
+      { "jp": "はい、気を遣いませんでした。", "pt": "É, não me incomodei, não.", "ok": false, "why": "Ela só está sendo gentil: não concorde ao pé da letra! Responda com humildade: いいえ、これからお世話になります." },
+      { "jp": "いいえ。これからお世話をします。", "pt": "Imagina. De agora em diante eu cuido da senhora.", "ok": false, "why": "お世話をする = cuidar de alguém (criança, idoso)! Para \"conto com a sua ajuda\": お世話になります." }
+    ] },
+    { "npc": ["こちらこそ。あ、そうそう、この辺のゴミの日は月曜日と木曜日よ。朝八時までに出してね。", "Igualmente. Ah, é mesmo: aqui o dia do lixo é segunda e quinta. Ponha para fora até as 8h da manhã, tá?"], "note": "No Japão o lixo é separado (queimável, plástico, garrafas…) e cada tipo tem dia e hora. Respeitar isso é essencial com os vizinhos." },
+    { "you": [
+      { "jp": "月曜日と木曜日の朝八時までですね。わかりました。", "pt": "Segunda e quinta, até as 8h da manhã, certo? Entendi.", "ok": true, "reg": "polido" },
+      { "jp": "火曜日と金曜日の朝八時までですね。わかりました。", "pt": "Terça e sexta, até as 8h da manhã, certo? Entendi.", "ok": false, "why": "月曜日 (げつようび) = segunda; 木曜日 (もくようび) = quinta. 火曜日 é terça e 金曜日, sexta." },
+      { "jp": "月曜日と木曜日の朝八時からですね。わかりました。", "pt": "Segunda e quinta, a partir das 8h da manhã, certo? Entendi.", "ok": false, "why": "から = a partir de; まで(に) = até. Ela disse 八時までに: até as 8h." }
+    ] },
+    { "npc": ["そうそう。よかったら、お茶でも飲んでいく？", "Isso mesmo. Se quiser, não quer tomar um chazinho?"] },
+    { "you": [
+      { "jp": "ありがとうございます。じゃあ、お邪魔します。", "pt": "Obrigado. Então, com licença (vou entrar).", "ok": true, "reg": "polido" },
+      { "jp": "ありがとうございます。じゃあ、ただいま。", "pt": "Obrigado. Então, cheguei!", "ok": false, "why": "ただいま é ao chegar na SUA casa. Ao entrar na casa dos outros: お邪魔します." },
+      { "jp": "ありがとうございます。じゃあ、お邪魔しました。", "pt": "Obrigado. Então, desculpe o incômodo (já vou).", "ok": false, "why": "お邪魔しました, no passado, é dito ao IR EMBORA. Ao entrar: お邪魔します." }
+    ] },
+    { "npc": ["はい、どうぞ。熱いから気をつけてね。遠慮しないで、おせんべいも食べてね。", "Aqui está. Está quente, cuidado. Não faça cerimônia, coma as bolachinhas de arroz também."], "note": "遠慮 (えんりょ) = cerimônia, acanhamento. 遠慮しないで = fique à vontade, não se acanhe." },
+    { "you": [
+      { "jp": "じゃあ、遠慮なくいただきます。", "pt": "Então, sem cerimônia, vou aceitar.", "ok": true, "reg": "polido" },
+      { "jp": "じゃあ、遠慮していただきます。", "pt": "(errado) Então, com cerimônia, vou aceitar.", "ok": false, "why": "遠慮して = me contendo, com cerimônia. A expressão é 遠慮なく (sem cerimônia): 遠慮なくいただきます." },
+      { "jp": "じゃあ、遠慮なく召し上がります。", "pt": "(errado) Então, sem cerimônia, eu \"me digno\" a comer.", "ok": false, "why": "召し上がる é honorífico, para quem come quando é o OUTRO. Para você: いただきます.", "reg": "keigo" }
+    ] },
+    { "npc": ["ふふ、礼儀正しい子だねえ。困ったことがあったら、いつでも言ってね。", "Hehe, que jovem educado. Se precisar de alguma coisa, pode me falar quando quiser."], "note": "Ao se mudar, costuma-se visitar as casas da frente e dos lados (向こう三軒両隣). Isso abre muitas portas na vizinhança!" }
+  ]
+}

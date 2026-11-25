@@ -139,16 +139,31 @@ export class Book {
     b.appendChild(h(`<h3>${title}</h3>`));
     const grid = h(`<div class="wgrid"></div>`);
     const floor = L.levelFloor();
-    for (const w of list.slice(0, 600)) {
-      const it = L.get('w:' + w.id);
-      const st = it?.s ?? 0;
-      const c = it ? STAGE_INFO[Math.min(st, 9)].color : '#3a3a48';
-      const locked = !it && w.n < floor;
-      const cell = h(`<button class="wcell ${locked ? 'locked' : ''}" style="--c:${c}"><span class="jp">${esc(w.w)}</span><small>${it ? esc(w.r) + ' · ' + esc(w.pt.split(';')[0]) : locked ? `N${w.n} 🔒` : `N${w.n} · ${esc(w.pt.split(';')[0])}`}</small></button>`);
-      cell.addEventListener('click', () => this.showWord(w));
-      grid.appendChild(cell);
-    }
-    b.appendChild(grid);
+    // big themes have 1 000+ words: draw them in pages so phones stay smooth
+    const PAGE = 240;
+    let shown = 0;
+    const more = h(`<button class="mbtn small ghost" style="margin:12px auto 0"></button>`);
+    const addPage = () => {
+      for (const w of list.slice(shown, shown + PAGE)) {
+        const it = L.get('w:' + w.id);
+        const st = it?.s ?? 0;
+        const c = it ? STAGE_INFO[Math.min(st, 9)].color : '#3a3a48';
+        const locked = !it && w.n < floor;
+        const cell = h(`<button class="wcell ${locked ? 'locked' : ''}" style="--c:${c}"><span class="jp">${esc(w.w)}</span><small>${it ? esc(w.r) + ' · ' + esc(w.pt.split(';')[0]) : locked ? `N${w.n} 🔒` : `N${w.n} · ${esc(w.pt.split(';')[0])}`}</small></button>`);
+        cell.addEventListener('click', () => this.showWord(w));
+        grid.appendChild(cell);
+      }
+      shown = Math.min(list.length, shown + PAGE);
+      const left = list.length - shown;
+      more.textContent = `Mostrar mais (${fmtNum(left)} restantes)`;
+      more.style.display = left > 0 ? 'flex' : 'none';
+    };
+    more.addEventListener('click', () => {
+      sfx.click();
+      addPage();
+    });
+    addPage();
+    b.append(grid, more);
   }
 
   private showWord(w: Word) {
