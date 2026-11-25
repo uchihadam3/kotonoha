@@ -134,8 +134,14 @@ export class App {
     this.titleOrbit?.();
     this.titleOrbit = this.engine.onFrame(({ dt, t }) => {
       const a = t * 0.045 + 2.2;
-      const r = 118;
+      const portrait = cam.aspect < 0.9;
+      const r = portrait ? 150 : 118;
       cam.position.set(base.x + Math.cos(a) * r, base.y + 26 + Math.sin(t * 0.1) * 4, base.z + Math.sin(a) * r);
+      if (portrait) {
+        cam.lookAt(base.x, base.y + 64, base.z);
+        w.update(dt, t, cam);
+        return;
+      }
       // on wide screens keep the tree in the right third (logo and menu on the left)
       const wide = cam.aspect > 1.15 ? Math.min(1, (cam.aspect - 1.15) * 1.6) : 0;
       const side = 34 * wide;

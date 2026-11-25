@@ -58,12 +58,15 @@ const P = {
   rock: '#8f8c96', rock2: '#77737f', moss: '#6f9a52',
 };
 
+let puffDetail = 1;
 function puff(b: Builder, r: number, color: string, x: number, y: number, z: number, sy = 0.8) {
-  b.add(new THREE.IcosahedronGeometry(r, 1), color, { x, y, z, sy });
+  b.add(new THREE.IcosahedronGeometry(r, puffDetail), color, { x, y, z, sy });
 }
 
 export function treeGeometry(kind: TreeKind, seed = 1): THREE.BufferGeometry {
   const b = new Builder();
+  // only the iconic cherry trees keep rounder canopies; the rest are low-poly
+  puffDetail = kind === 'sakura' ? 1 : 0;
   const r = new Rng(seed * 7919 + kind.length);
   switch (kind) {
     case 'sakura': {
@@ -138,12 +141,12 @@ export function treeGeometry(kind: TreeKind, seed = 1): THREE.BufferGeometry {
       break;
     }
     case 'bamboo': {
-      for (let i = 0; i < 6; i++) {
+      for (let i = 0; i < 5; i++) {
         const x = r.range(-1.2, 1.2), z = r.range(-1.2, 1.2), hgt = r.range(6, 9);
         const lean = r.range(-0.08, 0.08);
         b.cyl(0.07, 0.09, hgt, P.bamboo, { x, y: hgt / 2, z, rz: lean }, 6);
         for (let k = 1; k < 5; k++) b.cyl(0.095, 0.095, 0.06, '#6f9a44', { x: x - lean * k * 1.6, y: k * hgt / 5, z }, 6);
-        for (let k = 0; k < 4; k++) {
+        for (let k = 0; k < 2; k++) {
           const lg = leafGeometry(0.9, 0.22);
           b.add(lg, P.bambooLeaf, { x: x - lean * hgt, y: hgt - 0.6 - k * 0.5, z, rx: -1.2, rz: r.range(0, 6.28), ry: r.range(0, 6.28) });
         }
@@ -193,14 +196,21 @@ interface Inst {
   tilt?: number;
 }
 
-const CHUNK = 128;
+const CHUNK = 240;
 
 export class Vegetation {
   readonly group = new THREE.Group();
   private chunks: { kind: TreeKind; mesh: THREE.InstancedMesh; cx: number; cz: number; small: boolean }[] = [];
   private mats = new Map<string, THREE.Material>();
 
-  constructor(private density = 1) {}
+  bigRange = 430;
+  smallRange = 150;
+  constructor(private density = 1) {
+    if (density < 0.9) {
+      this.bigRange = 300;
+      this.smallRange = 105;
+    }
+  }
 
   /** extra hand-placed instances (regions add sakura around the school, etc.) */
   readonly extra: Map<TreeKind, Inst[]> = new Map();
@@ -274,7 +284,7 @@ export class Vegetation {
       }
     }
     for (const [k, list] of this.extra) for (const i of list) push(k, i);
-    const variants = 3;
+    const variants = 2;
     for (const [kind, list] of all) {
       const geos = Array.from({ length: kind === 'flowers' || kind === 'rock' || kind === 'bush' ? 2 : variants }, (_, v) => treeGeometry(kind, v + 1));
       const mat = this.material(kind);
@@ -323,7 +333,7 @@ export class Vegetation {
     for (const c of this.chunks) {
       const dx = (c.cx + 0.5) * CHUNK - cam.x, dz = (c.cz + 0.5) * CHUNK - cam.z;
       const d = Math.hypot(dx, dz);
-      c.mesh.visible = c.small ? d < 260 : d < 900;
+      c.mesh.visible = c.small ? d < this.smallRange : d < this.bigRange;
     }
   }
 }

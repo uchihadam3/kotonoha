@@ -185,7 +185,50 @@ export class Bursts {
     this.items.push({ obj: m, t: 0, life: 1.1, vel: new THREE.Vector3(), kind: 'ring', mat });
   }
 
+  /** a glowing leaf of light flying from a point to the Great Tree */
+  comet(from: THREE.Vector3, to: THREE.Vector3, color = '#9fffd2') {
+    const mat = new THREE.SpriteMaterial({ map: glowTex(), color, transparent: true, depthWrite: false, blending: THREE.AdditiveBlending, toneMapped: false, fog: false });
+    const head = new THREE.Sprite(mat);
+    head.scale.set(1.6, 1.6, 1);
+    head.position.copy(from);
+    const mid = from.clone().lerp(to, 0.35).add(new THREE.Vector3(0, 60 + from.distanceTo(to) * 0.15, 0));
+    const curve = new THREE.QuadraticBezierCurve3(from.clone(), mid, to.clone());
+    this.group.add(head);
+    const life = 3.2;
+    let t = 0;
+    let trailT = 0;
+    const item = { obj: head as THREE.Object3D, t: 0, life, vel: new THREE.Vector3(), kind: 'comet' as const, mat, curve, step: (dt: number) => {
+      t += dt;
+      const k = Math.min(1, t / life);
+      const e = k < 0.5 ? 2 * k * k : 1 - Math.pow(-2 * k + 2, 2) / 2;
+      head.position.copy(curve.getPoint(e));
+      head.scale.setScalar(1.6 + Math.sin(t * 20) * 0.2 + k * 6);
+      trailT -= dt;
+      if (trailT <= 0 && k < 0.95) {
+        trailT = 0.03;
+        const tm = new THREE.SpriteMaterial({ map: glowTex(), color, transparent: true, depthWrite: false, blending: THREE.AdditiveBlending, toneMapped: false, fog: false, opacity: 0.7 });
+        const sp = new THREE.Sprite(tm);
+        sp.position.copy(head.position);
+        sp.scale.setScalar(0.9 + k * 4);
+        this.group.add(sp);
+        this.items.push({ obj: sp, t: 0, life: 0.9, vel: new THREE.Vector3(0, 0.4, 0), kind: 'spark', mat: tm });
+      }
+    } };
+    this.comets.push(item);
+  }
+  private comets: { obj: THREE.Object3D; t: number; life: number; mat: THREE.Material & { opacity: number }; step: (dt: number) => void }[] = [];
+
   update(dt: number) {
+    for (let i = this.comets.length - 1; i >= 0; i--) {
+      const c = this.comets[i];
+      c.t += dt;
+      c.step(dt);
+      if (c.t >= c.life) {
+        this.group.remove(c.obj);
+        c.mat.dispose();
+        this.comets.splice(i, 1);
+      }
+    }
     for (let i = this.items.length - 1; i >= 0; i--) {
       const it = this.items[i];
       it.t += dt;

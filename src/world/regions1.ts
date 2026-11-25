@@ -133,7 +133,7 @@ export function buildVila(c: RegionCtx) {
   c.spot('bird', cx + 2, cz - 26, 1, { w: '鳥' });
   // people
   c.npc({
-    id: 'haru', name: 'Vovó Haru', jp: 'はるおばあちゃん', title: 'avó querida da vila', x: cx - 4, z: cz - 20, ry: 0, role: 'teacher',
+    id: 'haru', name: 'Vovó Haru', jp: 'はるおばあちゃん', title: 'avó querida da vila', x: cx - 4, z: cz - 20, ry: 0, convos: ['vizinhos'], role: 'teacher',
     themes: ['familia', 'casa'], registers: ['casual', 'polido'], voice: { pitch: 1.1, rate: 0.8 },
     greet: ['あら、いらっしゃい。ゆっくりしていってね。', 'Ah, seja bem-vindo. Fique à vontade.'],
     look: { skin: '#f6d2b8', hair: '#d8d8de', hairStyle: 'bun', outfit: 'kimono', top: '#8a5ab8', bottom: '#6a4a7a', accent: '#e9c46a', eyes: '#3a2a22', old: true, scale: 0.92 },
@@ -231,19 +231,19 @@ export function buildComercio(c: RegionCtx) {
   c.spot('sushi', cx - 28 + 2 * 13, cz + 9);
   // people
   c.npc({
-    id: 'yaoya', name: 'Sr. Ōta', jp: 'おおたさん', title: 'quitandeiro', x: cx - 28, z: cz - 4.6, ry: 0, role: 'teacher',
+    id: 'yaoya', name: 'Sr. Ōta', jp: 'おおたさん', title: 'quitandeiro', x: cx - 28, z: cz - 4.6, ry: 0, convos: ['mercado'], role: 'teacher',
     themes: ['comida', 'compras'], registers: ['keigo', 'polido'], voice: { pitch: 0.95, rate: 0.95 },
     greet: ['いらっしゃいませ！ 新鮮な 野菜、ありますよ！', 'Bem-vindo! Temos verduras fresquinhas!'],
     look: { skin: '#e9b996', hair: '#2a2126', hairStyle: 'short', outfit: 'apron', top: '#f2efe6', bottom: '#2a2a36', accent: '#3e8a5a', eyes: '#3a2a22', hat: 'headband' },
   });
   c.npc({
-    id: 'mio', name: 'Mio', jp: 'みお', title: 'estudante descolada', x: cx + 12, z: cz + 2, ry: -2, role: 'teacher',
+    id: 'mio', name: 'Mio', jp: 'みお', title: 'estudante descolada', x: cx + 12, z: cz + 2, ry: -2, convos: ['roupas'], role: 'teacher',
     themes: ['giria', 'roupas', 'onomatopeia'], registers: ['giria', 'casual'], voice: { pitch: 1.3, rate: 1.15 }, wander: 4,
     greet: ['え、マジ？ 外国の人？ ウケる〜！', 'Quê, sério? Você é estrangeiro? Que demais!'],
     look: { skin: '#e9b996', hair: '#e8c070', hairStyle: 'long', outfit: 'gyaru', top: '#f49ac0', bottom: '#2a2a36', accent: '#ffd36b', eyes: '#5a3a2a', lashes: true },
   });
   c.npc({
-    id: 'itamae', name: 'Mestre Sushi Jirō', jp: 'じろうさん', title: 'sushiman', x: cx - 2, z: cz + 4.8, ry: Math.PI, role: 'game', game: 'shop',
+    id: 'itamae', name: 'Mestre Sushi Jirō', jp: 'じろうさん', title: 'sushiman', x: cx - 2, z: cz + 4.8, ry: Math.PI, convos: ['restaurante'], role: 'game', game: 'shop',
     themes: ['comida', 'numeros'], registers: ['keigo', 'casual'], voice: { pitch: 0.8, rate: 0.95 },
     greet: ['へい、らっしゃい！ 何に しましょう？', 'Opa, entra! O que vai ser?'],
     look: { skin: '#e9b996', hair: '#2a2126', hairStyle: 'short', outfit: 'chef', top: '#ffffff', bottom: '#2a2a36', accent: '#1e2a4a', eyes: '#3a2a22', hat: 'kerchief' },
@@ -255,7 +255,7 @@ export function buildComercio(c: RegionCtx) {
     look: { skin: '#ffe3cf', hair: '#4a3226', hairStyle: 'pony', outfit: 'apron', top: '#3aa86a', bottom: '#2a2a36', accent: '#3aa86a', eyes: '#5a3a2a', lashes: true },
   });
   c.npc({
-    id: 'hanaya', name: 'Dona Yuri', jp: 'ゆりさん', title: 'florista', x: cx + 24, z: cz + 4.8, ry: Math.PI, role: 'teacher',
+    id: 'hanaya', name: 'Dona Yuri', jp: 'ゆりさん', title: 'florista', x: cx + 24, z: cz + 4.8, ry: Math.PI, convos: ['flores'], role: 'teacher',
     themes: ['cores', 'natureza'], registers: ['polido'], voice: { pitch: 1.2, rate: 0.95 },
     greet: ['きれいな 花が たくさん ありますよ。', 'Temos muitas flores bonitas.'],
     look: { skin: '#ffe3cf', hair: '#7a4a2e', hairStyle: 'bob', outfit: 'apron', top: '#f6b8cf', bottom: '#4a4a5a', accent: '#d85a7a', eyes: '#3a6a3a', lashes: true },
@@ -310,25 +310,25 @@ export function buildEscola(c: RegionCtx) {
   c.spot('hokora', cx + 16, cz + 12);
   // people
   c.npc({
-    id: 'yamada', name: 'Professora Yamada', jp: 'やまだせんせい', title: 'professora de japonês', x: cx, z: cz - 9, ry: 0, role: 'teacher',
+    id: 'yamada', name: 'Professora Yamada', jp: 'やまだせんせい', title: 'professora de japonês', x: cx, z: cz - 9, ry: 0, convos: ['aula'], role: 'teacher',
     themes: ['gramatica', 'verbos', 'escola'], registers: ['polido'], voice: { pitch: 1.1, rate: 0.9 },
     greet: ['はい、皆さん、こんにちは。今日も 一緒に 勉強しましょう。', 'Muito bem, pessoal, boa tarde. Vamos estudar juntos hoje também.'],
     look: { skin: '#ffe3cf', hair: '#2a2126', hairStyle: 'bun', outfit: 'suit', top: '#3a5a8a', bottom: '#2a2a36', accent: '#e88aa8', eyes: '#3a2a22', glasses: true, lashes: true },
   });
   c.npc({
-    id: 'yui', name: 'Yui', jp: 'ゆい', title: 'colega de classe', x: cx + 6, z: cz + 6, ry: -2.6, role: 'teacher',
+    id: 'yui', name: 'Yui', jp: 'ゆい', title: 'colega de classe', x: cx + 6, z: cz + 6, ry: -2.6, convos: ['amigos'], role: 'teacher',
     themes: ['tempo', 'adjetivos', 'casual'], registers: ['casual'], voice: { pitch: 1.3, rate: 1.05 }, wander: 5,
     greet: ['あ、転校生？ よろしくね！', 'Ah, você é o aluno novo? Prazer!'],
     look: { skin: '#ffe3cf', hair: '#4a3226', hairStyle: 'pony', outfit: 'schoolF', top: '#f2efe6', bottom: '#2a3a6a', accent: '#c8442f', eyes: '#5a3a2a', lashes: true },
   });
   c.npc({
-    id: 'riku', name: 'Riku', jp: 'りく', title: 'atleta da escola', x: fx - 8, z: fz + 6, ry: 1.2, role: 'teacher',
+    id: 'riku', name: 'Riku', jp: 'りく', title: 'atleta da escola', x: fx - 8, z: fz + 6, ry: 1.2, convos: ['clube'], role: 'teacher',
     themes: ['corpo', 'verbos'], registers: ['casual'], voice: { pitch: 1.05, rate: 1.1 }, wander: 8,
     greet: ['おっす！ 走るの、好き？', 'E aí! Você gosta de correr?'],
     look: { skin: '#e9b996', hair: '#2a2126', hairStyle: 'messy', outfit: 'schoolM', top: '#1e2236', bottom: '#1e2236', accent: '#e9c46a', eyes: '#3a2a22' },
   });
   c.npc({
-    id: 'akira', name: 'Akira', jp: 'あきら', title: 'otaku do clube de mangá', x: cx - 22, z: cz - 2, ry: 1.4, role: 'teacher',
+    id: 'akira', name: 'Akira', jp: 'あきら', title: 'otaku do clube de mangá', x: cx - 22, z: cz - 2, ry: 1.4, convos: ['anime'], role: 'teacher',
     themes: ['anime'], registers: ['anime'], voice: { pitch: 1.0, rate: 1.15 },
     greet: ['ふっ……ついに 来たか、選ばれし者よ！', 'Hmpf... finalmente você veio, ó escolhido!'],
     look: { skin: '#ffe3cf', hair: '#3a2a4a', hairStyle: 'spiky', outfit: 'otaku', top: '#2a2a36', bottom: '#3a3a48', accent: '#b48cff', eyes: '#2a4a7a', glasses: true },
@@ -396,19 +396,19 @@ export function buildSantuario(c: RegionCtx) {
   c.spot('hokora', cx + 8, cz + 14);
   // people
   c.npc({
-    id: 'kannushi', name: 'Sacerdote Kiyomasa', jp: 'きよまさ宮司', title: 'sacerdote do santuário', x: cx + 3, z: cz - 12.5, ry: 0, role: 'teacher',
+    id: 'kannushi', name: 'Sacerdote Kiyomasa', jp: 'きよまさ宮司', title: 'sacerdote do santuário', x: cx + 3, z: cz - 12.5, ry: 0, convos: ['santuario'], role: 'teacher',
     themes: ['keigo', 'historia'], registers: ['keigo'], voice: { pitch: 0.8, rate: 0.85 },
     greet: ['ようこそ お参りくださいました。', 'Seja muito bem-vindo à sua visita ao santuário.'],
     look: { skin: '#f6d2b8', hair: '#2a2126', hairStyle: 'short', outfit: 'priest', top: '#f4f1ea', bottom: '#5a6ea8', accent: '#e9c46a', eyes: '#3a2a22', hat: 'eboshi' },
   });
   c.npc({
-    id: 'miko', name: 'Sakura', jp: 'さくら', title: 'sacerdotisa (miko)', x: cx + 12, z: cz + 3, ry: -0.6, role: 'teacher',
+    id: 'miko', name: 'Sakura', jp: 'さくら', title: 'sacerdotisa (miko)', x: cx + 12, z: cz + 3, ry: -0.6, convos: ['omikuji'], role: 'teacher',
     themes: ['sentimentos', 'adverbios'], registers: ['polido'], voice: { pitch: 1.25, rate: 0.95 },
     greet: ['こんにちは。今日の 運勢を 占ってみませんか？', 'Boa tarde. Que tal ver a sua sorte de hoje?'],
     look: { skin: '#ffe3cf', hair: '#2a2126', hairStyle: 'long', outfit: 'miko', top: '#f4f1ea', bottom: '#c8442f', accent: '#ffffff', eyes: '#3a2a22', lashes: true, hat: 'bow' },
   });
   c.npc({
-    id: 'samurai', name: 'Espírito Musashi', jp: 'むさし', title: 'fantasma de samurai', x: cx - 12, z: cz - 26, ry: 0.6, role: 'teacher',
+    id: 'samurai', name: 'Espírito Musashi', jp: 'むさし', title: 'fantasma de samurai', x: cx - 12, z: cz - 26, ry: 0.6, convos: ['samurai'], role: 'teacher',
     themes: ['antigo'], registers: ['antigo'], voice: { pitch: 0.6, rate: 0.8 },
     greet: ['拙者、武士の 霊で ござる。', 'Este humilde é o espírito de um samurai.'],
     look: { skin: '#cfe0ff', hair: '#1e2236', hairStyle: 'topknot', outfit: 'samurai', top: '#4a5a8a', bottom: '#2a3a5a', accent: '#e9c46a', eyes: '#1e2236', ghost: true },
@@ -486,19 +486,19 @@ export function buildPorto(c: RegionCtx) {
   });
   c.npc({
     id: 'police', name: 'Policial Mizuki', jp: 'みずきさん', title: 'policial do kōban', x: cx - 24, z: cz - 4.8, ry: 0.2, role: 'talk',
-    themes: ['cidade', 'adverbios'], registers: ['polido'], voice: { pitch: 1.1, rate: 0.95 }, convos: ['direcoes'],
+    themes: ['cidade', 'adverbios'], registers: ['polido'], voice: { pitch: 1.1, rate: 0.95 }, convos: ['direcoes', 'achados'],
     greet: ['こんにちは。道に 迷いましたか？', 'Boa tarde. Está perdido?'],
     look: { skin: '#ffe3cf', hair: '#2a2126', hairStyle: 'bob', outfit: 'suit', top: '#2a3a6a', bottom: '#2a3a6a', accent: '#e9c46a', eyes: '#3a2a22', hat: 'cap', lashes: true },
   });
   c.npc({
-    id: 'gyoshi', name: 'Capitão Tetsu', jp: 'てつ船長', title: 'pescador veterano', x: cx + 34, z: cz - 12, ry: -1.6, role: 'teacher',
+    id: 'gyoshi', name: 'Capitão Tetsu', jp: 'てつ船長', title: 'pescador veterano', x: cx + 34, z: cz - 12, ry: -1.6, convos: ['pescador'], role: 'teacher',
     themes: ['acoes', 'trabalho'], registers: ['casual'], voice: { pitch: 0.7, rate: 0.95 },
     greet: ['おう、若いの！ 今日は 大漁だぜ！', 'Opa, jovem! Hoje a pesca foi farta!'],
     look: { skin: '#9a6648', hair: '#3a3036', hairStyle: 'short', outfit: 'fisher', top: '#3a6ea8', bottom: '#2a2a36', accent: '#c8442f', eyes: '#3a2a22', hat: 'headband' },
   });
   c.npc({
     id: 'kaisha', name: 'Sra. Kobayashi', jp: 'こばやしさん', title: 'funcionária de escritório', x: cx - 6, z: cz + 14, ry: 2.8, role: 'teacher',
-    themes: ['trabalho', 'relacoes'], registers: ['keigo', 'polido'], voice: { pitch: 1.15, rate: 1.0 }, convos: ['trabalho'],
+    themes: ['trabalho', 'relacoes'], registers: ['keigo', 'polido'], voice: { pitch: 1.15, rate: 1.0 }, convos: ['trabalho', 'atraso'],
     greet: ['お疲れ様です。少し 休憩中なんです。', 'Bom trabalho para você. Estou num intervalo rápido.'],
     look: { skin: '#ffe3cf', hair: '#4a3226', hairStyle: 'bob', outfit: 'suit', top: '#4a4a5a', bottom: '#2a2a36', accent: '#f2efe6', eyes: '#5a3a2a', lashes: true },
   });

@@ -268,6 +268,7 @@ export class Book {
       ${box(st.lessons, 'lições')}${box(st.spoken, 'palavras faladas 🎤')}
       ${box(fmtTime(g.save.playTime), 'tempo de jogo')}${box(st.dailyStreak + ' 🔥', 'dias seguidos')}
       ${box(fmtNum(g.save.mon), '文 mon')}${box(g.save.visited.length + '/11', 'lugares visitados')}
+      ${box(g.save.bosses.length + '/10', 'selos (Grandes Sombras)')}${box(Object.keys(g.save.flags).filter((k) => k.startsWith('convo:')).length + '/8', 'conversas completas')}
     </div>`));
   }
 }

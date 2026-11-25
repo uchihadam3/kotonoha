@@ -238,7 +238,7 @@ export function leafGeometry(len = 1, width = 0.5): THREE.BufferGeometry {
   s.moveTo(0, 0);
   s.bezierCurveTo(width * 0.6, len * 0.2, width * 0.55, len * 0.7, 0, len);
   s.bezierCurveTo(-width * 0.55, len * 0.7, -width * 0.6, len * 0.2, 0, 0);
-  const g = new THREE.ShapeGeometry(s, 4);
+  const g = new THREE.ShapeGeometry(s, 2);
   return g;
 }
 

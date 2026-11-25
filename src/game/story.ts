@@ -41,8 +41,18 @@ export class Story {
     await this.konSays([
       { jp: 'はじめまして！ ぼくは コン！', pt: 'Muito prazer! Eu sou o Kon! (はじめまして = "muito prazer", quando se conhece alguém)', expr: 'happy' },
       { pt: `Sou a raposa-espírito que guarda a Grande Árvore das Palavras. Você é ${g.save.name}? Em japonês o seu nome fica ${g.save.nameKana || '…'}!` },
+    ]);
+    // the camera turns to the Great Tree on the sacred peak
+    const tb = g.world.treeBase;
+    const from = g.player.pos.clone().add(new THREE.Vector3(0, 4, 0));
+    const toTree = tb.clone().sub(from).setY(0).normalize();
+    g.rig.override = { pos: from.clone().addScaledVector(toTree, -6).add(new THREE.Vector3(0, 1.5, 0)), look: tb.clone().add(new THREE.Vector3(0, 45, 0)), k: 1.6 };
+    await this.konSays([
       { jp: '見て、あの 山の 上の 木！', pt: 'Olha aquela árvore lá no alto da montanha! É a Grande Árvore, 言の葉の大樹 (kotonoha no taiju).' },
       { pt: 'O Grande Silêncio levou todas as folhas dela. Cada palavra que você aprende e lembra vira uma folha de luz. Com 10.000 folhas, a árvore volta à vida!' },
+    ]);
+    g.rig.override = null;
+    await this.konSays([
       { pt: 'E a cada palavra, a cor volta ao mundo. Repare: agora está tudo quase cinza...' },
       { jp: 'さあ、始めよう！', pt: 'Vamos começar! Suas primeiras palavras: os cumprimentos.' },
     ]);

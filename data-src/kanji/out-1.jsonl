@@ -1,0 +1,534 @@
+{"k":"日","pt":"dia; sol; Japão"}
+{"k":"一","pt":"um"}
+{"k":"人","pt":"pessoa"}
+{"k":"年","pt":"ano; idade"}
+{"k":"大","pt":"grande"}
+{"k":"十","pt":"dez"}
+{"k":"二","pt":"dois"}
+{"k":"本","pt":"livro; origem; principal"}
+{"k":"中","pt":"meio; dentro; durante"}
+{"k":"出","pt":"sair; tirar; saída"}
+{"k":"三","pt":"três"}
+{"k":"見","pt":"ver; olhar; opinião"}
+{"k":"月","pt":"mês; lua"}
+{"k":"生","pt":"vida; nascer; cru"}
+{"k":"五","pt":"cinco"}
+{"k":"上","pt":"acima; subir; superior"}
+{"k":"四","pt":"quatro"}
+{"k":"金","pt":"ouro; dinheiro; metal"}
+{"k":"九","pt":"nove"}
+{"k":"入","pt":"entrar; inserir; colocar"}
+{"k":"学","pt":"estudo; aprender; ciência"}
+{"k":"円","pt":"círculo; iene; redondo"}
+{"k":"子","pt":"criança; filho"}
+{"k":"八","pt":"oito"}
+{"k":"六","pt":"seis"}
+{"k":"下","pt":"abaixo; descer; inferior"}
+{"k":"気","pt":"espírito; ânimo; ar"}
+{"k":"小","pt":"pequeno"}
+{"k":"七","pt":"sete"}
+{"k":"山","pt":"montanha"}
+{"k":"女","pt":"mulher; feminino"}
+{"k":"百","pt":"cem"}
+{"k":"先","pt":"antes; à frente; ponta"}
+{"k":"名","pt":"nome; fama"}
+{"k":"川","pt":"rio"}
+{"k":"千","pt":"mil"}
+{"k":"水","pt":"água"}
+{"k":"男","pt":"homem; masculino"}
+{"k":"校","pt":"escola; revisão"}
+{"k":"土","pt":"terra; solo"}
+{"k":"木","pt":"árvore; madeira"}
+{"k":"車","pt":"carro; veículo; roda"}
+{"k":"白","pt":"branco"}
+{"k":"天","pt":"céu; paraíso; celestial"}
+{"k":"火","pt":"fogo"}
+{"k":"右","pt":"direita"}
+{"k":"左","pt":"esquerda"}
+{"k":"休","pt":"descansar; folga; férias"}
+{"k":"雨","pt":"chuva"}
+{"k":"国","pt":"país; nação"}
+{"k":"長","pt":"longo; chefe; superior"}
+{"k":"時","pt":"tempo; hora; ocasião"}
+{"k":"行","pt":"ir; realizar; linha"}
+{"k":"後","pt":"depois; atrás; posterior"}
+{"k":"前","pt":"frente; antes"}
+{"k":"間","pt":"intervalo; espaço; entre"}
+{"k":"東","pt":"leste; oriente"}
+{"k":"今","pt":"agora"}
+{"k":"高","pt":"alto; caro; elevado"}
+{"k":"外","pt":"fora; exterior; estrangeiro"}
+{"k":"来","pt":"vir; próximo; desde"}
+{"k":"話","pt":"falar; conversa; história"}
+{"k":"北","pt":"norte"}
+{"k":"午","pt":"meio-dia"}
+{"k":"書","pt":"escrever; livro; documento"}
+{"k":"半","pt":"metade; meio"}
+{"k":"西","pt":"oeste; ocidente"}
+{"k":"電","pt":"eletricidade; elétrico"}
+{"k":"語","pt":"língua; palavra; narrar"}
+{"k":"聞","pt":"ouvir; perguntar"}
+{"k":"食","pt":"comer; comida; refeição"}
+{"k":"何","pt":"o quê; quantos"}
+{"k":"南","pt":"sul"}
+{"k":"万","pt":"dez mil; inúmeros"}
+{"k":"毎","pt":"cada; todo"}
+{"k":"母","pt":"mãe"}
+{"k":"読","pt":"ler; leitura"}
+{"k":"友","pt":"amigo"}
+{"k":"父","pt":"pai"}
+{"k":"立","pt":"ficar de pé; erguer; estabelecer"}
+{"k":"手","pt":"mão"}
+{"k":"力","pt":"força; poder"}
+{"k":"目","pt":"olho; olhar; (sufixo ordinal)"}
+{"k":"田","pt":"arrozal; campo de arroz"}
+{"k":"正","pt":"correto; justo; corrigir"}
+{"k":"文","pt":"texto; frase; literatura"}
+{"k":"口","pt":"boca; abertura; entrada"}
+{"k":"町","pt":"cidade; vila; bairro"}
+{"k":"空","pt":"céu; vazio; ar"}
+{"k":"足","pt":"pé; perna; bastar"}
+{"k":"早","pt":"cedo; rápido"}
+{"k":"字","pt":"caractere; letra"}
+{"k":"音","pt":"som; ruído"}
+{"k":"花","pt":"flor"}
+{"k":"赤","pt":"vermelho"}
+{"k":"青","pt":"azul; verde; imaturo"}
+{"k":"夕","pt":"entardecer; fim de tarde"}
+{"k":"犬","pt":"cachorro; cão"}
+{"k":"会","pt":"encontrar; reunião; associação"}
+{"k":"同","pt":"mesmo; igual"}
+{"k":"自","pt":"si mesmo; próprio"}
+{"k":"社","pt":"empresa; sociedade; santuário"}
+{"k":"地","pt":"terra; solo; lugar"}
+{"k":"方","pt":"direção; maneira; pessoa"}
+{"k":"新","pt":"novo"}
+{"k":"場","pt":"lugar; local"}
+{"k":"明","pt":"claro; brilhante; luz"}
+{"k":"京","pt":"capital"}
+{"k":"通","pt":"passar por; frequentar; avenida"}
+{"k":"言","pt":"dizer; palavra"}
+{"k":"理","pt":"razão; lógica; princípio"}
+{"k":"体","pt":"corpo; substância; forma"}
+{"k":"作","pt":"fazer; produzir; obra"}
+{"k":"用","pt":"usar; utilidade; afazer"}
+{"k":"強","pt":"forte; poderoso; forçar"}
+{"k":"公","pt":"público; oficial; imparcial"}
+{"k":"野","pt":"campo; planície; selvagem"}
+{"k":"思","pt":"pensar"}
+{"k":"家","pt":"casa; família; especialista"}
+{"k":"多","pt":"muito; numeroso"}
+{"k":"心","pt":"coração; mente; espírito"}
+{"k":"教","pt":"ensinar; doutrina; religião"}
+{"k":"元","pt":"origem; início; anterior"}
+{"k":"近","pt":"perto; próximo; recente"}
+{"k":"考","pt":"pensar; considerar"}
+{"k":"画","pt":"imagem; desenho; traço"}
+{"k":"海","pt":"mar; oceano"}
+{"k":"売","pt":"vender"}
+{"k":"知","pt":"saber; conhecer; sabedoria"}
+{"k":"道","pt":"caminho; estrada; via"}
+{"k":"計","pt":"medir; calcular; plano"}
+{"k":"朝","pt":"manhã; dinastia"}
+{"k":"台","pt":"plataforma; base; (contador de máquinas)"}
+{"k":"広","pt":"amplo; largo; espaçoso"}
+{"k":"少","pt":"pouco; escasso; jovem"}
+{"k":"工","pt":"fabricação; construção; indústria"}
+{"k":"止","pt":"parar; interromper"}
+{"k":"切","pt":"cortar; corte"}
+{"k":"楽","pt":"diversão; conforto; música"}
+{"k":"店","pt":"loja; estabelecimento"}
+{"k":"親","pt":"pais; parente; íntimo"}
+{"k":"答","pt":"resposta; responder"}
+{"k":"夜","pt":"noite"}
+{"k":"帰","pt":"voltar para casa; regressar"}
+{"k":"古","pt":"velho; antigo; usado"}
+{"k":"歌","pt":"canção; cantar; poema"}
+{"k":"買","pt":"comprar"}
+{"k":"図","pt":"diagrama; desenho; planejar"}
+{"k":"週","pt":"semana"}
+{"k":"室","pt":"sala; quarto; câmara"}
+{"k":"歩","pt":"caminhar; passo"}
+{"k":"風","pt":"vento; estilo; maneira"}
+{"k":"紙","pt":"papel"}
+{"k":"黒","pt":"preto; negro"}
+{"k":"春","pt":"primavera"}
+{"k":"色","pt":"cor"}
+{"k":"走","pt":"correr"}
+{"k":"秋","pt":"outono"}
+{"k":"夏","pt":"verão"}
+{"k":"曜","pt":"dia da semana"}
+{"k":"肉","pt":"carne"}
+{"k":"鳥","pt":"pássaro; ave"}
+{"k":"冬","pt":"inverno"}
+{"k":"昼","pt":"meio-dia; dia; almoço"}
+{"k":"茶","pt":"chá; marrom"}
+{"k":"弟","pt":"irmão mais novo; discípulo"}
+{"k":"牛","pt":"boi; vaca; gado"}
+{"k":"魚","pt":"peixe"}
+{"k":"兄","pt":"irmão mais velho"}
+{"k":"妹","pt":"irmã mais nova"}
+{"k":"姉","pt":"irmã mais velha"}
+{"k":"事","pt":"coisa; assunto; fato"}
+{"k":"発","pt":"partir; emitir; disparar"}
+{"k":"者","pt":"pessoa; alguém"}
+{"k":"業","pt":"trabalho; negócio; indústria"}
+{"k":"員","pt":"membro; funcionário"}
+{"k":"開","pt":"abrir; inaugurar; desenvolver"}
+{"k":"問","pt":"perguntar; pergunta; problema"}
+{"k":"代","pt":"substituir; época; tarifa"}
+{"k":"動","pt":"mover; movimento"}
+{"k":"主","pt":"senhor; dono; principal"}
+{"k":"題","pt":"tema; título; assunto"}
+{"k":"意","pt":"intenção; mente; significado"}
+{"k":"度","pt":"grau; vez; medida"}
+{"k":"持","pt":"ter; segurar; carregar"}
+{"k":"世","pt":"mundo; geração; sociedade"}
+{"k":"安","pt":"barato; tranquilo; seguro"}
+{"k":"院","pt":"instituição; templo"}
+{"k":"界","pt":"mundo; fronteira; esfera"}
+{"k":"重","pt":"pesado; importante; sobrepor"}
+{"k":"集","pt":"reunir; juntar; coleção"}
+{"k":"物","pt":"coisa; objeto"}
+{"k":"使","pt":"usar; mensageiro; enviado"}
+{"k":"品","pt":"produto; artigo; elegância"}
+{"k":"死","pt":"morte; morrer"}
+{"k":"始","pt":"começar; iniciar"}
+{"k":"運","pt":"transportar; sorte; destino"}
+{"k":"終","pt":"fim; terminar"}
+{"k":"住","pt":"morar; residir; habitar"}
+{"k":"真","pt":"verdadeiro; genuíno; puro"}
+{"k":"有","pt":"ter; possuir; existir"}
+{"k":"急","pt":"pressa; urgente; repentino"}
+{"k":"送","pt":"enviar; mandar; acompanhar"}
+{"k":"転","pt":"girar; rolar; mudar"}
+{"k":"研","pt":"polir; afiar; estudar"}
+{"k":"究","pt":"pesquisar; investigar"}
+{"k":"起","pt":"acordar; levantar-se; ocorrer"}
+{"k":"着","pt":"vestir; chegar; (contador de roupas)"}
+{"k":"病","pt":"doença; doente; adoecer"}
+{"k":"待","pt":"esperar; aguardar"}
+{"k":"族","pt":"família; tribo; clã"}
+{"k":"銀","pt":"prata"}
+{"k":"医","pt":"medicina; médico; curar"}
+{"k":"仕","pt":"servir; trabalhar; fazer"}
+{"k":"去","pt":"ir embora; passado; eliminar"}
+{"k":"味","pt":"sabor; gosto; significado"}
+{"k":"写","pt":"copiar; fotografar; retratar"}
+{"k":"注","pt":"despejar; atenção; anotação"}
+{"k":"悪","pt":"ruim; mau; maldade"}
+{"k":"館","pt":"edifício; salão; mansão"}
+{"k":"屋","pt":"loja; casa; telhado"}
+{"k":"習","pt":"aprender; praticar; costume"}
+{"k":"駅","pt":"estação de trem"}
+{"k":"洋","pt":"oceano; ocidental"}
+{"k":"旅","pt":"viagem; viajar"}
+{"k":"服","pt":"roupa; vestuário; obedecer"}
+{"k":"飲","pt":"beber; tomar; engolir"}
+{"k":"勉","pt":"esforço; empenho; esforçar-se"}
+{"k":"漢","pt":"China; chinês; homem"}
+{"k":"不","pt":"não; in-; des-"}
+{"k":"以","pt":"por meio de; a partir de"}
+{"k":"別","pt":"separar; outro; diferente"}
+{"k":"特","pt":"especial"}
+{"k":"料","pt":"taxa; material; ingrediente"}
+{"k":"建","pt":"construir; edificar"}
+{"k":"試","pt":"tentar; testar; prova"}
+{"k":"験","pt":"teste; verificação; efeito"}
+{"k":"英","pt":"Inglaterra; inglês; excelente"}
+{"k":"借","pt":"pedir emprestado; alugar; dívida"}
+{"k":"堂","pt":"salão; templo"}
+{"k":"飯","pt":"refeição; arroz cozido"}
+{"k":"質","pt":"qualidade; natureza; substância"}
+{"k":"貸","pt":"emprestar; alugar"}
+{"k":"私","pt":"eu; privado; particular"}
+{"k":"映","pt":"refletir; projetar; reflexo"}
+{"k":"石","pt":"pedra"}
+{"k":"王","pt":"rei; monarca"}
+{"k":"草","pt":"grama; erva; rascunho"}
+{"k":"耳","pt":"orelha; ouvido"}
+{"k":"合","pt":"unir; combinar; encaixar"}
+{"k":"市","pt":"cidade; mercado"}
+{"k":"内","pt":"dentro; interior; doméstico"}
+{"k":"回","pt":"girar; vez; rodada"}
+{"k":"米","pt":"arroz; Estados Unidos"}
+{"k":"当","pt":"acertar; apropriado"}
+{"k":"首","pt":"pescoço; cabeça; chefe"}
+{"k":"数","pt":"número; contar; quantidade"}
+{"k":"記","pt":"registrar; anotar; relato"}
+{"k":"点","pt":"ponto; pontuação; marca"}
+{"k":"活","pt":"vida; atividade; vivo"}
+{"k":"原","pt":"origem; original; planície"}
+{"k":"交","pt":"cruzar; misturar; trocar"}
+{"k":"組","pt":"grupo; turma; montar"}
+{"k":"引","pt":"puxar; atrair; subtrair"}
+{"k":"直","pt":"direto; consertar; honesto"}
+{"k":"番","pt":"vez; número; vigia"}
+{"k":"声","pt":"voz"}
+{"k":"形","pt":"forma; formato; figura"}
+{"k":"頭","pt":"cabeça; topo; (contador de animais)"}
+{"k":"光","pt":"luz; brilhar; brilho"}
+{"k":"科","pt":"departamento; disciplina; curso"}
+{"k":"太","pt":"grosso; gordo; grande"}
+{"k":"園","pt":"jardim; parque; horta"}
+{"k":"馬","pt":"cavalo"}
+{"k":"顔","pt":"rosto; expressão"}
+{"k":"船","pt":"navio; barco"}
+{"k":"遠","pt":"longe; distante"}
+{"k":"絵","pt":"pintura; desenho; imagem"}
+{"k":"晴","pt":"tempo bom; clarear; desanuviar"}
+{"k":"雪","pt":"neve"}
+{"k":"鳴","pt":"piar; soar; tocar"}
+{"k":"才","pt":"talento; gênio; anos de idade"}
+{"k":"対","pt":"contra; oposto; par"}
+{"k":"部","pt":"parte; seção; departamento"}
+{"k":"相","pt":"mútuo; aparência; ministro"}
+{"k":"定","pt":"determinar; fixar; decidir"}
+{"k":"実","pt":"realidade; verdade; fruto"}
+{"k":"決","pt":"decidir; determinar; resolver"}
+{"k":"全","pt":"todo; inteiro; completo"}
+{"k":"表","pt":"superfície; expressar; tabela"}
+{"k":"調","pt":"investigar; tom; ajustar"}
+{"k":"化","pt":"transformar; mudança"}
+{"k":"期","pt":"período; prazo; época"}
+{"k":"取","pt":"pegar; tomar; obter"}
+{"k":"都","pt":"capital; metrópole"}
+{"k":"和","pt":"harmonia; paz; japonês"}
+{"k":"平","pt":"plano; paz; igual"}
+{"k":"受","pt":"receber; aceitar; sofrer"}
+{"k":"進","pt":"avançar; progredir; promover"}
+{"k":"指","pt":"dedo; apontar; indicar"}
+{"k":"予","pt":"de antemão; previamente; prever"}
+{"k":"向","pt":"voltar-se para; direção; além"}
+{"k":"勝","pt":"vitória; vencer; superar"}
+{"k":"面","pt":"rosto; superfície; aspecto"}
+{"k":"反","pt":"oposto; contra; anti-"}
+{"k":"所","pt":"lugar; local"}
+{"k":"次","pt":"próximo; seguinte; sequência"}
+{"k":"係","pt":"encarregado; relação; vínculo"}
+{"k":"感","pt":"sentir; sensação; emoção"}
+{"k":"投","pt":"arremessar; lançar; jogar"}
+{"k":"打","pt":"bater; golpear; acertar"}
+{"k":"両","pt":"ambos; os dois; (contador de vagões)"}
+{"k":"式","pt":"cerimônia; estilo; fórmula"}
+{"k":"談","pt":"conversa; discutir"}
+{"k":"流","pt":"fluir; corrente; estilo"}
+{"k":"局","pt":"repartição; agência; situação"}
+{"k":"放","pt":"soltar; libertar; emitir"}
+{"k":"球","pt":"bola; esfera; globo"}
+{"k":"役","pt":"papel; função; cargo"}
+{"k":"由","pt":"razão; motivo; origem"}
+{"k":"消","pt":"apagar; desaparecer; extinguir"}
+{"k":"神","pt":"deus; divindade; espírito"}
+{"k":"配","pt":"distribuir; entregar; dispor"}
+{"k":"育","pt":"criar; educar; crescer"}
+{"k":"乗","pt":"embarcar; andar de (veículo); montar"}
+{"k":"想","pt":"ideia; pensamento; imaginar"}
+{"k":"助","pt":"ajudar; salvar; auxiliar"}
+{"k":"追","pt":"perseguir; seguir; adicionar"}
+{"k":"商","pt":"comércio; negociar; comerciante"}
+{"k":"葉","pt":"folha; lâmina; (contador de coisas finas)"}
+{"k":"落","pt":"cair; deixar cair; aldeia"}
+{"k":"負","pt":"perder; derrota; carregar"}
+{"k":"守","pt":"proteger; defender; cumprir"}
+{"k":"美","pt":"beleza; belo"}
+{"k":"命","pt":"vida; ordem; destino"}
+{"k":"福","pt":"sorte; bênção; felicidade"}
+{"k":"横","pt":"lado; horizontal; transversal"}
+{"k":"深","pt":"profundo; aprofundar; intenso"}
+{"k":"申","pt":"dizer (humilde); solicitar; declarar"}
+{"k":"様","pt":"senhor(a); maneira; aspecto"}
+{"k":"港","pt":"porto"}
+{"k":"路","pt":"caminho; estrada; rota"}
+{"k":"他","pt":"outro; os outros"}
+{"k":"客","pt":"cliente; visitante; convidado"}
+{"k":"登","pt":"subir; escalar"}
+{"k":"速","pt":"rápido; velocidade"}
+{"k":"号","pt":"número; sinal; edição"}
+{"k":"苦","pt":"sofrimento; amargo; penoso"}
+{"k":"具","pt":"ferramenta; utensílio; ingrediente"}
+{"k":"返","pt":"devolver; responder; retornar"}
+{"k":"宿","pt":"pousada; alojamento; hospedar-se"}
+{"k":"薬","pt":"remédio; medicamento; químico"}
+{"k":"幸","pt":"felicidade; sorte; bênção"}
+{"k":"等","pt":"igual; categoria; etc."}
+{"k":"曲","pt":"curvar; virar; música"}
+{"k":"庭","pt":"jardim; quintal; pátio"}
+{"k":"息","pt":"respiração; fôlego; filho"}
+{"k":"列","pt":"fila; fileira; coluna"}
+{"k":"遊","pt":"brincar; divertir-se; passear"}
+{"k":"君","pt":"você; soberano; (sufixo para rapazes)"}
+{"k":"酒","pt":"saquê; bebida alcoólica"}
+{"k":"悲","pt":"triste; tristeza; lamentar"}
+{"k":"暗","pt":"escuro; escuridão; secreto"}
+{"k":"陽","pt":"sol; luz solar; positivo"}
+{"k":"歯","pt":"dente; dente de engrenagem"}
+{"k":"礼","pt":"cortesia; agradecimento; reverência"}
+{"k":"昔","pt":"antigamente; tempos antigos"}
+{"k":"泳","pt":"nadar"}
+{"k":"箱","pt":"caixa; baú; estojo"}
+{"k":"寒","pt":"frio"}
+{"k":"議","pt":"deliberação; debate; parlamento"}
+{"k":"民","pt":"povo; nação; cidadão"}
+{"k":"連","pt":"conectar; levar junto; série"}
+{"k":"選","pt":"escolher; eleger; selecionar"}
+{"k":"関","pt":"relação; barreira; envolver-se"}
+{"k":"戦","pt":"guerra; batalha; lutar"}
+{"k":"最","pt":"o mais; máximo; extremo"}
+{"k":"約","pt":"aproximadamente; promessa; resumir"}
+{"k":"法","pt":"lei; método; regra"}
+{"k":"要","pt":"necessário; essencial; ponto-chave"}
+{"k":"治","pt":"governar; curar; acalmar"}
+{"k":"成","pt":"tornar-se; realizar; formar"}
+{"k":"機","pt":"máquina; oportunidade; avião"}
+{"k":"加","pt":"adicionar; somar; juntar-se"}
+{"k":"続","pt":"continuar; sequência; série"}
+{"k":"初","pt":"primeiro; início; pela primeira vez"}
+{"k":"産","pt":"dar à luz; produzir; produto"}
+{"k":"共","pt":"juntos; ambos; comum"}
+{"k":"得","pt":"obter; ganhar; vantagem"}
+{"k":"告","pt":"anunciar; informar; declarar"}
+{"k":"参","pt":"participar; visitar; ir (humilde)"}
+{"k":"利","pt":"lucro; vantagem; benefício"}
+{"k":"信","pt":"confiar; acreditar; mensagem"}
+{"k":"側","pt":"lado; ao lado; flanco"}
+{"k":"求","pt":"procurar; pedir; exigir"}
+{"k":"昨","pt":"ontem; anterior; passado"}
+{"k":"官","pt":"funcionário público; governo; órgão"}
+{"k":"変","pt":"mudar; estranho; incomum"}
+{"k":"果","pt":"fruto; resultado; realizar"}
+{"k":"必","pt":"sem falta; certamente; necessário"}
+{"k":"争","pt":"disputar; competir; discutir"}
+{"k":"位","pt":"posição; posto; cerca de"}
+{"k":"置","pt":"pôr; colocar; deixar"}
+{"k":"費","pt":"despesa; custo; gastar"}
+{"k":"付","pt":"anexar; aderir; acompanhar"}
+{"k":"説","pt":"explicar; teoria; opinião"}
+{"k":"夫","pt":"marido; homem"}
+{"k":"害","pt":"dano; prejuízo; mal"}
+{"k":"席","pt":"assento; lugar; ocasião"}
+{"k":"残","pt":"restar; sobra; deixar"}
+{"k":"念","pt":"pensamento; desejo; atenção"}
+{"k":"労","pt":"trabalho; esforço; fadiga"}
+{"k":"例","pt":"exemplo; costume; precedente"}
+{"k":"然","pt":"assim; dessa forma; natural"}
+{"k":"伝","pt":"transmitir; comunicar; tradição"}
+{"k":"働","pt":"trabalhar; funcionar"}
+{"k":"景","pt":"paisagem; vista; cenário"}
+{"k":"好","pt":"gostar; preferir; agradável"}
+{"k":"失","pt":"perder; perda; erro"}
+{"k":"差","pt":"diferença; distinção; margem"}
+{"k":"末","pt":"fim; final; ponta"}
+{"k":"種","pt":"semente; espécie; tipo"}
+{"k":"望","pt":"esperança; desejo; ambição"}
+{"k":"観","pt":"observar; contemplar; visão"}
+{"k":"察","pt":"perceber; deduzir; inspecionar"}
+{"k":"達","pt":"alcançar; atingir; (sufixo de plural)"}
+{"k":"良","pt":"bom; bem; agradável"}
+{"k":"候","pt":"clima; tempo; estação"}
+{"k":"満","pt":"cheio; pleno; satisfazer"}
+{"k":"敗","pt":"derrota; fracasso; perder"}
+{"k":"積","pt":"acumular; empilhar; volume"}
+{"k":"飛","pt":"voar; pular; espalhar"}
+{"k":"殺","pt":"matar; assassinar"}
+{"k":"単","pt":"simples; único; unidade"}
+{"k":"完","pt":"completo; perfeito; concluir"}
+{"k":"給","pt":"salário; fornecer; conceder"}
+{"k":"辞","pt":"palavra; demitir-se; recusar"}
+{"k":"愛","pt":"amor; amar; afeição"}
+{"k":"未","pt":"ainda não; incompleto"}
+{"k":"冷","pt":"frio; gelado; esfriar"}
+{"k":"類","pt":"tipo; espécie; categoria"}
+{"k":"熱","pt":"calor; febre; entusiasmo"}
+{"k":"覚","pt":"memorizar; lembrar; despertar"}
+{"k":"便","pt":"conveniência; correio; voo"}
+{"k":"努","pt":"esforçar-se; esforço; diligente"}
+{"k":"散","pt":"espalhar; dispersar; esbanjar"}
+{"k":"静","pt":"calmo; silencioso; quieto"}
+{"k":"喜","pt":"alegrar-se; alegria; prazer"}
+{"k":"老","pt":"velho; idoso; envelhecer"}
+{"k":"徒","pt":"discípulo; a pé; em vão"}
+{"k":"欠","pt":"faltar; falta; defeito"}
+{"k":"願","pt":"pedido; desejo; rogar"}
+{"k":"笑","pt":"rir; sorrir; risada"}
+{"k":"束","pt":"maço; feixe; amarrar"}
+{"k":"折","pt":"dobrar; quebrar; ocasião"}
+{"k":"政","pt":"política; governo"}
+{"k":"経","pt":"passar por; administrar; sutra"}
+{"k":"現","pt":"atual; presente; aparecer"}
+{"k":"性","pt":"natureza; sexo; gênero"}
+{"k":"制","pt":"sistema; controle; regra"}
+{"k":"務","pt":"dever; tarefa; serviço"}
+{"k":"支","pt":"apoiar; sustentar; filial"}
+{"k":"報","pt":"informar; notícia; recompensa"}
+{"k":"解","pt":"resolver; desatar; compreender"}
+{"k":"資","pt":"recursos; capital; material"}
+{"k":"際","pt":"ocasião; beira; limite"}
+{"k":"判","pt":"julgar; julgamento; carimbo"}
+{"k":"在","pt":"existir; estar presente; residir"}
+{"k":"件","pt":"caso; assunto; item"}
+{"k":"任","pt":"responsabilidade; confiar; encarregar"}
+{"k":"増","pt":"aumentar; acrescentar; crescer"}
+{"k":"情","pt":"sentimento; emoção; compaixão"}
+{"k":"示","pt":"mostrar; indicar; apontar"}
+{"k":"確","pt":"certo; firme; confirmar"}
+{"k":"容","pt":"conter; conteúdo; aparência"}
+{"k":"演","pt":"atuar; encenar; apresentar"}
+{"k":"能","pt":"capacidade; talento; teatro nô"}
+{"k":"格","pt":"categoria; posição; caráter"}
+{"k":"過","pt":"passar; exceder; erro"}
+{"k":"常","pt":"habitual; comum; sempre"}
+{"k":"状","pt":"estado; situação; carta"}
+{"k":"職","pt":"emprego; cargo; ofício"}
+{"k":"構","pt":"estrutura; construir; postura"}
+{"k":"断","pt":"recusar; cortar; decidir"}
+{"k":"規","pt":"regra; norma; padrão"}
+{"k":"術","pt":"técnica; arte; habilidade"}
+{"k":"備","pt":"preparar; equipar; provisão"}
+{"k":"限","pt":"limite; limitar; restringir"}
+{"k":"退","pt":"recuar; retirar-se; aposentar-se"}
+{"k":"非","pt":"não; errado; injustiça"}
+{"k":"財","pt":"riqueza; bens; patrimônio"}
+{"k":"識","pt":"conhecimento; discernir; consciência"}
+{"k":"程","pt":"grau; extensão; processo"}
+{"k":"師","pt":"mestre; professor; especialista"}
+{"k":"易","pt":"fácil; comércio; adivinhação"}
+{"k":"破","pt":"rasgar; quebrar; destruir"}
+{"k":"責","pt":"responsabilidade; culpar; censurar"}
+{"k":"因","pt":"causa; fator; dever-se a"}
+{"k":"富","pt":"riqueza; rico; abundante"}
+{"k":"適","pt":"adequado; apropriado; adaptar-se"}
+{"k":"婦","pt":"mulher; esposa; senhora"}
+{"k":"寄","pt":"aproximar-se; passar por; doar"}
+{"k":"余","pt":"sobra; excesso; restante"}
+{"k":"妻","pt":"esposa"}
+{"k":"険","pt":"íngreme; perigoso; severo"}
+{"k":"許","pt":"permitir; perdoar; licença"}
+{"k":"留","pt":"permanecer; fixar; reter"}
+{"k":"罪","pt":"crime; pecado; culpa"}
+{"k":"精","pt":"espírito; energia; refinado"}
+{"k":"絶","pt":"cortar; extinguir; absoluto"}
+{"k":"居","pt":"estar; residir; moradia"}
+{"k":"雑","pt":"variado; misturado; desleixado"}
+{"k":"招","pt":"convidar; chamar; provocar"}
+{"k":"賛","pt":"aprovar; elogiar; concordar"}
+{"k":"犯","pt":"crime; cometer; violar"}
+{"k":"似","pt":"parecer-se; semelhante; imitar"}
+{"k":"迷","pt":"perder-se; hesitar; confusão"}
+{"k":"夢","pt":"sonho; sonhar; ilusão"}
+{"k":"慣","pt":"acostumar-se; hábito; costume"}
+{"k":"貧","pt":"pobre; pobreza; escasso"}
+{"k":"祖","pt":"antepassado; fundador; pioneiro"}
+{"k":"権","pt":"direito; poder; autoridade"}
+{"k":"済","pt":"terminar; quitar; socorrer"}
+{"k":"認","pt":"reconhecer; admitir; aprovar"}
+{"k":"論","pt":"teoria; argumento; discutir"}
+{"k":"疑","pt":"duvidar; suspeitar; dúvida"}
+{"k":"供","pt":"oferecer; fornecer; acompanhar"}
+{"k":"割","pt":"dividir; quebrar; proporção"}
+{"k":"難","pt":"difícil; dificuldade; desastre"}
+{"k":"優","pt":"gentil; excelente; ator"}
+{"k":"収","pt":"arrecadar; obter; renda"}
+{"k":"宅","pt":"casa; residência; lar"}
+{"k":"警","pt":"advertir; alertar; vigiar"}
+{"k":"訪","pt":"visitar; visita"}

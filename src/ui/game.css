@@ -299,3 +299,40 @@
 .learn .hbtn svg, .mg .hbtn svg { width: 20px; height: 20px; }
 .dialog-box .choice small.sub { display: block; margin-top: 2px; }
 .dialog-box .choice > span:last-child { display: flex; flex-direction: column; align-items: flex-start; gap: 1px; }
+
+/* short screens (phones in landscape) */
+.dialog-box .choices { max-height: calc(100vh - 210px); overflow: auto; padding: 2px; }
+@media (max-height: 520px) {
+  .dialog-box { bottom: calc(6px + var(--safe-b)); width: min(860px, 98vw); }
+  .dialog-box .db { padding: 16px 16px 10px; min-height: 0; }
+  .dialog-box .name { top: -14px; font-size: 13px; padding: 3px 12px; }
+  .dialog-box .line-jp { font-size: 18px; line-height: 1.35; }
+  .dialog-box .line-r, .dialog-box .line-ro { font-size: 11px; }
+  .dialog-box .line-pt { font-size: 14px; margin-top: 4px; }
+  .dialog-box .choices { gap: 5px; margin-top: 8px; max-height: calc(100vh - 150px); }
+  .dialog-box .choice { padding: 6px 10px; font-size: 13px; }
+  .dialog-box .choice .jp { font-size: 16px; }
+  .dialog-box .choice small.sub { font-size: 11px; }
+  .learn { padding: 6px 8px; }
+  .learn .frame { gap: 6px; }
+  .learn .lhead .title { font-size: 15px; }
+  .wordcard { padding: 10px 14px; }
+  .wordcard .wc-main { display: grid; grid-template-columns: auto auto; align-items: center; justify-content: center; column-gap: 14px; padding: 2px 0; }
+  .wordcard .wc-word { font-size: 46px; grid-row: span 2; }
+  .wordcard .wc-reading { font-size: 15px; }
+  .wordcard .wc-actions { margin-top: 2px; }
+  .wordcard .wc-actions .round { width: 38px; height: 38px; }
+  .wordcard .wc-pt { font-size: 18px; margin: 2px 0; }
+  .wordcard .wc-note { margin-top: 6px; padding: 6px 10px; font-size: 12px; }
+  .wordcard .wc-ex { margin-top: 6px; padding: 6px 10px; }
+  .wordcard .ex-jp { font-size: 16px; }
+  .quiz { padding: 10px 14px; }
+  .quiz .q-prompt.jp { font-size: 40px; margin: 2px 0; }
+  .quiz .q-body { margin-top: 6px; }
+  .quiz .opts-grid { grid-template-columns: 1fr 1fr; gap: 6px; }
+  .quiz .opt { min-height: 40px; padding: 6px 10px 6px 32px; font-size: 14px; }
+  .quiz .opt.jp .l { font-size: 18px; }
+  .hud .quest { display: none; }
+  .hud .banner { top: 8%; }
+  .hud .banner .jp { font-size: 46px; }
+}

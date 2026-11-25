@@ -27,7 +27,7 @@ const MIN = 60_000;
 const HOUR = 60 * MIN;
 const DAY = 24 * HOUR;
 /** wait after reaching stage n before it is due again */
-export const INTERVALS = [0, 1 * MIN, 8 * MIN, 4 * HOUR, 1 * DAY, 3 * DAY, 7 * DAY, 16 * DAY, 35 * DAY, 90 * DAY];
+export const INTERVALS = [0, 1 * MIN, 5 * MIN, 4 * HOUR, 1 * DAY, 3 * DAY, 7 * DAY, 16 * DAY, 35 * DAY, 90 * DAY];
 export const LEARNED_STAGE = 3;
 export const MEMORIZED_STAGE = 6;
 export const MASTERED_STAGE = 8;

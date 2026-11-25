@@ -220,4 +220,10 @@ export const CONVOS: Convo[] = [
   },
 ];
 
+// more conversations written as JSON (src/data/convos/*.json)
+const extra: Record<string, { default: Convo }> = (import.meta as unknown as { glob?: unknown }).glob
+  ? (import.meta.glob('./convos/*.json', { eager: true }) as Record<string, { default: Convo }>)
+  : {};
+for (const m of Object.values(extra)) if (m.default?.id && !CONVOS.some((c) => c.id === m.default.id)) CONVOS.push(m.default);
+
 export const CONVO_BY_ID: Record<string, Convo> = Object.fromEntries(CONVOS.map((c) => [c.id, c]));

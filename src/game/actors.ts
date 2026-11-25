@@ -160,6 +160,7 @@ export class Shadow {
   private t = Math.random() * 10;
   boss: boolean;
   dead = false;
+  region = '';
   constructor(scene: THREE.Scene, pos: THREE.Vector3, boss = false) {
     this.boss = boss;
     const s = boss ? 2.4 : 1;

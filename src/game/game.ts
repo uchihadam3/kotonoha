@@ -186,7 +186,45 @@ export class Game {
     this.regionsBuilt = true;
   }
 
+  private gulls: { g: THREE.Group; wl: THREE.Mesh; wr: THREE.Mesh; c: THREE.Vector3; r: number; h: number; sp: number; ph: number }[] = [];
+
+  /** seagulls circling over the beach and the harbour */
+  private buildGulls() {
+    const mat = new THREE.MeshToonMaterial({ color: '#f4f6fa', side: THREE.DoubleSide });
+    const wingGeo = new THREE.BufferGeometry();
+    wingGeo.setAttribute('position', new THREE.Float32BufferAttribute([0, 0, -0.15, 0, 0, 0.2, 0.9, 0.05, 0.05, 0.9, 0.05, 0.05, 0, 0, 0.2, 0.55, 0, 0.3], 3));
+    wingGeo.computeVertexNormals();
+    const body = new THREE.CapsuleGeometry(0.09, 0.4, 3, 6);
+    body.rotateX(Math.PI / 2);
+    const places = [REGION_BY_ID.praia, REGION_BY_ID.porto];
+    for (let i = 0; i < 9; i++) {
+      const p = places[i % 2];
+      const g = new THREE.Group();
+      g.add(new THREE.Mesh(body, mat));
+      const wl = new THREE.Mesh(wingGeo, mat);
+      const wr = new THREE.Mesh(wingGeo, mat);
+      wr.scale.x = -1;
+      g.add(wl, wr);
+      g.scale.setScalar(1.3);
+      this.world.scene.add(g);
+      this.gulls.push({ g, wl, wr, c: new THREE.Vector3(p.x + (Math.random() - 0.5) * 40, 0, p.z + 20 + (Math.random() - 0.5) * 30), r: 12 + Math.random() * 18, h: 14 + Math.random() * 10, sp: (0.18 + Math.random() * 0.15) * (Math.random() < 0.5 ? 1 : -1), ph: Math.random() * 6.28 });
+    }
+  }
+
+  private updateGulls(dt: number, t: number) {
+    for (const b of this.gulls) {
+      const a = b.ph + t * b.sp;
+      b.g.position.set(b.c.x + Math.cos(a) * b.r, b.h + Math.sin(t * 0.7 + b.ph) * 1.5, b.c.z + Math.sin(a) * b.r);
+      b.g.rotation.y = -a + (b.sp > 0 ? Math.PI : 0);
+      const flap = Math.sin(t * 7 + b.ph) * 0.5 + 0.1;
+      b.wl.rotation.z = flap;
+      b.wr.rotation.z = -flap;
+    }
+    void dt;
+  }
+
   private buildAnimals() {
+    this.buildGulls();
     for (const sp of this.spots.filter((s) => s.id === 'cat' || s.id === 'dog' || s.id === 'bird')) {
       const b = new Builder();
       if (sp.id === 'cat') {
@@ -343,6 +381,7 @@ export class Game {
     }
     for (const g of this.gates) g.update(dt, t);
     for (const s of this.shadows) s.update(dt, this.player.pos);
+    this.updateGulls(dt, t);
     for (const a of this.animals) {
       a.t += dt;
       if (a.kind === 'bird') a.obj.position.y = a.base.y + Math.sin(a.t * 3) * 0.05;
@@ -421,8 +460,9 @@ export class Game {
     const L = this.learner.leaves;
     const next = REGIONS.filter((x) => x.req > r.req).sort((a, b) => a.req - b.req)[0];
     const span = Math.max(80, ((next?.req ?? r.req + 1500) - r.req) * 0.85);
-    const base = r.id === 'praia' ? 0.3 : 0.05;
-    return clamp(base + (L - r.req) / span, 0, 1);
+    const base = r.id === 'praia' ? 0.45 : r.id === 'vila' ? 0.15 : 0.05;
+    const k = clamp(base + (L - r.req) / span, 0, 1);
+    return this.save.bosses.includes(r.id) ? Math.max(k, 0.5 + k * 0.5) : k;
   }
 
   private updateRegion(dt: number) {
@@ -704,6 +744,7 @@ export class Game {
     if (this.shadowT > 0) return;
     this.shadowT = 6;
     this.shadows = this.shadows.filter((s) => !s.dead);
+    this.checkBoss();
     if (!this.save.flags.tut || this.shadows.length >= 1) return;
     const due = this.learner.dueItems('w:', 30).length + this.learner.learningItems('w:', 30).filter((k) => (this.learner.get(k)?.d ?? 0) <= Date.now()).length;
     if (due < TAKE) return;
@@ -730,13 +771,41 @@ export class Game {
     }
   }
 
+  /** each place has a Great Shadow guarding its word shrine; beating it gives the place's seal */
+  private checkBoss() {
+    const r = this.region;
+    if (!r || r.id === 'praia' || this.save.bosses.includes(r.id)) return;
+    if (this.shadows.some((s) => s.boss)) return;
+    if (this.learner.leaves < r.req + 40 || this.learner.counts().words < 20) return;
+    const spot = this.spots.find((s) => s.id === 'hokora' && Math.hypot(s.x - r.x, s.z - r.z) < r.r + 10);
+    if (!spot) return;
+    const s = new Shadow(this.world.scene, new THREE.Vector3(spot.x + 5, spot.y + 2.5, spot.z + 5), true);
+    s.region = r.id;
+    this.shadows.push(s);
+    if (!this.save.flags['bossSeen:' + r.id]) {
+      this.save.flags['bossSeen:' + r.id] = 1;
+      void this.story.konSays([
+        { jp: '大きな 影だ…！', pt: `Uma Grande Sombra guarda o santuário de palavras de ${r.name}!` },
+        { pt: 'Ela é forte: faz perguntas mais difíceis e tem mais vida. Vença-a para ganhar o selo deste lugar e devolver toda a cor!' },
+      ]);
+    }
+  }
+
   async fight(sh: Shadow) {
     const keys = this.learner.reviewSet(sh.boss ? 20 : 10);
     if (keys.length < 3) {
       this.app.screens.toast('Você ainda tem poucas palavras para enfrentar a sombra. Aprenda uma lição primeiro!');
       return;
     }
-    await runBattle(this, sh, keys);
+    const res = await runBattle(this, sh, keys);
+    if (res === 'win' && sh.boss && sh.region && !this.save.bosses.includes(sh.region)) {
+      this.save.bosses.push(sh.region);
+      const r = REGION_BY_ID[sh.region];
+      sfx.rankUp();
+      this.app.screens.toast(`<span class="jp">${r.jp}</span> Selo de <b>${esc(r.name)}</b> conquistado! (${this.save.bosses.length}/10)`, 6500);
+      this.addMon(200);
+      this.persist();
+    }
     this.shadows = this.shadows.filter((s) => !s.dead);
     this.shadowT = 25;
   }
@@ -752,6 +821,14 @@ export class Game {
     if (after > before) {
       sfx.leaf();
       this.world.bursts.spark(this.player.pos.clone().add(new THREE.Vector3(0, 2.2, 0)), '#7ff0c4', 14, 3);
+      // leaves of light fly to the Great Tree
+      const n = Math.min(5, after - before);
+      for (let i = 0; i < n; i++) {
+        setTimeout(() => {
+          const from = this.player.pos.clone().add(new THREE.Vector3((Math.random() - 0.5) * 2, 2.2, (Math.random() - 0.5) * 2));
+          this.world.bursts.comet(from, this.world.tree.nextLeafPos());
+        }, i * 260);
+      }
       const rb = rankFor(before), ra = rankFor(after);
       if (ra !== rb) {
         sfx.rankUp();

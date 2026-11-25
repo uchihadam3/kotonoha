@@ -78,19 +78,19 @@ export function buildNeon(c: RegionCtx) {
     look: { skin: '#e9b996', hair: '#3a3036', hairStyle: 'short', outfit: 'suit', top: '#2a2f3a', bottom: '#2a2f3a', accent: '#c8442f', eyes: '#3a2a22', glasses: true },
   });
   c.npc({
-    id: 'gamer', name: 'Sora', jp: 'そら', title: 'gamer e streamer', x: cx + 26, z: cz - 20, ry: -0.6, role: 'teacher',
+    id: 'gamer', name: 'Sora', jp: 'そら', title: 'gamer e streamer', x: cx + 26, z: cz - 20, ry: -0.6, convos: ['live'], role: 'teacher',
     themes: ['tecnologia', 'lazer', 'giria'], registers: ['giria', 'casual'], voice: { pitch: 1.2, rate: 1.2 }, wander: 4,
     greet: ['うっす！ 今日も 配信 してるよ〜。', 'E aí! Hoje também tô fazendo live!'],
     look: { skin: '#ffe3cf', hair: '#3a5aa8', hairStyle: 'messy', outfit: 'casual', top: '#2a2a36', bottom: '#3a3a48', accent: '#4fe8ff', eyes: '#2a4a7a', hat: 'cap' },
   });
   c.npc({
-    id: 'idol', name: 'Hikari', jp: 'ひかり', title: 'idol (fala de anime)', x: cx + 50, z: cz + 8, ry: Math.PI, role: 'teacher',
+    id: 'idol', name: 'Hikari', jp: 'ひかり', title: 'idol (fala de anime)', x: cx + 50, z: cz + 8, ry: Math.PI, convos: ['idol'], role: 'teacher',
     themes: ['anime', 'comunicacao'], registers: ['anime', 'casual'], voice: { pitch: 1.55, rate: 1.1 },
     greet: ['みんな〜！ 今日も 元気 いっぱい だよっ！', 'Pessoal~! Hoje também estou cheia de energia!'],
     look: { skin: '#ffe3cf', hair: '#f6b8cf', hairStyle: 'twin', outfit: 'idol', top: '#ff8ac2', bottom: '#ffffff', accent: '#ffd36b', eyes: '#7a2a4a', lashes: true, hat: 'bow' },
   });
   c.npc({
-    id: 'news', name: 'Repórter Aoi', jp: 'あおい', title: 'repórter da TV', x: cx + 4, z: cz - 24, ry: 0, role: 'teacher',
+    id: 'news', name: 'Repórter Aoi', jp: 'あおい', title: 'repórter da TV', x: cx + 4, z: cz - 24, ry: 0, convos: ['entrevista-rua'], role: 'teacher',
     themes: ['comunicacao', 'estado', 'sociedade'], registers: ['polido', 'keigo'], voice: { pitch: 1.15, rate: 1.05 },
     greet: ['こんにちは。ニュースの 時間です。', 'Boa tarde. É hora das notícias.'],
     look: { skin: '#ffe3cf', hair: '#4a3226', hairStyle: 'bob', outfit: 'suit', top: '#e0e4f0', bottom: '#2a2a36', accent: '#3a6ea8', eyes: '#5a3a2a', lashes: true },
@@ -145,19 +145,19 @@ export function buildTermas(c: RegionCtx) {
     look: { skin: '#ffe3cf', hair: '#2a2126', hairStyle: 'bun', outfit: 'kimono', top: '#5a6ea8', bottom: '#3a4a7a', accent: '#e9c46a', eyes: '#3a2a22', lashes: true },
   });
   c.npc({
-    id: 'osaka', name: 'Tia Kazuko', jp: 'かずこおばちゃん', title: 'turista de Osaka', x: cx + 4, z: cz + 20, ry: 2.4, role: 'teacher',
+    id: 'osaka', name: 'Tia Kazuko', jp: 'かずこおばちゃん', title: 'turista de Osaka', x: cx + 4, z: cz + 20, ry: 2.4, convos: ['kansai'], role: 'teacher',
     themes: ['kansai', 'relacoes'], registers: ['kansai'], voice: { pitch: 1.15, rate: 1.15 }, wander: 5,
     greet: ['まいど！ あんた、どっから 来たん？', 'Olá! (jeito de Osaka) De onde você veio?'],
     look: { skin: '#f6d2b8', hair: '#7a4a2e', hairStyle: 'short', outfit: 'casual', top: '#ff9a4f', bottom: '#4a2a3a', accent: '#ffd36b', eyes: '#3a2a22', glasses: true },
   });
   c.npc({
     id: 'isha', name: 'Doutor Kenji', jp: 'けんじ先生', title: 'médico das termas', x: cx - 26, z: cz - 6, ry: 1, role: 'teacher',
-    themes: ['saude', 'corpo'], registers: ['polido'], voice: { pitch: 0.9, rate: 0.9 }, convos: ['medico'],
+    themes: ['saude', 'corpo'], registers: ['polido'], voice: { pitch: 0.9, rate: 0.9 }, convos: ['medico', 'farmacia'],
     greet: ['どうしましたか。どこか 痛いですか？', 'O que houve? Está com dor em algum lugar?'],
     look: { skin: '#f6d2b8', hair: '#4a4a52', hairStyle: 'short', outfit: 'doctor', top: '#e8eef4', bottom: '#3a4a5a', accent: '#3a6ea8', eyes: '#3a2a22', glasses: true },
   });
   c.npc({
-    id: 'fuufu', name: 'Sr. e Sra. Nakamura', jp: 'なかむら夫妻', title: 'casal de idosos', x: cx + 10, z: cz + 4, ry: -2.2, role: 'teacher',
+    id: 'fuufu', name: 'Sr. e Sra. Nakamura', jp: 'なかむら夫妻', title: 'casal de idosos', x: cx + 10, z: cz + 4, ry: -2.2, convos: ['onsen'], role: 'teacher',
     themes: ['relacoes', 'sentimentos', 'onomatopeia'], registers: ['casual', 'polido'], voice: { pitch: 0.8, rate: 0.85 },
     greet: ['ああ、いい お湯だったねえ。', 'Ah, que banho gostoso que foi, né.'],
     look: { skin: '#f6d2b8', hair: '#d8d8de', hairStyle: 'short', outfit: 'yukata', top: '#3a6ea8', bottom: '#3a6ea8', accent: '#2a2a36', eyes: '#3a2a22', old: true },
@@ -206,13 +206,13 @@ export function buildCastelo(c: RegionCtx) {
     look: { skin: '#cfe0ff', hair: '#1e2236', hairStyle: 'topknot', outfit: 'samurai', top: '#8a2a2a', bottom: '#3a2a4a', accent: '#e9c46a', eyes: '#1e2236', ghost: true },
   });
   c.npc({
-    id: 'chajin', name: 'Mestre de Chá Rikyū', jp: 'りきゅう', title: 'mestre da cerimônia do chá', x: cx - 6, z: cz + 19.5, ry: Math.PI, role: 'teacher',
+    id: 'chajin', name: 'Mestre de Chá Rikyū', jp: 'りきゅう', title: 'mestre da cerimônia do chá', x: cx - 6, z: cz + 19.5, ry: Math.PI, convos: ['cha'], role: 'teacher',
     themes: ['arte', 'keigo', 'expressoes'], registers: ['keigo', 'antigo'], voice: { pitch: 0.75, rate: 0.8 },
     greet: ['一期一会。どうぞ、お茶を 一服。', 'Um encontro, uma oportunidade. Por favor, uma xícara de chá.'],
     look: { skin: '#f6d2b8', hair: '#8a8a92', hairStyle: 'bald', outfit: 'monk', top: '#4a4a3a', bottom: '#3a3a2a', accent: '#6a6a4a', eyes: '#3a2a22', old: true },
   });
   c.npc({
-    id: 'giin', name: 'Deputada Ishikawa', jp: 'いしかわ議員', title: 'política', x: cx + 14, z: cz + 30, ry: -1.6, role: 'teacher',
+    id: 'giin', name: 'Deputada Ishikawa', jp: 'いしかわ議員', title: 'política', x: cx + 14, z: cz + 30, ry: -1.6, convos: ['politica'], role: 'teacher',
     themes: ['sociedade', 'negocios'], registers: ['keigo', 'polido'], voice: { pitch: 1.0, rate: 1.0 },
     greet: ['皆様の 声を 大切に いたします。', 'Valorizarei a voz de todos vocês.'],
     look: { skin: '#ffe3cf', hair: '#2a2126', hairStyle: 'bob', outfit: 'suit', top: '#6a2a3a', bottom: '#2a2a36', accent: '#e9c46a', eyes: '#3a2a22', lashes: true },
@@ -257,7 +257,7 @@ export function buildTemplo(c: RegionCtx) {
   for (let i = 0; i < 6; i++) stoneLantern(ctx, cx - 14 + i * 5.6, cz + 24, 0.95);
   c.spot('hokora', cx + 6, cz + 26);
   c.npc({
-    id: 'zen', name: 'Mestre Zen Dōgen', jp: 'どうげん老師', title: 'mestre zen', x: cx - 4, z: cz + 3, ry: 0, role: 'teacher',
+    id: 'zen', name: 'Mestre Zen Dōgen', jp: 'どうげん老師', title: 'mestre zen', x: cx - 4, z: cz + 3, ry: 0, convos: ['zen'], role: 'teacher',
     themes: ['mente', 'expressoes'], registers: ['antigo', 'keigo'], voice: { pitch: 0.7, rate: 0.75 },
     greet: ['よく 来られた。心を 静かに しなさい。', 'Que bom que veio. Acalme o coração.'],
     look: { skin: '#f6d2b8', hair: '#8a8a92', hairStyle: 'bald', outfit: 'monk', top: '#3a3a3e', bottom: '#2a2a2e', accent: '#c9a878', eyes: '#3a2a22', old: true },

@@ -18,6 +18,7 @@ const ANNOT = 'data-src/annot';
 const OUT = 'src/data';
 mkdirSync(OUT, { recursive: true });
 
+const PROPER = /^(Japão|China|Coreia|Ásia|Europa|América|Buda|Brasil|Índia|Inglaterra|França|Holanda|Rússia|Alemanha)/;
 const THEME_ORDER = [
   'saudacoes', 'numeros', 'familia', 'animais', 'cores', 'natureza', 'casa', 'comida', 'compras', 'roupas', 'onomatopeia',
   'escola', 'tempo', 'verbos', 'adjetivos', 'gramatica', 'corpo', 'casual', 'sentimentos', 'adverbios', 'keigo', 'historia', 'arte',
@@ -199,7 +200,6 @@ if (existsSync('data-src/raw/kanjidic2.xml')) {
   writeFileSync(join(OUT, 'kanji.json'), JSON.stringify({ fields: ['k', 'strokes', 'grade', 'jlpt', 'freq', 'on', 'kun', 'pt'], rows: kanjiRows }));
   console.log(`kanji: ${kanjiRows.length} (${Object.keys(ptFix).length} with reviewed Portuguese)`);
 }
-const PROPER = /^(Japão|China|Coreia|Ásia|Europa|América|Buda|Brasil|Índia|Inglaterra|França|Holanda|Rússia|Alemanha)/;
 function cleanPt(list) {
   return list.map((s) => s.trim()).filter((s) => s && !/avião|prefixo|sufixo p\//i.test(s)).map((s) => (PROPER.test(s) ? s : s.charAt(0).toLowerCase() + s.slice(1)));
 }

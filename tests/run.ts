@@ -6,7 +6,7 @@ import { newItem, answer, LEARNED_STAGE, INTERVALS, packItem, unpackItem } from 
 import { newSave, validate } from '../src/core/save';
 import { REGIONS, THEME_NAMES } from '../src/data/regions';
 import { CONVOS } from '../src/data/convos';
-import { readFileSync } from 'node:fs';
+import { readFileSync, readdirSync } from 'node:fs';
 
 let pass = 0, fail = 0;
 function eq(name: string, got: unknown, want: unknown) {
@@ -117,7 +117,14 @@ eq('いらっしゃる masu', form('いらっしゃる', 'いらっしゃる', '
   eq('2136 jōyō kanji', kj.rows.length, 2136);
   const strokes = JSON.parse(readFileSync('src/data/strokes.json', 'utf8')) as Record<string, string[]>;
   ok('strokes for kana and kanji', !!strokes['あ'] && !!strokes['日'] && Object.keys(strokes).length > 2000);
-  for (const c of CONVOS) for (const st of c.steps) if (st.you) ok(`convo ${c.id} has exactly one right answer per step`, st.you.filter((o) => o.ok).length === 1);
+  const jsonConvos = readdirSync('src/data/convos').filter((f) => f.endsWith('.json')).map((f) => JSON.parse(readFileSync('src/data/convos/' + f, 'utf8')) as typeof CONVOS[number]);
+  for (const c of [...CONVOS, ...jsonConvos]) {
+    ok(`convo ${c.id} has steps`, c.steps.length >= 3);
+    for (const st of c.steps) if (st.you) {
+      ok(`convo ${c.id} has exactly one right answer per step`, st.you.filter((o) => o.ok).length === 1);
+      ok(`convo ${c.id} wrong options explain why`, st.you.every((o) => o.ok || !!o.why));
+    }
+  }
   ok('regions ordered by requirement', REGIONS.every((r, i) => i === 0 || r.req >= REGIONS[i - 1].req));
 }
 
