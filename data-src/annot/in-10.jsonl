@@ -1,0 +1,560 @@
+{"i": "j6414", "w": "天国", "r": "てんごく", "n": 1, "pos": "n", "en": "paradise, heaven, Kingdom of Heaven"}
+{"i": "j6415", "w": "天才", "r": "てんさい", "n": 1, "pos": "n", "en": "genius, prodigy, natural gift"}
+{"i": "j6416", "w": "天災", "r": "てんさい", "n": 1, "pos": "n", "en": "natural disaster, natural calamity, act of God"}
+{"i": "j6417", "w": "展示", "r": "てんじ", "n": 1, "pos": "vs", "en": "exhibition, display"}
+{"i": "j6418", "w": "伝説", "r": "でんせつ", "n": 1, "pos": "n", "en": "legend, folklore, tradition"}
+{"i": "j6419", "w": "点線", "r": "てんせん", "n": 1, "pos": "n", "en": "dotted line, perforated line"}
+{"i": "j6420", "w": "転じる", "r": "てんじる", "n": 1, "pos": "v1", "en": "to turn, to shift, to switch"}
+{"i": "j6421", "w": "転ずる", "r": "てんずる", "n": 1, "pos": "vs-i", "en": "to turn, to shift, to alter"}
+{"i": "j6422", "w": "天体", "r": "てんたい", "n": 1, "pos": "n", "en": "heavenly body, celestial body, astronomical object"}
+{"i": "j6423", "w": "伝達", "r": "でんたつ", "n": 1, "pos": "vs", "en": "transmission (e.g. news, chemical signals, electricity), communication, delivery"}
+{"i": "j6424", "w": "天地", "r": "てんち", "n": 1, "pos": "n", "en": "heaven and earth, the universe, the world; land, world, realm; top and bottom"}
+{"i": "j6425", "w": "てんで", "r": "てんで", "n": 1, "pos": "adv", "en": "(not) at all, completely, utterly; very, extremely"}
+{"i": "j6426", "w": "転任", "r": "てんにん", "n": 1, "pos": "vs", "en": "change of post"}
+{"i": "j6427", "w": "展望", "r": "てんぼう", "n": 1, "pos": "vs", "en": "view, outlook, prospect"}
+{"i": "j6428", "w": "伝来", "r": "でんらい", "n": 1, "pos": "vs", "en": "introduction (from abroad); transmission (through successive generations), being handed down (from generation to generation), being passed down"}
+{"i": "j6429", "w": "転落", "r": "てんらく", "n": 1, "pos": "vs", "en": "fall, tumble, spill; fall (in position, standing, etc.), downfall, descent"}
+{"i": "j6430", "w": "問い合わせる", "r": "といあわせる", "n": 1, "pos": "v1", "en": "to enquire, to inquire, to seek information"}
+{"i": "j6431", "w": "当", "r": "とう", "n": 1, "pos": "pref", "en": "this, our, the ... in question; right, justice, fairness; checking account"}
+{"i": "j6432", "w": "胴", "r": "どう", "n": 1, "pos": "n", "en": "trunk, torso, body; plastron (in kendo), touching the plastron (kimari-te in kendo); frame (of a drum, etc.), sound box (of a shamisen, etc.), hull (of a ship)"}
+{"i": "j6433", "w": "同意", "r": "どうい", "n": 1, "pos": "vs", "en": "agreement, consent, approval; same opinion, same view; same meaning"}
+{"i": "j6434", "w": "動員", "r": "どういん", "n": 1, "pos": "vs", "en": "mobilization, mobilisation"}
+{"i": "j6435", "w": "同感", "r": "どうかん", "n": 1, "pos": "vs", "en": "same feeling, same sentiment, same opinion"}
+{"i": "j6436", "w": "陶器", "r": "とうき", "n": 1, "pos": "n", "en": "pottery, earthenware, ceramics"}
+{"i": "j6437", "w": "討議", "r": "とうぎ", "n": 1, "pos": "vs", "en": "debate, discussion"}
+{"i": "j6438", "w": "動機", "r": "どうき", "n": 1, "pos": "n", "en": "motive, incentive; motif"}
+{"i": "j6439", "w": "等級", "r": "とうきゅう", "n": 1, "pos": "n", "en": "grade, class, degree; magnitude"}
+{"i": "j6440", "w": "同級", "r": "どうきゅう", "n": 1, "pos": "n", "en": "the same grade, same class"}
+{"i": "j6441", "w": "同居", "r": "どうきょ", "n": 1, "pos": "vs", "en": "living together, coexistence"}
+{"i": "j6442", "w": "登校", "r": "とうこう", "n": 1, "pos": "vs", "en": "attendance (at school), going to school"}
+{"i": "j6443", "w": "統合", "r": "とうごう", "n": 1, "pos": "vs", "en": "integration, unification, unity"}
+{"i": "j6444", "w": "動向", "r": "どうこう", "n": 1, "pos": "n", "en": "trend, tendency, movement"}
+{"i": "j6445", "w": "投資", "r": "とうし", "n": 1, "pos": "vs", "en": "investment"}
+{"i": "j6446", "w": "同情", "r": "どうじょう", "n": 1, "pos": "vs", "en": "sympathy, compassion, pity"}
+{"i": "j6447", "w": "道場", "r": "どうじょう", "n": 1, "pos": "n", "en": "dojo, hall used for martial arts training; manda (place of Buddhist practice or meditation, esp. the place under the bodhi tree where Buddha attained enlightenm"}
+{"i": "j6448", "w": "統制", "r": "とうせい", "n": 1, "pos": "vs", "en": "regulation, control"}
+{"i": "j6449", "w": "当選", "r": "とうせん", "n": 1, "pos": "vs", "en": "being elected; winning a prize (in a lottery, raffle, etc.), being selected (for a prize, etc.)"}
+{"i": "j6450", "w": "逃走", "r": "とうそう", "n": 1, "pos": "vs", "en": "flight, desertion, escape"}
+{"i": "j6451", "w": "統率", "r": "とうそつ", "n": 1, "pos": "vs", "en": "command, lead, generalship"}
+{"i": "j6452", "w": "到達", "r": "とうたつ", "n": 1, "pos": "vs", "en": "reaching, attaining, arrival"}
+{"i": "j6453", "w": "統治", "r": "とうち", "n": 1, "pos": "vs", "en": "rule, reign, government"}
+{"i": "j6454", "w": "仕切る", "r": "しきる", "n": 1, "pos": "v5r", "en": "to partition, to divide, to mark off; to direct, to manage, to run; to settle accounts"}
+{"i": "j6455", "w": "資金", "r": "しきん", "n": 1, "pos": "n", "en": "funds, capital"}
+{"i": "j6456", "w": "軸", "r": "じく", "n": 1, "pos": "n", "en": "axis, shaft, axle; center, centre, focal point; stalk, stem"}
+{"i": "j6457", "w": "しくじる", "r": "しくじる", "n": 1, "pos": "v5r", "en": "to fail, to blunder, to mess up; to be dismissed, to be fired"}
+{"i": "j6458", "w": "仕組", "r": "しくみ", "n": 1, "pos": "n", "en": "structure, construction, arrangement; plan, plot, contrivance"}
+{"i": "j6459", "w": "死刑", "r": "しけい", "n": 1, "pos": "n", "en": "death penalty, capital punishment"}
+{"i": "j6460", "w": "湿気る", "r": "しける", "n": 1, "pos": "v1", "en": "to get damp, to get moist, to get soggy"}
+{"i": "j6461", "w": "施行", "r": "しこう", "n": 1, "pos": "vs", "en": "putting in force (a law), putting into operation, putting into effect; carrying out (a plan, policy, etc.), execution"}
+{"i": "j6462", "w": "思考", "r": "しこう", "n": 1, "pos": "vs", "en": "thought, consideration, thinking"}
+{"i": "j6463", "w": "志向", "r": "しこう", "n": 1, "pos": "vs", "en": "intention, aim, preference (for)"}
+{"i": "j6464", "w": "嗜好", "r": "しこう", "n": 1, "pos": "vs", "en": "taste, liking, preference"}
+{"i": "j6465", "w": "事項", "r": "じこう", "n": 1, "pos": "n", "en": "matter, item, facts"}
+{"i": "j6466", "w": "時刻表", "r": "じこくひょう", "n": 1, "pos": "n", "en": "timetable, schedule"}
+{"i": "j6467", "w": "地獄", "r": "じごく", "n": 1, "pos": "n", "en": "hell realm, Naraka; Hell; hell, misery, nightmare"}
+{"i": "j6468", "w": "時差", "r": "じさ", "n": 1, "pos": "n", "en": "time difference"}
+{"i": "j6469", "w": "自在", "r": "じざい", "n": 1, "pos": "n", "en": "being able to do as one pleases, doing at will; pothook"}
+{"i": "j6470", "w": "視察", "r": "しさつ", "n": 1, "pos": "vs", "en": "inspection, observation"}
+{"i": "j6471", "w": "資産", "r": "しさん", "n": 1, "pos": "n", "en": "property, fortune, means"}
+{"i": "j6472", "w": "支持", "r": "しじ", "n": 1, "pos": "vs", "en": "support, backing, endorsement; propping up, holding up, support"}
+{"i": "j6473", "w": "自主", "r": "じしゅ", "n": 1, "pos": "vs", "en": "independence, autonomy, self-reliance"}
+{"i": "j6474", "w": "自首", "r": "じしゅ", "n": 1, "pos": "vs", "en": "surrender (to the authorities), giving oneself up, turning oneself in"}
+{"i": "j6475", "w": "刺繍", "r": "ししゅう", "n": 1, "pos": "vs", "en": "embroidery"}
+{"i": "j6476", "w": "市場", "r": "しじょう", "n": 1, "pos": "n", "en": "market (financial, stock, domestic, etc.), marketplace, exchange; (street) market"}
+{"i": "j6477", "w": "辞職", "r": "じしょく", "n": 1, "pos": "vs", "en": "resignation"}
+{"i": "j6478", "w": "雫", "r": "しずく", "n": 1, "pos": "n", "en": "drop (e.g. of water), drip"}
+{"i": "j6479", "w": "システム", "r": "システム", "n": 1, "pos": "n", "en": "system"}
+{"i": "j6480", "w": "沈める", "r": "しずめる", "n": 1, "pos": "v1", "en": "to sink (e.g. a ship), to submerge; to lower (e.g. one's body into a chair); to floor (an opponent)"}
+{"i": "j6481", "w": "施設", "r": "しせつ", "n": 1, "pos": "vs", "en": "facility, facilities, institution; home (for the elderly, orphans, etc.)"}
+{"i": "j6482", "w": "事前", "r": "じぜん", "n": 1, "pos": "adj-no", "en": "prior, beforehand, in advance"}
+{"i": "j6483", "w": "子息", "r": "しそく", "n": 1, "pos": "n", "en": "(another's) son"}
+{"i": "j6484", "w": "持続", "r": "じぞく", "n": 1, "pos": "vs", "en": "continuation, persisting, lasting"}
+{"i": "j6485", "w": "自尊心", "r": "じそんしん", "n": 1, "pos": "n", "en": "self-esteem, self-respect, self-importance"}
+{"i": "j6486", "w": "慕う", "r": "したう", "n": 1, "pos": "v5u", "en": "to yearn for, to long for, to pine for; to follow (someone); to idolize (for virtue, learning, status, etc.)"}
+{"i": "j6487", "w": "下心", "r": "したごころ", "n": 1, "pos": "n", "en": "secret intention, ulterior motive; kanji \"heart\" radical at bottom"}
+{"i": "j6488", "w": "下地", "r": "したじ", "n": 1, "pos": "n", "en": "groundwork, foundation; inclination, aptitude, elementary knowledge (of); undercoat, first coat"}
+{"i": "j6489", "w": "親しむ", "r": "したしむ", "n": 1, "pos": "v5m", "en": "to be intimate with, to befriend; to become familiar with, to enjoy (books, nature, etc.)"}
+{"i": "j6490", "w": "下調べ", "r": "したしらべ", "n": 1, "pos": "vs", "en": "preliminary investigation, preliminary inquiry; preparation (for a class), going over one's lessons (in advance), studying ahead"}
+{"i": "j6491", "w": "愛想", "r": "あいそう", "n": 1, "pos": "n", "en": "amiability, friendliness, affability; fondness (of someone), affection, liking; compliments, civilities, courtesies"}
+{"i": "j6492", "w": "間柄", "r": "あいだがら", "n": 1, "pos": "n", "en": "relationship, relation, terms (good, friendly, etc.)"}
+{"i": "j6493", "w": "合間", "r": "あいま", "n": 1, "pos": "n", "en": "interval, break, pause; gap (between objects), interval, opening"}
+{"i": "j6494", "w": "敢えて", "r": "あえて", "n": 1, "pos": "adv", "en": "purposely (of something needless, unexpected or seemingly counterproductive, etc.), daringly (doing something), deliberately; not necessarily, not particularly,"}
+{"i": "j6495", "w": "仰ぐ", "r": "あおぐ", "n": 1, "pos": "v5g", "en": "to look up (at); to look up to, to respect, to revere; to ask for (e.g. guidance), to seek, to turn to (someone) for"}
+{"i": "j6496", "w": "垢", "r": "あか", "n": 1, "pos": "n", "en": "dirt, filth, grime"}
+{"i": "j6497", "w": "赤字", "r": "あかじ", "n": 1, "pos": "n", "en": "(being in) the red, deficit; red letter, red writing; corrections (by a teacher or proofreader) written in red"}
+{"i": "j6498", "w": "明かす", "r": "あかす", "n": 1, "pos": "v5s", "en": "to pass (the night), to spend; to reveal, to divulge, to disclose; to prove, to verify"}
+{"i": "j6499", "w": "赤らむ", "r": "あからむ", "n": 1, "pos": "v5m", "en": "to become red, to redden, to blush"}
+{"i": "j6500", "w": "上がり", "r": "あがり", "n": 1, "pos": "n", "en": "rise, increase, ascent; income, takings, earnings; completion, end, finish"}
+{"i": "j6501", "w": "諦め", "r": "あきらめ", "n": 1, "pos": "n", "en": "resignation, acceptance, consolation"}
+{"i": "j6502", "w": "アクセル", "r": "アクセル", "n": 1, "pos": "n", "en": "accelerator (pedal), gas pedal"}
+{"i": "j6503", "w": "あくどい", "r": "あくどい", "n": 1, "pos": "adj-i", "en": "gaudy, showy, garish; crooked, vicious, wicked"}
+{"i": "j6504", "w": "顎", "r": "あご", "n": 1, "pos": "n", "en": "jaw, chin; barb (of a fishhook)"}
+{"i": "j6505", "w": "憧れ", "r": "あこがれ", "n": 1, "pos": "n", "en": "yearning, longing, aspiration"}
+{"i": "j6506", "w": "麻", "r": "あさ", "n": 1, "pos": "n", "en": "cannabis (Cannabis sativa), hemp (plant); hemp (fiber), linen, flax"}
+{"i": "j6507", "w": "あざ", "r": "あざ", "n": 1, "pos": "n", "en": "birthmark, nevus; bruise"}
+{"i": "j6508", "w": "浅ましい", "r": "あさましい", "n": 1, "pos": "adj-i", "en": "wretched, miserable, shameful"}
+{"i": "j6509", "w": "欺く", "r": "あざむく", "n": 1, "pos": "v5k", "en": "to deceive, to delude, to trick; to be as ... as ... (e.g. \"as bright as day\", \"as beautiful as a rose\")"}
+{"i": "j6510", "w": "鮮やか", "r": "あざやか", "n": 1, "pos": "adj-na", "en": "vivid, bright, brilliant; skillful, skilful, adroit"}
+{"i": "j6511", "w": "嘲笑う", "r": "あざわらう", "n": 1, "pos": "v5u", "en": "to laugh at, to ridicule, to mock"}
+{"i": "j6512", "w": "悪しからず", "r": "あしからず", "n": 1, "pos": "adv", "en": "don't get me wrong, but ..., I'm sorry"}
+{"i": "j6513", "w": "味わい", "r": "あじわい", "n": 1, "pos": "n", "en": "flavour, flavor, taste; charm, appeal, interest"}
+{"i": "j6514", "w": "焦る", "r": "あせる", "n": 1, "pos": "v5r", "en": "to be in a hurry, to be impatient, to be anxious (to do); to get a fright, to panic, to get flustered"}
+{"i": "j6515", "w": "あせる (こえが～)", "r": "あせる (こえが～)", "n": 1, "pos": "n", "en": "to fade, to discolor"}
+{"i": "j6516", "w": "値", "r": "あたい", "n": 1, "pos": "n", "en": "price, cost; value, worth, merit; value"}
+{"i": "j6517", "w": "値する", "r": "あたいする", "n": 1, "pos": "vs-i", "en": "to be worth, to be worthy of, to deserve"}
+{"i": "j6518", "w": "悪化", "r": "あっか", "n": 1, "pos": "vs", "en": "deterioration, getting worse, worsening"}
+{"i": "j6519", "w": "扱い", "r": "あつかい", "n": 1, "pos": "n", "en": "treatment, service, dealing (with); handling (of a machine, tool, etc.), operation, use; treating as, treating like"}
+{"i": "j6520", "w": "呆気ない", "r": "あっけない", "n": 1, "pos": "adj-i", "en": "unsatisfying, disappointing, abrupt"}
+{"i": "j6521", "w": "あっさり", "r": "あっさり", "n": 1, "pos": "adv", "en": "easily, readily, quickly; lightly (seasoned food, applied make-up, etc.), plainly, simply"}
+{"i": "j6522", "w": "斡旋", "r": "あっせん", "n": 1, "pos": "vs", "en": "good offices, kind offices, services; mediation, intercession, conciliation"}
+{"i": "j6523", "w": "圧倒", "r": "あっとう", "n": 1, "pos": "vs", "en": "to overwhelm (e.g. an opponent), to overpower, to crush; to overwhelm (someone with emotion), to move, to impress; to intimidate, to frighten, to threaten"}
+{"i": "j6524", "w": "圧迫", "r": "あっぱく", "n": 1, "pos": "vs", "en": "pressure; oppression, suppression"}
+{"i": "j6525", "w": "あつらえる", "r": "あつらえる", "n": 1, "pos": "v1", "en": "to give an order, to place an order, to have made to order"}
+{"i": "j6526", "w": "圧力", "r": "あつりょく", "n": 1, "pos": "n", "en": "pressure; pressure (e.g. political), arm-twisting"}
+{"i": "j6527", "w": "当て", "r": "あて", "n": 1, "pos": "n", "en": "aim, object, purpose; expectations, prospects, hopes; something that can be relied upon"}
+{"i": "j6528", "w": "宛", "r": "あて", "n": 1, "pos": "suf", "en": "aim, object, purpose; expectations, prospects, hopes; something that can be relied upon"}
+{"i": "j6529", "w": "当て字", "r": "あてじ", "n": 1, "pos": "n", "en": "kanji used as a phonetic symbol, instead of for the meaning, phonetic-equivalent character, substitute character; kanji used for their meaning, irrespective of "}
+{"i": "j6530", "w": "跡継ぎ", "r": "あとつぎ", "n": 1, "pos": "n", "en": "heir, inheritor; successor"}
+{"i": "j6531", "w": "後回し", "r": "あとまわし", "n": 1, "pos": "n", "en": "putting off, postponing"}
+{"i": "j6532", "w": "油絵", "r": "あぶらえ", "n": 1, "pos": "n", "en": "oil painting"}
+{"i": "j6533", "w": "アプローチ", "r": "アプローチ", "n": 1, "pos": "vs", "en": "approach (to a problem, issue, etc.); approach (of a long jump, aircraft's flight, etc.), inrun (of a ski jump); approach (to a building, mountain, etc.)"}
+{"i": "j6534", "w": "あべこべ", "r": "あべこべ", "n": 1, "pos": "adj-na", "en": "contrary, opposite, inverse"}
+{"i": "j6535", "w": "甘える", "r": "あまえる", "n": 1, "pos": "v1", "en": "to behave like a spoiled child, to fawn on; to take advantage of, to presume upon (e.g. another's benevolence), to depend on"}
+{"i": "j6536", "w": "雨具", "r": "あまぐ", "n": 1, "pos": "n", "en": "rain gear"}
+{"i": "j6537", "w": "甘口", "r": "あまくち", "n": 1, "pos": "adj-na", "en": "sweet flavour, sweet flavor, mildness; flattery; stupidity"}
+{"i": "j6538", "w": "アマチュア", "r": "アマチュア", "n": 1, "pos": "n", "en": "amateur"}
+{"i": "j6539", "w": "網", "r": "あみ", "n": 1, "pos": "n", "en": "net, netting; web"}
+{"i": "j6540", "w": "操る", "r": "あやつる", "n": 1, "pos": "v5r", "en": "to operate (e.g. a machine), to handle, to manage; to have a good command of (a language), to play proficiently (of a musical instrument); to work (a puppet), t"}
+{"i": "j6541", "w": "危ぶむ", "r": "あやぶむ", "n": 1, "pos": "v5m", "en": "to fear, to doubt, to have misgivings about"}
+{"i": "j6542", "w": "あやふや", "r": "あやふや", "n": 1, "pos": "adj-na", "en": "uncertain, indefinite, vague"}
+{"i": "j6543", "w": "過ち", "r": "あやまち", "n": 1, "pos": "n", "en": "fault, error, indiscretion"}
+{"i": "j6544", "w": "誤る", "r": "あやまる", "n": 1, "pos": "v5r", "en": "to make a mistake (in), to commit an error, to do incorrectly; to be wrong, to be incorrect, to be false; to mislead, to misguide, to lead astray"}
+{"i": "j6545", "w": "歩み", "r": "あゆみ", "n": 1, "pos": "n", "en": "walking; pace, step; course (of history, one's life, etc.), history, progress"}
+{"i": "j6546", "w": "歩む", "r": "あゆむ", "n": 1, "pos": "v5m", "en": "to walk, to go on foot; to tread (a figurative path), to follow, to lead (a life); to advance towards (e.g. a solution), to set out (e.g. on the path to destruc"}
+{"i": "j6547", "w": "予め", "r": "あらかじめ", "n": 1, "pos": "adv", "en": "beforehand, in advance, ahead of time"}
+{"i": "j6548", "w": "荒らす", "r": "あらす", "n": 1, "pos": "v5s", "en": "to lay waste, to devastate, to damage; to invade, to break into; to troll (e.g. web forums), to spam"}
+{"i": "j6549", "w": "争い", "r": "あらそい", "n": 1, "pos": "n", "en": "fight, dispute, feud; competition, contest, rivalry"}
+{"i": "j6550", "w": "改まる", "r": "あらたまる", "n": 1, "pos": "v5r", "en": "to be renewed, to change; to be improved, to be reformed, to be revised; to stand on ceremony, to be formal"}
+{"i": "j6551", "w": "荒っぽい", "r": "あらっぽい", "n": 1, "pos": "adj-i", "en": "wild, violent, rough-mannered; rough (e.g. work), crude, coarse"}
+{"i": "j6552", "w": "アラブ", "r": "アラブ", "n": 1, "pos": "n", "en": "Arab, Arab countries; Arab (horse), Arabian"}
+{"i": "j6553", "w": "霰", "r": "あられ", "n": 1, "pos": "n", "en": "hail (esp. hailballs under 5 mm), graupel; dicing, small cubes; roasted mochi pieces (usu. flavoured with soy sauce, etc.)"}
+{"i": "j6554", "w": "有り様", "r": "ありさま", "n": 1, "pos": "n", "en": "state, condition, circumstances"}
+{"i": "j6555", "w": "ありのまま", "r": "ありのまま", "n": 1, "pos": "adv", "en": "as it is, plain (truth), bare"}
+{"i": "j6556", "w": "ありふれる", "r": "ありふれる", "n": 1, "pos": "v1", "en": "to be common"}
+{"i": "j6557", "w": "アルカリ", "r": "アルカリ", "n": 1, "pos": "n", "en": "alkali"}
+{"i": "j6558", "w": "アルミ", "r": "アルミ", "n": 1, "pos": "n", "en": "aluminum, aluminium"}
+{"i": "j6559", "w": "アワー", "r": "アワー", "n": 1, "pos": "n", "en": "hour"}
+{"i": "j6560", "w": "合わす", "r": "あわす", "n": 1, "pos": "v5s", "en": "to match (rhythm, actions, clothes, etc.), to do in line with, to adapt to; to combine, to unite, to bring together; to put together (physically), to place toge"}
+{"i": "j6561", "w": "合せ", "r": "あわせ", "n": 1, "pos": "suf", "en": "in all"}
+{"i": "j6562", "w": "アンコール", "r": "アンコール", "n": 1, "pos": "vs", "en": "encore"}
+{"i": "j6563", "w": "暗殺", "r": "あんさつ", "n": 1, "pos": "vs", "en": "assassination"}
+{"i": "j6564", "w": "暗算", "r": "あんざん", "n": 1, "pos": "vs", "en": "mental arithmetic"}
+{"i": "j6565", "w": "暗示", "r": "あんじ", "n": 1, "pos": "vs", "en": "hint, suggestion, clue; suggestion"}
+{"i": "j6566", "w": "案じる", "r": "あんじる", "n": 1, "pos": "v1", "en": "to be anxious (about), to be concerned (about), to worry (about); to think out (e.g. a plan), to work out, to devise; to investigate"}
+{"i": "j6567", "w": "安静", "r": "あんせい", "n": 1, "pos": "n", "en": "rest, quiet, repose"}
+{"i": "j6568", "w": "案の定", "r": "あんのじょう", "n": 1, "pos": "adv", "en": "as expected, just as one thought, as feared"}
+{"i": "j6569", "w": "いい加減", "r": "いいかげん", "n": 1, "pos": "adj-na", "en": "irresponsible, perfunctory, careless; lukewarm, half-baked, halfhearted; (already) enough"}
+{"i": "j6570", "w": "言い訳", "r": "いいわけ", "n": 1, "pos": "vs", "en": "excuse; explanation"}
+{"i": "j6571", "w": "イェス", "r": "イェス", "n": 1, "pos": "int", "en": "yes"}
+{"i": "j6572", "w": "家出", "r": "いえで", "n": 1, "pos": "vs", "en": "running away from home, elopement; outing, going out; becoming a Buddhist monk, entering the priesthood"}
+{"i": "j6573", "w": "生かす", "r": "いかす", "n": 1, "pos": "v5s", "en": "to make (the best) use of, to put to good use, to leverage (skills, attributes, experience, etc.); to let live, to keep alive; to revive, to resuscitate, to bri"}
+{"i": "j6574", "w": "いかに", "r": "いかに", "n": 1, "pos": "adv", "en": "how, in what way; how (much), to what extent; however (much), no matter how"}
+{"i": "j6575", "w": "いかにも", "r": "いかにも", "n": 1, "pos": "adv", "en": "indeed, really, truly; very, extremely, totally; absolutely, certainly, for sure"}
+{"i": "j6576", "w": "異議", "r": "いぎ", "n": 1, "pos": "n", "en": "objection, dissent, protest"}
+{"i": "j6577", "w": "生き甲斐", "r": "いきがい", "n": 1, "pos": "n", "en": "reason for living, something one lives for, purpose in life"}
+{"i": "j6578", "w": "行き違い", "r": "いきちがい", "n": 1, "pos": "n", "en": "crossing without meeting (e.g. letters in the post, people on the road), going astray; difference of opinion, misunderstanding, estrangement"}
+{"i": "j6579", "w": "意気込む", "r": "いきごむ", "n": 1, "pos": "v5m", "en": "to be enthusiastic (about), to be eager (to do), to be keen"}
+{"i": "j6580", "w": "育成", "r": "いくせい", "n": 1, "pos": "vs", "en": "rearing, training, nurture"}
+{"i": "j6581", "w": "幾多", "r": "いくた", "n": 1, "pos": "adv", "en": "many, numerous"}
+{"i": "j6582", "w": "(花を〜) 生ける, 活ける", "r": "(はなを～) いける", "n": 1, "pos": "n", "en": "to arrange (flowers)"}
+{"i": "j6583", "w": "異見", "r": "いけん", "n": 1, "pos": "n", "en": "different opinion, different view, dissenting view; scolding, reprimand, rebuke"}
+{"i": "j6584", "w": "意向", "r": "いこう", "n": 1, "pos": "n", "en": "intention, inclination, mind"}
+{"i": "j6585", "w": "移行", "r": "いこう", "n": 1, "pos": "vs", "en": "transition, changeover, switchover; transfer (of powers, weight, etc.), shift (e.g. of centre of gravity)"}
+{"i": "j6586", "w": "いざ", "r": "いざ", "n": 1, "pos": "adv", "en": "now, come (now), well; when it comes to, when actually, when the time comes"}
+{"i": "j6587", "w": "移住", "r": "いじゅう", "n": 1, "pos": "vs", "en": "migration, move, emigration"}
+{"i": "j6588", "w": "衣装", "r": "いしょう", "n": 1, "pos": "n", "en": "clothing, costume, outfit"}
+{"i": "j6589", "w": "いじる", "r": "いじる", "n": 1, "pos": "v5r", "en": "to finger, to touch, to play with; to make changes to, to tinker with, to fiddle with; to dabble in, to do as a hobby, to play around with"}
+{"i": "j6590", "w": "異性", "r": "いせい", "n": 1, "pos": "n", "en": "the opposite sex; isomerism"}
+{"i": "j6591", "w": "遺跡", "r": "いせき", "n": 1, "pos": "n", "en": "(archeological) remains, ruins, relics"}
+{"i": "j6592", "w": "依存", "r": "いぞん", "n": 1, "pos": "vs", "en": "dependence, reliance"}
+{"i": "j6593", "w": "委託", "r": "いたく", "n": 1, "pos": "vs", "en": "entrusting (something to a person), consignment (of goods), putting in someone's charge"}
+{"i": "j6594", "w": "いたって", "r": "いたって", "n": 1, "pos": "adv", "en": "very much, exceedingly, extremely"}
+{"i": "j6595", "w": "出世", "r": "しゅっせ", "n": 1, "pos": "vs", "en": "success in life, getting ahead, successful career"}
+{"i": "j6596", "w": "出題", "r": "しゅつだい", "n": 1, "pos": "vs", "en": "setting a question (for an exam, quiz, etc.); setting a theme (for composition of poetry)"}
+{"i": "j6597", "w": "出動", "r": "しゅつどう", "n": 1, "pos": "vs", "en": "mobilization, going into action, being dispatched"}
+{"i": "j6598", "w": "出費", "r": "しゅっぴ", "n": 1, "pos": "vs", "en": "expenses, disbursements"}
+{"i": "j6599", "w": "出品", "r": "しゅっぴん", "n": 1, "pos": "vs", "en": "exhibiting, showing, putting on display"}
+{"i": "j6600", "w": "主導", "r": "しゅどう", "n": 1, "pos": "vs", "en": "leadership, initiative, spearhead"}
+{"i": "j6601", "w": "主任", "r": "しゅにん", "n": 1, "pos": "n", "en": "person in charge, senior staff, manager"}
+{"i": "j6602", "w": "首脳", "r": "しゅのう", "n": 1, "pos": "n", "en": "head, leader, top; important part"}
+{"i": "j6603", "w": "守備", "r": "しゅび", "n": 1, "pos": "vs", "en": "defense, defence; fielding"}
+{"i": "j6604", "w": "手法", "r": "しゅほう", "n": 1, "pos": "n", "en": "technique, method"}
+{"i": "j6605", "w": "樹木", "r": "じゅもく", "n": 1, "pos": "n", "en": "tree, trees and shrubs"}
+{"i": "j6606", "w": "樹立", "r": "じゅりつ", "n": 1, "pos": "vs", "en": "establishment, founding, setting (a record)"}
+{"i": "j6607", "w": "準急", "r": "じゅんきゅう", "n": 1, "pos": "n", "en": "semi-express train, local express train, sub-express train"}
+{"i": "j6608", "w": "準じる", "r": "じゅんじる", "n": 1, "pos": "v1", "en": "to follow (a rule, precedent, etc.), to conform to (the law, standards, etc.), to be based on; to be proportionate to; to correspond to, to be equivalent to, to"}
+{"i": "j6609", "w": "署", "r": "しょ", "n": 1, "pos": "suf", "en": "station (esp. a police station), office (e.g. tax office)"}
+{"i": "j6610", "w": "症", "r": "しょう", "n": 1, "pos": "suf", "en": "illness, condition, -pathy"}
+{"i": "j6611", "w": "証", "r": "しょう", "n": 1, "pos": "suf", "en": "proof, evidence; certificate, license, permit; enlightenment"}
+{"i": "j6612", "w": "嬢", "r": "じょう", "n": 1, "pos": "suf", "en": "unmarried woman; Miss; -ess, -ette"}
+{"i": "j6613", "w": "上位", "r": "じょうい", "n": 1, "pos": "n", "en": "superior (in rank), top, ranking; higher order (e.g. byte); host computer (of connected device)"}
+{"i": "j6614", "w": "上演", "r": "じょうえん", "n": 1, "pos": "vs", "en": "performance (of a play, opera, etc.), staging, presentation"}
+{"i": "j6615", "w": "城下", "r": "じょうか", "n": 1, "pos": "n", "en": "land near a castle; castle town"}
+{"i": "j6616", "w": "消去", "r": "しょうきょ", "n": 1, "pos": "vs", "en": "erasure, deletion, elimination; elimination (of variables); extinction"}
+{"i": "j6617", "w": "上空", "r": "じょうくう", "n": 1, "pos": "n", "en": "sky, the skies, high-altitude sky"}
+{"i": "j6618", "w": "衝撃", "r": "しょうげき", "n": 1, "pos": "n", "en": "impact, shock, impulse; (psychological) shock"}
+{"i": "j6619", "w": "証言", "r": "しょうげん", "n": 1, "pos": "vs", "en": "testimony, (verbal) evidence"}
+{"i": "j6620", "w": "証拠", "r": "しょうこ", "n": 1, "pos": "n", "en": "evidence, proof"}
+{"i": "j6621", "w": "照合", "r": "しょうごう", "n": 1, "pos": "vs", "en": "check (against), collation (with), comparison"}
+{"i": "j6622", "w": "詳細", "r": "しょうさい", "n": 1, "pos": "n", "en": "details, particulars, specifics; detailed, specific, minute; close-up view (of a digitally displayed map), zoomed-in view"}
+{"i": "j6623", "w": "上昇", "r": "じょうしょう", "n": 1, "pos": "vs", "en": "rising, ascending, climbing"}
+{"i": "j6624", "w": "昇進", "r": "しょうしん", "n": 1, "pos": "vs", "en": "promotion, advancement, rising in rank"}
+{"i": "j6625", "w": "称する", "r": "しょうする", "n": 1, "pos": "vs-i", "en": "to call, to name; to call oneself ..., to go by the name of ...; to purport (to be), to profess, to claim"}
+{"i": "j6626", "w": "情勢", "r": "じょうせい", "n": 1, "pos": "n", "en": "state of things, state of affairs, situation"}
+{"i": "j6627", "w": "消息", "r": "しょうそく", "n": 1, "pos": "n", "en": "news (from someone), letter, contact; (someone's) whereabouts, (someone's) movements"}
+{"i": "j6628", "w": "承諾", "r": "しょうだく", "n": 1, "pos": "vs", "en": "consent, approval, acceptance"}
+{"i": "j6629", "w": "情緒", "r": "じょうちょ", "n": 1, "pos": "n", "en": "emotion, feeling; atmosphere, mood, spirit"}
+{"i": "j6630", "w": "情緒", "r": "じょうしょ", "n": 1, "pos": "n", "en": "emotion, feeling; atmosphere, mood, spirit"}
+{"i": "j6631", "w": "象徴", "r": "しょうちょう", "n": 1, "pos": "vs", "en": "symbol (of something abstract), emblem, (symbolic) representation"}
+{"i": "j6632", "w": "小児科", "r": "しょうにか", "n": 1, "pos": "n", "en": "pediatrics"}
+{"i": "j6633", "w": "使用人", "r": "しようにん", "n": 1, "pos": "n", "en": "employee, servant"}
+{"i": "j6634", "w": "情熱", "r": "じょうねつ", "n": 1, "pos": "n", "en": "passion, enthusiasm, zeal"}
+{"i": "j6635", "w": "譲歩", "r": "じょうほ", "n": 1, "pos": "vs", "en": "concession, conciliation, compromise"}
+{"i": "j6636", "w": "条約", "r": "じょうやく", "n": 1, "pos": "n", "en": "treaty, pact, convention"}
+{"i": "j6637", "w": "勝利", "r": "しょうり", "n": 1, "pos": "vs", "en": "victory, triumph, win"}
+{"i": "j6638", "w": "上陸", "r": "じょうりく", "n": 1, "pos": "vs", "en": "landing, going ashore, disembarkation; making landfall (of a typhoon), striking land, hitting land"}
+{"i": "j6639", "w": "蒸溜", "r": "じょうりゅう", "n": 1, "pos": "vs", "en": "distillation"}
+{"i": "j6640", "w": "奨励", "r": "しょうれい", "n": 1, "pos": "vs", "en": "encouragement, promotion, inducement"}
+{"i": "j6641", "w": "ショー", "r": "ショー", "n": 1, "pos": "n", "en": "show, performance; show, exhibition, expo; TV show"}
+{"i": "j6642", "w": "除外", "r": "じょがい", "n": 1, "pos": "vs", "en": "exception, exclusion"}
+{"i": "j6643", "w": "職員", "r": "しょくいん", "n": 1, "pos": "n", "en": "staff member, employee, worker"}
+{"i": "j6644", "w": "植民地", "r": "しょくみんち", "n": 1, "pos": "n", "en": "colony; (Japanese) settlement (in Brazil)"}
+{"i": "j6645", "w": "職務", "r": "しょくむ", "n": 1, "pos": "n", "en": "professional duties"}
+{"i": "j6646", "w": "諸君", "r": "しょくん", "n": 1, "pos": "n", "en": "you (people); gentlemen, ladies and gentlemen, my friends"}
+{"i": "j6647", "w": "助言", "r": "じょげん", "n": 1, "pos": "vs", "en": "advice, counsel, suggestion"}
+{"i": "j6648", "w": "徐行", "r": "じょこう", "n": 1, "pos": "vs", "en": "going slowly (esp. to enable a vehicle to stop immediately), going at a reduced speed, slowing down"}
+{"i": "j6649", "w": "所在", "r": "しょざい", "n": 1, "pos": "vs", "en": "location (of), position, whereabouts"}
+{"i": "j6650", "w": "所持", "r": "しょじ", "n": 1, "pos": "vs", "en": "possession, having (on one's person), carrying (with one)"}
+{"i": "j6651", "w": "所属", "r": "しょぞく", "n": 1, "pos": "vs", "en": "belonging to (a group, organization, etc.), affiliation (with), being attached to"}
+{"i": "j6652", "w": "処置", "r": "しょち", "n": 1, "pos": "vs", "en": "measure, step, dealing with; medical treatment"}
+{"i": "j6653", "w": "しょっちゅう", "r": "しょっちゅう", "n": 1, "pos": "adv", "en": "always, all the time, constantly"}
+{"i": "j6654", "w": "所定", "r": "しょてい", "n": 1, "pos": "adj-no", "en": "prescribed, designated, appointed"}
+{"i": "j6655", "w": "所得", "r": "しょとく", "n": 1, "pos": "n", "en": "income, earnings"}
+{"i": "j6656", "w": "処罰", "r": "しょばつ", "n": 1, "pos": "vs", "en": "punishment, penalty"}
+{"i": "j6657", "w": "初版", "r": "しょはん", "n": 1, "pos": "n", "en": "first edition"}
+{"i": "j6658", "w": "書評", "r": "しょひょう", "n": 1, "pos": "n", "en": "book review"}
+{"i": "j6659", "w": "処分", "r": "しょぶん", "n": 1, "pos": "vs", "en": "disposal, throwing away, selling off; dealing with (a problem), measure; punishment, penalty"}
+{"i": "j6660", "w": "庶民", "r": "しょみん", "n": 1, "pos": "n", "en": "common people, ordinary people, masses"}
+{"i": "j6661", "w": "庶務", "r": "しょむ", "n": 1, "pos": "n", "en": "general affairs"}
+{"i": "j6662", "w": "所有", "r": "しょゆう", "n": 1, "pos": "vs", "en": "possession, ownership"}
+{"i": "j6663", "w": "調べ", "r": "しらべ", "n": 1, "pos": "n", "en": "investigation, inspection, examination; tune, note, melody"}
+{"i": "j6664", "w": "自立", "r": "じりつ", "n": 1, "pos": "vs", "en": "independence, self-reliance"}
+{"i": "j6665", "w": "記す", "r": "しるす", "n": 1, "pos": "v5s", "en": "to write down, to note down, to jot down; to mention, to describe, to give an account of; to inscribe, to mark, to brand"}
+{"i": "j6666", "w": "指令", "r": "しれい", "n": 1, "pos": "vs", "en": "order, directive, instructions"}
+{"i": "j6667", "w": "心", "r": "しん", "n": 1, "pos": "suf", "en": "heart, mind, spirit; bottom of one's heart, core (of one's character), nature; centre, center, core"}
+{"i": "j6668", "w": "陣", "r": "じん", "n": 1, "pos": "n", "en": "battle formation; camp, encampment, position; group, gang, party"}
+{"i": "j6669", "w": "進化", "r": "しんか", "n": 1, "pos": "vs", "en": "evolution; evolution, becoming more advanced, progress"}
+{"i": "j6670", "w": "人格", "r": "じんかく", "n": 1, "pos": "n", "en": "personality, character, individuality"}
+{"i": "j6671", "w": "審議", "r": "しんぎ", "n": 1, "pos": "vs", "en": "deliberation, discussion, consideration"}
+{"i": "j6672", "w": "新婚", "r": "しんこん", "n": 1, "pos": "adj-no", "en": "newly-wed, newly married"}
+{"i": "j6673", "w": "審査", "r": "しんさ", "n": 1, "pos": "vs", "en": "judging, inspection, examination"}
+{"i": "j6674", "w": "人材", "r": "じんざい", "n": 1, "pos": "n", "en": "capable person, talented person; human resources, personnel"}
+{"i": "j6675", "w": "紳士", "r": "しんし", "n": 1, "pos": "n", "en": "gentleman"}
+{"i": "j6676", "w": "真実", "r": "しんじつ", "n": 1, "pos": "n", "en": "truth, reality; truly, really; absolute truth"}
+{"i": "j6677", "w": "信者", "r": "しんじゃ", "n": 1, "pos": "n", "en": "believer, adherent, devotee; fanboy, fanatic, superfan"}
+{"i": "j6678", "w": "真珠", "r": "しんじゅ", "n": 1, "pos": "n", "en": "pearl"}
+{"i": "j6679", "w": "進出", "r": "しんしゅつ", "n": 1, "pos": "vs", "en": "advance (into a new market, industry, etc.), expansion (into), launch (into); advance (to the next round of a competition)"}
+{"i": "j6680", "w": "心情", "r": "しんじょう", "n": 1, "pos": "n", "en": "sentiment, emotions, one's feelings"}
+{"i": "j6681", "w": "新人", "r": "しんじん", "n": 1, "pos": "n", "en": "newcomer, new figure, new member; modern humans (from Cro-Magnon man onwards), Homo sapiens"}
+{"i": "j6682", "w": "神聖", "r": "しんせい", "n": 1, "pos": "n", "en": "holiness, sacredness, sanctity"}
+{"i": "j6683", "w": "親善", "r": "しんぜん", "n": 1, "pos": "n", "en": "friendship, goodwill, friendly relations"}
+{"i": "j6684", "w": "真相", "r": "しんそう", "n": 1, "pos": "n", "en": "truth, real situation"}
+{"i": "j6685", "w": "迅速", "r": "じんそく", "n": 1, "pos": "adj-na", "en": "(very) quick, rapid, swift"}
+{"i": "j6686", "w": "人体", "r": "じんたい", "n": 1, "pos": "n", "en": "human body"}
+{"i": "j6687", "w": "新築", "r": "しんちく", "n": 1, "pos": "vs", "en": "new building, new construction"}
+{"i": "j6688", "w": "心中", "r": "しんじゅう", "n": 1, "pos": "vs", "en": "double suicide, lovers' suicide; group suicide, family suicide; dedication to the point of self-sacrifice"}
+{"i": "j6689", "w": "進呈", "r": "しんてい", "n": 1, "pos": "vs", "en": "presentation (e.g. of a gift)"}
+{"i": "j6690", "w": "進展", "r": "しんてん", "n": 1, "pos": "vs", "en": "progress, development"}
+{"i": "j6691", "w": "神殿", "r": "しんでん", "n": 1, "pos": "n", "en": "temple, shrine, sanctuary"}
+{"i": "j6692", "w": "進度", "r": "しんど", "n": 1, "pos": "n", "en": "progress"}
+{"i": "j6693", "w": "振動", "r": "しんどう", "n": 1, "pos": "vs", "en": "oscillation, vibration, swing (e.g. of a pendulum)"}
+{"i": "j6694", "w": "新入生", "r": "しんにゅうせい", "n": 1, "pos": "n", "en": "new student, freshman, first-year student"}
+{"i": "j6695", "w": "信任", "r": "しんにん", "n": 1, "pos": "vs", "en": "trust, confidence, credence"}
+{"i": "j6696", "w": "神秘", "r": "しんぴ", "n": 1, "pos": "n", "en": "mystery, mysteriousness, secret"}
+{"i": "j6697", "w": "辛抱", "r": "しんぼう", "n": 1, "pos": "vs", "en": "patience, endurance, perseverance"}
+{"i": "j6698", "w": "人民", "r": "じんみん", "n": 1, "pos": "n", "en": "the people, citizens, the populace"}
+{"i": "j6699", "w": "侵略", "r": "しんりゃく", "n": 1, "pos": "vs", "en": "invasion (e.g. of a country), raid, aggression"}
+{"i": "j6700", "w": "診療", "r": "しんりょう", "n": 1, "pos": "vs", "en": "diagnosis and treatment, medical care"}
+{"i": "j6701", "w": "粋", "r": "すい", "n": 1, "pos": "n", "en": "essence, the best, cream; chic, smart, stylish; considerate, understanding, thoughtful"}
+{"i": "j6702", "w": "水源", "r": "すいげん", "n": 1, "pos": "n", "en": "source of river, fountainhead"}
+{"i": "j6703", "w": "推進", "r": "すいしん", "n": 1, "pos": "vs", "en": "propulsion, drive; promotion (of a policy, project, movement, etc.), furtherance, advancement"}
+{"i": "j6704", "w": "吹奏", "r": "すいそう", "n": 1, "pos": "vs", "en": "playing (a wind instrument), blowing"}
+{"i": "j6705", "w": "推測", "r": "すいそく", "n": 1, "pos": "vs", "en": "guess, conjecture"}
+{"i": "j6706", "w": "水田", "r": "すいでん", "n": 1, "pos": "n", "en": "(water-filled) paddy field"}
+{"i": "j6707", "w": "推理", "r": "すいり", "n": 1, "pos": "vs", "en": "reasoning, inference, deduction; mystery genre, detective genre"}
+{"i": "j6708", "w": "数詞", "r": "すうし", "n": 1, "pos": "n", "en": "numeral"}
+{"i": "j6709", "w": "崇拝", "r": "すうはい", "n": 1, "pos": "vs", "en": "worship, adoration, admiration"}
+{"i": "j6710", "w": "据え付ける", "r": "すえつける", "n": 1, "pos": "v1", "en": "to install, to equip, to mount"}
+{"i": "j6711", "w": "据える", "r": "すえる", "n": 1, "pos": "v1", "en": "to place (in position), to fix, to set (e.g. table); to install, to seat (someone); to settle (upon something), to fix (e.g. one's gaze)"}
+{"i": "j6712", "w": "すがすがしい", "r": "すがすがしい", "n": 1, "pos": "adj-i", "en": "refreshing (e.g. feeling, scene, wind, morning air), brisk, bracing"}
+{"i": "j6713", "w": "救い", "r": "すくい", "n": 1, "pos": "n", "en": "help, rescue, aid; salvation, solace, (source of) comfort; (religious) salvation, (Christian) grace"}
+{"i": "j6714", "w": "すくう (みずを～)", "r": "すくう (みずを～)", "n": 1, "pos": "n", "en": "to scoop"}
+{"i": "j6715", "w": "健やか", "r": "すこやか", "n": 1, "pos": "adj-na", "en": "vigorous, healthy, sound"}
+{"i": "j6716", "w": "濯ぐ", "r": "すすぐ", "n": 1, "pos": "v5g", "en": "to rinse, to wash out; to have one's revenge, to wipe out a disgrace"}
+{"i": "j6717", "w": "進み", "r": "すすみ", "n": 1, "pos": "n", "en": "progress"}
+{"i": "j6718", "w": "裾", "r": "すそ", "n": 1, "pos": "n", "en": "hem, (trouser) cuff, shirttail; bottom part, bottom edge; foot (of a mountain)"}
+{"i": "j6719", "w": "スタジオ", "r": "スタジオ", "n": 1, "pos": "n", "en": "studio"}
+{"i": "j6720", "w": "スチーム", "r": "スチーム", "n": 1, "pos": "n", "en": "steam"}
+{"i": "j6721", "w": "ストライキ", "r": "ストライキ", "n": 1, "pos": "vs", "en": "strike (i.e. industrial action)"}
+{"i": "j6722", "w": "スト", "r": "スト", "n": 1, "pos": "n", "en": "strike (i.e. industrial action)"}
+{"i": "j6723", "w": "ストロー", "r": "ストロー", "n": 1, "pos": "n", "en": "drinking straw; straw"}
+{"i": "j6724", "w": "ストロボ", "r": "ストロボ", "n": 1, "pos": "n", "en": "stroboscope, strobe lamp, stroboscopic lamp; (camera) flash"}
+{"i": "j6725", "w": "すばしこい", "r": "すばしこい", "n": 1, "pos": "adj-i", "en": "quick, nimble, agile; sharp, shrewd, smart"}
+{"i": "j6726", "w": "素早い", "r": "すばやい", "n": 1, "pos": "adj-i", "en": "quick, swift, nimble; quick (understanding, judgement, etc.), alert, prompt"}
+{"i": "j6727", "w": "ずばり", "r": "ずばり", "n": 1, "pos": "adv", "en": "decisively, decidedly, boldly; precisely, exactly"}
+{"i": "j6728", "w": "スプリング", "r": "スプリング", "n": 1, "pos": "n", "en": "(coil) spring; spring (season); light overcoat (worn in spring and autumn), topcoat"}
+{"i": "j6729", "w": "スペース", "r": "スペース", "n": 1, "pos": "n", "en": "space, room; space (between letters, words, etc.); space (piece of type)"}
+{"i": "j6730", "w": "ずぶぬれ", "r": "ずぶぬれ", "n": 1, "pos": "adj-no", "en": "dripping wet, soaked, drenched"}
+{"i": "j6731", "w": "スポーツカー", "r": "スポーツカー", "n": 1, "pos": "n", "en": "sports car"}
+{"i": "j6732", "w": "澄ます", "r": "すます", "n": 1, "pos": "v5s", "en": "to clear, to make clear; to be unruffled, to look unconcerned, to feign indifference; to look demure, to look prim, to put on airs"}
+{"i": "j6733", "w": "清ます", "r": "すます", "n": 1, "pos": "v5s", "en": "to clear, to make clear; to be unruffled, to look unconcerned, to feign indifference; to look demure, to look prim, to put on airs"}
+{"i": "j6734", "w": "済ます", "r": "すます", "n": 1, "pos": "v5s", "en": "to finish, to get it over with, to conclude; to settle, to pay back; to get along (without something), to make do with (without)"}
+{"i": "j6735", "w": "すみやか", "r": "すみやか", "n": 1, "pos": "adj-na", "en": "quick, speedy, prompt"}
+{"i": "j6736", "w": "スラックス", "r": "スラックス", "n": 1, "pos": "n", "en": "slacks"}
+{"i": "j6737", "w": "ずらっと", "r": "ずらっと", "n": 1, "pos": "adv", "en": "in a line, in a row"}
+{"i": "j6738", "w": "ずるずる", "r": "ずるずる", "n": 1, "pos": "adv", "en": "(dragging a large or heavy item) slowly; (falling) little by little, (slipping) gradually, (drawing back) slowly; on and on, while putting off, slovenly"}
+{"i": "j6739", "w": "ずれ", "r": "ずれ", "n": 1, "pos": "n", "en": "gap, lag, slippage; difference, discrepancy; shear (e.g. shear stress)"}
+{"i": "j6740", "w": "すれちがい", "r": "すれちがい", "n": 1, "pos": "n", "en": "passing each other; missing (meeting) each other, failing to meet; (being at) cross purposes, discrepancy, disagreement"}
+{"i": "j6741", "w": "擦れる", "r": "すれる", "n": 1, "pos": "v1", "en": "to rub, to chafe; to wear out, to become worn; to lose one's innocence, to become sly"}
+{"i": "j6742", "w": "すんなり", "r": "すんなり", "n": 1, "pos": "adv", "en": "slim, slender, lithe; smoothly, without resistance, without trouble"}
+{"i": "j6743", "w": "生育", "r": "せいいく", "n": 1, "pos": "vs", "en": "birth and growth, giving birth and raising, development"}
+{"i": "j6744", "w": "成育", "r": "せいいく", "n": 1, "pos": "vs", "en": "growth (to maturity), being brought up, growing up"}
+{"i": "j6745", "w": "成果", "r": "せいか", "n": 1, "pos": "n", "en": "(good) result, outcome, fruits (of one's labors)"}
+{"i": "j6746", "w": "正解", "r": "せいかい", "n": 1, "pos": "vs", "en": "correct answer, right solution, correct interpretation; right decision, right choice, appropriate judgement"}
+{"i": "j6747", "w": "正義", "r": "せいぎ", "n": 1, "pos": "n", "en": "justice, right, righteousness; correct meaning, correct explanation"}
+{"i": "j6748", "w": "生計", "r": "せいけい", "n": 1, "pos": "n", "en": "livelihood, living"}
+{"i": "j6749", "w": "政権", "r": "せいけん", "n": 1, "pos": "n", "en": "(political) administration, political power"}
+{"i": "j6750", "w": "星座", "r": "せいざ", "n": 1, "pos": "n", "en": "constellation; astrological sign, star sign, zodiac sign"}
+{"i": "j6751", "w": "制裁", "r": "せいさい", "n": 1, "pos": "vs", "en": "sanctions, punishment"}
+{"i": "j6752", "w": "政策", "r": "せいさく", "n": 1, "pos": "n", "en": "political measures, policy"}
+{"i": "j6753", "w": "生死", "r": "せいし", "n": 1, "pos": "n", "en": "life and death, life or death"}
+{"i": "j6754", "w": "静止", "r": "せいし", "n": 1, "pos": "vs", "en": "stillness, rest, being stationary"}
+{"i": "j6755", "w": "誠実", "r": "せいじつ", "n": 1, "pos": "adj-na", "en": "sincere, honest, faithful"}
+{"i": "j6756", "w": "成熟", "r": "せいじゅく", "n": 1, "pos": "vs", "en": "maturity, ripeness"}
+{"i": "j6757", "w": "青春", "r": "せいしゅん", "n": 1, "pos": "n", "en": "youth, adolescence, springtime of life"}
+{"i": "j6758", "w": "清純", "r": "せいじゅん", "n": 1, "pos": "adj-na", "en": "purity, innocence"}
+{"i": "j6759", "w": "聖書", "r": "せいしょ", "n": 1, "pos": "n", "en": "Bible, the Scriptures, Holy Writ"}
+{"i": "j6760", "w": "正常", "r": "せいじょう", "n": 1, "pos": "adj-na", "en": "normal, regular"}
+{"i": "j6761", "w": "制する", "r": "せいする", "n": 1, "pos": "vs-i", "en": "to hold back (e.g. emotions), to rein in (e.g. a horse, unruly people), to bridle; to get the better of; to control, to command"}
+{"i": "j6762", "w": "整然", "r": "せいぜん", "n": 1, "pos": "adj-na", "en": "orderly, regular, systematic"}
+{"i": "j6763", "w": "盛装", "r": "せいそう", "n": 1, "pos": "vs", "en": "dressing up in fine clothes, splendid clothes, one's best clothes"}
+{"i": "j6764", "w": "盛大", "r": "せいだい", "n": 1, "pos": "adj-na", "en": "grand, magnificent, lavish; forceful, powerful, vigorous"}
+{"i": "j6765", "w": "清濁", "r": "せいだく", "n": 1, "pos": "n", "en": "good and evil, purity and impurity; voiced and unvoiced consonants"}
+{"i": "j6766", "w": "制定", "r": "せいてい", "n": 1, "pos": "vs", "en": "enactment, establishment, creation"}
+{"i": "j6767", "w": "静的", "r": "せいてき", "n": 1, "pos": "adj-na", "en": "static"}
+{"i": "j6768", "w": "製鉄", "r": "せいてつ", "n": 1, "pos": "vs", "en": "iron manufacture"}
+{"i": "j6769", "w": "晴天", "r": "せいてん", "n": 1, "pos": "n", "en": "fine weather (i.e. little or no clouds), fair weather, clear weather"}
+{"i": "j6770", "w": "正当", "r": "せいとう", "n": 1, "pos": "adj-na", "en": "just, justifiable, right"}
+{"i": "j6771", "w": "制服", "r": "せいふく", "n": 1, "pos": "n", "en": "uniform"}
+{"i": "j6772", "w": "征服", "r": "せいふく", "n": 1, "pos": "vs", "en": "conquest, subjugation; overcoming (a difficulty), conquering (e.g. a mountain), mastery (of a skill)"}
+{"i": "j6773", "w": "製法", "r": "せいほう", "n": 1, "pos": "n", "en": "manufacturing method, recipe, formula"}
+{"i": "j6774", "w": "精密", "r": "せいみつ", "n": 1, "pos": "adj-na", "en": "precise, exact, detailed"}
+{"i": "j6775", "w": "税務署", "r": "ぜいむしょ", "n": 1, "pos": "n", "en": "tax office"}
+{"i": "j6776", "w": "制約", "r": "せいやく", "n": 1, "pos": "vs", "en": "limitation, restriction, condition"}
+{"i": "j6777", "w": "勢力", "r": "せいりょく", "n": 1, "pos": "n", "en": "influence, power, might; influence (of stones)"}
+{"i": "j6778", "w": "整列", "r": "せいれつ", "n": 1, "pos": "vs", "en": "standing in a row, forming a line, alignment"}
+{"i": "j6779", "w": "セール", "r": "セール", "n": 1, "pos": "n", "en": "sale"}
+{"i": "j6780", "w": "急かす", "r": "せかす", "n": 1, "pos": "v5s", "en": "to hurry (up), to urge on, to press"}
+{"i": "j6781", "w": "伜", "r": "せがれ", "n": 1, "pos": "n", "en": "son; punk, brat; penis"}
+{"i": "j6782", "w": "責務", "r": "せきむ", "n": 1, "pos": "n", "en": "duty, obligation"}
+{"i": "j6783", "w": "セクション", "r": "セクション", "n": 1, "pos": "n", "en": "section"}
+{"i": "j6784", "w": "世辞", "r": "せじ", "n": 1, "pos": "n", "en": "flattery, compliment"}
+{"i": "j6785", "w": "世帯", "r": "せたい", "n": 1, "pos": "n", "en": "household, family"}
+{"i": "j6786", "w": "是正", "r": "ぜせい", "n": 1, "pos": "vs", "en": "correction, revision, redressing"}
+{"i": "j6787", "w": "世代", "r": "せだい", "n": 1, "pos": "n", "en": "generation"}
+{"i": "j6788", "w": "切開", "r": "せっかい", "n": 1, "pos": "vs", "en": "incision, operation, section"}
+{"i": "j6789", "w": "セックス", "r": "セックス", "n": 1, "pos": "vs", "en": "sex, sexual intercourse; (one's) sex, gender"}
+{"i": "j6790", "w": "切実", "r": "せつじつ", "n": 1, "pos": "adj-na", "en": "earnest, sincere, acute; pressing, urgent, serious; pertinent, appropriate"}
+{"i": "j6791", "w": "接触", "r": "せっしょく", "n": 1, "pos": "vs", "en": "touch, contact, touching; contact (with people), dealings, relations; tangency"}
+{"i": "j6792", "w": "接続詞", "r": "せつぞくし", "n": 1, "pos": "n", "en": "conjunction"}
+{"i": "j6793", "w": "設置", "r": "せっち", "n": 1, "pos": "vs", "en": "establishment, institution; installation (of a machine or equipment)"}
+{"i": "j6794", "w": "折衷", "r": "せっちゅう", "n": 1, "pos": "vs", "en": "compromise, cross, blending"}
+{"i": "j6795", "w": "設定", "r": "せってい", "n": 1, "pos": "vs", "en": "establishment, creation, posing (a problem); options setting, preference settings, configuration"}
+{"i": "j6796", "w": "説得", "r": "せっとく", "n": 1, "pos": "vs", "en": "persuasion"}
+{"i": "j6797", "w": "切ない", "r": "せつない", "n": 1, "pos": "adj-i", "en": "painful, heartrending, trying; oppressive, suffocating, miserable"}
+{"i": "j6798", "w": "絶版", "r": "ぜっぱん", "n": 1, "pos": "n", "en": "out of print"}
+{"i": "j6799", "w": "設立", "r": "せつりつ", "n": 1, "pos": "vs", "en": "establishment, founding; incorporation (of a business)"}
+{"i": "j6800", "w": "攻め", "r": "せめ", "n": 1, "pos": "n", "en": "attack, offence, offense; top (dominant partner of a homosexual relationship); barrage (of), flood (of)"}
+{"i": "j6801", "w": "ゼリー", "r": "ゼリー", "n": 1, "pos": "n", "en": "jello, jelly, gelatin dessert; gel, jelly"}
+{"i": "j6802", "w": "セレモニー", "r": "セレモニー", "n": 1, "pos": "n", "en": "ceremony"}
+{"i": "j6803", "w": "世論", "r": "せろん", "n": 1, "pos": "n", "en": "public opinion, popular voice, public sentiment"}
+{"i": "j6804", "w": "先", "r": "せん", "n": 1, "pos": "adj-no", "en": "former, previous, old; first move (in go, shogi, etc.), opening move"}
+{"i": "j6805", "w": "繊維", "r": "せんい", "n": 1, "pos": "n", "en": "fibre, fiber"}
+{"i": "j6806", "w": "全快", "r": "ぜんかい", "n": 1, "pos": "vs", "en": "complete recovery of health"}
+{"i": "j6807", "w": "宣教", "r": "せんきょう", "n": 1, "pos": "vs", "en": "religious mission, religious proclamation"}
+{"i": "j6808", "w": "宣言", "r": "せんげん", "n": 1, "pos": "vs", "en": "declaration, proclamation, announcement"}
+{"i": "j6809", "w": "戦災", "r": "せんさい", "n": 1, "pos": "n", "en": "war damage"}
+{"i": "j6810", "w": "専修", "r": "せんしゅう", "n": 1, "pos": "vs", "en": "specialization, specialisation"}
+{"i": "j6811", "w": "戦術", "r": "せんじゅつ", "n": 1, "pos": "n", "en": "tactics"}
+{"i": "j6812", "w": "センス", "r": "センス", "n": 1, "pos": "n", "en": "taste (in fashion, music, etc.), sense (e.g. of humour), flair"}
+{"i": "j6813", "w": "潜水", "r": "せんすい", "n": 1, "pos": "vs", "en": "diving, submerging, going underwater"}
+{"i": "j6814", "w": "全盛", "r": "ぜんせい", "n": 1, "pos": "n", "en": "height of prosperity"}
+{"i": "j6815", "w": "先代", "r": "せんだい", "n": 1, "pos": "n", "en": "previous generation (of a family), previous head of the family, one's (late) father; predecessor; previous age, previous generation"}
+{"i": "j6816", "w": "先だって", "r": "せんだって", "n": 1, "pos": "n", "en": "the other day, some time ago, recently"}
+{"i": "j6817", "w": "先着", "r": "せんちゃく", "n": 1, "pos": "vs", "en": "arriving first; first to arrive; moving first"}
+{"i": "j6818", "w": "前提", "r": "ぜんてい", "n": 1, "pos": "n", "en": "condition, assumption, prerequisite; intention, intent, aim; premise"}
+{"i": "j6819", "w": "先天的", "r": "せんてんてき", "n": 1, "pos": "adj-na", "en": "inborn, innate, inherent; a priori"}
+{"i": "j6820", "w": "前途", "r": "ぜんと", "n": 1, "pos": "n", "en": "future, prospects, outlook; journey ahead, distance yet to cover"}
+{"i": "j6821", "w": "戦闘", "r": "せんとう", "n": 1, "pos": "vs", "en": "battle, fight, combat"}
+{"i": "j6822", "w": "潜入", "r": "せんにゅう", "n": 1, "pos": "vs", "en": "infiltration, sneaking in, going undercover"}
+{"i": "j6823", "w": "船舶", "r": "せんぱく", "n": 1, "pos": "n", "en": "vessel, ship, shipping"}
+{"i": "j6824", "w": "全滅", "r": "ぜんめつ", "n": 1, "pos": "vs", "en": "total destruction, complete destruction, annihilation; total defeat, complete failure"}
+{"i": "j6825", "w": "専用", "r": "せんよう", "n": 1, "pos": "vs", "en": "(one's) exclusive use, private use, personal use; dedicated use, use for a particular purpose; exclusive use (of particular products), using only (e.g. a certai"}
+{"i": "j6826", "w": "占領", "r": "せんりょう", "n": 1, "pos": "vs", "en": "occupying, having (an area) all to oneself; military occupation, possession, capture"}
+{"i": "j6827", "w": "善良", "r": "ぜんりょう", "n": 1, "pos": "adj-na", "en": "good (person, nature, etc.), good-natured, virtuous"}
+{"i": "j6828", "w": "戦力", "r": "せんりょく", "n": 1, "pos": "n", "en": "war potential, military strength, fighting power; ability (to compete), capabilities, valuable asset"}
+{"i": "j6829", "w": "前例", "r": "ぜんれい", "n": 1, "pos": "n", "en": "precedent"}
+{"i": "j6830", "w": "相応", "r": "そうおう", "n": 1, "pos": "adj-na", "en": "suitable, appropriate, befitting; conjoining, association, samprayukta"}
+{"i": "j6831", "w": "総会", "r": "そうかい", "n": 1, "pos": "n", "en": "general meeting"}
+{"i": "j6832", "w": "創刊", "r": "そうかん", "n": 1, "pos": "vs", "en": "foundation (of a newspaper, magazine, etc.), starting, launching"}
+{"i": "j6833", "w": "雑木", "r": "ぞうき", "n": 1, "pos": "n", "en": "various kinds of small trees, assorted trees"}
+{"i": "j6834", "w": "早急", "r": "そうきゅう", "n": 1, "pos": "adj-na", "en": "immediate, prompt, quick"}
+{"i": "j6835", "w": "早急", "r": "さっきゅう", "n": 1, "pos": "adj-na", "en": "immediate, prompt, quick"}
+{"i": "j6836", "w": "増強", "r": "ぞうきょう", "n": 1, "pos": "vs", "en": "reinforcement, augmentation, strengthening"}
+{"i": "j6837", "w": "送金", "r": "そうきん", "n": 1, "pos": "vs", "en": "remittance, sending money, transferring money"}
+{"i": "j6838", "w": "走行", "r": "そうこう", "n": 1, "pos": "vs", "en": "running (of a car, bus, etc.), traveling, travelling; running (of a program)"}
+{"i": "j6839", "w": "総合", "r": "そうごう", "n": 1, "pos": "vs", "en": "synthesis, combination, integration; general, combined, composite; synthesis, colligation"}
+{"i": "j6840", "w": "捜索", "r": "そうさく", "n": 1, "pos": "vs", "en": "search (esp. for someone or something missing), manhunt; legally authorized search of a person, building, etc."}
+{"i": "j6841", "w": "蔵相", "r": "ぞうしょう", "n": 1, "pos": "n", "en": "Minister of Finance"}
+{"i": "j6842", "w": "装飾", "r": "そうしょく", "n": 1, "pos": "vs", "en": "ornament, decoration"}
+{"i": "j6843", "w": "増進", "r": "ぞうしん", "n": 1, "pos": "vs", "en": "promoting, increase, advance"}
+{"i": "j6844", "w": "相対", "r": "そうたい", "n": 1, "pos": "n", "en": "relativity; relative; facing (e.g. a problem), confronting"}
+{"i": "j6845", "w": "壮大", "r": "そうだい", "n": 1, "pos": "adj-na", "en": "magnificent, grand, majestic"}
+{"i": "j6846", "w": "騒動", "r": "そうどう", "n": 1, "pos": "vs", "en": "riot, rebellion, turmoil; (media) uproar, brouhaha, (public) outcry; feud, tussle, quarrel"}
+{"i": "j6847", "w": "遭難", "r": "そうなん", "n": 1, "pos": "vs", "en": "(meeting with) disaster, (having an) accident, mishap"}
+{"i": "j6848", "w": "相場", "r": "そうば", "n": 1, "pos": "n", "en": "market price; speculation (e.g. on stocks); reputation (according to conventional wisdom), estimation, esteem"}
+{"i": "j6849", "w": "装備", "r": "そうび", "n": 1, "pos": "vs", "en": "equipment"}
+{"i": "j6850", "w": "創立", "r": "そうりつ", "n": 1, "pos": "vs", "en": "establishment, founding, organization"}
+{"i": "j6851", "w": "添える", "r": "そえる", "n": 1, "pos": "v1", "en": "to garnish, to accompany (as a card does a gift); to add to as support, to prop up; to accompany (as an aid, guide, translator, etc.)"}
+{"i": "j6852", "w": "ソース", "r": "ソース", "n": 1, "pos": "n", "en": "sauce; Worcestershire sauce"}
+{"i": "j6853", "w": "即座に", "r": "そくざに", "n": 1, "pos": "adv", "en": "immediately, right away, on the spot"}
+{"i": "j6854", "w": "促進", "r": "そくしん", "n": 1, "pos": "vs", "en": "promotion, acceleration, encouragement"}
+{"i": "j6855", "w": "即する", "r": "そくする", "n": 1, "pos": "vs-i", "en": "to conform to, to agree with, to be adapted to"}
+{"i": "j6856", "w": "束縛", "r": "そくばく", "n": 1, "pos": "vs", "en": "restraint, restriction, fetters; binding, confinement with rope"}
+{"i": "j6857", "w": "側面", "r": "そくめん", "n": 1, "pos": "n", "en": "side, flank, profile; aspect, dimension"}
+{"i": "j6858", "w": "損う", "r": "そこなう", "n": 1, "pos": "v5u", "en": "to harm, to hurt, to injure; to fail to do, to do amiss, to miss one's opportunity to do; to almost do, to come close to doing"}
+{"i": "j6859", "w": "そこら", "r": "そこら", "n": 1, "pos": "pron", "en": "around there, that area; that, that matter, that point; about that much, approximately that amount, thereabouts"}
+{"i": "j6860", "w": "素材", "r": "そざい", "n": 1, "pos": "n", "en": "ingredient, (raw) material, resource; unprocessed timber, raw timber; subject matter, topic"}
+{"i": "j6861", "w": "阻止", "r": "そし", "n": 1, "pos": "vs", "en": "obstruction, prevention, hindrance"}
+{"i": "j6862", "w": "訴訟", "r": "そしょう", "n": 1, "pos": "vs", "en": "lawsuit, suit, (legal) action"}
+{"i": "j6863", "w": "育ち", "r": "そだち", "n": 1, "pos": "n", "en": "growth, breeding; growing up (in, as), upbringing"}
+{"i": "j6864", "w": "措置", "r": "そち", "n": 1, "pos": "vs", "en": "measure, step, action"}
+{"i": "j6865", "w": "ソックス", "r": "ソックス", "n": 1, "pos": "n", "en": "socks"}
+{"i": "j6866", "w": "素っ気無い", "r": "そっけない", "n": 1, "pos": "adj-i", "en": "cold, short, curt"}
+{"i": "j6867", "w": "外方", "r": "そっぽ", "n": 1, "pos": "n", "en": "the other way"}
+{"i": "j6868", "w": "備え付ける", "r": "そなえつける", "n": 1, "pos": "v1", "en": "to provide, to furnish, to equip"}
+{"i": "j6869", "w": "備わる", "r": "そなわる", "n": 1, "pos": "v5r", "en": "to be furnished with, to be provided with, to be equipped with; to be possessed of, to be endowed with, to be gifted with; to be among, to be one of"}
+{"i": "j6870", "w": "具わる", "r": "そなわる", "n": 1, "pos": "v5r", "en": "to be furnished with, to be provided with, to be equipped with; to be possessed of, to be endowed with, to be gifted with; to be among, to be one of"}
+{"i": "j6871", "w": "聳える", "r": "そびえる", "n": 1, "pos": "v1", "en": "to rise (of a building, mountain, etc.), to tower, to soar"}
+{"i": "j6872", "w": "素朴", "r": "そぼく", "n": 1, "pos": "adj-na", "en": "simple, artless, naive"}
+{"i": "j6873", "w": "背く", "r": "そむく", "n": 1, "pos": "v5k", "en": "to run counter to, to go against, to disobey"}
+{"i": "j6874", "w": "染まる", "r": "そまる", "n": 1, "pos": "v5r", "en": "to be dyed; to be tainted, to be infected, to be stained"}
+{"i": "j6875", "w": "染める", "r": "そめる", "n": 1, "pos": "v1", "en": "to dye, to colour, to color"}
+{"i": "j6876", "w": "そらす", "r": "そらす", "n": 1, "pos": "v5s", "en": "to turn away (one's eyes, face, etc.), to avert, to divert (e.g. one's attention); to displease, to annoy, to offend; to miss (the target, ball, etc.)"}
+{"i": "j6877", "w": "そり (～にのる)", "r": "そり (～にのる)", "n": 1, "pos": "n", "en": "sleigh, sled"}
+{"i": "j6878", "w": "反る", "r": "そる", "n": 1, "pos": "v5r", "en": "to warp, to curve, to arch; to bend backward (body or body part, e.g. fingers)"}
+{"i": "j6879", "w": "それゆえ", "r": "それゆえ", "n": 1, "pos": "conj", "en": "therefore, for that reason, so"}
+{"i": "j6880", "w": "ソロ", "r": "ソロ", "n": 1, "pos": "n", "en": "solo"}
+{"i": "j6881", "w": "揃い", "r": "そろい", "n": 1, "pos": "n", "en": "set, suit, uniform collection; entirely, all, every one"}
+{"i": "j6882", "w": "ぞんざい", "r": "ぞんざい", "n": 1, "pos": "adj-na", "en": "rough, careless, slovenly"}
+{"i": "j6883", "w": "損失", "r": "そんしつ", "n": 1, "pos": "n", "en": "loss (of assets, profit, etc.)"}
+{"i": "j6884", "w": "存続", "r": "そんぞく", "n": 1, "pos": "vs", "en": "continuance, survival, persistence"}
+{"i": "j6885", "w": "ダース", "r": "ダース", "n": 1, "pos": "n", "en": "dozen"}
+{"i": "j6886", "w": "対応", "r": "たいおう", "n": 1, "pos": "vs", "en": "correspondence (to), equivalence; suitability, coordination, matching; dealing with, coping with, handling"}
+{"i": "j6887", "w": "大家", "r": "たいか", "n": 1, "pos": "n", "en": "master, expert, authority; mansion, large house; rich family, distinguished family"}
+{"i": "j6888", "w": "退化", "r": "たいか", "n": 1, "pos": "vs", "en": "degeneration, retrogression, atrophy; regression (e.g. of society), deterioration, degeneration"}
+{"i": "j6889", "w": "大概", "r": "たいがい", "n": 1, "pos": "adv", "en": "generally, mainly, usually; nearly all, almost all, most; gist, summary, outline"}
+{"i": "j6890", "w": "体格", "r": "たいかく", "n": 1, "pos": "n", "en": "build, physique, frame"}
+{"i": "j6891", "w": "大金", "r": "たいきん", "n": 1, "pos": "n", "en": "large amount of money, great cost"}
+{"i": "j6892", "w": "待遇", "r": "たいぐう", "n": 1, "pos": "vs", "en": "treatment, reception, service; working conditions, salary, pay"}
+{"i": "j6893", "w": "対決", "r": "たいけつ", "n": 1, "pos": "vs", "en": "confrontation, showdown"}
+{"i": "j6894", "w": "体験", "r": "たいけん", "n": 1, "pos": "vs", "en": "(practical) experience, personal experience, hands-on experience"}
+{"i": "j6895", "w": "対抗", "r": "たいこう", "n": 1, "pos": "vs", "en": "opposition, rivalry, competition; principal challenger to the predicted winner (in a race), second choice"}
+{"i": "j6896", "w": "退治", "r": "たいじ", "n": 1, "pos": "vs", "en": "extermination, elimination, eradication; renouncing worldly desires (in order to concentrate on Buddhist teachings); curing (an illness)"}
+{"i": "j6897", "w": "大衆", "r": "たいしゅう", "n": 1, "pos": "n", "en": "general public, the masses"}
+{"i": "j6898", "w": "対処", "r": "たいしょ", "n": 1, "pos": "vs", "en": "dealing with, coping with"}
+{"i": "j6899", "w": "退職", "r": "たいしょく", "n": 1, "pos": "vs", "en": "retirement, resignation"}
+{"i": "j6900", "w": "題する", "r": "だいする", "n": 1, "pos": "vs-i", "en": "to be titled (e.g. a book), to be named"}
+{"i": "j6901", "w": "態勢", "r": "たいせい", "n": 1, "pos": "n", "en": "attitude, posture, preparedness"}
+{"i": "j6902", "w": "対談", "r": "たいだん", "n": 1, "pos": "vs", "en": "talk, dialogue, conversation"}
+{"i": "j6903", "w": "大胆", "r": "だいたん", "n": 1, "pos": "adj-na", "en": "bold, daring, audacious"}
+{"i": "j6904", "w": "対等", "r": "たいとう", "n": 1, "pos": "n", "en": "equality (esp. of status), equal footing, equal terms"}
+{"i": "j6905", "w": "台無し", "r": "だいなし", "n": 1, "pos": "adj-na", "en": "spoiled, spoilt, ruined"}
+{"i": "j6906", "w": "滞納", "r": "たいのう", "n": 1, "pos": "vs", "en": "falling behind (with a payment), being in arrears, non-payment"}
+{"i": "j6907", "w": "対比", "r": "たいひ", "n": 1, "pos": "vs", "en": "contrast, juxtaposition; comparison; correlation (of strata)"}
+{"i": "j6908", "w": "タイピスト", "r": "タイピスト", "n": 1, "pos": "n", "en": "typist"}
+{"i": "j6909", "w": "大部", "r": "たいぶ", "n": 1, "pos": "adj-no", "en": "lengthy (of a book, etc.), voluminous; most (e.g. most part), greater, fairly"}
+{"i": "j6910", "w": "大便", "r": "だいべん", "n": 1, "pos": "n", "en": "feces, faeces, excrement"}
+{"i": "j6911", "w": "代弁", "r": "だいべん", "n": 1, "pos": "vs", "en": "speaking by proxy, speaking for (someone else), acting as spokesman (for); payment by proxy, compensation by proxy, paying on behalf (of); acting for (someone e"}
+{"i": "j6912", "w": "待望", "r": "たいぼう", "n": 1, "pos": "vs", "en": "waiting expectantly, waiting eagerly, looking forward to; long-awaited"}
+{"i": "j6913", "w": "台本", "r": "だいほん", "n": 1, "pos": "n", "en": "script, libretto, scenario"}
+{"i": "j6914", "w": "タイマー", "r": "タイマー", "n": 1, "pos": "n", "en": "timer, time switch; stopwatch; time keeper"}
+{"i": "j6915", "w": "怠慢", "r": "たいまん", "n": 1, "pos": "n", "en": "negligence, neglect, carelessness"}
+{"i": "j6916", "w": "タイミング", "r": "タイミング", "n": 1, "pos": "n", "en": "timing"}
+{"i": "j6917", "w": "タイム", "r": "タイム", "n": 1, "pos": "n", "en": "time (for, to do); time (to finish a race, lap, etc.); time-out"}
+{"i": "j6918", "w": "タイムリー", "r": "タイムリー", "n": 1, "pos": "adj-na", "en": "timely, well-timed; clutch hit, run-scoring hit, RBI hit"}
+{"i": "j6919", "w": "対面", "r": "たいめん", "n": 1, "pos": "vs", "en": "meeting face-to-face, seeing in person; facing (each other), opposing (traffic, etc.), confronting"}
+{"i": "j6920", "w": "代用", "r": "だいよう", "n": 1, "pos": "vs", "en": "substitution"}
+{"i": "j6921", "w": "体力", "r": "たいりょく", "n": 1, "pos": "n", "en": "physical strength, power, stamina; strength (of a business, economy, etc.)"}
+{"i": "j6922", "w": "タイル", "r": "タイル", "n": 1, "pos": "n", "en": "tile"}
+{"i": "j6923", "w": "対話", "r": "たいわ", "n": 1, "pos": "vs", "en": "dialogue, conversation, talk"}
+{"i": "j6924", "w": "耐える", "r": "たえる", "n": 1, "pos": "v1", "en": "to bear, to stand, to endure; to support, to withstand, to resist; to be fit for, to be equal to"}
+{"i": "j6925", "w": "堪える", "r": "たえる", "n": 1, "pos": "v1", "en": "to bear, to stand, to endure; to support, to withstand, to resist; to be fit for, to be equal to"}
+{"i": "j6926", "w": "絶える", "r": "たえる", "n": 1, "pos": "v1", "en": "to die out, to peter out, to become extinct; to cease, to be stopped, to be discontinued"}
+{"i": "j6927", "w": "断える", "r": "たえる", "n": 1, "pos": "v1", "en": "to die out, to peter out, to become extinct; to cease, to be stopped, to be discontinued"}
+{"i": "j6928", "w": "打開", "r": "だかい", "n": 1, "pos": "vs", "en": "break in the deadlock"}
+{"i": "j6929", "w": "焚火", "r": "たきび", "n": 1, "pos": "vs", "en": "open-air fire (e.g. for garden refuse), bonfire, campfire; open fire (e.g. in a kitchen)"}
+{"i": "j6930", "w": "妥協", "r": "だきょう", "n": 1, "pos": "vs", "en": "compromise, giving in"}
+{"i": "j6931", "w": "たくましい", "r": "たくましい", "n": 1, "pos": "adj-i", "en": "burly, strong, sturdy; indomitable, indefatigable, strong-willed; robust (vitality, appetite, economic growth, etc.), strong"}
+{"i": "j6932", "w": "巧み", "r": "たくみ", "n": 1, "pos": "adj-na", "en": "skillful, adroit, dexterous; craft, craftsmanship, skill; plot, scheme, artifice"}
+{"i": "j6933", "w": "丈", "r": "たけ", "n": 1, "pos": "n", "en": "height, stature; length (esp. of clothing); all (one has), everything"}
+{"i": "j6934", "w": "打撃", "r": "だげき", "n": 1, "pos": "n", "en": "blow, shock, strike; batting"}
+{"i": "j6935", "w": "妥結", "r": "だけつ", "n": 1, "pos": "vs", "en": "settlement, an agreement"}
+{"i": "j6936", "w": "駄作", "r": "ださく", "n": 1, "pos": "n", "en": "poor piece of work, rubbish, trash"}
+{"i": "j6937", "w": "足し算", "r": "たしざん", "n": 1, "pos": "n", "en": "addition"}
+{"i": "j6938", "w": "多数決", "r": "たすうけつ", "n": 1, "pos": "n", "en": "majority decision, majority vote, majority rule"}
+{"i": "j6939", "w": "助け", "r": "たすけ", "n": 1, "pos": "n", "en": "assistance, help, aid"}
+{"i": "j6940", "w": "携わる", "r": "たずさわる", "n": 1, "pos": "v5r", "en": "to engage in, to participate in, to take part in"}
+{"i": "j6941", "w": "漂う", "r": "ただよう", "n": 1, "pos": "v5u", "en": "to drift, to float; to waft (e.g. a scent), to hang in the air; to be in the air (e.g. a feeling or mood)"}
+{"i": "j6942", "w": "立ち去る", "r": "たちさる", "n": 1, "pos": "v5r", "en": "to leave, to depart, to take one's leave"}
+{"i": "j6943", "w": "立ち寄る", "r": "たちよる", "n": 1, "pos": "v5r", "en": "to drop by, to stop by, to drop in; to approach, to draw near, to come close (to)"}
+{"i": "j6944", "w": "抱っこ", "r": "だっこ", "n": 1, "pos": "vs", "en": "carrying in one's arms (a baby, pet, doll, etc.), holding; up!, carry me"}
+{"i": "j6945", "w": "達者", "r": "たっしゃ", "n": 1, "pos": "adj-na", "en": "in good health, healthy, well; skilled, proficient, adept; master, expert"}
+{"i": "j6946", "w": "脱出", "r": "だっしゅつ", "n": 1, "pos": "vs", "en": "escape, getting away (from), getting out (of); prolapse, proptosis"}
+{"i": "j6947", "w": "脱する", "r": "だっする", "n": 1, "pos": "vs-i", "en": "to escape from, to get out"}
+{"i": "j6948", "w": "達成", "r": "たっせい", "n": 1, "pos": "vs", "en": "achievement, attainment, accomplishment"}
+{"i": "j6949", "w": "脱退", "r": "だったい", "n": 1, "pos": "vs", "en": "withdrawal (e.g. from an organization), secession, leaving"}
+{"i": "j6950", "w": "だったら", "r": "だったら", "n": 1, "pos": "conj", "en": "if it's the case"}
+{"i": "j6951", "w": "立て替える", "r": "たてかえる", "n": 1, "pos": "v1", "en": "to pay for someone else (with the expectation of being reimbursed later), to lend someone the money to pay for (e.g. rent), to make a temporary payment on someo"}
+{"i": "j6952", "w": "建前", "r": "たてまえ", "n": 1, "pos": "n", "en": "face, official stance, public position or attitude (as opposed to private thoughts); ceremony for the erection of the framework of a house"}
+{"i": "j6953", "w": "奉る", "r": "たてまつる", "n": 1, "pos": "v5r", "en": "to offer, to present; to set someone up in a high position, to revere at a distance; to do respectfully"}
+{"i": "j6954", "w": "だと", "r": "だと", "n": 1, "pos": "n", "en": "if it's the case"}
+{"i": "j6955", "w": "他動詞", "r": "たどうし", "n": 1, "pos": "n", "en": "transitive verb"}
+{"i": "j6956", "w": "辿り着く", "r": "たどりつく", "n": 1, "pos": "v5k", "en": "to (finally) arrive at, to reach (at last), to (manage to) get to"}
+{"i": "j6957", "w": "辿る", "r": "たどる", "n": 1, "pos": "v5r", "en": "to follow (a road, path, etc.), to trace; to follow (a clue, scent, tracks, plot, etc.), to trace (a route, history, family tree, etc.), to retrace (e.g. one's "}
+{"i": "j6958", "w": "束ねる", "r": "たばねる", "n": 1, "pos": "v1", "en": "to tie up in a bundle (e.g. straw, hair, bills, letters), to bundle, to sheathe; to govern, to manage, to control"}
+{"i": "j6959", "w": "だぶだぶ", "r": "だぶだぶ", "n": 1, "pos": "adj-na", "en": "loose (of clothing), baggy; flabby, saggy; sloshing, slopping, overflowing"}
+{"i": "j6960", "w": "他方", "r": "たほう", "n": 1, "pos": "n", "en": "one (esp. of two), the other, one way; on the other hand"}
+{"i": "j6961", "w": "多忙", "r": "たぼう", "n": 1, "pos": "n", "en": "being very busy, busyness"}
+{"i": "j6962", "w": "給う", "r": "たまう", "n": 1, "pos": "v5u", "en": "to give; to do ..."}
+{"i": "j6963", "w": "魂", "r": "たましい", "n": 1, "pos": "n", "en": "soul, spirit, mind; willpower, vitality; something as important as one's own life, something invaluable"}
+{"i": "j6964", "w": "溜まり", "r": "たまり", "n": 1, "pos": "n", "en": "pile, pool, collection; gathering spot; waiting place for a wrestler beside the ring"}
+{"i": "j6965", "w": "賜る", "r": "たまわる", "n": 1, "pos": "v5r", "en": "to be given, to be granted, to be honored with; to give, to bestow, to confer"}
+{"i": "j6966", "w": "保つ", "r": "たもつ", "n": 1, "pos": "v5t", "en": "to keep, to preserve, to hold; to last, to endure, to keep well (food)"}
+{"i": "j6967", "w": "たやすい", "r": "たやすい", "n": 1, "pos": "adj-i", "en": "easy, simple, light"}
+{"i": "j6968", "w": "多様", "r": "たよう", "n": 1, "pos": "adj-na", "en": "diverse, various"}
+{"i": "j6969", "w": "だるい", "r": "だるい", "n": 1, "pos": "adj-i", "en": "sluggish, languid, listless; bothersome, tiresome, pain-in-the-ass"}
+{"i": "j6970", "w": "弛み", "r": "たるみ", "n": 1, "pos": "n", "en": "slack, slackening, sagginess; dullness, letdown, depression"}
+{"i": "j6971", "w": "弛む", "r": "たるむ", "n": 1, "pos": "v5m", "en": "to slacken, to loosen, to relax; to slack off (e.g. one's work, attention), to not put one's heart in"}
+{"i": "j6972", "w": "垂れる", "r": "たれる", "n": 1, "pos": "v1", "en": "to hang, to droop, to dangle; to give (e.g. lesson, instruction, scolding) (to someone of lower status), to confer, to grant; to drip, to ooze, to trickle"}
+{"i": "j6973", "w": "タレント", "r": "タレント", "n": 1, "pos": "n", "en": "(TV or radio) entertainer, television personality, radio personality; talent, skill; talent (ancient unit of weight and currency)"}

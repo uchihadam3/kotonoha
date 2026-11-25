@@ -1,0 +1,31 @@
+{
+  "name": "kotonoha",
+  "version": "1.0.0",
+  "description": "KOTONOHA — A Jornada das Dez Mil Palavras. Um jogo 3D para aprender japonês do zero à fluência. Uchihadam Production.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx tests/run.ts",
+    "data": "node tools/build-data.mjs",
+    "fonts": "python3 tools/subset-fonts.py",
+    "offline": "vite build && node scripts/offline.mjs"
+  },
+  "author": "Uchihadam Production",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@fontsource/marcellus": "^5.2.0",
+    "three": "^0.187.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "@types/three": "^0.187.0",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3",
+    "vite": "^8.3.8",
+    "vite-plugin-singlefile": "^2.3.4"
+  },
+  "private": true,
+  "type": "module"
+}
