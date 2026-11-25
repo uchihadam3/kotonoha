@@ -84,6 +84,8 @@ export class Engine {
   /** measured average frame time (ms) for automatic quality */
   frameMs = 16;
   pixelRatio = 1;
+  /** skip drawing (a full-screen overlay hides the 3D) */
+  skipRender = false;
 
   constructor(parent: HTMLElement, quality: Quality) {
     this.quality = quality === 'auto' ? Engine.detectQuality() : quality;
@@ -180,6 +182,7 @@ export class Engine {
       const dt = Math.min(0.05, raw / 1000);
       this.time += dt;
       this.u.uTime.value = this.time;
+      if (this.skipRender) return;
       for (const cb of this.callbacks) cb({ dt, t: this.time });
       this.composer.render(dt);
     };

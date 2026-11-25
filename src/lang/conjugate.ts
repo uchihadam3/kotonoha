@@ -85,7 +85,7 @@ export function conjugate(w: string, r: string, pos: string): Form[] {
   // ずる verbs (感ずる, 応ずる…) conjugate like ichidan じる
   if (pos === 'vs-i' && w.endsWith('ずる')) return conjugate(w.slice(0, -2) + 'じる', r.slice(0, -2) + 'じる', 'v1').map((f) => (f.id === 'dict' ? { ...f, w, r } : f));
   // one-kanji する verbs (愛する, 訳する, 罰する…) take さ/せ in some forms
-  const sSpecial = pos === 'vs-i' && w.length === 3 && w.endsWith('する') && /[\u4e00-\u9fff]/.test(w[0]);
+  const sSpecial = pos === 'vs-i' && ['愛する', '訳する', '略する', '察する'].includes(w);
   if (pos === 'vs-i') {
     // する or 〜する (勉強する)
     const sw = (add: string, addR = add): [string, string] => [w.slice(0, -2) + add, r.slice(0, -2) + addR];

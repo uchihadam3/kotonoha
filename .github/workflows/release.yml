@@ -1,0 +1,59 @@
+name: Gerar instaladores
+on:
+  push:
+    tags: ['v*']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: release
+  cancel-in-progress: true
+jobs:
+  build:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [windows-latest, ubuntu-latest, macos-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm ci
+      - run: npm run build
+      - name: Construir instaladores
+        run: npx electron-builder --publish never
+        env:
+          CSC_IDENTITY_AUTO_DISCOVERY: false
+      - uses: actions/upload-artifact@v4
+        with:
+          name: kotonoha-${{ matrix.os }}
+          path: |
+            release/*.exe
+            release/*.AppImage
+            release/*.deb
+            release/*.dmg
+          if-no-files-found: ignore
+      - name: Ler versão
+        id: ver
+        shell: bash
+        run: echo "v=v$(node -p "require('./package.json').version")" >> "$GITHUB_OUTPUT"
+      - name: Anexar ao release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.ver.outputs.v }}
+          name: KOTONOHA ${{ steps.ver.outputs.v }}
+          target_commitish: ${{ github.sha }}
+          body: |
+            🍃 **KOTONOHA — A Jornada das Dez Mil Palavras**
+
+            - **Windows:** baixe `KOTONOHA-*-Instalador.exe` (ou a versão portátil `*-portatil.exe`).
+              Se o Windows avisar sobre app não reconhecido: *Mais informações → Executar assim mesmo*.
+            - **Linux:** `.AppImage` ou `.deb`
+            - **macOS:** `.dmg` (se o macOS bloquear: botão direito → Abrir)
+          files: |
+            release/*.exe
+            release/*.AppImage
+            release/*.deb
+            release/*.dmg

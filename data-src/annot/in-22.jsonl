@@ -1,0 +1,675 @@
+{"i": "x4830", "w": "登竜門", "r": "とうりゅうもん", "n": 1, "pos": "n", "en": "gateway to success"}
+{"i": "x4831", "w": "塾長", "r": "じゅくちょう", "n": 1, "pos": "n", "en": "principal of a private school"}
+{"i": "x4832", "w": "混ぜ合わす", "r": "まぜあわす", "n": 1, "pos": "v5s", "en": "to mix together, to blend, to compound"}
+{"i": "x4833", "w": "最下", "r": "さいか", "n": 1, "pos": "n", "en": "the lowest, the worst"}
+{"i": "x4834", "w": "在米", "r": "ざいべい", "n": 1, "pos": "vs", "en": "staying in the United States, residing in the United States, being situated in the United States (of a foreign embassy, company, etc.)"}
+{"i": "x4835", "w": "作況指数", "r": "さっきょうしすう", "n": 1, "pos": "n", "en": "rice-crop index"}
+{"i": "x4836", "w": "自浄", "r": "じじょう", "n": 1, "pos": "vs", "en": "self-purification, self-cleansing"}
+{"i": "x4837", "w": "取り下げ", "r": "とりさげ", "n": 1, "pos": "n", "en": "withdrawal, discontinuance, abandoning"}
+{"i": "x4838", "w": "手中", "r": "しゅちゅう", "n": 1, "pos": "n", "en": "in one's hands, in one's control"}
+{"i": "x4839", "w": "秀作", "r": "しゅうさく", "n": 1, "pos": "n", "en": "excellent (piece of) work"}
+{"i": "x4840", "w": "集大成", "r": "しゅうたいせい", "n": 1, "pos": "vs", "en": "(large) compilation; culmination (of hard work)"}
+{"i": "x4841", "w": "出走", "r": "しゅっそう", "n": 1, "pos": "vs", "en": "entry in a race"}
+{"i": "x4842", "w": "将兵", "r": "しょうへい", "n": 1, "pos": "n", "en": "officers and men"}
+{"i": "x4843", "w": "断熱", "r": "だんねつ", "n": 1, "pos": "vs", "en": "insulation"}
+{"i": "x4844", "w": "野合", "r": "やごう", "n": 1, "pos": "vs", "en": "illicit union, collusion"}
+{"i": "x4845", "w": "現代的", "r": "げんだいてき", "n": 1, "pos": "adj-na", "en": "modern, modernistic"}
+{"i": "x4846", "w": "新田", "r": "しんでん", "n": 1, "pos": "n", "en": "new rice field, newly developed rice field; wasteland or marshland newly reclaimed as a rice field (Edo period)"}
+{"i": "x4847", "w": "切り下げ", "r": "きりさげ", "n": 1, "pos": "n", "en": "devaluation (e.g. of currency), markdown, write-down"}
+{"i": "x4848", "w": "物別れ", "r": "ものわかれ", "n": 1, "pos": "n", "en": "failure to reach agreement"}
+{"i": "x4849", "w": "物価指数", "r": "ぶっかしすう", "n": 1, "pos": "n", "en": "price index"}
+{"i": "x4850", "w": "一二", "r": "いちに", "n": 1, "pos": "n", "en": "one or two, a couple, a few; first and second (place), the top two"}
+{"i": "x4851", "w": "試験的", "r": "しけんてき", "n": 1, "pos": "adj-na", "en": "experimental, provisional"}
+{"i": "x4852", "w": "敵国", "r": "てきこく", "n": 1, "pos": "n", "en": "enemy nation"}
+{"i": "x4853", "w": "超音波", "r": "ちょうおんぱ", "n": 1, "pos": "n", "en": "ultrasonic waves, ultrasound"}
+{"i": "x4854", "w": "青梅", "r": "あおうめ", "n": 1, "pos": "n", "en": "unripe plum"}
+{"i": "x4855", "w": "精神障害", "r": "せいしんしょうがい", "n": 1, "pos": "n", "en": "mental disorder, mental disability, mental illness"}
+{"i": "x4856", "w": "買い入れ", "r": "かいいれ", "n": 1, "pos": "n", "en": "buying, purchasing, laying in"}
+{"i": "x4857", "w": "利便", "r": "りべん", "n": 1, "pos": "adj-na", "en": "convenience"}
+{"i": "x4858", "w": "持続的", "r": "じぞくてき", "n": 1, "pos": "adj-na", "en": "continuous, sustained, sustainable"}
+{"i": "x4859", "w": "得失", "r": "とくしつ", "n": 1, "pos": "n", "en": "advantages and disadvantages, plus and minuses"}
+{"i": "x4860", "w": "町役場", "r": "まちやくば", "n": 1, "pos": "n", "en": "town hall"}
+{"i": "x4861", "w": "町議会", "r": "ちょうぎかい", "n": 1, "pos": "n", "en": "town council"}
+{"i": "x4862", "w": "定率", "r": "ていりつ", "n": 1, "pos": "n", "en": "fixed rate"}
+{"i": "x4863", "w": "大船", "r": "おおぶね", "n": 1, "pos": "n", "en": "large boat"}
+{"i": "x4864", "w": "大敗", "r": "たいはい", "n": 1, "pos": "vs", "en": "crushing defeat"}
+{"i": "x4865", "w": "長雨", "r": "ながあめ", "n": 1, "pos": "n", "en": "long spell of rain"}
+{"i": "x4866", "w": "乱調", "r": "らんちょう", "n": 1, "pos": "n", "en": "confusion"}
+{"i": "x4867", "w": "選挙人", "r": "せんきょにん", "n": 1, "pos": "n", "en": "voter, constituent, elector; presidential elector (US), member of the Electoral College"}
+{"i": "x4868", "w": "復党", "r": "ふくとう", "n": 1, "pos": "vs", "en": "rejoining a political party"}
+{"i": "x4869", "w": "要職", "r": "ようしょく", "n": 1, "pos": "n", "en": "important post, important office, key position"}
+{"i": "x4870", "w": "軟禁", "r": "なんきん", "n": 1, "pos": "vs", "en": "house arrest"}
+{"i": "x4871", "w": "大店", "r": "おおだな", "n": 1, "pos": "n", "en": "large store"}
+{"i": "x4872", "w": "買い戻し", "r": "かいもどし", "n": 1, "pos": "n", "en": "repurchase, redemption"}
+{"i": "x4873", "w": "省エネルギー", "r": "しょうエネルギー", "n": 1, "pos": "n", "en": "energy conservation, economical use of energy, energy-saving"}
+{"i": "x4874", "w": "新聞記事", "r": "しんぶんきじ", "n": 1, "pos": "n", "en": "newspaper story (article, account)"}
+{"i": "x4875", "w": "好んで", "r": "このんで", "n": 1, "pos": "adv", "en": "by (from) choice, by (for) preference, of one's own accord"}
+{"i": "x4876", "w": "柴", "r": "しば", "n": 1, "pos": "n", "en": "brushwood, firewood"}
+{"i": "x4877", "w": "汎", "r": "はん", "n": 1, "pos": "pref", "en": "pan-"}
+{"i": "x4878", "w": "野山", "r": "のやま", "n": 1, "pos": "n", "en": "hills and fields, hill and dale"}
+{"i": "x4879", "w": "内閣官房", "r": "ないかくかんぼう", "n": 1, "pos": "n", "en": "Cabinet Secretariat"}
+{"i": "x4880", "w": "健常者", "r": "けんじょうしゃ", "n": 1, "pos": "n", "en": "person with no physical or mental disability, able-bodied person, non-disabled person"}
+{"i": "x4881", "w": "婦女暴行", "r": "ふじょぼうこう", "n": 1, "pos": "n", "en": "sexual assault (of a woman), rape"}
+{"i": "x4882", "w": "悪役", "r": "あくやく", "n": 1, "pos": "n", "en": "villain, baddie, the villain's part"}
+{"i": "x4883", "w": "安否", "r": "あんぴ", "n": 1, "pos": "n", "en": "safety, welfare, well-being"}
+{"i": "x4884", "w": "庵", "r": "いおり", "n": 1, "pos": "n", "en": "hermitage, retreat"}
+{"i": "x4885", "w": "暗黙", "r": "あんもく", "n": 1, "pos": "adj-no", "en": "tacit, unspoken, implicit"}
+{"i": "x4886", "w": "威嚇", "r": "いかく", "n": 1, "pos": "vs", "en": "threat, intimidation, menace"}
+{"i": "x4887", "w": "遺影", "r": "いえい", "n": 1, "pos": "n", "en": "portrait of a deceased person"}
+{"i": "x4888", "w": "一つ一つ", "r": "ひとつひとつ", "n": 1, "pos": "adv", "en": "one-by-one, separately, in detail"}
+{"i": "x4889", "w": "一過", "r": "いっか", "n": 1, "pos": "vs", "en": "passing (e.g. of a typhoon), going past"}
+{"i": "x4890", "w": "一丸", "r": "いちがん", "n": 1, "pos": "n", "en": "one lump, one body, one group"}
+{"i": "x4891", "w": "一局", "r": "いっきょく", "n": 1, "pos": "n", "en": "one game (of go, shogi, etc.); one board (go, shogi, etc.); one office (of a broadcasting station, post office, etc.)"}
+{"i": "x4892", "w": "一座", "r": "いちざ", "n": 1, "pos": "n", "en": "the whole company, the party, all those present; attendance (at a gathering), presence; banquet, dinner, party"}
+{"i": "x4893", "w": "一人娘", "r": "ひとりむすめ", "n": 1, "pos": "n", "en": "only daughter"}
+{"i": "x4894", "w": "一団", "r": "いちだん", "n": 1, "pos": "n", "en": "body, group, party"}
+{"i": "x4895", "w": "一通", "r": "いっつう", "n": 1, "pos": "n", "en": "one copy (of a document), one letter; one-way traffic; pure straight, winning hand containing nine consecutive tiles of the same suit (i.e. 1-9)"}
+{"i": "x4896", "w": "一文", "r": "いちもん", "n": 1, "pos": "n", "en": "tiny amount of money, a penny, a cent; one letter, one character; one mon (unit of currency)"}
+{"i": "x4897", "w": "一翼", "r": "いちよく", "n": 1, "pos": "n", "en": "one wing; (a) role, (a) part"}
+{"i": "x4898", "w": "印紙", "r": "いんし", "n": 1, "pos": "n", "en": "(revenue) stamp"}
+{"i": "x4899", "w": "員数", "r": "いんずう", "n": 1, "pos": "n", "en": "(total) number (of people or things), count, quota"}
+{"i": "x4900", "w": "引き継ぐ", "r": "ひきつぐ", "n": 1, "pos": "v5g", "en": "to take over (someone's duties, business, etc.), to inherit, to succeed to; to hand over"}
+{"i": "x4901", "w": "引き取る", "r": "ひきとる", "n": 1, "pos": "v5r", "en": "to take into one's possession, to receive, to accept; to take into one's care (e.g. person, pet), to take custody of, to adopt; to leave, to go away, to withdra"}
+{"i": "x4902", "w": "隠滅", "r": "いんめつ", "n": 1, "pos": "vs", "en": "destruction (esp. of evidence), spoliation, suppression; hiding, concealment"}
+{"i": "x4903", "w": "営み", "r": "いとなみ", "n": 1, "pos": "n", "en": "activity, action, performance; occupation, business, work; sexual intercourse, sex"}
+{"i": "x4904", "w": "栄冠", "r": "えいかん", "n": 1, "pos": "n", "en": "crown of victory, laurels; honor, glory, fame"}
+{"i": "x4905", "w": "栄養失調", "r": "えいようしっちょう", "n": 1, "pos": "n", "en": "malnutrition"}
+{"i": "x4906", "w": "液化", "r": "えきか", "n": 1, "pos": "vs", "en": "liquefaction"}
+{"i": "x4907", "w": "円筒", "r": "えんとう", "n": 1, "pos": "n", "en": "cylinder"}
+{"i": "x4908", "w": "沿海", "r": "えんかい", "n": 1, "pos": "n", "en": "sea along the coast, coastal waters, inshore waters; coast"}
+{"i": "x4909", "w": "演壇", "r": "えんだん", "n": 1, "pos": "n", "en": "rostrum, platform"}
+{"i": "x4910", "w": "炎症", "r": "えんしょう", "n": 1, "pos": "n", "en": "inflammation, irritation"}
+{"i": "x4911", "w": "往年", "r": "おうねん", "n": 1, "pos": "n", "en": "years gone by, earlier years, former years"}
+{"i": "x4912", "w": "恩返し", "r": "おんがえし", "n": 1, "pos": "vs", "en": "paying back a favour, repayment (of an obligation, kindness, etc.)"}
+{"i": "x4913", "w": "下山", "r": "げざん", "n": 1, "pos": "vs", "en": "descending a mountain, descent"}
+{"i": "x4914", "w": "下野", "r": "げや", "n": 1, "pos": "vs", "en": "resigning from (public) office; going out of power (of a party), going into opposition"}
+{"i": "x4915", "w": "なんだか", "r": "なんだか", "n": 1, "pos": "adv", "en": "(a) little, somewhat, somehow"}
+{"i": "x4916", "w": "家業", "r": "かぎょう", "n": 1, "pos": "n", "en": "family business, family trade; one's occupation, one's trade"}
+{"i": "x4917", "w": "家元", "r": "いえもと", "n": 1, "pos": "n", "en": "head of a school (of music, dance), head family of a school"}
+{"i": "x4918", "w": "家政婦", "r": "かせいふ", "n": 1, "pos": "n", "en": "housekeeper, maid"}
+{"i": "x4919", "w": "果汁", "r": "かじゅう", "n": 1, "pos": "n", "en": "fruit juice"}
+{"i": "x4920", "w": "過言", "r": "かごん", "n": 1, "pos": "n", "en": "exaggeration, overstatement, saying too much; misstatement, slip of the tongue, gaffe"}
+{"i": "x4921", "w": "快速", "r": "かいそく", "n": 1, "pos": "n", "en": "high speed, rapidity; rapid-service train (not as fast as express), rapid train"}
+{"i": "x4922", "w": "快調", "r": "かいちょう", "n": 1, "pos": "adj-na", "en": "good (condition), going well, fine"}
+{"i": "x4923", "w": "海岸線", "r": "かいがんせん", "n": 1, "pos": "n", "en": "coastline, shoreline; coastal railway"}
+{"i": "x4924", "w": "核分裂", "r": "かくぶんれつ", "n": 1, "pos": "n", "en": "nuclear fission; karyokinesis (division of a cell nucleus during mitosis or meiosis)"}
+{"i": "x4925", "w": "楽園", "r": "らくえん", "n": 1, "pos": "n", "en": "paradise, Eden"}
+{"i": "x4926", "w": "活況", "r": "かっきょう", "n": 1, "pos": "n", "en": "activity, briskness, prosperity"}
+{"i": "x4927", "w": "巻末", "r": "かんまつ", "n": 1, "pos": "n", "en": "end of a book"}
+{"i": "x4928", "w": "感銘", "r": "かんめい", "n": 1, "pos": "vs", "en": "deep impression, being deeply moved, being deeply touched"}
+{"i": "x4929", "w": "甘え", "r": "あまえ", "n": 1, "pos": "n", "en": "overdependence (on others; usu. one's fosterers or seniors), lack of self-reliance, presumed acceptance (of one's behaviour)"}
+{"i": "x4930", "w": "観賞", "r": "かんしょう", "n": 1, "pos": "vs", "en": "admiration, appreciation, enjoyment"}
+{"i": "x4931", "w": "還流", "r": "かんりゅう", "n": 1, "pos": "vs", "en": "return current, reflux, back flow"}
+{"i": "x4932", "w": "間中", "r": "あいだじゅう", "n": 1, "pos": "n", "en": "during"}
+{"i": "x4933", "w": "岸壁", "r": "がんぺき", "n": 1, "pos": "n", "en": "quay, wharf, jetty; wall-like shoreline, cliff wall"}
+{"i": "x4934", "w": "顔面", "r": "がんめん", "n": 1, "pos": "n", "en": "face (of person)"}
+{"i": "x4935", "w": "既成事実", "r": "きせいじじつ", "n": 1, "pos": "n", "en": "established fact, fait accompli"}
+{"i": "x4936", "w": "既定", "r": "きてい", "n": 1, "pos": "adj-no", "en": "established, fixed, prearranged"}
+{"i": "x4937", "w": "季語", "r": "きご", "n": 1, "pos": "n", "en": "seasonal word (in haiku)"}
+{"i": "x4938", "w": "紀元前", "r": "きげんぜん", "n": 1, "pos": "n", "en": "pre-era, BC, BCE"}
+{"i": "x4939", "w": "橘", "r": "たちばな", "n": 1, "pos": "n", "en": "tachibana orange (Citrus tachibana)"}
+{"i": "x4940", "w": "休止", "r": "きゅうし", "n": 1, "pos": "vs", "en": "pause, suspension, rest"}
+{"i": "x4941", "w": "宮廷", "r": "きゅうてい", "n": 1, "pos": "n", "en": "imperial court, royal court"}
+{"i": "x4942", "w": "挙党", "r": "きょとう", "n": 1, "pos": "n", "en": "whole party, party as a whole"}
+{"i": "x4943", "w": "競合", "r": "きょうごう", "n": 1, "pos": "vs", "en": "contention, competition, rivalry"}
+{"i": "x4944", "w": "共著", "r": "きょうちょ", "n": 1, "pos": "n", "en": "joint authorship, co-authorship, collaboration"}
+{"i": "x4945", "w": "教書", "r": "きょうしょ", "n": 1, "pos": "n", "en": "message (delivered by the US president or a state governor), address; (papal) bull, decree; textbook"}
+{"i": "x4946", "w": "教壇", "r": "きょうだん", "n": 1, "pos": "n", "en": "(teacher's) platform, podium, dais"}
+{"i": "x4947", "w": "凝縮", "r": "ぎょうしゅく", "n": 1, "pos": "vs", "en": "condensation (of ideas, emotions, etc.), concentration; condensation (of a vapour or gas)"}
+{"i": "x4948", "w": "局地", "r": "きょくち", "n": 1, "pos": "n", "en": "locality, local area, limited area"}
+{"i": "x4949", "w": "玉虫色", "r": "たまむしいろ", "n": 1, "pos": "n", "en": "iridescent colour; equivocal (reply, statement, etc.), ambiguous, vague"}
+{"i": "x4950", "w": "均一", "r": "きんいつ", "n": 1, "pos": "adj-na", "en": "uniformity, equality"}
+{"i": "x4951", "w": "近親", "r": "きんしん", "n": 1, "pos": "n", "en": "near relative"}
+{"i": "x4952", "w": "金貨", "r": "きんか", "n": 1, "pos": "n", "en": "gold coin"}
+{"i": "x4953", "w": "苦渋", "r": "くじゅう", "n": 1, "pos": "vs", "en": "bitterness, distress, pain; bitterness and astringency"}
+{"i": "x4954", "w": "苦肉の策", "r": "くにくのさく", "n": 1, "pos": "exp", "en": "last resort, desperate measure taken under the pressure of necessity"}
+{"i": "x4955", "w": "空転", "r": "くうてん", "n": 1, "pos": "vs", "en": "racing (of an engine), idling; going in circles (of an argument, discussion, etc.), spinning one's wheels, going nowhere"}
+{"i": "x4956", "w": "戎", "r": "えびす", "n": 1, "pos": "n", "en": "Ebisu, god of fishing and commerce"}
+{"i": "x4957", "w": "敬遠", "r": "けいえん", "n": 1, "pos": "vs", "en": "pretending to respect (someone) while in fact staying distant, keeping at arm's length, giving a wide berth; avoiding (something unpleasant), shying away from; "}
+{"i": "x4958", "w": "渓谷", "r": "けいこく", "n": 1, "pos": "n", "en": "valley (with a river running through it), gorge, ravine"}
+{"i": "x4959", "w": "芸者", "r": "げいしゃ", "n": 1, "pos": "n", "en": "geisha, professional female entertainer, usu. at traditional banquets"}
+{"i": "x4960", "w": "芸名", "r": "げいめい", "n": 1, "pos": "n", "en": "stage name"}
+{"i": "x4961", "w": "結社", "r": "けっしゃ", "n": 1, "pos": "n", "en": "association, society"}
+{"i": "x4962", "w": "原生", "r": "げんせい", "n": 1, "pos": "adj-no", "en": "primeval, primordial, primitive"}
+{"i": "x4963", "w": "玄米", "r": "げんまい", "n": 1, "pos": "n", "en": "unpolished rice, unmilled rice, brown rice"}
+{"i": "x4964", "w": "現況", "r": "げんきょう", "n": 1, "pos": "n", "en": "present condition"}
+{"i": "x4965", "w": "固体", "r": "こたい", "n": 1, "pos": "n", "en": "solid (body), solid matter, solid-state"}
+{"i": "x4966", "w": "互換", "r": "ごかん", "n": 1, "pos": "vs", "en": "interchange; transposition; compatible (e.g. PC)"}
+{"i": "x4967", "w": "後発", "r": "こうはつ", "n": 1, "pos": "vs", "en": "starting late, late departure"}
+{"i": "x4968", "w": "御苑", "r": "ぎょえん", "n": 1, "pos": "n", "en": "imperial garden"}
+{"i": "x4969", "w": "お年玉", "r": "おとしだま", "n": 1, "pos": "n", "en": "New Year's gift (usu. money given to a child by relatives and visitors)"}
+{"i": "x4970", "w": "護岸", "r": "ごがん", "n": 1, "pos": "n", "en": "river dike"}
+{"i": "x4971", "w": "光学", "r": "こうがく", "n": 1, "pos": "n", "en": "optics"}
+{"i": "x4972", "w": "公館", "r": "こうかん", "n": 1, "pos": "n", "en": "official residence"}
+{"i": "x4973", "w": "公社債", "r": "こうしゃさい", "n": 1, "pos": "n", "en": "public bonds"}
+{"i": "x4974", "w": "公衆衛生", "r": "こうしゅうえいせい", "n": 1, "pos": "n", "en": "public health, public hygiene, sanitation"}
+{"i": "x4975", "w": "広東", "r": "カントン", "n": 1, "pos": "n", "en": "Guangdong (China), Kwangtung; Guangzhou (China), Canton"}
+{"i": "x4976", "w": "抗日", "r": "こうにち", "n": 1, "pos": "n", "en": "resistance against Japanese aggression, anti-Japanese (campaign, movement, etc.)"}
+{"i": "x4977", "w": "稿", "r": "こう", "n": 1, "pos": "vs", "en": "manuscript, version, draft"}
+{"i": "x4978", "w": "絞り", "r": "しぼり", "n": 1, "pos": "n", "en": "shibori, tie-dye, tie-dyeing; aperture, aperture stop, stop; contraction, squeezing, choke"}
+{"i": "x4979", "w": "行司", "r": "ぎょうじ", "n": 1, "pos": "n", "en": "referee"}
+{"i": "x4980", "w": "高品質", "r": "こうひんしつ", "n": 1, "pos": "n", "en": "high quality"}
+{"i": "x4981", "w": "黒鉛", "r": "こくえん", "n": 1, "pos": "n", "en": "graphite"}
+{"i": "x4982", "w": "困惑", "r": "こんわく", "n": 1, "pos": "vs", "en": "bewilderment, perplexity, embarrassment"}
+{"i": "x4983", "w": "痕跡", "r": "こんせき", "n": 1, "pos": "n", "en": "trace, vestige, mark"}
+{"i": "x4984", "w": "再考", "r": "さいこう", "n": 1, "pos": "vs", "en": "reconsideration"}
+{"i": "x4985", "w": "宰相", "r": "さいしょう", "n": 1, "pos": "n", "en": "prime minister, premier, chancellor"}
+{"i": "x4986", "w": "細分", "r": "さいぶん", "n": 1, "pos": "vs", "en": "subdivision (into small parts)"}
+{"i": "x4987", "w": "錯覚", "r": "さっかく", "n": 1, "pos": "vs", "en": "illusion, hallucination; misapprehension, misconception, misunderstanding"}
+{"i": "x4988", "w": "三女", "r": "さんじょ", "n": 1, "pos": "n", "en": "third daughter"}
+{"i": "x4989", "w": "山川", "r": "さんせん", "n": 1, "pos": "n", "en": "mountains and rivers"}
+{"i": "x4990", "w": "仕草", "r": "しぐさ", "n": 1, "pos": "n", "en": "gesture, movement, action; acting, performance"}
+{"i": "x4991", "w": "市外", "r": "しがい", "n": 1, "pos": "n", "en": "outside the city, suburbs"}
+{"i": "x4992", "w": "私書箱", "r": "ししょばこ", "n": 1, "pos": "n", "en": "post office box"}
+{"i": "x4993", "w": "至難", "r": "しなん", "n": 1, "pos": "adj-na", "en": "most difficult, next to impossible"}
+{"i": "x4994", "w": "試写", "r": "ししゃ", "n": 1, "pos": "vs", "en": "preview, private showing"}
+{"i": "x4995", "w": "歯科医", "r": "しかい", "n": 1, "pos": "n", "en": "dentist"}
+{"i": "x4996", "w": "侍従", "r": "じじゅう", "n": 1, "pos": "n", "en": "chamberlain"}
+{"i": "x4997", "w": "字形", "r": "じけい", "n": 1, "pos": "n", "en": "character style, character form"}
+{"i": "x4998", "w": "自発", "r": "じはつ", "n": 1, "pos": "n", "en": "spontaneity; spontaneous passive"}
+{"i": "x4999", "w": "漆", "r": "うるし", "n": 1, "pos": "n", "en": "East Asian lacquer, japan; Chinese lacquer tree (Toxicodendron vernicifluum, formerly Rhus verniciflua)"}
+{"i": "x5000", "w": "実演", "r": "じつえん", "n": 1, "pos": "vs", "en": "demonstration, presentation; stage show, performance"}
+{"i": "x5001", "w": "手始め", "r": "てはじめ", "n": 1, "pos": "n", "en": "outset, start, beginning"}
+{"i": "x5002", "w": "手直し", "r": "てなおし", "n": 1, "pos": "vs", "en": "adjustment, tweaking, improvement"}
+{"i": "x5003", "w": "首謀", "r": "しゅぼう", "n": 1, "pos": "n", "en": "plotting, planning (crime, intrigue); ringleader, mastermind, leader (of a plot)"}
+{"i": "x5004", "w": "受難", "r": "じゅなん", "n": 1, "pos": "vs", "en": "sufferings, ordeals, agony; Passion (of Christ), crucifixion"}
+{"i": "x5005", "w": "周到", "r": "しゅうとう", "n": 1, "pos": "adj-na", "en": "careful, thorough, meticulous"}
+{"i": "x5006", "w": "充満", "r": "じゅうまん", "n": 1, "pos": "vs", "en": "being filled with, being full of, permeation"}
+{"i": "x5007", "w": "銃器", "r": "じゅうき", "n": 1, "pos": "n", "en": "small arms"}
+{"i": "x5008", "w": "祝福", "r": "しゅくふく", "n": 1, "pos": "vs", "en": "celebration (of a joyous occasion), blessing, giving one's blessing; blessing (from God)"}
+{"i": "x5009", "w": "だし", "r": "だし", "n": 1, "pos": "n", "en": "dashi, Japanese soup stock made from fish and kelp; pretext, excuse, pretense (pretence)"}
+{"i": "x5010", "w": "純益", "r": "じゅんえき", "n": 1, "pos": "n", "en": "clear profit, net income, net profit"}
+{"i": "x5011", "w": "巡礼", "r": "じゅんれい", "n": 1, "pos": "vs", "en": "pilgrimage, pilgrim"}
+{"i": "x5012", "w": "処女", "r": "しょじょ", "n": 1, "pos": "n", "en": "virgin (usu. female), maiden; virgin (e.g. forest), unspoiled by human activity; debut, maiden (e.g. voyage)"}
+{"i": "x5013", "w": "叙勲", "r": "じょくん", "n": 1, "pos": "vs", "en": "conferring of decorations"}
+{"i": "x5014", "w": "将来像", "r": "しょうらいぞう", "n": 1, "pos": "n", "en": "vision of the future"}
+{"i": "x5015", "w": "小雨", "r": "こさめ", "n": 1, "pos": "n", "en": "light rain, drizzle"}
+{"i": "x5016", "w": "照会", "r": "しょうかい", "n": 1, "pos": "vs", "en": "inquiry, query, enquiry; query (of a database)"}
+{"i": "x5017", "w": "省令", "r": "しょうれい", "n": 1, "pos": "n", "en": "ministerial ordinance"}
+{"i": "x5018", "w": "称号", "r": "しょうごう", "n": 1, "pos": "n", "en": "title, name, degree"}
+{"i": "x5019", "w": "上機嫌", "r": "じょうきげん", "n": 1, "pos": "adj-na", "en": "good humour (humor), good mood"}
+{"i": "x5020", "w": "譲り渡す", "r": "ゆずりわたす", "n": 1, "pos": "v5s", "en": "to hand over, to turn over, to cede"}
+{"i": "x5021", "w": "醸造", "r": "じょうぞう", "n": 1, "pos": "vs", "en": "brewing"}
+{"i": "x5022", "w": "職権", "r": "しょっけん", "n": 1, "pos": "n", "en": "one's (official) authority, ex-officio authority, power"}
+{"i": "x5023", "w": "色紙", "r": "しきし", "n": 1, "pos": "n", "en": "square fancy cardboard, used for autographs, poetry, etc."}
+{"i": "x5024", "w": "侵犯", "r": "しんぱん", "n": 1, "pos": "vs", "en": "violation (of foreign territory, rights, etc.), invasion, infringement"}
+{"i": "x5025", "w": "新刊", "r": "しんかん", "n": 1, "pos": "n", "en": "new book, new publication"}
+{"i": "x5026", "w": "新任", "r": "しんにん", "n": 1, "pos": "adj-no", "en": "newly appointed, inaugural"}
+{"i": "x5027", "w": "新風", "r": "しんぷう", "n": 1, "pos": "n", "en": "new style"}
+{"i": "x5028", "w": "浸水", "r": "しんすい", "n": 1, "pos": "vs", "en": "inundation, submersion, flood"}
+{"i": "x5029", "w": "真っ最中", "r": "まっさいちゅう", "n": 1, "pos": "n", "en": "right in the middle (of), midst, height"}
+{"i": "x5030", "w": "神道", "r": "しんとう", "n": 1, "pos": "n", "en": "Shinto, Shintoism"}
+{"i": "x5031", "w": "親分", "r": "おやぶん", "n": 1, "pos": "n", "en": "boss, leader, kingpin"}
+{"i": "x5032", "w": "人一倍", "r": "ひといちばい", "n": 1, "pos": "adv", "en": "(much) more than others, exceedingly, extremely"}
+{"i": "x5033", "w": "人骨", "r": "じんこつ", "n": 1, "pos": "n", "en": "human bones"}
+{"i": "x5034", "w": "人中", "r": "ひとなか", "n": 1, "pos": "n", "en": "society, company, the public"}
+{"i": "x5035", "w": "人民戦線", "r": "じんみんせんせん", "n": 1, "pos": "n", "en": "popular front"}
+{"i": "x5036", "w": "図面", "r": "ずめん", "n": 1, "pos": "n", "en": "drawing, diagram, plans"}
+{"i": "x5037", "w": "推奨", "r": "すいしょう", "n": 1, "pos": "vs", "en": "recommendation, endorsement"}
+{"i": "x5038", "w": "水産物", "r": "すいさんぶつ", "n": 1, "pos": "n", "en": "marine products"}
+{"i": "x5039", "w": "水力", "r": "すいりょく", "n": 1, "pos": "n", "en": "hydraulic power, water power"}
+{"i": "x5040", "w": "性向", "r": "せいこう", "n": 1, "pos": "n", "en": "inclination, tendency, nature"}
+{"i": "x5041", "w": "清涼", "r": "せいりょう", "n": 1, "pos": "adj-na", "en": "cool, refreshing"}
+{"i": "x5042", "w": "生中継", "r": "なまちゅうけい", "n": 1, "pos": "vs", "en": "live broadcast (radio, TV), live coverage"}
+{"i": "x5043", "w": "盛り上がり", "r": "もりあがり", "n": 1, "pos": "n", "en": "climax, uprush; bulge"}
+{"i": "x5044", "w": "精米", "r": "せいまい", "n": 1, "pos": "vs", "en": "rice polishing, polished rice"}
+{"i": "x5045", "w": "戦死", "r": "せんし", "n": 1, "pos": "vs", "en": "death in battle"}
+{"i": "x5046", "w": "戦勝", "r": "せんしょう", "n": 1, "pos": "vs", "en": "winning a war, victory"}
+{"i": "x5047", "w": "潜む", "r": "ひそむ", "n": 1, "pos": "v5m", "en": "to lurk, to be hidden, to be concealed"}
+{"i": "x5048", "w": "旋律", "r": "せんりつ", "n": 1, "pos": "n", "en": "melody, tune"}
+{"i": "x5049", "w": "鮮度", "r": "せんど", "n": 1, "pos": "n", "en": "(degree of) freshness"}
+{"i": "x5050", "w": "前記", "r": "ぜんき", "n": 1, "pos": "vs", "en": "aforesaid, above-mentioned, said"}
+{"i": "x5051", "w": "全体主義", "r": "ぜんたいしゅぎ", "n": 1, "pos": "n", "en": "totalitarianism"}
+{"i": "x5052", "w": "租税", "r": "そぜい", "n": 1, "pos": "n", "en": "taxes, taxation"}
+{"i": "x5053", "w": "相互銀行", "r": "そうごぎんこう", "n": 1, "pos": "n", "en": "mutual savings bank"}
+{"i": "x5054", "w": "送電", "r": "そうでん", "n": 1, "pos": "vs", "en": "transmission of electricity, electricity supply, power supply"}
+{"i": "x5055", "w": "贈与", "r": "ぞうよ", "n": 1, "pos": "vs", "en": "donation, presentation"}
+{"i": "x5056", "w": "体感", "r": "たいかん", "n": 1, "pos": "vs", "en": "bodily sensation, feeling in the body, physical feeling; coenesthesia, cenesthesia, coenesthesis"}
+{"i": "x5057", "w": "体長", "r": "たいちょう", "n": 1, "pos": "n", "en": "length (of an animal), body length"}
+{"i": "x5058", "w": "待ち受ける", "r": "まちうける", "n": 1, "pos": "v1", "en": "to await, to wait for, to expect"}
+{"i": "x5059", "w": "替え", "r": "かえ", "n": 1, "pos": "n", "en": "change, alteration; substitute, spare, replacement; rate of exchange"}
+{"i": "x5060", "w": "退官", "r": "たいかん", "n": 1, "pos": "vs", "en": "retirement from office"}
+{"i": "x5061", "w": "大砲", "r": "たいほう", "n": 1, "pos": "n", "en": "(large) gun, cannon, artillery; long-ball hitter, home-run hitter"}
+{"i": "x5062", "w": "置き場", "r": "おきば", "n": 1, "pos": "n", "en": "place to put something, storage space, storehouse"}
+{"i": "x5063", "w": "茶道", "r": "さどう", "n": 1, "pos": "n", "en": "tea ceremony, Way of Tea, sadō"}
+{"i": "x5064", "w": "中途半端", "r": "ちゅうとはんぱ", "n": 1, "pos": "adj-na", "en": "halfway, half measures, unfinished"}
+{"i": "x5065", "w": "昼前", "r": "ひるまえ", "n": 1, "pos": "n", "en": "morning, forenoon; just before noon"}
+{"i": "x5066", "w": "貯水", "r": "ちょすい", "n": 1, "pos": "vs", "en": "storage of water"}
+{"i": "x5067", "w": "懲罰", "r": "ちょうばつ", "n": 1, "pos": "vs", "en": "discipline, punishment, reprimand"}
+{"i": "x5068", "w": "直行", "r": "ちょっこう", "n": 1, "pos": "vs", "en": "going straight (to), going direct, going without stopping; unwavering action, decisive action; upright conduct"}
+{"i": "x5069", "w": "通院", "r": "つういん", "n": 1, "pos": "vs", "en": "going to the hospital regularly for treatment, attending hospital as an outpatient"}
+{"i": "x5070", "w": "通夜", "r": "つや", "n": 1, "pos": "n", "en": "all-night vigil over a body, wake"}
+{"i": "x5071", "w": "定刻", "r": "ていこく", "n": 1, "pos": "n", "en": "appointed time, timetable, schedule"}
+{"i": "x5072", "w": "庭木", "r": "にわき", "n": 1, "pos": "n", "en": "garden tree"}
+{"i": "x5073", "w": "伝送", "r": "でんそう", "n": 1, "pos": "vs", "en": "transmission, communication, circulation"}
+{"i": "x5074", "w": "伝道", "r": "でんどう", "n": 1, "pos": "vs", "en": "missionary work, proselytizing, preaching"}
+{"i": "x5075", "w": "塗り替える", "r": "ぬりかえる", "n": 1, "pos": "v1", "en": "to repaint, to paint again, to paint (a different colour); to change completely, to break (a record), to redraw (e.g. the map)"}
+{"i": "x5076", "w": "投じる", "r": "とうじる", "n": 1, "pos": "v1", "en": "to throw, to cast (e.g. vote, light, shadow); to devote oneself (e.g. to a cause); to invest, to put in"}
+{"i": "x5077", "w": "頭角", "r": "とうかく", "n": 1, "pos": "n", "en": "top of the head"}
+{"i": "x5078", "w": "働きかける", "r": "はたらきかける", "n": 1, "pos": "v1", "en": "to work on (someone), to appeal to, to make approaches to; to begin to work"}
+{"i": "x5079", "w": "同室", "r": "どうしつ", "n": 1, "pos": "n", "en": "same room; sharing a room, occupying the same room"}
+{"i": "x5080", "w": "同乗", "r": "どうじょう", "n": 1, "pos": "vs", "en": "riding together, riding with"}
+{"i": "x5081", "w": "胴体", "r": "どうたい", "n": 1, "pos": "n", "en": "trunk, torso, body; body (of an aircraft), fuselage, hull (of a ship)"}
+{"i": "x5082", "w": "特製", "r": "とくせい", "n": 1, "pos": "vs", "en": "special make, deluxe"}
+{"i": "x5083", "w": "特典", "r": "とくてん", "n": 1, "pos": "n", "en": "privilege, special favor, special favour"}
+{"i": "x5084", "w": "二宮", "r": "にぐう", "n": 1, "pos": "n", "en": "the Two Ise Shrines"}
+{"i": "x5085", "w": "日照", "r": "にっしょう", "n": 1, "pos": "n", "en": "sunlight"}
+{"i": "x5086", "w": "日没", "r": "にちぼつ", "n": 1, "pos": "n", "en": "sunset"}
+{"i": "x5087", "w": "如実", "r": "にょじつ", "n": 1, "pos": "n", "en": "reality, actuality, actual conditions; ultimate reality, absolute truth"}
+{"i": "x5088", "w": "粘土", "r": "ねんど", "n": 1, "pos": "n", "en": "clay"}
+{"i": "x5089", "w": "脳裏", "r": "のうり", "n": 1, "pos": "n", "en": "one's mind"}
+{"i": "x5090", "w": "破局", "r": "はきょく", "n": 1, "pos": "n", "en": "catastrophe, cataclysm; collapse (of a relationship), breakup, split (friends, lovers, etc.)"}
+{"i": "x5091", "w": "破滅", "r": "はめつ", "n": 1, "pos": "vs", "en": "ruin, destruction, fall"}
+{"i": "x5092", "w": "培養", "r": "ばいよう", "n": 1, "pos": "vs", "en": "culture, cultivation; cultivation (of plants), growing, raising; cultivation (e.g. of a skill), nurture (of democracy, national power, etc.), growth"}
+{"i": "x5093", "w": "賠償金", "r": "ばいしょうきん", "n": 1, "pos": "n", "en": "indemnities, reparations"}
+{"i": "x5094", "w": "柏木", "r": "かしわぎ", "n": 1, "pos": "n", "en": "oak tree; imperial palace guard"}
+{"i": "x5095", "w": "発電機", "r": "はつでんき", "n": 1, "pos": "n", "en": "dynamo, power generator"}
+{"i": "x5096", "w": "半減", "r": "はんげん", "n": 1, "pos": "vs", "en": "reduction by half, halving"}
+{"i": "x5097", "w": "比", "r": "ひ", "n": 1, "pos": "n", "en": "ratio, proportion; match, equal, equivalent; compared with ..., relative to ..."}
+{"i": "x5098", "w": "皮革", "r": "ひかく", "n": 1, "pos": "n", "en": "leather, hide"}
+{"i": "x5099", "w": "氷河", "r": "ひょうが", "n": 1, "pos": "n", "en": "glacier"}
+{"i": "x5100", "w": "表裏", "r": "ひょうり", "n": 1, "pos": "n", "en": "front and back, inside and outside, two sides; duplicity, double-dealing, being two-faced"}
+{"i": "x5101", "w": "表立って", "r": "おもてだって", "n": 1, "pos": "exp", "en": "publicly, openly, ostensibly"}
+{"i": "x5102", "w": "表立つ", "r": "おもてだつ", "n": 1, "pos": "v5t", "en": "to become public, to become known, to come out in the open; to be formal, to be official"}
+{"i": "x5103", "w": "品格", "r": "ひんかく", "n": 1, "pos": "n", "en": "dignity, quality, grace"}
+{"i": "x5104", "w": "不渡り", "r": "ふわたり", "n": 1, "pos": "n", "en": "dishonouring (a bill), dishonoring, bouncing (a cheque, check)"}
+{"i": "x5105", "w": "不変", "r": "ふへん", "n": 1, "pos": "adj-na", "en": "eternal, everlasting, unchangeable; invariant"}
+{"i": "x5106", "w": "不愉快", "r": "ふゆかい", "n": 1, "pos": "adj-na", "en": "unpleasant, disagreeable, displeasing"}
+{"i": "x5107", "w": "風向き", "r": "かざむき", "n": 1, "pos": "n", "en": "wind direction; situation, way things are going; mood, temper"}
+{"i": "x5108", "w": "風通し", "r": "かぜとおし", "n": 1, "pos": "n", "en": "ventilation; communication (within an organisation), openness"}
+{"i": "x5109", "w": "腹痛", "r": "ふくつう", "n": 1, "pos": "n", "en": "stomach ache, abdominal pain"}
+{"i": "x5110", "w": "複製", "r": "ふくせい", "n": 1, "pos": "vs", "en": "reproduction, duplication, reprinting"}
+{"i": "x5111", "w": "複利", "r": "ふくり", "n": 1, "pos": "n", "en": "compound interest"}
+{"i": "x5112", "w": "分岐点", "r": "ぶんきてん", "n": 1, "pos": "n", "en": "fork, junction, diverging point; turning point (e.g. in one's life), crossroads"}
+{"i": "x5113", "w": "分立", "r": "ぶんりつ", "n": 1, "pos": "vs", "en": "segregation, separation, independence"}
+{"i": "x5114", "w": "変容", "r": "へんよう", "n": 1, "pos": "vs", "en": "change in appearance, transformation"}
+{"i": "x5115", "w": "編", "r": "へん", "n": 1, "pos": "n", "en": "compilation (of a text), editing; volume (of a text); completed literary work"}
+{"i": "x5116", "w": "編入", "r": "へんにゅう", "n": 1, "pos": "vs", "en": "admission, incorporation, enlistment"}
+{"i": "x5117", "w": "弁明", "r": "べんめい", "n": 1, "pos": "vs", "en": "explanation, excuse, clarification"}
+{"i": "x5118", "w": "放課後", "r": "ほうかご", "n": 1, "pos": "n", "en": "after school (at the end of the day)"}
+{"i": "x5119", "w": "放水", "r": "ほうすい", "n": 1, "pos": "vs", "en": "discharge of water (from a river, dam, etc.), drainage; spraying water (on), hosing"}
+{"i": "x5120", "w": "法王", "r": "ほうおう", "n": 1, "pos": "n", "en": "Pope; Buddha"}
+{"i": "x5121", "w": "防空", "r": "ぼうくう", "n": 1, "pos": "n", "en": "air defense, air defence"}
+{"i": "x5122", "w": "没頭", "r": "ぼっとう", "n": 1, "pos": "vs", "en": "immersing oneself in, being absorbed in, devoting oneself to"}
+{"i": "x5123", "w": "本領", "r": "ほんりょう", "n": 1, "pos": "n", "en": "characteristic quality, special character, one's real ability; one's function, one's duty; fief, inherited estate"}
+{"i": "x5124", "w": "満席", "r": "まんせき", "n": 1, "pos": "n", "en": "full house, all seats occupied, fully occupied"}
+{"i": "x5125", "w": "味付け", "r": "あじつけ", "n": 1, "pos": "vs", "en": "seasoning, flavour, flavor"}
+{"i": "x5126", "w": "密航", "r": "みっこう", "n": 1, "pos": "vs", "en": "stowing away, smuggling oneself, clandestine travel abroad"}
+{"i": "x5127", "w": "密猟", "r": "みつりょう", "n": 1, "pos": "vs", "en": "poaching"}
+{"i": "x5128", "w": "無制限", "r": "むせいげん", "n": 1, "pos": "adj-na", "en": "unlimited, unrestricted, limitless"}
+{"i": "x5129", "w": "戻り", "r": "もどり", "n": 1, "pos": "n", "en": "return, reaction, recovery; return (from a procedure)"}
+{"i": "x5130", "w": "野放し", "r": "のばなし", "n": 1, "pos": "n", "en": "pasturing (e.g. cattle), letting (an animal) run loose; letting (someone) do as they please, leaving (something) to take its own course, letting (an issue) go u"}
+{"i": "x5131", "w": "役柄", "r": "やくがら", "n": 1, "pos": "n", "en": "role, duty, position"}
+{"i": "x5132", "w": "薬価", "r": "やっか", "n": 1, "pos": "n", "en": "drug price, cost of medicine"}
+{"i": "x5133", "w": "有用", "r": "ゆうよう", "n": 1, "pos": "adj-na", "en": "useful, helpful"}
+{"i": "x5134", "w": "遊撃手", "r": "ゆうげきしゅ", "n": 1, "pos": "n", "en": "shortstop, short"}
+{"i": "x5135", "w": "融合", "r": "ゆうごう", "n": 1, "pos": "vs", "en": "agglutination, adhesion, fusion"}
+{"i": "x5136", "w": "預かり", "r": "あずかり", "n": 1, "pos": "n", "en": "safekeeping, temporary custody, keeping in one's care; claim check, deposit receipt; matter left undecided, unresolved issue, deferring (a matter)"}
+{"i": "x5137", "w": "妖怪", "r": "ようかい", "n": 1, "pos": "n", "en": "ghost, apparition, phantom"}
+{"i": "x5138", "w": "揚げ", "r": "あげ", "n": 1, "pos": "n", "en": "deep-frying, deep-fried food; abura-age, thin deep-fried slices of tofu"}
+{"i": "x5139", "w": "窯", "r": "かま", "n": 1, "pos": "n", "en": "stove, furnace, kiln"}
+{"i": "x5140", "w": "養父", "r": "ようふ", "n": 1, "pos": "n", "en": "foster father, adoptive father"}
+{"i": "x5141", "w": "来賓", "r": "らいひん", "n": 1, "pos": "n", "en": "guest, visitor, visitor's arrival"}
+{"i": "x5142", "w": "落とし穴", "r": "おとしあな", "n": 1, "pos": "n", "en": "pitfall, trap, pit"}
+{"i": "x5143", "w": "理工学部", "r": "りこうがくぶ", "n": 1, "pos": "n", "en": "faculty of science and engineering, college of science and engineering, school of science and engineering"}
+{"i": "x5144", "w": "裏面", "r": "うらめん", "n": 1, "pos": "n", "en": "back (side), reverse; B side (of a record); secret levels, hidden levels, post-game content"}
+{"i": "x5145", "w": "力作", "r": "りきさく", "n": 1, "pos": "n", "en": "painstaking piece of work, work of great effort, tour de force; toil, labor, labour"}
+{"i": "x5146", "w": "隣家", "r": "りんか", "n": 1, "pos": "n", "en": "neighbouring house, neighboring house"}
+{"i": "x5147", "w": "霊園", "r": "れいえん", "n": 1, "pos": "n", "en": "(garden) cemetery, park-style cemetery, memorial park"}
+{"i": "x5148", "w": "劣勢", "r": "れっせい", "n": 1, "pos": "n", "en": "inferiority (e.g. numerical), inferior position, disadvantage"}
+{"i": "x5149", "w": "露店", "r": "ろてん", "n": 1, "pos": "n", "en": "street stall, stand, booth"}
+{"i": "x5150", "w": "狼", "r": "おおかみ", "n": 1, "pos": "n", "en": "wolf (Canis lupus); wolf in sheep's clothing, womanizer"}
+{"i": "x5151", "w": "論客", "r": "ろんきゃく", "n": 1, "pos": "n", "en": "controversialist, polemic, disputant"}
+{"i": "x5152", "w": "和室", "r": "わしつ", "n": 1, "pos": "n", "en": "Japanese-style room"}
+{"i": "x5153", "w": "和食", "r": "わしょく", "n": 1, "pos": "n", "en": "Japanese food, Japanese dish, Japanese cuisine"}
+{"i": "x5154", "w": "下半期", "r": "しもはんき", "n": 1, "pos": "n", "en": "second half of the year, second half of the fiscal year"}
+{"i": "x5155", "w": "古文書", "r": "こもんじょ", "n": 1, "pos": "n", "en": "historical document, archives, old manuscript; pre-Meiji era document addressed to someone in particular"}
+{"i": "x5156", "w": "古本", "r": "ふるほん", "n": 1, "pos": "n", "en": "secondhand book; ancient book, antiquarian books"}
+{"i": "x5157", "w": "黒煙", "r": "こくえん", "n": 1, "pos": "n", "en": "black smoke"}
+{"i": "x5158", "w": "出所", "r": "しゅっしょ", "n": 1, "pos": "n", "en": "source, origin, provenance; birthplace; release from prison, discharge from prison"}
+{"i": "x5159", "w": "注ぎ込む", "r": "そそぎこむ", "n": 1, "pos": "v5m", "en": "to pour in (liquids); to pour in (money), to pump in (investment)"}
+{"i": "x5160", "w": "つぎ込む", "r": "つぎこむ", "n": 1, "pos": "v5m", "en": "to invest in, to sink money into, to put into"}
+{"i": "x5161", "w": "乳房", "r": "ちぶさ", "n": 1, "pos": "n", "en": "breast, udder"}
+{"i": "x5162", "w": "風穴", "r": "かざあな", "n": 1, "pos": "n", "en": "air hole, windhole, air vent; deep cave from which cold wind blows"}
+{"i": "x5163", "w": "別名", "r": "べつめい", "n": 1, "pos": "n", "en": "another name, different name, synonym; alias, pseudonym, pen name"}
+{"i": "x5164", "w": "揺る", "r": "ゆる", "n": 1, "pos": "v5r", "en": "to shake, to jolt, to rock (cradle)"}
+{"i": "x5165", "w": "来客", "r": "らいきゃく", "n": 1, "pos": "n", "en": "visitor, caller"}
+{"i": "x5166", "w": "足がかり", "r": "あしがかり", "n": 1, "pos": "n", "en": "foothold, footing, toehold"}
+{"i": "x5167", "w": "賭け", "r": "かけ", "n": 1, "pos": "n", "en": "bet, wager, stake"}
+{"i": "x5168", "w": "木々", "r": "きぎ", "n": 1, "pos": "n", "en": "(many) trees, every tree, all kinds of trees"}
+{"i": "x5169", "w": "凶器", "r": "きょうき", "n": 1, "pos": "n", "en": "dangerous weapon, lethal weapon, deadly weapon"}
+{"i": "x5170", "w": "切れ味", "r": "きれあじ", "n": 1, "pos": "n", "en": "sharpness, cutting ability; quickness (of wit), incisiveness, technical proficiency; peppiness (of a ball)"}
+{"i": "x5171", "w": "疑似", "r": "ぎじ", "n": 1, "pos": "adj-pn", "en": "pseudo, quasi, false; suspected (case, e.g. of disease)"}
+{"i": "x5172", "w": "先駆け", "r": "さきがけ", "n": 1, "pos": "vs", "en": "pioneer, leader, taking the initiative; leading an attack, charging ahead of others (towards the enemy)"}
+{"i": "x5173", "w": "史跡", "r": "しせき", "n": 1, "pos": "n", "en": "historic landmark, historic site, historic remains"}
+{"i": "x5174", "w": "付き添い", "r": "つきそい", "n": 1, "pos": "n", "en": "attendance (on), chaperonage; attendant, escort, entourage"}
+{"i": "x5175", "w": "山々", "r": "やまやま", "n": 1, "pos": "n", "en": "(many) mountains; very much (wanting to do something one cannot), greatly, really; so many, a lot of"}
+{"i": "x5176", "w": "町中", "r": "まちなか", "n": 1, "pos": "n", "en": "downtown"}
+{"i": "x5177", "w": "引き取り", "r": "ひきとり", "n": 1, "pos": "n", "en": "taking, accepting, receipt; leaving, departure, withdrawal"}
+{"i": "x5178", "w": "横断幕", "r": "おうだんまく", "n": 1, "pos": "n", "en": "horizontal banner"}
+{"i": "x5179", "w": "稼働率", "r": "かどうりつ", "n": 1, "pos": "n", "en": "operating rate, utilization rate, occupancy rate"}
+{"i": "x5180", "w": "会計検査院", "r": "かいけいけんさいん", "n": 1, "pos": "n", "en": "Board of Audit"}
+{"i": "x5181", "w": "管財", "r": "かんざい", "n": 1, "pos": "n", "en": "administration of property, custodianship, receivership"}
+{"i": "x5182", "w": "企画室", "r": "きかくしつ", "n": 1, "pos": "n", "en": "planning office"}
+{"i": "x5183", "w": "喜ばしい", "r": "よろこばしい", "n": 1, "pos": "adj-i", "en": "joyful (news, event, etc.), joyous, delightful (e.g. result)"}
+{"i": "x5184", "w": "部局", "r": "ぶきょく", "n": 1, "pos": "n", "en": "department, bureau, section"}
+{"i": "x5185", "w": "毒ガス", "r": "どくガス", "n": 1, "pos": "n", "en": "poison gas"}
+{"i": "x5186", "w": "青柳", "r": "あおやぎ", "n": 1, "pos": "n", "en": "green willow (i.e. one that has budded); meat of the trough shell (Mactra chinensis)"}
+{"i": "x5187", "w": "金石", "r": "きんせき", "n": 1, "pos": "n", "en": "minerals and rocks, metal and stone utensils; epigraph"}
+{"i": "x5188", "w": "金屏風", "r": "きんびょうぶ", "n": 1, "pos": "n", "en": "folding screen covered with gold leaf"}
+{"i": "x5189", "w": "県外", "r": "けんがい", "n": 1, "pos": "n", "en": "outside the prefecture"}
+{"i": "x5190", "w": "戸別訪問", "r": "こべつほうもん", "n": 1, "pos": "vs", "en": "door-to-door visit, door-to-door canvassing (canvasing)"}
+{"i": "x5191", "w": "好天", "r": "こうてん", "n": 1, "pos": "n", "en": "fine weather"}
+{"i": "x5192", "w": "工作員", "r": "こうさくいん", "n": 1, "pos": "n", "en": "spy, agent provocateur, covert operative; maker, builder, constructor"}
+{"i": "x5193", "w": "抗告", "r": "こうこく", "n": 1, "pos": "vs", "en": "appeal, protest, complaint"}
+{"i": "x5194", "w": "実技", "r": "じつぎ", "n": 1, "pos": "n", "en": "practical skill"}
+{"i": "x5195", "w": "貸金", "r": "かしきん", "n": 1, "pos": "n", "en": "loan, advance"}
+{"i": "x5196", "w": "高炉", "r": "こうろ", "n": 1, "pos": "n", "en": "blast furnace"}
+{"i": "x5197", "w": "生理学", "r": "せいりがく", "n": 1, "pos": "n", "en": "physiology"}
+{"i": "x5198", "w": "梁", "r": "はり", "n": 1, "pos": "n", "en": "beam, joist"}
+{"i": "x5199", "w": "署長", "r": "しょちょう", "n": 1, "pos": "n", "en": "chief (of police), head (of office)"}
+{"i": "x5200", "w": "高学年", "r": "こうがくねん", "n": 1, "pos": "n", "en": "upper grades of primary school (sixth, fifth, and sometimes fourth grades)"}
+{"i": "x5201", "w": "合繊", "r": "ごうせん", "n": 1, "pos": "n", "en": "synthetic fiber, synthetic fibre"}
+{"i": "x5202", "w": "国分寺", "r": "こくぶんじ", "n": 1, "pos": "n", "en": "state-supported provincial temple (Nara period)"}
+{"i": "x5203", "w": "三種", "r": "さんしゅ", "n": 1, "pos": "n", "en": "three kinds, three varieties"}
+{"i": "x5204", "w": "私案", "r": "しあん", "n": 1, "pos": "n", "en": "private plan, one's own plan"}
+{"i": "x5205", "w": "持ち帰る", "r": "もちかえる", "n": 1, "pos": "v5r", "en": "to take home, to carry home, to bring back home"}
+{"i": "x5206", "w": "持ち出し", "r": "もちだし", "n": 1, "pos": "n", "en": "taking something out, carrying out; providing money oneself, paying with one's own money; corbel"}
+{"i": "x5207", "w": "自由経済", "r": "じゆうけいざい", "n": 1, "pos": "n", "en": "free economy"}
+{"i": "x5208", "w": "社会教育", "r": "しゃかいきょういく", "n": 1, "pos": "n", "en": "social education"}
+{"i": "x5209", "w": "取り口", "r": "とりくち", "n": 1, "pos": "n", "en": "technique, techniques"}
+{"i": "x5210", "w": "修士課程", "r": "しゅうしかてい", "n": 1, "pos": "n", "en": "master's course"}
+{"i": "x5211", "w": "週内", "r": "しゅうない", "n": 1, "pos": "n", "en": "by the end of this week, within the week"}
+{"i": "x5212", "w": "集票", "r": "しゅうひょう", "n": 1, "pos": "vs", "en": "gathering votes, garnering votes, pulling in votes; ballot collection, vote-counting"}
+{"i": "x5213", "w": "底辺", "r": "ていへん", "n": 1, "pos": "n", "en": "base (of a polygon); bottom (of the social scale), lower levels, lower classes; base (e.g. of support), foundation, basis"}
+{"i": "x5214", "w": "生みの親", "r": "うみのおや", "n": 1, "pos": "exp", "en": "biological parent; founder, creator"}
+{"i": "x5215", "w": "洋上", "r": "ようじょう", "n": 1, "pos": "n", "en": "on the sea, on the ocean, offshore"}
+{"i": "x5216", "w": "帰休", "r": "ききゅう", "n": 1, "pos": "vs", "en": "leave, furlough; temporary layoff"}
+{"i": "x5217", "w": "無量", "r": "むりょう", "n": 1, "pos": "adj-no", "en": "immeasurable, infinite, inestimable"}
+{"i": "x5218", "w": "発案", "r": "はつあん", "n": 1, "pos": "vs", "en": "suggestion, proposition, proposal; submission (of a bill), motion, proposal"}
+{"i": "x5219", "w": "逆手", "r": "さかて", "n": 1, "pos": "n", "en": "underhand grip (e.g. in gymnastics, etc.); cross-handed grip (e.g. in golf, etc.), using one's hands backwards from their conventional positioning; reverse grip"}
+{"i": "x5220", "w": "書記官", "r": "しょきかん", "n": 1, "pos": "n", "en": "secretary"}
+{"i": "x5221", "w": "専守防衛", "r": "せんしゅぼうえい", "n": 1, "pos": "n", "en": "nonaggressive defense (policy) (defence)"}
+{"i": "x5222", "w": "方法論", "r": "ほうほうろん", "n": 1, "pos": "n", "en": "methodology"}
+{"i": "x5223", "w": "訪欧", "r": "ほうおう", "n": 1, "pos": "vs", "en": "visit to Europe, visiting Europe"}
+{"i": "x5224", "w": "拡大均衡", "r": "かくだいきんこう", "n": 1, "pos": "n", "en": "an expanded or expanding equilibrium"}
+{"i": "x5225", "w": "新生児", "r": "しんせいじ", "n": 1, "pos": "n", "en": "newborn baby"}
+{"i": "x5226", "w": "絶対的", "r": "ぜったいてき", "n": 1, "pos": "adj-na", "en": "absolute"}
+{"i": "x5227", "w": "微動", "r": "びどう", "n": 1, "pos": "vs", "en": "slight movement, slight tremor, quiver"}
+{"i": "x5228", "w": "門前", "r": "もんぜん", "n": 1, "pos": "n", "en": "before the gate, in front of the gate"}
+{"i": "x5229", "w": "一人っ子", "r": "ひとりっこ", "n": 1, "pos": "n", "en": "(an) only child"}
+{"i": "x5230", "w": "水系", "r": "すいけい", "n": 1, "pos": "n", "en": "water system, river system, drainage system"}
+{"i": "x5231", "w": "水量", "r": "すいりょう", "n": 1, "pos": "n", "en": "quantity or volume of water"}
+{"i": "x5232", "w": "情報化社会", "r": "じょうほうかしゃかい", "n": 1, "pos": "n", "en": "information society"}
+{"i": "x5233", "w": "民間放送", "r": "みんかんほうそう", "n": 1, "pos": "n", "en": "commercial broadcasting"}
+{"i": "x5234", "w": "持ち帰り", "r": "もちかえり", "n": 1, "pos": "n", "en": "takeout (food), take-out, takeaway"}
+{"i": "x5235", "w": "場外", "r": "じょうがい", "n": 1, "pos": "n", "en": "outside the hall (or stadium, market, etc.), off the grounds, off the premises"}
+{"i": "x5236", "w": "連名", "r": "れんめい", "n": 1, "pos": "n", "en": "joint signature"}
+{"i": "x5237", "w": "鳥獣", "r": "ちょうじゅう", "n": 1, "pos": "n", "en": "birds and wild animals, wildlife"}
+{"i": "x5238", "w": "初年", "r": "しょねん", "n": 1, "pos": "n", "en": "first year, early years (of a reign or era)"}
+{"i": "x5239", "w": "聞き書き", "r": "ききがき", "n": 1, "pos": "vs", "en": "writing down what one hears, account of what one hears"}
+{"i": "x5240", "w": "陸海", "r": "りくかい", "n": 1, "pos": "n", "en": "land and sea; army and navy"}
+{"i": "x5241", "w": "振り付け", "r": "ふりつけ", "n": 1, "pos": "vs", "en": "choreography, dance composition, dance coaching"}
+{"i": "x5242", "w": "追い上げる", "r": "おいあげる", "n": 1, "pos": "v1", "en": "to gain on, to put pressure on, to close in on"}
+{"i": "x5243", "w": "体勢", "r": "たいせい", "n": 1, "pos": "n", "en": "posture, position, stance"}
+{"i": "x5244", "w": "装い", "r": "よそおい", "n": 1, "pos": "n", "en": "dress, outfit, equipment"}
+{"i": "x5245", "w": "飛車", "r": "ひしゃ", "n": 1, "pos": "n", "en": "rook, hisha"}
+{"i": "x5246", "w": "引き伸ばし", "r": "ひきのばし", "n": 1, "pos": "n", "en": "extension, prolongation; enlargement (e.g. of a photograph)"}
+{"i": "x5247", "w": "年商", "r": "ねんしょう", "n": 1, "pos": "n", "en": "yearly (annual) turnover"}
+{"i": "x5248", "w": "笹", "r": "ささ", "n": 1, "pos": "n", "en": "bamboo grass, generally smaller species of running bamboo that do not shed their sheaths (e.g. Sasa spp.)"}
+{"i": "x5249", "w": "村議会", "r": "そんぎかい", "n": 1, "pos": "n", "en": "village assembly"}
+{"i": "x5250", "w": "働かせる", "r": "はたらかせる", "n": 1, "pos": "v1", "en": "to put someone to work, to make someone work; to use, to apply, to exert"}
+{"i": "x5251", "w": "高麗", "r": "こうらい", "n": 1, "pos": "n", "en": "Goryeo (dynasty of Korea; 918-1392 CE), Koryŏ; Korea"}
+{"i": "x5252", "w": "検視", "r": "けんし", "n": 1, "pos": "vs", "en": "examination of a body to determine if a crime has been committed; investigation (e.g. of a crime scene)"}
+{"i": "x5253", "w": "握らす", "r": "にぎらす", "n": 1, "pos": "v5s", "en": "to let (someone) take hold of your hand"}
+{"i": "x5254", "w": "暗雲", "r": "あんうん", "n": 1, "pos": "n", "en": "dark clouds; threatening signs, ominous indications"}
+{"i": "x5255", "w": "威勢", "r": "いせい", "n": 1, "pos": "n", "en": "power, might, authority; spirits, vigor, vigour"}
+{"i": "x5256", "w": "慰霊祭", "r": "いれいさい", "n": 1, "pos": "n", "en": "memorial service"}
+{"i": "x5257", "w": "異状", "r": "いじょう", "n": 1, "pos": "n", "en": "something wrong, something unusual, abnormality"}
+{"i": "x5258", "w": "遺構", "r": "いこう", "n": 1, "pos": "n", "en": "(archaeological) remains, remnants (of ancient structures), ancient foundation"}
+{"i": "x5259", "w": "一回り", "r": "ひとまわり", "n": 1, "pos": "vs", "en": "one round, one turn, a circuit (of); one size (larger or smaller); one cycle of the twelve years of the Chinese zodiac"}
+{"i": "x5260", "w": "一義", "r": "いちぎ", "n": 1, "pos": "n", "en": "one meaning; primary importance, primary significance, primary consideration; a reason, a truth"}
+{"i": "x5261", "w": "一酸化炭素", "r": "いっさんかたんそ", "n": 1, "pos": "n", "en": "carbon monoxide"}
+{"i": "x5262", "w": "一品", "r": "いっぴん", "n": 1, "pos": "n", "en": "item, article; dish, course; finest item"}
+{"i": "x5263", "w": "延滞", "r": "えんたい", "n": 1, "pos": "vs", "en": "arrears, (being) overdue, delay (e.g. in payment)"}
+{"i": "x5264", "w": "縁起", "r": "えんぎ", "n": 1, "pos": "n", "en": "omen, sign of luck; origin, history, causation; dependent arising, doctrine that everything has a cause and there is nothing that arises out of nothing"}
+{"i": "x5265", "w": "荻", "r": "おぎ", "n": 1, "pos": "n", "en": "Amur silvergrass (Miscanthus sacchariflorus)"}
+{"i": "x5266", "w": "下級", "r": "かきゅう", "n": 1, "pos": "n", "en": "lower grade, low class, junior (officer)"}
+{"i": "x5267", "w": "家計簿", "r": "かけいぼ", "n": 1, "pos": "n", "en": "household account book"}
+{"i": "x5268", "w": "家庭科", "r": "かていか", "n": 1, "pos": "n", "en": "home economics"}
+{"i": "x5269", "w": "花道", "r": "はなみち", "n": 1, "pos": "n", "en": "elevated walkway through the audience to the stage; honourable end to a career"}
+{"i": "x5270", "w": "課員", "r": "かいん", "n": 1, "pos": "n", "en": "section staff"}
+{"i": "x5271", "w": "回忌", "r": "かいき", "n": 1, "pos": "suf", "en": "death anniversary, anniversary of a person's death"}
+{"i": "x5272", "w": "回廊", "r": "かいろう", "n": 1, "pos": "n", "en": "corridor, gallery, hallway"}
+{"i": "x5273", "w": "快感", "r": "かいかん", "n": 1, "pos": "n", "en": "pleasant feeling, pleasant sensation, pleasure"}
+{"i": "x5274", "w": "怪談", "r": "かいだん", "n": 1, "pos": "n", "en": "ghost story, tale of the supernatural"}
+{"i": "x5275", "w": "怪物", "r": "かいぶつ", "n": 1, "pos": "n", "en": "monster"}
+{"i": "x5276", "w": "改組", "r": "かいそ", "n": 1, "pos": "vs", "en": "reorganization, reorganisation, reshuffle"}
+{"i": "x5277", "w": "海水浴場", "r": "かいすいよくじょう", "n": 1, "pos": "n", "en": "swimming area (in the ocean), swimming beach, seawater baths"}
+{"i": "x5278", "w": "開口", "r": "かいこう", "n": 1, "pos": "vs", "en": "opening, aperture (e.g. camera); opening one's mouth, beginning to speak; open, broad"}
+{"i": "x5279", "w": "外れ", "r": "はずれ", "n": 1, "pos": "n", "en": "end, verge, extremity; miss, failure, blank (e.g. lottery ticket)"}
+{"i": "x5280", "w": "外車", "r": "がいしゃ", "n": 1, "pos": "n", "en": "foreign car, imported car; paddle wheel"}
+{"i": "x5281", "w": "害虫", "r": "がいちゅう", "n": 1, "pos": "n", "en": "harmful insect, noxious insect, pest"}
+{"i": "x5282", "w": "格子", "r": "こうし", "n": 1, "pos": "n", "en": "lattice, latticework, window bars; lattice door; check(ed) pattern, plaid"}
+{"i": "x5283", "w": "核酸", "r": "かくさん", "n": 1, "pos": "n", "en": "nucleic acid"}
+{"i": "x5284", "w": "核融合", "r": "かくゆうごう", "n": 1, "pos": "n", "en": "nuclear fusion"}
+{"i": "x5285", "w": "楽曲", "r": "がっきょく", "n": 1, "pos": "n", "en": "musical composition, tune"}
+{"i": "x5286", "w": "楽団", "r": "がくだん", "n": 1, "pos": "n", "en": "orchestra, band"}
+{"i": "x5287", "w": "割り出す", "r": "わりだす", "n": 1, "pos": "v5s", "en": "to calculate, to compute; to deduce, to infer, to conclude"}
+{"i": "x5288", "w": "褐色", "r": "かっしょく", "n": 1, "pos": "n", "en": "dark brown, colour of tanned skin"}
+{"i": "x5289", "w": "感じ取る", "r": "かんじとる", "n": 1, "pos": "v5r", "en": "to perceive, to sense, to take in"}
+{"i": "x5290", "w": "換金", "r": "かんきん", "n": 1, "pos": "vs", "en": "realization (of goods into money), conversion (into money), liquidation"}
+{"i": "x5291", "w": "敢闘", "r": "かんとう", "n": 1, "pos": "vs", "en": "fighting bravely"}
+{"i": "x5292", "w": "歓喜", "r": "かんき", "n": 1, "pos": "vs", "en": "delight, great joy"}
+{"i": "x5293", "w": "頑な", "r": "かたくな", "n": 1, "pos": "adj-na", "en": "obstinate, stubborn, mulish"}
+{"i": "x5294", "w": "岐路", "r": "きろ", "n": 1, "pos": "n", "en": "forked road, crossroads"}
+{"i": "x5295", "w": "気球", "r": "ききゅう", "n": 1, "pos": "n", "en": "balloon (hot-air, weather, etc.), blimp"}
+{"i": "x5296", "w": "偽証", "r": "ぎしょう", "n": 1, "pos": "vs", "en": "false evidence, perjury, false testimony"}
+{"i": "x5297", "w": "義務教育", "r": "ぎむきょういく", "n": 1, "pos": "n", "en": "compulsory education"}
+{"i": "x5298", "w": "議事", "r": "ぎじ", "n": 1, "pos": "n", "en": "proceedings (e.g. parliament, congress), business (of the day)"}
+{"i": "x5299", "w": "逆輸入", "r": "ぎゃくゆにゅう", "n": 1, "pos": "vs", "en": "reimportation, reimport, reverse import; (cultural, etc.) reverse import (e.g. California rolls being introduced in Japan)"}
+{"i": "x5300", "w": "休まる", "r": "やすまる", "n": 1, "pos": "v5r", "en": "to be rested, to feel at ease, to repose"}
+{"i": "x5301", "w": "吸い込む", "r": "すいこむ", "n": 1, "pos": "v5m", "en": "to inhale, to breathe in, to suck up; to swallow up (in a crowd, whirlpool, the darkness, etc.), to suck in"}
+{"i": "x5302", "w": "球技", "r": "きゅうぎ", "n": 1, "pos": "n", "en": "ball game (e.g. baseball, tennis, soccer); billiards"}
+{"i": "x5303", "w": "去就", "r": "きょしゅう", "n": 1, "pos": "n", "en": "leaving or staying; (one's) course of action, (one's) position, (one's) attitude"}
+{"i": "x5304", "w": "挙式", "r": "きょしき", "n": 1, "pos": "vs", "en": "holding a ceremony, wedding ceremony"}
+{"i": "x5305", "w": "虚構", "r": "きょこう", "n": 1, "pos": "vs", "en": "fiction, fabrication, concoction"}
+{"i": "x5306", "w": "魚類", "r": "ぎょるい", "n": 1, "pos": "n", "en": "fish, fishes"}
+{"i": "x5307", "w": "強敵", "r": "きょうてき", "n": 1, "pos": "n", "en": "formidable enemy, strong enemy, tough enemy"}
+{"i": "x5308", "w": "教祖", "r": "きょうそ", "n": 1, "pos": "n", "en": "founder of a religious sect"}
+{"i": "x5309", "w": "筋書き", "r": "すじがき", "n": 1, "pos": "n", "en": "synopsis, plot, outline; plan, scheme, program"}
+{"i": "x5310", "w": "苦言", "r": "くげん", "n": 1, "pos": "n", "en": "candid advice, frank advice, honest opinion"}
+{"i": "x5311", "w": "空手", "r": "からて", "n": 1, "pos": "n", "en": "karate; being empty-handed, having nothing in one's hands"}
+{"i": "x5312", "w": "桑", "r": "くわ", "n": 1, "pos": "n", "en": "mulberry (tree)"}
+{"i": "x5313", "w": "群像", "r": "ぐんぞう", "n": 1, "pos": "n", "en": "lively group (esp. of young people), dynamic bunch; group"}
+{"i": "x5314", "w": "軍拡", "r": "ぐんかく", "n": 1, "pos": "n", "en": "military expansion, arms buildup"}
+{"i": "x5315", "w": "計上", "r": "けいじょう", "n": 1, "pos": "vs", "en": "including (a cost) in a total calculation, appropriating (a sum of money), recording"}
+{"i": "x5316", "w": "月経", "r": "げっけい", "n": 1, "pos": "n", "en": "menstruation, menstrual period"}
+{"i": "x5317", "w": "兼務", "r": "けんむ", "n": 1, "pos": "vs", "en": "serving concurrently as, concurrently holding the position of, holding the additional post of; additional post"}
+{"i": "x5318", "w": "見切り", "r": "みきり", "n": 1, "pos": "n", "en": "abandonment, giving up, forsaking; bargain sale, selling off cheaply; edge (e.g. of an architectural member), boundary"}
+{"i": "x5319", "w": "険悪", "r": "けんあく", "n": 1, "pos": "adj-na", "en": "dangerous, perilous, threatening; stern (expression), hostile (attitude), sharp"}
+{"i": "x5320", "w": "原本", "r": "げんぽん", "n": 1, "pos": "n", "en": "original (document, copy, work, text, etc.); root, origin, source"}
+{"i": "x5321", "w": "原野", "r": "げんや", "n": 1, "pos": "n", "en": "waste land, wilderness, moor"}
+{"i": "x5322", "w": "古着", "r": "ふるぎ", "n": 1, "pos": "n", "en": "old clothes, secondhand clothing"}
+{"i": "x5323", "w": "湖沼", "r": "こしょう", "n": 1, "pos": "n", "en": "lake, marsh, wetland"}
+{"i": "x5324", "w": "後押し", "r": "あとおし", "n": 1, "pos": "vs", "en": "pushing, support, backing; pushing from behind (a cart, etc.), pusher"}
+{"i": "x5325", "w": "後始末", "r": "あとしまつ", "n": 1, "pos": "vs", "en": "settlement (of a matter), sorting out, winding up (affairs); cleaning up afterwards, tidying up (when finished)"}
+{"i": "x5326", "w": "交友", "r": "こうゆう", "n": 1, "pos": "n", "en": "friend, companion, acquaintance; friendship, companionship"}
+{"i": "x5327", "w": "光明", "r": "こうみょう", "n": 1, "pos": "n", "en": "bright light; hope, bright future; light emanating from a buddha or bodhisattva, symbolizing their wisdom and compassion"}
+{"i": "x5328", "w": "公金", "r": "こうきん", "n": 1, "pos": "n", "en": "public funds"}
+{"i": "x5329", "w": "公論", "r": "こうろん", "n": 1, "pos": "n", "en": "public opinion, unbiased criticism, unbiassed criticism"}
+{"i": "x5330", "w": "口コミ", "r": "くちコミ", "n": 1, "pos": "n", "en": "word of mouth; comments written online (about a product, service, etc.), online reviews"}
+{"i": "x5331", "w": "口癖", "r": "くちぐせ", "n": 1, "pos": "n", "en": "pet saying, favorite phrase, stock phrase; manner of talking"}
+{"i": "x5332", "w": "好物", "r": "こうぶつ", "n": 1, "pos": "n", "en": "favourite dish, favorite dish, favourite food"}
+{"i": "x5333", "w": "工兵", "r": "こうへい", "n": 1, "pos": "n", "en": "combat engineer, military engineer, combat engineering"}
+{"i": "x5334", "w": "工務", "r": "こうむ", "n": 1, "pos": "n", "en": "engineering, engineering works"}
+{"i": "x5335", "w": "校門", "r": "こうもん", "n": 1, "pos": "n", "en": "school gate"}
+{"i": "x5336", "w": "行楽", "r": "こうらく", "n": 1, "pos": "n", "en": "outing, excursion, pleasure trip"}
+{"i": "x5337", "w": "高熱", "r": "こうねつ", "n": 1, "pos": "n", "en": "high fever; intense heat"}
+{"i": "x5338", "w": "国策", "r": "こくさく", "n": 1, "pos": "n", "en": "national policy"}
+{"i": "x5339", "w": "国勢", "r": "こくせい", "n": 1, "pos": "n", "en": "state of a country (population, resources, etc.), condition of a country, strength of a country"}
+{"i": "x5340", "w": "国費", "r": "こくひ", "n": 1, "pos": "n", "en": "national expenditure, government spending, public funds"}
+{"i": "x5341", "w": "酷似", "r": "こくじ", "n": 1, "pos": "vs", "en": "resembling closely, being strikingly similar, bearing a strong likeness"}
+{"i": "x5342", "w": "砂防", "r": "さぼう", "n": 1, "pos": "n", "en": "erosion control"}
+{"i": "x5343", "w": "鎖国", "r": "さこく", "n": 1, "pos": "vs", "en": "national isolation, closing the country (to foreigners); sakoku, policy of national isolation enacted by the Tokugawa shogunate"}
+{"i": "x5344", "w": "再演", "r": "さいえん", "n": 1, "pos": "vs", "en": "another showing (of a play); playing the same role again (i.e. of an actor); recapitulation"}
+{"i": "x5345", "w": "再起", "r": "さいき", "n": 1, "pos": "vs", "en": "comeback, recovery, restoration"}
+{"i": "x5346", "w": "最寄り", "r": "もより", "n": 1, "pos": "adj-no", "en": "nearest, closest"}
+{"i": "x5347", "w": "災い", "r": "わざわい", "n": 1, "pos": "n", "en": "disaster, calamity, misfortune"}
+{"i": "x5348", "w": "際立つ", "r": "きわだつ", "n": 1, "pos": "v5t", "en": "to be prominent, to be conspicuous, to stand out"}
+{"i": "x5349", "w": "在籍", "r": "ざいせき", "n": 1, "pos": "vs", "en": "being enrolled (at a school), being registered, being a member (of a team, organization, etc.)"}
+{"i": "x5350", "w": "参道", "r": "さんどう", "n": 1, "pos": "n", "en": "road approaching a shrine"}
+{"i": "x5351", "w": "山地", "r": "さんち", "n": 1, "pos": "n", "en": "mountainous region, mountainous district, hilly district"}
+{"i": "x5352", "w": "始業", "r": "しぎょう", "n": 1, "pos": "vs", "en": "start of work, commencement, opening"}
+{"i": "x5353", "w": "指先", "r": "ゆびさき", "n": 1, "pos": "n", "en": "fingertip, finger; toe tip, toe"}
+{"i": "x5354", "w": "紫色", "r": "むらさきいろ", "n": 1, "pos": "n", "en": "purple, violet"}
+{"i": "x5355", "w": "事象", "r": "じしょう", "n": 1, "pos": "n", "en": "event, phenomenon, matter"}
+{"i": "x5356", "w": "事務員", "r": "じむいん", "n": 1, "pos": "n", "en": "clerk, office worker, office staff"}
+{"i": "x5357", "w": "事務当局", "r": "じむとうきょく", "n": 1, "pos": "n", "en": "officials in charge"}
+{"i": "x5358", "w": "時間切れ", "r": "じかんぎれ", "n": 1, "pos": "n", "en": "being out of time, passing the deadline; time-out"}
+{"i": "x5359", "w": "自律", "r": "じりつ", "n": 1, "pos": "n", "en": "autonomy, self-control, self-discipline; autonomy (in Kantian ethics)"}
+{"i": "x5360", "w": "辞令", "r": "じれい", "n": 1, "pos": "n", "en": "notice of personnel change (appointment, dismissal, etc.); wording, choice of language, phraseology"}
+{"i": "x5361", "w": "実り", "r": "みのり", "n": 1, "pos": "n", "en": "ripening (of a crop); crop, harvest"}
+{"i": "x5362", "w": "釈迦", "r": "しゃか", "n": 1, "pos": "n", "en": "Gautama Buddha, Shakyamuni, the historical Buddha"}
+{"i": "x5363", "w": "主査", "r": "しゅさ", "n": 1, "pos": "n", "en": "chief examiner, chief investigator, first reader"}
+{"i": "x5364", "w": "手抜き", "r": "てぬき", "n": 1, "pos": "vs", "en": "omitting crucial steps, cutting corners, skimping; tenuki, playing elsewhere on the board instead of responding locally"}
+{"i": "x5365", "w": "受容", "r": "じゅよう", "n": 1, "pos": "vs", "en": "acceptance, reception"}
+{"i": "x5366", "w": "樹齢", "r": "じゅれい", "n": 1, "pos": "n", "en": "age of a tree"}
+{"i": "x5367", "w": "囚人", "r": "しゅうじん", "n": 1, "pos": "n", "en": "prisoner, convict"}
+{"i": "x5368", "w": "宗派", "r": "しゅうは", "n": 1, "pos": "n", "en": "sect, denomination; school (e.g. of poetry)"}
+{"i": "x5369", "w": "終焉", "r": "しゅうえん", "n": 1, "pos": "vs", "en": "end (of life), death, demise; (peacefully) spending one's final years"}
+{"i": "x5370", "w": "住民票", "r": "じゅうみんひょう", "n": 1, "pos": "n", "en": "certificate of residence"}
+{"i": "x5371", "w": "重心", "r": "じゅうしん", "n": 1, "pos": "n", "en": "centre of gravity (center); centroid, barycenter; (one's) balance"}
+{"i": "x5372", "w": "重油", "r": "じゅうゆ", "n": 1, "pos": "n", "en": "heavy oil, fuel oil"}
+{"i": "x5373", "w": "出前", "r": "でまえ", "n": 1, "pos": "vs", "en": "home delivery (of food), outside catering"}
+{"i": "x5374", "w": "出遅れる", "r": "でおくれる", "n": 1, "pos": "v1", "en": "to get a late start"}
+{"i": "x5375", "w": "巡航", "r": "じゅんこう", "n": 1, "pos": "vs", "en": "cruise, cruising"}
+{"i": "x5376", "w": "書き込む", "r": "かきこむ", "n": 1, "pos": "v5m", "en": "to fill in (field, entry, etc.), to fill out (form); to post a message (e.g. on a bulletin-board); to store"}
+{"i": "x5377", "w": "助産婦", "r": "じょさんぷ", "n": 1, "pos": "n", "en": "midwife"}
+{"i": "x5378", "w": "商品券", "r": "しょうひんけん", "n": 1, "pos": "n", "en": "gift certificate"}
+{"i": "x5379", "w": "小道具", "r": "こどうぐ", "n": 1, "pos": "n", "en": "small tool, gadget; (stage) properties, prop; prop master"}
+{"i": "x5380", "w": "少佐", "r": "しょうさ", "n": 1, "pos": "n", "en": "major, lieutenant commander, wing commander"}
+{"i": "x5381", "w": "掌握", "r": "しょうあく", "n": 1, "pos": "vs", "en": "grasping, seizing, holding"}
+{"i": "x5382", "w": "乗っ取り", "r": "のっとり", "n": 1, "pos": "n", "en": "takeover (of a company, etc.); hijacking"}
+{"i": "x5383", "w": "乗馬", "r": "じょうば", "n": 1, "pos": "vs", "en": "horse riding, horseback riding, mounting a horse; mount, riding horse, saddle horse"}
+{"i": "x5384", "w": "色気", "r": "いろけ", "n": 1, "pos": "n", "en": "colouring, coloring, shade of colour (color); sex appeal (esp. of women), sexiness, sexual allure; interest in the opposite sex, sexual feelings, sexual urge"}
+{"i": "x5385", "w": "食品添加物", "r": "しょくひんてんかぶつ", "n": 1, "pos": "n", "en": "food additive"}
+{"i": "x5386", "w": "心待ち", "r": "こころまち", "n": 1, "pos": "vs", "en": "anticipation, expectation"}
+{"i": "x5387", "w": "新制", "r": "しんせい", "n": 1, "pos": "n", "en": "new system, new order; post-World War II education system, postwar education system, new education system"}
+{"i": "x5388", "w": "新婦", "r": "しんぷ", "n": 1, "pos": "n", "en": "bride"}
+{"i": "x5389", "w": "深海", "r": "しんかい", "n": 1, "pos": "n", "en": "deep sea, depths of the sea, ocean depths"}
+{"i": "x5390", "w": "真偽", "r": "しんぎ", "n": 1, "pos": "n", "en": "truth or falsehood, genuineness, authenticity"}
+{"i": "x5391", "w": "真摯", "r": "しんし", "n": 1, "pos": "adj-na", "en": "sincere, earnest, serious"}
+{"i": "x5392", "w": "親近感", "r": "しんきんかん", "n": 1, "pos": "n", "en": "affinity, feeling of closeness (with someone), feeling of kinship"}
+{"i": "x5393", "w": "人為的", "r": "じんいてき", "n": 1, "pos": "adj-na", "en": "artificial, unnatural, human-caused (e.g. mistake, error, disaster)"}
+{"i": "x5394", "w": "人生観", "r": "じんせいかん", "n": 1, "pos": "n", "en": "one's view of life, attitude toward life, outlook"}
+{"i": "x5395", "w": "陣中", "r": "じんちゅう", "n": 1, "pos": "n", "en": "in camp, at the front"}
+{"i": "x5396", "w": "水揚げ", "r": "みずあげ", "n": 1, "pos": "vs", "en": "landing, unloading (e.g. a ship); catch (of fish), takings; sales (of a shop)"}
+{"i": "x5397", "w": "世襲", "r": "せしゅう", "n": 1, "pos": "vs", "en": "heredity, heritage"}
+{"i": "x5398", "w": "政見", "r": "せいけん", "n": 1, "pos": "n", "en": "political views"}
+{"i": "x5399", "w": "正反対", "r": "せいはんたい", "n": 1, "pos": "adj-na", "en": "exactly the opposite (of), completely opposite, quite contrary"}
+{"i": "x5400", "w": "生成", "r": "せいせい", "n": 1, "pos": "vs", "en": "creation, generation, formation"}
+{"i": "x5401", "w": "精神科", "r": "せいしんか", "n": 1, "pos": "n", "en": "psychiatry, psychiatric department"}
+{"i": "x5402", "w": "静脈", "r": "じょうみゃく", "n": 1, "pos": "n", "en": "vein"}
+{"i": "x5403", "w": "切り口", "r": "きりくち", "n": 1, "pos": "n", "en": "cut end, section, opening; point of view, (different) perspective, new approach"}
+{"i": "x5404", "w": "接見", "r": "せっけん", "n": 1, "pos": "vs", "en": "(official) audience, interview, reception; meeting with one's lawyer (while detained or imprisoned)"}
+{"i": "x5405", "w": "説明書", "r": "せつめいしょ", "n": 1, "pos": "n", "en": "(printed) instructions, manual, explanatory leaflet (pamphlet, note)"}
+{"i": "x5406", "w": "先々", "r": "さきざき", "n": 1, "pos": "n", "en": "distant future, inevitable future; places one goes to"}
+{"i": "x5407", "w": "先見", "r": "せんけん", "n": 1, "pos": "vs", "en": "foresight, anticipation"}
+{"i": "x5408", "w": "先導", "r": "せんどう", "n": 1, "pos": "vs", "en": "guidance, leadership, leading the way"}
+{"i": "x5409", "w": "戦列", "r": "せんれつ", "n": 1, "pos": "n", "en": "line of battle"}
+{"i": "x5410", "w": "染色", "r": "せんしょく", "n": 1, "pos": "vs", "en": "dyeing; staining (a sample); dyed colour (color)"}
+{"i": "x5411", "w": "組曲", "r": "くみきょく", "n": 1, "pos": "n", "en": "suite"}
+{"i": "x5412", "w": "創始", "r": "そうし", "n": 1, "pos": "vs", "en": "creation, founding, initiating"}
+{"i": "x5413", "w": "創造的", "r": "そうぞうてき", "n": 1, "pos": "adj-na", "en": "creative"}
+{"i": "x5414", "w": "総意", "r": "そうい", "n": 1, "pos": "n", "en": "consensus, collective will, collective opinion"}
+{"i": "x5415", "w": "送り先", "r": "おくりさき", "n": 1, "pos": "n", "en": "destination, recipient, addressee"}
+{"i": "x5416", "w": "送付", "r": "そうふ", "n": 1, "pos": "vs", "en": "sending, forwarding, remitting"}
+{"i": "x5417", "w": "即効", "r": "そっこう", "n": 1, "pos": "n", "en": "immediate effect, instant effect"}
+{"i": "x5418", "w": "測候所", "r": "そっこうじょ", "n": 1, "pos": "n", "en": "weather measurement station"}
+{"i": "x5419", "w": "多面", "r": "ためん", "n": 1, "pos": "n", "en": "many-sided, multifaceted"}
+{"i": "x5420", "w": "打ち込み", "r": "うちこみ", "n": 1, "pos": "n", "en": "driving, pounding in, shooting into; falling badly in love; putting (one's heart) into"}
+{"i": "x5421", "w": "大掛かり", "r": "おおがかり", "n": 1, "pos": "adj-na", "en": "large-scale"}
+{"i": "x5422", "w": "大黒柱", "r": "だいこくばしら", "n": 1, "pos": "n", "en": "central pillar (of a building); mainstay (e.g. of an economy), backbone (e.g. of a family), provider"}
+{"i": "x5423", "w": "弾丸", "r": "だんがん", "n": 1, "pos": "n", "en": "bullet, shot, shell"}
+{"i": "x5424", "w": "断片", "r": "だんぺん", "n": 1, "pos": "n", "en": "fragment, scrap, piece"}
+{"i": "x5425", "w": "稚魚", "r": "ちぎょ", "n": 1, "pos": "n", "en": "fry, juvenile fish, fingerling"}
+{"i": "x5426", "w": "築き上げる", "r": "きずきあげる", "n": 1, "pos": "v1", "en": "to build, to construct, to put up; to build up (a fortune, reputation, enterprise, etc.), to establish (a relationship, system, etc.), to create"}
+{"i": "x5427", "w": "茶屋", "r": "ちゃや", "n": 1, "pos": "n", "en": "teahouse, (Edo period) rest stop; (geisha) teahouse, establishment where patrons are entertained by geisha; tea house (that sells tea), tea dealer"}
+{"i": "x5428", "w": "中級", "r": "ちゅうきゅう", "n": 1, "pos": "n", "en": "intermediate level"}
+{"i": "x5429", "w": "中将", "r": "ちゅうじょう", "n": 1, "pos": "n", "en": "lieutenant general, vice-admiral"}
+{"i": "x5430", "w": "中性子", "r": "ちゅうせいし", "n": 1, "pos": "n", "en": "neutron"}
+{"i": "x5431", "w": "中等", "r": "ちゅうとう", "n": 1, "pos": "n", "en": "second grade, medium quality, average"}
+{"i": "x5432", "w": "仲間入り", "r": "なかまいり", "n": 1, "pos": "vs", "en": "joining (a group), becoming a member (of), joining the ranks (of)"}
+{"i": "x5433", "w": "銚子", "r": "ちょうし", "n": 1, "pos": "n", "en": "(sake) decanter"}
+{"i": "x5434", "w": "追撃", "r": "ついげき", "n": 1, "pos": "vs", "en": "pursuit (of a fleeing enemy), chase, follow-up attack"}
+{"i": "x5435", "w": "坪", "r": "つぼ", "n": 1, "pos": "n", "en": "tsubo, traditional unit of land area, approx. 3.3 square meters; tsubo, traditional unit of fabric or paper area, approx. 9.18 square centimeters; tsubo, tradit"}
+{"i": "x5436", "w": "壺", "r": "つぼ", "n": 1, "pos": "n", "en": "pot, jar, vase; dice cup; depression, basin (e.g. of a waterfall)"}
+{"i": "x5437", "w": "低減", "r": "ていげん", "n": 1, "pos": "vs", "en": "decrease, reduction, fall"}
+{"i": "x5438", "w": "定か", "r": "さだか", "n": 1, "pos": "adj-na", "en": "definite, sure"}
+{"i": "x5439", "w": "底力", "r": "そこぢから", "n": 1, "pos": "n", "en": "hidden reserves of strength, latent energy, potentiality"}
+{"i": "x5440", "w": "抵当権", "r": "ていとうけん", "n": 1, "pos": "n", "en": "mortgage, right of pledge, lien"}
+{"i": "x5441", "w": "転向", "r": "てんこう", "n": 1, "pos": "vs", "en": "conversion, shift, about-face"}
+{"i": "x5442", "w": "やつ", "r": "やつ", "n": 1, "pos": "n", "en": "fellow, guy, chap; thing, object; he, she, him"}
+{"i": "x5443", "w": "東邦", "r": "とうほう", "n": 1, "pos": "n", "en": "Oriental country, the Orient"}
+{"i": "x5444", "w": "動画", "r": "どうが", "n": 1, "pos": "n", "en": "video (esp. digital), video clip, clip; animation, animated cartoon; in-betweens (animation)"}
+{"i": "x5445", "w": "動態", "r": "どうたい", "n": 1, "pos": "n", "en": "movement, dynamic state"}
+{"i": "x5446", "w": "動脈硬化", "r": "どうみゃくこうか", "n": 1, "pos": "n", "en": "arteriosclerosis, hardening of the arteries; loss of flexibility (in thinking, systems, etc.), inflexibility, institutional rigidity"}
+{"i": "x5447", "w": "同じく", "r": "おなじく", "n": 1, "pos": "adv", "en": "in the same way, like, likewise"}
+{"i": "x5449", "w": "道端", "r": "みちばた", "n": 1, "pos": "n", "en": "roadside, wayside"}
+{"i": "x5450", "w": "特効薬", "r": "とっこうやく", "n": 1, "pos": "n", "en": "specific medicine, wonder drug, silver bullet"}
+{"i": "x5451", "w": "読み方", "r": "よみかた", "n": 1, "pos": "n", "en": "pronunciation, reading (e.g. of a kanji); way of reading (out loud); interpretation (e.g. of a text), reading"}
+{"i": "x5452", "w": "突出", "r": "とっしゅつ", "n": 1, "pos": "vs", "en": "projection, protrusion, jutting out; rupture (e.g. of gas), jetting out, gushing out; prominence, standing out, being conspicuous"}
+{"i": "x5453", "w": "突進", "r": "とっしん", "n": 1, "pos": "vs", "en": "rush, dash, charge"}
+{"i": "x5454", "w": "難局", "r": "なんきょく", "n": 1, "pos": "n", "en": "difficult situation"}
+{"i": "x5455", "w": "二枚目", "r": "にまいめ", "n": 1, "pos": "n", "en": "handsome man; actor in a love scene"}
+{"i": "x5456", "w": "二輪車", "r": "にりんしゃ", "n": 1, "pos": "n", "en": "two-wheeled vehicle"}
+{"i": "x5457", "w": "入り込み", "r": "いりごみ", "n": 1, "pos": "n", "en": "coming in together, unreserved seats for the public"}
+{"i": "x5458", "w": "入り込む", "r": "はいりこむ", "n": 1, "pos": "v5m", "en": "to go into, to come into, to penetrate; to become complicated"}
+{"i": "x5459", "w": "入港", "r": "にゅうこう", "n": 1, "pos": "vs", "en": "entry into port, arriving in harbor"}
+{"i": "x5460", "w": "入念", "r": "にゅうねん", "n": 1, "pos": "adj-na", "en": "careful, elaborate, scrupulous"}
+{"i": "x5461", "w": "年会", "r": "ねんかい", "n": 1, "pos": "n", "en": "conference, annual convention"}
+{"i": "x5462", "w": "年月日", "r": "ねんがっぴ", "n": 1, "pos": "n", "en": "date (year, month and day)"}
+{"i": "x5463", "w": "年功序列", "r": "ねんこうじょれつ", "n": 1, "pos": "n", "en": "seniority by length of service"}
+{"i": "x5464", "w": "念書", "r": "ねんしょ", "n": 1, "pos": "n", "en": "written pledge, signed note of assurance, memorandum"}
+{"i": "x5465", "w": "脳出血", "r": "のうしゅっけつ", "n": 1, "pos": "n", "en": "cerebral hemorrhage, cerebral haemorrhage"}
+{"i": "x5466", "w": "脳波", "r": "のうは", "n": 1, "pos": "n", "en": "brain waves; electroencephalogram, EEG"}
+{"i": "x5467", "w": "馬車", "r": "ばしゃ", "n": 1, "pos": "n", "en": "coach (horse-drawn), carriage, wagon"}
+{"i": "x5468", "w": "排他", "r": "はいた", "n": 1, "pos": "n", "en": "exclusion"}
+{"i": "x5469", "w": "背泳ぎ", "r": "せおよぎ", "n": 1, "pos": "n", "en": "backstroke (swimming)"}
+{"i": "x5470", "w": "輩出", "r": "はいしゅつ", "n": 1, "pos": "vs", "en": "producing (people) in great numbers, appearing one after the other"}
+{"i": "x5471", "w": "発熱", "r": "はつねつ", "n": 1, "pos": "vs", "en": "generation of heat; (attack of) fever, pyrexia"}
+{"i": "x5472", "w": "発泡スチロール", "r": "はっぽうスチロール", "n": 1, "pos": "n", "en": "styrofoam, styrene foam, expanded polystyrene"}
+{"i": "x5473", "w": "反転", "r": "はんてん", "n": 1, "pos": "vs", "en": "rolling over, turning over; turning around (the other way), reversal (of direction, course, etc.), inversion; producing a positive from a negative, producing a "}
+{"i": "x5474", "w": "碑文", "r": "ひぶん", "n": 1, "pos": "n", "en": "inscription, epitaph, epigraph"}
+{"i": "x5475", "w": "必須", "r": "ひっす", "n": 1, "pos": "adj-na", "en": "indispensable, essential, requisite"}
+{"i": "x5476", "w": "評", "r": "ひょう", "n": 1, "pos": "n", "en": "criticism, commentary, review"}
+{"i": "x5477", "w": "病死", "r": "びょうし", "n": 1, "pos": "vs", "en": "death from disease, death from illness"}
+{"i": "x5478", "w": "苗木", "r": "なえぎ", "n": 1, "pos": "n", "en": "seedling, sapling, young tree"}
+{"i": "x5479", "w": "貧血", "r": "ひんけつ", "n": 1, "pos": "n", "en": "anemia, anaemia"}
+{"i": "x5480", "w": "不確実", "r": "ふかくじつ", "n": 1, "pos": "adj-na", "en": "uncertain, unreliable, inauthentic"}
+{"i": "x5481", "w": "付け根", "r": "つけね", "n": 1, "pos": "n", "en": "root, joint, base"}
+{"i": "x5482", "w": "富裕", "r": "ふゆう", "n": 1, "pos": "adj-na", "en": "wealthy, rich, affluent"}
+{"i": "x5483", "w": "敷設", "r": "ふせつ", "n": 1, "pos": "vs", "en": "laying (a railroad, pipes, naval mines, etc.), construction"}
+{"i": "x5484", "w": "風情", "r": "ふぜい", "n": 1, "pos": "n", "en": "taste, elegance, charm; appearance, air; the likes of ..., lowly people such as ..."}
+{"i": "x5485", "w": "服飾", "r": "ふくしょく", "n": 1, "pos": "n", "en": "clothing and accessories, attire"}
+{"i": "x5486", "w": "分権", "r": "ぶんけん", "n": 1, "pos": "n", "en": "decentralization of authority, decentralisation of authority"}
+{"i": "x5487", "w": "奮起", "r": "ふんき", "n": 1, "pos": "vs", "en": "stirring, rousing oneself"}
+{"i": "x5488", "w": "文科", "r": "ぶんか", "n": 1, "pos": "n", "en": "humanities and social sciences, liberal arts; faculty of humanities, school of liberal arts"}
+{"i": "x5489", "w": "文面", "r": "ぶんめん", "n": 1, "pos": "n", "en": "contents of a document (esp. of a letter)"}
+{"i": "x5490", "w": "平時", "r": "へいじ", "n": 1, "pos": "n", "en": "peacetime, time of peace; ordinary times, normal times"}
+{"i": "x5491", "w": "閉店", "r": "へいてん", "n": 1, "pos": "vs", "en": "closing up shop (for the day); stopping business, going out of business"}
+{"i": "x5492", "w": "別問題", "r": "べつもんだい", "n": 1, "pos": "n", "en": "different thing, another question, different case"}
+{"i": "x5493", "w": "変換", "r": "へんかん", "n": 1, "pos": "vs", "en": "change, conversion, transformation; transformation"}
+{"i": "x5494", "w": "保証人", "r": "ほしょうにん", "n": 1, "pos": "n", "en": "guarantor, surety, sponsor"}
+{"i": "x5495", "w": "菩薩", "r": "ぼさつ", "n": 1, "pos": "n", "en": "bodhisattva, one who has reached enlightenment but vows to save all beings before becoming a buddha; High Monk (title bestowed by the imperial court); title bes"}
+{"i": "x5496", "w": "奉行", "r": "ぶぎょう", "n": 1, "pos": "n", "en": "magistrate, shogunate administrator"}
+{"i": "x5497", "w": "放浪", "r": "ほうろう", "n": 1, "pos": "vs", "en": "wandering, roaming, drifting"}
+{"i": "x5498", "w": "忘年会", "r": "ぼうねんかい", "n": 1, "pos": "n", "en": "year-end party, \"forget-the-year\" party, bōnenkai"}
+{"i": "x5499", "w": "暴挙", "r": "ぼうきょ", "n": 1, "pos": "n", "en": "violence, reckless action, (an) outrage"}
+{"i": "x5500", "w": "北海道開発庁長官", "r": "ほっかいどうかいはつちょうちょうかん", "n": 1, "pos": "n", "en": "Director General of Hokkaido Development Agency"}
+{"i": "x5501", "w": "奔放", "r": "ほんぽう", "n": 1, "pos": "adj-na", "en": "wild, uninhibited, extravagant"}
+{"i": "x5502", "w": "本隊", "r": "ほんたい", "n": 1, "pos": "n", "en": "main body (of troops), main force; this troop, these troops"}
+{"i": "x5503", "w": "本年", "r": "ほんねん", "n": 1, "pos": "n", "en": "this (current) year"}
+{"i": "x5504", "w": "魔法", "r": "まほう", "n": 1, "pos": "n", "en": "magic, witchcraft, sorcery"}
+{"i": "x5505", "w": "慢性的", "r": "まんせいてき", "n": 1, "pos": "adj-na", "en": "chronic"}

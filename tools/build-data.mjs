@@ -109,7 +109,7 @@ function readingFor(jp) {
     const surf = t.surface_form;
     let r;
     if (!hasKanji(surf)) r = surf;
-    else if (readingOf.has(surf)) r = readingOf.get(surf);
+    else if (surf.length >= 2 && readingOf.has(surf)) r = readingOf.get(surf);
     else if (t.reading && t.reading !== '*') r = toHira(t.reading);
     else r = surf;
     // keep katakana words as katakana
@@ -162,7 +162,19 @@ if (existsSync('data-src/vocab-extra/registros.json')) {
 if (existsSync('data-src/raw/kanjidic2.xml')) {
   const xml = readFileSync('data-src/raw/kanjidic2.xml', 'utf8');
   const kd = JSON.parse(readFileSync('data-src/raw/kanji-data.json', 'utf8'));
-  const ptFix = existsSync('data-src/kanji-pt.json') ? JSON.parse(readFileSync('data-src/kanji-pt.json', 'utf8')) : {};
+  const ptFix = {};
+  if (existsSync('data-src/kanji')) {
+    for (const f of readdirSync('data-src/kanji').filter((f) => /^out-\d+\.jsonl$/.test(f))) {
+      for (const line of readFileSync(join('data-src/kanji', f), 'utf8').split('\n')) {
+        try {
+          const o = JSON.parse(line);
+          if (o.k && o.pt) ptFix[o.k] = o.pt;
+        } catch {
+          /* skip */
+        }
+      }
+    }
+  }
   const chars = Object.entries(kd).filter(([, v]) => v.grade != null && v.grade <= 8);
   const entries = new Map();
   const re = /<character>([\s\S]*?)<\/character>/g;
@@ -187,8 +199,9 @@ if (existsSync('data-src/raw/kanjidic2.xml')) {
   writeFileSync(join(OUT, 'kanji.json'), JSON.stringify({ fields: ['k', 'strokes', 'grade', 'jlpt', 'freq', 'on', 'kun', 'pt'], rows: kanjiRows }));
   console.log(`kanji: ${kanjiRows.length} (${Object.keys(ptFix).length} with reviewed Portuguese)`);
 }
+const PROPER = /^(Japão|China|Coreia|Ásia|Europa|América|Buda|Brasil|Índia|Inglaterra|França|Holanda|Rússia|Alemanha)/;
 function cleanPt(list) {
-  return list.map((s) => s.trim()).filter((s) => s && !/avião|prefixo|sufixo p\//i.test(s)).map((s) => s.charAt(0).toLowerCase() + s.slice(1));
+  return list.map((s) => s.trim()).filter((s) => s && !/avião|prefixo|sufixo p\//i.test(s)).map((s) => (PROPER.test(s) ? s : s.charAt(0).toLowerCase() + s.slice(1)));
 }
 
 // ───────────── strokes (KanjiVG) ─────────────

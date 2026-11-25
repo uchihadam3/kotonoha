@@ -211,8 +211,9 @@ export class Character {
       return;
     }
     // cap of hair (back/top), slightly larger than the head
-    b.add(new THREE.SphereGeometry(0.335, 18, 12, 0, Math.PI * 2, 0, Math.PI * 0.55), c, { y: 0.02, sy: 1.0 });
-    b.add(new THREE.SphereGeometry(0.33, 18, 12, Math.PI * 1.25, Math.PI * 1.5, Math.PI * 0.3, Math.PI * 0.45), c, { y: 0.0 });
+    // top cap (above the forehead) + back and sides, leaving the face open
+    b.add(new THREE.SphereGeometry(0.338, 18, 8, 0, Math.PI * 2, 0, Math.PI * 0.3), c, { y: 0.02 });
+    b.add(new THREE.SphereGeometry(0.334, 18, 12, Math.PI * 0.78, Math.PI * 1.44, Math.PI * 0.26, Math.PI * 0.42), c, { y: 0.01 });
     // bangs: a few wedges over the forehead
     const bangs = st === 'spiky' || st === 'messy' ? 6 : 5;
     for (let i = 0; i < bangs; i++) {

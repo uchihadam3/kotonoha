@@ -99,6 +99,8 @@ export class Game {
   private lastLeaves = 0;
   private tmpV = new THREE.Vector3();
   running = false;
+  /** debug: force the colour restoration (tours/screenshots) */
+  debugSat: number | null = null;
 
   constructor(readonly app: App, public save: SaveData) {
     this.world = app.ensureWorld();
@@ -429,7 +431,7 @@ export class Game {
     const inside = Math.hypot(p.x - r.x, p.z - r.z) < r.r + 22;
     if (inside && r !== this.region) this.enterRegion(r);
     // colour grading toward the current place's restoration
-    const target = this.region ? this.restoration(this.region) : 0.5;
+    const target = this.debugSat ?? (this.region ? this.restoration(this.region) : 0.5);
     this.sat = damp(this.sat, target, 1.2, dt);
     const u = this.engine.u;
     u.uSat.value = 0.42 + this.sat * 0.66;
@@ -557,11 +559,26 @@ export class Game {
     }
   }
 
+  /** over-the-shoulder two-shot for conversations */
+  framePair(a: THREE.Vector3, b: THREE.Vector3) {
+    const mid = a.clone().add(b).multiplyScalar(0.5);
+    const dir = b.clone().sub(a).setY(0).normalize();
+    const side = new THREE.Vector3(-dir.z, 0, dir.x);
+    // pick the side closer to where the camera already is
+    if (side.dot(this.engine.camera.position.clone().sub(mid)) < 0) side.multiplyScalar(-1);
+    const pos = mid.clone().addScaledVector(side, 3.4).addScaledVector(dir, -1.4);
+    pos.y = Math.max(heightAt(pos.x, pos.z) + 1.2, mid.y + 1.9);
+    const look = b.clone().lerp(mid, 0.35);
+    look.y = mid.y + 1.25;
+    this.rig.override = { pos, look, k: 4 };
+  }
+
   async talkTo(n: NpcActor) {
     if (this.dialog.open) return;
     this.pause(true);
     n.busy = true;
     this.player.face(n.pos.x, n.pos.z);
+    this.framePair(this.player.pos, n.pos);
     n.char.wave();
     const first = !this.save.flags['met:' + n.def.id];
     this.save.flags['met:' + n.def.id] = 1;
@@ -575,6 +592,7 @@ export class Game {
     } finally {
       this.dialog.close();
       n.busy = false;
+      this.rig.override = null;
       this.pause(false);
     }
   }

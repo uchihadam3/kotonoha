@@ -47,7 +47,7 @@ for (const s of lines) {
     const surf = t.surface_form;
     let r;
     if (!hasKanji(surf)) r = surf;
-    else if (readingOf.has(surf)) r = readingOf.get(surf);
+    else if (surf.length >= 2 && readingOf.has(surf)) r = readingOf.get(surf);
     else if (t.reading && t.reading !== '*') r = toHira(t.reading);
     else r = surf;
     if (t.pos === '記号' && parts.length) parts[parts.length - 1] += r;

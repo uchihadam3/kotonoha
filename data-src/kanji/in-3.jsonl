@@ -1,0 +1,534 @@
+{"k": "桜", "en": "cherry", "pt": "cerejeira", "on": "オウ、ヨウ", "kun": "さくら"}
+{"k": "句", "en": "phrase; clause; sentence; passage; paragraph", "pt": "frase; cláusula; sentença; passagem; parágrafo", "on": "ク", "kun": ""}
+{"k": "墓", "en": "grave; tomb", "pt": "tumba; túmulo", "on": "ボ", "kun": "はか"}
+{"k": "飼", "en": "domesticate; raise; keep; feed", "pt": "domesticar; levantar; guardar; alimentar", "on": "シ", "kun": "か.う"}
+{"k": "恩", "en": "grace; kindness; goodness; favor; mercy", "pt": "graça; gentileza; bondade; favor; misericórdia", "on": "オン", "kun": ""}
+{"k": "往", "en": "journey; travel; chase away; let go; going", "pt": "viagem; caça embora; deixada ir; indo", "on": "オウ", "kun": "い.く、いにしえ、さき.に"}
+{"k": "肥", "en": "fertilizer; get fat; fertile; manure; pamper", "pt": "fertilizar; engordar; fértil; estrume; mimar", "on": "ヒ", "kun": "こ.える、こえ、こ.やす"}
+{"k": "俵", "en": "bag; bale; sack; counter for bags", "pt": "bolsa; fardo; sacola; sufixo para contagem de para bolsas", "on": "ヒョウ", "kun": "たわら"}
+{"k": "眼", "en": "eyeball", "pt": "globo ocular", "on": "ガン、ゲン", "kun": "まなこ、め"}
+{"k": "潔", "en": "undefiled; pure; clean; righteous; gallant", "pt": "incorrupto; puro; limpar; correto; galanteador", "on": "ケツ", "kun": "いさぎよ.い"}
+{"k": "舌", "en": "tongue; reed; clapper", "pt": "língua; lingueta de inst. de sopro; lingueta de fechadura", "on": "ゼツ", "kun": "した"}
+{"k": "派", "en": "faction; group; party; clique; sect", "pt": "facção; grupo; partido; claque; seita", "on": "ハ", "kun": ""}
+{"k": "策", "en": "scheme; plan; policy; step; means", "pt": "esquema; plano; política; passo; meios", "on": "サク", "kun": ""}
+{"k": "裁", "en": "tailor; judge; decision; cut out (pattern)", "pt": "alfaiate; juiz; decisão; paradigma", "on": "サイ", "kun": "た.つ、さば.く"}
+{"k": "展", "en": "unfold; expand", "pt": "desdobrar; expandir", "on": "テン", "kun": ""}
+{"k": "視", "en": "inspection; regard as; see; look at", "pt": "inspeção; avaliar; ver; olhar", "on": "シ", "kun": "み.る"}
+{"k": "株", "en": "stocks; stump; shares; stock; counter for small plants", "pt": "Tora; tronco; sufixo para contagem de para pequenas plantas", "on": "シュ", "kun": "かぶ"}
+{"k": "姿", "en": "figure; form; shape", "pt": "figura; formulário; forma", "on": "シ", "kun": "すがた"}
+{"k": "閣", "en": "tower; tall building; palace", "pt": "torre; edifício alto; palácio", "on": "カク", "kun": ""}
+{"k": "衆", "en": "masses; great numbers; multitude; populace", "pt": "massas; grandes números; multidão; população", "on": "シュウ、シュ", "kun": "おお.い"}
+{"k": "推", "en": "conjecture; infer; guess; suppose; support", "pt": "conjecturar; inferir; convidado; supor; apoiar", "on": "スイ", "kun": "お.す"}
+{"k": "討", "en": "chastise; attack; defeat; destroy; conquer", "pt": "castigar; atacar; derrotar; destruir; conquistar", "on": "トウ", "kun": "う.つ"}
+{"k": "憲", "en": "constitution; law", "pt": "Constituição; lei", "on": "ケン", "kun": ""}
+{"k": "激", "en": "violent; get excited; enraged; chafe; incite", "pt": "violento; obtem excitado; enraged; chafe; incita", "on": "ゲキ", "kun": "はげ.しい"}
+{"k": "系", "en": "lineage; system", "pt": "linhagem; sistema", "on": "ケイ", "kun": ""}
+{"k": "批", "en": "criticism; strike", "pt": "Críticar; bater", "on": "ヒ", "kun": ""}
+{"k": "盟", "en": "alliance; oath", "pt": "aliança; juramento", "on": "メイ", "kun": ""}
+{"k": "従", "en": "accompany; obey; submit to; comply; follow", "pt": "acompanhar; obedecer; submeter a; concordar; seguir", "on": "ジュウ、ショウ、ジュ", "kun": "したが.う、したが.える、より"}
+{"k": "拡", "en": "broaden; extend; expand; enlarge", "pt": "alargar; extender; expandir", "on": "カク、コウ", "kun": "ひろ.がる、ひろ.げる、ひろ.める"}
+{"k": "就", "en": "concerning; settle; take position; depart; study", "pt": "colocar; tomar partido; lado de um contrato; partido", "on": "シュウ、ジュ", "kun": "つ.く、つ.ける"}
+{"k": "異", "en": "uncommon; different; queerness; strangeness; wonderful", "pt": "incomum; esquisito; estranho; raro; curioso", "on": "イ", "kun": "こと、こと.なる、け"}
+{"k": "厳", "en": "stern; strictness; severity; rigidity", "pt": "severo; estrito; seriedade; rigidez", "on": "ゲン、ゴン", "kun": "おごそ.か、きび.しい、いか.めしい"}
+{"k": "遺", "en": "bequeath; leave behind; reserve", "pt": "legar; deixar para trás; reservar", "on": "イ、ユイ", "kun": "のこ.す"}
+{"k": "模", "en": "imitation; copy; mock", "pt": "imitação; cópia; burla", "on": "モ、ボ", "kun": ""}
+{"k": "宣", "en": "proclaim; say; announce", "pt": "proclamar; dizer; anunciar", "on": "セン", "kun": "のたま.う"}
+{"k": "盛", "en": "boom; prosper; copulate", "pt": "estrondo; prosperar; copular", "on": "セイ、ジョウ", "kun": "も.る、さか.る、さか.ん"}
+{"k": "皇", "en": "emperor", "pt": "imperador", "on": "コウ、オウ", "kun": ""}
+{"k": "臨", "en": "look to; face; meet; confront; attend", "pt": "considerar; enfrentar; reunião; confrontar; coparecer", "on": "リン", "kun": "のぞ.む"}
+{"k": "源", "en": "source; origin", "pt": "fonte; origem", "on": "ゲン", "kun": "みなもと"}
+{"k": "創", "en": "genesis; wound; injury; hurt; start", "pt": "gênese; ferir; dano; ferido; começo", "on": "ソウ、ショウ", "kun": "つく.る、はじ.める、きず"}
+{"k": "障", "en": "hinder; hurt; harm", "pt": "impedir; ferido; dano", "on": "ショウ", "kun": "さわ.る"}
+{"k": "筋", "en": "muscle; sinew; tendon; fiber; plot", "pt": "músculo; tendão; nervo; fibra; desenho", "on": "キン", "kun": "すじ"}
+{"k": "善", "en": "virtuous; good; goodness", "pt": "bom; virtuoso; bondade", "on": "ゼン", "kun": "よ.い、い.い、よ.く"}
+{"k": "密", "en": "secrecy; density (pop); minuteness; carefulness", "pt": "segredo; densidade; pormenor; cuidado", "on": "ミツ", "kun": "ひそ.か"}
+{"k": "我", "en": "ego; I; selfish; our; oneself", "pt": "ego; Eu; egoísta; nosso; a si próprio", "on": "ガ", "kun": "われ、わ、わ.が-"}
+{"k": "幕", "en": "curtain; bunting; act of play", "pt": "cortina; pano p/ decoração; atuar em peças teatrais", "on": "マク、バク", "kun": "とばり"}
+{"k": "染", "en": "dye; color; paint; stain; print", "pt": "tinta; cor; pintura; tingir; impressão", "on": "セン", "kun": "そ.める、そ.まる、し.みる"}
+{"k": "傷", "en": "wound; hurt; injure; impair; pain", "pt": "machucado; ferido; ferir; danificar; dor", "on": "ショウ", "kun": "きず、いた.む、いた.める"}
+{"k": "秘", "en": "secret; conceal", "pt": "segredo; esconder", "on": "ヒ", "kun": "ひ.める、ひそ.か、かく.す"}
+{"k": "縮", "en": "shrink; contract; shrivel; wrinkle; reduce", "pt": "encolher; contrair; enrugar; ruga; reduzir", "on": "シュク", "kun": "ちぢ.む、ちぢ.まる、ちぢ.める"}
+{"k": "射", "en": "shoot; shine into; onto; archery", "pt": "dispare; brilha dentro; sobre; arte do arco e flexa", "on": "シャ", "kun": "い.る、さ.す、う.つ"}
+{"k": "揮", "en": "brandish; wave; wag; swing; shake", "pt": "agitar; onda; sacudir; balançar; mexer", "on": "キ", "kun": "ふる.う"}
+{"k": "賃", "en": "fare; fee; hire; rent; wages", "pt": "taxa; alugar; aluguel; salários; conta", "on": "チン", "kun": ""}
+{"k": "貴", "en": "precious; value; prize; esteem; honor", "pt": "precioso; valor; prêmio; estima; honra", "on": "キ", "kun": "たっと.い、とうと.い、たっと.ぶ"}
+{"k": "納", "en": "settlement; obtain; reap; pay; supply", "pt": "acordo; obtem; colheita; pagamento; oferta", "on": "ノウ、ナッ、ナ", "kun": "おさ.める、-おさ.める、おさ.まる"}
+{"k": "樹", "en": "timber; trees; wood; establish; set up", "pt": "Madeira-de-lei; madeira", "on": "ジュ", "kun": "き"}
+{"k": "至", "en": "climax; arrive; proceed; reach; attain", "pt": "clímax; chegar; continuar; alcançar; atingir", "on": "シ", "kun": "いた.る"}
+{"k": "宗", "en": "religion; sect; denomination; main point; origin", "pt": "religião; seita; denominação; ponto principal; origem", "on": "シュウ、ソウ", "kun": "むね"}
+{"k": "宙", "en": "mid-air; air; space; sky; memorization", "pt": "aéreo; ar; espaço; céu; memorização", "on": "チュウ", "kun": ""}
+{"k": "操", "en": "maneuver; manipulate; operate; steer; chastity", "pt": "manobra; manipular; opera; pilotar; castidade", "on": "ソウ、サン", "kun": "みさお、あやつ.る"}
+{"k": "誕", "en": "nativity; be born; declension; lie; be arbitrary", "pt": "natividade; nascer; decadência; mentira; ser arbitrário", "on": "タン", "kun": ""}
+{"k": "訳", "en": "translate; reason; circumstance; case", "pt": "traduzir; razão; circunstância; caso", "on": "ヤク", "kun": "わけ"}
+{"k": "看", "en": "watch over; see", "pt": "Observar; superviosionar", "on": "カン", "kun": "み.る"}
+{"k": "奏", "en": "play music; speak to a ruler; complete", "pt": "tocar música; audiência; completar", "on": "ソウ", "kun": "かな.でる"}
+{"k": "郷", "en": "home town; village; native place; district", "pt": "cidade natal; aldeia; lugar de nascimento; distrito", "on": "キョウ、ゴウ", "kun": "さと"}
+{"k": "己", "en": "self", "pt": "Próprio; cobra; serpente", "on": "コ、キ", "kun": "おのれ、つちのと、な"}
+{"k": "忠", "en": "loyalty; fidelity; faithfulness", "pt": "lealdade; fidelidade", "on": "チュウ", "kun": ""}
+{"k": "沿", "en": "run alongside; follow along; run along; lie along", "pt": "correr ao lado; seguir ao longo; beira; estar ao longo", "on": "エン", "kun": "そ.う、-ぞ.い"}
+{"k": "誠", "en": "sincerity; admonish; warn; prohibit; truth", "pt": "sinceridade; advertir; avisar; proíbir; verdade", "on": "セイ", "kun": "まこと"}
+{"k": "俳", "en": "haiku; actor", "pt": "haiku; ator", "on": "ハイ", "kun": ""}
+{"k": "聖", "en": "holy; saint; sage; master; priest", "pt": "santo; sagrado; sábio; mestre; padre", "on": "セイ、ショウ", "kun": "ひじり"}
+{"k": "潮", "en": "tide; salt water; opportunity", "pt": "maré; água salgada; oportunidade", "on": "チョウ", "kun": "しお、うしお"}
+{"k": "鋼", "en": "steel", "pt": "aço", "on": "コウ", "kun": "はがね"}
+{"k": "縦", "en": "vertical; length; height; self-indulgent; wayward", "pt": "vertical; comprimento; altura; elevado pessoa indulgente; rebelde", "on": "ジュウ", "kun": "たて"}
+{"k": "仁", "en": "humanity; virtue; benevolence; charity; man", "pt": "humanidade; virtude; benevolência; caridade; homem", "on": "ジン、ニ、ニン", "kun": ""}
+{"k": "穴", "en": "hole; aperture; slit; cave; den", "pt": "buraco; orifício; brecha; caverna; gruta", "on": "ケツ", "kun": "あな"}
+{"k": "暖", "en": "warmth", "pt": "caloroso", "on": "ダン、ノン", "kun": "あたた.か、あたた.かい、あたた.まる"}
+{"k": "朗", "en": "melodious; clear; bright; serene; cheerful", "pt": "melódico; limpa; alegre; sereno; brilhante", "on": "ロウ", "kun": "ほが.らか、あき.らか"}
+{"k": "肺", "en": "lungs", "pt": "pulmões", "on": "ハイ", "kun": ""}
+{"k": "熟", "en": "mellow; ripen; mature; acquire skill", "pt": "maturar; amadurecer; amadurecimento; adquirir habilidade", "on": "ジュク", "kun": "う.れる"}
+{"k": "陛", "en": "highness; steps (of throne)", "pt": "alteza; degraus (do trono)", "on": "ヘイ", "kun": ""}
+{"k": "糖", "en": "sugar", "pt": "açúcar", "on": "トウ", "kun": ""}
+{"k": "覧", "en": "perusal; see", "pt": "Ler com atenção; ver", "on": "ラン", "kun": "み.る"}
+{"k": "奮", "en": "stirred up; be invigorated; flourish", "pt": "revigorar; florescer", "on": "フン", "kun": "ふる.う"}
+{"k": "后", "en": "empress; queen; after; behind; back", "pt": "imperatriz; rainha; depois; atrás; mais tarde", "on": "コウ、ゴ", "kun": "きさき"}
+{"k": "班", "en": "squad; corps; unit; group", "pt": "esquadra; corpos (mil.); unidade; grupo", "on": "ハン", "kun": ""}
+{"k": "寸", "en": "measurement; tenth of a shaku; a little; small", "pt": "medição; medida valendo pés/ 10", "on": "スン", "kun": ""}
+{"k": "磁", "en": "magnet; porcelain", "pt": "imã; porcelana", "on": "ジ", "kun": ""}
+{"k": "垂", "en": "droop; suspend; hang; slouch", "pt": "declínio; suspender; pendurar; negligente", "on": "スイ", "kun": "た.れる、た.らす、た.れ"}
+{"k": "穀", "en": "cereals; grain", "pt": "cereais; grão", "on": "コク", "kun": ""}
+{"k": "絹", "en": "silk", "pt": "seda", "on": "ケン", "kun": "きぬ"}
+{"k": "尺", "en": "shaku; Japanese foot; measure; scale; rule", "pt": "shaku; pé Japonês; medida; escala; regra", "on": "シャク、セキ", "kun": "さし"}
+{"k": "蚕", "en": "silkworm", "pt": "bicho-da-seda", "on": "サン、テン", "kun": "かいこ、こ"}
+{"k": "企", "en": "undertake; scheme; design; attempt; plan", "pt": "empreenda; esquema; projeto; tentativa; plano", "on": "キ", "kun": "くわだ.てる、たくら.む"}
+{"k": "藤", "en": "wisteria", "pt": "", "on": "トウ、ドウ", "kun": "ふじ"}
+{"k": "沢", "en": "swamp; marsh; brilliance; grace", "pt": "brejo", "on": "タク", "kun": "さわ、うるお.い、うるお.す"}
+{"k": "援", "en": "abet; help; save", "pt": "encorajar; ajudar; salvar", "on": "エン", "kun": ""}
+{"k": "施", "en": "give; bestow; perform; alms", "pt": "esmola; aplicar ataduras; adminatração de 1º socorros", "on": "シ、セ", "kun": "ほどこ.す"}
+{"k": "井", "en": "well; well crib; town; community", "pt": "poço", "on": "セイ、ショウ", "kun": "い"}
+{"k": "鮮", "en": "fresh; vivid; clear; brilliant; Korea", "pt": "fresca; viva; limpa; brilhante; Coréia", "on": "セン", "kun": "あざ.やか"}
+{"k": "監", "en": "oversee; official; govt office; rule; administer", "pt": "fiscalizar; oficial; escritório do govêrno; governar; administrar", "on": "カン", "kun": ""}
+{"k": "環", "en": "ring; circle; loop", "pt": "argola; círculo; elo; roda", "on": "カン", "kun": "わ"}
+{"k": "審", "en": "hearing; judge; trial", "pt": "Inquérito; juiz; julgamento", "on": "シン", "kun": "つまび.らか、つぶさ.に"}
+{"k": "訴", "en": "accusation; sue; complain of pain; appeal to", "pt": "acusação; processo; queixar-se de dor; apelar para", "on": "ソ", "kun": "うった.える"}
+{"k": "影", "en": "shadow; silhouette; phantom", "pt": "sombra; silhueta; fantasma", "on": "エイ", "kun": "かげ"}
+{"k": "撃", "en": "beat; attack; defeat; conquer", "pt": "batida; ataque; derrota; conquista", "on": "ゲキ", "kun": "う.つ"}
+{"k": "佐", "en": "assistant; help", "pt": "assistente; ajuda", "on": "サ", "kun": ""}
+{"k": "核", "en": "nucleus; core; kernel", "pt": "núcleo; centro; cerne", "on": "カク", "kun": ""}
+{"k": "融", "en": "dissolve; melt", "pt": "dissolver; derreter", "on": "ユウ", "kun": "と.ける、と.かす"}
+{"k": "渉", "en": "ford; go cross; transit; ferry; import", "pt": "vau; balsa; porto", "on": "ショウ", "kun": "わた.る"}
+{"k": "響", "en": "echo; sound; resound; ring; vibrate", "pt": "eco; som; ressoar; argola; vibrar", "on": "キョウ", "kun": "ひび.く"}
+{"k": "請", "en": "solicit; invite; ask", "pt": "solicitar; convidar; perguntar", "on": "セイ、シン、ショウ", "kun": "こ.う、う.ける"}
+{"k": "攻", "en": "aggression; attack; criticize; polish", "pt": "agressão; ataque", "on": "コウ", "kun": "せ.める"}
+{"k": "崎", "en": "promontory; cape; spit", "pt": "promontorio; cabo; ponta", "on": "キ", "kun": "さき、さい、みさき"}
+{"k": "督", "en": "coach; command; urge; lead; supervise", "pt": "técnico; comando; desejo; primazia; supervisionar", "on": "トク", "kun": ""}
+{"k": "催", "en": "sponsor; hold (a meeting); give (a dinner)", "pt": "patrocinador; manter (um encontro); oferecer (um jantar)", "on": "サイ", "kun": "もよう.す、もよお.す"}
+{"k": "及", "en": "reach out; exert; exercise; cause", "pt": "alcance fora; exerce; exercício", "on": "キュウ", "kun": "およ.ぶ、およ.び、および"}
+{"k": "離", "en": "detach; separation; disjoin; digress", "pt": "separar; separação; digressão; divagação", "on": "リ", "kun": "はな.れる、はな.す"}
+{"k": "摘", "en": "pinch; pick; pluck; trim; clip", "pt": "pouco; escolher; puxão; arrumar; recomeçar", "on": "テキ", "kun": "つ.む"}
+{"k": "郎", "en": "son; counter for sons", "pt": "filho; sufixo para contagem de filhos", "on": "ロウ、リョウ", "kun": "おとこ"}
+{"k": "振", "en": "shake; wave; wag; swing", "pt": "agitar; onda; sacudir; balançar", "on": "シン", "kun": "ふ.る、ふ.れる、ふ.るう"}
+{"k": "献", "en": "offering; counter for drinks; present; offer", "pt": "oferta; sufixo p/ contagem de bebidas; presente; oferecer", "on": "ケン、コン", "kun": "たてまつ.る"}
+{"k": "維", "en": "fiber; tie; rope", "pt": "fibra; laço; corda", "on": "イ", "kun": ""}
+{"k": "浜", "en": "seacoast; beach; seashore", "pt": "praia; costa", "on": "ヒン", "kun": "はま"}
+{"k": "塁", "en": "bases; fort; rampart; walls; base(ball)", "pt": "fundamentos; base; proteção; paredes; basebol", "on": "ルイ、ライ、スイ", "kun": "とりで"}
+{"k": "邦", "en": "home country; country; Japan", "pt": "Terra natal; país; Japão", "on": "ホウ", "kun": "くに"}
+{"k": "遣", "en": "dispatch; despatch; send; give; donate", "pt": "despacho; enviar; dar; doar; fazer", "on": "ケン", "kun": "つか.う、-つか.い、-づか.い"}
+{"k": "抗", "en": "confront; resist; defy; oppose", "pt": "confrontar; resistir; desafiar; opor", "on": "コウ", "kun": "あらが.う"}
+{"k": "雄", "en": "masculine; male; hero; leader; superiority", "pt": "masculino; másculo; herói; líder; superioridade", "on": "ユウ", "kun": "お-、おす、おん"}
+{"k": "緊", "en": "tense; solid; hard; reliable; tight", "pt": "tenso; apertado; de confiança; duro; sólido", "on": "キン", "kun": "し.める、し.まる"}
+{"k": "廃", "en": "abolish; obsolete; cessation; discarding; abandon", "pt": "cancelar; obsoleto; trégua; descarte; desembaraço", "on": "ハイ", "kun": "すた.れる、すた.る"}
+{"k": "江", "en": "creek; inlet; bay", "pt": "riacho; pequena baía em lagos; baía", "on": "コウ", "kun": "え"}
+{"k": "僚", "en": "colleague; official; companion", "pt": "colega; oficial; companheiro", "on": "リョウ", "kun": ""}
+{"k": "吉", "en": "good luck; joy; congratulations", "pt": "boa sorte; prazer; congratulações", "on": "キチ、キツ", "kun": "よし"}
+{"k": "踏", "en": "step; trample; carry through; appraise; evade payment", "pt": "passo; atropelar; persistir; avalia; escapar de pagamento", "on": "トウ", "kun": "ふ.む、ふ.まえる"}
+{"k": "壊", "en": "demolition; break; destroy", "pt": "demolição; quebrar; destruir", "on": "カイ、エ", "kun": "こわ.す、こわ.れる、やぶ.る"}
+{"k": "債", "en": "bond; loan; debt", "pt": "laço; empréstimo; dívida", "on": "サイ", "kun": ""}
+{"k": "儀", "en": "ceremony; rule; affair; case; a matter", "pt": "cerimônia; regra; romance; caso; uma matéria", "on": "ギ", "kun": ""}
+{"k": "継", "en": "inherit; succeed; continue; patch; graft (tree)", "pt": "herdar; ser bem-sucedido; remendo; enxerto (árvore)", "on": "ケイ", "kun": "つ.ぐ、まま-"}
+{"k": "闘", "en": "fight; war", "pt": "luta; guerra", "on": "トウ", "kun": "たたか.う、あらそ.う"}
+{"k": "葬", "en": "interment; bury; shelve", "pt": "enterro; enterra; declive", "on": "ソウ", "kun": "ほうむ.る"}
+{"k": "避", "en": "evade; avoid; avert; ward off; shirk", "pt": "Evadir-se; evitar; prevenir-se; guardar-se; esquivar-se", "on": "ヒ", "kun": "さ.ける、よ.ける"}
+{"k": "逮", "en": "apprehend; chase", "pt": "compreender; caçar", "on": "タイ", "kun": ""}
+{"k": "迫", "en": "urge; force; imminent; spur on", "pt": "Urgir; forçar; esporear", "on": "ハク", "kun": "せま.る"}
+{"k": "惑", "en": "beguile; delusion; perplexity", "pt": "enganar; desilusão; perplexidade", "on": "ワク", "kun": "まど.う"}
+{"k": "崩", "en": "crumble; die; demolish; level", "pt": "Demolir; murchar; aplainar", "on": "ホウ", "kun": "くず.れる、-くず.れ、くず.す"}
+{"k": "聴", "en": "listen; headstrong; naughty; careful inquiry", "pt": "escutar; teimoso; investigação cuidadosa; desobediente", "on": "チョウ、テイ", "kun": "き.く、ゆる.す"}
+{"k": "脱", "en": "undress; removing; escape from; get rid of; be left out", "pt": "despir; remover; escapar de; livrar-se; ser deixado de fora", "on": "ダツ", "kun": "ぬ.ぐ、ぬ.げる"}
+{"k": "締", "en": "tighten; tie; shut; lock; fasten", "pt": "apertar; amarrar; fechar; travar", "on": "テイ", "kun": "し.まる、し.まり、し.める"}
+{"k": "執", "en": "tenacious; take hold; grasp; take to heart", "pt": "tenaz; segurar; agarrar; simpatizar", "on": "シツ、シュウ", "kun": "と.る"}
+{"k": "房", "en": "tassel; tuft; fringe; bunch; lock (hair)", "pt": "moita; franja; punhado; mecha (cabelo); gomos (laranja)", "on": "ボウ", "kun": "ふさ"}
+{"k": "撤", "en": "remove; withdraw; disarm; dismantle; reject", "pt": "remover; retirar; desarmar; desmantelar; rejeitar", "on": "テツ", "kun": ""}
+{"k": "削", "en": "plane; sharpen; whittle; pare; shave", "pt": "Avião; afiar; descascar; aparar", "on": "サク", "kun": "けず.る、はつ.る、そ.ぐ"}
+{"k": "措", "en": "set aside; give up; suspend; discontinue; lay aside", "pt": "por de lado; desistir; suspender; descontinuar; exceto", "on": "ソ", "kun": "お.く"}
+{"k": "載", "en": "ride; board; get on; place; spread", "pt": "carga; multiplicação; força; 10 elevado a 44", "on": "サイ", "kun": "の.せる、の.る"}
+{"k": "陣", "en": "camp; battle array; ranks; position; sudden", "pt": "acampamento; arranjo na batalha; posições; posição", "on": "ジン", "kun": ""}
+{"k": "為", "en": "do; change; make; benefit; welfare", "pt": "mudança; benefício; bem-estar; é de uso; tentativa", "on": "イ", "kun": "ため、な.る、な.す"}
+{"k": "抑", "en": "repress; well; now; in the first place; push", "pt": "reprimir; bem; agora; no primeiro lugar; empurrar", "on": "ヨク", "kun": "おさ.える"}
+{"k": "奈", "en": "Nara; what?", "pt": "", "on": "ナ、ナイ、ダイ", "kun": "いかん、からなし"}
+{"k": "択", "en": "choose; select; elect; prefer", "pt": "escolher; selecionar; eleger; preferir", "on": "タク", "kun": "えら.ぶ"}
+{"k": "秀", "en": "excel; excellence; beauty; surpass", "pt": "superar; excelência; beleza; superação", "on": "シュウ", "kun": "ひい.でる"}
+{"k": "徴", "en": "indications; sign; omen; symptom; collect", "pt": "indicações; sinal; presságios; sintoma; colecionar", "on": "チョウ、チ", "kun": "しるし"}
+{"k": "弾", "en": "bullet; twang; flip; snap", "pt": "Bala (arma); fanhoso; sacudidela; estalo", "on": "ダン、タン", "kun": "ひ.く、-ひ.き、はず.む"}
+{"k": "償", "en": "reparation; make up for; recompense; redeem", "pt": "reparação; compensação; recompensa; redimir; resgate", "on": "ショウ", "kun": "つぐな.う"}
+{"k": "拠", "en": "foothold; based on; follow; therefore", "pt": "apoio para os pés; baseado em; segue; portanto", "on": "キョ、コ", "kun": "よ.る"}
+{"k": "拒", "en": "repel; refuse; reject; decline", "pt": "repelir; recusar; rejeitar; decadência", "on": "キョ、ゴ", "kun": "こば.む"}
+{"k": "刑", "en": "punish; penalty; sentence; punishment", "pt": "Punir; penalidade; sentença; punição", "on": "ケイ", "kun": ""}
+{"k": "塚", "en": "hillock; mound", "pt": "morro; monte", "on": "チョウ", "kun": "つか、-づか"}
+{"k": "致", "en": "doth; do; send; forward; cause", "pt": "fazer; enviar; transmitir; causar; exercer", "on": "チ", "kun": "いた.す"}
+{"k": "繰", "en": "winding; reel; spin; turn (pages); look up", "pt": "curva; bobina; giro; virar (páginas); melhorar", "on": "ソウ", "kun": "く.る"}
+{"k": "尾", "en": "tail; end; counter for fish; lower slope of mountain", "pt": "rabo; fim; sufixo para contagem de p/ peixes; fundo de uma rampa", "on": "ビ", "kun": "お"}
+{"k": "描", "en": "sketch; compose; write; draw; paint", "pt": "esboço; compor; escrever; desenhar; pintura", "on": "ビョウ", "kun": "えが.く、か.く"}
+{"k": "鈴", "en": "small bell; buzzer", "pt": "pequeno sino; campainha", "on": "レイ、リン", "kun": "すず"}
+{"k": "盤", "en": "tray; shallow bowl; platter; tub; board", "pt": "bandeija; taça rasa; tijela; galão; tábua p/ mesa", "on": "バン", "kun": ""}
+{"k": "項", "en": "paragraph; nape of neck; clause; item; term (expression)", "pt": "parágrafo; nuca; cláusula; item; termo (expressão)", "on": "コウ", "kun": "うなじ"}
+{"k": "喪", "en": "miss; mourning", "pt": "perda; luto", "on": "ソウ", "kun": "も"}
+{"k": "伴", "en": "consort; accompany; bring with; companion", "pt": "consorte; acompanhar; trazer com; companheiro", "on": "ハン、バン", "kun": "ともな.う"}
+{"k": "懸", "en": "state of suspension; hang; depend; consult; distant", "pt": "suspender; pendurar; 10%; instalar; depender", "on": "ケン、ケ", "kun": "か.ける、か.かる"}
+{"k": "契", "en": "pledge; promise; vow", "pt": "penhor; promessa; voto", "on": "ケイ", "kun": "ちぎ.る"}
+{"k": "掲", "en": "put up (a notice); put up; hoist; display; hang out", "pt": "colocar (um aviso); propor; alçar; mostrar; pendurar", "on": "ケイ", "kun": "かか.げる"}
+{"k": "躍", "en": "leap; dance; skip", "pt": "saltar; dançar; pular", "on": "ヤク", "kun": "おど.る"}
+{"k": "棄", "en": "abandon; throw away; discard; resign; reject", "pt": "desembaraço; gastar; descartar; pedir demissão; rejeitar", "on": "キ", "kun": "す.てる"}
+{"k": "邸", "en": "residence; mansion", "pt": "residência; mansão", "on": "テイ", "kun": "やしき"}
+{"k": "還", "en": "send back; return", "pt": "devolver; voltar", "on": "カン", "kun": "かえ.る"}
+{"k": "慮", "en": "prudence; thought; concern; consider; deliberate", "pt": "prudência; pensamento; assunto; considera; deliberate", "on": "リョ", "kun": "おもんぱく.る、おもんぱか.る"}
+{"k": "枠", "en": "frame; framework; spindle; spool; bounding-box", "pt": "moldura; estrutura; carretel; cilindro", "on": "", "kun": "わく"}
+{"k": "恵", "en": "favor; blessing; grace; kindness", "pt": "favor; benção; graça; gentileza", "on": "ケイ、エ", "kun": "めぐ.む、めぐ.み"}
+{"k": "露", "en": "dew; tears; expose; Russia", "pt": "orvalho; lágrimas; mortalidade; fragilidade", "on": "ロ、ロウ", "kun": "つゆ"}
+{"k": "沖", "en": "open sea; offing; rise high into sky", "pt": "oceano aberto; mar aberto; subir no ceú", "on": "チュウ", "kun": "おき、おきつ、ちゅう.する"}
+{"k": "緩", "en": "slacken; loosen; relax; lessen; be moderate", "pt": "afrouxar; relaxar; diminuir; moderar; facilitar", "on": "カン", "kun": "ゆる.い、ゆる.やか、ゆる.む"}
+{"k": "需", "en": "demand; request; need", "pt": "demanda; solicitação; necessidade", "on": "ジュ", "kun": ""}
+{"k": "購", "en": "subscription; buy", "pt": "assinatura; compra", "on": "コウ", "kun": ""}
+{"k": "充", "en": "allot; fill", "pt": "divida; encher", "on": "ジュウ", "kun": "あ.てる、み.たす"}
+{"k": "貢", "en": "tribute; support; finance", "pt": "tributo; apoiar; financiar", "on": "コウ、ク", "kun": "みつ.ぐ"}
+{"k": "鹿", "en": "deer", "pt": "", "on": "ロク", "kun": "しか、か"}
+{"k": "却", "en": "instead; on the contrary; rather; step back; withdraw", "pt": "ao invés; ao contrário; melhor", "on": "キャク", "kun": "かえ.って、しりぞ.く、しりぞ.ける"}
+{"k": "端", "en": "edge; origin; end; point; border", "pt": "margem; origem; fim; ponto; borda", "on": "タン", "kun": "はし、は、はた"}
+{"k": "獲", "en": "seize; get; find; earn; acquire", "pt": "prender; obter; achar; ganhar; adquirir", "on": "カク", "kun": "え.る"}
+{"k": "併", "en": "join; get together; unite; collective", "pt": "unir; reúnir; coletivo", "on": "ヘイ", "kun": "あわ.せる"}
+{"k": "徹", "en": "penetrate; clear; pierce; strike home; sit up (all night)", "pt": "penetrar; limpar; furar; ficar acordado ( noite toda)", "on": "テツ", "kun": ""}
+{"k": "衝", "en": "collide; brunt; highway; opposition (astronomy); thrust", "pt": "colidir; o mais forte; rodovia; oposição (astronomia); atravessar", "on": "ショウ", "kun": "つ.く"}
+{"k": "焦", "en": "char; hurry; impatient; irritate; burn", "pt": "apressar; impaciente; irritar; queimadura; assadura", "on": "ショウ", "kun": "こ.げる、こ.がす、こ.がれる"}
+{"k": "奪", "en": "rob; take by force; snatch away; dispossess; plunder", "pt": "roubar; tomar pela força; apropriar-se; pilhar; usurpar", "on": "ダツ", "kun": "うば.う"}
+{"k": "浦", "en": "bay; creek; inlet; gulf; beach", "pt": "baía; riacho; pequena baía; golfo; praia", "on": "ホ", "kun": "うら"}
+{"k": "析", "en": "chop; divide; tear; analyze", "pt": "picar; dividir; lágrima; analisar", "on": "セキ", "kun": ""}
+{"k": "譲", "en": "defer; turnover; transfer; convey", "pt": "adiar; mudança; transferir; levar", "on": "ジョウ", "kun": "ゆず.る"}
+{"k": "称", "en": "appellation; praise; admire; name; title", "pt": "apelação; elogio; admirar; nome; título", "on": "ショウ", "kun": "たた.える、とな.える、あ.げる"}
+{"k": "挑", "en": "challenge; contend for; make love to", "pt": "desafio; lutar para; fazer amor", "on": "チョウ", "kun": "いど.む"}
+{"k": "誘", "en": "entice; lead; tempt; invite; ask", "pt": "atrair; primazia; tentação; convidar; perguntar", "on": "ユウ", "kun": "さそ.う、いざな.う"}
+{"k": "紛", "en": "distract; be mistaken for; go astray; divert", "pt": "distrair; ser incorreto para; desviar-se; desviar", "on": "フン", "kun": "まぎ.れる、-まぎ.れ、まぎ.らす"}
+{"k": "促", "en": "stimulate; urge; press; demand; incite", "pt": "estimular; desejo; imprensa; demanda; incitar", "on": "ソク", "kun": "うなが.す"}
+{"k": "慎", "en": "humility; be careful; discreet; prudent", "pt": "humildade; cuidado; discreto; prudente", "on": "シン", "kun": "つつし.む、つつ.ましい、つつし"}
+{"k": "控", "en": "withdraw; draw in; hold back; refrain from; be moderate", "pt": "retirar; extrair; devolver; privar-se de; ser moderado", "on": "コウ", "kun": "ひか.える、ひか.え"}
+{"k": "握", "en": "grip; hold; mould sushi; bribe", "pt": "agarrar; segurar; moldar sushi; suborno", "on": "アク", "kun": "にぎ.る"}
+{"k": "俊", "en": "sagacious; genius; excellence", "pt": "sagaz; gênio; excelência", "on": "シュン", "kun": ""}
+{"k": "渋", "en": "astringent; hesitate; reluctant; have diarrhea", "pt": "adstringente; hesitar; relutante; ter diarréia", "on": "ジュウ、シュウ", "kun": "しぶ、しぶ.い、しぶ.る"}
+{"k": "銃", "en": "gun; arms", "pt": "Armas; arma de fogo", "on": "ジュウ", "kun": "つつ"}
+{"k": "携", "en": "portable; carry (in hand); armed with; bring along", "pt": "portátil; carregar (na mão); armado com; trazer consigo", "on": "ケイ", "kun": "たずさ.える、たずさ.わる"}
+{"k": "診", "en": "checkup; seeing; diagnose; examine", "pt": "checkup; vendo; diagnosticar; examinar", "on": "シン", "kun": "み.る"}
+{"k": "託", "en": "consign; requesting; entrusting with; pretend; hint", "pt": "consignar; solicitar; confiar; fingir; sugestão", "on": "タク", "kun": "かこつ.ける、かこ.つ、かこ.つける"}
+{"k": "撮", "en": "snapshot; take pictures", "pt": "instantâneo; tirar fotos", "on": "サツ", "kun": "と.る、つま.む、-ど.り"}
+{"k": "侵", "en": "encroach; invade; raid; trespass; violate", "pt": "usurpar; invadir; raid; transgredir; violar", "on": "シン", "kun": "おか.す"}
+{"k": "括", "en": "fasten; tie up; arrest; constrict", "pt": "fechar; amarrar; prisão; constranger", "on": "カツ", "kun": "くく.る"}
+{"k": "駆", "en": "drive; run; gallop; advance; inspire", "pt": "dirigir; corrida; galope; avançar; inspirar", "on": "ク", "kun": "か.ける、か.る"}
+{"k": "透", "en": "transparent; permeate; filter; penetrate", "pt": "transparente; permeear; filtrar; penetrar", "on": "トウ", "kun": "す.く、す.かす、す.ける"}
+{"k": "津", "en": "haven; port; harbor; ferry", "pt": "abrigo; porto; balsa", "on": "シン", "kun": "つ"}
+{"k": "壁", "en": "wall; lining (stomach); fence", "pt": "parede; forro; cerca", "on": "ヘキ", "kun": "かべ"}
+{"k": "稲", "en": "rice plant", "pt": "planta de arroz", "on": "トウ、テ", "kun": "いね、いな-"}
+{"k": "裂", "en": "split; rend; tear", "pt": "partir; arrancar; lágrimas", "on": "レツ", "kun": "さ.く、さ.ける、-ぎ.れ"}
+{"k": "敏", "en": "cleverness; agile; alert", "pt": "inteligência; ágil; alerta", "on": "ビン", "kun": "さとい"}
+{"k": "是", "en": "just so; this; right; justice", "pt": "somente assim; isto; certo; justiça", "on": "ゼ、シ", "kun": "これ、この、ここ"}
+{"k": "排", "en": "repudiate; exclude; expel; reject; line up", "pt": "repudiar; excluir; expelir; rejeitar", "on": "ハイ", "kun": ""}
+{"k": "裕", "en": "abundant; rich; fertile", "pt": "fértil; rico; abundante", "on": "ユウ", "kun": ""}
+{"k": "堅", "en": "strict; hard; solid; tough; tight", "pt": "de confiança; apertado; duro; sólido; firme", "on": "ケン", "kun": "かた.い、-がた.い"}
+{"k": "芝", "en": "turf; lawn", "pt": "gramado; relva", "on": "シ", "kun": "しば"}
+{"k": "綱", "en": "hawser; class (genus); rope; cord; cable", "pt": "amarrio; classe (gênero em biologia); corda; cabo", "on": "コウ", "kun": "つな"}
+{"k": "扱", "en": "handle; entertain; thresh; strip", "pt": "cabo; entreter; debulhar; desnudar", "on": "ソウ、キュウ", "kun": "あつか.い、あつか.う、あつか.る"}
+{"k": "顧", "en": "look back; review; examine oneself; turn around", "pt": "recordar; revisão; auto-examinar; voltar-se", "on": "コ", "kun": "かえり.みる"}
+{"k": "訟", "en": "sue; accuse", "pt": "processar; acusar", "on": "ショウ", "kun": ""}
+{"k": "戒", "en": "commandment", "pt": "mandamentos", "on": "カイ", "kun": "いまし.める"}
+{"k": "祉", "en": "welfare; happiness", "pt": "bem-estar; felicidade", "on": "シ", "kun": ""}
+{"k": "誉", "en": "reputation; praise; honor; glory", "pt": "reputação; elogio; honra; glória", "on": "ヨ", "kun": "ほま.れ、ほ.める"}
+{"k": "歓", "en": "delight; joy", "pt": "deleite; prazer", "on": "カン", "kun": "よろこ.ぶ"}
+{"k": "勧", "en": "persuade; recommend; advise; encourage; offer", "pt": "persuadir; recomendar; aconselhar; emcorajar; oferecer", "on": "カン、ケン", "kun": "すす.める"}
+{"k": "騒", "en": "boisterous; make noise; clamor; disturb; excite", "pt": "vociferante; barulhento; clamor; perturbar; excitar", "on": "ソウ", "kun": "さわ.ぐ、うれい、さわ.がしい"}
+{"k": "閥", "en": "clique; lineage; pedigree; faction; clan", "pt": "grupo; linhagem; pedigree; facção; clã", "on": "バツ", "kun": ""}
+{"k": "甲", "en": "armor; high (voice); A grade; first class; former", "pt": "armadura; alto (voz); Um grau; umterior; peito do pé", "on": "コウ、カン", "kun": "きのえ"}
+{"k": "縄", "en": "straw rope; cord", "pt": "corda de palha; corda", "on": "ジョウ", "kun": "なわ、ただ.す"}
+{"k": "揺", "en": "swing; shake; sway; rock; tremble", "pt": "balançar; agitar; oscilação; sacudir; tremer", "on": "ヨウ", "kun": "ゆ.れる、ゆ.る、ゆ.らぐ"}
+{"k": "免", "en": "excuse; dismissal", "pt": "Desculpar; demissão", "on": "メン", "kun": "まぬか.れる、まぬが.れる"}
+{"k": "既", "en": "previously; already; long ago", "pt": "previamente; já; há muito tempo", "on": "キ", "kun": "すで.に"}
+{"k": "薦", "en": "recommend; mat; advise; encourage; offer", "pt": "recomendar; esteira; aconselhar; encorajar; oferecer", "on": "セン", "kun": "すす.める"}
+{"k": "隣", "en": "neighboring", "pt": "vizinho", "on": "リン", "kun": "とな.る、となり"}
+{"k": "華", "en": "splendor; flower; petal; shine; luster", "pt": "esplendor; flor; pétala; brilho; lustre", "on": "カ、ケ", "kun": "はな"}
+{"k": "範", "en": "pattern; example; model", "pt": "modelo; exemplo", "on": "ハン", "kun": ""}
+{"k": "隠", "en": "conceal; hide; cover", "pt": "esconder; esconderijo; capa", "on": "イン、オン", "kun": "かく.す、かく.し、かく.れる"}
+{"k": "哲", "en": "philosophy; clear", "pt": "filosofia; clarear", "on": "テツ", "kun": "さとい、あきらか"}
+{"k": "杉", "en": "cedar; cryptomeria", "pt": "cedro", "on": "サン", "kun": "すぎ"}
+{"k": "釈", "en": "explanation", "pt": "explicação", "on": "シャク、セキ", "kun": "とく、す.てる、ゆる.す"}
+{"k": "妥", "en": "gentle; peace; satisfactory; appropriate", "pt": "suave; paz; corrupção", "on": "ダ", "kun": ""}
+{"k": "威", "en": "intimidate; dignity; majesty; menace; threaten", "pt": "intimidar; dignidade; majestade; ameaça; ameaçar", "on": "イ", "kun": "おど.す、おど.し、おど.かす"}
+{"k": "豪", "en": "overpowering; great; powerful; excelling; Australia", "pt": "predominar; grande; poderoso; superação; Austrália", "on": "ゴウ", "kun": "えら.い"}
+{"k": "熊", "en": "bear", "pt": "", "on": "ユウ", "kun": "くま"}
+{"k": "滞", "en": "stagnate; be delayed; overdue; arrears", "pt": "estagnar; demorar-se; atrasar-se; atraso no pagamento", "on": "タイ、テイ", "kun": "とどこお.る"}
+{"k": "微", "en": "delicate; minuteness; insignificance", "pt": "delicado; miudeza; insignificancia", "on": "ビ", "kun": "かす.か"}
+{"k": "隆", "en": "hump; high; noble; prosperity", "pt": "corcova; alto; nobre; prosperidade", "on": "リュウ", "kun": ""}
+{"k": "症", "en": "symptoms; illness", "pt": "sintomas; doença", "on": "ショウ", "kun": ""}
+{"k": "暫", "en": "temporarily; a while; moment; long time", "pt": "temporariamente; por enquanto; momento; tempo longo", "on": "ザン", "kun": "しばら.く"}
+{"k": "肝", "en": "liver; pluck; nerve; chutzpah", "pt": "fígado; vísceras; nervo; chutzpah", "on": "カン", "kun": "きも"}
+{"k": "喚", "en": "yell; cry; call; scream; summon", "pt": "Gritar; choro; grito", "on": "カン", "kun": "わめ.く"}
+{"k": "妙", "en": "exquisite; strange; queer; mystery; miracle", "pt": "estranho; seleto; afeminado; mistério; milagre", "on": "ミョウ、ビョウ", "kun": "たえ"}
+{"k": "索", "en": "cord; rope; searching; inquiring", "pt": "corda; cabo", "on": "サク", "kun": ""}
+{"k": "襲", "en": "attack; advance on; succeed to; pile; heap", "pt": "ataque; avançar; ser bem-sucedido", "on": "シュウ", "kun": "おそ.う、かさ.ね"}
+{"k": "懇", "en": "sociable; kind; courteous; hospitable; cordial", "pt": "sociável; espécie; cordial; hospitaleira; cortês", "on": "コン", "kun": "ねんご.ろ"}
+{"k": "柄", "en": "design; pattern; build; nature; character", "pt": "projeto; modelo; construção; natureza; cabo", "on": "ヘイ", "kun": "がら、え、つか"}
+{"k": "驚", "en": "wonder; be surprised; frightened; amazed", "pt": "maravilha; ser surpreendido; assustadoa; assombrado; maravilhar-se", "on": "キョウ", "kun": "おどろ.く、おどろ.かす"}
+{"k": "麻", "en": "hemp; flax; numb", "pt": "cânhamo; linho", "on": "マ、マア", "kun": "あさ"}
+{"k": "剤", "en": "dose; medicine; drug", "pt": "dose; remédio; droga", "on": "ザイ、スイ、セイ", "kun": "かる、けず.る"}
+{"k": "瀬", "en": "rapids; current; torrent; shallows; shoal", "pt": "corredeiras; corrente; torrente; baixios; banco de areia", "on": "ライ", "kun": "せ"}
+{"k": "趣", "en": "purport; gist; elegance; interest; proceed to", "pt": "essência; continuar para; tender; tornar-se", "on": "シュ", "kun": "おもむき、おもむ.く"}
+{"k": "陥", "en": "collapse; fall into; cave in; fall (castle); slide into", "pt": "colapso; desmoronar; ruir; queda (castelo); deslizamento", "on": "カン", "kun": "おちい.る、おとしい.れる"}
+{"k": "斎", "en": "purification; Buddhist food; room; worship; avoid", "pt": "purificação; comida de Budistas; quarto; adorar; evitar", "on": "サイ", "kun": "とき、つつし.む、ものいみ"}
+{"k": "貫", "en": "pierce; 8 1/3lbs; penetrate; brace", "pt": "furar; medida de peso com 8 1/ 3 lbs; penetrar; gancho", "on": "カン", "kun": "つらぬ.く、ぬ.く、ぬき"}
+{"k": "仙", "en": "hermit; wizard; cent", "pt": "Eremita; mago; centavo", "on": "セン、セント", "kun": ""}
+{"k": "慰", "en": "consolation; amusement; seduce; cheer; make sport of", "pt": "consolo; divertimento; sedução; torce; levar na esportiva", "on": "イ", "kun": "なぐさ.める、なぐさ.む"}
+{"k": "旬", "en": "decameron; ten-day period; season (for specific products)", "pt": "decameron; 10 dias; estação (para produtos específicos", "on": "ジュン、シュン", "kun": ""}
+{"k": "兼", "en": "concurrently; and; beforehand; in advance", "pt": "Concorrentemente; e", "on": "ケン", "kun": "か.ねる、-か.ねる"}
+{"k": "旨", "en": "delicious; relish; show a liking for; purport; will", "pt": "delicioso; sabor; mostra um gosto para; vontade; inteligente", "on": "シ", "kun": "むね、うま.い"}
+{"k": "即", "en": "instant; namely; as is; conform; agree", "pt": "instante; a saber; como está; comformar-se; concordar", "on": "ソク", "kun": "つ.く、つ.ける、すなわ.ち"}
+{"k": "柳", "en": "willow", "pt": "salgueiro", "on": "リュウ", "kun": "やなぎ"}
+{"k": "偽", "en": "falsehood; lie; deceive; pretend; counterfeit", "pt": "falsidade; mentira; enganar; fingir; falsificação", "on": "ギ、カ", "kun": "いつわ.る、にせ、いつわ.り"}
+{"k": "較", "en": "contrast; compare", "pt": "contraste; comparar", "on": "カク、コウ", "kun": "くら.べる"}
+{"k": "覇", "en": "hegemony; supremacy; leadership; champion", "pt": "hegemonia; supremacia; liderança; campeão", "on": "ハ、ハク", "kun": "はたがしら"}
+{"k": "詳", "en": "detailed; full; minute; accurate; well-informed", "pt": "detalhado; cheio; bem-informado; preciso", "on": "ショウ", "kun": "くわ.しい、つまび.らか"}
+{"k": "抵", "en": "resist; reach; touch", "pt": "resistir; alcançar; tocar", "on": "テイ", "kun": ""}
+{"k": "脅", "en": "threaten; coerce", "pt": "ameaçar; coagir", "on": "キョウ", "kun": "おびや.かす、おど.す、おど.かす"}
+{"k": "茂", "en": "overgrown; grow thick; be luxuriant", "pt": "Coberto de plantas; cresce forte; luxuriante", "on": "モ", "kun": "しげ.る"}
+{"k": "犠", "en": "sacrifice", "pt": "Sacrifício", "on": "ギ、キ", "kun": "いけにえ"}
+{"k": "距", "en": "long-distance; spur; fetlock", "pt": "Longa distância", "on": "キョ", "kun": "へだ.たる、けづめ"}
+{"k": "雅", "en": "gracious; elegant; graceful; refined", "pt": "elegante; benévolo; gracioso; refinado", "on": "ガ", "kun": "みや.び"}
+{"k": "飾", "en": "decorate; ornament; adorn; embellish", "pt": "decorar; ornamento; adornar; embelezar", "on": "ショク", "kun": "かざ.る、かざ.り"}
+{"k": "網", "en": "netting; network", "pt": "enredar; rede", "on": "モウ", "kun": "あみ"}
+{"k": "竜", "en": "dragon; imperial", "pt": "dragão imperial", "on": "リュウ、リョウ、ロウ", "kun": "たつ、いせ"}
+{"k": "繁", "en": "luxuriant; thick; overgrown; frequency; complexity", "pt": "luxuriante; espesso; coberto de vegetação; frequência; complexidade", "on": "ハン", "kun": "しげ.る、しげ.く"}
+{"k": "翼", "en": "wing; plane; flank", "pt": "asa; avião; flanco", "on": "ヨク", "kun": "つばさ"}
+{"k": "潟", "en": "lagoon", "pt": "lagoa", "on": "セキ", "kun": "かた、-がた"}
+{"k": "魅", "en": "fascination; charm; bewitch", "pt": "fascinação; charme; fascinar", "on": "ミ", "kun": ""}
+{"k": "嫌", "en": "dislike; detest; hate", "pt": "desgostar; detestar; odiar", "on": "ケン、ゲン", "kun": "きら.う、きら.い、いや"}
+{"k": "斉", "en": "adjusted; alike; equal; similar variety of", "pt": "ajustado; da mesma forma; igual; variedade parecida", "on": "セイ、サイ", "kun": "そろ.う、ひと.しい、ひと.しく"}
+{"k": "敷", "en": "spread; pave; sit; promulgate", "pt": "espalhar; pavimentar; assentar; promulgar", "on": "フ", "kun": "し.く、-し.き"}
+{"k": "擁", "en": "hug; embrace; possess; protect; lead", "pt": "abraçar; possuir; proteger; primazia", "on": "ヨウ", "kun": ""}
+{"k": "圏", "en": "sphere; circle; radius; range", "pt": "esfera; círculo; raio; série", "on": "ケン", "kun": "かこ.い"}
+{"k": "罰", "en": "penalty; punishment", "pt": "penalidade; punição", "on": "バツ、バチ、ハツ", "kun": "ばっ.する"}
+{"k": "滅", "en": "destroy; ruin; overthrow; perish", "pt": "destruir; arruinar; extinguir; golpe", "on": "メツ", "kun": "ほろ.びる、ほろ.ぶ、ほろ.ぼす"}
+{"k": "礎", "en": "cornerstone; foundation stone", "pt": "Pedra angular; pedra de fundação", "on": "ソ", "kun": "いしずえ"}
+{"k": "腐", "en": "rot; decay; sour", "pt": "prodre; apodrecer; azedar", "on": "フ", "kun": "くさ.る、-くさ.る、くさ.れる"}
+{"k": "脚", "en": "skids; leg; undercarriage; lower part; base", "pt": "derrapagens; perna; armação", "on": "キャク、キャ、カク", "kun": "あし"}
+{"k": "尽", "en": "exhaust; use up; run out of; deplete; befriend", "pt": "acabar; exaurir; terminar; faz amizade com; servir (alguem)", "on": "ジン、サン", "kun": "つ.きる、つ.くす、つ.かす"}
+{"k": "僕", "en": "me; I (male); servant; manservant", "pt": "me; a mim; Eu (masculino)", "on": "ボク", "kun": "しもべ"}
+{"k": "滑", "en": "slippery; slide; slip; fail exam", "pt": "Escorregadio; deslizar; escorregar; falhar", "on": "カツ、コツ", "kun": "すべ.る、なめ.らか"}
+{"k": "孤", "en": "orphan; alone", "pt": "órfão; só", "on": "コ", "kun": ""}
+{"k": "炎", "en": "inflammation; flame; blaze", "pt": "inflamação; chama; fogo", "on": "エン", "kun": "ほのお"}
+{"k": "賠", "en": "compensation; indemnify", "pt": "compensação; indenização", "on": "バイ", "kun": ""}
+{"k": "頑", "en": "stubborn; foolish; firmly", "pt": "tolo; teimoso; firmamente", "on": "ガン", "kun": "かたく.な"}
+{"k": "鎖", "en": "chain; irons; connection", "pt": "cadeias; ferros; conexão", "on": "サ", "kun": "くさり、とざ.す"}
+{"k": "彩", "en": "coloring; paint; makeup", "pt": "colorindo; pintura; maquilagem", "on": "サイ", "kun": "いろど.る"}
+{"k": "摩", "en": "chafe; rub; polish; grind; scrape", "pt": "escoriação; raspar; polir; alcance; arranhão", "on": "マ", "kun": "ま.する、さす.る、す.る"}
+{"k": "励", "en": "encourage; be diligent; inspire", "pt": "encorajar; estar diligente; inspirar", "on": "レイ", "kun": "はげ.む、はげ.ます"}
+{"k": "輝", "en": "radiance; shine; sparkle; gleam; twinkle", "pt": "brilho; luzir; centelha; faiscar; piscar", "on": "キ", "kun": "かがや.く"}
+{"k": "蓄", "en": "amass; raise; hoard; store", "pt": "acumular; ter uma concubina; fonógrafo", "on": "チク", "kun": "たくわ.える"}
+{"k": "軸", "en": "axis; pivot; stem; stalk; counter for book scrolls", "pt": "eixo; pivô; talo; caule; sufixo para contagem de pergaminhos", "on": "ジク", "kun": ""}
+{"k": "巡", "en": "patrol; go around; circumference", "pt": "patrulhar; dar uma volta; circunferência", "on": "ジュン", "kun": "めぐ.る、めぐ.り"}
+{"k": "稼", "en": "earnings; work; earn money", "pt": "salário; trabalhar; ganhar dinheiro", "on": "カ", "kun": "かせ.ぐ"}
+{"k": "瞬", "en": "wink; blink; twinkle", "pt": "pestanejar; piscar", "on": "シュン", "kun": "またた.く、まじろ.ぐ"}
+{"k": "砲", "en": "cannon; gun", "pt": "canhão; arma", "on": "ホウ", "kun": ""}
+{"k": "噴", "en": "erupt; spout; emit; flush out", "pt": "irromper; repuxo; emitir; excitar", "on": "フン", "kun": "ふ.く"}
+{"k": "誇", "en": "boast; be proud; pride; triumphantly", "pt": "contar vantagem; estar orgulhoso; orgulho; triunfantemente", "on": "コ", "kun": "ほこ.る"}
+{"k": "祥", "en": "auspicious; happiness; blessedness; good omen; good fortune", "pt": "auspicioso; felicidade; bons auspícios", "on": "ショウ", "kun": "さいわ.い、きざ.し、よ.い"}
+{"k": "牲", "en": "animal sacrifice; offering", "pt": "Sacrifício animal; oferta", "on": "セイ", "kun": ""}
+{"k": "秩", "en": "regularity; salary; order", "pt": "regularidade; salário; pedido", "on": "チツ", "kun": ""}
+{"k": "帝", "en": "sovereign; the emperor; god; creator", "pt": "soberano; o imperador; Deus; criador", "on": "テイ", "kun": "みかど"}
+{"k": "唆", "en": "tempt; seduce; instigate; promote", "pt": "tentação; sedução; instigar; promover", "on": "サ", "kun": "そそ.る、そそのか.す"}
+{"k": "阻", "en": "thwart; separate from; prevent; obstruct; deter", "pt": "demover; separar de; previnir; obstruir; deter", "on": "ソ", "kun": "はば.む"}
+{"k": "泰", "en": "peaceful; calm; peace; easy; Thailand", "pt": "pacífico; calma; paz; fácil; Tailandia", "on": "タイ", "kun": ""}
+{"k": "賄", "en": "bribe; board; supply; finance", "pt": "suborno; conselho (adm.); oferta; finanças", "on": "ワイ", "kun": "まかな.う"}
+{"k": "撲", "en": "slap; strike; hit; beat; tell", "pt": "tapa; bater; acesso; batida; contar", "on": "ボク", "kun": ""}
+{"k": "堀", "en": "ditch; moat; canal", "pt": "trincheira; fosso; canal", "on": "クツ", "kun": "ほり"}
+{"k": "菊", "en": "chrysanthemum", "pt": "crisântemo", "on": "キク", "kun": ""}
+{"k": "絞", "en": "strangle; constrict; wring", "pt": "estrangular; apertar; torcer", "on": "コウ", "kun": "しぼ.る、し.める、し.まる"}
+{"k": "縁", "en": "affinity; relation; connection; edge; border", "pt": "afinidade; relação; conexão; margem; borda", "on": "エン、-ネン", "kun": "ふち、ふち.どる、ゆかり"}
+{"k": "唯", "en": "solely; only; merely; simply", "pt": "somente; unicamente; meramente; simplesmente", "on": "ユイ、イ", "kun": "ただ"}
+{"k": "膨", "en": "swell; get fat; thick", "pt": "inchar; engordar; espesso", "on": "ボウ", "kun": "ふく.らむ、ふく.れる"}
+{"k": "耐", "en": "-proof; enduring", "pt": "A prova de; duradouro", "on": "タイ", "kun": "た.える"}
+{"k": "塾", "en": "cram school; private school", "pt": "escola p/ reforço; escola particular", "on": "ジュク", "kun": ""}
+{"k": "漏", "en": "leak; escape; time", "pt": "vazamento; escapar; tempo", "on": "ロウ", "kun": "も.る、も.れる、も.らす"}
+{"k": "慶", "en": "jubilation; congratulate; rejoice; be happy", "pt": "júbilo; congratular; regozijar-se; estar feliz", "on": "ケイ", "kun": "よろこ.び"}
+{"k": "猛", "en": "fierce; rave; rush; become furious; wildness", "pt": "feroz; enfurecer; acelerar; tornar-se furioso; selvageria", "on": "モウ", "kun": ""}
+{"k": "芳", "en": "perfume; balmy; favorable; fragrant", "pt": "perfume; calmante; cheiroso; fragrante", "on": "ホウ", "kun": "かんば.しい"}
+{"k": "懲", "en": "penal; chastise; punish; discipline", "pt": "penal; castigar; punir; disciplinar", "on": "チョウ", "kun": "こ.りる、こ.らす、こ.らしめる"}
+{"k": "剣", "en": "sabre; sword; blade; clock hand", "pt": "sabre; espada; lâmina; ponteiro de relógio", "on": "ケン", "kun": "つるぎ"}
+{"k": "彰", "en": "patent; clear", "pt": "patente; clarear", "on": "ショウ", "kun": ""}
+{"k": "棋", "en": "chess piece; Japanese chess; shogi", "pt": "peça de xadrez; xadrez Japonês; shogi", "on": "キ", "kun": "ご"}
+{"k": "恒", "en": "constancy; always", "pt": "constância; sempre", "on": "コウ", "kun": "つね、つねに"}
+{"k": "揚", "en": "raise; elevate; hoist; praise; extol", "pt": "levantar; fritar em gordura funda", "on": "ヨウ", "kun": "あ.げる、-あ.げ、あ.がる"}
+{"k": "冒", "en": "risk; face; defy; dare; damage", "pt": "risco; enfrentar; desafiar; ousar; prejuízo", "on": "ボウ", "kun": "おか.す"}
+{"k": "倫", "en": "ethics; companion", "pt": "ética; companheiro", "on": "リン", "kun": ""}
+{"k": "陳", "en": "exhibit; state; relate; explain", "pt": "exibição; estado; relacionar; explicar", "on": "チン", "kun": "ひ.ねる"}
+{"k": "憶", "en": "recollection; think; remember", "pt": "lembrança; pensar; recordar", "on": "オク", "kun": ""}
+{"k": "潜", "en": "submerge; conceal; hide; lower (voice); hush", "pt": "submergir; esconder; ocultar; abaixar (voz); calar", "on": "セン", "kun": "ひそ.む、もぐ.る、かく.れる"}
+{"k": "梨", "en": "pear tree", "pt": "", "on": "リ", "kun": "なし"}
+{"k": "克", "en": "overcome; kindly; skillfully", "pt": "Superar; bondoso; habilmente", "on": "コク", "kun": "か.つ"}
+{"k": "岳", "en": "point; peak; mountain", "pt": "ponto; pico; montanha", "on": "ガク", "kun": "たけ"}
+{"k": "概", "en": "outline; condition; approximation; generally", "pt": "contorno; condição; aproximação; geralmente", "on": "ガイ", "kun": "おおむ.ね"}
+{"k": "拘", "en": "arrest; seize; concerned; adhere to; despite", "pt": "prisão; prender; interessada; aderir; desgosto", "on": "コウ", "kun": "かか.わる"}
+{"k": "黙", "en": "silence; become silent; stop speaking; leave as is", "pt": "silêncio; tornar-se silencioso; parar de falar; deixar como está", "on": "モク、ボク", "kun": "だま.る、もだ.す"}
+{"k": "須", "en": "ought; by all means; necessarily", "pt": "", "on": "ス、シュ", "kun": "すべから.く、すべし、ひげ"}
+{"k": "偏", "en": "partial; side; left-side radical; inclining; biased", "pt": "parcial; lado; lado esquerdo; radical; inclinar-se", "on": "ヘン", "kun": "かたよ.る"}
+{"k": "雰", "en": "atmosphere; fog", "pt": "atmosfera; nevoeiro", "on": "フン", "kun": ""}
+{"k": "遇", "en": "meet; encounter; interview; treat; entertain", "pt": "entrevista; convite; entreter; receber; lidar com", "on": "グウ", "kun": "あ.う"}
+{"k": "諮", "en": "consult with", "pt": "Consultar-se", "on": "シ", "kun": "はか.る"}
+{"k": "狭", "en": "cramped; narrow; contract; tight", "pt": "limitar; estreitar; contrair; apertar", "on": "キョウ、コウ", "kun": "せま.い、せば.める、せば.まる"}
+{"k": "卓", "en": "eminent; table; desk; high", "pt": "eminente; tabela; mesa; alta", "on": "タク", "kun": ""}
+{"k": "亀", "en": "tortoise; turtle", "pt": "", "on": "キ、キュウ、キン", "kun": "かめ"}
+{"k": "糧", "en": "provisions; food; bread", "pt": "provisões; comida; pão", "on": "リョウ、ロウ", "kun": "かて"}
+{"k": "簿", "en": "register; record book", "pt": "registro; registrar em livros", "on": "ボ", "kun": ""}
+{"k": "炉", "en": "hearth; furnace; kiln; reactor", "pt": "lareira; forno; fornalha; reator", "on": "ロ", "kun": "いろり"}
+{"k": "殊", "en": "particularly; especially; exceptionally", "pt": "particularmente; especialmente; excepcionalmente", "on": "シュ", "kun": "こと"}
+{"k": "殖", "en": "augment; increase; multiply; raise", "pt": "aumentar; aumento; multiplicar; levantar", "on": "ショク", "kun": "ふ.える、ふ.やす"}
+{"k": "艦", "en": "warship", "pt": "navio de guerra", "on": "カン", "kun": ""}
+{"k": "輩", "en": "comrade; fellow; people; companions", "pt": "camarada; companheiro; colega; pessoas", "on": "ハイ", "kun": "-ばら、やから、やかい"}
+{"k": "奇", "en": "strange; strangeness; curiosity", "pt": "estranho; estranheza; curiousidade", "on": "キ", "kun": "く.しき、あや.しい、くし"}
+{"k": "慢", "en": "ridicule; laziness", "pt": "ridículo; preguiçoso", "on": "マン", "kun": ""}
+{"k": "鶴", "en": "crane; stork", "pt": "", "on": "カク", "kun": "つる"}
+{"k": "謀", "en": "conspire; cheat; impose on; plan; devise", "pt": "conspirar; engano; impor; plano; inventar", "on": "ボウ、ム", "kun": "はか.る、たばか.る、はかりごと"}
+{"k": "拍", "en": "clap; beat (music)", "pt": "aplauso; batida (música)", "on": "ハク、ヒョウ", "kun": ""}
+{"k": "寛", "en": "tolerant; leniency; generosity; relax; feel at home", "pt": "tolerante; leniente; generosidade; relaxar; à vontade", "on": "カン", "kun": "くつろ.ぐ、ひろ.い、ゆる.やか"}
+{"k": "覆", "en": "capsize; cover; shade; mantle; be ruined", "pt": "emborcar; capa; matiz; manto; arruinar-se", "on": "フク", "kun": "おお.う、くつがえ.す、くつがえ.る"}
+{"k": "胞", "en": "placenta; sac; sheath", "pt": "placenta; bolsa; estojo", "on": "ホウ", "kun": ""}
+{"k": "隔", "en": "isolate; alternate; distance; separate; gulf", "pt": "isolar; alternar; distância; separar; golfo", "on": "カク", "kun": "へだ.てる、へだ.たる"}
+{"k": "浄", "en": "clean; purify; cleanse; exorcise; Manchu Dynasty", "pt": "limpar; purificar; limpeza; exorcisar; Disnastia Manchu", "on": "ジョウ、セイ", "kun": "きよ.める、きよ.い"}
+{"k": "没", "en": "drown; sink; hide; fall into; disappear", "pt": "afogar; afundar; esconder; cair na mãos de; desaparecer", "on": "ボツ、モツ", "kun": "おぼ.れる、しず.む、ない"}
+{"k": "暇", "en": "spare time; rest; leisure; time; leave of absence", "pt": "tempo livre; descanso; lazer; tempo; ausência", "on": "カ", "kun": "ひま、いとま"}
+{"k": "貞", "en": "upright; chastity; constancy; righteousness", "pt": "correto; casto; constância; retidão", "on": "テイ、ジョウ", "kun": "ただし.い、さだ"}
+{"k": "鑑", "en": "specimen; take warning from; learn from", "pt": "espécime; se precaver; aprender o", "on": "カン", "kun": "かんが.みる、かがみ"}
+{"k": "陰", "en": "shade; yin; negative; sex organs; secret", "pt": "matiz; yin; negativa; órgões sexuais; segredo", "on": "イン", "kun": "かげ、かげ.る"}
+{"k": "銘", "en": "inscription; signature (of artisan)", "pt": "inscrição; assinatura (de artesão)", "on": "メイ", "kun": ""}
+{"k": "随", "en": "follow; though; notwithstanding; while; during", "pt": "seguir; embora; não obstante; enquanto; durante", "on": "ズイ", "kun": "まにま.に、したが.う"}
+{"k": "烈", "en": "ardent; violent; vehement; furious; severe", "pt": "severo; furioso; veemente; violento; ardente", "on": "レツ", "kun": "はげ.しい"}
+{"k": "尋", "en": "inquire; fathom; look for", "pt": "indagar; aprofundar; procurar", "on": "ジン", "kun": "たず.ねる、ひろ"}
+{"k": "稿", "en": "draft; copy; manuscript; straw", "pt": "esboço; cópia; manuscrito; palha", "on": "コウ", "kun": "わら、したがき"}
+{"k": "丹", "en": "rust-colored; red; red lead; pills; sincerity", "pt": "Ferrugem; colorido; vermelho; pílulas", "on": "タン", "kun": "に"}
+{"k": "啓", "en": "disclose; open; say", "pt": "revelar; abrir; dizer", "on": "ケイ", "kun": "ひら.く、さと.す"}
+{"k": "丘", "en": "hill; knoll", "pt": "morro; colina", "on": "キュウ", "kun": "おか"}
+{"k": "棟", "en": "ridgepole; ridge", "pt": "Trave horizontal; sulcar", "on": "トウ", "kun": "むね、むな-"}
+{"k": "壌", "en": "lot; earth; soil", "pt": "muito; terra; solo", "on": "ジョウ", "kun": "つち"}
+{"k": "漫", "en": "cartoon; involuntarily; unrestrained; in spite of oneself; corrupt", "pt": "desenho animado; involuntariamente; no interesse de a si próprio; corrompido", "on": "マン", "kun": "みだり.に、そぞ.ろ"}
+{"k": "玄", "en": "mysterious; occultness; black; deep; profound", "pt": "misterioso; oculto", "on": "ゲン", "kun": "くろ、くろ.い"}
+{"k": "粘", "en": "sticky; glutinous; greasy; persevere", "pt": "grudento; aglutinado; gorduroso; perseverar", "on": "ネン", "kun": "ねば.る"}
+{"k": "悟", "en": "enlightenment; perceive; discern; realize; understand", "pt": "Iluminação (budismo); perceber; discernir; compreender; compreende", "on": "ゴ", "kun": "さと.る"}
+{"k": "舗", "en": "shop; store; pave", "pt": "Loja", "on": "ホ", "kun": ""}
+{"k": "妊", "en": "pregnancy", "pt": "gravidez", "on": "ニン、ジン", "kun": "はら.む、みごも.る"}
+{"k": "騰", "en": "leaping up; jumping up; rising; advancing; going", "pt": "inflação; avançar; ir", "on": "トウ", "kun": "あが.る、のぼ.る"}
+{"k": "遂", "en": "consummate; accomplish; attain; commit (suicide)", "pt": "consumir; efetuar; atingir; cometer (suicídio)", "on": "スイ", "kun": "と.げる、つい.に"}
+{"k": "狂", "en": "lunatic; insane; crazy; confuse", "pt": "lunático; louco; insano; confundir", "on": "キョウ", "kun": "くる.う、くる.おしい、くるお.しい"}
+{"k": "岐", "en": "branch off; fork in road; scene; arena; theater", "pt": "ramo cortado; bifurcação; cena; arena; teatro", "on": "キ、ギ", "kun": ""}
+{"k": "緯", "en": "horizontal; woof; left &amp; right; (parallels of) latitude; prediction", "pt": "horizontal; trama; esquerda &amp; direita; latitude", "on": "イ", "kun": "よこいと、ぬき"}
+{"k": "培", "en": "cultivate; foster", "pt": "cultivar; alimentar", "on": "バイ", "kun": "つちか.う"}
+{"k": "衰", "en": "decline; wane; weaken", "pt": "decadência; decadente; enfraquecer", "on": "スイ", "kun": "おとろ.える"}
+{"k": "艇", "en": "rowboat; small boat", "pt": "Barco a remo; pequeno barco", "on": "テイ", "kun": ""}
+{"k": "屈", "en": "yield; bend; flinch; submit", "pt": "encruzilhada; curva; hesitação; submeter", "on": "クツ", "kun": "かが.む、かが.める"}
+{"k": "淡", "en": "thin; faint; pale; fleeting", "pt": "magro; desmaiar; passageiro; pálido", "on": "タン", "kun": "あわ.い"}
+{"k": "抽", "en": "pluck; pull; extract; excel", "pt": "puxão; puxar; extrato; superar", "on": "チュウ", "kun": "ひき-"}
+{"k": "披", "en": "expose; open", "pt": "expor; abrir", "on": "ヒ", "kun": ""}
+{"k": "廷", "en": "courts; imperial court; government office", "pt": "quadras; quadra imperial; escritório de governo", "on": "テイ", "kun": ""}
+{"k": "錦", "en": "brocade; fine dress; honors", "pt": "", "on": "キン", "kun": "にしき"}
+{"k": "准", "en": "quasi-; semi-; associate", "pt": "quase-; semi-; associar", "on": "ジュン", "kun": ""}
+{"k": "奨", "en": "exhort; urge; encourage", "pt": "exortar; desejar; encorajar", "on": "ショウ、ソウ", "kun": "すす.める"}
+{"k": "浸", "en": "immersed; soak; dip; steep; moisten", "pt": "imergir; ensopar; mergulhar; empapar; umedecer", "on": "シン", "kun": "ひた.す、ひた.る、つ.かる"}
+{"k": "剰", "en": "surplus; besides", "pt": "excedente; além disso", "on": "ジョウ", "kun": "あまつさえ、あま.り、あま.る"}
+{"k": "胆", "en": "gall bladder; courage; pluck; nerve", "pt": "Bexiga irritadaa; coragem; orgãos internos; nervos", "on": "タン", "kun": "きも"}
+{"k": "繊", "en": "slender; fine; thin kimono", "pt": "delgado; fino; kimono fino (espessura)", "on": "セン", "kun": ""}
+{"k": "駒", "en": "pony; horse; colt", "pt": "", "on": "ク", "kun": "こま"}
+{"k": "虚", "en": "void; emptiness; unpreparedness; crack; fissure", "pt": "vazio; vacuidade; despreparo; abertura; fissura", "on": "キョ、コ", "kun": "むな.しい、うつ.ろ"}
+{"k": "霊", "en": "spirits; soul", "pt": "espíritos; alma; fantasmas", "on": "レイ、リョウ", "kun": "たま"}
+{"k": "悔", "en": "repent; regret", "pt": "Arrepender-se; lamentar", "on": "カイ", "kun": "く.いる、く.やむ、くや.しい"}
+{"k": "諭", "en": "rebuke; admonish; charge; warn; persuade", "pt": "repreensão; advertir; carga; avisar; persuadir", "on": "ユ", "kun": "さと.す"}
+{"k": "惨", "en": "wretched; disaster; cruelty; harsh", "pt": "desprezível; desastre; crueldade; severo", "on": "サン、ザン", "kun": "みじ.め、いた.む、むご.い"}
+{"k": "虐", "en": "tyrannize; oppress", "pt": "tiranizar; oprimir", "on": "ギャク", "kun": "しいた.げる"}
+{"k": "翻", "en": "flip; turn over; wave; flutter; change (mind)", "pt": "sacudidela; virar; onda; tumulto; mudar de idéia", "on": "ホン、ハン", "kun": "ひるがえ.る、ひるがえ.す"}
+{"k": "墜", "en": "crash; fall (down)", "pt": "colisão; queda", "on": "ツイ", "kun": "お.ちる、お.つ"}
+{"k": "沼", "en": "marsh; lake; bog; swamp; pond", "pt": "pântano; lago; charco; brejo; lagoa", "on": "ショウ", "kun": "ぬま"}
+{"k": "据", "en": "set; lay a foundation; install; equip; squat down", "pt": "", "on": "キョ", "kun": "す.える、す.わる"}
+{"k": "徐", "en": "gradually; slowly; deliberately; gently", "pt": "gradualmente; lentamente; deliberadamente; gentilmente", "on": "ジョ", "kun": "おもむ.ろに"}
+{"k": "搭", "en": "board; load (a vehicle); ride", "pt": "juntar; carregar (um veículo); viagem", "on": "トウ", "kun": ""}
+{"k": "盾", "en": "shield; escutcheon; pretext", "pt": "escudo; brasão; escusa", "on": "ジュン", "kun": "たて"}
+{"k": "滝", "en": "waterfall; rapids; cascade", "pt": "cachoeira; corredeira; cascata", "on": "ロウ、ソウ", "kun": "たき"}
+{"k": "軌", "en": "rut; wheel; track; model; way of doing", "pt": "Sulco de rodas; roda; trilha; modelo; caminho", "on": "キ", "kun": ""}
+{"k": "妨", "en": "disturb; prevent; hamper; obstruct", "pt": "perturbar; prevenir; atrasar; obstruir", "on": "ボウ", "kun": "さまた.げる"}
+{"k": "擦", "en": "grate; rub; scratch; scrape; chafe", "pt": "arranhar; esfregar; coçar; escovar; atritar", "on": "サツ", "kun": "す.る、す.れる、-ず.れ"}
+{"k": "鯨", "en": "whale", "pt": "baleia", "on": "ゲイ", "kun": "くじら"}
+{"k": "荘", "en": "villa; inn; cottage; feudal manor; solemn", "pt": "palacete; pousada; casa de campo; mansão feudal", "on": "ソウ、ショウ、チャン", "kun": "ほうき、おごそ.か"}
+{"k": "諾", "en": "consent; assent; agreement", "pt": "consentir; consentimento; acordo", "on": "ダク", "kun": ""}
+{"k": "雷", "en": "thunder; lightning bolt", "pt": "trovão; raio", "on": "ライ", "kun": "かみなり、いかずち、いかづち"}
+{"k": "漂", "en": "drift; float (on liquid)", "pt": "rumo; bóiar (em líquido)", "on": "ヒョウ", "kun": "ただよ.う"}
+{"k": "懐", "en": "feelings; heart; yearn; miss someone; become attached to", "pt": "bolso; sentimentos; coração; saudades; sentir saudades", "on": "カイ、エ", "kun": "ふところ、なつ.かしい、なつ.かしむ"}
+{"k": "勘", "en": "intuition; perception; check; compare; sixth sense", "pt": "intuição; percepção", "on": "カン", "kun": ""}
+{"k": "栽", "en": "plantation; planting", "pt": "plantação; planta", "on": "サイ", "kun": ""}
+{"k": "拐", "en": "kidnap; falsify", "pt": "seqüestrar; falsificar", "on": "カイ", "kun": ""}
+{"k": "駄", "en": "burdensome; pack horse; horse load; send by horse; trivial", "pt": "Incômodo; bando de cavalos; carga de cavalos; enviar a cavalo", "on": "ダ、タ", "kun": ""}
+{"k": "添", "en": "annexed; accompany; marry; suit; meet", "pt": "anexar; acompanhar; casa; terno; reunião", "on": "テン", "kun": "そ.える、そ.う"}
+{"k": "冠", "en": "crown; best; peerless", "pt": "coroa; melhor; inigualável", "on": "カン", "kun": "かんむり"}
+{"k": "斜", "en": "diagonal; slanting; oblique", "pt": "diagonal; inclinado; oblíquo", "on": "シャ", "kun": "なな.め、はす"}
+{"k": "浪", "en": "wandering; waves; billows; reckless; unrestrained", "pt": "vagabundando; ondas; vagas", "on": "ロウ", "kun": ""}
+{"k": "亜", "en": "Asia; rank next; come after; -ous", "pt": "Ásia; próxima; o que vem depois; -ous", "on": "ア", "kun": "つ.ぐ"}
+{"k": "詐", "en": "lie; falsehood; deceive; pretend", "pt": "mentira; falsidade; enganar; fingir", "on": "サ", "kun": "いつわ.る"}
+{"k": "壇", "en": "podium; stage; rostrum; terrace", "pt": "podium; palco; púlpito", "on": "ダン、タン", "kun": ""}
+{"k": "勲", "en": "meritorious deed; merit", "pt": "ato meritório; mérito", "on": "クン", "kun": "いさお"}
+{"k": "魔", "en": "witch; demon; evil spirit", "pt": "bruxa; demônio; espírito do mal", "on": "マ", "kun": ""}
+{"k": "酬", "en": "repay; reward; retribution", "pt": "recompensar; recompensa; retribuição", "on": "シュウ、シュ、トウ", "kun": "むく.いる"}
+{"k": "紫", "en": "purple; violet", "pt": "roxo; violeta", "on": "シ", "kun": "むらさき"}
+{"k": "紋", "en": "family crest; figures", "pt": "Brazão de família; figuras", "on": "モン", "kun": ""}
+{"k": "卸", "en": "wholesale", "pt": "venda por atacado", "on": "シャ", "kun": "おろ.す、おろし、おろ.し"}
+{"k": "欄", "en": "column; handrail; blank; space", "pt": "coluna; corrimão; vazio; espaço", "on": "ラン", "kun": "てすり"}
+{"k": "逸", "en": "deviate; idleness; leisure; miss the mark; evade", "pt": "desviar-se; indolência; lazer; perder o ponto; escapar", "on": "イツ", "kun": "そ.れる、そ.らす、はぐ.れる"}
+{"k": "涯", "en": "horizon; shore; limit; bound", "pt": "horizonte; costa", "on": "ガイ", "kun": "はて"}
+{"k": "拓", "en": "clear (the land); open; break up (land)", "pt": "limpar (a terra); abrir; abrir (terra)", "on": "タク", "kun": "ひら.く"}
+{"k": "獄", "en": "prison; jail", "pt": "prisão; cadeia", "on": "ゴク", "kun": ""}
+{"k": "尚", "en": "esteem; furthermore; still; yet", "pt": "estima; além disso; ainda", "on": "ショウ", "kun": "なお"}
+{"k": "彫", "en": "carve; engrave; chisel", "pt": "cinzelar; esculpir; cinzel", "on": "チョウ", "kun": "ほ.る、-ぼ.り"}
+{"k": "穏", "en": "calm; quiet; moderation", "pt": "calma; tranquilidade; moderação", "on": "オン", "kun": "おだ.やか"}
+{"k": "顕", "en": "appear; existing", "pt": "aparecer; existente", "on": "ケン", "kun": "あきらか、あらわ.れる"}
+{"k": "巧", "en": "adroit; skilled; ingenuity", "pt": "hábil; engenhoso", "on": "コウ", "kun": "たく.み、たく.む、うま.い"}
+{"k": "矛", "en": "halberd; arms; festival float", "pt": "alabarda; armas; carro alegórico", "on": "ム、ボウ", "kun": "ほこ"}
+{"k": "垣", "en": "hedge; fence; wall", "pt": "barreira; cerca; parede", "on": "エン", "kun": "かき"}
+{"k": "欺", "en": "deceit; cheat; delude", "pt": "engano; fraude; iludir", "on": "ギ", "kun": "あざむ.く"}
+{"k": "釣", "en": "angling; fish; catch; allure; ensnare", "pt": "pesca; peixe; pegar; fascinação; laçar", "on": "チョウ", "kun": "つ.る、つ.り、つ.り-"}
+{"k": "粛", "en": "solemn; quietly; softly", "pt": "solenemente; calmamente; suavemente", "on": "シュク、スク", "kun": "つつし.む"}
+{"k": "愚", "en": "foolish; folly; absurdity; stupid", "pt": "tolo; tolice; disparate; estúpidez", "on": "グ", "kun": "おろ.か"}
+{"k": "遭", "en": "encounter; meet; party; association; interview", "pt": "encontro; reunião; festa; associação; entrevista", "on": "ソウ", "kun": "あ.う、あ.わせる"}
+{"k": "架", "en": "erect; frame; mount; support; shelf", "pt": "eregir; moldura; monte; apoio; prateleira", "on": "カ", "kun": "か.ける、か.かる"}
+{"k": "鬼", "en": "ghost; devil", "pt": "fantasma; diabo; demônio", "on": "キ", "kun": "おに、おに-"}
+{"k": "庶", "en": "commoner; all; bastard", "pt": "mais comum; tudo; bastardo", "on": "ショ", "kun": ""}
+{"k": "稚", "en": "immature; young", "pt": "jovem; imaturo", "on": "チ、ジ", "kun": "いとけない、おさない、おくて"}
+{"k": "滋", "en": "nourishing; more &amp; more; be luxuriant; planting; turbidity", "pt": "nutrir; mais &amp; mais; ser luxuriante; planta; turbidez", "on": "ジ、シ", "kun": ""}
+{"k": "幻", "en": "phantasm; vision; dream; illusion; apparition", "pt": "fantasma; visão; sonho; ilusão; aparição", "on": "ゲン", "kun": "まぼろし"}
+{"k": "煮", "en": "boil; cook", "pt": "ferver; cozinhar", "on": "シャ", "kun": "に.る、-に、に.える"}
+{"k": "姫", "en": "princess", "pt": "princesa", "on": "キ", "kun": "ひめ、ひめ-"}
+{"k": "誓", "en": "vow; swear; pledge", "pt": "voto; jurar; penhor", "on": "セイ", "kun": "ちか.う"}
+{"k": "把", "en": "grasp; faggot; bunch; counter for bundles", "pt": "agarre; pacote; punhado; sufixo para contagem de pacotes", "on": "ハ、ワ", "kun": ""}
+{"k": "践", "en": "tread; step on; trample; practice; carry through", "pt": "pisar; dar um passo; passar por cima; paraticar; persistir", "on": "セン", "kun": "ふ.む"}
+{"k": "呈", "en": "display; offer; present; send; exhibit", "pt": "mostrar; oferecer; apresentar; enviar; exibição", "on": "テイ", "kun": ""}
+{"k": "疎", "en": "alienate; rough; neglect; shun; sparse", "pt": "desviar; rude; negligenciar; evitar; esparso", "on": "ソ、ショ", "kun": "うと.い、うと.む、まば.ら"}
+{"k": "仰", "en": "face-up; look up; depend; seek; respect", "pt": "Rosto para cima; melhorar; depender; procurar; respeito", "on": "ギョウ、コウ", "kun": "あお.ぐ、おお.せ、お.っしゃる"}
+{"k": "剛", "en": "sturdy; strength", "pt": "robusto; vigor", "on": "ゴウ", "kun": ""}
+{"k": "疾", "en": "rapidly", "pt": "ligeiramente", "on": "シツ", "kun": "はや.い"}
+{"k": "征", "en": "subjugate; attack the rebellious; collect taxes", "pt": "subjugar; atacar rebeldes; coletar impostos", "on": "セイ", "kun": ""}
+{"k": "砕", "en": "smash; break; crush; familiar; popular", "pt": "quebrar; quebrado; esmagar; popular; familiar", "on": "サイ", "kun": "くだ.く、くだ.ける"}
+{"k": "謡", "en": "song; sing; ballad; noh chanting", "pt": "Canto de teatro noh", "on": "ヨウ", "kun": "うた.い、うた.う"}
+{"k": "嫁", "en": "marry into; bride", "pt": "Casar; noiva", "on": "カ", "kun": "よめ、とつ.ぐ、い.く"}
+{"k": "謙", "en": "self-effacing; humble oneself; condescend; be modest", "pt": "Desvanecer-se; ficar humilde; comdescender; ser modesto", "on": "ケン", "kun": "へりくだ.る"}
+{"k": "嘆", "en": "sigh; lament; moan; grieve; sigh of admiration", "pt": "suspiro; lamento; pesar", "on": "タン", "kun": "なげ.く、なげ.かわしい"}
+{"k": "菌", "en": "germ; fungus; bacteria", "pt": "germe; fungo; bactérias", "on": "キン", "kun": ""}
+{"k": "鎌", "en": "sickle; scythe; trick", "pt": "", "on": "レン、ケン", "kun": "かま"}
+{"k": "頻", "en": "repeatedly; recur", "pt": "repetidamente; recorrente", "on": "ヒン", "kun": "しき.りに"}
+{"k": "琴", "en": "harp; koto", "pt": "harpa; koto (mus.)", "on": "キン、ゴン", "kun": "こと"}
+{"k": "棚", "en": "shelf; ledge; rack; mount; mantle", "pt": "prateleira; apoio; moldura; manto; grade", "on": "ホウ", "kun": "たな、-だな"}
+{"k": "酷", "en": "cruel; severe; atrocious; unjust", "pt": "injusto; cruel; severo", "on": "コク", "kun": "ひど.い"}
+{"k": "宰", "en": "superintend; manager; rule", "pt": "supervisionar; administrador; regra", "on": "サイ", "kun": ""}
+{"k": "廊", "en": "corridor; hall; tower", "pt": "corredor; ala; torre", "on": "ロウ", "kun": ""}
+{"k": "寂", "en": "loneliness; quietly; mellow; mature; death of a priest", "pt": "isolamento; calmamente; amadurecer; amadurecimento; morte de um padre", "on": "ジャク、セキ", "kun": "さび、さび.しい、さび.れる"}
+{"k": "伏", "en": "prostrated; bend down; bow; cover; lay (pipes)", "pt": "prostrado; curva abaixo; proa; capa", "on": "フク", "kun": "ふ.せる、ふ.す"}
+{"k": "碁", "en": "Go", "pt": "Jogo de Go", "on": "ゴ", "kun": ""}
+{"k": "俗", "en": "vulgar; customs; manners; worldliness; mundane things", "pt": "vulgar; costumes; maneiras; coisas do mundanas", "on": "ゾク", "kun": ""}
+{"k": "漠", "en": "vague; obscure; desert; wide", "pt": "vago; obscurecer; deserto; vasto", "on": "バク", "kun": ""}

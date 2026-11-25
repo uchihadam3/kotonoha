@@ -27,9 +27,12 @@ const CSS = `
 .cine .sub .jp { display: block; font-family: var(--jp); font-size: 1.25em; color: var(--gold2); margin-bottom: 4px; }
 .cine .skip { position: absolute; right: 20px; bottom: calc(16px + var(--safe-b)); padding: 8px 16px; border-radius: 999px; border: 0; background: rgba(0,0,0,.45); color: rgba(255,255,255,.75); font-size: 13px; letter-spacing: .1em; cursor: pointer; }
 .cine .verse { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; gap: 6vw; background: #05060a; }
-.cine .verse .v { writing-mode: vertical-rl; font-family: var(--brush); font-size: clamp(26px, 5.2vh, 46px); color: #f4ecd8; letter-spacing: .18em; line-height: 1.9; height: 78vh; }
-.cine .verse .v span { opacity: 0; transition: opacity .5s ease, filter .8s ease; filter: blur(6px); display: inline-block; }
-.cine .verse .v span.on { opacity: 1; filter: none; }
+.cine .verse .cols { display: flex; flex-direction: row-reverse; gap: clamp(14px, 3vh, 30px); align-items: flex-start; }
+.cine .verse .v { writing-mode: vertical-rl; font-family: var(--brush); font-size: min(4.4vh, 40px); color: #f4ecd8; letter-spacing: .08em; line-height: 1.3; white-space: nowrap; }
+.cine .verse .v:nth-child(2) { margin-top: 1.1em; }
+.cine .verse .v:nth-child(3) { margin-top: 2.2em; }
+.cine .verse .v span { opacity: 0; transition: opacity .6s ease, text-shadow .8s ease; text-shadow: 0 0 18px rgba(255,240,200,.9); }
+.cine .verse .v span.on { opacity: 1; text-shadow: 0 0 6px rgba(255,240,200,.25); }
 .cine .verse .side { max-width: 34vw; color: #d9cfb8; font-family: 'kt-mincho', serif; font-size: clamp(14px, 2vw, 19px); line-height: 1.8; opacity: 0; transition: opacity 1.2s ease; }
 .cine .verse .side.on { opacity: 1; }
 .cine .verse .side .who { margin-top: 18px; color: var(--gold); font-size: .85em; letter-spacing: .1em; }
@@ -39,17 +42,18 @@ const CSS = `
 .cine .card.on { opacity: 1; }
 .cine .card .big { font-family: var(--brush); font-size: clamp(70px, 16vw, 170px); color: #fff; text-shadow: 0 0 40px rgba(127,240,196,.6), 0 6px 30px rgba(0,0,0,.6); }
 .cine .card .lat { font-family: var(--latin); letter-spacing: .5em; color: var(--gold2); font-size: clamp(16px, 3vw, 28px); margin-left: .5em; }
-@media (max-aspect-ratio: 1/1) { .cine .verse { flex-direction: column; gap: 3vh; } .cine .verse .v { height: 52vh; } .cine .verse .side { max-width: 86vw; text-align: center; } }
+@media (max-aspect-ratio: 1/1) { .cine .verse { flex-direction: column; gap: 3vh; } .cine .verse .v { font-size: clamp(20px, 3.6vh, 34px); } .cine .verse .side { max-width: 86vw; text-align: center; } }
 
 .creator { position: absolute; inset: 0; z-index: 45; display: grid; grid-template-columns: 1fr min(420px, 100%); pointer-events: none; }
 .creator .cpanel { pointer-events: auto; margin: max(14px, var(--safe-t)) 14px 14px; align-self: center; max-height: calc(100vh - 28px); overflow: auto; }
-.creator .row2 { display: flex; gap: 6px; flex-wrap: wrap; margin: 4px 0 12px; }
-.creator .sw { width: 36px; height: 36px; border-radius: 10px; border: 0; cursor: pointer; box-shadow: inset 0 0 0 2px rgba(255,255,255,.15); }
+.creator .row2 { display: flex; gap: 5px; flex-wrap: wrap; margin: 3px 0 8px; }
+.creator .cpanel h2 { margin-bottom: 8px; }
+.creator .sw { width: 30px; height: 30px; border-radius: 10px; border: 0; cursor: pointer; box-shadow: inset 0 0 0 2px rgba(255,255,255,.15); }
 .creator .sw.on { box-shadow: 0 0 0 3px var(--gold); }
-.creator .opt2 { padding: 7px 12px; border-radius: 999px; border: 0; background: rgba(255,255,255,.07); color: #ddd; cursor: pointer; font-size: 13px; }
+.creator .opt2 { padding: 5px 10px; border-radius: 999px; border: 0; background: rgba(255,255,255,.07); color: #ddd; cursor: pointer; font-size: 13px; }
 .creator .opt2.on { background: var(--gold); color: #2a1d08; }
 .creator label { display: block; font-size: 13px; color: var(--muted); margin-top: 6px; }
-.creator .kana { font-family: var(--jp); font-size: 30px; color: var(--gold2); min-height: 40px; margin: 6px 0 2px; }
+.creator .kana { font-family: var(--jp); font-size: 26px; color: var(--gold2); min-height: 34px; margin: 4px 0 0; }
 .creator .kana small { font-family: var(--ui); font-size: 12px; color: var(--muted); margin-left: 6px; }
 @media (max-width: 760px) { .creator { grid-template-columns: 1fr; grid-template-rows: 38vh 1fr; } .creator .cpanel { margin: 0 8px 8px; align-self: stretch; } }
 `;
@@ -162,24 +166,31 @@ export async function prologue(app: App, world: World, look: Look3D) {
   cam.updateProjectionMatrix();
   world.clockFrozen = true;
   eng.setScene(world.scene, cam);
+  eng.start();
   const frame = eng.onFrame(({ dt, t }) => world.update(dt, t, cam));
   music.stop(1.5);
   cine.bars(0.1, 1500);
 
   // ── 1. the epigraph (Kokinshū, 905)
-  const verse = 'やまとうたは 人の心を種として よろづの言の葉とぞなれりける';
-  const vEl = h(`<div class="verse"><div class="v">${[...verse].map((c) => `<span>${c === ' ' ? '　' : esc(c)}</span>`).join('')}</div><div class="side">A poesia do Japão tem o coração humano como semente,<br>e dele brotam as dez mil folhas das palavras.<div class="who">— Ki no Tsurayuki, prefácio do Kokin Wakashū (905)</div><div class="seal">言</div></div></div>`);
+  const verse = ['やまとうたは', '人の心を種として', 'よろづの言の葉とぞなれりける'];
+  const vEl = h(`<div class="verse"><div class="cols">${verse.map((line) => `<div class="v">${[...line].map((c) => `<span>${esc(c)}</span>`).join('')}</div>`).join('')}</div><div class="side">A poesia do Japão tem o coração humano como semente,<br>e dele brotam as dez mil folhas das palavras.<div class="who">— Ki no Tsurayuki, prefácio do Kokin Wakashū (905)</div><div class="seal">言</div></div></div>`);
   cine.el.prepend(vEl);
+  eng.skipRender = true;
   if (audio.ctx) {
     const t = audio.now;
     audio.pad([mtof(38), mtof(45), mtof(50)], t + 0.2, 9, 0.9, 'sfx', 0.3);
     [0, 3, 5, 7, 8, 12].forEach((d, i) => audio.koto(mtof(50 + d), t + 0.5 + i * 1.3, 0.3, 'sfx', { dur: 3 }));
   }
   const spans = [...vEl.querySelectorAll('.v span')];
+  const tv0 = performance.now();
   for (let i = 0; i < spans.length && !cine.skipped; i++) {
     spans[i].classList.add('on');
-    await cine.wait(110);
+    // keep to the real clock even if frames are slow
+    const due = tv0 + (i + 1) * 150;
+    const waitMs = due - performance.now();
+    if (waitMs > 0) await cine.wait(waitMs);
   }
+  spans.forEach((s) => s.classList.add('on'));
   (vEl.querySelector('.side') as HTMLElement).classList.add('on');
   await cine.wait(1800);
   (vEl.querySelector('.seal') as HTMLElement).classList.add('on');
@@ -192,6 +203,7 @@ export async function prologue(app: App, world: World, look: Look3D) {
   u.uSat.value = 1.05;
   u.uInk.value = 0;
   world.sky.gloom = 0;
+  eng.skipRender = false;
   vEl.style.transition = 'opacity 2s ease';
   vEl.style.opacity = '0';
   music.play('title', 3);
@@ -318,6 +330,7 @@ export async function prologue(app: App, world: World, look: Look3D) {
   kon.root.removeFromParent();
   frame();
   cine.close();
+  eng.skipRender = false;
   u.uFade.value = 0;
   world.clockFrozen = false;
 }
@@ -340,6 +353,7 @@ export function characterCreator(app: App, world: World, save: SaveData): Promis
   ch.root.rotation.y = 0.5;
   world.scene.add(ch.root);
   app.engine.setScene(world.scene, cam);
+  app.engine.start();
   cam.fov = 40;
   cam.updateProjectionMatrix();
   const wide = window.innerWidth > 760;

@@ -12,7 +12,7 @@ import { Rng } from '../core/rng';
 
 export const COL = {
   woodDark: '#4a3426', wood: '#7a5638', woodLight: '#b0855a', plaster: '#efe6d2', plaster2: '#e6dcc4', shoji: '#f6f0de',
-  roofTile: '#4d5563', roofTile2: '#3d4452', roofRidge: '#2e333d', thatch: '#b59a5c', thatchDark: '#8f7740',
+  roofTile: '#5d6878', roofTile2: '#4f5a6b', roofRidge: '#3a414d', thatch: '#b59a5c', thatchDark: '#8f7740',
   vermilion: '#d8432f', vermilionDark: '#a8281b', black: '#1e1c22', stone: '#a8a39a', stone2: '#8f8a82', moss: '#6f9a52',
   paperGlow: '#ffd9a0', lanternRed: '#e2483a', gold: '#e9c46a', noren: '#2c4a7c', concrete: '#d7d3cb', glass: '#9fc6dc',
   neonPink: '#ff4fc8', neonCyan: '#4fe8ff', neonYellow: '#ffe04f', steel: '#8c96a3',
@@ -84,7 +84,7 @@ export function house(c: Ctx, x: number, z: number, ry: number, o: HouseOpts = {
   }
   // roof
   const rh = o.thatch ? 2.8 : 2.0;
-  const rc = o.roof ?? (o.thatch ? COL.thatch : r.pick([COL.roofTile, COL.roofTile2, '#5a4a44', '#3e5a5a']));
+  const rc = o.roof ?? (o.thatch ? COL.thatch : r.pick([COL.roofTile, COL.roofTile2, '#6a5a52', '#4e6a6a', '#7a5244', '#56607a']));
   const top = 0.45 + h;
   b.add(roofGeometry(w + 1.8, d + 1.8, rh, o.thatch ? 0.05 : 0.32, o.thatch ? 0.4 : 0.6), rc, { y: top });
   b.box((w + 1.8) * (o.thatch ? 0.42 : 0.62), 0.22, 0.4, o.thatch ? COL.thatchDark : COL.roofRidge, { y: top + rh + 0.05 });

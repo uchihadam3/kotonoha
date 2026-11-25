@@ -20,14 +20,14 @@ const CSS = `
 .mg .mgtop { display: flex; align-items: center; gap: 12px; padding: calc(10px + var(--safe-t)) 14px 8px; color: #fff; }
 .mg .mgtop .t { flex: 1; font-family: var(--latin); letter-spacing: .1em; color: var(--gold2); font-size: 18px; }
 .mg .mgtop .t .jp { font-family: var(--brush); color: #ff8a6a; margin-right: 8px; font-size: 22px; }
-.mg .mgtop .score { font-family: var(--latin); font-size: 20px; color: #fff; }
-.mg .mgtop .time { font-family: var(--latin); font-size: 20px; color: var(--gold2); min-width: 44px; text-align: right; }
+.mg .mgtop .score { font-family: var(--ui); font-weight: 700; font-size: 20px; color: #fff; }
+.mg .mgtop .time { font-family: var(--ui); font-weight: 700; font-size: 20px; color: var(--gold2); min-width: 44px; text-align: right; }
 .mg .play { position: relative; flex: 1; overflow: hidden; }
 .mg canvas { position: absolute; inset: 0; width: 100%; height: 100%; }
 .mg .call { position: absolute; left: 50%; top: 12px; transform: translateX(-50%); text-align: center; color: #fff; pointer-events: none; }
 .mg .call .big { font-family: var(--latin); font-size: 40px; color: #fff3c8; text-shadow: 0 0 20px rgba(255,220,140,.7); }
 .mg .call small { display: block; color: var(--muted); font-size: 13px; }
-.mg .center { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; padding: 16px; }
+.mg .play > .center { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; padding: 16px; }
 .mg .kana-intro { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; width: min(860px, 96vw); max-height: 70vh; overflow: auto; }
 .mg .ki { border-radius: 14px; padding: 10px; background: radial-gradient(circle at 50% 0%, #fffaf0, var(--paper)); color: var(--paper-ink); text-align: center; cursor: pointer; }
 .mg .ki .jp { font-size: 44px; display: block; }
@@ -43,7 +43,7 @@ const CSS = `
 .mg .kcard.lose { box-shadow: inset 0 0 0 3px #555, 0 0 30px #d8432f; }
 .mg .reader { text-align: center; color: #fff; margin: 6px 0 2px; min-height: 52px; }
 .mg .reader .jp { font-size: 28px; color: var(--gold2); }
-.mg .vs { display: flex; justify-content: center; gap: 26px; color: #fff; font-family: var(--latin); font-size: 18px; }
+.mg .vs { display: flex; justify-content: center; gap: 26px; color: #fff; font-family: var(--ui); font-size: 18px; }
 .mg .sushi-row { display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; margin: 10px 0; }
 .mg .sushi { border: 0; border-radius: 14px; padding: 10px; width: 108px; background: radial-gradient(circle at 50% 0%, #fffaf0, var(--paper)); color: var(--paper-ink); cursor: pointer; text-align: center; position: relative; }
 .mg .sushi .pic { font-size: 34px; }
@@ -59,7 +59,7 @@ const CSS = `
 .mg .typebox input { width: min(340px, 86vw); text-align: center; font-size: 20px; }
 .omikuji { width: min(380px, 90vw); margin: auto; border-radius: 10px; padding: 18px; background: linear-gradient(180deg, #fffaf0, #f2e6cc); color: #2a2318; text-align: center; box-shadow: inset 0 0 0 4px #c9452f, 0 20px 50px rgba(0,0,0,.5); animation: unroll .9s ease; transform-origin: top; }
 @keyframes unroll { from { transform: scaleY(.05); } to { transform: none; } }
-.omikuji .fortune { font-family: var(--brush); font-size: 64px; color: #c9452f; writing-mode: vertical-rl; margin: 6px auto; height: 2.6em; }
+.omikuji .fortune { font-family: var(--brush); font-size: 72px; line-height: 1.1; color: #c9452f; margin: 8px auto 4px; letter-spacing: .1em; }
 `;
 let cssDone = false;
 
@@ -535,7 +535,8 @@ export class Minigames {
       const lvl = Math.min(3, 1 + Math.floor(round / 2));
       const order = shuffle(MENU).slice(0, lvl).map((m) => ({ m, n: 1 + Math.floor(Math.random() * (round < 2 ? 2 : 4)) }));
       const say = order.map((o) => `${o.m.jp}を ${NUM[o.n]}`).join('、') + '、ください！';
-      const box = h(`<div style="height:100%;display:flex;flex-direction:column;justify-content:center"><div class="order"><div class="muted small">Cliente ${round + 1}/6</div><div class="jp">「${esc(say)}」</div><div class="r">${g.learner.leaves < 120 ? esc(toRomaji(say.replace(/、/g, ' '))) : ''}</div><button class="round" style="margin-top:6px;background:#2a2318;color:#fff">${ICON.speaker}</button></div><div class="sushi-row"></div><div class="row center"></div></div>`);
+      const spaced = order.map((o) => `${o.m.jp} を ${NUM[o.n]}`).join('、 ') + '、 ください！';
+      const box = h(`<div style="height:100%;display:flex;flex-direction:column;justify-content:center"><div class="order"><div class="muted small">Cliente ${round + 1}/6</div><div class="jp">「${esc(say)}」</div><div class="r">${g.learner.leaves < 120 ? esc(toRomaji(spaced)) : ''}</div><button class="round" style="margin-top:6px;background:#2a2318;color:#fff">${ICON.speaker}</button></div><div class="sushi-row"></div><div class="row center"></div></div>`);
       sh.play.innerHTML = '';
       sh.play.appendChild(box);
       const speak = () => voice.speak(say, { rate: 0.9 });

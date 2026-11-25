@@ -10,7 +10,9 @@
     "test": "tsx tests/run.ts",
     "data": "node tools/build-data.mjs",
     "fonts": "python3 tools/subset-fonts.py",
-    "offline": "vite build && node scripts/offline.mjs"
+    "offline": "vite build && node scripts/offline.mjs",
+    "desktop": "vite build && electron .",
+    "dist": "vite build && electron-builder --publish never"
   },
   "author": "Uchihadam Production",
   "license": "UNLICENSED",
@@ -25,8 +27,78 @@
     "tsx": "^4.23.15",
     "typescript": "^5.9.3",
     "vite": "^8.3.8",
-    "vite-plugin-singlefile": "^2.3.4"
+    "vite-plugin-singlefile": "^2.3.4",
+    "electron": "33.2.1",
+    "electron-builder": "25.1.8"
   },
   "private": true,
-  "type": "module"
+  "type": "module",
+  "main": "electron/main.cjs",
+  "homepage": "https://uchihadam3.github.io/kotonoha/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uchihadam3/kotonoha.git"
+  },
+  "build": {
+    "appId": "io.github.uchihadam3.kotonoha",
+    "productName": "KOTONOHA",
+    "artifactName": "KOTONOHA-${version}-${os}-${arch}.${ext}",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "electron/**",
+      "dist/**",
+      "public/icons/**",
+      "package.json"
+    ],
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        },
+        {
+          "target": "portable",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "icon": "public/icons/icon-512.png"
+    },
+    "portable": {
+      "artifactName": "KOTONOHA-${version}-portatil.${ext}"
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "KOTONOHA",
+      "artifactName": "KOTONOHA-${version}-Instalador.${ext}",
+      "installerLanguages": [
+        "pt_BR"
+      ],
+      "language": "1046",
+      "runAfterFinish": true
+    },
+    "linux": {
+      "target": [
+        "AppImage",
+        "deb"
+      ],
+      "category": "Education",
+      "icon": "public/icons/icon-512.png",
+      "maintainer": "Uchihadam Production"
+    },
+    "mac": {
+      "target": "dmg",
+      "category": "public.app-category.education",
+      "icon": "public/icons/icon-512.png"
+    }
+  }
 }

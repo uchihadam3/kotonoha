@@ -53,6 +53,15 @@ export class App {
       this.titleMenu();
       return;
     }
+    if (dev === 'prologue' || dev === 'creator') {
+      audio.unlock();
+      const w = this.ensureWorld();
+      const s = newSave(0);
+      s.name = 'Adam';
+      if (dev === 'creator') await characterCreator(this, w, s);
+      else await prologue(this, w, lookFromSave(s));
+      return;
+    }
     if (dev === 'game') {
       audio.unlock();
       const slot = Number(this.params.get('slot') ?? 0);

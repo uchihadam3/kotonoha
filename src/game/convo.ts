@@ -44,6 +44,8 @@ export class Convos {
     const g = this.g;
     g.pause(true);
     n.busy = true;
+    g.player.face(n.pos.x, n.pos.z);
+    g.framePair(g.player.pos, n.pos);
     const speaker = { set talking(v: boolean) { n.char.talking = v; }, get talking() { return n.char.talking; }, emote: (e: string, s?: number) => n.char.emote(e as never, s) };
     const base: Partial<Line> = { who: n.def.name, whoJp: n.def.jp, role: c.title, voice: n.def.voice, speaker };
     let right = 0, tries = 0;
@@ -78,6 +80,7 @@ export class Convos {
     } finally {
       g.dialog.close();
       n.busy = false;
+      g.rig.override = null;
       g.pause(false);
       g.persist();
     }
@@ -96,7 +99,7 @@ export class Convos {
       const concept = shuffle([...pool])[0];
       const others = shuffle(Object.keys(concept.f).filter((r) => r !== target)).slice(0, 2);
       const sit = shuffle([...SITUATION[target]])[0];
-      const opts = shuffle([target, ...others]).map((r) => ({ label: `${REGISTER_NAMES[r]?.pt ?? r}`, jp: concept.f[r].w, reg: r, good: r === target }));
+      const opts = shuffle([target, ...others]).map((r) => ({ label: concept.f[r].r !== concept.f[r].w ? concept.f[r].r : '', jp: concept.f[r].w, good: r === target, reg: undefined as string | undefined }));
       const i = await g.dialog.choose({ ...base, pt: `Como dizer “${concept.pt}” ${sit}?` } as Line, opts, true);
       if (opts[i].good) right++;
       const f = concept.f[target];

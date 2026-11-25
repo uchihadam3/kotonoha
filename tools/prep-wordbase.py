@@ -169,6 +169,6 @@ for e in entries:
     have_w.add(w)
 extra.sort(key=lambda o: (o['nf'] if o['nf'] < 99 else 33))
 print('extra candidates', len(extra), file=sys.stderr)
-json.dump({'jlpt': out, 'extra': extra[:4000]}, open('data-src/wordbase.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=0)
+json.dump({'jlpt': out, 'extra': extra[:6500]}, open('data-src/wordbase.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=0)
 c = collections.Counter(o['pos'] for o in out)
 print(c.most_common(), file=sys.stderr)

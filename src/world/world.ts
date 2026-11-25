@@ -12,6 +12,7 @@ import { GreatTree } from './greattree';
 import { Vegetation, updateWind } from './nature';
 import { Bursts, Falling, Fireflies } from './particles';
 import { glowUniform } from './kit';
+import { Grass } from './grass';
 
 export class World {
   readonly scene = new THREE.Scene();
@@ -36,6 +37,7 @@ export class World {
   readonly treeLeaves: Falling;
   readonly petals: Falling;
   readonly fireflies: Fireflies;
+  readonly grass: Grass | null;
 
   constructor(readonly engine: Engine) {
     const grid = buildGrid();
@@ -45,8 +47,12 @@ export class World {
     this.terrain = buildTerrainMesh();
     this.scene.add(this.terrain);
     const half = WORLD.size / 2;
-    this.water = new Water(heightTexture(grid, WORLD.seg + 1), [WORLD.cx - half, WORLD.cz - half, WORLD.size]);
+    const htex = heightTexture(grid, WORLD.seg + 1);
+    this.water = new Water(htex, [WORLD.cx - half, WORLD.cz - half, WORLD.size]);
     this.scene.add(this.water.group);
+    const blades = engine.quality === 'alta' ? 22000 : engine.quality === 'media' ? 9000 : 0;
+    this.grass = blades ? new Grass(htex, blades, 54) : null;
+    if (this.grass) this.scene.add(this.grass.mesh);
 
     this.hemi = new THREE.HemisphereLight(0xcfe4fa, 0x6f6d4c, 1);
     this.scene.add(this.hemi);
@@ -134,6 +140,7 @@ export class World {
     const fog = this.scene.fog as THREE.FogExp2;
     fog.color.copy(S.fog);
     this.water.update(t, S);
+    this.grass?.update(t, camera.position, S.sunColor, S.sunI, S.hemiSky, S.hemiI);
     glowUniform.value = Math.min(1, S.night * 1.2);
     updateWind(t, 1);
     this.veg.update(camera.position);
