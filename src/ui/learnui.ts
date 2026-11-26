@@ -249,6 +249,8 @@ export function askQuestion(host: HTMLElement, q: Question, prefs: DisplayPrefs,
       body.classList.add('opts-grid');
       q.options.forEach((o, i) => {
         const b = h(`<button class="opt ${o.jp ? 'jp' : ''}"><span class="k">${i + 1}</span><span class="l">${esc(o.label)}</span>${o.sub ? `<span class="s">${esc(o.sub)}</span>` : ''}</button>`);
+        // automated tests (dev routes only) can find the right answer
+        if (o.correct && location.search.includes('dev=')) b.dataset.c = '1';
         b.addEventListener('click', () => {
           if (done) return;
           b.classList.add(o.correct ? 'good' : 'bad');

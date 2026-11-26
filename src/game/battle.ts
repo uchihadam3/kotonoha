@@ -11,6 +11,15 @@ import { wordQuestion, pickType } from '../lang/challenge';
 import { sfx } from '../audio/sfx';
 import { music } from '../audio/music';
 import { ICON } from '../ui/icons';
+import { audio } from '../audio/audio';
+
+const audioTaiko = () => {
+  if (!audio.ctx) return;
+  const t = audio.now;
+  audio.taiko(t, 1, 'sfx', 0.55);
+  audio.taiko(t + 0.16, 0.8, 'sfx', 0.45);
+  audio.whoosh(t + 0.05, 0.7, 0.4, 300, 2400);
+};
 
 export async function runBattle(game: Game, shadow: Shadow, keys: string[]): Promise<'win' | 'lose' | 'flee'> {
   if (!keys.length) return 'flee';
@@ -33,8 +42,25 @@ export async function runBattle(game: Game, shadow: Shadow, keys: string[]): Pro
     <div class="lhead"><div class="title"><span class="jp">${boss ? '大影' : '影'}</span>${boss ? 'Grande Sombra do Silêncio' : 'Sombra do Silêncio'}</div><button class="hbtn x" title="Fugir">${ICON.back}</button></div>
     <div class="foes"><div class="hearts"></div><div class="hp"><i style="width:100%"></i></div><div class="combo">x0</div></div>
     <div class="stagebox"></div>
-  </div></div>`);
+  </div><div class="bfx"></div></div>`);
   game.ui.appendChild(el);
+  const fx = el.querySelector('.bfx') as HTMLElement;
+  /** floating combat text */
+  const pop = (html: string, cls: string, x = 50, y = 22) => {
+    const d = h(`<div class="bpop ${cls}" style="left:${x}%;top:${y}%">${html}</div>`);
+    fx.appendChild(d);
+    setTimeout(() => d.remove(), 1400);
+  };
+  /** anime-style special attack cut-in with the word in brush strokes */
+  const cutIn = async (word: string, reading: string) => {
+    const d = h(`<div class="cutin"><div class="band"><div class="cw">${word}</div><div class="cr">${reading}</div><div class="ct">言霊斬り！ <small>KOTODAMA-GIRI</small></div></div></div>`);
+    fx.appendChild(d);
+    if (audioTaiko) audioTaiko();
+    game.engine.u.uFlash.value = 0.9;
+    setTimeout(() => (game.engine.u.uFlash.value = 0), 160);
+    await sleep(1100);
+    d.remove();
+  };
   const heartsEl = el.querySelector('.hearts') as HTMLElement;
   const hpEl = el.querySelector('.hp i') as HTMLElement;
   const comboEl = el.querySelector('.combo') as HTMLElement;
@@ -62,8 +88,14 @@ export async function runBattle(game: Game, shadow: Shadow, keys: string[]): Pro
       correct++;
       combo++;
       best = Math.max(best, combo);
-      const dmg = 1 + (combo >= 5 ? 1 : 0) + (r.timeMs < 3500 ? 0.5 : 0);
+      const crit = r.timeMs < 3500;
+      const special = combo % 5 === 0;
+      const dmg = 1 + (combo >= 5 ? 1 : 0) + (crit ? 0.5 : 0) + (special ? 3 : 0);
       hp = Math.max(0, hp - dmg);
+      if (special) await cutIn(w.w.replace(/^～/, '').slice(0, 4), w.r);
+      pop(`-${Math.round(dmg * 10)}`, special ? 'dmg big' : crit ? 'dmg crit' : 'dmg', 50 + (Math.random() - 0.5) * 20, 16);
+      if (crit) pop('会心！<small>RÁPIDO!</small>', 'crit', 30 + Math.random() * 40, 30);
+      if (combo >= 2) pop(`${combo} COMBO`, 'combo', 78, 24);
       // the word flies as a spell
       sfx.cast();
       const from = game.player.pos.clone().add(new THREE.Vector3(0, 1.6, 0));
@@ -74,8 +106,10 @@ export async function runBattle(game: Game, shadow: Shadow, keys: string[]): Pro
         game.rig.shake = 0.6;
       }, 260);
     } else {
+      if (combo >= 3) pop('Combo perdido…', 'lost', 50, 30);
       combo = 0;
       hearts--;
+      pop('痛っ！', 'ouch', 50, 40);
       sfx.hurt();
       game.rig.shake = 1;
       game.engine.u.uFlash.value = 0.25;

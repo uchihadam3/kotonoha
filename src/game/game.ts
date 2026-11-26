@@ -888,6 +888,7 @@ export class Game {
       this.app.screens.toast('Você ainda tem poucas palavras para enfrentar a sombra. Aprenda uma lição primeiro!');
       return;
     }
+    this.dialog.close();
     const res = await runBattle(this, sh, keys);
     if (res === 'win' && sh.boss && sh.region && !this.save.bosses.includes(sh.region)) {
       this.save.bosses.push(sh.region);

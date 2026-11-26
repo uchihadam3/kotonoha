@@ -360,3 +360,28 @@ body.talking .hud .quest { display: none; }
 .touch .hud .prompt > :last-child { overflow: hidden; text-overflow: ellipsis; min-width: 0; }
 /* panels that show the player (shop, wardrobe) hide the objective card */
 body.dressing .hud .quest { display: none; }
+
+/* battle juice: floating numbers, critical hits, the special attack cut-in */
+.battle-ui .bfx { position: absolute; inset: 0; pointer-events: none; overflow: hidden; z-index: 5; }
+.bpop { position: absolute; transform: translate(-50%, 0); font-family: var(--latin); font-weight: 700; white-space: nowrap; animation: bpop 1.3s cubic-bezier(.2,1.4,.4,1) forwards; text-shadow: 0 3px 0 rgba(0,0,0,.45), 0 0 18px rgba(0,0,0,.4); }
+.bpop small { display: block; font-size: .42em; letter-spacing: .2em; font-family: var(--ui); }
+.bpop.dmg { font-size: 44px; color: #fff; }
+.bpop.dmg.crit { font-size: 58px; color: #ffe27a; }
+.bpop.dmg.big { font-size: 84px; color: #ff9a5a; }
+.bpop.crit { font-family: var(--brush); font-size: 46px; color: #ffd76a; text-align: center; }
+.bpop.combo { font-size: 28px; color: #7fffc4; letter-spacing: .08em; }
+.bpop.ouch { font-family: var(--brush); font-size: 54px; color: #ff6a5a; }
+.bpop.lost { font-size: 20px; color: #ffb0a0; }
+@keyframes bpop { 0% { transform: translate(-50%, 20px) scale(.4); opacity: 0; } 18% { transform: translate(-50%, 0) scale(1.15); opacity: 1; } 30% { transform: translate(-50%, 0) scale(1); } 100% { transform: translate(-50%, -70px) scale(1); opacity: 0; } }
+.cutin { position: absolute; inset: 0; display: flex; align-items: center; background: rgba(0,0,0,.25); animation: cutfade 1.1s forwards; }
+.cutin .band { position: relative; width: 100%; height: min(38vh, 260px); background: linear-gradient(100deg, #0b0c16 0%, #1d1030 45%, #6a1a1a 100%); box-shadow: 0 0 0 4px #ffd76a, 0 0 60px rgba(255,180,80,.6); transform: skewY(-6deg); display: flex; align-items: center; justify-content: center; gap: 4vw; animation: cutband 1.1s cubic-bezier(.2,.9,.2,1) forwards; overflow: hidden; }
+.cutin .band::before { content: ''; position: absolute; inset: 0; background: repeating-linear-gradient(100deg, transparent 0 22px, rgba(255,255,255,.07) 22px 26px); animation: speed .25s linear infinite; }
+.cutin .cw { font-family: var(--brush); font-size: min(22vh, 150px); color: #fff; text-shadow: 0 0 30px rgba(255,220,140,.9); transform: skewY(6deg); animation: cutword 1.1s ease-out forwards; }
+.cutin .cr { position: absolute; bottom: 10px; left: 50%; transform: translateX(-50%) skewY(6deg); font-family: var(--jp); color: #ffd76a; font-size: 20px; }
+.cutin .ct { font-family: var(--brush); font-size: min(7vh, 46px); color: #ffd76a; transform: skewY(6deg); text-shadow: 0 3px 0 #6a1a1a; }
+.cutin .ct small { display: block; font-family: var(--latin); font-size: 13px; letter-spacing: .3em; color: #fff; }
+@keyframes cutband { 0% { transform: skewY(-6deg) translateX(-110%); } 22% { transform: skewY(-6deg) translateX(0); } 80% { transform: skewY(-6deg) translateX(0); } 100% { transform: skewY(-6deg) translateX(110%); } }
+@keyframes cutword { 0% { transform: skewY(6deg) scale(2.4); opacity: 0; } 30% { transform: skewY(6deg) scale(1); opacity: 1; } 100% { transform: skewY(6deg) scale(1.08); } }
+@keyframes cutfade { 85% { opacity: 1; } 100% { opacity: 0; } }
+@keyframes speed { to { background-position: 26px 0; } }
+@media (max-width: 760px) { .cutin .band { flex-direction: column; gap: 0; } .cutin .ct { font-size: 28px; } }
