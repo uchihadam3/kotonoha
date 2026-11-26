@@ -95,6 +95,7 @@ export class Minigames {
       closed = true;
       el.remove();
       if (prev) music.play(prev);
+      g.missions.bump('game');
       g.pause(false);
       g.persist();
     };

@@ -385,3 +385,5 @@ body.dressing .hud .quest { display: none; }
 @keyframes cutfade { 85% { opacity: 1; } 100% { opacity: 0; } }
 @keyframes speed { to { background-position: 26px 0; } }
 @media (max-width: 760px) { .cutin .band { flex-direction: column; gap: 0; } .cutin .ct { font-size: 28px; } }
+
+.hud .quest { cursor: pointer; }

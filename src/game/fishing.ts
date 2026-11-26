@@ -228,6 +228,7 @@ export async function fishing(g: Game, shell: (t: string, jp: string, song?: str
       const record = size > best;
       if (record) flags['fishcm:' + f.jp] = size;
       total++;
+      g.missions.bump('fish');
       const mon = MON[f.rar] + (first ? 10 : 0) + (record && !first ? 5 : 0);
       g.addMon(mon);
       // the word goes into the player's memory

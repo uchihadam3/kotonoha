@@ -75,6 +75,7 @@ export class Convos {
       }
       const perfect = right === tries;
       g.addMon(perfect ? 40 : 20);
+      g.missions.bump('convo');
       g.save.flags['convo:' + id] = Math.max(g.save.flags['convo:' + id] ?? 0, perfect ? 2 : 1);
       await g.dialog.say({ ...base, who: 'Kon', whoJp: 'コン', role: 'raposa-espírito', voice: { pitch: 1.45, rate: 1 }, speaker: null, jp: perfect ? 'かんぺき！' : 'よくできました！', pt: perfect ? `Perfeito! Conversa completa sem erros. +40 文` : `Muito bem! Você completou a conversa. +20 文 (tente de novo para fazer sem erros)` } as Line);
     } finally {

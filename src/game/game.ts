@@ -35,6 +35,7 @@ import { Minigames } from './minigames';
 import { Convos } from './convo';
 import { Requests } from './requests';
 import { Treasures } from './treasure';
+import { Missions } from './missions';
 import { openShop, equipped } from './shop';
 import type { Spot } from '../world/regionkit';
 import { STAGE_INFO } from '../lang/srs';
@@ -84,6 +85,7 @@ export class Game {
   story!: Story;
   requests!: Requests;
   treasures!: Treasures;
+  missions!: Missions;
   games!: Minigames;
   convos!: Convos;
   npcs: NpcActor[] = [];
@@ -154,6 +156,14 @@ export class Game {
     this.games = new Minigames(this);
     this.convos = new Convos(this);
     this.requests = new Requests(this);
+    // the objective card opens the daily missions board
+    (this.hud.el.querySelector('.quest') as HTMLElement | null)?.addEventListener('click', () => {
+      if (this.isPaused) return;
+      this.pause(true);
+      const el = this.missions.open();
+      el.querySelector('.close')!.addEventListener('click', () => this.pause(false));
+    });
+    this.missions = new Missions(this);
     this.applyPrefs();
     if (this.app.input.touch) document.body.classList.add('touch');
     // stick visuals for touch
@@ -890,6 +900,7 @@ export class Game {
     }
     this.dialog.close();
     const res = await runBattle(this, sh, keys);
+    if (res === 'win') this.missions.bump('win');
     if (res === 'win' && sh.boss && sh.region && !this.save.bosses.includes(sh.region)) {
       this.save.bosses.push(sh.region);
       const r = REGION_BY_ID[sh.region];
@@ -909,6 +920,7 @@ export class Game {
   }
 
   private onLeavesChanged(before: number, after: number) {
+    if (after > before && before > 0) this.missions.bump('words', after - before);
     this.lastLeaves = after;
     if (after > before) {
       sfx.leaf();
@@ -971,6 +983,12 @@ export class Game {
         close();
         this.openMap();
       }, '', ICON.map),
+      s.btn('Missões do dia', () => {
+        close();
+        this.pause(true);
+        const el = this.missions.open();
+        el.querySelector('.close')!.addEventListener('click', () => this.pause(false));
+      }, '', ICON.quest),
       s.btn('Guarda-roupa', () => {
         close();
         void openShop(this, null);

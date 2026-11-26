@@ -57,7 +57,7 @@ export class Screens {
   }
 
   toast(html: string, ms = 4200) {
-    const el = h(`<div class="toast">${html}</div>`);
+    const el = h(`<div class="toast"><span>${html}</span></div>`);
     el.style.animationDuration = ms + 'ms';
     this.toasts.appendChild(el);
     setTimeout(() => el.remove(), ms);

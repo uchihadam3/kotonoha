@@ -175,6 +175,7 @@ export class Requests {
     g.save.flags['reqw:' + r.w] = 1;
     g.save.flags['reqday:' + n.def.id] = Number(todayKey().replace(/-/g, ''));
     g.save.flags.reqDone = (g.save.flags.reqDone ?? 0) + 1;
+    g.missions.bump('request');
     // finding it counts as a correct review of that word
     if (s) {
       const key = 'w:' + s.word.id;

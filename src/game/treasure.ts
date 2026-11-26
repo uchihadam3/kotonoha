@@ -272,6 +272,7 @@ export class Treasures {
     // open it
     c.open = true;
     g.save.flags['chest:' + c.id] = 1;
+    g.missions.bump('chest');
     sfx.victory();
     const top = c.pos.clone().setY(c.pos.y + 1);
     g.world.bursts.spark(top, '#ffd76a', 60, 5);

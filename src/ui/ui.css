@@ -200,3 +200,6 @@ textarea { width: 100%; min-height: 90px; font-size: 12px; font-family: ui-monos
 /* links inside panels and dialogs */
 .panel a { color: var(--gold); text-decoration: underline; text-underline-offset: 3px; text-decoration-thickness: 1px; }
 .panel a:hover, .panel a:focus-visible { color: var(--gold2); }
+
+/* toasts wrap nicely on narrow screens */
+.toast { max-width: min(560px, calc(100vw - 24px)); border-radius: 18px; line-height: 1.4; text-align: center; justify-content: center; }

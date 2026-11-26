@@ -111,6 +111,8 @@ export class Story {
     if (next) html += `Abrir <span class="jp">${next.jp}</span> ${esc(next.name)}: <b>${fmtNum(L)}/${fmtNum(next.req)}</b> palavras`;
     else if (L < 10000) html += `Grande Árvore: <b>${fmtNum(L)}/10.000</b> folhas`;
     else html += 'A Grande Árvore floresceu! Visite o coração dela no Pico Sagrado.';
+    const mis = g.missions?.questLine();
+    if (mis) html += `<br>${mis}`;
     const req = g.requests?.questLine();
     if (req) html += `<br>${req}`;
     if (c.due >= 3) html += `<br>🍂 ${c.due} palavras para revisar: enfrente uma sombra ou reze num santuário 祠`;
