@@ -73,6 +73,7 @@ export class DialogUI {
     if (!this.el) {
       this.el = h(`<div class="dialog-box"><div class="db"></div></div>`);
       this.parent.appendChild(this.el);
+      document.body.classList.add('talking');
     }
     const db = this.el.querySelector('.db') as HTMLElement;
     if (!line) {
@@ -172,6 +173,7 @@ export class DialogUI {
   close() {
     this.el?.remove();
     this.el = null;
+    document.body.classList.remove('talking');
     this.advance = null;
     voice.stop();
   }

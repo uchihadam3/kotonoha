@@ -94,6 +94,7 @@ export class Game {
   private shadowT = 8;
   private hudT = 0;
   private konOffset = new THREE.Vector3(1.1, 2.0, -0.9);
+  private konTalkOffset: THREE.Vector3 | null = null;
   private animals: { obj: THREE.Group; t: number; base: THREE.Vector3; kind: string }[] = [];
   private regionsBuilt = false;
   private lastLeaves = 0;
@@ -376,7 +377,8 @@ export class Game {
       this.rig.update(dt, { x: 0, y: 0, zoom: 0 }, this.player.pos);
     }
     // Kon floats beside the player's shoulder
-    const off = this.tmpV.copy(this.konOffset).applyAxisAngle(new THREE.Vector3(0, 1, 0), this.player.yaw);
+    if (!this.rig.override) this.konTalkOffset = null;
+    const off = this.tmpV.copy(this.konTalkOffset ?? this.konOffset).applyAxisAngle(new THREE.Vector3(0, 1, 0), this.player.yaw);
     const kp = this.player.pos.clone().add(off);
     this.kon.root.position.lerp(kp, Math.min(1, dt * 4));
     this.kon.root.rotation.y = damp(this.kon.root.rotation.y, this.player.yaw, 4, dt);
@@ -612,17 +614,47 @@ export class Game {
   }
 
   /** over-the-shoulder two-shot for conversations */
+  /**
+   * Conversation shot: over the player's shoulder, looking at the person they talk to. The player is always
+   * standing in front of that person, so the view is never blocked by walls, counters or trees. On phones
+   * the camera aims a little lower so the face sits above the dialog box.
+   */
   framePair(a: THREE.Vector3, b: THREE.Vector3) {
-    const mid = a.clone().add(b).multiplyScalar(0.5);
-    const dir = b.clone().sub(a).setY(0).normalize();
+    const cam = this.engine.camera;
+    const dir = b.clone().sub(a).setY(0);
+    if (dir.lengthSq() < 1e-4) dir.set(0, 0, -1);
+    dir.normalize();
     const side = new THREE.Vector3(-dir.z, 0, dir.x);
-    // pick the side closer to where the camera already is
-    if (side.dot(this.engine.camera.position.clone().sub(mid)) < 0) side.multiplyScalar(-1);
-    const pos = mid.clone().addScaledVector(side, 3.4).addScaledVector(dir, -1.4);
-    pos.y = Math.max(heightAt(pos.x, pos.z) + 1.2, mid.y + 1.9);
-    const look = b.clone().lerp(mid, 0.35);
-    look.y = mid.y + 1.25;
-    this.rig.override = { pos, look, k: 4 };
+    const portrait = cam.aspect < 0.9;
+    const occluders = this.world.scene.children.filter((o) => o.name.startsWith('region-'));
+    const ray = new THREE.Raycaster();
+    const look = b.clone();
+    look.y = b.y + (portrait ? 0.15 : 1.1);
+    const clear = (pos: THREE.Vector3) => {
+      const v = look.clone().sub(pos);
+      const len = v.length();
+      ray.set(pos, v.normalize());
+      ray.far = len - 0.4;
+      if (ray.intersectObjects(occluders, true).length) return false;
+      ray.set(look, v.clone().negate());
+      ray.far = len - 0.4;
+      return ray.intersectObjects(occluders, true).length === 0;
+    };
+    const back = portrait ? 2.7 : 1.9;
+    let pick: THREE.Vector3 | null = null;
+    const sw = portrait ? 1.15 : 0.8;
+    for (const [bk, sd] of [[back, sw], [back, -sw], [back * 0.6, sw * 0.75], [back * 0.6, -sw * 0.75], [0.3, 0.9]] as const) {
+      const pos = a.clone().addScaledVector(dir, -bk).addScaledVector(side, sd);
+      pos.y = Math.max(heightAt(pos.x, pos.z) + 0.8, a.y + (portrait ? 2.25 : 1.75));
+      if (clear(pos)) {
+        pick = pos;
+        // Kon moves to the player's other side so it never floats between the camera and the face
+        this.konTalkOffset = new THREE.Vector3(sd > 0 ? -1.5 : 1.5, 1.5, 0.2);
+        break;
+      }
+    }
+    pick ??= a.clone().addScaledVector(dir, -0.4).setY(a.y + 2.2);
+    this.rig.override = { pos: pick, look, k: 4 };
   }
 
   async talkTo(n: NpcActor) {
