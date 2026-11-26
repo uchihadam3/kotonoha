@@ -37,10 +37,13 @@ import { Requests } from './requests';
 import { Treasures } from './treasure';
 import { Missions } from './missions';
 import { Achievements } from './achievements';
+import { Festival } from './festival';
+import { openHouse } from './house';
 import { openShop, equipped } from './shop';
 import type { Spot } from '../world/regionkit';
 import { STAGE_INFO } from '../lang/srs';
 import { Builder } from '../world/kit';
+import { paperLantern } from '../world/buildings';
 
 export interface Interactable {
   pos: THREE.Vector3;
@@ -88,6 +91,8 @@ export class Game {
   treasures!: Treasures;
   missions!: Missions;
   achievements!: Achievements;
+  festival!: Festival;
+  private homeDoor: THREE.Vector3 | null = null;
   private achT = 3;
   games!: Minigames;
   convos!: Convos;
@@ -135,6 +140,8 @@ export class Game {
     this.learner.onLeaf = (key) => this.onLeaf(key);
     if (!this.regionsBuilt) this.buildRegions();
     this.treasures = new Treasures(this);
+    this.festival = new Festival(this);
+    this.homeDoor = this.findHomeDoor();
     this.player = new Player(lookFromSave(this.save), this.world, this.app.input);
     for (const r of this.regionCtxPlatforms) this.player.platforms.push(r);
     this.kon = new Kon();
@@ -424,6 +431,7 @@ export class Game {
     }
     this.updateLabels();
     this.treasures.update(dt, this.engine.camera);
+    this.festival.update();
     this.updateRegion(dt);
     if (!this.paused) {
       this.updateInteract();
@@ -484,6 +492,7 @@ export class Game {
       el.style.opacity = String(clamp(1.4 - d / maxD, 0, 1));
     };
     for (const n of this.npcs) show(n.label, this.tmpPos(n.pos, n.char.heightM + 0.5), 26);
+    if (this.homeSign && this.homeDoor) show(this.homeSign, this.tmpPos(this.homeDoor, 3.2), 45);
     for (const s of this.wordSpots) {
       show(s.label, s.pos, 30);
       if (s.label.style.display !== 'none' && Math.random() < 0.05) {
@@ -598,6 +607,7 @@ export class Game {
       if (it) consider(it);
     }
     for (const it of this.treasures.interactables(p)) consider(it);
+    if (this.homeDoor && Math.abs(this.homeDoor.x - p.x) < 5 && Math.abs(this.homeDoor.z - p.z) < 5) consider({ pos: this.homeDoor, r: 2.6, label: 'Entrar em casa <span class="jp">我が家</span>', action: () => openHouse(this) });
     for (const sh of this.shadows) {
       const d = sh.group.position.distanceTo(p);
       if (d < (sh.boss ? 6 : 3.2) && !sh.dead) {
@@ -998,6 +1008,10 @@ export class Game {
         const el = this.missions.open();
         el.querySelector('.close')!.addEventListener('click', () => this.pause(false));
       }, '', ICON.quest),
+      s.btn('Minha casa 我が家', () => {
+        close();
+        void openHouse(this);
+      }, '', ICON.torii),
       s.btn('Guarda-roupa', () => {
         close();
         void openShop(this, null);
@@ -1022,6 +1036,40 @@ export class Game {
   regionDef(id: string) {
     return REGION_BY_ID[id];
   }
+
+  /** a word met through an item (furniture, prizes) goes into memory as seen */
+  learnFromItem(jp: string, r: string) {
+    const w = vocab.find(jp) ?? vocab.find(r);
+    if (w) this.learner.introduce('w:' + w.id);
+  }
+
+  /** the player's front door: a free spot at the edge of the village, marked with a lantern and 家 */
+  private findHomeDoor(): THREE.Vector3 | null {
+    const v = REGION_BY_ID.vila;
+    for (let k = 0; k < 24; k++) {
+      const a = -1.2 + k * 0.27, d = v.r * 0.55;
+      const x = v.x + Math.cos(a) * d, z = v.z + Math.sin(a) * d;
+      const y = heightAt(x, z);
+      if (y < 0.8) continue;
+      const [rx, rz] = this.world.col.resolve(x, z, 2.2);
+      if (Math.hypot(rx - x, rz - z) > 0.01) continue;
+      const b = new Builder();
+      // a little gate: two posts, a roof beam, a lantern and the 家 sign
+      b.box(0.22, 2.6, 0.22, '#5a3a22', { x: x - 1, y: y + 1.3, z });
+      b.box(0.22, 2.6, 0.22, '#5a3a22', { x: x + 1, y: y + 1.3, z });
+      b.box(2.8, 0.25, 0.5, '#3a2416', { x, y: y + 2.7, z });
+      b.box(0.9, 0.9, 0.08, '#fff4e6', { x, y: y + 2.1, z: z + 0.12 }, true);
+      paperLantern(b, x + 1.4, y + 2.2, z, '#ff9a3a', 0.8);
+      b.box(1.8, 0.04, 1.2, '#8a5a2a', { x, y: y + 0.03, z: z + 0.8 });
+      this.world.scene.add(b.build('home-door', true));
+      const sign = h(`<div class="marker-label chest"><div class="ml">家</div><div class="mr">minha casa</div></div>`);
+      this.labels.appendChild(sign);
+      this.homeSign = sign;
+      return new THREE.Vector3(x, y, z + 1);
+    }
+    return null;
+  }
+  private homeSign: HTMLElement | null = null;
 
   /** put Kon right beside the player (after a teleport or a cutscene cut) */
   snapKon() {

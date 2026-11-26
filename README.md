@@ -83,6 +83,8 @@ pode **responder falando** pelo microfone.
 - **Batalhas** com golpe crítico 会心, combo e o ataque especial **言霊斬り** a cada 5 acertos seguidos.
 - **Lições pontuadas** com combo, bônus de rapidez e até 3 estrelas (完璧!).
 - **Tiro ao alvo do festival 射的** com o Tio Gen na Rua do Comércio: acerte o alvo com a palavra certa (pontos em dobro à noite).
+- **Minha casa 我が家**: a sua casa na vila (porta com 家 e lanterna) para decorar com 16 móveis, cada um uma palavra; compre entendendo o preço em japonês. Quanto mais aconchegante (居心地), maior o bônus diário.
+- **Festival de verão 夏祭り**: à noite a Rua do Comércio ganha fileiras de lanternas e bandeiras 祭.
 - **Conquistas 実績**: 32 medalhas com fanfarra, prêmio em 文 e mural no Livro.
 - **Pulo duplo** com cambalhota para explorar telhados e morros.
 
