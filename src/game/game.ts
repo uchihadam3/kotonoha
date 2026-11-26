@@ -34,6 +34,7 @@ import { Story } from './story';
 import { Minigames } from './minigames';
 import { Convos } from './convo';
 import { Requests } from './requests';
+import { Treasures } from './treasure';
 import { openShop, equipped } from './shop';
 import type { Spot } from '../world/regionkit';
 import { STAGE_INFO } from '../lang/srs';
@@ -82,6 +83,7 @@ export class Game {
   map!: MapUI;
   story!: Story;
   requests!: Requests;
+  treasures!: Treasures;
   games!: Minigames;
   convos!: Convos;
   npcs: NpcActor[] = [];
@@ -90,7 +92,7 @@ export class Game {
   gates: Gate[] = [];
   shadows: Shadow[] = [];
   interactables: Interactable[] = [];
-  private labels: HTMLElement;
+  readonly labels: HTMLElement;
   private paused = 0;
   private stopFrame: (() => void) | null = null;
   private current: Interactable | null = null;
@@ -127,6 +129,7 @@ export class Game {
     this.learner = new Learner(this.save);
     this.learner.onLeaf = (key) => this.onLeaf(key);
     if (!this.regionsBuilt) this.buildRegions();
+    this.treasures = new Treasures(this);
     this.player = new Player(lookFromSave(this.save), this.world, this.app.input);
     for (const r of this.regionCtxPlatforms) this.player.platforms.push(r);
     this.kon = new Kon();
@@ -406,6 +409,7 @@ export class Game {
       else a.obj.rotation.y = Math.sin(a.t * 0.3) * 0.8;
     }
     this.updateLabels();
+    this.treasures.update(dt, this.engine.camera);
     this.updateRegion(dt);
     if (!this.paused) {
       this.updateInteract();
@@ -430,6 +434,7 @@ export class Game {
       else this.world.tree.setCounts(c.words, c.memorized, c.mastered, c.due);
       this.kon.setTails(1 + Math.floor(c.words / 1250));
       this.story.updateQuest();
+      this.requests.refreshMarkers();
       if (c.words !== this.lastLeaves) this.onLeavesChanged(this.lastLeaves, c.words);
     }
     this.saveT += dt;
@@ -573,6 +578,7 @@ export class Game {
       const it = this.spotInteract(sp);
       if (it) consider(it);
     }
+    for (const it of this.treasures.interactables(p)) consider(it);
     for (const sh of this.shadows) {
       const d = sh.group.position.distanceTo(p);
       if (d < (sh.boss ? 6 : 3.2) && !sh.dead) {

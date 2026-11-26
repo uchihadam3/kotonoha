@@ -7,7 +7,7 @@ import type { Game } from './game';
 import type { NpcActor, WordSpotActor } from './actors';
 import type { Line } from '../ui/dialog';
 import { REGION_BY_ID } from '../data/regions';
-import { esc } from '../core/util';
+import { esc, todayKey } from '../core/util';
 import { sfx } from '../audio/sfx';
 import { ICON } from '../ui/icons';
 
@@ -33,8 +33,47 @@ const THANKS = [
   ['恐れ入ります。心より 感謝 いたします。', 'Agradeço do fundo do coração.'],
 ];
 
+function hash(s: string): number {
+  let x = 2166136261;
+  for (let i = 0; i < s.length; i++) x = Math.imul(x ^ s.charCodeAt(i), 16777619);
+  return (x >>> 0) / 4294967295;
+}
+
+const MARK_CSS = `
+.marker-label.npc.req::before { content: '！'; position: absolute; left: 50%; bottom: 100%; transform: translateX(-50%); font-family: var(--latin); font-weight: 700; font-size: 30px; color: #ffd76a; text-shadow: 0 0 12px rgba(255,190,60,.9), 0 2px 0 #a8401f; animation: reqbob 1s ease-in-out infinite; }
+.marker-label.npc.deliver::before { content: '★'; position: absolute; left: 50%; bottom: 100%; transform: translateX(-50%); font-size: 26px; color: #7fffc4; text-shadow: 0 0 12px rgba(95,211,162,.9); animation: reqbob 1s ease-in-out infinite; }
+@keyframes reqbob { 50% { transform: translate(-50%, -6px); } }
+`;
+let markCss = false;
+
 export class Requests {
-  constructor(private g: Game) {}
+  constructor(private g: Game) {
+    if (!markCss) {
+      markCss = true;
+      const st = document.createElement('style');
+      st.textContent = MARK_CSS;
+      document.head.appendChild(st);
+    }
+  }
+
+  /** about a third of the islanders have something to ask each day (and only once a day) */
+  hasRequestToday(n: NpcActor): boolean {
+    if (n.def.role === 'guide' || n.def.id === 'kotonoha') return false;
+    const day = todayKey();
+    if (this.g.save.flags['reqday:' + n.def.id] === Number(day.replace(/-/g, ''))) return false;
+    return hash(n.def.id + day) < 0.36;
+  }
+
+  /** "！" over people with a request, "★" over the one waiting for your answer */
+  refreshMarkers() {
+    const r = this.active;
+    const open = this.g.learner.unlockedRegions();
+    for (const n of this.g.npcs) {
+      const mine = !!r && r.npc === n.def.id;
+      n.label.classList.toggle('deliver', mine && !!r?.found);
+      n.label.classList.toggle('req', !r && open.has(n.def.region ?? '') && this.hasRequestToday(n));
+    }
+  }
 
   get active(): ActiveRequest | null {
     return (this.g.save as unknown as { req?: ActiveRequest }).req ?? null;
@@ -77,7 +116,7 @@ export class Requests {
       return [{ label: `Pedido: ${w ? w.w : '?'}`, sub: 'Ainda procurando… toque para ouvir o pedido de novo', icon: ICON.eye, act: () => this.remind(n, base) }];
     }
     if (r) return [];
-    if (n.def.role === 'guide') return [];
+    if (!this.hasRequestToday(n)) return [];
     return [{ label: 'Pedido: "お願いが あるんだけど…"', sub: 'Ajude esta pessoa: procure algo pela ilha (+文 e palavra nova)', icon: ICON.quest, act: () => this.offer(n, base) }];
   }
 
@@ -134,6 +173,7 @@ export class Requests {
     const mon = 30 + Math.round(dist / 4);
     g.addMon(mon);
     g.save.flags['reqw:' + r.w] = 1;
+    g.save.flags['reqday:' + n.def.id] = Number(todayKey().replace(/-/g, ''));
     g.save.flags.reqDone = (g.save.flags.reqDone ?? 0) + 1;
     // finding it counts as a correct review of that word
     if (s) {
