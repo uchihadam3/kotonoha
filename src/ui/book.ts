@@ -294,5 +294,6 @@ export class Book {
       ${box(fmtNum(g.save.mon), '文 mon')}${box(g.save.visited.length + '/' + REGIONS.length, 'lugares visitados')}
       ${box(d.seals + '/' + d.sealsMax, 'selos (Grandes Sombras)')}${box(d.convos + '/' + d.convosMax, 'conversas completas')}
     </div>`));
+    b.appendChild(g.achievements.wall());
   }
 }

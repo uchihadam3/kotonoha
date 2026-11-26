@@ -94,6 +94,7 @@ export async function runBattle(game: Game, shadow: Shadow, keys: string[]): Pro
       const dmg = 1 + (combo >= 5 ? 1 : 0) + (crit ? 0.5 : 0) + (special ? 3 : 0);
       hp = Math.max(0, hp - dmg);
       if (special) game.missions.bump('special');
+      if (special) game.save.flags.specials = (game.save.flags.specials ?? 0) + 1;
       if (special) await cutIn(w.w.replace(/^～/, '').slice(0, 4), w.r);
       pop(`-${Math.round(dmg * 10)}`, special ? 'dmg big' : crit ? 'dmg crit' : 'dmg', 50 + (Math.random() - 0.5) * 20, 16);
       if (crit) pop('会心！<small>RÁPIDO!</small>', 'crit', 30 + Math.random() * 40, 30);

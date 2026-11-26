@@ -36,6 +36,7 @@ import { Convos } from './convo';
 import { Requests } from './requests';
 import { Treasures } from './treasure';
 import { Missions } from './missions';
+import { Achievements } from './achievements';
 import { openShop, equipped } from './shop';
 import type { Spot } from '../world/regionkit';
 import { STAGE_INFO } from '../lang/srs';
@@ -86,6 +87,8 @@ export class Game {
   requests!: Requests;
   treasures!: Treasures;
   missions!: Missions;
+  achievements!: Achievements;
+  private achT = 3;
   games!: Minigames;
   convos!: Convos;
   npcs: NpcActor[] = [];
@@ -164,6 +167,7 @@ export class Game {
       el.querySelector('.close')!.addEventListener('click', () => this.pause(false));
     });
     this.missions = new Missions(this);
+    this.achievements = new Achievements(this);
     this.applyPrefs();
     if (this.app.input.touch) document.body.classList.add('touch');
     // stick visuals for touch
@@ -445,6 +449,11 @@ export class Game {
       this.kon.setTails(1 + Math.floor(c.words / 1250));
       this.story.updateQuest();
       this.requests.refreshMarkers();
+      this.achT -= 0.5;
+      if (this.achT <= 0 && !this.paused) {
+        this.achT = 2;
+        this.achievements.check();
+      }
       if (c.words !== this.lastLeaves) this.onLeavesChanged(this.lastLeaves, c.words);
     }
     this.saveT += dt;
