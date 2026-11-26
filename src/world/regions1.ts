@@ -58,7 +58,7 @@ export function buildPraia(c: RegionCtx) {
   c.spot('arrival', cx - 6, cz + 50);
   c.spot('start', cx - 6, cz + 30);
   c.npc({
-    id: 'umi', name: 'Vovô Umi', jp: 'うみじい', title: 'pescador da praia', x: cx + 20, z: cz + 4, ry: -0.8, role: 'teacher',
+    id: 'umi', name: 'Vovô Umi', jp: 'うみじい', title: 'pescador da praia', x: cx + 20, z: cz + 4, ry: -0.8, role: 'teacher', game: 'fishing',
     themes: ['saudacoes'], registers: ['polido', 'casual'], voice: { pitch: 0.7, rate: 0.85 },
     greet: ['おはよう！ いい 朝 だね。', 'Bom dia! Que manhã bonita, hein.'],
     look: { skin: '#c98e68', hair: '#d8d8d8', hairStyle: 'bald', outfit: 'fisher', top: '#3a6ea8', bottom: '#2a2a36', accent: '#e9c46a', eyes: '#3a2a22', hat: 'straw', old: true },
@@ -497,7 +497,7 @@ export function buildPorto(c: RegionCtx) {
     look: { skin: '#ffe3cf', hair: '#2a2126', hairStyle: 'bob', outfit: 'suit', top: '#2a3a6a', bottom: '#2a3a6a', accent: '#e9c46a', eyes: '#3a2a22', hat: 'cap', lashes: true },
   });
   c.npc({
-    id: 'gyoshi', name: 'Capitão Tetsu', jp: 'てつ船長', title: 'pescador veterano', x: cx + 34, z: cz - 12, ry: -1.6, convos: ['pescador'], role: 'teacher',
+    id: 'gyoshi', name: 'Capitão Tetsu', jp: 'てつ船長', title: 'pescador veterano', x: cx + 34, z: cz - 12, ry: -1.6, convos: ['pescador'], role: 'teacher', game: 'fishing',
     themes: ['acoes', 'trabalho'], registers: ['casual'], voice: { pitch: 0.7, rate: 0.95 },
     greet: ['おう、若いの！ 今日は 大漁だぜ！', 'Opa, jovem! Hoje a pesca foi farta!'],
     look: { skin: '#9a6648', hair: '#3a3036', hairStyle: 'short', outfit: 'fisher', top: '#3a6ea8', bottom: '#2a2a36', accent: '#c8442f', eyes: '#3a2a22', hat: 'headband' },
