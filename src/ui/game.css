@@ -396,3 +396,6 @@ body.dressing .hud .quest { display: none; }
 .result-card .lstars .st.off { transform: scale(.85); opacity: .35; }
 .result-card .perfect { display: inline-block; margin-top: 4px; padding: 3px 14px; border-radius: 99px; background: #c9452f; color: #fff4e6; font-family: var(--brush); letter-spacing: .1em; animation: pop .4s ease .9s both; }
 .result-card .lscore { font-family: var(--latin); font-size: 30px; color: #6b4a1c; font-variant-numeric: tabular-nums; margin: 2px 0 4px; }
+
+/* joystick: brighter ring while running */
+.stick.run { box-shadow: inset 0 0 0 3px rgba(255,215,106,.85), 0 0 22px rgba(255,200,80,.35); }

@@ -36,9 +36,17 @@ export class Input {
       this.stick = null;
       this.dragging = null;
       this.pointers.clear();
+      this.camTouches?.clear();
       this.updateStickEl();
     });
     surface.addEventListener('pointerdown', (e) => this.onDown(e));
+    // touch uses native touch events: preventDefault stops the browser from turning a held finger into a
+    // long-press / scroll and cancelling it, so you can put your thumb down first and drag whenever you like
+    const opt = { passive: false } as AddEventListenerOptions;
+    surface.addEventListener('touchstart', (e) => this.onTouchStart(e), opt);
+    surface.addEventListener('touchmove', (e) => this.onTouchMove(e), opt);
+    surface.addEventListener('touchend', (e) => this.onTouchEnd(e), opt);
+    surface.addEventListener('touchcancel', (e) => this.onTouchEnd(e), opt);
     window.addEventListener('pointermove', (e) => this.onMove(e));
     window.addEventListener('pointerup', (e) => this.onUp(e));
     window.addEventListener('pointercancel', (e) => this.onUp(e));
@@ -91,6 +99,7 @@ export class Input {
   }
 
   private onDown(e: PointerEvent) {
+    if (e.pointerType === 'touch') return;
     this.pointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
     if (e.pointerType === 'touch') {
       this.lastDevice = 'touch';
@@ -110,6 +119,7 @@ export class Input {
   }
 
   private onMove(e: PointerEvent) {
+    if (e.pointerType === 'touch') return;
     const p = this.pointers.get(e.pointerId);
     if (p) {
       p.x = e.clientX;
@@ -143,6 +153,7 @@ export class Input {
   }
 
   private onUp(e: PointerEvent) {
+    if (e.pointerType === 'touch') return;
     this.pointers.delete(e.pointerId);
     if (this.pinch && (e.pointerId === this.pinch.a || e.pointerId === this.pinch.b)) this.pinch = null;
     if (this.stick && e.pointerId === this.stick.id) {
@@ -150,6 +161,81 @@ export class Input {
       this.updateStickEl();
     }
     if (this.dragging && e.pointerId === this.dragging.id) this.dragging = null;
+  }
+
+  // ───────────── touch: floating joystick (left), camera drag and pinch (right) ─────────────
+  private camTouches = new Map<number, { x: number; y: number }>();
+  private pinchD = 0;
+  static readonly STICK_R = 56;
+
+  private onTouchStart(e: TouchEvent) {
+    e.preventDefault();
+    this.lastDevice = 'touch';
+    for (const t of Array.from(e.changedTouches)) {
+      // some browsers repeat a finger that is already down: keep its current role
+      if ((this.stick && this.stick.id === t.identifier) || this.camTouches.has(t.identifier)) continue;
+      const leftSide = t.clientX < window.innerWidth * 0.45;
+      if (leftSide && !this.stick && this.enabled) {
+        this.stick = { id: t.identifier, ox: t.clientX, oy: t.clientY, x: t.clientX, y: t.clientY };
+        this.updateStickEl();
+        continue;
+      }
+      this.camTouches.set(t.identifier, { x: t.clientX, y: t.clientY });
+      if (this.camTouches.size === 2) {
+        const [a, b] = [...this.camTouches.values()];
+        this.pinchD = Math.hypot(a.x - b.x, a.y - b.y);
+      }
+    }
+  }
+
+  private onTouchMove(e: TouchEvent) {
+    e.preventDefault();
+    for (const t of Array.from(e.changedTouches)) {
+      if (this.stick && t.identifier === this.stick.id) {
+        this.stick.x = t.clientX;
+        this.stick.y = t.clientY;
+        // the base follows the thumb when it goes far past the rim, so direction changes stay instant
+        const dx = this.stick.x - this.stick.ox, dy = this.stick.y - this.stick.oy;
+        const len = Math.hypot(dx, dy), lim = Input.STICK_R * 1.45;
+        if (len > lim) {
+          this.stick.ox += (dx / len) * (len - lim);
+          this.stick.oy += (dy / len) * (len - lim);
+        }
+        this.updateStickEl();
+        continue;
+      }
+      const c = this.camTouches.get(t.identifier);
+      if (!c) continue;
+      if (this.camTouches.size >= 2) {
+        c.x = t.clientX;
+        c.y = t.clientY;
+        const [a, b] = [...this.camTouches.values()];
+        const d = Math.hypot(a.x - b.x, a.y - b.y);
+        if (this.pinchD) this.zoom -= (d - this.pinchD) * 0.006;
+        this.pinchD = d;
+        continue;
+      }
+      const dx = t.clientX - c.x, dy = t.clientY - c.y;
+      c.x = t.clientX;
+      c.y = t.clientY;
+      if (this.enabled) {
+        const s = 0.0062 * this.sens;
+        this.look.x += dx * s;
+        this.look.y += dy * s * 0.8 * (this.invertY ? -1 : 1);
+      }
+    }
+  }
+
+  private onTouchEnd(e: TouchEvent) {
+    e.preventDefault();
+    for (const t of Array.from(e.changedTouches)) {
+      if (this.stick && t.identifier === this.stick.id) {
+        this.stick = null;
+        this.updateStickEl();
+      }
+      this.camTouches.delete(t.identifier);
+      if (this.camTouches.size < 2) this.pinchD = 0;
+    }
   }
 
   private updateStickEl() {
@@ -163,8 +249,9 @@ export class Input {
     this.stickEl.style.left = this.stick.ox + 'px';
     this.stickEl.style.top = this.stick.oy + 'px';
     const dx = this.stick.x - this.stick.ox, dy = this.stick.y - this.stick.oy;
-    const len = Math.hypot(dx, dy), max = 56;
+    const len = Math.hypot(dx, dy), max = Input.STICK_R;
     const k = len > max ? max / len : 1;
+    this.stickEl.classList.toggle('run', len > max * 1.18);
     this.knobEl.style.transform = `translate(calc(-50% + ${dx * k}px), calc(-50% + ${dy * k}px))`;
   }
 
@@ -182,12 +269,13 @@ export class Input {
     if (this.stick) {
       const dx = this.stick.x - this.stick.ox, dy = this.stick.y - this.stick.oy;
       const len = Math.hypot(dx, dy);
-      const max = 56;
-      if (len > 6) {
-        const m = Math.min(1, len / max);
+      const max = Input.STICK_R;
+      if (len > 5) {
+        // gentle curve: small pushes walk slowly, the rim walks, past the rim runs
+        const m = Math.min(1, Math.pow((len - 5) / (max - 5), 0.85));
         mx = (dx / len) * m;
         my = (-dy / len) * m;
-        run = len > max * 1.25;
+        run = len > max * 1.18;
       }
     }
     // gamepad
