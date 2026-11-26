@@ -50,6 +50,8 @@ body { font-family: var(--ui); color: #f3efe6; -webkit-font-smoothing: antialias
 #ui { position: absolute; inset: 0; pointer-events: none; font-size: calc(16px * var(--ts)); }
 #ui > * { pointer-events: auto; }
 #ui .passthrough, #ui .passthrough * { pointer-events: none; }
+/* full-screen layers that must let touches and drags reach the 3D view (only their own controls take input) */
+#ui > .hud, #ui > .creator, #ui > .labels { pointer-events: none; }
 button { font-family: inherit; }
 .jp { font-family: var(--jp); }
 .brush { font-family: var(--brush); }

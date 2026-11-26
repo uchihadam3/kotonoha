@@ -76,7 +76,7 @@ const CSS = `
 .creator label { display: block; font-size: 13px; color: var(--muted); margin-top: 6px; }
 .creator .kana { font-family: var(--jp); font-size: 26px; color: var(--gold2); min-height: 34px; margin: 4px 0 0; }
 .creator .kana small { font-family: var(--ui); font-size: 12px; color: var(--muted); margin-left: 6px; }
-@media (max-width: 760px) { .creator { grid-template-columns: 1fr; grid-template-rows: 38vh 1fr; } .creator .cpanel { margin: 0 8px 8px; align-self: stretch; } }
+@media (max-width: 760px) { .creator { grid-template-columns: 1fr; grid-template-rows: 1fr auto; } .creator .cpanel { margin: 0 8px calc(8px + var(--safe-b)); align-self: end; max-height: 54vh; max-height: 54dvh; } }
 `;
 
 let cssDone = false;
@@ -399,13 +399,25 @@ export function characterCreator(app: App, world: World, save: SaveData): Promis
   app.engine.start();
   cam.fov = 40;
   cam.updateProjectionMatrix();
-  const wide = window.innerWidth > 760;
+  // the character is framed inside the part of the screen the panel leaves free (left of it on wide
+  // screens, above it on phones), at a distance that makes it fill that space
+  let panelEl: HTMLElement | null = null;
   const frame = app.engine.onFrame(({ dt, t }) => {
     world.update(dt, t, cam);
     ch.update(dt);
     ch.root.rotation.y = 0.4 + Math.sin(t * 0.4) * 0.5;
-    cam.position.set(spot.x + (wide ? 1.2 : 0), spot.y + 1.3, spot.z + 4.2);
-    cam.lookAt(spot.x + (wide ? 1.0 : 0), spot.y + (wide ? 0.95 : 0.75), spot.z);
+    const W = window.innerWidth, H = window.innerHeight;
+    const r = panelEl?.getBoundingClientRect();
+    const side = !r || r.left > W * 0.3;
+    const cx = side ? (r ? r.left / 2 : W / 2) : W / 2;
+    const freeTop = Math.max(0, parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--safe-t')) || 0);
+    const freeH = side ? H : Math.max(120, (r?.top ?? H) - freeTop);
+    const cy = side ? H / 2 : freeTop + freeH / 2;
+    const fit = side ? 0.78 : 0.86;
+    const d = Math.min(10, Math.max(2.6, (1.85 * H) / (fit * freeH * 2 * Math.tan(THREE.MathUtils.degToRad(cam.fov / 2)))));
+    cam.position.set(spot.x + d * 0.08, spot.y + 1.05 + d * 0.06, spot.z + d);
+    cam.lookAt(spot.x, spot.y + 0.92, spot.z);
+    cam.setViewOffset(W, H, Math.round(W / 2 - cx), Math.round(H / 2 - cy), W, H);
   });
   music.play('beach');
   const el = h(`<div class="creator"><div></div><div class="panel cpanel"><h2><span class="jp">旅人</span>Quem é você?</h2>
@@ -418,6 +430,7 @@ export function characterCreator(app: App, world: World, save: SaveData): Promis
     <label>Olhos</label><div class="row2 eyes"></div>
     <div class="row end" style="margin-top:14px"><button class="mbtn primary go">Começar a jornada ▸</button></div></div></div>`);
   app.ui.appendChild(el);
+  panelEl = el.querySelector('.cpanel') as HTMLElement;
   const nm = el.querySelector('.nm') as HTMLInputElement;
   const kanaEl = el.querySelector('.kana') as HTMLElement;
   const rebuild = () => {
@@ -480,6 +493,7 @@ export function characterCreator(app: App, world: World, save: SaveData): Promis
       save.nameKana = nameToKatakana(name);
       el.remove();
       frame();
+      cam.clearViewOffset();
       ch.root.removeFromParent();
       world.clockFrozen = false;
       res();
