@@ -87,8 +87,15 @@ export async function runLesson(game: Game, words: Word[], title: string): Promi
     }
   }
   if (aborted) return finish(null);
-  // 2) practice: each word once, mistakes come back at the end
-  let correct = 0, asked = 0;
+  // 2) practice as a scored challenge: combo, speed bonus, points flying
+  let correct = 0, asked = 0, score = 0, combo = 0, bestCombo = 0, fast = 0;
+  const fx = h(`<div class="bfx" style="position:absolute;inset:0;pointer-events:none;overflow:hidden;z-index:5"></div>`);
+  ov.el.appendChild(fx);
+  const pop = (html: string, cls: string, x = 50, y = 18) => {
+    const d = h(`<div class="bpop ${cls}" style="left:${x}%;top:${y}%">${html}</div>`);
+    fx.appendChild(d);
+    setTimeout(() => d.remove(), 1400);
+  };
   const queue = shuffle([...words]);
   const retry: Word[] = [];
   const types: QType[] = ['meaning', 'listen', 'reverse'];
@@ -99,8 +106,22 @@ export async function runLesson(game: Game, words: Word[], title: string): Promi
     const r = await askQuestion(ov.box, q, { ...prefs, romaji: game.showRomaji('w:' + w.id) });
     asked++;
     game.learner.answer('w:' + w.id, r.correct);
-    if (r.correct) correct++;
-    else retry.push(w);
+    if (r.correct) {
+      correct++;
+      combo++;
+      bestCombo = Math.max(bestCombo, combo);
+      const quick = r.timeMs < 3000;
+      if (quick) fast++;
+      const pts = 100 + (combo - 1) * 25 + (quick ? 50 : 0);
+      score += pts;
+      pop(`+${pts}`, quick ? 'dmg crit' : 'dmg', 50 + (Math.random() - 0.5) * 24, 12);
+      if (quick) pop('はやい！<small>RÁPIDO +50</small>', 'crit', 25 + Math.random() * 50, 26);
+      if (combo >= 2) pop(`${combo} COMBO`, 'combo', 80, 20);
+    } else {
+      if (combo >= 3) pop('Combo perdido…', 'lost', 50, 26);
+      combo = 0;
+      retry.push(w);
+    }
     advance();
   }
   for (const w of retry) {
@@ -113,18 +134,43 @@ export async function runLesson(game: Game, words: Word[], title: string): Promi
   if (aborted) return finish(null);
   // 3) result
   ov.bar.style.width = '100%';
-  const mon = 10 + correct * 2;
+  const ratio = asked ? correct / asked : 0;
+  const stars = ratio >= 1 ? 3 : ratio >= 0.7 ? 2 : 1;
+  const mon = 10 + correct * 2 + (stars - 1) * 10 + (stars === 3 && fast >= asked / 2 ? 15 : 0);
   game.addMon(mon);
   game.save.stats.lessons++;
+  game.save.flags.stars3 = (game.save.flags.stars3 ?? 0) + (stars === 3 ? 1 : 0);
   ov.box.innerHTML = '';
-  ov.box.appendChild(h(`<div class="paper result-card" style="border-radius:18px">
-    <div class="big">芽</div>
+  const card = h(`<div class="paper result-card" style="border-radius:18px">
+    <div class="lstars">${[0, 1, 2].map((i) => `<span class="st" data-i="${i}">★</span>`).join('')}</div>
+    ${stars === 3 ? '<div class="perfect">完璧！ PERFEITO!</div>' : ''}
     <h2 style="margin:6px 0 0;font-family:var(--latin);color:#6b4a1c">Lição completa!</h2>
-    <div class="stats"><div class="stat"><b>${words.length}</b><span>palavras novas</span></div><div class="stat"><b>${correct}/${asked}</b><span>acertos</span></div><div class="stat"><b>+${mon}</b><span>文 mon</span></div></div>
+    <div class="lscore">0</div>
+    <div class="stats"><div class="stat"><b>${words.length}</b><span>palavras novas</span></div><div class="stat"><b>${correct}/${asked}</b><span>acertos</span></div><div class="stat"><b>x${bestCombo}</b><span>maior combo</span></div><div class="stat"><b>+${mon}</b><span>文 mon</span></div></div>
     <div class="words">${words.map((w) => `<span>${esc(w.w)}</span>`).join('')}</div>
     <p style="color:#6a5a42;font-size:14px;margin-top:14px">🌱 Agora elas são <b>brotos</b>. Revise daqui a alguns minutos (as sombras do Silêncio vão aparecer!) para virarem <b>folhas</b> na Grande Árvore.</p>
-  </div>`));
+  </div>`);
+  ov.box.appendChild(card);
   sfx.victory();
+  // stars pop in one by one, then the score counts up
+  void (async () => {
+    for (let i = 0; i < 3; i++) {
+      await sleep(380);
+      const st = card.querySelector(`.st[data-i="${i}"]`) as HTMLElement;
+      if (i < stars) {
+        st.classList.add('on');
+        sfx.coin();
+      } else st.classList.add('off');
+    }
+    const el = card.querySelector('.lscore') as HTMLElement;
+    const t0 = performance.now();
+    const step = () => {
+      const k = Math.min(1, (performance.now() - t0) / 900);
+      el.textContent = Math.round(score * (1 - Math.pow(1 - k, 3))).toLocaleString('pt-BR') + ' pts';
+      if (k < 1) requestAnimationFrame(step);
+    };
+    step();
+  })();
   await waitNext(ov.foot, 'Continuar', game);
   return finish({ words, correct, total: asked });
 
