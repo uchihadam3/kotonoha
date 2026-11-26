@@ -70,6 +70,20 @@ pode **responder falando** pelo microfone.
   diário com a palavra do dia, dojô de digitação, fliperama do ouvido, balcão de sushi (pedidos com
   números e contadores) e descanso nas termas (ouvir e repetir frases).
 
+## Mais que estudar: o jogo
+
+- **Pescaria 釣り** com o Vovô Umi e o Capitão Tetsu: cada peixe é uma palavra. Iscas falsas, peixes raros, a
+  carpa dourada que só aparece à noite, a lula gigante do porto e até uma bota velha. Complete o **図鑑**.
+- **31 baús do tesouro 宝箱** escondidos pela ilha, trancados com uma palavra que você monta com peças de kana.
+  Dentro: 文 e roupas.
+- **Loja de roupas** da Sra. Kimura: a vendedora diz o preço só em japonês, e você precisa entender para pagar.
+  Yukata, quimono, armadura de samurai, ninja, idol, orelhas de gato… e um **guarda-roupa** no menu.
+- **Pedidos お願い**: moradores com **！** pedem em japonês que você encontre algo pela ilha.
+- **Missões do dia 今日のミッション**: três desafios novos por dia e o bônus 皆勤賞.
+- **Batalhas** com golpe crítico 会心, combo e o ataque especial **言霊斬り** a cada 5 acertos seguidos.
+- **Lições pontuadas** com combo, bônus de rapidez e até 3 estrelas (完璧!).
+- **Pulo duplo** com cambalhota para explorar telhados e morros.
+
 ## O mundo
 
 Onze lugares, abertos pela quantidade de palavras aprendidas (uma névoa cinza bloqueia os caminhos até lá):

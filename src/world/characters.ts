@@ -293,8 +293,23 @@ export class Character {
   wave() {
     this.waveT = 0;
   }
-  jump() {
-    if (this.jumpT < 0) this.jumpT = 0;
+  private jumpBase = 0;
+  private double = false;
+  /** jump; pressing again in the air does a higher double jump with a somersault */
+  jump(): 'jump' | 'double' | null {
+    if (this.jumpT < 0) {
+      this.jumpT = 0;
+      this.jumpBase = 0;
+      this.double = false;
+      return 'jump';
+    }
+    if (!this.double && this.jumpT > 0.1) {
+      this.double = true;
+      this.jumpBase = this.airY;
+      this.jumpT = 0;
+      return 'double';
+    }
+    return null;
   }
   emote(e: Expr, secs = 1.6) {
     this.setExpr(e);
@@ -339,14 +354,18 @@ export class Character {
     // jump
     if (this.jumpT >= 0) {
       this.jumpT += dt;
-      const T = 0.62;
+      const T = this.double ? 0.78 : 0.62;
       const k = this.jumpT / T;
-      this.airY = Math.max(0, Math.sin(Math.min(1, k) * Math.PI)) * 0.9;
+      const kk = Math.min(1, k);
+      this.airY = Math.max(0, this.jumpBase * (1 - kk) + Math.sin(kk * Math.PI) * (this.double ? 1.35 : 0.9));
+      if (this.double) this.body.rotation.x = -kk * Math.PI * 2;
       this.legL.rotation.x = -0.6 * Math.sin(Math.min(1, k) * Math.PI);
       this.legR.rotation.x = 0.3 * Math.sin(Math.min(1, k) * Math.PI);
       if (k >= 1) {
         this.jumpT = -1;
         this.airY = 0;
+        if (this.double) this.body.rotation.x = 0;
+        this.double = false;
       }
     }
     this.shadowBlob.position.y = 0.03 - this.airY;

@@ -98,8 +98,10 @@ export class Player {
     this.char.speed = speed;
     this.char.run = damp(this.char.run, run ? 1 : 0, 6, dt);
     if (!this.frozen && inp.take('jump')) {
-      if (!this.char.jumping) sfx.jump();
-      this.char.jump();
+      const j = this.char.jump();
+      if (j) sfx.jump();
+      // double jump: a burst of fox-fire under the feet
+      if (j === 'double') this.world.bursts.spark(this.pos.clone().setY(this.pos.y + this.char.airY + 0.3), '#ffb070', 18, 2.5);
     }
     // footsteps
     if (speed > 0.8 && !this.char.jumping) {
