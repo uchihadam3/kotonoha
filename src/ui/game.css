@@ -354,3 +354,9 @@ body.talking .hud .quest { display: none; }
 @media (max-aspect-ratio: 9/10) {
   .hud .quest { top: calc(112px + var(--safe-t)); bottom: auto; left: calc(10px + env(safe-area-inset-left, 0px)); right: auto; max-width: min(62vw, 250px); font-size: 11.5px; padding: 7px 10px; opacity: .92; }
 }
+
+/* the interaction prompt stays between the touch buttons; long names are cut with … */
+.touch .hud .prompt { max-width: calc(100vw - 220px); white-space: nowrap; overflow: hidden; font-size: 14px; }
+.touch .hud .prompt > :last-child { overflow: hidden; text-overflow: ellipsis; min-width: 0; }
+/* panels that show the player (shop, wardrobe) hide the objective card */
+body.dressing .hud .quest { display: none; }

@@ -33,6 +33,8 @@ import { MapUI } from '../ui/mapui';
 import { Story } from './story';
 import { Minigames } from './minigames';
 import { Convos } from './convo';
+import { Requests } from './requests';
+import { openShop, equipped } from './shop';
 import type { Spot } from '../world/regionkit';
 import { STAGE_INFO } from '../lang/srs';
 import { Builder } from '../world/kit';
@@ -54,12 +56,15 @@ export function lookFromSave(s: SaveData): Look3D {
     skin: SKINS[L.skin % SKINS.length],
     hair: HAIRS[L.hair % HAIRS.length],
     hairStyle: styles[L.hairStyle % styles.length],
-    outfit: 'traveler',
     top: OUTFIT_COLORS[L.outfit % OUTFIT_COLORS.length],
     bottom: '#3a3a48',
     accent: ['#c8442f', '#e9c46a', '#5fd3a2', '#7cb6ff', '#f6b8cf', '#b48cff', '#ff9a4f', '#ffffff'][L.outfit % 8],
     eyes: EYES[L.eyes % EYES.length],
     lashes: L.hairStyle === 1 || L.hairStyle === 2 || L.hairStyle === 5,
+    ...(() => {
+      const e = equipped(s);
+      return { outfit: e.outfit as Look3D['outfit'], hat: e.hat as Look3D['hat'], glasses: e.glasses };
+    })(),
   };
 }
 
@@ -76,6 +81,7 @@ export class Game {
   book!: Book;
   map!: MapUI;
   story!: Story;
+  requests!: Requests;
   games!: Minigames;
   convos!: Convos;
   npcs: NpcActor[] = [];
@@ -144,6 +150,7 @@ export class Game {
     this.story = new Story(this);
     this.games = new Minigames(this);
     this.convos = new Convos(this);
+    this.requests = new Requests(this);
     this.applyPrefs();
     if (this.app.input.touch) document.body.classList.add('touch');
     // stick visuals for touch
@@ -657,6 +664,37 @@ export class Game {
     this.rig.override = { pos: pick, look, k: 4 };
   }
 
+  /** a front view of the player from a spot with nothing in the way; the player turns to face it */
+  portraitShot(dist = 3.3, height = 1.35) {
+    const p = this.player.pos;
+    const occluders = this.world.scene.children.filter((o) => o.name.startsWith('region-'));
+    const ray = new THREE.Raycaster();
+    const look = p.clone().setY(p.y + 0.95);
+    const clear = (pos: THREE.Vector3) => {
+      const v = pos.clone().sub(look);
+      const len = v.length();
+      ray.set(look, v.normalize());
+      ray.far = len + 0.6;
+      if (ray.intersectObjects(occluders, true).length) return false;
+      ray.set(pos, v.clone().negate());
+      ray.far = len - 0.3;
+      return ray.intersectObjects(occluders, true).length === 0;
+    };
+    let pick: THREE.Vector3 | null = null;
+    for (const a of [0, 1, -1, 2, -2, 3]) {
+      const yaw = this.player.yaw + (a * Math.PI) / 3;
+      const pos = p.clone().add(new THREE.Vector3(Math.sin(yaw) * dist, 0, Math.cos(yaw) * dist));
+      pos.y = Math.max(heightAt(pos.x, pos.z) + 0.6, p.y + height);
+      if (clear(pos)) {
+        pick = pos;
+        break;
+      }
+    }
+    pick ??= p.clone().setY(p.y + 4).add(new THREE.Vector3(Math.sin(this.player.yaw) * 1.5, 0, Math.cos(this.player.yaw) * 1.5));
+    this.player.face(pick.x, pick.z);
+    this.rig.override = { pos: pick, look, k: 5 };
+  }
+
   async talkTo(n: NpcActor) {
     if (this.dialog.open) return;
     this.pause(true);
@@ -684,6 +722,8 @@ export class Game {
   private async npcMenu(n: NpcActor, base: Partial<Line>) {
     for (;;) {
       const opts: { label: string; sub?: string; icon?: string; act: () => Promise<boolean | void> }[] = [];
+      opts.push(...this.requests.options(n, base));
+      if (n.def.shop) opts.push({ label: 'Loja: roupas, chapéus e óculos', sub: 'Compre em japonês: entenda o preço que a vendedora diz', icon: ICON.coin, act: async () => { this.dialog.close(); await openShop(this, n); this.framePair(this.player.pos, n.pos); return true; } });
       for (const t of n.def.themes ?? []) {
         const next = this.learner.newWords(t, 8);
         const pr = this.learner.themeProgress(t);
@@ -759,6 +799,7 @@ export class Game {
     });
     el.remove();
     this.pause(false);
+    this.requests.onExamine(s);
     this.persist();
   }
 
@@ -923,6 +964,10 @@ export class Game {
         close();
         this.openMap();
       }, '', ICON.map),
+      s.btn('Guarda-roupa', () => {
+        close();
+        void openShop(this, null);
+      }, '', ICON.sparkle),
       s.btn('Opções', () => s.options({ ...this.app.settings }, (st) => {
         this.app.applySettings(st);
         this.applyPrefs();

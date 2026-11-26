@@ -35,6 +35,8 @@ export interface NpcSpawn {
   game?: string;
   /** conversation situation ids */
   convos?: string[];
+  /** sells things (opens the shop) */
+  shop?: 'roupas';
   /** region id (filled by the builder) */
   region?: string;
 }

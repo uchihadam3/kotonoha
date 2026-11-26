@@ -2,6 +2,7 @@
  * Run with: npm test */
 import { toRomaji, romajiToKana, nameToKatakana, normalizeKana, toKatakana } from '../src/lang/kana';
 import { conjugate } from '../src/lang/conjugate';
+import { numberKana, numberKanji, priceDistractors } from '../src/lang/numbers';
 import { newItem, answer, LEARNED_STAGE, INTERVALS, packItem, unpackItem } from '../src/lang/srs';
 import { newSave, validate } from '../src/core/save';
 import { REGIONS, THEME_NAMES, LEVEL_UNLOCK } from '../src/data/regions';
@@ -72,6 +73,20 @@ eq('いい neg', form('いい', 'いい', 'adj-ix', 'neg'), 'よくない');
 eq('高い past', form('高い', 'たかい', 'adj-i', 'past'), '高かった');
 eq('静か polite', form('静か', 'しずか', 'adj-na', 'desu'), '静かです');
 eq('いらっしゃる masu', form('いらっしゃる', 'いらっしゃる', 'v5aru', 'masu'), 'いらっしゃいます');
+
+// ── numbers (prices in the shop)
+eq('120', numberKana(120), 'ひゃくにじゅう');
+eq('300', numberKana(300), 'さんびゃく');
+eq('600', numberKana(600), 'ろっぴゃく');
+eq('850', numberKana(850), 'はっぴゃくごじゅう');
+eq('1500', numberKana(1500), 'せんごひゃく');
+eq('2500', numberKana(2500), 'にせんごひゃく');
+eq('3000', numberKana(3000), 'さんぜん');
+eq('8000', numberKana(8000), 'はっせん');
+eq('12000', numberKana(12000), 'いちまんにせん');
+eq('kanji 350', numberKanji(350), '三百五十');
+eq('kanji 1500', numberKanji(1500), '千五百');
+ok('distractors differ and are positive', priceDistractors(350).every((x) => x > 0 && x !== 350) && priceDistractors(350).length === 3);
 
 // ── spaced repetition
 {

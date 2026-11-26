@@ -243,6 +243,12 @@ export function buildComercio(c: RegionCtx) {
     look: { skin: '#e9b996', hair: '#e8c070', hairStyle: 'long', outfit: 'gyaru', top: '#f49ac0', bottom: '#2a2a36', accent: '#ffd36b', eyes: '#5a3a2a', lashes: true },
   });
   c.npc({
+    id: 'kimura', name: 'Sra. Kimura', jp: 'きむらさん', title: 'dona da loja de roupas', x: cx + 12.5, z: cz + 8.2, ry: Math.PI, role: 'teacher', shop: 'roupas',
+    themes: ['roupas', 'cores'], registers: ['keigo', 'polido'], voice: { pitch: 1.15, rate: 0.95 },
+    greet: ['いらっしゃいませ！ 新しい 服は いかがですか？', 'Bem-vinda(o)! Que tal uma roupa nova?'],
+    look: { skin: '#f6d2b8', hair: '#4a3226', hairStyle: 'bun', outfit: 'apron', top: '#3a6ea8', bottom: '#2a2a36', accent: '#e9c46a', eyes: '#3a2a22', glasses: true },
+  });
+  c.npc({
     id: 'itamae', name: 'Mestre Sushi Jirō', jp: 'じろうさん', title: 'sushiman', x: cx - 2, z: cz + 4.8, ry: Math.PI, convos: ['restaurante'], role: 'game', game: 'shop',
     themes: ['comida', 'numeros'], registers: ['keigo', 'casual'], voice: { pitch: 0.8, rate: 0.95 },
     greet: ['へい、らっしゃい！ 何に しましょう？', 'Opa, entra! O que vai ser?'],
