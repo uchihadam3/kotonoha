@@ -82,6 +82,8 @@ pode **responder falando** pelo microfone.
 - **Missões do dia 今日のミッション**: três desafios novos por dia e o bônus 皆勤賞.
 - **Batalhas** com golpe crítico 会心, combo e o ataque especial **言霊斬り** a cada 5 acertos seguidos.
 - **Lições pontuadas** com combo, bônus de rapidez e até 3 estrelas (完璧!).
+- **Tiro ao alvo do festival 射的** com o Tio Gen na Rua do Comércio: acerte o alvo com a palavra certa (pontos em dobro à noite).
+- **Conquistas 実績**: 32 medalhas com fanfarra, prêmio em 文 e mural no Livro.
 - **Pulo duplo** com cambalhota para explorar telhados e morros.
 
 ## O mundo

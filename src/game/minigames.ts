@@ -15,6 +15,7 @@ import { kanjiQuestion, wordQuestion } from '../lang/challenge';
 import { romajiToKana, normalizeKana, toRomaji } from '../lang/kana';
 import { isDue } from '../lang/srs';
 import { fishing } from './fishing';
+import { shateki } from './shateki';
 
 const CSS = `
 .mg { position: absolute; inset: 0; z-index: 36; background: radial-gradient(ellipse at 50% 30%, #0f1a2a, #03050a 75%); display: flex; flex-direction: column; animation: fadein .3s; }
@@ -80,6 +81,7 @@ export class Minigames {
     if (id === 'shop') return this.sushi();
     if (id === 'kanji') return this.kanjiDojo();
     if (id === 'fishing') return fishing(this.g, (t, jp, song) => this.shell(t, jp, song));
+    if (id === 'shateki') return shateki(this.g, (t, jp, song) => this.shell(t, jp, song));
   }
 
   private shell(title: string, jp: string, song = 'minigame') {

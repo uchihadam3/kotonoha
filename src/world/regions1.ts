@@ -211,6 +211,12 @@ export function buildComercio(c: RegionCtx) {
   }
   // stalls, vending machines, benches
   yatai(ctx, cx + 4, cz - 1.5, Math.PI / 2, '#c8442f');
+  c.npc({
+    id: 'gen', name: 'Tio Gen', jp: 'げんさん', title: 'dono da barraca de tiro ao alvo', x: cx + 4.2, z: cz - 4.4, ry: 0, role: 'game', game: 'shateki',
+    themes: ['lazer'], registers: ['casual', 'kansai'], voice: { pitch: 0.85, rate: 1.05 },
+    greet: ['いらっしゃい！ 射的、やってくか？ 当たったら 景品だよ！', 'Chega mais! Vai um tiro ao alvo? Acertou, ganhou prêmio!'],
+    look: { skin: '#e9b996', hair: '#2a2126', hairStyle: 'short', outfit: 'yukata', top: '#2c4a7c', bottom: '#2a2a36', accent: '#e9c46a', eyes: '#3a2a22', hat: 'headband' },
+  });
   yatai(ctx, cx - 18, cz + 1.5, -Math.PI / 2, '#2c4a7c');
   vendingMachine(ctx, cx + 33, cz - 5.5, 0, '#e8eef4');
   vendingMachine(ctx, cx + 34.2, cz - 5.5, 0, '#c8442f');

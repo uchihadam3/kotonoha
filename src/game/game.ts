@@ -776,7 +776,7 @@ export class Game {
       }
       if (n.def.registers?.length) opts.push({ label: 'Como você fala? (registros)', sub: 'Exercício: o jeito certo de falar com cada pessoa', icon: ICON.people, act: async () => { await this.convos.registerDrill(n, base); return true; } });
       if (n.def.game) {
-        const gname: Record<string, string> = { fireflies: 'Vaga-lumes de kana', karuta: 'Karuta (cartas)', shop: 'Balcão de sushi (pedidos)', kanji: 'Dojô de kanji', fishing: 'Pescaria 釣り (peixes = palavras)' };
+        const gname: Record<string, string> = { fireflies: 'Vaga-lumes de kana', karuta: 'Karuta (cartas)', shop: 'Balcão de sushi (pedidos)', kanji: 'Dojô de kanji', fishing: 'Pescaria 釣り (peixes = palavras)', shateki: 'Tiro ao alvo 射的 (festival)' };
         opts.push({ label: `Jogar: ${gname[n.def.game] ?? n.def.game}`, icon: ICON.sparkle, act: async () => { this.dialog.close(); await this.games.play(n.def.game!); return true; } });
       }
       opts.push({ label: 'Tchau! またね', icon: ICON.back, act: async () => false });
